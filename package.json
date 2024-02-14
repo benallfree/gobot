@@ -1,0 +1,30 @@
+{
+  "name": "pbgo",
+  "version": "0.21.3-alpha.4",
+  "description": "PocketBase binary installer",
+  "repository": "github:pockethost/pbgo",
+  "main": "index.js",
+  "bin": {
+    "pbgo": "./pocketbase"
+  },
+  "scripts": {
+    "prepack": "rimraf pocketbase pbgo-* pb_data",
+    "preinstall": "node install.cjs"
+  },
+  "keywords": [
+    "pocketbase",
+    "pockethost"
+  ],
+  "author": {
+    "name": "Ben Allfree",
+    "url": "https://github.com/benallfree"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  }
+}
