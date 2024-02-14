@@ -5,10 +5,10 @@
   "repository": "github:pockethost/pbgo",
   "main": "index.js",
   "bin": {
-    "pbgo": "./pocketbase"
+    "pbgo": "./pocketbase.exe"
   },
   "scripts": {
-    "prepack": "rimraf pocketbase 'pbgo-*' pb_data",
+    "prepack": "rimraf 'pocketbase.*' 'pbgo-*' pb_data",
     "preinstall": "node install.cjs"
   },
   "keywords": [

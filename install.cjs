@@ -40,9 +40,11 @@ function getOSAndArch() {
   var new_zip = new JSZip()
   const zip = await new_zip.loadAsync(content)
 
-  const pb = await zip.file('pocketbase').async('nodebuffer')
+  const binaryNameIn = os === 'windows' ? `pocketbase.exe` : 'pocketbase'
+  const pb = await zip.file(binaryNameIn).async('nodebuffer')
 
-  const fname = resolve(__dirname, `pocketbase`)
+  const binaryNameOut = `pocketbase.exe` // always name .exe for windows compat
+  const fname = resolve(__dirname, binaryNameOut)
   if (existsSync(fname)) {
     unlinkSync(fname)
   }
