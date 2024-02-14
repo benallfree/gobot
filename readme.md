@@ -11,6 +11,10 @@ or (slower)
 
 `npx pbgo --help`
 
+## OS X Users
+
+If `pbgo` does not run, you need to authorize it first. Go to `Security & Privacy` and scroll down to allow the exception. From then on, all `pbgo` versions should work.
+
 ## Upgrading
 
 While `pbgo --upgrade` might work, it's not recommended. Use `npm i -g pbgo@latest` or `npx pbgo@latest` to flush your local cache and use the latest PocketBase version.
