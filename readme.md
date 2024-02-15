@@ -31,4 +31,15 @@ You may also just prefer `npx pbgo@latest` over downloading+unzipping the latest
 
 ## Contributing
 
-We could use help testing and making sure this works across lots of platforms. I also need help publishing earlier versions of the package matching PocketBase versions.
+We could use help testing and making sure this works across lots of platforms.
+
+I also need help publishing earlier versions of the package matching PocketBase versions.
+
+To test a build locally:
+
+```bash
+npm rm -g pbgo
+npm pack
+npm i -g pbgo-0.21.3-alpha.7.tgz --foreground-scripts
+pbgo --help
+```
