@@ -4,7 +4,7 @@ This package will download the latest binary [PocketBase release](https://github
 
 ```bash
 npm i -g pbgo
-pbgo --help
+pocketbase --help
 ```
 
 or (slower)
@@ -13,15 +13,15 @@ or (slower)
 
 ## OS X Users
 
-If `pbgo` does not run, you need to authorize it first. Go to `Security & Privacy` and scroll down to allow the exception. From then on, all `pbgo` versions should work.
+If `pocketbase` does not run, you need to authorize it first. Go to `Security & Privacy` and scroll down to allow the exception. From then on, all `pbgo` versions should work.
 
 ## Upgrading
 
-While `pbgo --upgrade` might work, it's not recommended. Use `npm i -g pbgo@latest` or `npx pbgo@latest` to flush your local cache and use the latest PocketBase version.
+While `pocketbase --upgrade` might work, it's not recommended. Use `npm i -g pbgo@latest` or `npx pbgo@latest` to flush your local cache and use the latest PocketBase version.
 
 ## Why?
 
-If you are writing a nodejs application that depends upon the PocketBase binary being present, you can add this package as a dependency. Then, `pbgo` will always refer to the corresponding PocketBase binary.
+If you are writing a nodejs application that depends upon the PocketBase binary being present, you can add this package as a dependency. Then, `pocketbase` will always refer to the corresponding PocketBase binary.
 
 You may also just prefer `npx pbgo@latest` over downloading+unzipping the latest PocketBase version and making sure it is in your shell path.
 
@@ -41,5 +41,5 @@ To test a build locally:
 npm rm -g pbgo
 npm pack
 npm i -g pbgo-0.21.3-alpha.7.tgz --foreground-scripts
-pbgo --help
+pocketbase --help
 ```
