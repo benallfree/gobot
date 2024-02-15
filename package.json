@@ -1,11 +1,11 @@
 {
   "name": "pbgo",
-  "version": "0.21.3-alpha.7",
+  "version": "0.21.3-alpha.8",
   "description": "PocketBase binary installer",
   "repository": "github:pockethost/pbgo",
   "main": "index.js",
   "bin": {
-    "pbgo": "./pocketbase.exe"
+    "pbgo": "./pocketbase"
   },
   "scripts": {
     "prepack": "rimraf 'pocketbase.*' 'pbgo-*' pb_data",
