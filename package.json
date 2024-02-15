@@ -1,6 +1,6 @@
 {
   "name": "pbgo",
-  "version": "0.21.3-alpha.9",
+  "version": "0.21.3-alpha.10",
   "description": "PocketBase binary installer",
   "repository": "github:pockethost/pbgo",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "prepack": "rimraf -v --glob \"pbgo-*\" pb_data",
-    "install": "node install.cjs"
+    "preinstall": "node install.cjs"
   },
   "keywords": [
     "pocketbase",
