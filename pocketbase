@@ -1,0 +1,4 @@
+Placeholder because `preinstall` doesn't work correctly. This needs to be here so the symlink is created. If the symlink destination doesn't exist at `install` time, the link will not be created.
+
+https://github.com/npm/cli/issues/2660#issuecomment-905589680
+https://github.com/pnpm/pnpm/issues/3836

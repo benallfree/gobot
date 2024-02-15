@@ -9,8 +9,8 @@
     "pocketbase": "./pocketbase"
   },
   "scripts": {
-    "prepack": "rimraf 'pocketbase.*' 'pbgo-*' pb_data",
-    "preinstall": "node install.cjs"
+    "prepack": "rimraf -v --glob \"pbgo-*\" pb_data",
+    "install": "node install.cjs"
   },
   "keywords": [
     "pocketbase",
