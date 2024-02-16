@@ -15,16 +15,16 @@ or (slower)
 
 `pocketbase` places `pb_data` where the executable resides. However, this is [inconsistent across platforms](https://github.com/pocketbase/pocketbase/issues/4361). bash/zsh will alias `pocketbase` so it appears that the executable launched from the current directory. Windows shell uses the physical path to the executable.
 
-When in doubt, simply specify `--dir .` to ensure `pb_data` is created in your current working directory.
+When in doubt, simply specify `--dir=pb_data` to ensure `pb_data` is created in your current working directory.
 
 ```bash
 npm i -g pbgo
-pocketbase --dir .
+pocketbase --dir=pb_data serve
 ```
 
 or
 
-`npx pbgo --dir .`
+`npx pbgo --dir=pb_data`
 
 ## OS X Users
 
