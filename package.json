@@ -5,8 +5,8 @@
   "repository": "github:pockethost/pbgo",
   "main": "index.js",
   "bin": {
-    "pbgo": "./pocketbase",
-    "pocketbase": "./pocketbase"
+    "pbgo": "./pocketbase.exe",
+    "pocketbase": "./pocketbase.exe"
   },
   "scripts": {
     "prepack": "rimraf -v --glob \"pbgo-*\" pb_data",

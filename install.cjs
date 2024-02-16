@@ -1,6 +1,6 @@
 const JSZip = require('jszip')
 const { writeFileSync, existsSync, unlinkSync, chmodSync } = require('fs')
-const { resolve } = require('path')
+const { resolve, join } = require('path')
 
 function getOSAndArch() {
   const os = require('os')
@@ -44,17 +44,7 @@ function getOSAndArch() {
   const binaryNameIn = isWindows ? `pocketbase.exe` : 'pocketbase'
   const pb = await zip.file(binaryNameIn).async('nodebuffer')
 
-  const binaryNameOut = isWindows ? `pocketbase.exe` : 'pocketbase'
-  const fname = resolve(__dirname, binaryNameOut)
-  if (existsSync(fname)) {
-    unlinkSync(fname)
-  }
+  const fname = resolve(__dirname, `pocketbase.exe`)
 
   writeFileSync(fname, pb, { mode: 0o755 })
-
-  if (isWindows) {
-    chmodSync(`pbgo.bat`, 0o755)
-    pkg.bin.pbgo = './pbgo.bat'
-    writeFileSync(`package.json`, JSON.stringify(pkg, null, 2))
-  }
 })()

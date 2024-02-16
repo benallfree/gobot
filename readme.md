@@ -11,6 +11,21 @@ or (slower)
 
 `npx pbgo --help`
 
+## Where is `pb_data`?
+
+`pocketbase` places `pb_data` where the executable resides. However, this is [inconsistent across platforms](https://github.com/pocketbase/pocketbase/issues/4361). bash/zsh will alias `pocketbase` so it appears that the executable launched from the current directory. Windows shell uses the physical path to the executable.
+
+When in doubt, simply specify `--dir .` to ensure `pb_data` is created in your current working directory.
+
+```bash
+npm i -g pbgo
+pocketbase --dir .
+```
+
+or
+
+`npx pbgo --dir .`
+
 ## OS X Users
 
 If `pocketbase` does not run, you need to authorize it first. Go to `Security & Privacy` and scroll down to allow the exception. From then on, all `pbgo` versions should work.
