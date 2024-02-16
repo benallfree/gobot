@@ -1,6 +1,6 @@
 {
   "name": "pbgo",
-  "version": "0.21.3-alpha.11",
+  "version": "0.21.3-alpha.12",
   "description": "PocketBase binary installer",
   "repository": "github:pockethost/pbgo",
   "main": "index.js",
