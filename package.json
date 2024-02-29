@@ -1,6 +1,6 @@
 {
   "name": "pbgo",
-  "version": "0.21.3-alpha.12",
+  "version": "1.0.0-alpha.0",
   "description": "PocketBase binary installer",
   "repository": "github:pockethost/pbgo",
   "type": "module",
@@ -10,7 +10,8 @@
     "pocketbase": "./src/cli.mjs"
   },
   "scripts": {
-    "prepack": "rimraf -v --glob \"pbgo-*\" pb_data"
+    "prepack": "rimraf -v --glob \"pbgo-*\" pb_data",
+    "bump": "npm version prerelease --preid alpha --no-git-tag-version"
   },
   "keywords": [
     "pocketbase",
@@ -22,6 +23,7 @@
   },
   "license": "ISC",
   "dependencies": {
+    "env-paths": "^3.0.0",
     "jszip": "^3.10.1",
     "node-fetch": "^3.3.2"
   },

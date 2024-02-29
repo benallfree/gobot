@@ -11,27 +11,67 @@ or (slower)
 
 `npx pbgo --help`
 
+## Using a specific version of PocketBase
+
+You can force `pbgo` to fetch a specific version by using `--version=x.y.z`.
+
+`npx pbgo --version=0.21.0`
+
+## Refreshing the version cache
+
+By default, `pbgo` will perform a live check once every 24h for a new version of PocketBase. If you want to do it sooner, use:
+
+`npx pbgo --refresh`
+
 ## Programmatic API
 
-Sometimes, you may wish to launch and reference the PocketBase binary in your own programs. No problem.
+### `getPath()`
+
+Returns a Promise that will automatically download the appropriate binary for your platform if it has not been downloaded yet.
 
 ```js
 import { getPath } from 'pbgo'
 
-getPath.then((binPath) => {
+// Run the latest version of PocketBase
+getPath().then((binPath) => {
+  console.log(`pocketbase binary is located in ${binPath}`)
+})
+
+// Run a specific version of PocketBase
+getPath({ version: `0.22.3` }).then((binPath) => {
+  console.log(`pocketbase binary is located in ${binPath}`)
+})
+
+// Purge the cache. Check for latest version and download binary
+getPath({ refresh: true }).then((binPath) => {
+  console.log(`pocketbase binary is located in ${binPath}`)
+})
+
+// Enable debugging output
+getPath({ debug: true }).then((binPath) => {
   console.log(`pocketbase binary is located in ${binPath}`)
 })
 ```
 
-`getPath` returns a Promise that will automatically download the appropriate binary for your platform if it has not been downloaded yet.
+## Debugging
 
-## Where is `pb_data`?
+```bash
+npx pbgo --debug
+```
 
-By default, `pocketbase` places `pb_data` where the executable resides. However, this is [inconsistent across platforms](https://github.com/pocketbase/pocketbase/issues/4361). bash/zsh will alias `pocketbase` so it appears that the executable launched from the current directory. Windows shell uses the physical path to the executable.
+or
 
-To create consistency, `pbgo` will default to creating `pb_data` in the current directory instead.
+```js
+getPath({ debug: true })
+```
 
-If you want to specify your own `pb_data` location, simply specify `--dir=path/to/pb_data` to ensure `pb_data` is created where you desire.
+## Where is `data.db`?
+
+By default, `pocketbase` places `data.db` where the executable resides. However, this is [inconsistent across platforms](https://github.com/pocketbase/pocketbase/issues/4361). `bash`/`zsh` will alias `pocketbase` so it appears that the executable launched from the current directory. Windows shell uses the physical path to the executable.
+
+To create consistency, `pbgo` will default to creating `pb_data/data.db` in the current directory instead.
+
+If you want to specify your own `data.db` location, use `--dir=path/to/pb_data` to ensure `data.db` is created where you desire.
 
 ```bash
 npm i -g pbgo
@@ -48,17 +88,13 @@ If `pocketbase` does not run, you need to authorize it first. Go to `Security & 
 
 ## Upgrading
 
-While `pocketbase --upgrade` might work, it's not recommended. Use `npm i -g pbgo@latest` or `npx pbgo@latest` to flush your local cache and use the latest PocketBase version.
+While `pocketbase --upgrade` might work, do not use it. `pbgo` will grab the latest version by default. Use `--version=x.y.z` from the CLI or `getPath(version)`) npm i -g pbgo@latest`or`npx pbgo@latest` to refresh your local cache and use the latest PocketBase version.
 
 ## Why?
 
 If you are writing a nodejs application that depends upon the PocketBase binary being present, you can add this package as a dependency. Then, `pocketbase` will always refer to the corresponding PocketBase binary.
 
 You may also just prefer `npx pbgo@latest` over downloading+unzipping the latest PocketBase version and making sure it is in your shell path.
-
-## Using older PocketBase versions
-
-`pbgo@latest` always points to the latest PocketBase version. To use a specific PocketBase version, do `npx pbgo@0.19.0`. If that version is available, it will be installed.
 
 ## Contributing
 
