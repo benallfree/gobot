@@ -1,4 +1,7 @@
 node_modules
 package-lock.json
 pbgo-*
-pb_data
+pb_*
+.vscode
+pocketbase
+pocketbase.exe

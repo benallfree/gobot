@@ -3,14 +3,14 @@
   "version": "0.21.3-alpha.12",
   "description": "PocketBase binary installer",
   "repository": "github:pockethost/pbgo",
-  "main": "index.js",
+  "type": "module",
+  "main": "./src/index.mjs",
   "bin": {
-    "pbgo": "./pocketbase.exe",
-    "pocketbase": "./pocketbase.exe"
+    "pbgo": "./src/cli.mjs",
+    "pocketbase": "./src/cli.mjs"
   },
   "scripts": {
-    "prepack": "rimraf -v --glob \"pbgo-*\" pb_data",
-    "preinstall": "node install.cjs"
+    "prepack": "rimraf -v --glob \"pbgo-*\" pb_data"
   },
   "keywords": [
     "pocketbase",
@@ -26,6 +26,10 @@
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "rimraf": "^5.0.5"
+    "@types/node": "^20.11.24",
+    "prettier": "^3.2.5",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
   }
 }

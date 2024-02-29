@@ -1,0 +1,6 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "plugins": ["./node_modules/prettier-plugin-organize-imports/index.js"]
+}

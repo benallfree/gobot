@@ -11,20 +11,36 @@ or (slower)
 
 `npx pbgo --help`
 
+## Programmatic API
+
+Sometimes, you may wish to launch and reference the PocketBase binary in your own programs. No problem.
+
+```js
+import { getPath } from 'pbgo'
+
+getPath.then((binPath) => {
+  console.log(`pocketbase binary is located in ${binPath}`)
+})
+```
+
+`getPath` returns a Promise that will automatically download the appropriate binary for your platform if it has not been downloaded yet.
+
 ## Where is `pb_data`?
 
-`pocketbase` places `pb_data` where the executable resides. However, this is [inconsistent across platforms](https://github.com/pocketbase/pocketbase/issues/4361). bash/zsh will alias `pocketbase` so it appears that the executable launched from the current directory. Windows shell uses the physical path to the executable.
+By default, `pocketbase` places `pb_data` where the executable resides. However, this is [inconsistent across platforms](https://github.com/pocketbase/pocketbase/issues/4361). bash/zsh will alias `pocketbase` so it appears that the executable launched from the current directory. Windows shell uses the physical path to the executable.
 
-When in doubt, simply specify `--dir=pb_data` to ensure `pb_data` is created in your current working directory.
+To create consistency, `pbgo` will default to creating `pb_data` in the current directory instead.
+
+If you want to specify your own `pb_data` location, simply specify `--dir=path/to/pb_data` to ensure `pb_data` is created where you desire.
 
 ```bash
 npm i -g pbgo
-pocketbase --dir=pb_data serve
+pocketbase --dir=/path/to/pb_data serve
 ```
 
 or
 
-`npx pbgo --dir=pb_data`
+`npx pbgo --dir=/path/to/pb_data`
 
 ## OS X Users
 
