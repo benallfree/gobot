@@ -76,7 +76,7 @@ export const config = (() => {
     debug: false,
     version: '',
     refresh: false,
-    cachePath: '',
+    cachePath: paths.cache,
     env: {},
   }
 
