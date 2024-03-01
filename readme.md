@@ -25,7 +25,7 @@ By default, `pbgo` will perform a live check once every 24h for a new version of
 
 ## Programmatic API
 
-### `run()`
+### `run(args, options)`
 
 ```js
 import { run } from 'pbgo'
@@ -48,10 +48,10 @@ if (process.env.NODE_ENV === 'development') {
   args.push(`--dev`)
 }
 console.log(args)
-const process = run(args)
+const process = run(args, { debug: true, env: { FOO: 'bar' } })
 ```
 
-### `getPath()`
+### `getPath(options)`
 
 Returns a Promise that will automatically download the appropriate binary for your platform if it has not been downloaded yet.
 

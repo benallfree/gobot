@@ -18,7 +18,7 @@ export const run = async (args: string[], options?: Partial<Config>) => {
     args.push(`--dir=${join(cwd(), `pb_data`)}`)
   }
 
-  const proc = spawn(fname, args, { stdio: 'inherit' })
+  const proc = spawn(fname, args, { env: config().env, stdio: 'inherit' })
 
   proc.on('error', (err) => {
     console.error(`Failed to start pocketbase: ${err.message}`)
