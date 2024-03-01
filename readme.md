@@ -11,21 +11,60 @@ or (slower)
 
 `npx pbgo --help`
 
-## Using a specific version of PocketBase
+## CLI Usage
 
-You can force `pbgo` to fetch a specific version by using `--version=x.y.z`.
+**Switches**
 
-`npx pbgo --version=0.21.0`
+| Option    | Default   | Discussion                         |
+| --------- | --------- | ---------------------------------- |
+| --os      | host OS   | `windows, linux, darwin`           |
+| --arch    | host arch | `amd64, arm64, arm7`               |
+| --debug   | `false`   | Enable debugging output            |
+| --refresh | `false`   | Refresh PocketBase tags and binary |
+| --version | latest    | Run a specific PocketBase version  |
 
-## Refreshing the version cache
+All other switches and arguments are forwarded directly to the `pocketbase` binary.
 
-By default, `pbgo` will perform a live check once every 24h for a new version of PocketBase. If you want to do it sooner, use:
+**Examples**
 
-`npx pbgo --refresh`
+```bash
+# Run `pocketbase serve`
+npx pbgo serve
+
+# Run in pbGo debugging mode`
+npx pbgo --debug
+
+# Run `pocketbase --help`
+npx pbgo --help
+
+# Run a specific PocketBase version
+npx pbgo --version=0.21.0
+
+# Force pbGo to dump cache and refresh PocketBase tags and binaries
+npx pbgo --refresh
+
+# List available PocketBase versions
+npx pbgo versions
+npx pbgo versions --json # Output in JSON format
+```
 
 ## Programmatic API
 
-### `run(args, options)`
+**Config**
+
+| Option    | Default       | Discussion                                |
+| --------- | ------------- | ----------------------------------------- |
+| os        | host OS       | `windows, linux, darwin`                  |
+| arch      | host arch     | `amd64, arm64, arm7`                      |
+| debug     | `false`       | Enable debugging output                   |
+| refresh   | `false`       | Refresh PocketBase tags and binary        |
+| version   | latest        | Run a specific PocketBase version         |
+| cachePath | host-specific | Set the cache path used by pbGo           |
+| env       | `{}`          | Hash of env vars to forward to PocketBase |
+
+### `run(args:string[], options?: Partial<Config>)`
+
+Run PocketBase, passing `args` to the PocketBase process.
 
 ```js
 import { run } from 'pbgo'
@@ -51,9 +90,9 @@ console.log(args)
 const process = run(args, { debug: true, env: { FOO: 'bar' } })
 ```
 
-### `getPath(options)`
+### `getPocketBasePath(options?: Partial<Config>): Promise<string>`
 
-Returns a Promise that will automatically download the appropriate binary for your platform if it has not been downloaded yet.
+Returns the path to the requested PocketBase binary. It will automatically download the appropriate binary for your platform if it has not been downloaded yet.
 
 ```js
 import { getPath } from 'pbgo'
@@ -79,17 +118,13 @@ getPath({ debug: true }).then((binPath) => {
 })
 ```
 
-## Debugging
+### `getAvailableVersions(options?: Partial<Config>): Promise<string[]>`
 
-```bash
-npx pbgo --debug
-```
+Returns an array of available versions, ordered latest to oldest. Most `Config` values have no effect.
 
-or
+### `getAvailableVersionsPath(options?: Partial<Config>): Promise<string>`
 
-```js
-getPath({ debug: true })
-```
+Returns a path to a JSON file containing all the versions. Most `Config` values have no effect.
 
 ## Where is `data.db`?
 
@@ -112,9 +147,9 @@ or
 
 If `pocketbase` does not run, you need to authorize it first. Go to `Security & Privacy` and scroll down to allow the exception. From then on, all `pbgo` versions should work.
 
-## Upgrading
+## Upgrading PocketBase
 
-While `pocketbase --upgrade` might work, do not use it. `pbgo` will grab the latest version by default. Use `--version=x.y.z` from the CLI or `getPath(version)`) npm i -g pbgo@latest`or`npx pbgo@latest` to refresh your local cache and use the latest PocketBase version.
+While `npx pbgo --upgrade` is intentionally blocked. `pbgo` always grabs the latest version of PocketBase by default. Use `npx pbgo --version=x.y.z` from the CLI or `getPocketBasePath({version: 'x.y.z'})` to use a specific PocketBase version.
 
 ## Why?
 

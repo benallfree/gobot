@@ -15,7 +15,7 @@ export const getPocketBasePath = async (cfg?: Partial<Config>) => {
   return _getPocketBasePath()
 }
 
-export const getVersionsPath = async (cfg?: Partial<Config>) => {
+export const getAvailableVersionsPath = async (cfg?: Partial<Config>) => {
   if (cfg) {
     config({
       ...cfg,

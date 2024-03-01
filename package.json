@@ -14,7 +14,8 @@
     "prepack": "rimraf -v --glob \"pbgo-*\" pb_data",
     "bump": "npm version prerelease --preid alpha --no-git-tag-version",
     "build": "rimraf dist && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm",
-    "dev": "tsx src/cli.ts"
+    "dev": "tsx src/cli.ts",
+    "test": "npm pack && npm rm -g pbgo && npm i -g pbgo-1.0.0-alpha.3.tgz && pbgo --help"
   },
   "keywords": [
     "pocketbase",
