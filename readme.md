@@ -25,6 +25,32 @@ By default, `pbgo` will perform a live check once every 24h for a new version of
 
 ## Programmatic API
 
+### `run()`
+
+```js
+import { run } from 'pbgo'
+
+// Run the latest version of PocketBase
+const args = [
+  `serve`,
+  `--http`,
+  `0.0.0.0:8090`,
+  `--dir`,
+  `/path/to/pb_data`,
+  `--hooksDir`,
+  `/path/to/pb_hooks`,
+  `--migrationsDir`,
+  `/path/to/pb_migrations`,
+  `--publicDir`,
+  `/path/to/pb_public`,
+]
+if (process.env.NODE_ENV === 'development') {
+  args.push(`--dev`)
+}
+console.log(args)
+const process = run(args)
+```
+
 ### `getPath()`
 
 Returns a Promise that will automatically download the appropriate binary for your platform if it has not been downloaded yet.

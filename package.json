@@ -1,17 +1,20 @@
 {
   "name": "pbgo",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.2",
   "description": "PocketBase binary installer",
   "repository": "github:pockethost/pbgo",
   "type": "module",
-  "main": "./src/index.mjs",
+  "main": "./dist/api.js",
   "bin": {
-    "pbgo": "./src/cli.mjs",
-    "pocketbase": "./src/cli.mjs"
+    "pbgo": "./dist/cli.js",
+    "pocketbase": "./src/cli.js"
   },
+  "types": "dist/api.d.ts",
   "scripts": {
     "prepack": "rimraf -v --glob \"pbgo-*\" pb_data",
-    "bump": "npm version prerelease --preid alpha --no-git-tag-version"
+    "bump": "npm version prerelease --preid alpha --no-git-tag-version",
+    "build": "rimraf dist && tsup src/cli.ts src/api.ts --dts src/api.ts --format esm",
+    "dev": "tsx src/cli.ts"
   },
   "keywords": [
     "pocketbase",
@@ -29,9 +32,15 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.24",
+    "commander": "^12.0.0",
+    "esbuild": "^0.20.1",
+    "esbuild-node-externals": "^1.13.0",
+    "ncp": "^2.0.0",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
     "rimraf": "^5.0.5",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
     "typescript": "^5.3.3"
   }
 }

@@ -2,34 +2,24 @@ import { chmodSync, existsSync, writeFileSync } from 'fs'
 import JSZip from 'jszip'
 import fetch from 'node-fetch'
 import { resolve } from 'path'
-import { config } from './config.mjs'
-import { dbg } from './dbg.mjs'
-import { getLatestReleaseVersion } from './getLatestRelease.mjs'
-import { getOSAndArch } from './getOSAndArch.mjs'
+import { config } from './config'
+import { dbg } from './dbg'
+import { getOSAndArch } from './getOSAndArch.js'
 
-export const getPath = async (
-  /** @type{Partial<{version: string, refresh: boolean, debug:boolean}>|undefined}*/ cfg = {},
-) => {
-  if (typeof cfg.debug !== 'undefined') {
-    config.debug = !!cfg.debug
-  }
+export const getPath = async () => {
+  const { version, cachePath, refresh } = config()
 
-  const version = (
-    cfg.version || (await getLatestReleaseVersion(cfg.refresh))
-  ).replace(/^v/, '')
   const { os, arch } = getOSAndArch()
 
-  dbg(`Cache path: ${config.cachePath}`)
-  dbg(`Version: ${version}`)
   dbg(`OS: ${os}`)
   dbg(`Arch: ${arch}`)
 
   const binaryName_Out =
     os === 'windows' ? `pocketbase_${version}.exe` : `pocketbase_${version}`
-  const fname = resolve(config.cachePath, binaryName_Out)
+  const fname = resolve(cachePath, binaryName_Out)
 
   // If binary exists, skip download
-  if (!existsSync(fname) || cfg.refresh) {
+  if (!existsSync(fname) || refresh) {
     const link = `https://github.com/pocketbase/pocketbase/releases/download/v${version}/pocketbase_${version}_${os}_${arch}.zip`
     dbg(`Downloading ${link}`)
 

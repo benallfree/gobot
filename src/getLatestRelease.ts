@@ -1,11 +1,13 @@
 import { promises as fs } from 'fs'
 import fetch from 'node-fetch'
 import { join } from 'path'
-import { config } from './config.mjs'
-import { dbg } from './dbg.mjs'
+import { config } from './config'
+import { dbg } from './dbg'
 
-export async function getLatestReleaseVersion(refresh = false) {
-  const cacheFilePath = join(config.cachePath, 'version-cache')
+export async function getLatestReleaseVersion() {
+  const { refresh, cachePath } = config()
+
+  const cacheFilePath = join(cachePath, 'version-cache')
 
   const owner = 'pocketbase'
   const repo = 'pocketbase'
@@ -22,9 +24,9 @@ export async function getLatestReleaseVersion(refresh = false) {
     cacheData = JSON.parse(cacheContent)
 
     // Check if the cache is newer than 24 hours
-    if (new Date() - new Date(cacheData.timestamp) < 24 * 60 * 60 * 1000) {
+    if (+new Date() - +new Date(cacheData.timestamp) < 24 * 60 * 60 * 1000) {
       dbg('Using cached version')
-      return cacheData.tag_name
+      return cacheData.tag_name.replace(/^v/, '')
     }
   } catch (error) {
     // If reading the cache fails, proceed to fetch online
@@ -37,7 +39,7 @@ export async function getLatestReleaseVersion(refresh = false) {
     throw new Error(`GitHub API responded with status code ${response.status}`)
   }
 
-  const data = await response.json()
+  const data = (await response.json()) as { tag_name: string }
   const tag_name = data.tag_name
 
   // Update the cache with the new version and current timestamp
@@ -47,5 +49,5 @@ export async function getLatestReleaseVersion(refresh = false) {
     'utf8',
   )
   dbg(`Cache updated with the latest version: ${tag_name}`)
-  return tag_name
+  return tag_name.replace(/^v/, '')
 }

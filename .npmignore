@@ -1,5 +1,4 @@
 *
 !package.json
-!src/**
-**/pocketbase
+!dist/**
 !readme.md

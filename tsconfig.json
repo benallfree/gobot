@@ -9,6 +9,7 @@
     "checkJs": true,
     "noEmit": true,
     "jsx": "preserve",
+    "declaration": true,
     "moduleResolution": "node"
   },
   "include": ["src/**/*"]

@@ -5,3 +5,4 @@ pb_*
 .vscode
 pocketbase
 pocketbase.exe
+dist
