@@ -1,35 +1,65 @@
 #!/usr/bin/env node
 
-import { config } from './config.js'
-import { dbg } from './dbg.js'
-import { getLatestReleaseVersion } from './getLatestRelease.js'
-import { run } from './run.js'
+import { Command } from 'commander'
+import json from '../package.json'
+import { archValueGuard, config, platformValueGuard } from './config'
+import { dbg } from './dbg'
+import { getLatestReleaseVersion } from './getLatestRelease'
+import { archName, osName } from './getOSAndArch'
+import { getReleaseTags } from './getReleaseTags'
+import { run } from './run'
 
 const main = async () => {
-  let args = process.argv.slice(2)
+  const program = new Command()
 
-  config({
-    debug: !!args.find((arg) => arg.startsWith(`--debug`)),
-    version:
-      args.find((arg) => arg.startsWith(`--version=`))?.split(/=/)?.[1] ||
-      (await getLatestReleaseVersion()),
-    refresh: !!args.find((arg) => arg.startsWith(`--refresh`)),
-  })
+  program
+    .name('pbGo')
+    .description('A npm-based PocketBase runner')
+    .version(json.version)
+    .helpOption(false)
+    .allowUnknownOption()
+    .allowExcessArguments()
 
-  dbg(`Raw args:`, args)
+  program
+    .command('versions')
+    .option(`-d,--debug`, `Show debugging output`, false)
+    .option(`--json`, `Show in JSON format`, false)
+    .action(async (options) => {
+      config({ ...options, version: options.useVersion })
+      const tags = await getReleaseTags()
+      if (options.json) {
+        console.log(JSON.stringify(tags, null, 2))
+      } else {
+        tags.forEach((v) => console.log(v))
+      }
+    })
 
-  args = args.filter(
-    (arg) =>
-      !(
-        arg.startsWith(`--version=`) ||
-        arg.startsWith(`--refresh`) ||
-        arg.startsWith(`--debug`)
-      ),
-  )
+  program
+    .command('run', { isDefault: true })
+    .allowUnknownOption()
+    .allowExcessArguments()
+    .option(
+      `-v,--use-version`,
+      `Use a specific PocketBase version`,
+      await getLatestReleaseVersion(),
+    )
+    .option(`-d,--debug`, `Show debugging output`, false)
+    .option(`-o,--os <os>`, `Specify OS/Platform`, platformValueGuard, osName())
+    .option(
+      `-a,--arch <items>`,
+      `Specify OS/Platform`,
+      archValueGuard,
+      archName(),
+    )
+    .option(`-r,--refresh`, `Refresh PocketBase tags and binary`, false)
+    .description('Run pocketbase')
+    .action(async (options, command) => {
+      config({ ...options, version: options.useVersion })
+      dbg(`Forwarding args: `, command.args)
+      await run(command.args)
+    })
 
-  dbg(`Filtered args:`, args)
-
-  await run(args)
+  program.parseAsync(process.argv)
 }
 
-main()
+main().catch(console.error)

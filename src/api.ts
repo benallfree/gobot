@@ -1,14 +1,36 @@
+import { resolve } from 'path'
 import { Config, config } from './config'
 import { getLatestReleaseVersion } from './getLatestRelease'
-import { getPath as _getPath } from './getPath'
+import { getPocketBasePath as _getPocketBasePath } from './getPocketBasePath'
+import { getReleaseTags } from './getReleaseTags'
 export { run } from './run.js'
 
-export const getPath = async (cfg?: Partial<Config>) => {
+export const getPocketBasePath = async (cfg?: Partial<Config>) => {
   if (cfg) {
     config({
       ...cfg,
-      version: cfg.version || (await getLatestReleaseVersion()),
+      version: cfg?.version || (await getLatestReleaseVersion()),
     })
   }
-  return _getPath()
+  return _getPocketBasePath()
+}
+
+export const getVersionsPath = async (cfg?: Partial<Config>) => {
+  if (cfg) {
+    config({
+      ...cfg,
+      version: cfg?.version || (await getLatestReleaseVersion()),
+    })
+  }
+  return resolve(config().cachePath, `versions.json`)
+}
+
+export const getAvailableVersions = async (cfg?: Partial<Config>) => {
+  if (cfg) {
+    config({
+      ...cfg,
+      version: cfg?.version || (await getLatestReleaseVersion()),
+    })
+  }
+  return getReleaseTags()
 }

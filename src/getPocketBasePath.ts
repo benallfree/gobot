@@ -4,18 +4,14 @@ import fetch from 'node-fetch'
 import { resolve } from 'path'
 import { config } from './config'
 import { dbg } from './dbg'
-import { getOSAndArch } from './getOSAndArch.js'
 
-export const getPath = async () => {
-  const { version, cachePath, refresh } = config()
-
-  const { os, arch } = getOSAndArch()
-
-  dbg(`OS: ${os}`)
-  dbg(`Arch: ${arch}`)
+export const getPocketBasePath = async () => {
+  const { version, cachePath, refresh, os, arch } = config()
 
   const binaryName_Out =
-    os === 'windows' ? `pocketbase_${version}.exe` : `pocketbase_${version}`
+    os === 'windows'
+      ? `pocketbase_${os}_${arch}_${version}.exe`
+      : `pocketbase_${os}_${arch}_${version}`
   const fname = resolve(cachePath, binaryName_Out)
 
   // If binary exists, skip download
@@ -24,6 +20,9 @@ export const getPath = async () => {
     dbg(`Downloading ${link}`)
 
     const res = await fetch(link)
+    if (res.status === 404) {
+      throw new Error(`${link} is not a valid build.`)
+    }
     const content = await res.arrayBuffer()
 
     var new_zip = new JSZip()
