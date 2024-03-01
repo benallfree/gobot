@@ -1,6 +1,6 @@
 import { spawn } from 'child_process'
 import { join } from 'path'
-import { cwd } from 'process'
+import shelljs from 'shelljs'
 import { Config, config } from './config'
 import { dbg } from './dbg'
 import { getLatestReleaseVersion } from './getLatestRelease'
@@ -18,12 +18,16 @@ export const run = async (args: string[], options?: Partial<Config>) => {
 
   // Check if "--dir" is already specified
   if (!args.find((arg) => arg.startsWith('--dir'))) {
-    args.push(`--dir=${join(cwd(), `pb_data`)}`)
+    args.push(`--dir=${join(shelljs.pwd().toString(), `pb_data`)}`)
   }
 
   dbg(`Running ${fname}`, args)
 
-  const proc = spawn(fname, args, { env: config().env, stdio: 'inherit' })
+  const proc = spawn(fname, args, {
+    env: config().env,
+    stdio: 'inherit',
+    cwd: shelljs.pwd().toString(),
+  })
 
   proc.on('error', (err) => {
     console.error(`Failed to start pocketbase: ${err.message}`)

@@ -28,15 +28,17 @@
   "license": "ISC",
   "dependencies": {
     "@s-libs/micro-dash": "^17.1.0",
+    "commander": "^12.0.0",
     "env-paths": "^3.0.0",
     "jszip": "^3.10.1",
     "node-fetch": "^3.3.2",
     "semver": "^7.6.0",
-    "commander": "^12.0.0"
+    "shelljs": "^0.8.5"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",
     "@types/semver": "^7.5.8",
+    "@types/shelljs": "^0.8.15",
     "@types/yargs": "^17.0.32",
     "esbuild": "^0.20.1",
     "esbuild-node-externals": "^1.13.0",
