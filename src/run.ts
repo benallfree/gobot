@@ -1,10 +1,10 @@
 import { spawn } from 'child_process'
 import { join } from 'path'
-import shelljs from 'shelljs'
 import { Config, config } from './config'
 import { dbg } from './dbg'
 import { getLatestReleaseVersion } from './getLatestRelease'
 import { getPocketBasePath } from './getPocketBasePath'
+import { pwd } from './util'
 
 export const run = async (args: string[], options?: Partial<Config>) => {
   if (options) {
@@ -18,7 +18,7 @@ export const run = async (args: string[], options?: Partial<Config>) => {
 
   // Check if "--dir" is already specified
   if (!args.find((arg) => arg.startsWith('--dir'))) {
-    args.push(`--dir=${join(shelljs.pwd().toString(), `pb_data`)}`)
+    args.push(`--dir=${join(pwd(), `pb_data`)}`)
   }
 
   dbg(`Running ${fname}`, args)
@@ -26,7 +26,7 @@ export const run = async (args: string[], options?: Partial<Config>) => {
   const proc = spawn(fname, args, {
     env: config().env,
     stdio: 'inherit',
-    cwd: shelljs.pwd().toString(),
+    cwd: pwd(),
   })
 
   proc.on('error', (err) => {
