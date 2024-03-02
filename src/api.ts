@@ -1,6 +1,7 @@
 import { resolve } from 'path'
 import { getReleaseTags } from './getReleaseTags'
 import { cachePath } from './settings/cache'
+export { download } from './download'
 export { getPocketBasePath } from './getPocketBasePath'
 export { run } from './run.js'
 export { arch } from './settings/arch'

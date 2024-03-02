@@ -1,10 +1,8 @@
 #!/usr/bin/env node
 
-import Bottleneck from 'bottleneck'
 import { Command } from 'commander'
-import { satisfies } from 'semver'
 import json from '../package.json'
-import { getPocketBasePath } from './api'
+import { download } from './download'
 import { getReleaseTags } from './getReleaseTags'
 import { dbg, log } from './log'
 import { run } from './run'
@@ -41,7 +39,12 @@ const main = async () => {
     )
     .option(`--os <os>`, `Specify OS/Platform`, platformValueGuard, os())
     .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, arch())
-    .option(`--json`, `Show in JSON format`, false)
+    .option(
+      `--format <fmt>`,
+      `Output in JSON format`,
+      (v) => (['text', 'json', 'cjs', 'esm'].includes(v) ? v : 'text'),
+      `text`,
+    )
     .option(`--refresh`, `Refresh PocketBase tags and binary`, false)
     .option(`--cache-path <path>`, `The cache path to use`, cachePath())
     .action(async (options) => {
@@ -54,27 +57,25 @@ const main = async () => {
       if (options.refresh) {
         clearCache()
       }
-      const tags = await (async () => {
-        const tags = await getReleaseTags()
-        return tags.filter((version) => satisfies(version, options.only))
-      })()
-      dbg(`Filtered tags:`, tags)
-      if (options.json) {
-        console.log(JSON.stringify(tags, null, 2))
-      } else {
-        tags.forEach((v) => console.log(v))
-      }
+      const tags = await getReleaseTags()
       if (options.download) {
-        log(`Downloading versions`, tags)
-        const limiter = new Bottleneck({ maxConcurrent: 1 })
-        await Promise.all(
-          tags.map((version) => {
-            return limiter.schedule(() => {
-              log(`\t${version}`)
-              return getPocketBasePath({ version })
-            })
-          }),
-        )
+        await download({ log })
+      }
+      switch (options.format) {
+        case 'text':
+          tags.forEach((v) => console.log(v))
+          break
+        case 'json':
+          console.log(JSON.stringify(tags, null, 2))
+          break
+        case 'cjs':
+          console.log(`module.exports = ${JSON.stringify(tags, null, 2)}`)
+          break
+        case 'esm':
+          console.log(
+            `export const versions = ${JSON.stringify(tags, null, 2)}`,
+          )
+          break
       }
     })
 

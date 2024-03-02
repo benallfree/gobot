@@ -1,8 +1,9 @@
 import { existsSync, readFileSync, statSync, writeFileSync } from 'fs'
 import { resolve } from 'path'
-import semver from 'semver'
+import { compare, rcompare, satisfies } from 'semver'
 import { dbg } from './log'
 import { cachePath } from './settings/cache'
+import { version } from './settings/version'
 import { smartFetch } from './smartFetch'
 
 type Release = {
@@ -16,8 +17,9 @@ type Release = {
 }
 type Releases = Release[]
 
-export const getReleaseTags = async () => {
+export const getReleaseTags = async (semver = version()) => {
   const cacheFile = resolve(cachePath(), `releases.json`)
+  dbg(`Semver filter:`, semver)
   dbg(`Releases cache: ${cacheFile}`)
   const cacheExists = existsSync(cacheFile)
   dbg(`Release cache exists: ${cacheExists}`)
@@ -33,16 +35,9 @@ export const getReleaseTags = async () => {
     }
   }
 
-  dbg(`Release cache is fresh: ${cacheIsFresh}`)
+  dbg(`Release cache freshness: ${cacheIsFresh}`)
 
-  if (cacheIsFresh) {
-    dbg('Using cached release tags data.')
-    const cachedReleases = JSON.parse(readFileSync(cacheFile, 'utf8'))
-    // Ensure the cached releases are sorted by version as they might have been manually edited or corrupted.
-    return cachedReleases.sort((a: string, b: string) =>
-      semver.compare(b, a),
-    ) as string[]
-  } else {
+  if (!cacheIsFresh) {
     let page = 1
     const releases: Releases = []
     do {
@@ -58,10 +53,19 @@ export const getReleaseTags = async () => {
 
     const filteredReleases = releases
       .map((release) => release.tag_name.slice(1)) // Remove 'v' prefix from tag name for proper semver comparison
-      .sort((a, b) => semver.rcompare(a, b)) // Sort versions in descending order using semver
+      .sort((a, b) => rcompare(a, b)) // Sort versions in descending order using semver
 
     writeFileSync(cacheFile, JSON.stringify(filteredReleases, null, 2))
-
-    return filteredReleases
+  } else {
+    dbg('Using cached release tags data.')
   }
+  const cachedReleases = JSON.parse(readFileSync(cacheFile, 'utf8')) as string[]
+  // Ensure the cached releases are sorted by version as they might have been manually edited or corrupted.
+  const tags = cachedReleases
+    .sort((a: string, b: string) => compare(b, a))
+    .filter((version) => satisfies(version, semver))
+
+  dbg(`Filtered tags:`, tags)
+
+  return tags
 }
