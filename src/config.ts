@@ -3,6 +3,7 @@ import envPaths from 'env-paths'
 import { resolve } from 'path'
 import { archName, osName } from './getOSAndArch'
 import { dbg } from './log'
+import { mergeConfig } from './mergeConfig'
 import { mkdir, pwd } from './util'
 
 export const PLATFORM_MAP = {
@@ -70,8 +71,19 @@ export type Config = {
 
 const paths = envPaths('pbgo')
 
+export const printConfig = () => {
+  const { os, arch, cachePath, version, debug, env } = config()
+  dbg(`Current config: ${os}`)
+  dbg(`\tOS: ${os}`)
+  dbg(`\tArch: ${arch}`)
+  dbg(`\tCache path: ${cachePath}`)
+  dbg(`\tVersion: ${version}`)
+  dbg(`\tDebug: ${debug}`)
+  dbg(`\tEnv:`, env)
+}
+
 export const config = (() => {
-  const _config: Config = {
+  let _config: Config = {
     os: osName(),
     arch: archName(),
     debug: false,
@@ -84,33 +96,12 @@ export const config = (() => {
   return (_in?: Partial<Config>) => {
     if (!_in) return { ..._config }
 
-    const os = _in.os || osName()
-    const arch = _in.arch || archName()
-    const refresh = !!_in.refresh
-    const debug = !!_in.debug
-    const cachePath = _in.cachePath
-      ? resolve(pwd(), _in.cachePath)
-      : paths.cache
-    const version = _in.version || ''
-    const env = _in.env || {}
+    _config = mergeConfig<Config>(_config, _in)
+    _config.cachePath = resolve(pwd(), _config.cachePath)
 
-    mkdir('-p', cachePath)
+    mkdir('-p', _config.cachePath)
 
-    _config.os = os
-    _config.arch = arch
-    _config.cachePath = cachePath
-    _config.debug = debug
-    _config.version = version
-    _config.refresh = refresh
-    _config.env = env
-
-    dbg(`OS: ${os}`)
-    dbg(`Arch: ${arch}`)
-    dbg(`Cache path: ${cachePath}`)
-    dbg(`Version: ${version}`)
-    dbg(`Debug: ${debug}`)
-    dbg(`Refresh: ${refresh}`)
-    dbg(`Env:`, env)
+    printConfig()
 
     return _config
   }
