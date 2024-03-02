@@ -48,7 +48,7 @@ const main = async () => {
     .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, archName())
     .option(`--upgrade`, 'Disabled', false)
     .option(`--refresh`, `Refresh PocketBase tags and binary`, false)
-
+    .option(`--cache-path <path>`, `The cache path to use`, config().cachePath)
     .description('Run pocketbase')
     .action(async (options, command) => {
       config({ ...options, version: options.useVersion })

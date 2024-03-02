@@ -15,13 +15,14 @@ or (slower)
 
 **Switches**
 
-| Option        | Default   | Discussion                                                                                                                                                       |
-| ------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| --os          | host OS   | `windows, linux, darwin`                                                                                                                                         |
-| --arch        | host arch | `amd64, arm64, arm7`                                                                                                                                             |
-| --debug       | `false`   | Enable debugging output                                                                                                                                          |
-| --refresh     | `false`   | Refresh PocketBase tags and binary                                                                                                                               |
-| --use-version | latest    | Run a specific PocketBase version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
+| Option        | Default       | Discussion                                                                                                                                                       |
+| ------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --os          | host OS       | `windows, linux, darwin`                                                                                                                                         |
+| --arch        | host arch     | `amd64, arm64, arm7`                                                                                                                                             |
+| --debug       | `false`       | Enable debugging output                                                                                                                                          |
+| --refresh     | `false`       | Refresh PocketBase tags and binary                                                                                                                               |
+| --use-version | latest        | Run a specific PocketBase version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
+| --cache-dir   | host specific | Use the specified directory for cache files.                                                                                                                     |
 
 All other switches and arguments are forwarded directly to the `pocketbase` binary.
 
