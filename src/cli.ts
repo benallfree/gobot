@@ -6,14 +6,13 @@ import { satisfies } from 'semver'
 import json from '../package.json'
 import { getPocketBasePath } from './api'
 import { getLatestReleaseVersion } from './getLatestRelease'
-import { osName } from './getOSAndArch'
 import { getReleaseTags } from './getReleaseTags'
 import { dbg, log } from './log'
-import { platformValueGuard } from './osArch'
 import { run } from './run'
 import { config } from './settings'
 import { arch, archValueGuard } from './settings/arch'
 import { cachePath, clearCache } from './settings/cache'
+import { os, platformValueGuard } from './settings/os'
 
 const main = async () => {
   const program = new Command()
@@ -40,7 +39,7 @@ const main = async () => {
       `Download all matching versions (semver range)`,
       false,
     )
-    .option(`--os <os>`, `Specify OS/Platform`, platformValueGuard, osName())
+    .option(`--os <os>`, `Specify OS/Platform`, platformValueGuard, os())
     .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, arch())
     .option(`--json`, `Show in JSON format`, false)
     .option(`--refresh`, `Refresh PocketBase tags and binary`, false)
@@ -50,6 +49,7 @@ const main = async () => {
       dbg(`Options:`, options)
       cachePath(options.cachePath)
       arch(options.arch)
+      os(options.os)
       if (options.refresh) {
         clearCache()
       }
@@ -88,7 +88,7 @@ const main = async () => {
       await getLatestReleaseVersion(),
     )
     .option(`--debug`, `Show debugging output`, false)
-    .option(`--os <os>`, `Specify OS/Platform`, platformValueGuard, osName())
+    .option(`--os <os>`, `Specify OS/Platform`, platformValueGuard, os())
     .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, arch())
     .option(`--upgrade`, 'Disabled', false)
     .option(`--refresh`, `Refresh PocketBase tags and binary`, false)
@@ -99,6 +99,7 @@ const main = async () => {
       dbg(`CLI options:`, options)
       cachePath(options.cachePath)
       arch(options.arch)
+      os(options.os)
       if (options.refresh) {
         clearCache()
       }

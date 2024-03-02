@@ -1,4 +1,6 @@
 import { values } from '@s-libs/micro-dash'
+import { platform } from 'os'
+import { mkSetting } from '../mkSetting'
 
 export const PLATFORM_MAP = {
   darwin: 'darwin',
@@ -28,3 +30,14 @@ export function platformValueGuard(platformValue: string): PlatformValue {
     )
   return platformValue
 }
+
+export const osName = () => {
+  const _p = platform()
+
+  if (!isPlatformKey(_p)) {
+    throw new Error(`Unsupported platform: ${_p}`)
+  }
+  return PLATFORM_MAP[_p]
+}
+
+export const os = mkSetting(osName(), platformValueGuard)

@@ -8,9 +8,10 @@ import { dbg } from './log'
 import { config } from './settings'
 import { arch } from './settings/arch'
 import { cachePath } from './settings/cache'
+import { os } from './settings/os'
 
 export const getPocketBasePath = async () => {
-  const { version: semver, os } = config()
+  const { version: semver } = config()
 
   dbg(`Requested semver: ${semver}`)
   const versions = await getAvailableVersions()
@@ -21,14 +22,14 @@ export const getPocketBasePath = async () => {
   dbg(`Selected version: ${version}`)
 
   const binaryName_Out =
-    os === 'windows'
-      ? `pocketbase_${os}_${arch()}_${version}.exe`
-      : `pocketbase_${os}_${arch()}_${version}`
+    os() === 'windows'
+      ? `pocketbase_${os()}_${arch()}_${version}.exe`
+      : `pocketbase_${os()}_${arch()}_${version}`
   const fname = resolve(cachePath(), binaryName_Out)
 
   // If binary exists, skip download
   if (!existsSync(fname)) {
-    const link = `https://github.com/pocketbase/pocketbase/releases/download/v${version}/pocketbase_${version}_${os}_${arch()}.zip`
+    const link = `https://github.com/pocketbase/pocketbase/releases/download/v${version}/pocketbase_${version}_${os()}_${arch()}.zip`
     dbg(`Downloading ${link}`)
 
     const res = await fetch(link)
@@ -40,7 +41,7 @@ export const getPocketBasePath = async () => {
     var new_zip = new JSZip()
     const zip = await new_zip.loadAsync(content)
 
-    const binaryName_In = os === 'windows' ? `pocketbase.exe` : `pocketbase`
+    const binaryName_In = os() === 'windows' ? `pocketbase.exe` : `pocketbase`
     const pb = await zip.file(binaryName_In)?.async('nodebuffer')
 
     if (!pb) {
@@ -52,7 +53,7 @@ export const getPocketBasePath = async () => {
   }
 
   // Ensure the binary is executable
-  if (os !== 'windows') {
+  if (os() !== 'windows') {
     chmodSync(fname, '755')
   }
 

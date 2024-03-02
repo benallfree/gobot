@@ -59,7 +59,6 @@ npx pbgo versions --json # Output in JSON format
 
 | Option  | Default | Discussion                                                                                                                                                       |
 | ------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| os      | host OS | `windows, linux, darwin`                                                                                                                                         |
 | debug   | `false` | Enable debugging output                                                                                                                                          |
 | version | latest  | Run a specific PocketBase version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
 | env     | `{}`    | Hash of env vars to forward to PocketBase                                                                                                                        |
@@ -75,6 +74,10 @@ Clears the cache currently set by `cachePath()`
 ### `arch(newArch?: 'amd64'|'arm64'|'arm7')`
 
 Gets or sets the current architecture. Defaults to the host architecture.
+
+### `os(newOs?: 'windows'|'linux'|'darwin')`
+
+Gets or sets the current Operating System. Defaults to the host operating system.
 
 ### `run(args:string[], options?: Partial<Config>)`
 
