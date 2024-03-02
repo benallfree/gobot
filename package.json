@@ -28,6 +28,7 @@
   "license": "ISC",
   "dependencies": {
     "@s-libs/micro-dash": "^17.1.0",
+    "bottleneck": "^2.19.5",
     "commander": "^12.0.0",
     "env-paths": "^3.0.0",
     "jszip": "^3.10.1",

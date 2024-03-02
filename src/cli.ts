@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 
+import Bottleneck from 'bottleneck'
 import { Command } from 'commander'
+import { satisfies } from 'semver'
 import json from '../package.json'
+import { getPocketBasePath } from './api'
+import { clearCache } from './clearCache'
 import { archValueGuard, config, platformValueGuard } from './config'
 import { getLatestReleaseVersion } from './getLatestRelease'
 import { archName, osName } from './getOSAndArch'
@@ -24,17 +28,48 @@ const main = async () => {
     .command('versions')
     .description(`Show and optionally download available versions.`)
     .option(`--debug`, `Show debugging output`, false)
+    .option(
+      `--version <range>`,
+      `Filter to matching versions (semver or semver range)`,
+      `*`,
+    )
+    .option(
+      `--download`,
+      `Download all matching versions (semver range)`,
+      false,
+    )
+    .option(`--os <os>`, `Specify OS/Platform`, platformValueGuard, osName())
+    .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, archName())
     .option(`--json`, `Show in JSON format`, false)
     .option(`--refresh`, `Refresh PocketBase tags and binary`, false)
+    .option(`--cache-path <path>`, `The cache path to use`, config().cachePath)
     .action(async (options) => {
+      config({ ...options })
+      dbg(`Options:`, options)
       if (options.refresh) {
         clearCache()
       }
-      const tags = await getReleaseTags()
+      const tags = await (async () => {
+        const tags = await getReleaseTags()
+        return tags.filter((version) => satisfies(version, options.version))
+      })()
+      dbg(`Filtered tags:`, tags)
       if (options.json) {
         console.log(JSON.stringify(tags, null, 2))
       } else {
         tags.forEach((v) => console.log(v))
+      }
+      if (options.download) {
+        log(`Downloading versions`, tags)
+        const limiter = new Bottleneck({ maxConcurrent: 1 })
+        await Promise.all(
+          tags.map((version) => {
+            return limiter.schedule(() => {
+              log(`\t${version}`)
+              return getPocketBasePath({ version })
+            })
+          }),
+        )
       }
     })
 
