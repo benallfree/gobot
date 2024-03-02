@@ -1,9 +1,9 @@
 import envPaths from 'env-paths'
 import { resolve } from 'path'
 import { rimraf } from 'rimraf'
-import { dbg } from './log'
-import { mkSetting } from './mkSetting'
-import { mkdir, pwd } from './util'
+import { dbg } from '../log'
+import { mkSetting } from '../mkSetting'
+import { mkdir, pwd } from '../util'
 
 export const clearCache = () => {
   dbg(`Clearing cache:`, cachePath())

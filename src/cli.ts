@@ -5,7 +5,6 @@ import { Command } from 'commander'
 import { satisfies } from 'semver'
 import json from '../package.json'
 import { getPocketBasePath } from './api'
-import { cachePath, clearCache } from './cache'
 import { config } from './config'
 import { getLatestReleaseVersion } from './getLatestRelease'
 import { archName, osName } from './getOSAndArch'
@@ -13,6 +12,7 @@ import { getReleaseTags } from './getReleaseTags'
 import { dbg, log } from './log'
 import { archValueGuard, platformValueGuard } from './osArch'
 import { run } from './run'
+import { cachePath, clearCache } from './settings/cache'
 
 const main = async () => {
   const program = new Command()

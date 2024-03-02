@@ -1,8 +1,8 @@
-import { cachePath } from './cache'
 import { archName, osName } from './getOSAndArch'
 import { dbg } from './log'
 import { mergeConfig } from './mergeConfig'
 import { ArchValue, PlatformValue } from './osArch'
+import { cachePath } from './settings/cache'
 
 export type Config = {
   arch: ArchValue

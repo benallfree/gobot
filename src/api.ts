@@ -1,11 +1,11 @@
 import { resolve } from 'path'
-import { cachePath } from './cache'
 import { Config, config } from './config'
 import { getLatestReleaseVersion } from './getLatestRelease'
 import { getPocketBasePath as _getPocketBasePath } from './getPocketBasePath'
 import { getReleaseTags } from './getReleaseTags'
-export { clearCache } from './cache'
+import { cachePath } from './settings/cache'
 export { run } from './run.js'
+export { clearCache } from './settings/cache'
 
 export const getPocketBasePath = async (cfg?: Partial<Config>) => {
   if (cfg) {

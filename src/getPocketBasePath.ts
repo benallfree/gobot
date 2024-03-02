@@ -4,9 +4,9 @@ import fetch from 'node-fetch'
 import { resolve } from 'path'
 import { maxSatisfying } from 'semver'
 import { getAvailableVersions } from './api'
-import { cachePath } from './cache'
 import { config } from './config'
 import { dbg } from './log'
+import { cachePath } from './settings/cache'
 
 export const getPocketBasePath = async () => {
   const { version: semver, os, arch } = config()

@@ -1,8 +1,8 @@
 import { existsSync, readFileSync, statSync, writeFileSync } from 'fs'
 import { resolve } from 'path'
 import semver from 'semver'
-import { cachePath } from './cache'
 import { dbg } from './log'
+import { cachePath } from './settings/cache'
 import { smartFetch } from './smartFetch'
 
 type Release = {
