@@ -1,8 +1,8 @@
-import { archName, osName } from './getOSAndArch'
-import { dbg } from './log'
-import { mergeConfig } from './mergeConfig'
-import { ArchValue, PlatformValue } from './osArch'
-import { cachePath } from './settings/cache'
+import { archName, osName } from '../getOSAndArch'
+import { dbg } from '../log'
+import { mergeConfig } from '../mergeConfig'
+import { ArchValue, PlatformValue } from '../osArch'
+import { cachePath } from './cache'
 
 export type Config = {
   arch: ArchValue
@@ -12,9 +12,9 @@ export type Config = {
   env: NodeJS.ProcessEnv
 }
 
-export const printConfig = () => {
+export const printSettings = () => {
   const { os, arch, version, debug, env } = config()
-  dbg(`Current config: ${os}`)
+  dbg(`Current settings: ${os}`)
   dbg(`\tOS: ${os}`)
   dbg(`\tArch: ${arch}`)
   dbg(`\tCache path:`, cachePath())
@@ -37,7 +37,7 @@ export const config = (() => {
 
     _config = mergeConfig<Config>(_config, _in)
 
-    printConfig()
+    printSettings()
 
     return _config
   }

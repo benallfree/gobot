@@ -4,8 +4,8 @@ import fetch from 'node-fetch'
 import { resolve } from 'path'
 import { maxSatisfying } from 'semver'
 import { getAvailableVersions } from './api'
-import { config } from './config'
 import { dbg } from './log'
+import { config } from './settings'
 import { cachePath } from './settings/cache'
 
 export const getPocketBasePath = async () => {
