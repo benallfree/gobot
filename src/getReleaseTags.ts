@@ -1,7 +1,7 @@
 import { existsSync, readFileSync, statSync, writeFileSync } from 'fs'
-import { join } from 'path'
+import { resolve } from 'path'
 import semver from 'semver'
-import { config } from './config'
+import { cachePath } from './cache'
 import { dbg } from './log'
 import { smartFetch } from './smartFetch'
 
@@ -17,7 +17,7 @@ type Release = {
 type Releases = Release[]
 
 export const getReleaseTags = async () => {
-  const cacheFile = join(config().cachePath, `releases.json`)
+  const cacheFile = resolve(cachePath(), `releases.json`)
   dbg(`Releases cache: ${cacheFile}`)
   const cacheExists = existsSync(cacheFile)
   dbg(`Release cache exists: ${cacheExists}`)
@@ -49,7 +49,7 @@ export const getReleaseTags = async () => {
       dbg(`Fetching info for PocketBase releases page ${page}...`)
       const chunk = await smartFetch<Releases>(
         `https://api.github.com/repos/pocketbase/pocketbase/releases?per_page=100&page=${page}`,
-        join(config().cachePath, `pb_releases_page_${page}.json`), // Cache each page individually to avoid re-fetching all data for updates.
+        resolve(cachePath(), `pb_releases_page_${page}.json`), // Cache each page individually to avoid re-fetching all data for updates.
       )
       if (chunk.length === 0) break
       releases.push(...chunk)

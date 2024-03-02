@@ -5,7 +5,7 @@ import { Command } from 'commander'
 import { satisfies } from 'semver'
 import json from '../package.json'
 import { getPocketBasePath } from './api'
-import { clearCache } from './clearCache'
+import { cachePath, clearCache } from './cache'
 import { config } from './config'
 import { getLatestReleaseVersion } from './getLatestRelease'
 import { archName, osName } from './getOSAndArch'
@@ -43,10 +43,11 @@ const main = async () => {
     .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, archName())
     .option(`--json`, `Show in JSON format`, false)
     .option(`--refresh`, `Refresh PocketBase tags and binary`, false)
-    .option(`--cache-path <path>`, `The cache path to use`, config().cachePath)
+    .option(`--cache-path <path>`, `The cache path to use`, cachePath())
     .action(async (options) => {
       config({ ...options })
       dbg(`Options:`, options)
+      cachePath(options.cachePath)
       if (options.refresh) {
         clearCache()
       }
@@ -89,11 +90,12 @@ const main = async () => {
     .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, archName())
     .option(`--upgrade`, 'Disabled', false)
     .option(`--refresh`, `Refresh PocketBase tags and binary`, false)
-    .option(`--cache-path <path>`, `The cache path to use`, config().cachePath)
+    .option(`--cache-path <path>`, `The cache path to use`, cachePath())
     .description('Run pocketbase')
     .action(async (options, command) => {
       config({ ...options, version: options.useVersion })
       dbg(`CLI options:`, options)
+      cachePath(options.cachePath)
       if (options.refresh) {
         clearCache()
       }

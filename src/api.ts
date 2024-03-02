@@ -1,20 +1,11 @@
 import { resolve } from 'path'
-import { clearCache as _clearCache } from './clearCache'
+import { cachePath } from './cache'
 import { Config, config } from './config'
 import { getLatestReleaseVersion } from './getLatestRelease'
 import { getPocketBasePath as _getPocketBasePath } from './getPocketBasePath'
 import { getReleaseTags } from './getReleaseTags'
+export { clearCache } from './cache'
 export { run } from './run.js'
-
-export const clearCache = async (cfg?: Partial<Config>) => {
-  if (cfg) {
-    config({
-      ...cfg,
-      version: cfg?.version || (await getLatestReleaseVersion()),
-    })
-  }
-  return _clearCache()
-}
 
 export const getPocketBasePath = async (cfg?: Partial<Config>) => {
   if (cfg) {
@@ -33,7 +24,7 @@ export const getAvailableVersionsPath = async (cfg?: Partial<Config>) => {
       version: cfg?.version || (await getLatestReleaseVersion()),
     })
   }
-  return resolve(config().cachePath, `versions.json`)
+  return resolve(cachePath(), `versions.json`)
 }
 
 export const getAvailableVersions = async (cfg?: Partial<Config>) => {

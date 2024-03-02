@@ -4,11 +4,12 @@ import fetch from 'node-fetch'
 import { resolve } from 'path'
 import { maxSatisfying } from 'semver'
 import { getAvailableVersions } from './api'
+import { cachePath } from './cache'
 import { config } from './config'
 import { dbg } from './log'
 
 export const getPocketBasePath = async () => {
-  const { version: semver, cachePath, os, arch } = config()
+  const { version: semver, os, arch } = config()
 
   dbg(`Requested semver: ${semver}`)
   const versions = await getAvailableVersions()
@@ -22,7 +23,7 @@ export const getPocketBasePath = async () => {
     os === 'windows'
       ? `pocketbase_${os}_${arch}_${version}.exe`
       : `pocketbase_${os}_${arch}_${version}`
-  const fname = resolve(cachePath, binaryName_Out)
+  const fname = resolve(cachePath(), binaryName_Out)
 
   // If binary exists, skip download
   if (!existsSync(fname)) {
