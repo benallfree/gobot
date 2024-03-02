@@ -22,6 +22,7 @@ const main = async () => {
 
   program
     .command('versions')
+    .description(`Show and optionally download available versions.`)
     .option(`--debug`, `Show debugging output`, false)
     .option(`--json`, `Show in JSON format`, false)
     .action(async (options) => {
@@ -36,6 +37,7 @@ const main = async () => {
 
   program
     .command('run', { isDefault: true })
+    .description(`Run PocketBase`)
     .allowUnknownOption()
     .allowExcessArguments()
     .option(
