@@ -1,5 +1,5 @@
 import { arch as _arch, platform } from 'os'
-import { ARCH_MAP, PLATFORM_MAP, isArchKey, isPlatformKey } from './config'
+import { ARCH_MAP, PLATFORM_MAP, isArchKey, isPlatformKey } from './osArch'
 
 export const osName = () => {
   const _p = platform()

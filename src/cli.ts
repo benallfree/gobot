@@ -6,11 +6,12 @@ import { satisfies } from 'semver'
 import json from '../package.json'
 import { getPocketBasePath } from './api'
 import { clearCache } from './clearCache'
-import { archValueGuard, config, platformValueGuard } from './config'
+import { config } from './config'
 import { getLatestReleaseVersion } from './getLatestRelease'
 import { archName, osName } from './getOSAndArch'
 import { getReleaseTags } from './getReleaseTags'
 import { dbg, log } from './log'
+import { archValueGuard, platformValueGuard } from './osArch'
 import { run } from './run'
 
 const main = async () => {
