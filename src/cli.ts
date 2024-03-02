@@ -22,7 +22,7 @@ const main = async () => {
 
   program
     .command('versions')
-    .option(`-d,--debug`, `Show debugging output`, false)
+    .option(`--debug`, `Show debugging output`, false)
     .option(`--json`, `Show in JSON format`, false)
     .action(async (options) => {
       config({ ...options, version: options.useVersion })
