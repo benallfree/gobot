@@ -1,38 +1,14 @@
 import { resolve } from 'path'
-import { getLatestReleaseVersion } from './getLatestRelease'
-import { getPocketBasePath as _getPocketBasePath } from './getPocketBasePath'
 import { getReleaseTags } from './getReleaseTags'
-import { Config, config } from './settings'
 import { cachePath } from './settings/cache'
+export { getPocketBasePath } from './getPocketBasePath'
 export { run } from './run.js'
+export { arch } from './settings/arch'
 export { clearCache } from './settings/cache'
+export { os } from './settings/os'
+export { version } from './settings/version'
 
-export const getPocketBasePath = async (cfg?: Partial<Config>) => {
-  if (cfg) {
-    config({
-      ...cfg,
-      version: cfg?.version || (await getLatestReleaseVersion()),
-    })
-  }
-  return _getPocketBasePath()
-}
+export const getAvailableVersionsPath = () =>
+  resolve(cachePath(), `versions.json`)
 
-export const getAvailableVersionsPath = async (cfg?: Partial<Config>) => {
-  if (cfg) {
-    config({
-      ...cfg,
-      version: cfg?.version || (await getLatestReleaseVersion()),
-    })
-  }
-  return resolve(cachePath(), `versions.json`)
-}
-
-export const getAvailableVersions = async (cfg?: Partial<Config>) => {
-  if (cfg) {
-    config({
-      ...cfg,
-      version: cfg?.version || (await getLatestReleaseVersion()),
-    })
-  }
-  return getReleaseTags()
-}
+export const getAvailableVersions = getReleaseTags

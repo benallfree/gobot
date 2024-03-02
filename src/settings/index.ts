@@ -3,20 +3,20 @@ import { mergeConfig } from '../mergeConfig'
 import { arch } from './arch'
 import { cachePath } from './cache'
 import { os } from './os'
+import { version } from './version'
 
 export type Config = {
-  version: string
   debug: boolean
   env: NodeJS.ProcessEnv
 }
 
 export const printSettings = () => {
-  const { version, debug, env } = config()
+  const { debug, env } = config()
   dbg(`Current settings: ${os}`)
   dbg(`\tOS:`, os())
   dbg(`\tArch:`, arch())
   dbg(`\tCache path:`, cachePath())
-  dbg(`\tVersion: ${version}`)
+  dbg(`\tVersion:`, version())
   dbg(`\tDebug: ${debug}`)
   dbg(`\tEnv:`, env)
 }
@@ -24,7 +24,6 @@ export const printSettings = () => {
 export const config = (() => {
   let _config: Config = {
     debug: false,
-    version: '',
     env: {},
   }
 

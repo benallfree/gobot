@@ -5,7 +5,6 @@ import { Command } from 'commander'
 import { satisfies } from 'semver'
 import json from '../package.json'
 import { getPocketBasePath } from './api'
-import { getLatestReleaseVersion } from './getLatestRelease'
 import { getReleaseTags } from './getReleaseTags'
 import { dbg, log } from './log'
 import { run } from './run'
@@ -13,6 +12,7 @@ import { config } from './settings'
 import { arch, archValueGuard } from './settings/arch'
 import { cachePath, clearCache } from './settings/cache'
 import { os, platformValueGuard } from './settings/os'
+import { version } from './settings/version'
 
 const main = async () => {
   const program = new Command()
@@ -30,9 +30,9 @@ const main = async () => {
     .description(`Show and optionally download available versions.`)
     .option(`--debug`, `Show debugging output`, false)
     .option(
-      `--version <range>`,
+      `--only <range>`,
       `Filter to matching versions (semver or semver range)`,
-      `*`,
+      version(),
     )
     .option(
       `--download`,
@@ -50,12 +50,13 @@ const main = async () => {
       cachePath(options.cachePath)
       arch(options.arch)
       os(options.os)
+      version(options.only)
       if (options.refresh) {
         clearCache()
       }
       const tags = await (async () => {
         const tags = await getReleaseTags()
-        return tags.filter((version) => satisfies(version, options.version))
+        return tags.filter((version) => satisfies(version, options.only))
       })()
       dbg(`Filtered tags:`, tags)
       if (options.json) {
@@ -85,7 +86,7 @@ const main = async () => {
     .option(
       `--use-version <version>`,
       `Use a specific PocketBase version (format: x.y.z semver or x.y.* semver range)`,
-      await getLatestReleaseVersion(),
+      version(),
     )
     .option(`--debug`, `Show debugging output`, false)
     .option(`--os <os>`, `Specify OS/Platform`, platformValueGuard, os())
@@ -100,6 +101,7 @@ const main = async () => {
       cachePath(options.cachePath)
       arch(options.arch)
       os(options.os)
+      version(options.useVersion)
       if (options.refresh) {
         clearCache()
       }
