@@ -39,18 +39,20 @@ const main = async () => {
     .allowUnknownOption()
     .allowExcessArguments()
     .option(
-      `--use-version`,
-      `Use a specific PocketBase version`,
+      `--use-version <version>`,
+      `Use a specific PocketBase version (format: x.y.z semver or x.y.* semver range)`,
       await getLatestReleaseVersion(),
     )
     .option(`--debug`, `Show debugging output`, false)
     .option(`--os <os>`, `Specify OS/Platform`, platformValueGuard, osName())
     .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, archName())
     .option(`--upgrade`, 'Disabled', false)
-    .option(`-r,--refresh`, `Refresh PocketBase tags and binary`, false)
+    .option(`--refresh`, `Refresh PocketBase tags and binary`, false)
+
     .description('Run pocketbase')
     .action(async (options, command) => {
       config({ ...options, version: options.useVersion })
+      dbg(`CLI options:`, options)
       dbg(`Forwarding args: `, command.args)
       await run(command.args)
     })

@@ -2,11 +2,21 @@ import { chmodSync, existsSync, writeFileSync } from 'fs'
 import JSZip from 'jszip'
 import fetch from 'node-fetch'
 import { resolve } from 'path'
+import { maxSatisfying } from 'semver'
+import { getAvailableVersions } from './api'
 import { config } from './config'
 import { dbg } from './dbg'
 
 export const getPocketBasePath = async () => {
-  const { version, cachePath, refresh, os, arch } = config()
+  const { version: semver, cachePath, refresh, os, arch } = config()
+
+  dbg(`Requested semver: ${semver}`)
+  const versions = await getAvailableVersions()
+  const version = maxSatisfying(versions, semver)
+  if (!version) {
+    throw new Error(`No version satisfies ${semver} (${versions.join(', ')})`)
+  }
+  dbg(`Selected version: ${version}`)
 
   const binaryName_Out =
     os === 'windows'

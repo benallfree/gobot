@@ -15,13 +15,13 @@ or (slower)
 
 **Switches**
 
-| Option    | Default   | Discussion                         |
-| --------- | --------- | ---------------------------------- |
-| --os      | host OS   | `windows, linux, darwin`           |
-| --arch    | host arch | `amd64, arm64, arm7`               |
-| --debug   | `false`   | Enable debugging output            |
-| --refresh | `false`   | Refresh PocketBase tags and binary |
-| --version | latest    | Run a specific PocketBase version  |
+| Option        | Default   | Discussion                                                                                                                                                       |
+| ------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --os          | host OS   | `windows, linux, darwin`                                                                                                                                         |
+| --arch        | host arch | `amd64, arm64, arm7`                                                                                                                                             |
+| --debug       | `false`   | Enable debugging output                                                                                                                                          |
+| --refresh     | `false`   | Refresh PocketBase tags and binary                                                                                                                               |
+| --use-version | latest    | Run a specific PocketBase version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
 
 All other switches and arguments are forwarded directly to the `pocketbase` binary.
 
@@ -38,7 +38,9 @@ npx pbgo --debug
 npx pbgo --help
 
 # Run a specific PocketBase version
-npx pbgo --version=0.21.0
+npx pbgo --use-version="0.21.0" # Run this exact version
+npx pbgo --use-version="~0.21.0" # Run highest 0.21.z version
+npx pbgo --use-version="0.*" # Run highest 0.y.z
 
 # Force pbGo to dump cache and refresh PocketBase tags and binaries
 npx pbgo --refresh
@@ -52,15 +54,15 @@ npx pbgo versions --json # Output in JSON format
 
 **Config**
 
-| Option    | Default       | Discussion                                |
-| --------- | ------------- | ----------------------------------------- |
-| os        | host OS       | `windows, linux, darwin`                  |
-| arch      | host arch     | `amd64, arm64, arm7`                      |
-| debug     | `false`       | Enable debugging output                   |
-| refresh   | `false`       | Refresh PocketBase tags and binary        |
-| version   | latest        | Run a specific PocketBase version         |
-| cachePath | host-specific | Set the cache path used by pbGo           |
-| env       | `{}`          | Hash of env vars to forward to PocketBase |
+| Option    | Default       | Discussion                                                                                                                                                       |
+| --------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| os        | host OS       | `windows, linux, darwin`                                                                                                                                         |
+| arch      | host arch     | `amd64, arm64, arm7`                                                                                                                                             |
+| debug     | `false`       | Enable debugging output                                                                                                                                          |
+| refresh   | `false`       | Refresh PocketBase tags and binary                                                                                                                               |
+| version   | latest        | Run a specific PocketBase version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
+| cachePath | host-specific | Set the cache path used by pbGo                                                                                                                                  |
+| env       | `{}`          | Hash of env vars to forward to PocketBase                                                                                                                        |
 
 ### `run(args:string[], options?: Partial<Config>)`
 
@@ -104,6 +106,11 @@ getPath().then((binPath) => {
 
 // Run a specific version of PocketBase
 getPath({ version: `0.22.3` }).then((binPath) => {
+  console.log(`pocketbase binary is located in ${binPath}`)
+})
+
+// Run the highest matching version of PocketBase 0.22.z
+getPath({ version: `0.22.*` }).then((binPath) => {
   console.log(`pocketbase binary is located in ${binPath}`)
 })
 
