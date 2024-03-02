@@ -3,7 +3,6 @@ import { join } from 'path'
 import { getPocketBasePath } from './getPocketBasePath'
 import { dbg } from './log'
 import { mergeConfig } from './mergeConfig'
-import { config } from './settings'
 import { ArchValue, arch as _arch } from './settings/arch'
 import { env as _env } from './settings/env'
 import { PlatformValue, os as _os } from './settings/os'
@@ -41,7 +40,7 @@ export const run = async (
   dbg(`Running ${fname}`, args)
 
   const proc = spawn(fname, args, {
-    env: config().env,
+    env,
     stdio: 'inherit',
     cwd: pwd(),
   })

@@ -6,7 +6,6 @@ import { download } from './download'
 import { getReleaseTags } from './getReleaseTags'
 import { dbg, log } from './log'
 import { run } from './run'
-import { config } from './settings'
 import { arch, archValueGuard } from './settings/arch'
 import { cachePath, clearCache } from './settings/cache'
 import { debug } from './settings/debug'
@@ -49,7 +48,6 @@ const main = async () => {
     .option(`--refresh`, `Refresh PocketBase tags and binary`, false)
     .option(`--cache-path <path>`, `The cache path to use`, cachePath())
     .action(async (options) => {
-      config({ ...options })
       debug(options.debug)
       dbg(`Options:`, options)
       cachePath(options.cachePath)
@@ -99,7 +97,6 @@ const main = async () => {
     .option(`--cache-path <path>`, `The cache path to use`, cachePath())
     .description('Run pocketbase')
     .action(async (options, command) => {
-      config({ ...options, version: options.useVersion })
       debug(options.debug)
       dbg(`CLI options:`, options)
       cachePath(options.cachePath)
