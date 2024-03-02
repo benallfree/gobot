@@ -1,8 +1,9 @@
 import { values } from '@s-libs/micro-dash'
 import envPaths from 'env-paths'
+import { resolve } from 'path'
 import { dbg } from './dbg'
 import { archName, osName } from './getOSAndArch'
-import { mkdir } from './util'
+import { mkdir, pwd } from './util'
 
 export const PLATFORM_MAP = {
   darwin: 'darwin',
@@ -87,7 +88,9 @@ export const config = (() => {
     const arch = _in.arch || archName()
     const refresh = !!_in.refresh
     const debug = !!_in.debug
-    const cachePath = _in.cachePath || paths.cache
+    const cachePath = _in.cachePath
+      ? resolve(pwd(), _in.cachePath)
+      : paths.cache
     const version = _in.version || ''
     const env = _in.env || {}
 
