@@ -5,7 +5,7 @@ import { resolve } from 'path'
 import { maxSatisfying } from 'semver'
 import { getAvailableVersions } from './api'
 import { config } from './config'
-import { dbg } from './dbg'
+import { dbg } from './log'
 
 export const getPocketBasePath = async () => {
   const { version: semver, cachePath, refresh, os, arch } = config()

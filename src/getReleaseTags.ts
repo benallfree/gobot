@@ -2,7 +2,7 @@ import { existsSync, readFileSync, statSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import semver from 'semver'
 import { config } from './config'
-import { dbg } from './dbg'
+import { dbg } from './log'
 import { smartFetch } from './smartFetch'
 
 type Release = {

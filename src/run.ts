@@ -1,9 +1,9 @@
 import { spawn } from 'child_process'
 import { join } from 'path'
 import { Config, config } from './config'
-import { dbg } from './dbg'
 import { getLatestReleaseVersion } from './getLatestRelease'
 import { getPocketBasePath } from './getPocketBasePath'
+import { dbg } from './log'
 import { pwd } from './util'
 
 export const run = async (args: string[], options?: Partial<Config>) => {

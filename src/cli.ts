@@ -3,10 +3,10 @@
 import { Command } from 'commander'
 import json from '../package.json'
 import { archValueGuard, config, platformValueGuard } from './config'
-import { dbg } from './dbg'
 import { getLatestReleaseVersion } from './getLatestRelease'
 import { archName, osName } from './getOSAndArch'
 import { getReleaseTags } from './getReleaseTags'
+import { dbg, log } from './log'
 import { run } from './run'
 
 const main = async () => {

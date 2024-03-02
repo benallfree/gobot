@@ -1,7 +1,7 @@
 import { existsSync, readFileSync, writeFileSync } from 'fs'
 import fetch from 'node-fetch'
 import { dirname } from 'path'
-import { dbg } from './dbg'
+import { dbg } from './log'
 import { mkdir } from './util'
 
 export const smartFetch = async <TRet>(

@@ -1,8 +1,8 @@
 import { values } from '@s-libs/micro-dash'
 import envPaths from 'env-paths'
 import { resolve } from 'path'
-import { dbg } from './dbg'
 import { archName, osName } from './getOSAndArch'
+import { dbg } from './log'
 import { mkdir, pwd } from './util'
 
 export const PLATFORM_MAP = {
