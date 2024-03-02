@@ -53,6 +53,47 @@ npx pbgo versions
 npx pbgo versions --json # Output in JSON format
 ```
 
+### `pbgo versions`
+
+Display and optionally download versions ahead of time.
+
+| Option       | Default       | Discussion                                                                                                                                                                   |
+| ------------ | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------- | --------------------------------------------- |
+| --os         | host OS       | `windows, linux, darwin`                                                                                                                                                     |
+| --arch       | host arch     | `amd64, arm64, arm7`                                                                                                                                                         |
+| --debug      | `false`       | Enable debugging output                                                                                                                                                      |
+| --refresh    | `false`       | Clear the pbGo cache                                                                                                                                                         |
+| --only       | latest        | Limit the operations to only matching versions in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
+| --cache-path | host specific | Use the specified directory for cache files.                                                                                                                                 | --download | `false` | Download versions in addition to listing them |
+|  |
+
+All other switches and arguments are forwarded directly to the `pocketbase` binary.
+
+**Examples**
+
+```bash
+# Run `pocketbase serve`
+npx pbgo serve
+
+# Run in pbGo debugging mode`
+npx pbgo --debug
+
+# Run `pocketbase --help`
+npx pbgo --help
+
+# Run a specific PocketBase version
+npx pbgo --use-version="0.21.0" # Run this exact version
+npx pbgo --use-version="~0.21.0" # Run highest 0.21.z version
+npx pbgo --use-version="0.*" # Run highest 0.y.z
+
+# Force pbGo to dump cache and refresh PocketBase tags and binaries
+npx pbgo --refresh
+
+# List available PocketBase versions
+npx pbgo versions
+npx pbgo versions --json # Output in JSON format
+```
+
 ## API
 
 **Config**
