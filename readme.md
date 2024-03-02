@@ -20,7 +20,7 @@ or (slower)
 | --os          | host OS       | `windows, linux, darwin`                                                                                                                                         |
 | --arch        | host arch     | `amd64, arm64, arm7`                                                                                                                                             |
 | --debug       | `false`       | Enable debugging output                                                                                                                                          |
-| --refresh     | `false`       | Refresh PocketBase tags and binary                                                                                                                               |
+| --refresh     | `false`       | Clear the pbGo cache                                                                                                                                             |
 | --use-version | latest        | Run a specific PocketBase version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
 | --cache-dir   | host specific | Use the specified directory for cache files.                                                                                                                     |
 
@@ -60,7 +60,7 @@ npx pbgo versions --json # Output in JSON format
 | os        | host OS       | `windows, linux, darwin`                                                                                                                                         |
 | arch      | host arch     | `amd64, arm64, arm7`                                                                                                                                             |
 | debug     | `false`       | Enable debugging output                                                                                                                                          |
-| refresh   | `false`       | Refresh PocketBase tags and binary                                                                                                                               |
+| refresh   | `false`       | Clear the pbGo cache                                                                                                                                             |
 | version   | latest        | Run a specific PocketBase version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
 | cachePath | host-specific | Set the cache path used by pbGo                                                                                                                                  |
 | env       | `{}`          | Hash of env vars to forward to PocketBase                                                                                                                        |
@@ -133,6 +133,10 @@ Returns an array of available versions, ordered latest to oldest. Most `Config` 
 ### `getAvailableVersionsPath(options?: Partial<Config>): Promise<string>`
 
 Returns a path to a JSON file containing all the versions. Most `Config` values have no effect.
+
+### `clearCache(options?: Partial<Config>): Promise<string>`
+
+Clears the pbGo cache.
 
 ## Where is `data.db`?
 

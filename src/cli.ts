@@ -25,8 +25,11 @@ const main = async () => {
     .description(`Show and optionally download available versions.`)
     .option(`--debug`, `Show debugging output`, false)
     .option(`--json`, `Show in JSON format`, false)
+    .option(`--refresh`, `Refresh PocketBase tags and binary`, false)
     .action(async (options) => {
-      config({ ...options, version: options.useVersion })
+      if (options.refresh) {
+        clearCache()
+      }
       const tags = await getReleaseTags()
       if (options.json) {
         console.log(JSON.stringify(tags, null, 2))
@@ -55,6 +58,9 @@ const main = async () => {
     .action(async (options, command) => {
       config({ ...options, version: options.useVersion })
       dbg(`CLI options:`, options)
+      if (options.refresh) {
+        clearCache()
+      }
       dbg(`Forwarding args: `, command.args)
       await run(command.args)
     })

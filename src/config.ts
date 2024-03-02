@@ -64,7 +64,6 @@ export type Config = {
   os: PlatformValue
   cachePath: string
   version: string
-  refresh: boolean
   debug: boolean
   env: NodeJS.ProcessEnv
 }
@@ -88,7 +87,6 @@ export const config = (() => {
     arch: archName(),
     debug: false,
     version: '',
-    refresh: false,
     cachePath: paths.cache,
     env: {},
   }

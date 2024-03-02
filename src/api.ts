@@ -1,9 +1,20 @@
 import { resolve } from 'path'
+import { clearCache as _clearCache } from './clearCache'
 import { Config, config } from './config'
 import { getLatestReleaseVersion } from './getLatestRelease'
 import { getPocketBasePath as _getPocketBasePath } from './getPocketBasePath'
 import { getReleaseTags } from './getReleaseTags'
 export { run } from './run.js'
+
+export const clearCache = async (cfg?: Partial<Config>) => {
+  if (cfg) {
+    config({
+      ...cfg,
+      version: cfg?.version || (await getLatestReleaseVersion()),
+    })
+  }
+  return _clearCache()
+}
 
 export const getPocketBasePath = async (cfg?: Partial<Config>) => {
   if (cfg) {

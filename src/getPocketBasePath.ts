@@ -8,7 +8,7 @@ import { config } from './config'
 import { dbg } from './log'
 
 export const getPocketBasePath = async () => {
-  const { version: semver, cachePath, refresh, os, arch } = config()
+  const { version: semver, cachePath, os, arch } = config()
 
   dbg(`Requested semver: ${semver}`)
   const versions = await getAvailableVersions()
@@ -25,7 +25,7 @@ export const getPocketBasePath = async () => {
   const fname = resolve(cachePath, binaryName_Out)
 
   // If binary exists, skip download
-  if (!existsSync(fname) || refresh) {
+  if (!existsSync(fname)) {
     const link = `https://github.com/pocketbase/pocketbase/releases/download/v${version}/pocketbase_${version}_${os}_${arch}.zip`
     dbg(`Downloading ${link}`)
 

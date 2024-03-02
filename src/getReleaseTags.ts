@@ -19,7 +19,7 @@ type Releases = Release[]
 export const getReleaseTags = async () => {
   const cacheFile = join(config().cachePath, `releases.json`)
   dbg(`Releases cache: ${cacheFile}`)
-  const cacheExists = existsSync(cacheFile) && !config().refresh
+  const cacheExists = existsSync(cacheFile)
   dbg(`Release cache exists: ${cacheExists}`)
 
   let cacheIsFresh = false
