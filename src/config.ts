@@ -1,8 +1,8 @@
 import { values } from '@s-libs/micro-dash'
 import envPaths from 'env-paths'
-import { mkdirSync } from 'fs'
 import { dbg } from './dbg'
 import { archName, osName } from './getOSAndArch'
+import { mkdir } from './util'
 
 export const PLATFORM_MAP = {
   darwin: 'darwin',
@@ -91,7 +91,7 @@ export const config = (() => {
     const version = _in.version || ''
     const env = _in.env || {}
 
-    mkdirSync(cachePath, { recursive: true })
+    mkdir('-p', cachePath)
 
     _config.os = os
     _config.arch = arch
