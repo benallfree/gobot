@@ -12,12 +12,16 @@ import { cachePath } from './settings/cache'
 import { os as _os } from './settings/os'
 import { version as _version } from './settings/version'
 
-export const getPocketBasePath = async (options: Partial<RunOptions> = {}) => {
+export type BinaryOptions = Omit<RunOptions, 'env'>
+
+export const getPocketBasePath = async (
+  options: Partial<BinaryOptions> = {},
+) => {
   const {
     os,
     arch,
     version: semver,
-  } = mergeConfig<RunOptions>(
+  } = mergeConfig<BinaryOptions>(
     {
       os: _os(),
       arch: _arch(),
@@ -27,7 +31,7 @@ export const getPocketBasePath = async (options: Partial<RunOptions> = {}) => {
   )
 
   dbg(`Requested semver: ${semver}`)
-  const versions = await getAvailableVersions()
+  const versions = await getAvailableVersions(semver)
   const version = maxSatisfying(versions, semver)
   if (!version) {
     throw new Error(`No version satisfies ${semver} (${versions.join(', ')})`)

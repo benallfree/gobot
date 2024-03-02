@@ -5,6 +5,7 @@ import { dbg } from './log'
 import { mergeConfig } from './mergeConfig'
 import { config } from './settings'
 import { ArchValue, arch as _arch } from './settings/arch'
+import { env as _env } from './settings/env'
 import { PlatformValue, os as _os } from './settings/os'
 import { version as _version } from './settings/version'
 import { pwd } from './util'
@@ -13,22 +14,24 @@ export type RunOptions = {
   os: PlatformValue
   arch: ArchValue
   version: string
+  env: NodeJS.ProcessEnv
 }
 
 export const run = async (
   args: string[],
   options: Partial<RunOptions> = {},
 ) => {
-  const { os, arch, version } = mergeConfig<RunOptions>(
+  const { os, arch, version, env } = mergeConfig<RunOptions>(
     {
       os: _os(),
       arch: _arch(),
       version: _version(),
+      env: _env(),
     },
     options,
   )
 
-  const fname = await getPocketBasePath()
+  const fname = await getPocketBasePath({ os, arch, version })
 
   // Check if "--dir" is already specified
   if (!args.find((arg) => arg.startsWith('--dir'))) {

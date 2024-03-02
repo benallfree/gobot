@@ -6,6 +6,7 @@ export { getPocketBasePath } from './getPocketBasePath'
 export { run } from './run.js'
 export { arch } from './settings/arch'
 export { clearCache } from './settings/cache'
+export { env } from './settings/env'
 export { os } from './settings/os'
 export { version } from './settings/version'
 

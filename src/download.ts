@@ -9,7 +9,7 @@ import { arch as _arch } from './settings/arch'
 import { os as _os } from './settings/os'
 import { version as _version } from './settings/version'
 
-export type DownloadOptions = RunOptions & { log: typeof _log }
+export type DownloadOptions = Omit<RunOptions, 'env'> & { log: typeof _log }
 
 export const download = async (options: Partial<DownloadOptions> = {}) => {
   const {

@@ -80,13 +80,9 @@ npx pbgo versions --download --only="0.19.*"
 
 ## API
 
-**Config**
+### `debug(newValue?: boolean)`
 
-| Option  | Default | Discussion                                                                                                                                                       |
-| ------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| debug   | `false` | Enable debugging output                                                                                                                                          |
-| version | latest  | Run a specific PocketBase version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
-| env     | `{}`    | Hash of env vars to forward to PocketBase                                                                                                                        |
+Gets or sets debug mode
 
 ### `cachePath(newPath?:string)`
 
@@ -103,6 +99,10 @@ Gets or sets the current architecture. Defaults to the host architecture.
 ### `os(newOs?: 'windows'|'linux'|'darwin')`
 
 Gets or sets the current Operating System. Defaults to the host operating system.
+
+### `env(newEnv?: NodeJS.ProcessEnv)`
+
+Gets or sets the current environment passed to the PocketBase runner. Default `{}`
 
 ### `run(args:string[], options?: Partial<RunOptions>)`
 
@@ -156,9 +156,17 @@ Run PocketBase, passing `args` to the PocketBase process.
 | version | `version()` | Semver or semver range          |
 | log     | `dbg`       | Logger function to use          |
 
-### `getPocketBasePath(options?: Partial<Config>): Promise<string>`
+### `getPocketBasePath(options?: Partial<BinaryOptions>): Promise<string>`
 
 Returns the path to the requested PocketBase binary. It will automatically download the appropriate binary for your platform if it has not been downloaded yet.
+
+**Options**
+
+| Option  | Default     | Discussion                      |
+| ------- | ----------- | ------------------------------- |
+| os      | `os()`      | `windows`, `linux`, or `darwin` |
+| arch    | `arch()`    | `arm64`, `amd64`, or `arm7`     |
+| version | `version()` | Semver or semver range          |
 
 ```js
 import { getPath } from 'pbgo'
@@ -196,10 +204,6 @@ Returns an array of available versions, ordered latest to oldest. Most `Config` 
 ### `getAvailableVersionsPath(options?: Partial<Config>): Promise<string>`
 
 Returns a path to a JSON file containing all the versions. Most `Config` values have no effect.
-
-### `debug(newValue?: boolean)`
-
-Gets or sets debug mode
 
 ## Where is `data.db`?
 
