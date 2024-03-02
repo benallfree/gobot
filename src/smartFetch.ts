@@ -10,6 +10,7 @@ export const smartFetch = async <TRet>(
 ): Promise<TRet> => {
   const data = await (async () => {
     try {
+      dbg(`Fetching ${url}`)
       const res = await fetch(url)
       if (res.status !== 200) {
         throw new Error(`API appears to be down`)
