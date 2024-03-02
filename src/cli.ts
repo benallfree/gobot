@@ -6,12 +6,13 @@ import { satisfies } from 'semver'
 import json from '../package.json'
 import { getPocketBasePath } from './api'
 import { getLatestReleaseVersion } from './getLatestRelease'
-import { archName, osName } from './getOSAndArch'
+import { osName } from './getOSAndArch'
 import { getReleaseTags } from './getReleaseTags'
 import { dbg, log } from './log'
-import { archValueGuard, platformValueGuard } from './osArch'
+import { platformValueGuard } from './osArch'
 import { run } from './run'
 import { config } from './settings'
+import { arch, archValueGuard } from './settings/arch'
 import { cachePath, clearCache } from './settings/cache'
 
 const main = async () => {
@@ -40,7 +41,7 @@ const main = async () => {
       false,
     )
     .option(`--os <os>`, `Specify OS/Platform`, platformValueGuard, osName())
-    .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, archName())
+    .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, arch())
     .option(`--json`, `Show in JSON format`, false)
     .option(`--refresh`, `Refresh PocketBase tags and binary`, false)
     .option(`--cache-path <path>`, `The cache path to use`, cachePath())
@@ -48,6 +49,7 @@ const main = async () => {
       config({ ...options })
       dbg(`Options:`, options)
       cachePath(options.cachePath)
+      arch(options.arch)
       if (options.refresh) {
         clearCache()
       }
@@ -87,7 +89,7 @@ const main = async () => {
     )
     .option(`--debug`, `Show debugging output`, false)
     .option(`--os <os>`, `Specify OS/Platform`, platformValueGuard, osName())
-    .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, archName())
+    .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, arch())
     .option(`--upgrade`, 'Disabled', false)
     .option(`--refresh`, `Refresh PocketBase tags and binary`, false)
     .option(`--cache-path <path>`, `The cache path to use`, cachePath())
@@ -96,6 +98,7 @@ const main = async () => {
       config({ ...options, version: options.useVersion })
       dbg(`CLI options:`, options)
       cachePath(options.cachePath)
+      arch(options.arch)
       if (options.refresh) {
         clearCache()
       }

@@ -2,16 +2,18 @@
 
 This package will download the latest binary [PocketBase release](https://github.com/pocketbase/pocketbase/releases) for the current operating system and architecture, and run it.
 
+Works on Windows, Linux, OS X
+
 ```bash
 npm i -g pbgo
 pocketbase --help
 ```
 
-or (slower)
+or
 
 `npx pbgo --help`
 
-## CLI Usage
+## CLI
 
 **Switches**
 
@@ -51,17 +53,16 @@ npx pbgo versions
 npx pbgo versions --json # Output in JSON format
 ```
 
-## Programmatic API
+## API
 
 **Config**
 
-| Option  | Default   | Discussion                                                                                                                                                       |
-| ------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| os      | host OS   | `windows, linux, darwin`                                                                                                                                         |
-| arch    | host arch | `amd64, arm64, arm7`                                                                                                                                             |
-| debug   | `false`   | Enable debugging output                                                                                                                                          |
-| version | latest    | Run a specific PocketBase version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
-| env     | `{}`      | Hash of env vars to forward to PocketBase                                                                                                                        |
+| Option  | Default | Discussion                                                                                                                                                       |
+| ------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| os      | host OS | `windows, linux, darwin`                                                                                                                                         |
+| debug   | `false` | Enable debugging output                                                                                                                                          |
+| version | latest  | Run a specific PocketBase version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
+| env     | `{}`    | Hash of env vars to forward to PocketBase                                                                                                                        |
 
 ### `cachePath(newPath?:string)`
 
@@ -70,6 +71,10 @@ Gets or sets the current cache path where tags and binaries are stored.
 ### `clearCache()`
 
 Clears the cache currently set by `cachePath()`
+
+### `arch(newArch?: 'amd64'|'arm64'|'arm7')`
+
+Gets or sets the current architecture. Defaults to the host architecture.
 
 ### `run(args:string[], options?: Partial<Config>)`
 

@@ -1,11 +1,11 @@
-import { archName, osName } from '../getOSAndArch'
+import { osName } from '../getOSAndArch'
 import { dbg } from '../log'
 import { mergeConfig } from '../mergeConfig'
-import { ArchValue, PlatformValue } from '../osArch'
+import { PlatformValue } from '../osArch'
+import { arch } from './arch'
 import { cachePath } from './cache'
 
 export type Config = {
-  arch: ArchValue
   os: PlatformValue
   version: string
   debug: boolean
@@ -13,10 +13,10 @@ export type Config = {
 }
 
 export const printSettings = () => {
-  const { os, arch, version, debug, env } = config()
+  const { os, version, debug, env } = config()
   dbg(`Current settings: ${os}`)
   dbg(`\tOS: ${os}`)
-  dbg(`\tArch: ${arch}`)
+  dbg(`\tArch:`, arch())
   dbg(`\tCache path:`, cachePath())
   dbg(`\tVersion: ${version}`)
   dbg(`\tDebug: ${debug}`)
@@ -26,7 +26,6 @@ export const printSettings = () => {
 export const config = (() => {
   let _config: Config = {
     os: osName(),
-    arch: archName(),
     debug: false,
     version: '',
     env: {},

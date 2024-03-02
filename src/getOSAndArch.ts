@@ -1,5 +1,5 @@
-import { arch as _arch, platform } from 'os'
-import { ARCH_MAP, PLATFORM_MAP, isArchKey, isPlatformKey } from './osArch'
+import { platform } from 'os'
+import { PLATFORM_MAP, isPlatformKey } from './osArch'
 
 export const osName = () => {
   const _p = platform()
@@ -8,12 +8,4 @@ export const osName = () => {
     throw new Error(`Unsupported platform: ${_p}`)
   }
   return PLATFORM_MAP[_p]
-}
-
-export const archName = () => {
-  const _a = _arch()
-  if (!isArchKey(_a)) {
-    throw new Error(`Unsupported architecture: ${_a}`)
-  }
-  return ARCH_MAP[_a]
 }

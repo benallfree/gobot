@@ -6,10 +6,11 @@ import { maxSatisfying } from 'semver'
 import { getAvailableVersions } from './api'
 import { dbg } from './log'
 import { config } from './settings'
+import { arch } from './settings/arch'
 import { cachePath } from './settings/cache'
 
 export const getPocketBasePath = async () => {
-  const { version: semver, os, arch } = config()
+  const { version: semver, os } = config()
 
   dbg(`Requested semver: ${semver}`)
   const versions = await getAvailableVersions()
@@ -21,13 +22,13 @@ export const getPocketBasePath = async () => {
 
   const binaryName_Out =
     os === 'windows'
-      ? `pocketbase_${os}_${arch}_${version}.exe`
-      : `pocketbase_${os}_${arch}_${version}`
+      ? `pocketbase_${os}_${arch()}_${version}.exe`
+      : `pocketbase_${os}_${arch()}_${version}`
   const fname = resolve(cachePath(), binaryName_Out)
 
   // If binary exists, skip download
   if (!existsSync(fname)) {
-    const link = `https://github.com/pocketbase/pocketbase/releases/download/v${version}/pocketbase_${version}_${os}_${arch}.zip`
+    const link = `https://github.com/pocketbase/pocketbase/releases/download/v${version}/pocketbase_${version}_${os}_${arch()}.zip`
     dbg(`Downloading ${link}`)
 
     const res = await fetch(link)
