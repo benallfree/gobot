@@ -1,4 +1,4 @@
-import { config } from './settings/index.js'
+import { debug } from './settings/debug'
 
-export const dbg = (...args: any[]) => config().debug && console.log(...args)
+export const dbg = (...args: any[]) => debug() && console.log(...args)
 export const log = (...args: any[]) => console.log(...args)

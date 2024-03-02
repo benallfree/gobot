@@ -197,6 +197,10 @@ Returns an array of available versions, ordered latest to oldest. Most `Config` 
 
 Returns a path to a JSON file containing all the versions. Most `Config` values have no effect.
 
+### `debug(newValue?: boolean)`
+
+Gets or sets debug mode
+
 ## Where is `data.db`?
 
 By default, `pocketbase` places `data.db` where the executable resides. However, this is [inconsistent across platforms](https://github.com/pocketbase/pocketbase/issues/4361). `bash`/`zsh` will alias `pocketbase` so it appears that the executable launched from the current directory. Windows shell uses the physical path to the executable.
