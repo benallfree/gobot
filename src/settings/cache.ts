@@ -14,7 +14,7 @@ export const clearCache = () => {
 }
 
 /**
- * Get or set the path pbGo us using to save all cached items to disk.
+ * Get or set the path pbGo us using to save all cached items to disk. The path will be created if it does not exist.
  */
 export const cachePath = mkSetting(envPaths('pbgo').cache, (v) => {
   const path = resolve(pwd(), v)

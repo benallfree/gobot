@@ -1,8 +1,4 @@
-[pbgo](https://github.com/pockethost/pbgo/blob/main/readme.md) / Exports
-
-# poGo API
-
-This API is available so you can embed pbGo and PocketBase in your nodejs application.
+## Table of contents
 
 ### Functions
 
@@ -48,6 +44,8 @@ settings/arch.ts:45
 
 ▸ **cachePath**(`newValue?`): `string`
 
+Get or set the path pbGo us using to save all cached items to disk. The path will be created if it does not exist.
+
 #### Parameters
 
 | Name        | Type     |
@@ -60,7 +58,7 @@ settings/arch.ts:45
 
 #### Defined in
 
-settings/cache.ts:13
+settings/cache.ts:19
 
 ---
 
@@ -68,13 +66,15 @@ settings/cache.ts:13
 
 ▸ **clearCache**(): `void`
 
+Clear all items from cache (flush cache).
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-settings/cache.ts:8
+settings/cache.ts:11
 
 ---
 
