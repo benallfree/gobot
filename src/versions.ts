@@ -19,7 +19,8 @@ type Release = {
 type Releases = Release[]
 
 const VERSIONS_FILE_NODE = `releases`
-export const getAllVersionTags = mkPromiseSingleton(async () => {
+
+const _getAllVersionTags = mkPromiseSingleton(async () => {
   const cacheFile = resolve(
     cachePath(),
     `${VERSIONS_FILE_NODE}.${ReleaseType.Json}`,
@@ -84,9 +85,14 @@ export const getAllVersionTags = mkPromiseSingleton(async () => {
   return tags
 })
 
+/**
+ * Query github and return all available release tags for PocketBase.
+ */
+export const getAllVersionTags = () => _getAllVersionTags()()
+
 export const getFilteredVersionTags = async (semver = version()) => {
   dbg(`Semver filter:`, semver)
-  const tags = await getAllVersionTags()().then((tags) =>
+  const tags = await getAllVersionTags().then((tags) =>
     tags.filter((version) => satisfies(version, semver)),
   )
   dbg(`Filtered tags:`, tags)
@@ -100,22 +106,37 @@ export enum ReleaseType {
   Text = 'txt',
 }
 
+/**
+ * Return a formatted string of available versions in the requested format (`json`, `txt`, `esm`, or `cjs`)
+ * @param type The format to return
+ * @returns
+ */
 export const getAvailableVersionsPath = async (
   type: ReleaseType = ReleaseType.Json,
 ) => {
-  await getAllVersionTags()()
+  await getAllVersionTags()
   return resolve(cachePath(), `${VERSIONS_FILE_NODE}.${type}`)
 }
 
+/**
+ * Return the most recent version number (semver) of PocketBase. Query github if cache is stale.
+ * @returns The most recent version number (semver) of PocketBase
+ */
 export async function getLatestVersion() {
   const tags = await getFilteredVersionTags()
 
   return tags[0] as string
 }
 
+/**
+ * Return the highest matching version.
+ *
+ * @param semver Version or range to match
+ * @returns
+ */
 export const getMatchingVersion = async (semver: string) => {
   dbg(`Requested version:`, semver)
-  const versions = await getAllVersionTags()()
+  const versions = await getAllVersionTags()
   const version = maxSatisfying(versions, semver)
   if (!version) {
     throw new Error(`No version satisfies ${semver} (${versions.join(', ')})`)
@@ -124,6 +145,12 @@ export const getMatchingVersion = async (semver: string) => {
   return version
 }
 
+/**
+ * Return all matching versions.
+ *
+ * @param semver Version or range to match
+ * @returns
+ */
 export const getMatchingVersions = async (semver: string) => {
   const tags = await getFilteredVersionTags()
   return tags.filter((version) => satisfies(version, semver))

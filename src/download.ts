@@ -2,14 +2,21 @@ import Bottleneck from 'bottleneck'
 import { getPocketBasePath } from './getPocketBasePath'
 import { log as _log, dbg } from './log'
 import { mergeConfig } from './mergeConfig'
-import { RunOptions } from './run'
+import { BinaryProfile } from './run'
 import { arch as _arch } from './settings/arch'
 import { os as _os } from './settings/os'
 import { version as _version } from './settings/version'
 import { getMatchingVersions } from './versions'
 
-export type DownloadOptions = Omit<RunOptions, 'env'> & { log: typeof _log }
+export interface DownloadOptions extends BinaryProfile {
+  log: typeof _log
+}
 
+/**
+ * Download one or more versions of PocketBase (default latest version for host machine). Downloads up to 10 binaries concurrently.
+ *
+ * @param options
+ */
 export const download = async (options: Partial<DownloadOptions> = {}) => {
   const {
     os,
@@ -34,7 +41,7 @@ export const download = async (options: Partial<DownloadOptions> = {}) => {
     tags.map((version) => {
       return limiter.schedule(() => {
         log(`Downloading ${version}`)
-        return getPocketBasePath(`${version}_${os}_${arch}`)({
+        return getPocketBasePath({
           version,
           os,
           arch,

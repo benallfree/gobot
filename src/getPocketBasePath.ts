@@ -5,32 +5,16 @@ import { resolve } from 'path'
 import { dbg } from './log'
 import { mergeConfig } from './mergeConfig'
 import { mkPromiseSingleton } from './mkPromiseSingleton'
-import { RunOptions } from './run'
+import { BinaryProfile } from './run'
 import { arch as _arch } from './settings/arch'
 import { cachePath } from './settings/cache'
 import { os as _os } from './settings/os'
 import { version as _version } from './settings/version'
 import { getMatchingVersion } from './versions'
 
-export type BinaryOptions = Omit<RunOptions, 'env'>
-
-export const getPocketBasePath = mkPromiseSingleton(
-  async (options: Partial<BinaryOptions> = {}) => {
-    const {
-      os,
-      arch,
-      version: semver,
-    } = mergeConfig<BinaryOptions>(
-      {
-        os: _os(),
-        arch: _arch(),
-        version: _version(),
-      },
-      options,
-    )
-
-    const version = await getMatchingVersion(semver)
-
+const _getPocketBasePath = mkPromiseSingleton(
+  async (profile: BinaryProfile) => {
+    const { version, os, arch } = profile
     const binaryName_Out =
       os === 'windows'
         ? `pocketbase_${os}_${arch}_${version}.exe`
@@ -70,3 +54,28 @@ export const getPocketBasePath = mkPromiseSingleton(
     return fname
   },
 )
+
+/**
+ * Return the file path for the given binary profile (`version`, `os`, and `arch`, all defaulting to global settings which default to host machine compatibility)
+ *
+ */
+export const getPocketBasePath = async (
+  options: Partial<BinaryProfile> = {},
+) => {
+  const {
+    os,
+    arch,
+    version: semver,
+  } = mergeConfig<BinaryProfile>(
+    {
+      os: _os(),
+      arch: _arch(),
+      version: _version(),
+    },
+    options,
+  )
+
+  const version = await getMatchingVersion(semver)
+
+  return _getPocketBasePath(`${version}_${os}_${arch}`)({ version, os, arch })
+}

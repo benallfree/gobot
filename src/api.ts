@@ -9,6 +9,7 @@ export { version } from './settings/version'
 export {
   getAllVersionTags,
   getAvailableVersionsPath,
-  getFilteredVersionTags,
   getLatestVersion,
+  getMatchingVersion,
+  getMatchingVersions,
 } from './versions'

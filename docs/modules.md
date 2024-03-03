@@ -9,8 +9,9 @@
 - [env](modules.md#env)
 - [getAllVersionTags](modules.md#getallversiontags)
 - [getAvailableVersionsPath](modules.md#getavailableversionspath)
-- [getFilteredVersionTags](modules.md#getfilteredversiontags)
 - [getLatestVersion](modules.md#getlatestversion)
+- [getMatchingVersion](modules.md#getmatchingversion)
+- [getMatchingVersions](modules.md#getmatchingversions)
 - [getPocketBasePath](modules.md#getpocketbasepath)
 - [os](modules.md#os)
 - [run](modules.md#run)
@@ -26,8 +27,8 @@ Get or set the architecture. This is the global default used whenever an archite
 
 #### Parameters
 
-| Name        | Type        | Description                                              |
-| :---------- | :---------- | :------------------------------------------------------- |
+| Name | Type | Description |
+| :------ | :------ | :------ |
 | `newValue?` | `ArchValue` | The new value to set, one of `amd64`, `arm64`, or `arm7` |
 
 #### Returns
@@ -38,7 +39,7 @@ Get or set the architecture. This is the global default used whenever an archite
 
 settings/arch.ts:45
 
----
+___
 
 ### cachePath
 
@@ -48,8 +49,8 @@ Get or set the path pbGo us using to save all cached items to disk. The path wil
 
 #### Parameters
 
-| Name        | Type     |
-| :---------- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `newValue?` | `string` |
 
 #### Returns
@@ -60,7 +61,7 @@ Get or set the path pbGo us using to save all cached items to disk. The path wil
 
 settings/cache.ts:19
 
----
+___
 
 ### clearCache
 
@@ -76,16 +77,18 @@ Clear all items from cache (flush cache).
 
 settings/cache.ts:11
 
----
+___
 
 ### download
 
 ▸ **download**(`options?`): `Promise`\<`void`\>
 
+Download one or more versions of PocketBase (default latest version for host machine). Downloads up to 10 binaries concurrently.
+
 #### Parameters
 
-| Name      | Type                           |
-| :-------- | :----------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `options` | `Partial`\<`DownloadOptions`\> |
 
 #### Returns
@@ -94,18 +97,20 @@ settings/cache.ts:11
 
 #### Defined in
 
-download.ts:13
+download.ts:20
 
----
+___
 
 ### env
 
 ▸ **env**(`newValue?`): `ProcessEnv`
 
+Get or set environment variables to pass to PocketBase at launch.
+
 #### Parameters
 
-| Name        | Type         |
-| :---------- | :----------- |
+| Name | Type |
+| :------ | :------ |
 | `newValue?` | `ProcessEnv` |
 
 #### Returns
@@ -114,51 +119,37 @@ download.ts:13
 
 #### Defined in
 
-settings/env.ts:3
+settings/env.ts:8
 
----
+___
 
 ### getAllVersionTags
 
-▸ **getAllVersionTags**(`key?`): (...`args`: []) => `Promise`\<`string`[]\>
+▸ **getAllVersionTags**(): `Promise`\<`string`[]\>
 
-#### Parameters
-
-| Name   | Type     |
-| :----- | :------- |
-| `key?` | `string` |
+Query github and return all available release tags for PocketBase.
 
 #### Returns
-
-`fn`
-
-▸ (`...args`): `Promise`\<`string`[]\>
-
-##### Parameters
-
-| Name      | Type |
-| :-------- | :--- |
-| `...args` | []   |
-
-##### Returns
 
 `Promise`\<`string`[]\>
 
 #### Defined in
 
-versions.ts:22
+versions.ts:91
 
----
+___
 
 ### getAvailableVersionsPath
 
 ▸ **getAvailableVersionsPath**(`type?`): `Promise`\<`string`\>
 
+Return a formatted string of available versions in the requested format (`json`, `txt`, `esm`, or `cjs`)
+
 #### Parameters
 
-| Name   | Type          | Default value      |
-| :----- | :------------ | :----------------- |
-| `type` | `ReleaseType` | `ReleaseType.Json` |
+| Name | Type | Default value | Description |
+| :------ | :------ | :------ | :------ |
+| `type` | `ReleaseType` | `ReleaseType.Json` | The format to return |
 
 #### Returns
 
@@ -166,19 +157,61 @@ versions.ts:22
 
 #### Defined in
 
-versions.ts:103
+versions.ts:114
 
----
+___
 
-### getFilteredVersionTags
+### getLatestVersion
 
-▸ **getFilteredVersionTags**(`semver?`): `Promise`\<`string`[]\>
+▸ **getLatestVersion**(): `Promise`\<`string`\>
+
+Return the most recent version number (semver) of PocketBase. Query github if cache is stale.
+
+#### Returns
+
+`Promise`\<`string`\>
+
+The most recent version number (semver) of PocketBase
+
+#### Defined in
+
+versions.ts:125
+
+___
+
+### getMatchingVersion
+
+▸ **getMatchingVersion**(`semver`): `Promise`\<`string`\>
+
+Return the highest matching version.
 
 #### Parameters
 
-| Name     | Type     |
-| :------- | :------- |
-| `semver` | `string` |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `semver` | `string` | Version or range to match |
+
+#### Returns
+
+`Promise`\<`string`\>
+
+#### Defined in
+
+versions.ts:137
+
+___
+
+### getMatchingVersions
+
+▸ **getMatchingVersions**(`semver`): `Promise`\<`string`[]\>
+
+Return all matching versions.
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `semver` | `string` | Version or range to match |
 
 #### Returns
 
@@ -186,64 +219,42 @@ versions.ts:103
 
 #### Defined in
 
-versions.ts:87
+versions.ts:154
 
----
-
-### getLatestVersion
-
-▸ **getLatestVersion**(): `Promise`\<`string`\>
-
-#### Returns
-
-`Promise`\<`string`\>
-
-#### Defined in
-
-versions.ts:110
-
----
+___
 
 ### getPocketBasePath
 
-▸ **getPocketBasePath**(`key?`): (...`args`: [options: Partial\<BinaryOptions\>]) => `Promise`\<`string`\>
+▸ **getPocketBasePath**(`options?`): `Promise`\<`string`\>
+
+Return the file path for the given binary profile (`version`, `os`, and `arch`, all defaulting to global settings which default to host machine compatibility)
 
 #### Parameters
 
-| Name   | Type     |
-| :----- | :------- |
-| `key?` | `string` |
+| Name | Type |
+| :------ | :------ |
+| `options` | `Partial`\<`BinaryProfile`\> |
 
 #### Returns
-
-`fn`
-
-▸ (`...args`): `Promise`\<`string`\>
-
-##### Parameters
-
-| Name      | Type                                |
-| :-------- | :---------------------------------- |
-| `...args` | [options: Partial\<BinaryOptions\>] |
-
-##### Returns
 
 `Promise`\<`string`\>
 
 #### Defined in
 
-getPocketBasePath.ts:17
+getPocketBasePath.ts:62
 
----
+___
 
 ### os
 
 ▸ **os**(`newValue?`): `PlatformValue`
 
+Get or set the operating system global (one of: `linux`, `windows`, `darwin`)
+
 #### Parameters
 
-| Name        | Type            |
-| :---------- | :-------------- |
+| Name | Type |
+| :------ | :------ |
 | `newValue?` | `PlatformValue` |
 
 #### Returns
@@ -252,20 +263,22 @@ getPocketBasePath.ts:17
 
 #### Defined in
 
-settings/os.ts:43
+settings/os.ts:51
 
----
+___
 
 ### run
 
 ▸ **run**(`args`, `options?`): `Promise`\<`ChildProcess`\>
 
+Run PocketBase.
+
 #### Parameters
 
-| Name      | Type                      |
-| :-------- | :------------------------ |
-| `args`    | `string`[]                |
-| `options` | `Partial`\<`RunOptions`\> |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `args` | `string`[] | The arguments to pass to `spawn()` |
+| `options` | `Partial`\<`RunOptions`\> | Globals will be used for `os`, `version`, `arch`, and `env` unless specified |
 
 #### Returns
 
@@ -273,19 +286,21 @@ settings/os.ts:43
 
 #### Defined in
 
-run.ts:19
+run.ts:32
 
----
+___
 
 ### version
 
 ▸ **version**(`newValue?`): `string`
 
+Gets or sets the global semver.
+
 #### Parameters
 
-| Name        | Type     |
-| :---------- | :------- |
-| `newValue?` | `string` |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `newValue?` | `string` | The version (semver) to set. Default `*` |
 
 #### Returns
 
@@ -293,4 +308,4 @@ run.ts:19
 
 #### Defined in
 
-settings/version.ts:3
+settings/version.ts:8

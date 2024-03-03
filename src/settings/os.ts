@@ -10,6 +10,11 @@ export const PLATFORM_MAP = {
 
 export type PlatformMap = typeof PLATFORM_MAP
 export type PlatformKey = keyof PlatformMap
+
+/**
+ * One of `darwin`, `linux`, or `windows`
+ * @interface
+ */
 export type PlatformValue = PlatformMap[PlatformKey]
 
 export const isPlatformKey = (
@@ -40,4 +45,7 @@ export const osName = () => {
   return PLATFORM_MAP[_p]
 }
 
+/**
+ * Get or set the operating system global (one of: `linux`, `windows`, `darwin`)
+ */
 export const os = mkSetting(osName(), platformValueGuard)

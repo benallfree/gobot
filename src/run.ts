@@ -9,13 +9,26 @@ import { PlatformValue, os as _os } from './settings/os'
 import { version as _version } from './settings/version'
 import { pwd } from './util'
 
-export type RunOptions = {
+/**
+ * @interface
+ */
+export interface BinaryProfile {
+  /** The platform value */
   os: PlatformValue
   arch: ArchValue
   version: string
+}
+
+export interface RunOptions extends BinaryProfile {
   env: NodeJS.ProcessEnv
 }
 
+/**
+ * Run PocketBase.
+ * @param args The arguments to pass to `spawn()`
+ * @param options Globals will be used for `os`, `version`, `arch`, and `env` unless specified
+ * @returns
+ */
 export const run = async (
   args: string[],
   options: Partial<RunOptions> = {},
@@ -30,7 +43,7 @@ export const run = async (
     options,
   )
 
-  const fname = await getPocketBasePath(`${version}_${os}_${arch}`)({
+  const fname = await getPocketBasePath({
     os,
     arch,
     version,
