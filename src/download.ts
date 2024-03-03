@@ -1,11 +1,9 @@
 import Bottleneck from 'bottleneck'
-import { getPocketBasePath } from './getPocketBasePath'
+import { getBinaryPath } from './getBinaryPath'
 import { log as _log, dbg } from './log'
 import { mergeConfig } from './mergeConfig'
 import { BinaryProfile } from './run'
-import { arch as _arch } from './settings/arch'
-import { os as _os } from './settings/os'
-import { version as _version } from './settings/version'
+import { arch as _arch, os as _os, version as _version } from './settings'
 import { getMatchingVersions } from './versions'
 
 export interface DownloadOptions extends BinaryProfile {
@@ -13,7 +11,7 @@ export interface DownloadOptions extends BinaryProfile {
 }
 
 /**
- * Download one or more versions of PocketBase (default latest version for host machine). Downloads up to 10 binaries concurrently.
+ * Download one or more versions of a Go binary (default latest version for host machine). Downloads up to 10 binaries concurrently.
  *
  * @param options
  */
@@ -41,7 +39,7 @@ export const download = async (options: Partial<DownloadOptions> = {}) => {
     tags.map((version) => {
       return limiter.schedule(() => {
         log(`Downloading ${version}`)
-        return getPocketBasePath({
+        return getBinaryPath({
           version,
           os,
           arch,

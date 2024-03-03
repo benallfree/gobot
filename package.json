@@ -1,21 +1,21 @@
 {
-  "name": "pbgo",
+  "name": "gobot",
   "version": "1.0.0-alpha.7",
-  "description": "PocketBase binary installer",
-  "repository": "github:pockethost/pbgo",
+  "description": "Install and run any Go-based app",
+  "repository": "github:benallfree/gobot",
   "type": "module",
   "main": "./dist/api.js",
   "bin": {
-    "pbgo": "./dist/cli.js",
+    "gobot": "./dist/cli.js",
     "pocketbase": "./src/cli.js"
   },
   "types": "dist/api.d.ts",
   "scripts": {
-    "prepack": "rimraf -v --glob \"pbgo-*\" pb_data",
+    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "bump": "npm version prerelease --preid alpha",
     "build": "rimraf dist && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm",
     "dev": "tsx src/cli.ts",
-    "test": "pnpm build && npm pack && npm rm -g pbgo && npm i -g pbgo-`cat package.json | fx '.version'`.tgz && pbgo --debug --help",
+    "test": "pnpm build && npm pack && npm rm -g gobot && npm i -g gobot-`cat package.json | fx '.version'`.tgz && gobot --debug --help",
     "docs": "typedoc"
   },
   "keywords": [
@@ -36,7 +36,8 @@
     "jszip": "^3.10.1",
     "node-fetch": "^3.3.2",
     "semver": "^7.6.0",
-    "shelljs": "^0.8.5"
+    "shelljs": "^0.8.5",
+    "rimraf": "^5.0.5"
   },
   "devDependencies": {
     "@types/semver": "^7.5.8",
@@ -48,7 +49,6 @@
     "ncp": "^2.0.0",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
-    "rimraf": "^5.0.5",
     "tsup": "^8.0.2",
     "tsx": "^4.7.1",
     "typedoc": "^0.25.9",

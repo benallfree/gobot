@@ -1,12 +1,16 @@
 import { spawn } from 'child_process'
-import { join } from 'path'
-import { getPocketBasePath } from './getPocketBasePath'
+import { getBinaryPath } from './getBinaryPath'
 import { dbg } from './log'
 import { mergeConfig } from './mergeConfig'
-import { ArchValue, arch as _arch } from './settings/arch'
-import { env as _env } from './settings/env'
-import { PlatformValue, os as _os } from './settings/os'
-import { version as _version } from './settings/version'
+import {
+  ArchValue,
+  PlatformValue,
+  arch as _arch,
+  env as _env,
+  os as _os,
+  version as _version,
+  plugin,
+} from './settings'
 import { pwd } from './util'
 
 /**
@@ -24,7 +28,7 @@ export interface RunOptions extends BinaryProfile {
 }
 
 /**
- * Run PocketBase.
+ * Run a Go binary.
  * @param args The arguments to pass to `spawn()`
  * @param options Globals will be used for `os`, `version`, `arch`, and `env` unless specified
  * @returns
@@ -43,16 +47,14 @@ export const run = async (
     options,
   )
 
-  const fname = await getPocketBasePath({
+  const fname = await getBinaryPath({
     os,
     arch,
     version,
   })
 
-  // Check if "--dir" is already specified
-  if (!args.find((arg) => arg.startsWith('--dir'))) {
-    args.push(`--dir=${join(pwd(), `pb_data`)}`)
-  }
+  const { prepare, name } = plugin()
+  prepare(args)
 
   dbg(`Running ${fname}`, args)
 
@@ -63,11 +65,11 @@ export const run = async (
   })
 
   proc.on('error', (err) => {
-    console.error(`Failed to start pocketbase: ${err.message}`)
+    console.error(`Failed to start ${name}: ${err.message}`)
   })
 
   proc.on('exit', (code) => {
-    console.log(`pocketbase exited with code ${code}`)
+    console.log(`${name} exited with code ${code}`)
   })
 
   return proc

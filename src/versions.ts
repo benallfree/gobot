@@ -3,8 +3,7 @@ import { resolve } from 'path'
 import { compare, maxSatisfying, rcompare, satisfies } from 'semver'
 import { dbg } from './log'
 import { mkPromiseSingleton } from './mkPromiseSingleton'
-import { cachePath } from './settings/cache'
-import { version } from './settings/version'
+import { cachePath, plugin, version } from './settings'
 import { smartFetch } from './smartFetch'
 
 type Release = {
@@ -21,6 +20,7 @@ type Releases = Release[]
 const VERSIONS_FILE_NODE = `releases`
 
 const _getAllVersionTags = mkPromiseSingleton(async () => {
+  const { name, repo } = plugin()
   const cacheFile = resolve(
     cachePath(),
     `${VERSIONS_FILE_NODE}.${ReleaseType.Json}`,
@@ -46,11 +46,11 @@ const _getAllVersionTags = mkPromiseSingleton(async () => {
     let page = 1
     const versions: Releases = []
     do {
-      dbg(`Fetching info for PocketBase releases page ${page}...`)
-      const url = `https://api.github.com/repos/pocketbase/pocketbase/releases?per_page=100&page=${page}`
+      dbg(`Fetching info for ${name} releases page ${page}...`)
+      const url = `https://api.github.com/repos/${repo}/releases?per_page=100&page=${page}`
       const chunk = await smartFetch<Releases>(url)(
         url,
-        resolve(cachePath(), `pb_releases_page_${page}.json`), // Cache each page individually to avoid re-fetching all data for updates.
+        resolve(cachePath(), `releases_page_${page}.json`), // Cache each page individually to avoid re-fetching all data for updates.
       )
       if (chunk.length === 0) break
       versions.push(...chunk)
@@ -86,7 +86,7 @@ const _getAllVersionTags = mkPromiseSingleton(async () => {
 })
 
 /**
- * Query github and return all available release tags for PocketBase.
+ * Query github and return all available release tags for binary.
  */
 export const getAllVersionTags = () => _getAllVersionTags()()
 
@@ -119,8 +119,8 @@ export const getAvailableVersionsPath = async (
 }
 
 /**
- * Return the most recent version number (semver) of PocketBase. Query github if cache is stale.
- * @returns The most recent version number (semver) of PocketBase
+ * Return the most recent version number (semver) of binary. Query github if cache is stale.
+ * @returns The most recent version number (semver) of binary
  */
 export async function getLatestVersion() {
   const tags = await getFilteredVersionTags()

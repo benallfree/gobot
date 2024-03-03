@@ -14,10 +14,11 @@ export const clearCache = () => {
 }
 
 /**
- * Get or set the path pbGo us using to save all cached items to disk. The path will be created if it does not exist.
+ * Get or set the cache path used to store all assets. The path will be created if it does not exist.
  */
-export const cachePath = mkSetting(envPaths('pbgo').cache, (v) => {
+export const cachePath = mkSetting(envPaths('gobot').cache, (v) => {
   const path = resolve(pwd(), v)
+  dbg(`Setting cache path`, path)
   mkdir('-p', path)
   return path
 })

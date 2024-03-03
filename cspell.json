@@ -17,6 +17,7 @@
     "frontends",
     "fullchain",
     "getenv",
+    "gobot",
     "goja",
     "IPCIDR",
     "jsonifiable",

@@ -6,10 +6,13 @@
     "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
     "strict": true /* Enable all strict type-checking options. */,
     "noEmit": true,
+    "noUncheckedIndexedAccess": true,
+    "strictNullChecks": true,
     "jsx": "preserve",
     "declaration": true,
     "moduleResolution": "node",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "lib": []
   },
   "include": ["./src", "./package.json"]
 }

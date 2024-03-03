@@ -1,11 +1,7 @@
 export { download } from './download'
-export { getPocketBasePath } from './getPocketBasePath'
+export { getBinaryPath } from './getBinaryPath'
 export { run } from './run.js'
-export { arch } from './settings/arch'
-export { cachePath, clearCache } from './settings/cache'
-export { env } from './settings/env'
-export { os } from './settings/os'
-export { version } from './settings/version'
+export { arch, cachePath, clearCache, env, os, version } from './settings'
 export {
   getAllVersionTags,
   getAvailableVersionsPath,
