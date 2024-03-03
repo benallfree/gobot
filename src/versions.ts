@@ -1,6 +1,6 @@
 import { existsSync, readFileSync, statSync, writeFileSync } from 'fs'
 import { resolve } from 'path'
-import { compare, rcompare, satisfies } from 'semver'
+import { compare, maxSatisfying, rcompare, satisfies } from 'semver'
 import { dbg } from './log'
 import { mkPromiseSingleton } from './mkPromiseSingleton'
 import { cachePath } from './settings/cache'
@@ -18,8 +18,12 @@ type Release = {
 }
 type Releases = Release[]
 
-export const getAllReleaseTags = mkPromiseSingleton(async () => {
-  const cacheFile = resolve(cachePath(), `releases.json`)
+const VERSIONS_FILE_NODE = `releases`
+export const getAllVersionTags = mkPromiseSingleton(async () => {
+  const cacheFile = resolve(
+    cachePath(),
+    `${VERSIONS_FILE_NODE}.${ReleaseType.Json}`,
+  )
   dbg(`Releases cache: ${cacheFile}`)
   const cacheExists = existsSync(cacheFile)
   dbg(`Release cache exists: ${cacheExists}`)
@@ -39,7 +43,7 @@ export const getAllReleaseTags = mkPromiseSingleton(async () => {
 
   if (!cacheIsFresh) {
     let page = 1
-    const releases: Releases = []
+    const versions: Releases = []
     do {
       dbg(`Fetching info for PocketBase releases page ${page}...`)
       const url = `https://api.github.com/repos/pocketbase/pocketbase/releases?per_page=100&page=${page}`
@@ -48,15 +52,28 @@ export const getAllReleaseTags = mkPromiseSingleton(async () => {
         resolve(cachePath(), `pb_releases_page_${page}.json`), // Cache each page individually to avoid re-fetching all data for updates.
       )
       if (chunk.length === 0) break
-      releases.push(...chunk)
+      versions.push(...chunk)
       page++
     } while (true)
 
-    const filteredReleases = releases
+    const sortedVersions = versions
       .map((release) => release.tag_name.slice(1)) // Remove 'v' prefix from tag name for proper semver comparison
       .sort((a, b) => rcompare(a, b)) // Sort versions in descending order using semver
 
-    writeFileSync(cacheFile, JSON.stringify(filteredReleases, null, 2))
+    const json = JSON.stringify(sortedVersions, null, 2)
+    writeFileSync(cacheFile, json)
+    writeFileSync(
+      resolve(cachePath(), `${VERSIONS_FILE_NODE}.${ReleaseType.Cjs}`),
+      `module.exports = ${json}`,
+    )
+    writeFileSync(
+      resolve(cachePath(), `${VERSIONS_FILE_NODE}.${ReleaseType.Esm}`),
+      `export const versions = ${json}`,
+    )
+    writeFileSync(
+      resolve(cachePath(), `${VERSIONS_FILE_NODE}.${ReleaseType.Text}`),
+      sortedVersions.join(`\n`),
+    )
   } else {
     dbg('Using cached release tags data.')
   }
@@ -67,11 +84,47 @@ export const getAllReleaseTags = mkPromiseSingleton(async () => {
   return tags
 })
 
-export const getReleaseTags = async (semver = version()) => {
+export const getFilteredVersionTags = async (semver = version()) => {
   dbg(`Semver filter:`, semver)
-  const tags = await getAllReleaseTags()().then((tags) =>
+  const tags = await getAllVersionTags()().then((tags) =>
     tags.filter((version) => satisfies(version, semver)),
   )
   dbg(`Filtered tags:`, tags)
   return tags
+}
+
+export enum ReleaseType {
+  Json = 'json',
+  Cjs = 'cjs',
+  Esm = 'esm',
+  Text = 'txt',
+}
+
+export const getAvailableVersionsPath = async (
+  type: ReleaseType = ReleaseType.Json,
+) => {
+  await getAllVersionTags()()
+  return resolve(cachePath(), `${VERSIONS_FILE_NODE}.${type}`)
+}
+
+export async function getLatestVersion() {
+  const tags = await getFilteredVersionTags()
+
+  return tags[0] as string
+}
+
+export const getMatchingVersion = async (semver: string) => {
+  dbg(`Requested version:`, semver)
+  const versions = await getAllVersionTags()()
+  const version = maxSatisfying(versions, semver)
+  if (!version) {
+    throw new Error(`No version satisfies ${semver} (${versions.join(', ')})`)
+  }
+  dbg(`Matched version:`, version)
+  return version
+}
+
+export const getMatchingVersions = async (semver: string) => {
+  const tags = await getFilteredVersionTags()
+  return tags.filter((version) => satisfies(version, semver))
 }

@@ -2,8 +2,6 @@ import { chmodSync, existsSync, writeFileSync } from 'fs'
 import JSZip from 'jszip'
 import fetch from 'node-fetch'
 import { resolve } from 'path'
-import { maxSatisfying } from 'semver'
-import { getAvailableVersions } from './api'
 import { dbg } from './log'
 import { mergeConfig } from './mergeConfig'
 import { mkPromiseSingleton } from './mkPromiseSingleton'
@@ -12,6 +10,7 @@ import { arch as _arch } from './settings/arch'
 import { cachePath } from './settings/cache'
 import { os as _os } from './settings/os'
 import { version as _version } from './settings/version'
+import { getMatchingVersion } from './versions'
 
 export type BinaryOptions = Omit<RunOptions, 'env'>
 
@@ -30,13 +29,7 @@ export const getPocketBasePath = mkPromiseSingleton(
       options,
     )
 
-    dbg(`Requested semver: ${semver}`)
-    const versions = await getAvailableVersions(semver)
-    const version = maxSatisfying(versions, semver)
-    if (!version) {
-      throw new Error(`No version satisfies ${semver} (${versions.join(', ')})`)
-    }
-    dbg(`Selected version: ${version}`)
+    const version = await getMatchingVersion(semver)
 
     const binaryName_Out =
       os === 'windows'

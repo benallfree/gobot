@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 import { Command } from 'commander'
+import { readFileSync } from 'fs'
 import json from '../package.json'
 import { download } from './download'
-import { getReleaseTags } from './getReleaseTags'
 import { dbg, log } from './log'
 import { run } from './run'
 import { arch, archValueGuard } from './settings/arch'
@@ -11,6 +11,7 @@ import { cachePath, clearCache } from './settings/cache'
 import { debug } from './settings/debug'
 import { os, platformValueGuard } from './settings/os'
 import { version } from './settings/version'
+import { getAvailableVersionsPath } from './versions'
 
 const main = async () => {
   const program = new Command()
@@ -42,8 +43,8 @@ const main = async () => {
     .option(
       `--format <fmt>`,
       `Output in JSON format`,
-      (v) => (['text', 'json', 'cjs', 'esm'].includes(v) ? v : 'text'),
-      `text`,
+      (v) => (['txt', 'json', 'cjs', 'esm'].includes(v) ? v : 'txt'),
+      `txt`,
     )
     .option(`--refresh`, `Refresh PocketBase tags and binary`, false)
     .option(`--cache-path <path>`, `The cache path to use`, cachePath())
@@ -57,26 +58,12 @@ const main = async () => {
       if (options.refresh) {
         clearCache()
       }
-      const tags = await getReleaseTags()
       if (options.download) {
         await download({ log })
       }
-      switch (options.format) {
-        case 'text':
-          tags.forEach((v) => console.log(v))
-          break
-        case 'json':
-          console.log(JSON.stringify(tags, null, 2))
-          break
-        case 'cjs':
-          console.log(`module.exports = ${JSON.stringify(tags, null, 2)}`)
-          break
-        case 'esm':
-          console.log(
-            `export const versions = ${JSON.stringify(tags, null, 2)}`,
-          )
-          break
-      }
+
+      const dump = await getAvailableVersionsPath(options.format)
+      log(readFileSync(dump).toString())
     })
 
   program
