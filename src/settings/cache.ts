@@ -1,13 +1,13 @@
 import envPaths from 'env-paths'
 import { resolve } from 'path'
-import { rimraf } from 'rimraf'
+import { rimrafSync } from 'rimraf'
 import { dbg } from '../log'
 import { mkSetting } from '../mkSetting'
 import { mkdir, pwd } from '../util'
 
 export const clearCache = () => {
   dbg(`Clearing cache:`, cachePath())
-  rimraf(cachePath(), { preserveRoot: true })
+  rimrafSync(cachePath())
 }
 
 export const cachePath = mkSetting(envPaths('pbgo').cache, (v) => {
