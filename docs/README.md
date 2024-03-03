@@ -1,3 +1,5 @@
+pbgo / [Exports](modules.md)
+
 # PocketBase Binary Runner
 
 This package will download the latest binary [PocketBase release](https://github.com/pocketbase/pocketbase/releases) for the current operating system and architecture, and run it.
