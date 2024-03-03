@@ -15,10 +15,10 @@ Features:
 
 ## Supported Go Apps
 
-|                                                                                             |                                      |                               |                                        |
-| ------------------------------------------------------------------------------------------- | ------------------------------------ | ----------------------------- | -------------------------------------- |
-| ![Act](./assets/2024-03-03-02-22-04.png)                                                    | [Act](https://github.com/nektos/act) | `npx gobot act --help`        | Run your GitHub Actions locally 🚀     |
-| ![PocketBase](https://github.com//pockethost/pbgo/blob/main/assets/2024-03-03-01-50-09.png) | [PocketBase](https://pocketbase.io)  | `npx gobot pocketbase --help` | Open Source realtime backend in 1 file |
+|                                                                                                       |                                      |                               |                                        |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------ | ----------------------------- | -------------------------------------- |
+| ![Act](https://raw.githubusercontent.com/benallfree/gobot/main/assets/2024-03-03-02-22-04.png)        | [Act](https://github.com/nektos/act) | `npx gobot act --help`        | Run your GitHub Actions locally 🚀     |
+| ![PocketBase](https://raw.githubusercontent.com/benallfree/gobot/main/assets/2024-03-03-01-50-09.png) | [PocketBase](https://pocketbase.io)  | `npx gobot pocketbase --help` | Open Source realtime backend in 1 file |
 
 > **Add your Go app**
 > If you use GoReleaser and publish releases on Gitub, you are already compatible with gobot. Send us a PR.
