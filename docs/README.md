@@ -89,7 +89,7 @@ npx pbgo versions --download --only="0.19.*"
 
 ## API
 
-[API Docs](./modules.md)
+[API Docs](https://github.com/pockethost/pbgo/blob/main/docs/modules.md)
 
 ## Where is `data.db`?
 

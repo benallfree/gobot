@@ -2,6 +2,9 @@ import { values } from '@s-libs/micro-dash'
 import { arch as _arch } from 'process'
 import { mkSetting } from '../mkSetting'
 
+/**
+ * The map of available types.
+ */
 export const ARCH_MAP = {
   x64: 'amd64',
   arm64: 'arm64',
@@ -34,4 +37,9 @@ export const archName = () => {
   return ARCH_MAP[_a]
 }
 
+/**
+ * Get or set the architecture. This is the global default used whenever an architecture is not explicitly set.
+ *
+ * @param newValue The new value to set, one of `amd64`, `arm64`, or `arm7`
+ */
 export const arch = mkSetting<ArchValue>(archName(), archValueGuard)

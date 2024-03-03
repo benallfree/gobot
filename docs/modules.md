@@ -1,8 +1,8 @@
-[pbgo](README.md) / Exports
+[pbgo](https://github.com/pockethost/pbgo/blob/main/readme.md) / Exports
 
-# pbgo
+# poGo API
 
-## Table of contents
+This API is available so you can embed pbGo and PocketBase in your nodejs application.
 
 ### Functions
 
@@ -26,11 +26,13 @@
 
 ▸ **arch**(`newValue?`): `ArchValue`
 
+Get or set the architecture. This is the global default used whenever an architecture is not explicitly set.
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `newValue?` | `ArchValue` |
+| Name        | Type        | Description                                              |
+| :---------- | :---------- | :------------------------------------------------------- |
+| `newValue?` | `ArchValue` | The new value to set, one of `amd64`, `arm64`, or `arm7` |
 
 #### Returns
 
@@ -38,9 +40,9 @@
 
 #### Defined in
 
-[settings/arch.ts:37](https://github.com/pockethost/pbgo/blob/8de849f/src/settings/arch.ts#L37)
+settings/arch.ts:45
 
-___
+---
 
 ### cachePath
 
@@ -48,8 +50,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name        | Type     |
+| :---------- | :------- |
 | `newValue?` | `string` |
 
 #### Returns
@@ -58,9 +60,9 @@ ___
 
 #### Defined in
 
-[settings/cache.ts:13](https://github.com/pockethost/pbgo/blob/8de849f/src/settings/cache.ts#L13)
+settings/cache.ts:13
 
-___
+---
 
 ### clearCache
 
@@ -72,9 +74,9 @@ ___
 
 #### Defined in
 
-[settings/cache.ts:8](https://github.com/pockethost/pbgo/blob/8de849f/src/settings/cache.ts#L8)
+settings/cache.ts:8
 
-___
+---
 
 ### download
 
@@ -82,8 +84,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                           |
+| :-------- | :----------------------------- |
 | `options` | `Partial`\<`DownloadOptions`\> |
 
 #### Returns
@@ -92,9 +94,9 @@ ___
 
 #### Defined in
 
-[download.ts:13](https://github.com/pockethost/pbgo/blob/8de849f/src/download.ts#L13)
+download.ts:13
 
-___
+---
 
 ### env
 
@@ -102,8 +104,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name        | Type         |
+| :---------- | :----------- |
 | `newValue?` | `ProcessEnv` |
 
 #### Returns
@@ -112,9 +114,9 @@ ___
 
 #### Defined in
 
-[settings/env.ts:3](https://github.com/pockethost/pbgo/blob/8de849f/src/settings/env.ts#L3)
+settings/env.ts:3
 
-___
+---
 
 ### getAllVersionTags
 
@@ -122,8 +124,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name   | Type     |
+| :----- | :------- |
 | `key?` | `string` |
 
 #### Returns
@@ -134,9 +136,9 @@ ___
 
 ##### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `...args` | [] |
+| Name      | Type |
+| :-------- | :--- |
+| `...args` | []   |
 
 ##### Returns
 
@@ -144,9 +146,9 @@ ___
 
 #### Defined in
 
-[versions.ts:22](https://github.com/pockethost/pbgo/blob/8de849f/src/versions.ts#L22)
+versions.ts:22
 
-___
+---
 
 ### getAvailableVersionsPath
 
@@ -154,8 +156,8 @@ ___
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
+| Name   | Type          | Default value      |
+| :----- | :------------ | :----------------- |
 | `type` | `ReleaseType` | `ReleaseType.Json` |
 
 #### Returns
@@ -164,9 +166,9 @@ ___
 
 #### Defined in
 
-[versions.ts:103](https://github.com/pockethost/pbgo/blob/8de849f/src/versions.ts#L103)
+versions.ts:103
 
-___
+---
 
 ### getFilteredVersionTags
 
@@ -174,8 +176,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type     |
+| :------- | :------- |
 | `semver` | `string` |
 
 #### Returns
@@ -184,9 +186,9 @@ ___
 
 #### Defined in
 
-[versions.ts:87](https://github.com/pockethost/pbgo/blob/8de849f/src/versions.ts#L87)
+versions.ts:87
 
-___
+---
 
 ### getLatestVersion
 
@@ -198,9 +200,9 @@ ___
 
 #### Defined in
 
-[versions.ts:110](https://github.com/pockethost/pbgo/blob/8de849f/src/versions.ts#L110)
+versions.ts:110
 
-___
+---
 
 ### getPocketBasePath
 
@@ -208,8 +210,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name   | Type     |
+| :----- | :------- |
 | `key?` | `string` |
 
 #### Returns
@@ -220,8 +222,8 @@ ___
 
 ##### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                |
+| :-------- | :---------------------------------- |
 | `...args` | [options: Partial\<BinaryOptions\>] |
 
 ##### Returns
@@ -230,9 +232,9 @@ ___
 
 #### Defined in
 
-[getPocketBasePath.ts:17](https://github.com/pockethost/pbgo/blob/8de849f/src/getPocketBasePath.ts#L17)
+getPocketBasePath.ts:17
 
-___
+---
 
 ### os
 
@@ -240,8 +242,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name        | Type            |
+| :---------- | :-------------- |
 | `newValue?` | `PlatformValue` |
 
 #### Returns
@@ -250,9 +252,9 @@ ___
 
 #### Defined in
 
-[settings/os.ts:43](https://github.com/pockethost/pbgo/blob/8de849f/src/settings/os.ts#L43)
+settings/os.ts:43
 
-___
+---
 
 ### run
 
@@ -260,9 +262,9 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `args` | `string`[] |
+| Name      | Type                      |
+| :-------- | :------------------------ |
+| `args`    | `string`[]                |
 | `options` | `Partial`\<`RunOptions`\> |
 
 #### Returns
@@ -271,9 +273,9 @@ ___
 
 #### Defined in
 
-[run.ts:19](https://github.com/pockethost/pbgo/blob/8de849f/src/run.ts#L19)
+run.ts:19
 
-___
+---
 
 ### version
 
@@ -281,8 +283,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name        | Type     |
+| :---------- | :------- |
 | `newValue?` | `string` |
 
 #### Returns
@@ -291,4 +293,4 @@ ___
 
 #### Defined in
 
-[settings/version.ts:3](https://github.com/pockethost/pbgo/blob/8de849f/src/settings/version.ts#L3)
+settings/version.ts:3

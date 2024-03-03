@@ -5,11 +5,17 @@ import { dbg } from '../log'
 import { mkSetting } from '../mkSetting'
 import { mkdir, pwd } from '../util'
 
+/**
+ * Clear all items from cache (flush cache).
+ */
 export const clearCache = () => {
   dbg(`Clearing cache:`, cachePath())
   rimrafSync(cachePath())
 }
 
+/**
+ * Get or set the path pbGo us using to save all cached items to disk.
+ */
 export const cachePath = mkSetting(envPaths('pbgo').cache, (v) => {
   const path = resolve(pwd(), v)
   mkdir('-p', path)
