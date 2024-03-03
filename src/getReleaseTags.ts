@@ -2,6 +2,7 @@ import { existsSync, readFileSync, statSync, writeFileSync } from 'fs'
 import { resolve } from 'path'
 import { compare, rcompare, satisfies } from 'semver'
 import { dbg } from './log'
+import { mkPromiseSingleton } from './mkPromiseSingleton'
 import { cachePath } from './settings/cache'
 import { version } from './settings/version'
 import { smartFetch } from './smartFetch'
@@ -17,9 +18,8 @@ type Release = {
 }
 type Releases = Release[]
 
-export const getReleaseTags = async (semver = version()) => {
+export const getAllReleaseTags = mkPromiseSingleton(async () => {
   const cacheFile = resolve(cachePath(), `releases.json`)
-  dbg(`Semver filter:`, semver)
   dbg(`Releases cache: ${cacheFile}`)
   const cacheExists = existsSync(cacheFile)
   dbg(`Release cache exists: ${cacheExists}`)
@@ -42,8 +42,9 @@ export const getReleaseTags = async (semver = version()) => {
     const releases: Releases = []
     do {
       dbg(`Fetching info for PocketBase releases page ${page}...`)
-      const chunk = await smartFetch<Releases>(
-        `https://api.github.com/repos/pocketbase/pocketbase/releases?per_page=100&page=${page}`,
+      const url = `https://api.github.com/repos/pocketbase/pocketbase/releases?per_page=100&page=${page}`
+      const chunk = await smartFetch<Releases>(url)(
+        url,
         resolve(cachePath(), `pb_releases_page_${page}.json`), // Cache each page individually to avoid re-fetching all data for updates.
       )
       if (chunk.length === 0) break
@@ -61,11 +62,16 @@ export const getReleaseTags = async (semver = version()) => {
   }
   const cachedReleases = JSON.parse(readFileSync(cacheFile, 'utf8')) as string[]
   // Ensure the cached releases are sorted by version as they might have been manually edited or corrupted.
-  const tags = cachedReleases
-    .sort((a: string, b: string) => compare(b, a))
-    .filter((version) => satisfies(version, semver))
+  const tags = cachedReleases.sort((a: string, b: string) => compare(b, a))
 
+  return tags
+})
+
+export const getReleaseTags = async (semver = version()) => {
+  dbg(`Semver filter:`, semver)
+  const tags = await getAllReleaseTags()().then((tags) =>
+    tags.filter((version) => satisfies(version, semver)),
+  )
   dbg(`Filtered tags:`, tags)
-
   return tags
 }

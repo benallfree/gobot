@@ -6,6 +6,7 @@ import { maxSatisfying } from 'semver'
 import { getAvailableVersions } from './api'
 import { dbg } from './log'
 import { mergeConfig } from './mergeConfig'
+import { mkPromiseSingleton } from './mkPromiseSingleton'
 import { RunOptions } from './run'
 import { arch as _arch } from './settings/arch'
 import { cachePath } from './settings/cache'
@@ -14,65 +15,65 @@ import { version as _version } from './settings/version'
 
 export type BinaryOptions = Omit<RunOptions, 'env'>
 
-export const getPocketBasePath = async (
-  options: Partial<BinaryOptions> = {},
-) => {
-  const {
-    os,
-    arch,
-    version: semver,
-  } = mergeConfig<BinaryOptions>(
-    {
-      os: _os(),
-      arch: _arch(),
-      version: _version(),
-    },
-    options,
-  )
+export const getPocketBasePath = mkPromiseSingleton(
+  async (options: Partial<BinaryOptions> = {}) => {
+    const {
+      os,
+      arch,
+      version: semver,
+    } = mergeConfig<BinaryOptions>(
+      {
+        os: _os(),
+        arch: _arch(),
+        version: _version(),
+      },
+      options,
+    )
 
-  dbg(`Requested semver: ${semver}`)
-  const versions = await getAvailableVersions(semver)
-  const version = maxSatisfying(versions, semver)
-  if (!version) {
-    throw new Error(`No version satisfies ${semver} (${versions.join(', ')})`)
-  }
-  dbg(`Selected version: ${version}`)
-
-  const binaryName_Out =
-    os === 'windows'
-      ? `pocketbase_${os}_${arch}_${version}.exe`
-      : `pocketbase_${os}_${arch}_${version}`
-  const fname = resolve(cachePath(), binaryName_Out)
-
-  // If binary exists, skip download
-  if (!existsSync(fname)) {
-    const link = `https://github.com/pocketbase/pocketbase/releases/download/v${version}/pocketbase_${version}_${os}_${arch}.zip`
-    dbg(`Downloading ${link}`)
-
-    const res = await fetch(link)
-    if (res.status === 404) {
-      throw new Error(`${link} is not a valid build.`)
+    dbg(`Requested semver: ${semver}`)
+    const versions = await getAvailableVersions(semver)
+    const version = maxSatisfying(versions, semver)
+    if (!version) {
+      throw new Error(`No version satisfies ${semver} (${versions.join(', ')})`)
     }
-    const content = await res.arrayBuffer()
+    dbg(`Selected version: ${version}`)
 
-    var new_zip = new JSZip()
-    const zip = await new_zip.loadAsync(content)
+    const binaryName_Out =
+      os === 'windows'
+        ? `pocketbase_${os}_${arch}_${version}.exe`
+        : `pocketbase_${os}_${arch}_${version}`
+    const fname = resolve(cachePath(), binaryName_Out)
 
-    const binaryName_In = os === 'windows' ? `pocketbase.exe` : `pocketbase`
-    const pb = await zip.file(binaryName_In)?.async('nodebuffer')
+    // If binary exists, skip download
+    if (!existsSync(fname)) {
+      const link = `https://github.com/pocketbase/pocketbase/releases/download/v${version}/pocketbase_${version}_${os}_${arch}.zip`
+      dbg(`Downloading ${link}`)
 
-    if (!pb) {
-      dbg(`Extraction failure`)
-      throw new Error(`Unable to extract ${link}`)
+      const res = await fetch(link)
+      if (res.status === 404) {
+        throw new Error(`${link} is not a valid build.`)
+      }
+      const content = await res.arrayBuffer()
+
+      var new_zip = new JSZip()
+      const zip = await new_zip.loadAsync(content)
+
+      const binaryName_In = os === 'windows' ? `pocketbase.exe` : `pocketbase`
+      const pb = await zip.file(binaryName_In)?.async('nodebuffer')
+
+      if (!pb) {
+        dbg(`Extraction failure`)
+        throw new Error(`Unable to extract ${link}`)
+      }
+
+      writeFileSync(fname, pb, { mode: 0o755 })
     }
 
-    writeFileSync(fname, pb, { mode: 0o755 })
-  }
+    // Ensure the binary is executable
+    if (os !== 'windows') {
+      chmodSync(fname, '755')
+    }
 
-  // Ensure the binary is executable
-  if (os !== 'windows') {
-    chmodSync(fname, '755')
-  }
-
-  return fname
-}
+    return fname
+  },
+)

@@ -33,12 +33,16 @@ export const download = async (options: Partial<DownloadOptions> = {}) => {
   })()
 
   log(`Downloading versions`, tags)
-  const limiter = new Bottleneck({ maxConcurrent: 1 })
+  const limiter = new Bottleneck({ maxConcurrent: 10 })
   await Promise.all(
     tags.map((version) => {
       return limiter.schedule(() => {
         log(`Downloading ${version}`)
-        return getPocketBasePath({ version, os, arch })
+        return getPocketBasePath(`${version}_${os}_${arch}`)({
+          version,
+          os,
+          arch,
+        })
       })
     }),
   )

@@ -30,7 +30,11 @@ export const run = async (
     options,
   )
 
-  const fname = await getPocketBasePath({ os, arch, version })
+  const fname = await getPocketBasePath(`${version}_${os}_${arch}`)({
+    os,
+    arch,
+    version,
+  })
 
   // Check if "--dir" is already specified
   if (!args.find((arg) => arg.startsWith('--dir'))) {

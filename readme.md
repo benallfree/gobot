@@ -13,6 +13,13 @@ or
 
 `npx pbgo --help`
 
+Features:
+
+- Supports all PocketBase versions
+- Caches binaries locally
+- Automatically detects new PocketBase versions
+- Efficient - downloads only what is needed
+
 ## CLI
 
 **Switches**
