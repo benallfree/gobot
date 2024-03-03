@@ -15,7 +15,7 @@
     "bump": "npm version prerelease --preid alpha --no-git-tag-version",
     "build": "rimraf dist && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm",
     "dev": "tsx src/cli.ts",
-    "test": "pnpm build && npm pack && npm rm -g pbgo && npm i -g pbgo-1.0.0-alpha.3.tgz && pbgo --debug --help"
+    "test": "pnpm build && npm pack && npm rm -g pbgo && npm i -g pbgo-`cat package.json | fx '.version'`.tgz && pbgo --debug --help"
   },
   "keywords": [
     "pocketbase",
@@ -43,6 +43,7 @@
     "@types/yargs": "^17.0.32",
     "esbuild": "^0.20.1",
     "esbuild-node-externals": "^1.13.0",
+    "fx": "^31.0.0",
     "ncp": "^2.0.0",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
