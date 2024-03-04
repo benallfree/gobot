@@ -1,9 +1,9 @@
 # PocketBase
 
-This is the [PocketBase](https://pocketbase.io) plugin for Gobin.
+This is the [PocketBase](https://pocketbase.io) plugin for gobot.
 
 ```bash
-npx gobin pocketbase --help
+npx gobot pocketbase --help
 ```
 
 ## Where is `data.db`?
@@ -15,9 +15,9 @@ To create consistency, `pb_data/data.db` will be created in the current director
 If you want to specify your own `data.db` location, use `--dir=path/to/pb_data` to ensure `data.db` is created where you desire.
 
 ```bash
-npx gobin pocketbase --dir=/path/to/pb_data
+npx gobot pocketbase --dir=/path/to/pb_data
 ```
 
 ## Upgrading PocketBase
 
-While `npx gobin --upgrade` is intentionally blocked. `gobin` always grabs the latest version of PocketBase by default. Use `npx gobin --version=x.y.z` from the CLI or `getPocketBasePath({version: 'x.y.z'})` to use a specific PocketBase version.
+While `npx gobot --upgrade` is intentionally blocked. `gobot` always grabs the latest version of PocketBase by default. Use `npx gobot --version=x.y.z` from the CLI or `getPocketBasePath({version: 'x.y.z'})` to use a specific PocketBase version.

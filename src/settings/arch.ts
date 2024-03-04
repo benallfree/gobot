@@ -6,9 +6,17 @@ import { mkSetting } from '../mkSetting'
  * The map of available types.
  */
 export const ARCH_MAP = {
-  x64: 'amd64',
-  arm64: 'arm64',
   arm: 'arm7',
+  arm64: 'arm64',
+  ia32: 'ia32',
+  mips: 'mips',
+  mipsel: 'mipsel',
+  ppc: 'ppc',
+  ppc64: 'ppc64',
+  riscv64: 'riscv64',
+  s390: 's390',
+  s390x: 's390x',
+  x64: 'x64',
 } as const
 
 export type ArchMap = typeof ARCH_MAP

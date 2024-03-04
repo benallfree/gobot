@@ -3,9 +3,17 @@ import { platform } from 'os'
 import { mkSetting } from '../mkSetting'
 
 export const PLATFORM_MAP = {
+  aix: 'aix',
+  android: 'android',
   darwin: 'darwin',
+  freebsd: 'freebsd',
+  haiku: 'haiku',
   linux: 'linux',
+  openbsd: 'openbsd',
+  sunos: 'sunos',
   win32: 'windows',
+  cygwin: 'cygwin',
+  netbsd: 'netbsd',
 } as const
 
 export type PlatformMap = typeof PLATFORM_MAP

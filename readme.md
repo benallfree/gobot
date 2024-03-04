@@ -15,10 +15,11 @@ Features:
 
 ## Supported Go Apps
 
-|                                                                                                       |                                      |                               |                                        |
-| ----------------------------------------------------------------------------------------------------- | ------------------------------------ | ----------------------------- | -------------------------------------- |
-| ![Act](https://raw.githubusercontent.com/benallfree/gobot/main/assets/2024-03-03-02-22-04.png)        | [Act](https://github.com/nektos/act) | `npx gobot act --help`        | Run your GitHub Actions locally 🚀     |
-| ![PocketBase](https://raw.githubusercontent.com/benallfree/gobot/main/assets/2024-03-03-01-50-09.png) | [PocketBase](https://pocketbase.io)  | `npx gobot pocketbase --help` | Open Source realtime backend in 1 file |
+|                                                                                              |                                      |                               |                                                                               |                                                                                               |
+| -------------------------------------------------------------------------------------------- | ------------------------------------ | ----------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| ![Act](https://raw.githubusercontent.com/benallfree/gobot/main/assets/act.png)               | [Act](https://github.com/nektos/act) | `npx gobot act --help`        | Run your GitHub Actions locally 🚀                                            | [plugin docs](https://github.com/benallfree/gobot/blob/main/src/plugins/act/readme.md)        |
+| ![Caddy](https://raw.githubusercontent.com/benallfree/gobot/main/assets/caddy.png)           | [Caddy](https://caddyserver.com/)    | `npx gobot caddy --help`      | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS | [plugin docs](https://github.com/benallfree/gobot/blob/main/src/plugins/caddy/readme.md)      |
+| ![PocketBase](https://raw.githubusercontent.com/benallfree/gobot/main/assets/pocketbase.png) | [PocketBase](https://pocketbase.io)  | `npx gobot pocketbase --help` | Open Source realtime backend in 1 file                                        | [plugin docs](https://github.com/benallfree/gobot/blob/main/src/plugins/pocketbase/readme.md) |
 
 > **Add your Go app**
 > If you use GoReleaser and publish releases on Gitub, you are already compatible with gobot. Send us a PR.
