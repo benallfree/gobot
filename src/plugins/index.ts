@@ -1,5 +1,6 @@
 import { isFunction } from '@s-libs/micro-dash'
 import { GobotBase, GobotOptions } from '../GobotBase'
+import { mkWeaviateBot } from './WeaviateBot'
 
 export type PluginKey = keyof typeof PLUGINS
 
@@ -20,4 +21,5 @@ export const PLUGINS = {
   caddy: 'caddyserver/caddy',
   act: 'nektos/act',
   pulumi: `pulumi/pulumi`,
+  weaviate: mkWeaviateBot,
 } as const
