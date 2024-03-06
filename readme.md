@@ -37,14 +37,6 @@ or
 npx gobot <app>
 ```
 
-## Features
-
-## Why?
-
-If you are writing a nodejs application that depends upon binaries being present (like [PocketHost](https://github.com/pockethost/pockethost) does), you can add this package as a dependency and execute the binary via CLI or programmatically . This package will make sure your desired external binaries are always available.
-
-`npx gobot@latest <app>` is quite a bit easier than manually downloading zips and installing binaries in shell paths. gobot handles it all for you effortlessly.
-
 ## Official Gobot Apps
 
 These projects are officially supported by gobot in the sense that they have a single word command to run them.
@@ -120,6 +112,12 @@ const childProcess = bot.run([`serve`])
 ```
 
 [Full API Docs](https://github.com/pockethost/gobot/blob/main/docs/modules.md)
+
+## Why?
+
+If you are writing a nodejs application that depends upon binaries being present (like [PocketHost](https://github.com/pockethost/pockethost) does), you can add this package as a dependency and execute the binary via CLI or programmatically . This package will make sure your desired external binaries are always available.
+
+`npx gobot@latest <app>` is quite a bit easier than manually downloading zips and installing binaries in shell paths. gobot handles it all for you effortlessly.
 
 ## OS X Users
 
