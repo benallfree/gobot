@@ -23,4 +23,5 @@ export const PLUGINS = {
   pulumi: `pulumi/pulumi`,
   weaviate: mkWeaviateBot,
   AdGuardHome: `AdguardTeam/AdGuardHome`,
+  rclone: `rclone/rclone`,
 } as const

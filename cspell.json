@@ -1,9 +1,11 @@
 {
   "words": [
+    "Adguard",
     "annoucements",
     "authstore",
     "autocancel",
     "automigrate",
+    "Backblaze",
     "caddyserver",
     "Certbot",
     "copyfiles",
@@ -21,6 +23,7 @@
     "getenv",
     "gobot",
     "goja",
+    "Hubic",
     "IPCIDR",
     "jsonifiable",
     "Jsonifiable",
@@ -52,6 +55,7 @@
     "preid",
     "privkey",
     "pulumi",
+    "rclone",
     "rcompare",
     "readdirp",
     "riscv",
