@@ -13,6 +13,7 @@ import { StoredRelease } from './ReleaseProviders/AbstractReleaseProvider'
 import { GithubReleaseProvider } from './ReleaseProviders/GithubReleaseProvider'
 import { ARCH_MAP, ArchKey, PLATFORM_MAP, PlatformKey } from './settings'
 import { downloadFile } from './util/downloadFile'
+import { findFileRecursive } from './util/find'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { mkdir, pwd } from './util/shell'
@@ -184,9 +185,13 @@ export class GobotBase {
     }
   }
 
-  private unpackedBinPath(path: string) {
+  private async unpackedBinPath(path: string) {
     const binName = this.os === 'win32' ? `${this.name}.exe` : `${this.name}`
-    return resolve(path, binName)
+    const fname = await findFileRecursive(binName, path)
+    if (!fname) {
+      throw new Error(`Could not find ${binName} anywhere in path ${path}`)
+    }
+    return fname
   }
 
   private getArchiveUrl(release: StoredRelease) {
@@ -221,14 +226,12 @@ export class GobotBase {
     const { version, archives } = storedRelease
     const downloadRoot = this.cachePath(`archives`, version, this.arch, this.os)
     dbg(`Download root`, downloadRoot)
-    const unpackedBinPath = this.unpackedBinPath(downloadRoot)
-    dbg(`Unpacked bin path`, unpackedBinPath)
     const link = this.getArchiveUrl(storedRelease)
     dbg(`Download link`, link)
     const downloadPath = join(downloadRoot, basename(link))
     dbg(`Download path`, downloadPath)
 
-    if (!existsSync(unpackedBinPath)) {
+    if (!existsSync(downloadPath)) {
       info(`Downloading ${link}`)
       const res = await downloadFile(link, downloadPath)
 
@@ -236,11 +239,13 @@ export class GobotBase {
       await decompress(downloadPath, downloadRoot, {
         plugins: [decompressTargz(), decompressUnzip()],
       })
+    }
+    const unpackedBinPath = await this.unpackedBinPath(downloadRoot)
+    dbg(`Unpacked bin path`, unpackedBinPath)
 
-      // Ensure the binary is executable
-      if (this.os !== 'win32') {
-        chmodSync(unpackedBinPath, '755')
-      }
+    // Ensure the binary is executable
+    if (this.os !== 'win32') {
+      chmodSync(unpackedBinPath, '755')
     }
     return unpackedBinPath
   }

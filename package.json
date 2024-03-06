@@ -39,6 +39,7 @@
     "filenamify": "^6.0.0",
     "jszip": "^3.10.1",
     "node-fetch": "^3.3.2",
+    "readdirp": "^3.6.0",
     "rimraf": "^5.0.5",
     "semver": "^7.6.0",
     "shelljs": "^0.8.5"
