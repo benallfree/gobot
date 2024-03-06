@@ -6,8 +6,7 @@
   "type": "module",
   "main": "./dist/api.js",
   "bin": {
-    "gobot": "./dist/cli.js",
-    "pocketbase": "./src/cli.js"
+    "gobot": "./dist/cli.js"
   },
   "types": "dist/api.d.ts",
   "scripts": {
