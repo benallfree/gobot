@@ -16,7 +16,7 @@ Instantiate a gobot for a specific app.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `pluginName` | ``"pocketbase"`` \| ``"caddy"`` \| ``"act"`` | `<app>` for officially supported apps, or `<user>/<repo>` for unofficial apps (your mileage may vary) |
+| `pluginName` | `string` | `<app>` for officially supported apps, or `<user>/<repo>` for unofficial apps (your mileage may vary) |
 | `optionsIn` | `Partial`\<[`GobotOptions`](../interfaces/GobotBase.GobotOptions.md)\> | Option overrides |
 
 #### Returns
@@ -27,4 +27,4 @@ An instance of GobotBase
 
 #### Defined in
 
-[gobot.ts:11](https://github.com/benallfree/gobot/blob/05facad/src/gobot.ts#L11)
+[gobot.ts:12](https://github.com/benallfree/gobot/blob/d9f6ceb/src/gobot.ts#L12)

@@ -8,6 +8,21 @@ Generic Gobot plugin. Subclass this for specific functionality.
 
 - [constructor](GobotBase.GobotBase.md#constructor)
 
+### Properties
+
+- [\_cacheRoot](GobotBase.GobotBase.md#_cacheroot)
+- [arch](GobotBase.GobotBase.md#arch)
+- [env](GobotBase.GobotBase.md#env)
+- [os](GobotBase.GobotBase.md#os)
+- [releaseProvider](GobotBase.GobotBase.md#releaseprovider)
+- [repo](GobotBase.GobotBase.md#repo)
+- [version](GobotBase.GobotBase.md#version)
+
+### Accessors
+
+- [archAliases](GobotBase.GobotBase.md#archaliases)
+- [osAliases](GobotBase.GobotBase.md#osaliases)
+
 ### Methods
 
 - [cachePath](GobotBase.GobotBase.md#cachepath)
@@ -42,7 +57,105 @@ Create a new Gobot
 
 #### Defined in
 
-[GobotBase.ts:55](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L55)
+[GobotBase.ts:63](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L63)
+
+## Properties
+
+### \_cacheRoot
+
+• `Protected` **\_cacheRoot**: `string` = `''`
+
+#### Defined in
+
+[GobotBase.ts:54](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L54)
+
+___
+
+### arch
+
+• `Protected` **arch**: ``"arm64"`` \| ``"ia32"`` \| ``"mips"`` \| ``"mipsel"`` \| ``"ppc"`` \| ``"ppc64"`` \| ``"riscv64"`` \| ``"s390"`` \| ``"s390x"`` \| ``"x64"`` \| ``"arm7"``
+
+#### Defined in
+
+[GobotBase.ts:51](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L51)
+
+___
+
+### env
+
+• `Protected` **env**: `ProcessEnv`
+
+#### Defined in
+
+[GobotBase.ts:53](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L53)
+
+___
+
+### os
+
+• `Protected` **os**: ``"aix"`` \| ``"android"`` \| ``"darwin"`` \| ``"freebsd"`` \| ``"haiku"`` \| ``"linux"`` \| ``"openbsd"`` \| ``"sunos"`` \| ``"win32"`` \| ``"cygwin"`` \| ``"netbsd"``
+
+#### Defined in
+
+[GobotBase.ts:50](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L50)
+
+___
+
+### releaseProvider
+
+• `Protected` **releaseProvider**: typeof `GithubReleaseProvider`
+
+#### Defined in
+
+[GobotBase.ts:55](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L55)
+
+___
+
+### repo
+
+• `Protected` **repo**: `string`
+
+#### Defined in
+
+[GobotBase.ts:49](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L49)
+
+___
+
+### version
+
+• `Protected` **version**: `string`
+
+#### Defined in
+
+[GobotBase.ts:52](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L52)
+
+## Accessors
+
+### archAliases
+
+• `get` **archAliases**(): (``"arm"`` \| ``"arm64"`` \| ``"ia32"`` \| ``"mips"`` \| ``"mipsel"`` \| ``"ppc"`` \| ``"ppc64"`` \| ``"riscv64"`` \| ``"s390"`` \| ``"s390x"`` \| ``"x64"`` \| ``"arm7"`` \| ``"i386"`` \| ``"x86_64"``)[]
+
+#### Returns
+
+(``"arm"`` \| ``"arm64"`` \| ``"ia32"`` \| ``"mips"`` \| ``"mipsel"`` \| ``"ppc"`` \| ``"ppc64"`` \| ``"riscv64"`` \| ``"s390"`` \| ``"s390x"`` \| ``"x64"`` \| ``"arm7"`` \| ``"i386"`` \| ``"x86_64"``)[]
+
+#### Defined in
+
+[GobotBase.ts:208](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L208)
+
+___
+
+### osAliases
+
+• `get` **osAliases**(): (``"aix"`` \| ``"android"`` \| ``"darwin"`` \| ``"freebsd"`` \| ``"haiku"`` \| ``"linux"`` \| ``"openbsd"`` \| ``"sunos"`` \| ``"win32"`` \| ``"cygwin"`` \| ``"netbsd"`` \| ``"mac"`` \| ``"osx"`` \| ``"windows"``)[]
+
+#### Returns
+
+(``"aix"`` \| ``"android"`` \| ``"darwin"`` \| ``"freebsd"`` \| ``"haiku"`` \| ``"linux"`` \| ``"openbsd"`` \| ``"sunos"`` \| ``"win32"`` \| ``"cygwin"`` \| ``"netbsd"`` \| ``"mac"`` \| ``"osx"`` \| ``"windows"``)[]
+
+#### Defined in
+
+[GobotBase.ts:204](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L204)
 
 ## Methods
 
@@ -62,7 +175,7 @@ Create a new Gobot
 
 #### Defined in
 
-[GobotBase.ts:94](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L94)
+[GobotBase.ts:102](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L102)
 
 ___
 
@@ -78,7 +191,7 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[GobotBase.ts:103](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L103)
+[GobotBase.ts:111](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L111)
 
 ___
 
@@ -92,7 +205,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:108](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L108)
+[GobotBase.ts:116](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L116)
 
 ___
 
@@ -106,7 +219,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:217](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L217)
+[GobotBase.ts:238](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L238)
 
 ___
 
@@ -120,7 +233,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:149](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L149)
+[GobotBase.ts:157](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L157)
 
 ___
 
@@ -140,7 +253,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:122](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L122)
+[GobotBase.ts:130](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L130)
 
 ___
 
@@ -160,7 +273,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:144](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L144)
+[GobotBase.ts:152](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L152)
 
 ___
 
@@ -174,7 +287,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:154](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L154)
+[GobotBase.ts:162](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L162)
 
 ___
 
@@ -196,7 +309,7 @@ Run a Go binary.
 
 #### Defined in
 
-[GobotBase.ts:252](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L252)
+[GobotBase.ts:273](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L273)
 
 ___
 
@@ -216,7 +329,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:163](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L163)
+[GobotBase.ts:171](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L171)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -232,7 +345,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:164](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L164)
+[GobotBase.ts:172](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L172)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -248,7 +361,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:165](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L165)
+[GobotBase.ts:173](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L173)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -264,4 +377,4 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:166](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L166)
+[GobotBase.ts:174](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L174)

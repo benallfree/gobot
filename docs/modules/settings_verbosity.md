@@ -22,4 +22,4 @@
 
 #### Defined in
 
-settings/verbosity.ts:3
+[settings/verbosity.ts:3](https://github.com/benallfree/gobot/blob/d9f6ceb/src/settings/verbosity.ts#L3)

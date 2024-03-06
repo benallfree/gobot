@@ -22,4 +22,4 @@ The default Gobot cache root. This is platform specific.
 
 #### Defined in
 
-[GobotBase.ts:35](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L35)
+[GobotBase.ts:43](https://github.com/benallfree/gobot/blob/d9f6ceb/src/GobotBase.ts#L43)
