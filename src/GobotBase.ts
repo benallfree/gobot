@@ -11,7 +11,14 @@ import { rimrafSync } from 'rimraf'
 import { maxSatisfying, satisfies } from 'semver'
 import { StoredRelease } from './ReleaseProviders/AbstractReleaseProvider'
 import { GithubReleaseProvider } from './ReleaseProviders/GithubReleaseProvider'
-import { ARCH_MAP, ArchKey, PLATFORM_MAP, PlatformKey } from './settings'
+import {
+  ARCH_MAP,
+  ArchKey,
+  ArchValue,
+  PLATFORM_MAP,
+  PlatformKey,
+  PlatformValue,
+} from './settings'
 import { downloadFile } from './util/downloadFile'
 import { findFileRecursive } from './util/find'
 import { dbg, info } from './util/log'
@@ -39,13 +46,13 @@ export const DEFAULT_GOBOT_CACHE_ROOT = envPaths('gobot').cache
  * Generic Gobot plugin. Subclass this for specific functionality.
  */
 export class GobotBase {
-  private repo: string
-  private os: PlatformKey
-  private arch: ArchKey
-  private version: string
-  private env: NodeJS.ProcessEnv
-  private _cacheRoot = ''
-  private releaseProvider: typeof GithubReleaseProvider
+  protected repo: string
+  protected os: PlatformKey
+  protected arch: ArchKey
+  protected version: string
+  protected env: NodeJS.ProcessEnv
+  protected _cacheRoot = ''
+  protected releaseProvider: typeof GithubReleaseProvider
 
   /**
    * Create a new Gobot
@@ -194,10 +201,17 @@ export class GobotBase {
     return fname
   }
 
+  protected get osAliases(): PlatformValue[] {
+    return PLATFORM_MAP[this.os] as any
+  }
+
+  protected get archAliases(): ArchValue[] {
+    return ARCH_MAP[this.arch] as any
+  }
+
   private getArchiveUrl(release: StoredRelease) {
-    const osAliases = PLATFORM_MAP[this.os]
-    const archAliases = ARCH_MAP[this.arch]
-    dbg({ osAliases, archAliases })
+    dbg(`OS aliases`, this.osAliases)
+    dbg(`Arch aliases`, this.archAliases)
 
     for (let i = 0; i < release.archives.length; i++) {
       const archive = release.archives[i]!
@@ -206,11 +220,11 @@ export class GobotBase {
       const archiveName = basename(archive).toLocaleLowerCase()
       dbg(`Archive name`, archiveName)
 
-      const osMatch = osAliases.some((osAlias) => {
+      const osMatch = this.osAliases.some((osAlias) => {
         const osRegex = new RegExp(`[_-]${osAlias}[_\\-.]`)
         return osRegex.test(archiveName)
       })
-      const archMatch = archAliases.some((archAlias) => {
+      const archMatch = this.archAliases.some((archAlias) => {
         const archRegex = new RegExp(`[_-]${archAlias}[_\\-.]`)
         return archRegex.test(archiveName)
       })

@@ -1,5 +1,6 @@
 import { GobotBase, GobotOptions } from './GobotBase'
-import { PLUGINS, PluginKey } from './plugins'
+import { PLUGINS, isPluginFactory, isPluginName } from './plugins'
+import { dbg } from './util/log'
 
 /**
  * Instantiate a gobot for a specific app.
@@ -9,9 +10,19 @@ import { PLUGINS, PluginKey } from './plugins'
  * @returns An instance of GobotBase
  */
 export const gobot = (
-  pluginName: PluginKey,
+  pluginName: string,
   optionsIn: Partial<GobotOptions> = {},
 ): GobotBase => {
-  const plugin = new GobotBase(PLUGINS[pluginName] || pluginName, optionsIn)
-  return plugin
+  if (isPluginName(pluginName)) {
+    dbg(pluginName, `is a valid plugin`)
+    const _p = PLUGINS[pluginName]
+    if (isPluginFactory(_p)) {
+      dbg(pluginName, `is a factory plugin`)
+      return _p(optionsIn)
+    }
+    dbg(pluginName, `is a mapped repo plugin`)
+    return new GobotBase(_p, optionsIn)
+  }
+  dbg(pluginName, `is a generic repo plugin`)
+  return new GobotBase(pluginName, optionsIn)
 }
