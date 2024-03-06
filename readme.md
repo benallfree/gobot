@@ -1,3 +1,5 @@
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/main/assets/gobot-banner.png)
+
 # gobot - the binary package manager for Node
 
 > Specify external binaries as `package.json` dependencies. Run and execute binaries via CLI or code with `npx`/`npm`
