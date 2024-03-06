@@ -27,4 +27,4 @@ An instance of GobotBase
 
 #### Defined in
 
-[gobot.ts:11](https://github.com/benallfree/gobot/blob/e2aa217/src/gobot.ts#L11)
+[gobot.ts:11](https://github.com/benallfree/gobot/blob/05facad/src/gobot.ts#L11)

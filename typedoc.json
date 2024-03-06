@@ -1,6 +1,10 @@
 {
   "$schema": "https://typedoc.org/schema.json",
-  "entryPoints": ["./src/api.ts", "./src/GobotBase.ts"],
+  "entryPoints": [
+    "./src/api.ts",
+    "./src/GobotBase.ts",
+    "./src/settings/verbosity.ts"
+  ],
   "out": "./docs",
   "plugin": ["typedoc-plugin-markdown"],
   "hideBreadcrumbs": true,

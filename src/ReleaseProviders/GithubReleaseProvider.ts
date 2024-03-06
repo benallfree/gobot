@@ -1,7 +1,7 @@
 import { existsSync, readFileSync, statSync, writeFileSync } from 'fs'
 import { resolve } from 'path'
 import { compare, rcompare } from 'semver'
-import { dbg } from '../util/log'
+import { dbg, info } from '../util/log'
 import { mkdir } from '../util/shell'
 import { smartFetch } from '../util/smartFetch'
 import {
@@ -51,7 +51,7 @@ export class GithubReleaseProvider extends AbstractReleaseProvider {
       let page = 1
       const remoteReleases: GithubReleaseCollection = []
       do {
-        dbg(`Fetching info for ${this.repo} releases page ${page}...`)
+        info(`Fetching info for ${this.repo} releases page ${page}...`)
         const url = `https://api.github.com/repos/${this.repo}/releases?per_page=100&page=${page}`
         const chunk = await smartFetch<GithubReleaseCollection>(
           url,

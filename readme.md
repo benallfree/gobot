@@ -75,7 +75,7 @@ All Gobot options begin with `--g-` soas not to conflict with app option switche
 | -------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | --g-os         | host OS       | `aix`, `darwin`, `freebsd`,`linux`, `openbsd`, `sunos`, and `win32`                                                                                          |
 | --g-arch       | host arch     | `arm`, `arm64`, `ia32`, `loong64`, `mips`, `mipsel`, `ppc`, `ppc64`, `riscv64`, `s390`, `s390x`, and `x64`                                                   |
-| --g-debug      | `false`       | Enable debugging output                                                                                                                                      |
+| --g-v[vv]      |               | Adjust output verbosity                                                                                                                                      |
 | --g-refresh    | `false`       | Clear the gobot cache                                                                                                                                        |
 | --g-version    | latest        | Run a specific binary version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
 | --g-cache-path | host specific | Use the specified directory for cache files.                                                                                                                 |

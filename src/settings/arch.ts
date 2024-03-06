@@ -1,6 +1,4 @@
 import { flatten, values } from '@s-libs/micro-dash'
-import { arch as _arch } from 'process'
-import { mkSetting } from '../util/mkSetting'
 
 /**
  * The map of available types.
@@ -38,10 +36,3 @@ export function archValueGuard(archValue: string): ArchValue {
     )
   return archValue
 }
-
-/**
- * Get or set the architecture. This is the global default used whenever an architecture is not explicitly set.
- *
- * @param newValue The new value to set, one of `amd64`, `arm64`, or `arm7`
- */
-export const arch = mkSetting<ArchValue>(_arch, archValueGuard)

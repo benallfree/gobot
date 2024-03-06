@@ -13,7 +13,7 @@ import { StoredRelease } from './ReleaseProviders/AbstractReleaseProvider'
 import { GithubReleaseProvider } from './ReleaseProviders/GithubReleaseProvider'
 import { ARCH_MAP, ArchKey, PLATFORM_MAP, PlatformKey } from './settings'
 import { downloadFile } from './util/downloadFile'
-import { dbg } from './util/log'
+import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { mkdir, pwd } from './util/shell'
 
@@ -108,12 +108,11 @@ export class GobotBase {
   async download() {
     const tags = await this.versions()
 
-    dbg(`Downloading versions`, tags)
+    info(`Downloading versions`, tags)
     const limiter = new Bottleneck({ maxConcurrent: 10 })
     await Promise.all(
       tags.map((version) => {
         return limiter.schedule(() => {
-          dbg(`Downloading ${version}`)
           return this.getBinaryPath()
         })
       }),
@@ -228,9 +227,10 @@ export class GobotBase {
     dbg(`Download path`, downloadPath)
 
     if (!existsSync(unpackedBinPath)) {
-      dbg(`Downloading ${link}`)
+      info(`Downloading ${link}`)
       const res = await downloadFile(link, downloadPath)
 
+      info(`Unpacking ${downloadPath}`)
       await decompress(downloadPath, downloadRoot, {
         plugins: [decompressTargz(), decompressUnzip()],
       })

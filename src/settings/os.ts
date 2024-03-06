@@ -1,6 +1,4 @@
 import { flatten, values } from '@s-libs/micro-dash'
-import { platform } from 'os'
-import { mkSetting } from '../util/mkSetting'
 
 export const PLATFORM_MAP = {
   aix: ['aix'],
@@ -44,8 +42,3 @@ export function platformValueGuard(platformValue: string): PlatformValue {
     )
   return platformValue
 }
-
-/**
- * Get or set the operating system global (one of: `linux`, `windows`, `darwin`)
- */
-export const os = mkSetting(platform(), platformValueGuard)

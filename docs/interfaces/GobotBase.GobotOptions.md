@@ -21,7 +21,7 @@ Options for Gobot
 
 #### Defined in
 
-[GobotBase.ts:25](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L25)
+[GobotBase.ts:25](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L25)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:28](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L28)
+[GobotBase.ts:28](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L28)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:27](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L27)
+[GobotBase.ts:27](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L27)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:24](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L24)
+[GobotBase.ts:24](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L24)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:29](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L29)
+[GobotBase.ts:29](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L29)
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:26](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L26)
+[GobotBase.ts:26](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L26)

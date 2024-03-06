@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 
 import { Command } from 'commander'
+import { arch, platform } from 'os'
 import { exit } from 'process'
 import json from '../package.json'
 import { DEFAULT_GOBOT_CACHE_ROOT } from './GobotBase'
 import { gobot } from './gobot'
-import { arch, archValueGuard, debug, os, platformValueGuard } from './settings'
+import { archValueGuard, platformValueGuard, verbosity } from './settings'
 import { dbg } from './util/log'
 
 const main = async () => {
@@ -41,8 +42,15 @@ const main = async () => {
       (v) => (['txt', 'json', 'cjs', 'esm'].includes(v) ? v : 'txt'),
       ``,
     )
-    .option(`--g-debug`, `Show debugging output`, false)
-    .option(`--g-os <os>`, `Specify OS/Platform`, platformValueGuard, os())
+    .option(`--g-v`, `Show informational output`, true)
+    .option(`--g-vv`, `Show even more output`, false)
+    .option(`--g-vvv`, `Show even more output`, false)
+    .option(
+      `--g-os <os>`,
+      `Specify OS/Platform`,
+      platformValueGuard,
+      platform(),
+    )
     .option(`--g-arch <items>`, `Specify OS/Platform`, archValueGuard, arch())
     .option(`--g-refresh`, `Clear cache`, false)
     .option(
@@ -52,7 +60,9 @@ const main = async () => {
     )
     .action(async (pluginName, options, command) => {
       const {
-        gDebug,
+        gV,
+        gVv,
+        gVvv,
         gVersion: version,
         gOs: os,
         gArch: arch,
@@ -61,7 +71,7 @@ const main = async () => {
         gDownload: download,
         gShowVersions: showVersions,
       } = options
-      debug(gDebug)
+      verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
       dbg(`Plugin name:`, pluginName)
       dbg(`CLI:`, pluginName, options)
       const bot = gobot(pluginName, {

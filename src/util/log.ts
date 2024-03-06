@@ -1,4 +1,4 @@
-import { debug } from '../settings'
+import { verbosity } from '../settings'
 
-export const dbg = (...args: any[]) => debug() && console.log(...args)
-export const log = (...args: any[]) => console.log(...args)
+export const dbg = (...args: any[]) => verbosity() > 1 && console.log(...args)
+export const info = (...args: any[]) => verbosity() > 0 && console.log(...args)

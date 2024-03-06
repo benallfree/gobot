@@ -42,7 +42,7 @@ Create a new Gobot
 
 #### Defined in
 
-[GobotBase.ts:55](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L55)
+[GobotBase.ts:55](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L55)
 
 ## Methods
 
@@ -62,7 +62,7 @@ Create a new Gobot
 
 #### Defined in
 
-[GobotBase.ts:94](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L94)
+[GobotBase.ts:94](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L94)
 
 ___
 
@@ -78,7 +78,7 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[GobotBase.ts:103](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L103)
+[GobotBase.ts:103](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L103)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:108](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L108)
+[GobotBase.ts:108](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L108)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:218](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L218)
+[GobotBase.ts:217](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L217)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:150](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L150)
+[GobotBase.ts:149](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L149)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:123](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L123)
+[GobotBase.ts:122](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L122)
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:145](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L145)
+[GobotBase.ts:144](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L144)
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:155](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L155)
+[GobotBase.ts:154](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L154)
 
 ___
 
@@ -196,7 +196,7 @@ Run a Go binary.
 
 #### Defined in
 
-[GobotBase.ts:252](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L252)
+[GobotBase.ts:252](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L252)
 
 ___
 
@@ -216,7 +216,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:164](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L164)
+[GobotBase.ts:163](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L163)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -232,7 +232,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:165](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L165)
+[GobotBase.ts:164](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L164)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -248,7 +248,7 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:166](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L166)
+[GobotBase.ts:165](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L165)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -264,4 +264,4 @@ ___
 
 #### Defined in
 
-[GobotBase.ts:167](https://github.com/benallfree/gobot/blob/e2aa217/src/GobotBase.ts#L167)
+[GobotBase.ts:166](https://github.com/benallfree/gobot/blob/05facad/src/GobotBase.ts#L166)
