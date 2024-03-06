@@ -14,7 +14,7 @@ gobot pocketbase --help
 gobot caddy --help
 gobot act --help
 
-# Run unofficial binaries from gitub
+# Run unofficial binaries from github
 gobot <user>/<repo> --help
 ```
 
@@ -43,13 +43,14 @@ If you are writing a nodejs application that depends upon binaries being present
 
 These projects are officially supported by gobot in the sense that they have a single word command to run them.
 
-|                                                                                              |                                      |                               |                                                                                                                                                                                                                                                                                          |
-| -------------------------------------------------------------------------------------------- | ------------------------------------ | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Act](https://raw.githubusercontent.com/benallfree/gobot/main/assets/act.png)               | [Act](https://github.com/nektos/act) | `npx gobot act --help`        | Run your GitHub Actions locally 🚀                                                                                                                                                                                                                                                       |
-| ![Caddy](https://raw.githubusercontent.com/benallfree/gobot/main/assets/caddy.png)           | [Caddy](https://caddyserver.com/)    | `npx gobot caddy --help`      | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS                                                                                                                                                                                                            |
-| ![PocketBase](https://raw.githubusercontent.com/benallfree/gobot/main/assets/pocketbase.png) | [PocketBase](https://pocketbase.io)  | `npx gobot pocketbase --help` | Open Source realtime backend in 1 file                                                                                                                                                                                                                                                   |
-| ![Pulumi](https://raw.githubusercontent.com/benallfree/gobot/main/assets/pulumi.png)         | [Pulumi](https://www.pulumi.com)     | `npx gobot pulumi --help`     | Pulumi - Infrastructure as Code in any programming language. Build infrastructure intuitively on any cloud using familiar languages 🚀                                                                                                                                                   |
-| ![Weaviate](https://raw.githubusercontent.com/benallfree/gobot/main/assets/weaviate.png)     | [Weaviate](https://weaviate.io)      | `npx gobot weaviate --help`   | Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients. |
+|                                                                                                |                                                      |                                |                                                                                                                                                                                                                                                                                          |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Act](https://raw.githubusercontent.com/benallfree/gobot/main/assets/act.png)                 | [Act](https://github.com/nektos/act)                 | `npx gobot act --help`         | Run your GitHub Actions locally 🚀                                                                                                                                                                                                                                                       |
+| ![AdGuardHome](https://raw.githubusercontent.com/benallfree/gobot/main/assets/AdGuardHome.png) | [AdGuardHome](https://adguard.com/adguard-home.html) | `npx gobot AdGuardHome --help` | Network-wide ads & trackers blocking DNS server                                                                                                                                                                                                                                          |
+| ![Caddy](https://raw.githubusercontent.com/benallfree/gobot/main/assets/caddy.png)             | [Caddy](https://caddyserver.com/)                    | `npx gobot caddy --help`       | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS                                                                                                                                                                                                            |
+| ![PocketBase](https://raw.githubusercontent.com/benallfree/gobot/main/assets/pocketbase.png)   | [PocketBase](https://pocketbase.io)                  | `npx gobot pocketbase --help`  | Open Source realtime backend in 1 file                                                                                                                                                                                                                                                   |
+| ![Pulumi](https://raw.githubusercontent.com/benallfree/gobot/main/assets/pulumi.png)           | [Pulumi](https://www.pulumi.com)                     | `npx gobot pulumi --help`      | Pulumi - Infrastructure as Code in any programming language. Build infrastructure intuitively on any cloud using familiar languages 🚀                                                                                                                                                   |
+| ![Weaviate](https://raw.githubusercontent.com/benallfree/gobot/main/assets/weaviate.png)       | [Weaviate](https://weaviate.io)                      | `npx gobot weaviate --help`    | Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients. |
 
 ### Running unofficial apps
 
@@ -69,7 +70,7 @@ Go apps work flawlessly. gobot was originally named and conceived to support Go 
 
 ### `gobot [gobotOptions] <app> [appOptions]`
 
-All Gobot options begin with `--g-` soas not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
+All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
 
 **Switches**
 

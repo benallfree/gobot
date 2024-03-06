@@ -22,4 +22,5 @@ export const PLUGINS = {
   act: 'nektos/act',
   pulumi: `pulumi/pulumi`,
   weaviate: mkWeaviateBot,
+  AdGuardHome: `AdguardTeam/AdGuardHome`,
 } as const
