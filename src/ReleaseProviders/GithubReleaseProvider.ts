@@ -1,6 +1,6 @@
 import { existsSync, readFileSync, statSync, writeFileSync } from 'fs'
 import { resolve } from 'path'
-import { compare, rcompare } from 'semver'
+import { compare, rcompare, valid } from 'semver'
 import { dbg, info } from '../util/log'
 import { mkdir } from '../util/shell'
 import { smartFetch } from '../util/smartFetch'
@@ -64,6 +64,7 @@ export class GithubReleaseProvider extends AbstractReleaseProvider {
 
       const sortedVersions: StoredRelease[] = remoteReleases
         .map((release) => {
+          dbg(release.tag_name)
           const stored: StoredRelease = {
             version: release.tag_name.slice(1),
             archives: release.assets
@@ -77,6 +78,7 @@ export class GithubReleaseProvider extends AbstractReleaseProvider {
           }
           return stored
         })
+        .filter((release) => valid(release.version))
         .sort((a, b) => rcompare(a.version, b.version)) // Sort versions in descending order using semver
 
       const json = JSON.stringify(sortedVersions, null, 2)
