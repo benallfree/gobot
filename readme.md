@@ -1,12 +1,23 @@
 ![Gobot](https://raw.githubusercontent.com/benallfree/gobot/main/assets/gobot-banner.png)
 
-# gobot - the binary package manager for Node
+# The binary package manager for Node
 
-> Specify external binaries as `package.json` dependencies. Run and execute binaries via CLI or code with `npx`/`npm`
+_Add external binaries as `package.json` dependencies. Run and execute binaries via CLI or code with `npx`/`npm`_
 
-gobot installs binary apps anywhere `npm` is available. It transparently downloads, installs, and runs binary apps (including semver ranges) for the current operating system and architecture.
+## Introduction
+
+gobot installs popular binary apps anywhere `npm` is available. It transparently downloads, installs, and runs binary apps (including semver ranges) for the current operating system and architecture.
 
 Works on Windows, Linux, OS X.
+
+**Features**
+
+- Run any version of supported apps and many unsupported apps from github.
+- Binaries are intelligently downloaded and cached
+- New binary versions are automatically detected and downloaded
+- Efficient - downloads only what is needed
+
+Inspired by [esbuild](https://esbuild.github.io/) and other packages that install binary dependencies
 
 ## Quickstart
 
@@ -27,13 +38,6 @@ npx gobot <app>
 ```
 
 ## Features
-
-- Run any version of supported apps and many unsupported apps from github.
-- Binaries are intelligently downloaded and cached
-- New binary versions are automatically detected and downloaded
-- Efficient - downloads only what is needed
-
-Inspired by [esbuild](https://esbuild.github.io/) and other packages that install binary dependencies
 
 ## Why?
 
