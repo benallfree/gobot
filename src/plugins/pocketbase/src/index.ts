@@ -1,3 +1,7 @@
-import { mkPlugin, Plugin } from '../..'
+import { GobotBase, GobotOptions } from '../../../GobotBase'
 
-export const pocketbase: Plugin = mkPlugin(`pocketbase/pocketbase`)
+export class PocketBase extends GobotBase {
+  constructor(options: Partial<GobotOptions> = {}) {
+    super(`pocketbase/pocketbase`, options)
+  }
+}

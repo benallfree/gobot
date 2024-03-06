@@ -4,6 +4,7 @@
     "authstore",
     "autocancel",
     "automigrate",
+    "caddyserver",
     "Certbot",
     "copyfiles",
     "czvf",
@@ -14,6 +15,7 @@
     "dockerode",
     "esbuild",
     "eventsource",
+    "filenamify",
     "frontends",
     "fullchain",
     "getenv",
@@ -46,11 +48,14 @@
     "POCKETSTREAM",
     "preid",
     "privkey",
+    "rcompare",
+    "riscv",
     "rizzdown",
     "Rpcs",
     "superadmin",
     "syslogd",
     "tailable",
+    "targz",
     "TRYFETCH",
     "tsup",
     "Ulimits",
@@ -61,6 +66,7 @@
     "Unwatching",
     "unzipper",
     "upserting",
-    "Virtio"
+    "Virtio",
+    "xhmikosr"
   ]
 }

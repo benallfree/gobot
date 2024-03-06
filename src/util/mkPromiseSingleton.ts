@@ -1,8 +1,8 @@
+const inFlightPromises: Map<string, Promise<any>> = new Map()
+
 export function mkPromiseSingleton<T, Args extends any[]>(
   fn: (...args: Args) => Promise<T>,
 ): (key?: string) => (...args: Args) => Promise<T> {
-  const inFlightPromises: Map<string, Promise<T>> = new Map()
-
   return function (key = `default`) {
     return function (...args: Args): Promise<T> {
       if (inFlightPromises.has(key)) return inFlightPromises.get(key)!

@@ -41,8 +41,6 @@ If you are writing a nodejs application that depends upon binaries being present
 
 ## Official Gobot Apps
 
-These projects are officially supported by gobot in the sense that they have a single word command to run them.
-
 |                                                                                              |                                      |                               |                                                                               |                                                                                               |
 | -------------------------------------------------------------------------------------------- | ------------------------------------ | ----------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | ![Act](https://raw.githubusercontent.com/benallfree/gobot/main/assets/act.png)               | [Act](https://github.com/nektos/act) | `npx gobot act --help`        | Run your GitHub Actions locally 🚀                                            | [plugin docs](https://github.com/benallfree/gobot/blob/main/src/plugins/act/readme.md)        |

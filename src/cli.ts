@@ -1,26 +1,12 @@
 #!/usr/bin/env node
 
-import { forEach } from '@s-libs/micro-dash'
 import { Command } from 'commander'
-import { readFileSync } from 'fs'
-import { join } from 'path'
+import { exit } from 'process'
 import json from '../package.json'
-import { download } from './download'
-import { dbg, log } from './log'
-import { PLUGINS, PluginKey } from './plugins'
-import { run } from './run'
-import {
-  arch,
-  archValueGuard,
-  cachePath,
-  clearCache,
-  debug,
-  os,
-  platformValueGuard,
-  plugin,
-  version,
-} from './settings'
-import { getAvailableVersionsPath } from './versions'
+import { DEFAULT_GOBOT_CACHE_ROOT } from './GobotBase'
+import { gobot } from './gobot'
+import { arch, archValueGuard, debug, os, platformValueGuard } from './settings'
+import { dbg } from './util/log'
 
 const main = async () => {
   const program = new Command()
@@ -34,81 +20,73 @@ const main = async () => {
     .allowExcessArguments()
 
   program
-    .command('versions <plugin>')
-    .description(`Show and optionally download available versions.`)
-    .option(`--debug`, `Show debugging output`, false)
+    .command(`run`, { isDefault: true })
+    .argument(`pluginName <pluginName>`, `The name of the plugin to run`)
+    .description(`Run binaries`)
+    .allowUnknownOption()
+    .allowExcessArguments()
     .option(
-      `--only <range>`,
-      `Filter to matching versions (semver or semver range)`,
-      version(),
+      `--g-version <version>`,
+      `Use a specific binary version (format: x.y.z semver or x.y.* semver range)`,
+      `*`,
     )
     .option(
-      `--download`,
+      `--g-download`,
       `Download all matching versions (semver range)`,
       false,
     )
-    .option(`--os <os>`, `Specify OS/Platform`, platformValueGuard, os())
-    .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, arch())
     .option(
-      `--format <fmt>`,
+      `--g-show-versions <fmt>`,
       `Output in JSON format`,
       (v) => (['txt', 'json', 'cjs', 'esm'].includes(v) ? v : 'txt'),
-      `txt`,
+      ``,
     )
-    .option(`--refresh`, `Refresh cache`, false)
-    .option(`--cache-path <path>`, `The cache path to use`, cachePath())
-    .action(async (pluginName: PluginKey, options) => {
-      debug(options.debug)
-      dbg(`Options:`, options)
-      plugin(pluginName)
-      cachePath(join(options.cachePath, pluginName))
-      arch(options.arch)
-      os(options.os)
-      version(options.only)
-      if (options.refresh) {
-        clearCache()
-      }
-      if (options.download) {
-        await download({ log })
-      }
-
-      const dump = await getAvailableVersionsPath(options.format)
-      log(readFileSync(dump).toString())
-    })
-
-  forEach(PLUGINS, (pluginInfo, k) => {
-    const { name } = pluginInfo
-    program
-      .command(name, { isDefault: true })
-      .description(`Run ${name}`)
-      .allowUnknownOption()
-      .allowExcessArguments()
-      .option(
-        `--use-version <version>`,
-        `Use a specific binary version (format: x.y.z semver or x.y.* semver range)`,
-        version(),
-      )
-      .option(`--debug`, `Show debugging output`, false)
-      .option(`--os <os>`, `Specify OS/Platform`, platformValueGuard, os())
-      .option(`--arch <items>`, `Specify OS/Platform`, archValueGuard, arch())
-      .option(`--upgrade`, 'Disabled', false)
-      .option(`--refresh`, `Clear cache`, false)
-      .option(`--cache-path <path>`, `The cache path to use`, cachePath())
-      .action(async (options, command) => {
-        debug(options.debug)
-        dbg(`CLI:`, name, options)
-        plugin(name)
-        cachePath(join(options.cachePath, name))
-        arch(options.arch)
-        os(options.os)
-        version(options.useVersion)
-        if (options.refresh) {
-          clearCache()
-        }
-        dbg(`Forwarding args: `, command.args)
-        await run(command.args)
+    .option(`--g-debug`, `Show debugging output`, false)
+    .option(`--g-os <os>`, `Specify OS/Platform`, platformValueGuard, os())
+    .option(`--g-arch <items>`, `Specify OS/Platform`, archValueGuard, arch())
+    .option(`--g-refresh`, `Clear cache`, false)
+    .option(
+      `--g-cache-path <path>`,
+      `The cache path to use (default root: ${DEFAULT_GOBOT_CACHE_ROOT})`,
+      undefined,
+    )
+    .action(async (pluginName, options, command) => {
+      const {
+        gDebug,
+        gVersion: version,
+        gOs: os,
+        gArch: arch,
+        gRefresh: refresh,
+        gCachePath: cachePath,
+        gDownload: download,
+        gShowVersions: showVersions,
+      } = options
+      debug(gDebug)
+      dbg(`Plugin name:`, pluginName)
+      dbg(`CLI:`, pluginName, options)
+      const bot = gobot(pluginName, {
+        os,
+        arch,
+        version,
+        cachePath,
+        env: process.env,
       })
-  })
+      if (refresh) {
+        bot.clearCache()
+      }
+      if (download) {
+        await bot.download()
+        exit(0)
+      }
+      if (showVersions) {
+        const fmt = await bot.versions(showVersions)
+        console.log(fmt)
+        exit(0)
+      }
+      const args = command.args.slice(1)
+      dbg(`Forwarding args: `, args)
+      await bot.run(args)
+    })
 
   program.parseAsync(process.argv)
 }

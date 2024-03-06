@@ -1,9 +1,10 @@
 {
   "$schema": "https://typedoc.org/schema.json",
-  "entryPoints": ["./src/api.ts"],
+  "entryPoints": ["./src/api.ts", "./src/GobotBase.ts"],
   "out": "./docs",
   "plugin": ["typedoc-plugin-markdown"],
   "hideBreadcrumbs": true,
   "hidePageTitle": true,
-  "entryDocument": "readme.md"
+  "entryDocument": "readme.md",
+  "excludePrivate": true
 }

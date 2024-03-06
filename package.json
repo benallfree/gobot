@@ -16,7 +16,7 @@
     "build": "rimraf dist && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm",
     "dev": "tsx src/cli.ts",
     "test": "pnpm build && npm pack && npm rm -g gobot && npm i -g gobot-`cat package.json | fx '.version'`.tgz && gobot --debug --help",
-    "docs": "typedoc"
+    "docs": "typedoc --excludePrivate"
   },
   "keywords": [
     "pocketbase",
@@ -30,16 +30,21 @@
   "dependencies": {
     "@s-libs/micro-dash": "^17.1.0",
     "@types/node": "^20.11.24",
+    "@xhmikosr/decompress-targz": "^7.0.0",
+    "@xhmikosr/decompress-unzip": "^6.0.0",
     "bottleneck": "^2.19.5",
     "commander": "^12.0.0",
+    "decompress": "^4.2.1",
     "env-paths": "^3.0.0",
+    "filenamify": "^6.0.0",
     "jszip": "^3.10.1",
     "node-fetch": "^3.3.2",
+    "rimraf": "^5.0.5",
     "semver": "^7.6.0",
-    "shelljs": "^0.8.5",
-    "rimraf": "^5.0.5"
+    "shelljs": "^0.8.5"
   },
   "devDependencies": {
+    "@types/decompress": "^4.2.7",
     "@types/semver": "^7.5.8",
     "@types/shelljs": "^0.8.15",
     "@types/yargs": "^17.0.32",
