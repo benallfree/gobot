@@ -201,12 +201,14 @@ export class GobotBase {
       const archiveName = basename(archive).toLocaleLowerCase()
       dbg(`Archive name`, archiveName)
 
-      const osMatch = osAliases.some((osAlias) =>
-        archiveName.includes(`_${osAlias}`),
-      )
-      const archMatch = archAliases.some((archAlias) =>
-        archiveName.includes(`_${archAlias}`),
-      )
+      const osMatch = osAliases.some((osAlias) => {
+        const osRegex = new RegExp(`[_-]${osAlias}[_\\-.]`)
+        return osRegex.test(archiveName)
+      })
+      const archMatch = archAliases.some((archAlias) => {
+        const archRegex = new RegExp(`[_-]${archAlias}[_\\-.]`)
+        return archRegex.test(archiveName)
+      })
 
       if (osMatch && archMatch) return archive
     }
