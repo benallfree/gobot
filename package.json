@@ -1,6 +1,6 @@
 {
   "name": "gobot",
-  "version": "1.0.0-alpha.10",
+  "version": "1.0.0-alpha.11",
   "description": "Install and run most any binary app as an npm package dependency.",
   "repository": "github:benallfree/gobot",
   "type": "module",
