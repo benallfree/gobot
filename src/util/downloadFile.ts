@@ -1,5 +1,6 @@
 import { createWriteStream } from 'fs'
 import fetch from 'node-fetch'
+import { rinfo, rinfoe } from './log'
 
 export const downloadFile = async (url: string, path: string) => {
   const response = await fetch(url)
@@ -15,7 +16,7 @@ export const downloadFile = async (url: string, path: string) => {
     throw new Error(`Expected body here`)
   }
 
-  console.log('Downloading') // Initial log for downloading
+  rinfo('Downloading') // Initial log for downloading
 
   const stream = createWriteStream(path)
   body.on('data', (chunk) => {
@@ -26,7 +27,7 @@ export const downloadFile = async (url: string, path: string) => {
 
     if (downloadedMB > lastLoggedMB) {
       // For every 1MB downloaded since the last log, print a dot
-      process.stdout.write('.'.repeat(downloadedMB - lastLoggedMB))
+      rinfo('.'.repeat(downloadedMB - lastLoggedMB))
       lastLogged = downloadedSize
     }
   })
@@ -35,11 +36,11 @@ export const downloadFile = async (url: string, path: string) => {
 
   return new Promise<void>((resolve, reject) => {
     stream.on('finish', () => {
-      console.log('\nDownload completed.') // Newline after download finishes
+      rinfo('\nDownload completed.') // Newline after download finishes
       resolve()
     })
     stream.on('error', (error) => {
-      console.error('\nDownload failed.') // Newline and error message on failure
+      rinfoe('\nDownload failed.') // Newline and error message on failure
       reject(error)
     })
   })
