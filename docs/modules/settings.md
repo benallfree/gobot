@@ -2,7 +2,7 @@
 
 ### Functions
 
-- [verbosity](settings_verbosity.md#verbosity)
+- [verbosity](settings.md#verbosity)
 
 ## Functions
 
@@ -22,4 +22,4 @@
 
 #### Defined in
 
-[settings/verbosity.ts:3](https://github.com/benallfree/gobot/blob/d9f6ceb/src/settings/verbosity.ts#L3)
+[settings/verbosity.ts:3](https://github.com/benallfree/gobot/blob/52d1ff8/src/settings/verbosity.ts#L3)

@@ -1,23 +1,24 @@
+import { cloneDeep } from '@s-libs/micro-dash'
 import { PluginFactory } from '.'
-import { GobotBase, GobotOptions } from '../GobotBase'
-import { ArchValue } from '../settings'
-import { dbg } from '../util/log'
-
-class WeaviateBot extends GobotBase {
-  constructor(optionsIn: Partial<GobotOptions> = {}) {
-    dbg(`WeaviateBot constructor`)
-    super(`weaviate/weaviate`, optionsIn)
-  }
-
-  protected get archAliases(): ArchValue[] {
-    dbg(`Selecting weaviate arch`)
-    if (this.os === 'darwin') {
-      return [...super.archAliases, `all`] as any
-    }
-    return super.archAliases
-  }
-}
+import {
+  DEFAULT_PLATFORM_MAP,
+  GithubReleaseProvider,
+} from '../GithubReleaseProvider'
+import { Gobot, GobotOptions } from '../Gobot'
 
 export const mkWeaviateBot: PluginFactory = (
   optionsIn: Partial<GobotOptions> = {},
-) => new WeaviateBot(optionsIn)
+) => {
+  const repo = `weaviate/weaviate`
+  const platformMap = cloneDeep(DEFAULT_PLATFORM_MAP)
+  platformMap.darwin.architectures.arm64.aliases.push(`all`)
+  platformMap.darwin.architectures.x64.aliases.push(`all`)
+  return new Gobot(
+    repo,
+    (cacheRoot) =>
+      new GithubReleaseProvider(repo, cacheRoot, {
+        platformMap,
+      }),
+    optionsIn,
+  )
+}

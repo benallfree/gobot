@@ -4,6 +4,7 @@ import { dirname } from 'path'
 import { dbg } from './log'
 import { mkPromiseSingleton } from './mkPromiseSingleton'
 import { mkdir } from './shell'
+import { stringify } from './stringify'
 
 const _fetch = mkPromiseSingleton(async <TRet>(url: string) => {
   dbg(`Fetching ${url}`)
@@ -23,12 +24,12 @@ export const smartFetch = async <TRet>(
     dbg(`Fetching`, url)
     const data = await _fetch<TRet>(url)(url)
     mkdir('-p', dirname(path))
-    writeFileSync(path, JSON.stringify(data))
+    writeFileSync(path, stringify(data))
     return data
   } catch (e) {
     dbg(`Caught error on fetch: ${e}`)
     if (!existsSync(path)) {
-      throw new Error(`API down and no cache`)
+      throw new Error(`API down and no cache ${url}`)
     }
     dbg(`Using data from cache`)
     return JSON.parse(readFileSync(path).toString()) as TRet

@@ -2,6 +2,6 @@
 
 ### Modules
 
-- [GobotBase](modules/GobotBase.md)
+- [Gobot](modules/Gobot.md)
 - [api](modules/api.md)
-- [settings/verbosity](modules/settings_verbosity.md)
+- [settings](modules/settings.md)

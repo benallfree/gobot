@@ -1,10 +1,23 @@
-# gobot - the binary package manager for Node
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/main/assets/gobot-banner.png)
 
-> Specify external binaries as `package.json` dependencies. Run and execute binaries via CLI or code with `npx`/`npm`
+# The binary package manager for Node
 
-gobot installs binary apps anywhere `npm` is available. It transparently downloads, installs, and runs binary apps (including semver ranges) for the current operating system and architecture.
+_Manage and run popular binaries as `package.json` dependencies. CLI and API interfaces._
+
+## Introduction
+
+gobot installs popular binary apps anywhere `npm` is available. It transparently downloads, installs, and runs binary apps (including semver ranges) for the current operating system and architecture.
 
 Works on Windows, Linux, OS X.
+
+**Features**
+
+- Run any version of supported apps and many unsupported apps from github.
+- Binaries are intelligently downloaded and cached
+- New binary versions are automatically detected and downloaded
+- Efficient - downloads only what is needed
+
+Inspired by [esbuild](https://esbuild.github.io/) and other packages that install binary dependencies
 
 ## Quickstart
 
@@ -14,7 +27,7 @@ gobot pocketbase --help
 gobot caddy --help
 gobot act --help
 
-# Run unofficial binaries from gitub
+# Run unofficial binaries from github
 gobot <user>/<repo> --help
 ```
 
@@ -24,32 +37,18 @@ or
 npx gobot <app>
 ```
 
-## Features
-
-- Run any version of supported apps and many unsupported apps from github.
-- Binaries are intelligently downloaded and cached
-- New binary versions are automatically detected and downloaded
-- Efficient - downloads only what is needed
-
-Inspired by [esbuild](https://esbuild.github.io/) and other packages that install binary dependencies
-
-## Why?
-
-If you are writing a nodejs application that depends upon binaries being present (like [PocketHost](https://github.com/pockethost/pockethost) does), you can add this package as a dependency and execute the binary via CLI or programmatically . This package will make sure your desired external binaries are always available.
-
-`npx gobot@latest <app>` is quite a bit easier than manually downloading zips and installing binaries in shell paths. gobot handles it all for you effortlessly.
-
 ## Official Gobot Apps
 
-These projects are officially supported by gobot in the sense that they have a single word command to run them.
-
-|                                                                                              |                                      |                               |                                                                                                                                                                                                                                                                                          |     |
-| -------------------------------------------------------------------------------------------- | ------------------------------------ | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| ![Act](https://raw.githubusercontent.com/benallfree/gobot/main/assets/act.png)               | [Act](https://github.com/nektos/act) | `npx gobot act --help`        | Run your GitHub Actions locally 🚀                                                                                                                                                                                                                                                       |
-| ![Caddy](https://raw.githubusercontent.com/benallfree/gobot/main/assets/caddy.png)           | [Caddy](https://caddyserver.com/)    | `npx gobot caddy --help`      | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS                                                                                                                                                                                                            |
-| ![PocketBase](https://raw.githubusercontent.com/benallfree/gobot/main/assets/pocketbase.png) | [PocketBase](https://pocketbase.io)  | `npx gobot pocketbase --help` | Open Source realtime backend in 1 file                                                                                                                                                                                                                                                   |
-| ![Pulumi](https://raw.githubusercontent.com/benallfree/gobot/main/assets/pulumi.png)         | [Pulumi](https://www.pulumi.com)     | `npx gobot pulumi --help`     | Pulumi - Infrastructure as Code in any programming language. Build infrastructure intuitively on any cloud using familiar languages 🚀                                                                                                                                                   |
-| ![Weaviate](https://raw.githubusercontent.com/benallfree/gobot/main/assets/weviate.png)      | [Weaviate](https://weaviate.io)      | `npx gobot weaviate --help`   | Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients. |
+|                                                                                                | `<app>`        |                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------------------------------------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Act](https://raw.githubusercontent.com/benallfree/gobot/main/assets/act.png)                 | `act`          | Run your GitHub Actions locally 🚀<br/>[homepage](https://github.com/nektos/act)                                                                                                                                                                                                                                             |
+| ![AdGuardHome](https://raw.githubusercontent.com/benallfree/gobot/main/assets/AdGuardHome.png) | `AdGuardHome`  | Network-wide ads & trackers blocking DNS server<br/>[homepage](https://adguard.com/adguard-home.html)                                                                                                                                                                                                                        |
+| ![Caddy](https://raw.githubusercontent.com/benallfree/gobot/main/assets/caddy.png)             | `caddy`        | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS<br/>[homepage](https://caddyserver.com/)                                                                                                                                                                                                       |
+| ![Minio](https://raw.githubusercontent.com/benallfree/gobot/main/assets/minio.png)             | `minio` + `mc` | The Object Store for AI Data Infrastructure<br/>[homepage](https://min.io) \| [gotbot notes](https://github.com/benallfree/gobot/blob/main/src/plugins/Minio/readme.md)                                                                                                                                                      |
+| ![PocketBase](https://raw.githubusercontent.com/benallfree/gobot/main/assets/pocketbase.png)   | `pocketbase`   | Open Source realtime backend in 1 file<br/>[homepage](https://pocketbase.io) \| [gobot notes](https://github.com/benallfree/gobot/blob/main/src/plugins/PocketBase/readme.md)                                                                                                                                                |
+| ![Pulumi](https://raw.githubusercontent.com/benallfree/gobot/main/assets/pulumi.png)           | `pulumi`       | Pulumi - Infrastructure as Code in any programming language. Build infrastructure intuitively on any cloud using familiar languages 🚀<br/>[homepage](https://www.pulumi.com)                                                                                                                                                |
+| ![Rclone](https://raw.githubusercontent.com/benallfree/gobot/main/assets/rclone.png)           | `rclone`       | "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files<br/>[homepage](https://rclone.org/)                                                                                                                                                 |
+| ![Weaviate](https://raw.githubusercontent.com/benallfree/gobot/main/assets/weaviate.png)       | `weaviate`     | Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients.<br/>[homepage](https://weaviate.io) |
 
 ### Running unofficial apps
 
@@ -57,6 +56,19 @@ gobot can run many apps hosted on github, without official support.
 
 ```bash
 gobot <user>/<repo>
+```
+
+**Example**
+
+```bash
+# Run PocketBase as a direct repo name rather than the `pocketbase` alias
+gobot pocketbase/pocketbase --help
+```
+
+or API:
+
+```ts
+gobot(`pocketbase/pocketbase`).run([`--help`])
 ```
 
 The above command format may run the app you have in mind. For example, `gobot caddy --help` runs the Caddy by the official name, but `gobot caddyserver/caddy --help` will also run it.
@@ -69,18 +81,19 @@ Go apps work flawlessly. gobot was originally named and conceived to support Go 
 
 ### `gobot [gobotOptions] <app> [appOptions]`
 
-All Gobot options begin with `--g-` soas not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
+All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
 
 **Switches**
 
-| Option         | Default       | Discussion                                                                                                                                                   |
-| -------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| --g-os         | host OS       | `aix`, `darwin`, `freebsd`,`linux`, `openbsd`, `sunos`, and `win32`                                                                                          |
-| --g-arch       | host arch     | `arm`, `arm64`, `ia32`, `loong64`, `mips`, `mipsel`, `ppc`, `ppc64`, `riscv64`, `s390`, `s390x`, and `x64`                                                   |
-| --g-v[vv]      |               | Adjust output verbosity                                                                                                                                      |
-| --g-refresh    | `false`       | Clear the gobot cache                                                                                                                                        |
-| --g-version    | latest        | Run a specific binary version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
-| --g-cache-path | host specific | Use the specified directory for cache files.                                                                                                                 |
+| Option          | Default       | Discussion                                                                                                                                                   |
+| --------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --g-os          | host OS       | `aix`, `darwin`, `freebsd`,`linux`, `openbsd`, `sunos`, and `win32`                                                                                          |
+| --g-arch        | host arch     | `arm`, `arm64`, `ia32`, `loong64`, `mips`, `mipsel`, `ppc`, `ppc64`, `riscv64`, `s390`, `s390x`, and `x64`                                                   |
+| --g-v[vv]       |               | Adjust output verbosity                                                                                                                                      |
+| --g-download    | `false`       | Download all matching versions and exit                                                                                                                      |
+| --g-refresh     | `false`       | Clear the gobot cache                                                                                                                                        |
+| --g-use-version | latest        | Run a specific binary version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
+| --g-cache-path  | host specific | Use the specified directory for cache files.                                                                                                                 |
 
 **Examples**
 
@@ -112,6 +125,12 @@ const childProcess = bot.run([`serve`])
 ```
 
 [Full API Docs](https://github.com/pockethost/gobot/blob/main/docs/modules.md)
+
+## Why?
+
+If you are writing a nodejs application that depends upon binaries being present (like [PocketHost](https://github.com/pockethost/pockethost) does), you can add this package as a dependency and execute the binary via CLI or programmatically . This package will make sure your desired external binaries are always available.
+
+`npx gobot@latest <app>` is quite a bit easier than manually downloading zips and installing binaries in shell paths. gobot handles it all for you effortlessly.
 
 ## OS X Users
 

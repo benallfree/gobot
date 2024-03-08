@@ -8,7 +8,7 @@
 
 ### gobot
 
-▸ **gobot**(`pluginName`, `optionsIn?`): [`GobotBase`](../classes/GobotBase.GobotBase.md)
+▸ **gobot**(`pluginName`, `optionsIn?`): [`Gobot`](../classes/Gobot.Gobot.md)
 
 Instantiate a gobot for a specific app.
 
@@ -17,14 +17,14 @@ Instantiate a gobot for a specific app.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `pluginName` | `string` | `<app>` for officially supported apps, or `<user>/<repo>` for unofficial apps (your mileage may vary) |
-| `optionsIn` | `Partial`\<[`GobotOptions`](../interfaces/GobotBase.GobotOptions.md)\> | Option overrides |
+| `optionsIn` | `Partial`\<[`GobotOptions`](../interfaces/Gobot.GobotOptions.md)\> | Option overrides |
 
 #### Returns
 
-[`GobotBase`](../classes/GobotBase.GobotBase.md)
+[`Gobot`](../classes/Gobot.Gobot.md)
 
 An instance of GobotBase
 
 #### Defined in
 
-[gobot.ts:12](https://github.com/benallfree/gobot/blob/d9f6ceb/src/gobot.ts#L12)
+[api.ts:15](https://github.com/benallfree/gobot/blob/52d1ff8/src/api.ts#L15)
