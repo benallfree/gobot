@@ -15,7 +15,9 @@
     "build": "rimraf dist && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm",
     "dev": "tsx src/cli.ts",
     "test": "pnpm build && npm pack && npm rm -g gobot && npm i -g gobot-`cat package.json | fx '.version'`.tgz && gobot pocketbase --g-debug --help",
-    "docs": "typedoc --excludePrivate"
+    "docs": "pnpm docs:readme && pnpm docs:api",
+    "docs:readme": "plop readme",
+    "docs:api": "typedoc --excludePrivate"
   },
   "keywords": [
     "pocketbase",
@@ -53,7 +55,9 @@
     "esbuild": "^0.20.1",
     "esbuild-node-externals": "^1.13.0",
     "fx": "^31.0.0",
+    "markdown-table": "^3.0.3",
     "ncp": "^2.0.0",
+    "plop": "^4.0.1",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
     "tsup": "^8.0.2",
