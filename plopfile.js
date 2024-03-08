@@ -13,10 +13,10 @@ const md = markdownTable([
       a.name.toLocaleLowerCase().localeCompare(b.name.toLocaleLowerCase()),
     )
     .map((app) => {
-      const { name, description, homepage, slug } = app
+      const { name, description, homepage, slug, logo } = app
       const hasReadme = slug && existsSync(`./src/plugins/${slug}/readme.md`)
       const readmeUrl = `https://github.com/benallfree/gobot/blob/main/src/plugins/${slug}/readme.md)`
-      const logoUrl = `https://raw.githubusercontent.com/benallfree/gobot/main/assets/${name}.png`
+      const logoUrl = `https://raw.githubusercontent.com/benallfree/gobot/main/assets/${logo || name}.png`
       return [
         mkLink(`<img src="${logoUrl}">`, homepage),
         code(name),

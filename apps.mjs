@@ -19,6 +19,7 @@ export default [
     description: `The Object Store for AI Data Infrastructure`,
     homepage: `https://min.io`,
     slug: `Minio`,
+    logo: `minio`,
   },
   {
     name: `pocketbase`,
