@@ -244,7 +244,7 @@ export class Gobot {
       info(`Downloading ${url}`)
       const res = await downloadFile(url, downloadPath)
 
-      this.unpack(downloadPath, exactVersion)
+      await this.unpack(downloadPath, exactVersion)
 
       const unpackedBinPath = await this.findArchiveBinPath(exactVersion)
 
