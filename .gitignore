@@ -6,3 +6,4 @@ pb_*
 .vscode
 dist
 .DS_Store
+build

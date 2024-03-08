@@ -1,33 +1,6 @@
-import { times } from '@s-libs/micro-dash'
-import { existsSync } from 'fs'
-import { markdownTable } from 'markdown-table'
-import apps from './apps.mjs'
-
-const mkLink = (name, url) => `[${name}](${url})`
-const code = (content) => `\`${content}\``
-const space = (n = 5) => times(n, () => `&nbsp;`).join('')
-const md = markdownTable([
-  [space(10), code(`<app>`), `What is it?`],
-  ...apps
-    .sort((a, b) =>
-      a.name.toLocaleLowerCase().localeCompare(b.name.toLocaleLowerCase()),
-    )
-    .map((app) => {
-      const { name, description, homepage, slug, logo } = app
-      const hasReadme = slug && existsSync(`./src/plugins/${slug}/readme.md`)
-      const readmeUrl = `https://github.com/benallfree/gobot/blob/main/src/plugins/${slug}/readme.md)`
-      const logoUrl = `https://raw.githubusercontent.com/benallfree/gobot/main/assets/${logo || name}.png`
-      return [
-        mkLink(`<img src="${logoUrl}">`, homepage),
-        code(name),
-        `${description}${hasReadme ? `<br/>${mkLink(`gobot docs`, readmeUrl)}` : ''}`,
-      ]
-    }),
-])
-console.log(md)
+import { apps } from './apps.mjs'
 
 export default function (plop) {
-  // controller generator
   plop.setGenerator('readme', {
     description: 'Generate readme',
     prompts: [],
@@ -38,9 +11,32 @@ export default function (plop) {
         templateFile: 'plop-templates/readme.md',
         force: true,
         data: {
-          apps: md,
+          apps,
         },
       },
     ],
-  })
+  }),
+    plop.setGenerator('invite', {
+      description: 'Generate invite',
+      prompts: [
+        {
+          type: 'input',
+          name: 'app',
+          message: 'What is the CLI name of the app?',
+        },
+        {
+          type: 'input',
+          name: 'semver',
+          message: 'What is a good semver example for this app?',
+        },
+      ],
+      actions: [
+        {
+          type: 'add',
+          path: 'build/invite.md',
+          templateFile: 'plop-templates/invite.md',
+          force: true,
+        },
+      ],
+    })
 }

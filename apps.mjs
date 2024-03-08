@@ -1,4 +1,8 @@
-export default [
+import { times } from '@s-libs/micro-dash'
+import { existsSync } from 'fs'
+import { markdownTable } from 'markdown-table'
+
+const APPS_MAP = [
   {
     name: `act`,
     description: `Run your GitHub Actions locally 🚀`,
@@ -43,3 +47,24 @@ export default [
     homepage: `https://weaviate.io`,
   },
 ]
+
+const mkLink = (name, url) => `[${name}](${url})`
+const code = (content) => `\`${content}\``
+const space = (n = 5) => times(n, () => `&nbsp;`).join('')
+
+export const apps = markdownTable([
+  [space(10), code(`<app>`), `What is it?`],
+  ...APPS_MAP.sort((a, b) =>
+    a.name.toLocaleLowerCase().localeCompare(b.name.toLocaleLowerCase()),
+  ).map((app) => {
+    const { name, description, homepage, slug, logo } = app
+    const hasReadme = slug && existsSync(`./src/plugins/${slug}/readme.md`)
+    const readmeUrl = `https://github.com/benallfree/gobot/blob/main/src/plugins/${slug}/readme.md)`
+    const logoUrl = `https://raw.githubusercontent.com/benallfree/gobot/main/assets/${logo || name}.png`
+    return [
+      mkLink(`<img src="${logoUrl}">`, homepage),
+      code(name),
+      `${description}${hasReadme ? `<br/>${mkLink(`gobot docs`, readmeUrl)}` : ''}`,
+    ]
+  }),
+])
