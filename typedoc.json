@@ -6,5 +6,6 @@
   "hideBreadcrumbs": true,
   "hidePageTitle": true,
   "entryDocument": "readme.md",
-  "excludePrivate": true
+  "excludePrivate": true,
+  "gitRevision": "main"
 }

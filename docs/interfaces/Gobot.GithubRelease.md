@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[Gobot.ts:33](https://github.com/benallfree/gobot/blob/276e50d/src/Gobot.ts#L33)
+[Gobot.ts:33](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L33)
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:32](https://github.com/benallfree/gobot/blob/276e50d/src/Gobot.ts#L32)
+[Gobot.ts:32](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L32)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:31](https://github.com/benallfree/gobot/blob/276e50d/src/Gobot.ts#L31)
+[Gobot.ts:31](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L31)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[Gobot.ts:30](https://github.com/benallfree/gobot/blob/276e50d/src/Gobot.ts#L30)
+[Gobot.ts:30](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L30)

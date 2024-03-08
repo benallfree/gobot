@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[Gobot.ts:28](https://github.com/benallfree/gobot/blob/276e50d/src/Gobot.ts#L28)
+[Gobot.ts:28](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L28)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:39](https://github.com/benallfree/gobot/blob/276e50d/src/Gobot.ts#L39)
+[Gobot.ts:39](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L39)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:27](https://github.com/benallfree/gobot/blob/276e50d/src/Gobot.ts#L27)
+[Gobot.ts:27](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L27)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:41](https://github.com/benallfree/gobot/blob/276e50d/src/Gobot.ts#L41)
+[Gobot.ts:41](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L41)
 
 ## Functions
 
@@ -87,4 +87,4 @@ The default Gobot cache root. This is platform specific.
 
 #### Defined in
 
-[Gobot.ts:66](https://github.com/benallfree/gobot/blob/276e50d/src/Gobot.ts#L66)
+[Gobot.ts:66](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L66)
