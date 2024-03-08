@@ -14,7 +14,7 @@
     "bump": "npm version prerelease --preid alpha",
     "build": "rimraf dist && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm",
     "dev": "tsx src/cli.ts",
-    "test": "pnpm build && npm pack && npm rm -g gobot && npm i -g gobot-`cat package.json | fx '.version'`.tgz && gobot pocketbase --g-debug --help",
+    "test": "pnpm build && npm pack && npm rm -g gobot && npm i -g gobot-`cat package.json | fx '.version'`.tgz && gobot pocketbase --g-refresh --g-vvv --help",
     "docs": "pnpm docs:readme && pnpm docs:api",
     "docs:readme": "plop readme",
     "docs:api": "typedoc --excludePrivate"
