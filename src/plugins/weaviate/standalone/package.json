@@ -1,0 +1,33 @@
+{
+  "name": "gobot-plugin-weaviate",
+  "version": "1.0.0-alpha.13",
+  "description": "Standalone Weaviate installer",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
+    "dev": "node ./index.mjs",
+    "test": "npm pack && npm rm -g gobot-weaviate && npm i -g gobot-weaviate-`cat package.json | fx '.version'`.tgz && weaviate --g-refresh --g-vvv --help"
+  },
+  "bin": {
+    "weaviate": "./index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benallfree/gobot-weaviate.git"
+  },
+  "keywords": [
+    "gobot",
+    "weaviate"
+  ],
+  "author": "Ben Allfree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benallfree/gobot-weaviate/issues"
+  },
+  "homepage": "https://github.com/benallfree/gobot-weaviate#readme",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "gobot": "latest"
+  }
+}

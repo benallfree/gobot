@@ -1,8 +1,11 @@
 import { GithubReleaseProvider } from './GithubReleaseProvider'
 import { DEFAULT_GOBOT_CACHE_ROOT, Gobot, GobotOptions } from './Gobot'
 import { PLUGINS, isPluginFactory, isPluginName } from './plugins'
+import { verbosity } from './settings'
 import { dbg } from './util/log'
 import { sanitizeOptions } from './util/sanitize'
+export * from './util/botrun'
+export * from './util/log'
 
 /**
  * Instantiate a gobot for a specific app.
@@ -47,3 +50,7 @@ export const gobot = (
     optionsIn,
   )
 }
+
+export { DEFAULT_GOBOT_CACHE_ROOT }
+
+export { verbosity }

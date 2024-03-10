@@ -1,0 +1,33 @@
+{
+  "name": "gobot-plugin-mc",
+  "version": "1.0.0-alpha.13",
+  "description": "Standalone Mc installer",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
+    "dev": "node ./index.mjs",
+    "test": "npm pack && npm rm -g gobot-mc && npm i -g gobot-mc-`cat package.json | fx '.version'`.tgz && mc --g-refresh --g-vvv --help"
+  },
+  "bin": {
+    "mc": "./index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benallfree/gobot-mc.git"
+  },
+  "keywords": [
+    "gobot",
+    "mc"
+  ],
+  "author": "Ben Allfree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benallfree/gobot-mc/issues"
+  },
+  "homepage": "https://github.com/benallfree/gobot-mc#readme",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "gobot": "latest"
+  }
+}

@@ -1,7 +1,7 @@
 import { GobotOptions } from '../../Gobot'
 import { PluginFactory } from '../index'
-import { MinioGobot } from './MinioGobot'
-import { MinioReleaseProvider } from './MinioReleaseProvider'
+import { MinioGobot } from '../minio/MinioGobot'
+import { MinioReleaseProvider } from '../minio/MinioReleaseProvider'
 
 export const mkMinioClientBot: PluginFactory = (
   optionsIn: Partial<GobotOptions> = {},

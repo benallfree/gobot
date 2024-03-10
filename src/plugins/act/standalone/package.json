@@ -1,0 +1,33 @@
+{
+  "name": "gobot-plugin-act",
+  "version": "1.0.0-alpha.13",
+  "description": "Standalone Act installer",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
+    "dev": "node ./index.mjs",
+    "test": "npm pack && npm rm -g gobot-act && npm i -g gobot-act-`cat package.json | fx '.version'`.tgz && act --g-refresh --g-vvv --help"
+  },
+  "bin": {
+    "act": "./index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benallfree/gobot-act.git"
+  },
+  "keywords": [
+    "gobot",
+    "act"
+  ],
+  "author": "Ben Allfree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benallfree/gobot-act/issues"
+  },
+  "homepage": "https://github.com/benallfree/gobot-act#readme",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "gobot": "latest"
+  }
+}

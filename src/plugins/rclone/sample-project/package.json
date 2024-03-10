@@ -1,0 +1,18 @@
+{
+  "name": "rclone-gobot",
+  "bin": {
+    "rclone": "./index.mjs"
+  },
+  "scripts": {
+    "rclone-help": "node ./index.mjs",
+    "rclone": "gobot rclone"
+  },
+  "dependencies": {
+    "gobot": "latest"
+  },
+  "gobot": {
+    "rclone": {
+      "version": "1.65.*"
+    }
+  }
+}

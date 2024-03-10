@@ -1,9 +1,9 @@
 import { isFunction } from '@s-libs/micro-dash'
 import { Gobot, GobotOptions } from '../Gobot'
-import { mkMinioClientBot } from './Minio/mkMinioClientBot'
-import { mkMinioServerBot } from './Minio/mkMinioServerBot'
-import { mkPocketBaseBot } from './PocketBase/PocketBaseBot'
-import { mkWeaviateBot } from './WeaviateBot'
+import { mkMinioClientBot } from './mc/mkMinioClientBot'
+import { mkMinioServerBot } from './minio/mkMinioServerBot'
+import { mkPocketBaseBot } from './pocketbase/PocketBaseBot'
+import { mkWeaviateBot } from './weaviate/WeaviateBot'
 
 export type PluginKey = keyof typeof PLUGINS
 

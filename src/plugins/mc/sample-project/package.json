@@ -1,0 +1,18 @@
+{
+  "name": "mc-gobot",
+  "bin": {
+    "mc": "./index.mjs"
+  },
+  "scripts": {
+    "mc-help": "node ./index.mjs",
+    "mc": "gobot mc"
+  },
+  "dependencies": {
+    "gobot": "latest"
+  },
+  "gobot": {
+    "mc": {
+      "version": "2024-03-07T00-31-49Z"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "gobot-plugin-caddy",
+  "version": "1.0.0-alpha.13",
+  "description": "Standalone Caddy installer",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
+    "dev": "node ./index.mjs",
+    "test": "npm pack && npm rm -g gobot-caddy && npm i -g gobot-caddy-`cat package.json | fx '.version'`.tgz && caddy --g-refresh --g-vvv --help"
+  },
+  "bin": {
+    "caddy": "./index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benallfree/gobot-caddy.git"
+  },
+  "keywords": [
+    "gobot",
+    "caddy"
+  ],
+  "author": "Ben Allfree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benallfree/gobot-caddy/issues"
+  },
+  "homepage": "https://github.com/benallfree/gobot-caddy#readme",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "gobot": "latest"
+  }
+}

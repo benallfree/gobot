@@ -1,12 +1,4 @@
-# PocketBase
-
-This is the [PocketBase](https://pocketbase.io) plugin for gobot.
-
-```bash
-gobot pocketbase --help
-```
-
-## Where is `data.db`?
+### Where is `data.db`?
 
 By default, `pocketbase` places `data.db` where the executable resides. However, this is [inconsistent across platforms](https://github.com/pocketbase/pocketbase/issues/4361). `bash`/`zsh` will alias `pocketbase` so it appears that the executable launched from the current directory. Windows shell uses the physical path to the executable.
 
@@ -18,6 +10,8 @@ If you want to specify your own `data.db` location, use `--dir=path/to/pb_data` 
 gobot pocketbase --dir=/path/to/pb_data
 ```
 
-## Upgrading PocketBase
+### Upgrading PocketBase
 
-While `gobot --upgrade` is intentionally blocked. `gobot` always grabs the latest version of PocketBase by default. Use `gobot --version=x.y.z` from the CLI or `getPocketBasePath({version: 'x.y.z'})` to use a specific PocketBase version.
+The `--upgrade` switch is intentionally blocked. Since Gobot always grabs the latest version of PocketBase by default, or the version you specify, the `--upgrade` switch would overwrite Gobot's cached binary and create cache inconsistency.
+
+Use `gobot --g-use-version=x.y.z` from the CLI or `{ version: 'x.y.z' }` from the API to use a specific PocketBase version or semver range.

@@ -1,0 +1,18 @@
+{
+  "name": "weaviate-gobot",
+  "bin": {
+    "weaviate": "./index.mjs"
+  },
+  "scripts": {
+    "weaviate-help": "node ./index.mjs",
+    "weaviate": "gobot weaviate"
+  },
+  "dependencies": {
+    "gobot": "latest"
+  },
+  "gobot": {
+    "weaviate": {
+      "version": "1.24.*"
+    }
+  }
+}

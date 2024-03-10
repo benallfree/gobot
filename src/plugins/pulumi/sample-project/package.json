@@ -1,0 +1,18 @@
+{
+  "name": "pulumi-gobot",
+  "bin": {
+    "pulumi": "./index.mjs"
+  },
+  "scripts": {
+    "pulumi-help": "node ./index.mjs",
+    "pulumi": "gobot pulumi"
+  },
+  "dependencies": {
+    "gobot": "latest"
+  },
+  "gobot": {
+    "pulumi": {
+      "version": "3.108.*"
+    }
+  }
+}
