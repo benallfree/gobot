@@ -4,6 +4,7 @@ export default defineConfig({
   name: 'tsup',
   target: 'node18',
   format: 'esm',
+  outDir: 'dist',
   entry: [`./src/cli.ts`, './src/api.ts'],
   ignoreWatch: [
     `./src/plugins/*/**/*`,
@@ -14,8 +15,4 @@ export default defineConfig({
     `**/*.md`,
     `plop-templates`,
   ],
-  dts: {
-    resolve: true,
-    entry: './src/api.ts',
-  },
 })
