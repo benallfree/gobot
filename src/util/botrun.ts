@@ -1,30 +1,21 @@
 import { Command } from 'commander'
-import findUp from 'find-up-json'
 import { arch, platform } from 'os'
-import { dirname } from 'path'
 import { exit } from 'process'
-import { DEFAULT_GOBOT_CACHE_ROOT } from '../Gobot'
+import { Gobot } from '../Gobot'
 import { gobot } from '../api'
-import { verbosity } from '../settings'
 import { dbg } from './log'
 
 export type AppInfo = {
   name: string
   homepage: string
   slug: string
+  version: string
 }
 
 export const botRun = async (appInfo: AppInfo) => {
   const program = new Command()
 
-  const pkg = findUp('package.json', dirname(process.argv[1]!))
-  if (!pkg) {
-    throw new Error(`Couldn't find package.json`)
-  }
-
-  const { version } = pkg.content
-
-  const { name, slug, homepage } = appInfo
+  const { name, slug, homepage, version } = appInfo
 
   program
     .name(name)
@@ -38,7 +29,7 @@ export const botRun = async (appInfo: AppInfo) => {
     .option(
       `--g-use-version <version>`,
       `Use a specific binary version (format: x.y.z semver or x.y.* semver range)`,
-      `*`,
+      version,
     )
     .option(
       `--g-download`,
@@ -59,7 +50,7 @@ export const botRun = async (appInfo: AppInfo) => {
     .option(`--g-refresh`, `Clear cache`, false)
     .option(
       `--g-cache-path <path>`,
-      `The cache path to use (default root: ${DEFAULT_GOBOT_CACHE_ROOT})`,
+      `The cache path to use (default root: ${Gobot.DEFAULT_GOBOT_CACHE_ROOT})`,
       undefined,
     )
     .action(async (options, command) => {
@@ -75,7 +66,7 @@ export const botRun = async (appInfo: AppInfo) => {
         gDownload: download,
         gShowVersions: showVersions,
       } = options
-      verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
+      Gobot.verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
       dbg(`CLI:`, options, process.argv)
 
       try {

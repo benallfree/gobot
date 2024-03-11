@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import { gobot } from 'gobot'
+import { minio } from 'gobot-minio'
 
-gobot(`minio`, {env: process.env }).run(["--help"])
+// Pass command line arguments and run the binary
+minio({ env: process.env }).run(process.argv.slice(2))

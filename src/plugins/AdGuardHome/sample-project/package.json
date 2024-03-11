@@ -1,18 +1,13 @@
 {
-  "name": "AdGuardHome-gobot",
+  "name": "AdGuardHome-gobot-sample",
   "bin": {
-    "AdGuardHome": "./index.mjs"
+    "AdGuardHome-gobot-sample": "./index.mjs"
   },
   "scripts": {
-    "adguardhome-help": "node ./index.mjs",
-    "AdGuardHome": "gobot AdGuardHome"
+    "dev": "./index.mjs",
+    "AdGuardHome": "AdGuardHome"
   },
   "dependencies": {
-    "gobot": "latest"
-  },
-  "gobot": {
-    "AdGuardHome": {
-      "version": "0.107.*"
-    }
+    "gobot-AdGuardHome": "0.108.0-b.53"
   }
 }

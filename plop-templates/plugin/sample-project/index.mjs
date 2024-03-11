@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import { gobot } from 'gobot'
+import { {{name}} } from 'gobot-{{name}}'
 
-gobot(`{{{name}}}`, {env: process.env }).run({{{jsonStringify sample_args}}})
+// Pass command line arguments and run the binary
+{{name}}({ env: process.env }).run(process.argv.slice(2))

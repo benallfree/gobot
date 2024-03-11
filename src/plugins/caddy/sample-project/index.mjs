@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import { gobot } from 'gobot'
+import { caddy } from 'gobot-caddy'
 
-gobot(`caddy`, {env: process.env }).run(["--help"])
+// Pass command line arguments and run the binary
+caddy({ env: process.env }).run(process.argv.slice(2))

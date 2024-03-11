@@ -1,18 +1,13 @@
 {
-  "name": "minio-gobot",
+  "name": "minio-gobot-sample",
   "bin": {
-    "minio": "./index.mjs"
+    "minio-gobot-sample": "./index.mjs"
   },
   "scripts": {
-    "minio-help": "node ./index.mjs",
-    "minio": "gobot minio"
+    "dev": "./index.mjs",
+    "minio": "minio"
   },
   "dependencies": {
-    "gobot": "latest"
-  },
-  "gobot": {
-    "minio": {
-      "version": "2024-03-07T00-43-48Z"
-    }
+    "gobot-minio": "2024.3.10025348"
   }
 }

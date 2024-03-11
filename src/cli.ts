@@ -4,9 +4,8 @@ import { Command } from 'commander'
 import { arch, platform } from 'os'
 import { exit } from 'process'
 import json from '../package.json'
-import { DEFAULT_GOBOT_CACHE_ROOT } from './Gobot'
+import { Gobot } from './Gobot'
 import { gobot } from './api'
-import { verbosity } from './settings'
 import { dbg } from './util/log'
 
 const main = async () => {
@@ -50,7 +49,7 @@ const main = async () => {
     .option(`--g-refresh`, `Clear cache`, false)
     .option(
       `--g-cache-path <path>`,
-      `The cache path to use (default root: ${DEFAULT_GOBOT_CACHE_ROOT})`,
+      `The cache path to use (default root: ${Gobot.DEFAULT_GOBOT_CACHE_ROOT()})`,
       undefined,
     )
     .action(async (pluginName, options, command) => {
@@ -66,7 +65,7 @@ const main = async () => {
         gDownload: download,
         gShowVersions: showVersions,
       } = options
-      verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
+      Gobot.verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
       dbg(`Plugin name:`, pluginName)
       dbg(`CLI:`, pluginName, options)
 

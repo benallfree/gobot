@@ -1,18 +1,13 @@
 {
-  "name": "weaviate-gobot",
+  "name": "weaviate-gobot-sample",
   "bin": {
-    "weaviate": "./index.mjs"
+    "weaviate-gobot-sample": "./index.mjs"
   },
   "scripts": {
-    "weaviate-help": "node ./index.mjs",
-    "weaviate": "gobot weaviate"
+    "dev": "./index.mjs",
+    "weaviate": "weaviate"
   },
   "dependencies": {
-    "gobot": "latest"
-  },
-  "gobot": {
-    "weaviate": {
-      "version": "1.24.*"
-    }
+    "gobot-weaviate": "1.24.1"
   }
 }

@@ -12,7 +12,9 @@
     "declaration": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "lib": []
+    "lib": [],
+    "skipLibCheck": true
   },
-  "include": ["./src", "./package.json", "./tool.ts"]
+  "include": ["./src", "./package.json", "./*.ts"],
+  "exclude": ["./build", "**/helper", "./dist"]
 }

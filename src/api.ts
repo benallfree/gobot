@@ -1,11 +1,23 @@
-import { GithubReleaseProvider } from './GithubReleaseProvider'
-import { DEFAULT_GOBOT_CACHE_ROOT, Gobot, GobotOptions } from './Gobot'
+import {
+  GithubRelease,
+  GithubReleaseProvider,
+  GithubReleaseProviderOptions,
+} from './GithubReleaseProvider'
+import { Gobot, GobotOptions } from './Gobot'
 import { PLUGINS, isPluginFactory, isPluginName } from './plugins'
-import { verbosity } from './settings'
 import { dbg } from './util/log'
+import { mergeConfig } from './util/mergeConfig'
 import { sanitizeOptions } from './util/sanitize'
 export * from './util/botrun'
-export * from './util/log'
+
+export {
+  GithubRelease,
+  GithubReleaseProvider,
+  GithubReleaseProviderOptions,
+  Gobot,
+  GobotOptions,
+  mergeConfig,
+}
 
 /**
  * Instantiate a gobot for a specific app.
@@ -21,7 +33,7 @@ export const gobot = (
 ): Gobot => {
   dbg(`gobot() factory optionsIn`, sanitizeOptions(optionsIn))
   if (!optionsIn.cachePath) {
-    optionsIn.cachePath = DEFAULT_GOBOT_CACHE_ROOT(pluginName)
+    optionsIn.cachePath = Gobot.DEFAULT_GOBOT_CACHE_ROOT(pluginName)
   }
   if (isPluginName(pluginName)) {
     dbg(pluginName, `is a valid plugin`)
@@ -51,6 +63,7 @@ export const gobot = (
   )
 }
 
-export { DEFAULT_GOBOT_CACHE_ROOT }
-
-export { verbosity }
+export const mkGobot =
+  (pluginName: string, defaultOptionsIn: Partial<GobotOptions> = {}) =>
+  (optionsIn: Partial<GobotOptions> = {}) =>
+    gobot(pluginName, mergeConfig(defaultOptionsIn, optionsIn))

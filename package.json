@@ -10,19 +10,17 @@
   },
   "types": "dist/api.d.ts",
   "scripts": {
-    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
+    "prepack": "rimraf -v --glob \"gobot-*.tgz\" pb_data",
     "pack": "npm pack",
-    "glob": "glob",
     "bump": "npm version prerelease --preid alpha",
     "clean": "rimraf dist",
-    "plugins": "plop plugins",
+    "plop": "pnpm plop:transpile && plop",
+    "plop:transpile": "tsup-node ./plopfile.ts --format esm --out-dir .",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm",
-    "watch": "tsup-node --watch . src/cli.ts src/api.ts --dts src/api.ts --format esm",
-    "dev": "tsx src/cli.ts",
+    "watch": "tsup-node --watch .",
+    "dev": "node dist/cli.js",
     "test": "pnpm build && npm pack && npm rm -g gobot && npm i -g gobot-`cat package.json | fx '.version'`.tgz && gobot pocketbase --g-refresh --g-vvv --help",
-    "docs": "pnpm docs:readme && pnpm docs:api",
-    "docs:readme": "plop readme",
-    "docs:api": "typedoc --excludePrivate"
+    "docs": "typedoc"
   },
   "keywords": [
     "pocketbase",
@@ -53,12 +51,15 @@
     "shelljs": "^0.8.5"
   },
   "devDependencies": {
+    "@types/copyfiles": "^2.4.4",
     "@types/decompress": "^4.2.7",
     "@types/json-stringify-safe": "^5.0.3",
     "@types/semver": "^7.5.8",
     "@types/shelljs": "^0.8.15",
     "@types/yargs": "^17.0.32",
+    "boolean": "^3.2.0",
     "concurrently": "^8.2.2",
+    "copyfiles": "^2.4.1",
     "esbuild": "^0.20.1",
     "esbuild-node-externals": "^1.13.0",
     "fx": "^31.0.0",

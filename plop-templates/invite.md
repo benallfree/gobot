@@ -1,40 +1,33 @@
-Hello, this is a courtesy message to say that support for `{{{app}}}` has been added to the [Gobot project](https://github.com/benallfree/gobot) 🎸
+Hello, this is a courtesy message to say that support for `{{name}}` has been added to the [Gobot project](https://github.com/benallfree/gobot). Gobot installs and runs popular statically-linked binaries via npm/npx, accounting for the target platform and architecture and selecting the correct build for the requested `{{name}}` version.
 
-Gobot installs and runs popular statically-linked binaries via npm/npx.
+I have also published an NPM helper package at [https://npmjs.org/gobot-{{name}}](https://npmjs.org/gobot-{{name}}). As of this post, Gobot knows about {{count versions}} releases of `{{name}}`. The helper package has matching versions so users can add specific versions of `{{name}}` as a dependency 🎸
 
-You can try it now:
-
-```bash
-npx gobot {{{app}}} --help
-```
-
-or
+From npx:
 
 ```bash
-npm i -g gobot
-gobot {{{app}}} --help
+npx gobot {{name}} --help
 ```
 
-npm package authors can now include `{{{app}}}` as a primary dependency in their npm projects. The `{{{app}}}` binary matching user's operating system and architecture, along with the version specified in the author's `package.json`, will be automatically downloaded and installed when needed.
+or globally as `{{name}}`:
 
-```json
-// example package.json
-{
-  "dependencies": {
-    "gobot": "~1.0"
-  },
-  "gobot": {
-    "{{{app}}}": {
-      "version": "{{{semver}}}"
-    }
-  }
-}
+```bash
+npm i -g gobot-{{name}}
+
+# This is only available if the user installs `gobot-{{name}}`, to avoid CLI pollution.
+{{name}} --help
 ```
 
-If you would like me to send a PR updating the `{{{app}}}` installation docs to include instructions for installation via Gobot, please let me know.
+or used in a project:
 
-**About Gobot**
+```bash
+npm i gobot-{{name}}@{{version}}
+```
 
-Gobot installs and runs popular statically-linked binaries via npm/npx. It auto-detects the host os/arch and allows easy CLI and programmatic access to binary dependencies. [esbuild](https://github.com/evanw/esbuild) was a source of inspiration to this more generalized approach.
+```js
+import { {{name}} } from 'gobot-{{name}}'
+{{name}}([`--help`])
+```
 
-Gobot boosts adoption of supported projects by lowering the friction of manual external binary dependency management. No more installing separate binary dependencies.
+If you would like me to send a PR updating the `{{name}}` installation docs to include instructions for installation via Gobot, please let me know!
+
+Thanks for the great project.

@@ -1,18 +1,13 @@
 {
-  "name": "caddy-gobot",
+  "name": "caddy-gobot-sample",
   "bin": {
-    "caddy": "./index.mjs"
+    "caddy-gobot-sample": "./index.mjs"
   },
   "scripts": {
-    "caddy-help": "node ./index.mjs",
-    "caddy": "gobot caddy"
+    "dev": "./index.mjs",
+    "caddy": "caddy"
   },
   "dependencies": {
-    "gobot": "latest"
-  },
-  "gobot": {
-    "caddy": {
-      "version": "2.7.*"
-    }
+    "gobot-caddy": "2.7.6"
   }
 }

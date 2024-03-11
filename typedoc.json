@@ -1,11 +1,14 @@
 {
   "$schema": "https://typedoc.org/schema.json",
-  "entryPoints": ["./src/api.ts", "./src/Gobot.ts", "./src/settings/index.ts"],
+  "entryPoints": ["./src/api.ts", "./src/Gobot.ts"],
   "out": "./docs",
   "plugin": ["typedoc-plugin-markdown"],
   "hideBreadcrumbs": true,
   "hidePageTitle": true,
+  "readme": "none",
   "entryDocument": "readme.md",
   "excludePrivate": true,
-  "gitRevision": "main"
+  "gitRevision": "main",
+  "exclude": ["**/build"],
+  "excludeExternals": true
 }

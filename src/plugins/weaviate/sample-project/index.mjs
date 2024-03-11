@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import { gobot } from 'gobot'
+import { weaviate } from 'gobot-weaviate'
 
-gobot(`weaviate`, {env: process.env }).run(["--help"])
+// Pass command line arguments and run the binary
+weaviate({ env: process.env }).run(process.argv.slice(2))

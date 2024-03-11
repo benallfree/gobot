@@ -1,16 +1,24 @@
 import { forEach } from '@s-libs/micro-dash'
 import { join, resolve } from 'path'
 import { valid } from 'semver'
-import type {
-  GithubRelease,
-  GithubReleaseCollection,
-  StoredRelease,
-} from './Gobot'
+import type { StoredRelease } from './Gobot'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { mkdir } from './util/shell'
 import { smartFetch } from './util/smartFetch'
 import { stringify } from './util/stringify'
+
+export interface GithubRelease {
+  url: string
+  tag_name: string
+  prerelease: string
+  assets: {
+    name: string
+    browser_download_url: string
+  }[]
+}
+
+export type GithubReleaseCollection = GithubRelease[]
 
 type ArchMap = {
   [_ in NodeJS.Architecture]?: {
@@ -29,7 +37,7 @@ type SupportedArchMap = {
   arm: ArchAliasMap
 }
 
-const SUPPORTED_ARCH: SupportedArchMap = {
+export const SUPPORTED_ARCH: SupportedArchMap = {
   arm64: {
     aliases: [],
   },

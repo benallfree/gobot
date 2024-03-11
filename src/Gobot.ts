@@ -20,23 +20,13 @@ import { downloadFile } from './util/downloadFile'
 import { findFileRecursive } from './util/find'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
+import { mkSetting } from './util/mkSetting'
 import { sanitizeOptions } from './util/sanitize'
 import { mkdir, pwd } from './util/shell'
 import { stringify } from './util/stringify'
 
 export type PlatformKey = NodeJS.Platform
 export type ArchKey = NodeJS.Architecture
-export interface GithubRelease {
-  url: string
-  tag_name: string
-  prerelease: string
-  assets: {
-    name: string
-    browser_download_url: string
-  }[]
-}
-
-export type GithubReleaseCollection = GithubRelease[]
 
 export type StoredRelease = {
   version: string
@@ -61,23 +51,26 @@ export interface GobotOptions {
 }
 
 /**
- * The default Gobot cache root. This is platform specific.
- */
-export const DEFAULT_GOBOT_CACHE_ROOT = (...paths: string[]) =>
-  resolve(envPaths('gobot').cache, ...paths)
-
-/**
  * Generic Gobot plugin. Subclass this for specific functionality.
  */
 export class Gobot {
-  protected repo: string
-  protected os: PlatformKey
-  protected arch: ArchKey
-  protected version: string
-  protected env: NodeJS.ProcessEnv
-  protected cacheRoot: string
+  /**
+   * The default Gobot cache root. This is platform specific.
+   */
+
+  static DEFAULT_GOBOT_CACHE_ROOT = (...paths: string[]) =>
+    resolve(envPaths('gobot').cache, ...paths)
+
+  static verbosity = mkSetting<0 | 1 | 2 | 3>(0)
+
+  repo: string
+  os: PlatformKey
+  arch: ArchKey
+  version: string
+  env: NodeJS.ProcessEnv
+  cacheRoot: string
   storedReleases: undefined | StoredRelease[] = undefined
-  protected releaseProvider: GithubReleaseProvider
+  releaseProvider: GithubReleaseProvider
 
   /**
    * Create a new Gobot
@@ -91,7 +84,10 @@ export class Gobot {
     optionsIn: Partial<GobotOptions> = {},
   ) {
     this.repo = repo
-    const defaultCachePath = DEFAULT_GOBOT_CACHE_ROOT(this.slug, this.repo)
+    const defaultCachePath = Gobot.DEFAULT_GOBOT_CACHE_ROOT(
+      this.slug,
+      this.repo,
+    )
     dbg(`optionsIn`, sanitizeOptions(optionsIn))
     const options = mergeConfig<GobotOptions>(
       {

@@ -1,8 +1,9 @@
 import {
+  GithubRelease,
   GithubReleaseProvider,
   GithubReleaseProviderOptions,
 } from '../../GithubReleaseProvider'
-import type { GithubRelease, StoredRelease } from '../../Gobot'
+import type { StoredRelease } from '../../Gobot'
 import { dbg } from '../../util/log'
 
 export class MinioReleaseProvider extends GithubReleaseProvider {
@@ -28,7 +29,14 @@ export class MinioReleaseProvider extends GithubReleaseProvider {
 
   extractVersionFromTag(tag: string): string {
     const [junk, date] = tag.split(`.`)
-    return date!
+    const [d, t] = date!.split(`T`)
+    const [major, minor, patchPrefix] = d!.split(`-`)
+    const patchRest = t!.replace(/\D/g, '')
+    const final = [major!, minor!, `${patchPrefix}${patchRest}`]
+      .map((part) => parseInt(part, 10))
+      .join('.')
+    console.log(final)
+    return final
   }
 
   isValidRelease(release: GithubRelease): boolean {

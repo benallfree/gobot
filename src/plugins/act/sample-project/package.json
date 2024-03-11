@@ -1,18 +1,13 @@
 {
-  "name": "act-gobot",
+  "name": "act-gobot-sample",
   "bin": {
-    "act": "./index.mjs"
+    "act-gobot-sample": "./index.mjs"
   },
   "scripts": {
-    "act-help": "node ./index.mjs",
-    "act": "gobot act"
+    "dev": "./index.mjs",
+    "act": "act"
   },
   "dependencies": {
-    "gobot": "latest"
-  },
-  "gobot": {
-    "act": {
-      "version": "0.22.*"
-    }
+    "gobot-act": "0.2.60"
   }
 }

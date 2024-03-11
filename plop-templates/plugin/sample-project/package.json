@@ -1,18 +1,13 @@
 {
-  "name": "{{{name}}}-gobot",
+  "name": "{{{name}}}-gobot-sample",
   "bin": {
-    "{{{name}}}": "./index.mjs"
+    "{{{name}}}-gobot-sample": "./index.mjs"
   },
   "scripts": {
-    "{{{sample_command}}}": "node ./index.mjs",
-    "{{{name}}}": "gobot {{{name}}}"
+    "dev": "./index.mjs",
+    "{{{name}}}": "{{{name}}}"
   },
   "dependencies": {
-    "gobot": "latest"
-  },
-  "gobot": {
-    "{{{name}}}": {
-      "version": "{{{semver}}}"
-    }
+    "gobot-{{{name}}}": "{{{version}}}"
   }
 }

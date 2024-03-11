@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import { gobot } from 'gobot'
+import { mc } from 'gobot-mc'
 
-gobot(`mc`, {env: process.env }).run(["--help"])
+// Pass command line arguments and run the binary
+mc({ env: process.env }).run(process.argv.slice(2))

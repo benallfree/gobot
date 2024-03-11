@@ -1,0 +1,42 @@
+{
+  "name": "gobot-weaviate",
+  "version": "1.24.1",
+  "description": "Weaviate helper for Gobot",
+  "type": "module",
+  "main": "dist/api.js",
+  "types": "dist/api.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
+    "dev": "node ./src/cli.js",
+    "test": "npm pack && npm rm -g gobot-weaviate && npm i -g gobot-weaviate-`cat package.json | fx '.version'`.tgz && weaviate --g-refresh --g-vvv --help",
+    "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
+  },
+  "bin": {
+    "weaviate": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/benallfree/gobot/tree/main/src/plugins/weaviate/helper"
+  },
+  "keywords": [
+    "gobot",
+    "weaviate"
+  ],
+  "author": "Ben Allfree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benallfree/gobot/issues"
+  },
+  "homepage": "https://github.com/benallfree/gobot/blob/feat/mega-build/src/plugins/weaviate/readme.md",
+  "dependencies": {
+    "commander": "^12.0"
+  },
+  "peerDependencies": {
+    "gobot": "*"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}

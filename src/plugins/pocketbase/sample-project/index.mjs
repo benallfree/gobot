@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import { gobot } from 'gobot'
+import { pocketbase } from 'gobot-pocketbase'
 
-gobot(`pocketbase`, {env: process.env }).run(["serve"])
+// Pass command line arguments and run the binary
+pocketbase({ env: process.env }).run(process.argv.slice(2))

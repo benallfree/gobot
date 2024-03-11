@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import { gobot } from 'gobot'
+import { AdGuardHome } from 'gobot-AdGuardHome'
 
-gobot(`AdGuardHome`, {env: process.env }).run(["--help"])
+// Pass command line arguments and run the binary
+AdGuardHome({ env: process.env }).run(process.argv.slice(2))

@@ -1,18 +1,13 @@
 {
-  "name": "pocketbase-gobot",
+  "name": "pocketbase-gobot-sample",
   "bin": {
-    "pocketbase": "./index.mjs"
+    "pocketbase-gobot-sample": "./index.mjs"
   },
   "scripts": {
-    "serve": "node ./index.mjs",
-    "pocketbase": "gobot pocketbase"
+    "dev": "./index.mjs",
+    "pocketbase": "pocketbase"
   },
   "dependencies": {
-    "gobot": "latest"
-  },
-  "gobot": {
-    "pocketbase": {
-      "version": "0.22.*"
-    }
+    "gobot-pocketbase": "0.22.3"
   }
 }

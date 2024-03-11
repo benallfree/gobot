@@ -1,0 +1,33 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  gobot:
+    specifier: link:../..
+    version: link:../..
+  gobot-pocketbase:
+    specifier: file:../../build/plugins/pocketbase/0.19.4/gobot-pocketbase-0.19.4.tgz
+    version: file:../../build/plugins/pocketbase/0.19.4/gobot-pocketbase-0.19.4.tgz(gobot@+)
+
+packages:
+
+  /commander@12.0.0:
+    resolution: {integrity: sha512-MwVNWlYjDTtOjX5PiD7o5pK0UrFU/OYgcJfjjK4RaHZETNtjJqrZa9Y9ds88+A+f+d5lv+561eZ+yCKoS3gbAA==}
+    engines: {node: '>=18'}
+    dev: false
+
+  file:../../build/plugins/pocketbase/0.19.4/gobot-pocketbase-0.19.4.tgz(gobot@+):
+    resolution: {integrity: sha512-eMH3wI5OdKbOqrKsk94bRUwBd5jJX9v44O+6p7dr/CSwsjguk9lUKUcvQopR2TlcI/ez32xPBa3hExt7R9ouLQ==, tarball: file:../../build/plugins/pocketbase/0.19.4/gobot-pocketbase-0.19.4.tgz}
+    id: file:../../build/plugins/pocketbase/0.19.4/gobot-pocketbase-0.19.4.tgz
+    name: gobot-pocketbase
+    version: 0.19.4
+    hasBin: true
+    peerDependencies:
+      gobot: '*'
+    dependencies:
+      commander: 12.0.0
+      gobot: link:../..
+    dev: false

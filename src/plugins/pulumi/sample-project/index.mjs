@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import { gobot } from 'gobot'
+import { pulumi } from 'gobot-pulumi'
 
-gobot(`pulumi`, {env: process.env }).run(["--help"])
+// Pass command line arguments and run the binary
+pulumi({ env: process.env }).run(process.argv.slice(2))

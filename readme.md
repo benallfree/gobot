@@ -1,12 +1,28 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/feat/plugin-placeholders/assets/gobot-banner.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/main/assets/gobot-banner.png)
 
 # The binary package manager for Node
 
 _Manage and run popular binaries as `package.json` dependencies. CLI and API interfaces._
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Quickstart](#quickstart)
+- [CLI](#cli)
+  - [gobot [gobotOptions] <app> [appOptions]](#gobot-gobotoptions-app-appoptions)
+- [API](#api)
+- [Official Gobot Apps](#official-gobot-apps)
+  - [Running unofficial apps](#running-unofficial-apps)
+- [Why?](#why)
+- [Technical Notes](#technical-notes)
+  - [Repository API Rate Limits](#repository-api-rate-limits)
+    - [Github API](#github-api)
+- [Adding your app to the Gobot registry](#adding-your-app-to-the-gobot-registry)
+- [Contributing](#contributing)
+
 ## Introduction
 
-gobot installs popular binary apps anywhere `npm` is available. It transparently downloads, installs, and runs binary apps (including semver ranges) for the current operating system and architecture.
+Gobot installs popular binary apps anywhere `npm` is available. It transparently downloads, installs, and runs binary apps (including semver ranges) for the current operating system and architecture.
 
 Works on Windows, Linux, OS X.
 
@@ -37,52 +53,11 @@ or
 npx gobot <app>
 ```
 
-## Official Gobot Apps
-
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                          | `<app>`       | What is it?                                                                                                                                                                                                                                                                                                                                                                                                 |                                                                                                               |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/feat/plugin-placeholders/src/plugins/act/logo-50x.png">](https://github.com/nektos/act)                 | `act`         | Run your GitHub Actions locally 🚀<br/>[gobot docs](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/act/readme.md)                                                                                                                                                                                                                                                            | [readme](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/act/readme.md)         |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/feat/plugin-placeholders/src/plugins/AdGuardHome/logo-50x.png">](https://adguard.com/adguard-home.html) | `AdGuardHome` | Network-wide ads & trackers blocking DNS server<br/>[gobot docs](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/AdGuardHome/readme.md)                                                                                                                                                                                                                                       | [readme](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/AdGuardHome/readme.md) |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/feat/plugin-placeholders/src/plugins/caddy/logo-50x.png">](https://caddyserver.com/)                    | `caddy`       | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS<br/>[gobot docs](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/caddy/readme.md)                                                                                                                                                                                                               | [readme](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/caddy/readme.md)       |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/feat/plugin-placeholders/src/plugins/mc/logo-50x.png">](https://min.io)                                 | `mc`          | The Object Store for AI Data Infrastructure (client)<br/>[gobot docs](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/mc/readme.md)                                                                                                                                                                                                                                           | [readme](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/mc/readme.md)          |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/feat/plugin-placeholders/src/plugins/minio/logo-50x.png">](https://min.io)                              | `minio`       | The Object Store for AI Data Infrastructure (server)<br/>[gobot docs](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/minio/readme.md)                                                                                                                                                                                                                                        | [readme](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/minio/readme.md)       |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/feat/plugin-placeholders/src/plugins/pocketbase/logo-50x.png">](https://pocketbase.io)                  | `pocketbase`  | Open Source realtime backend in 1 file<br/>[gobot docs](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/pocketbase/readme.md)                                                                                                                                                                                                                                                 | [readme](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/pocketbase/readme.md)  |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/feat/plugin-placeholders/src/plugins/pulumi/logo-50x.png">](https://www.pulumi.com)                     | `pulumi`      | Pulumi - Infrastructure as Code in any programming language. Build infrastructure intuitively on any cloud using familiar languages 🚀<br/>[gobot docs](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/pulumi/readme.md)                                                                                                                                                     | [readme](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/pulumi/readme.md)      |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/feat/plugin-placeholders/src/plugins/rclone/logo-50x.png">](https://rclone.org/)                        | `rclone`      | rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files<br/>[gobot docs](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/rclone/readme.md)                                                                                                                                                    | [readme](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/rclone/readme.md)      |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/feat/plugin-placeholders/src/plugins/weaviate/logo-50x.png">](https://weaviate.io)                      | `weaviate`    | Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients.<br/>[gobot docs](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/weaviate/readme.md) | [readme](https://github.com/benallfree/gobot/blob/feat/plugin-placeholders/src/plugins/weaviate/readme.md)    |
-
-### Running unofficial apps
-
-gobot can run many apps hosted on github, without official support.
-
-```bash
-gobot <user>/<repo>
-```
-
-**Example**
-
-```bash
-# Run PocketBase as a direct repo name rather than the `pocketbase` alias
-gobot pocketbase/pocketbase --help
-```
-
-or API:
-
-```ts
-gobot(`pocketbase/pocketbase`).run([`--help`])
-```
-
-The above command format may run the app you have in mind. For example, `gobot caddy --help` runs the Caddy by the official name, but `gobot caddyserver/caddy --help` will also run it.
-
-As long as the project uses the github [Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) feature and includes statically linked binaries with zero dependencies, gobot can probably run it.
-
-Go apps work flawlessly. gobot was originally named and conceived to support Go apps.
-
 ## CLI
 
 ### `gobot [gobotOptions] <app> [appOptions]`
 
-All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
+All Gobots options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
 
 | Option            | Default       | Discussion                                                                                                                                                   |
 | ----------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -116,7 +91,7 @@ npx gobot pocketbase --g-refresh
 
 ## API
 
-gobot can be used programmatically. You can add `gobot` as a dependency of your nodejs package and benefit from the seamless management of binary dependencies.
+Gobot can be used programmatically. You can add `gobot` as a dependency of your nodejs package and benefit from the seamless management of binary dependencies.
 
 ```ts
 import { gobot } from 'gobot'
@@ -125,7 +100,50 @@ const bot = gobot(`pocketbase`)
 const childProcess = bot.run([`serve`])
 ```
 
-[Full API Docs](https://github.com/pockethost/gobot/blob/feat/plugin-placeholders/docs/modules.md)
+[Full API Docs](https://github.com/pockethost/gobot/blob/main/docs/readme.md)
+
+## Official Gobot Apps
+
+These apps have their own helper packages to assist with locking the dependency to a specific version of the app.
+
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                      | `<app>`       | What is it?                                                                                                                                                                                                                                                                              |                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/main/src/plugins/act/logo-50x.png">](https://github.com/nektos/act)                 | `act`         | Run your GitHub Actions locally 🚀                                                                                                                                                                                                                                                       | [readme](https://github.com/benallfree/gobot/blob/main/src/plugins/act/helper/readme.md)         |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/main/src/plugins/AdGuardHome/logo-50x.png">](https://adguard.com/adguard-home.html) | `AdGuardHome` | Network-wide ads & trackers blocking DNS server                                                                                                                                                                                                                                          | [readme](https://github.com/benallfree/gobot/blob/main/src/plugins/AdGuardHome/helper/readme.md) |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/main/src/plugins/caddy/logo-50x.png">](https://caddyserver.com/)                    | `caddy`       | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS                                                                                                                                                                                                            | [readme](https://github.com/benallfree/gobot/blob/main/src/plugins/caddy/helper/readme.md)       |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/main/src/plugins/mc/logo-50x.png">](https://min.io)                                 | `mc`          | The Object Store for AI Data Infrastructure (client)                                                                                                                                                                                                                                     | [readme](https://github.com/benallfree/gobot/blob/main/src/plugins/mc/helper/readme.md)          |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/main/src/plugins/minio/logo-50x.png">](https://min.io)                              | `minio`       | The Object Store for AI Data Infrastructure (server)                                                                                                                                                                                                                                     | [readme](https://github.com/benallfree/gobot/blob/main/src/plugins/minio/helper/readme.md)       |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/main/src/plugins/pocketbase/logo-50x.png">](https://pocketbase.io)                  | `pocketbase`  | Open Source realtime backend in 1 file                                                                                                                                                                                                                                                   | [readme](https://github.com/benallfree/gobot/blob/main/src/plugins/pocketbase/helper/readme.md)  |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/main/src/plugins/pulumi/logo-50x.png">](https://www.pulumi.com)                     | `pulumi`      | Pulumi - Infrastructure as Code in any programming language. Build infrastructure intuitively on any cloud using familiar languages 🚀                                                                                                                                                   | [readme](https://github.com/benallfree/gobot/blob/main/src/plugins/pulumi/helper/readme.md)      |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/main/src/plugins/rclone/logo-50x.png">](https://rclone.org/)                        | `rclone`      | rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files                                                                                                                                                  | [readme](https://github.com/benallfree/gobot/blob/main/src/plugins/rclone/helper/readme.md)      |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/main/src/plugins/weaviate/logo-50x.png">](https://weaviate.io)                      | `weaviate`    | Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients. | [readme](https://github.com/benallfree/gobot/blob/main/src/plugins/weaviate/helper/readme.md)    |
+
+### Running unofficial apps
+
+Gobot can run many apps hosted on github, without official support.
+
+```bash
+gobot <user>/<repo>
+```
+
+**Example**
+
+```bash
+# Run PocketBase as a direct repo name rather than the `pocketbase` alias
+gobot pocketbase/pocketbase --help
+```
+
+or API:
+
+```ts
+gobot(`pocketbase/pocketbase`).run([`--help`])
+```
+
+The above command format may run the app you have in mind. For example, `gobot caddy --help` runs the Caddy by the official name, but `gobot caddyserver/caddy --help` will also run it.
+
+As long as the project uses the github [Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) feature and includes statically linked binaries with zero dependencies, Gobot can probably run it.
+
+Go apps work flawlessly. Gobot was originally named and conceived to support Go apps.
 
 ## Why?
 
@@ -133,15 +151,30 @@ If you are writing a nodejs application that depends upon binaries being present
 
 If you just want to grab a binary quickly for your own use, `npx gobot@latest <app>` is quite a bit easier than manually downloading zips and installing binaries in shell paths. Gobot handles it all for you effortlessly.
 
-## OS X Users
+## Technical Notes
 
-If a Gobot does not run, or one of its apps does not run, it's likely you need to authorize it first. Go to `Security & Privacy` and scroll down to allow the exception.
+### Repository API Rate Limits
+
+When you run an app, Gobot may periodically hits repository REST APIs to query for new releases. This may, at times, lead to hitting API rate limits.
+
+#### Github API
+
+If you are hitting Github API rate limits, you may supply a `GITHUB_TOKEN` environment variable. More information in the [manual](https://cli.github.com/manual/gh_help_environment)
 
 ## Adding your app to the Gobot registry
 
 We want to add native support for lots of binary apps!
 
-If you use publish statically linked binary releases on github, you are already compatible with Gobot. Send us a PR.
+If you use publish statically linked binary releases on github, you are already 98% compatible with Gobot. In fact, Gobot may already know how to work with it.
+
+Test it out by running `npx gobot <user>/<repo> --help` (example: `gobot pocketbase/pocketbase --help` for the [https://github.com/pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) project).
+
+Make sure your release name follows these rules:
+
+- Ends in `.zip`, `.tgz`, or `.tar.gz`
+- Include the version ([semver](https://semver.org) recommended)
+- Include the platform (`freebsd`, `darwin`, `linux`, `win32`)
+- Include the architecture (`arm64`, `x64`, `ia32`, `arm`)
 
 Note: [GoReleaser](https://goreleaser.com/) is a great option if you're publish a Go-based project.
 
