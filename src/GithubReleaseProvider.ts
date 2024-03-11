@@ -114,10 +114,18 @@ export class GithubReleaseProvider {
     const remoteReleases: GithubReleaseCollection = []
     do {
       info(`Fetching info for ${this.repo} releases page ${page}...`)
+      const init = process.env.GITHUB_TOKEN
+        ? {
+            headers: {
+              Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+            },
+          }
+        : undefined
       const url = `https://api.github.com/repos/${this.repo}/releases?per_page=100&page=${page}`
       const chunk = await smartFetch<GithubReleaseCollection>(
         url,
         this.cachePath()(`releases_page_${page}.json`),
+        init,
       )
       if (chunk.length === 0) break
       remoteReleases.push(...chunk)
