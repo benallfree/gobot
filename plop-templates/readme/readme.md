@@ -88,7 +88,7 @@ const bot = gobot(`pocketbase`)
 const childProcess = bot.run([`serve`])
 ```
 
-[Full API Docs](https://github.com/pockethost/gobot/blob/{{{branch}}}/docs/readme.md)
+[Full API Docs](https://github.com/benallfree/gobot/tree/{{{branch}}}/docs/readme.md)
 
 ## Official Gobot Apps
 

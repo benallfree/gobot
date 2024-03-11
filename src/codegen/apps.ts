@@ -36,7 +36,7 @@ export const appsTable = markdownTable([
     a.name.toLocaleLowerCase().localeCompare(b.name.toLocaleLowerCase()),
   ).map((app) => {
     const { name, description, homepage, slug, logo } = app
-    const readmeUrl = `https://github.com/benallfree/gobot/blob/${branch}/src/plugins/${name}/helper/readme.md`
+    const readmeUrl = `https://github.com/benallfree/gobot/tree/${branch}/src/plugins/${name}/helper/readme.md`
     const logoUrl = `https://raw.githubusercontent.com/benallfree/gobot/${branch}/src/plugins/${name}/logo-50x.png`
     return [
       mkLink(`<img src="${logoUrl}">`, homepage),

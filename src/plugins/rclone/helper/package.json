@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/benallfree/gobot/issues"
   },
-  "homepage": "https://github.com/benallfree/gobot/blob/feat/mega-build/src/plugins/rclone/readme.md",
+  "homepage": "https://github.com/benallfree/gobot/tree/main/src/plugins/rclone/helper/readme.md",
   "dependencies": {
     "commander": "^12.0"
   },

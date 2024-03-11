@@ -107,7 +107,7 @@ All Gobot options begin with `--g-` so as not to conflict with app option switch
 
 ## API
 
-[Full API Docs](https://github.com/pockethost/gobot/blob/{{{branch}}}/docs/readme.md)
+[Full API Docs](https://github.com/benallfree/gobot/tree/{{{branch}}}/docs/readme.md)
 
 The real power of Gobot is that your favorite external binaries can be treated as project dependencies with version locking.
 
