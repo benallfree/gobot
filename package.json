@@ -74,6 +74,7 @@
     "tsx": "^4.7.1",
     "typedoc": "^0.25.9",
     "typedoc-plugin-markdown": "^3.17.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "verdaccio": "^5.29.2"
   }
 }

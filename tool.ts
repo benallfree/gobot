@@ -6,52 +6,46 @@ import Bottleneck from 'bottleneck'
 import { spawn } from 'child_process'
 import { Command, program } from 'commander'
 import copyfiles from 'copyfiles'
+import { readFileSync, writeFileSync } from 'fs'
 import { globSync } from 'glob'
+import { createRequire } from 'module'
 import { basename, dirname, join } from 'path'
 import { rimraf } from 'rimraf'
-import sharp from 'sharp'
-
-import { createRequire } from 'module'
 import { rcompare } from 'semver'
+import sharp from 'sharp'
+import { stringify } from './src/util/stringify'
+
 const require = createRequire(import.meta.url)
+
+const CLEAN_FILTERS = [`all`, `registry`, `none`, `build`] as const
+type CleanFilters = (typeof CLEAN_FILTERS)[number]
+function cleanFilterGuard(filter: any): CleanFilters {
+  if (CLEAN_FILTERS.includes(filter)) return filter as CleanFilters
+  throw new Error(
+    `${filter} is not a recognized filter: ${CLEAN_FILTERS.join(`, `)}`,
+  )
+}
 
 program
   .addCommand(
-    new Command(`clean`).action(async () => {
-      await clean()
-    }),
+    new Command(`clean`)
+      .argument(
+        `<filter>`,
+        `Filter to use when cleaning (${CLEAN_FILTERS.join(`, `)})`,
+        cleanFilterGuard,
+        `none`,
+      )
+      .action(clean),
   )
-  .addCommand(
-    new Command(`gen`).action(async () => {
-      await gen()
-    }),
-  )
-  .addCommand(
-    new Command(`build`).action(async () => {
-      await build()
-    }),
-  )
-  .addCommand(
-    new Command(`bump`).action(async () => {
-      await bump()
-    }),
-  )
-  .addCommand(
-    new Command(`pack`)
-      .option(`--flush`, `Flush cache`, boolean, false)
-      .action(async ({ flush }) => {
-        if (flush) {
-          await clean(`pack`)
-        }
-        await pack()
-      }),
-  )
+  .addCommand(new Command(`gen`).action(gen))
+  .addCommand(new Command(`build`).action(build))
+  .addCommand(new Command(`bump`).action(bump))
+  .addCommand(new Command(`pack`).action(pack))
   .addCommand(
     new Command(`publish`)
       .option(`--dry-run <value>`, `Dry run`, boolean, true)
-      .action(async ({ dryRun }) => {
-        await publish(dryRun)
-      }),
+      .option(`--registry <registry>`, `local or npm`, `local`)
+      .action(publish),
   )
   .parseAsync(process.argv)
 
@@ -120,9 +114,7 @@ async function runShellCommand(
   })
 }
 
-async function clean(
-  only?: 'pack' | `templates` | `plugins` | `build` | `dist`,
-) {
+async function clean(only: CleanFilters) {
   const tasks = [
     {
       fn: async () => {
@@ -153,20 +145,23 @@ async function clean(
       fn: async () => {
         await rimraf(`dist`, { glob: true })
       },
-      only: [`dist`],
+      only: [`build`],
+    },
+    {
+      fn: async () => {
+        const vRoot = join(process.env.HOME!, `.local/share/verdaccio/storage`)
+        const dbPath = join(vRoot, `.verdaccio-db.json`)
+        const db = JSON.parse(readFileSync(dbPath).toString())
+        writeFileSync(dbPath, stringify({ ...db, list: [] }))
+        await rimraf(join(vRoot, `*`), {
+          glob: true,
+        })
+      },
+      only: [`registry`],
     },
     {
       fn: async () => {
         await rimraf(`**/gobot-*.tgz`, { glob: true })
-        console.log(
-          join(process.env.HOME!, `.local/share/verdaccio/storage`, `gobot`),
-        )
-        await rimraf(
-          join(process.env.HOME!, `.local/share/verdaccio/storage`, `gobot*`),
-          {
-            glob: true,
-          },
-        )
       },
       only: [`pack`],
     },
@@ -174,7 +169,7 @@ async function clean(
 
   for (const taskIdx in tasks) {
     const task = tasks[taskIdx]!
-    if (only && !task.only.includes(only)) continue
+    if (!(task.only.includes(only) || only === 'all')) continue
     await task.fn()
   }
   await rimraf(`**/.DS_Store`, { glob: true })
@@ -231,11 +226,33 @@ async function bump() {
   await runShellCommand(`pnpm run bump`)
 }
 
-async function publish(dryRun = true) {
-  console.log({ dryRun })
+async function publish({
+  dryRun,
+  registry,
+}: {
+  dryRun: boolean
+  registry: string
+}) {
+  const server = await (async () => {
+    // if (registry !== `npm`) {
+    //   const app = await runServer()
+    //   return new Promise<void>((resolve) => {
+    //     app.listen(4873, resolve)
+    //     return app
+    //   })
+    // }
+    return {
+      stop() {},
+    }
+  })()
+  console.log({ dryRun, registry })
+  const r =
+    registry === 'npm'
+      ? `--registry=https://registry.npmjs.org/`
+      : `--registry=http://localhost:4873/`
   const d = dryRun ? '--dry-run' : ''
   const s = `--silent`
-  const p = `${s} ${d}`
+  const p = `${s} ${d} ${r}`
   await runShellCommand(`npm publish ${p}`).catch(console.warn)
   await Promise.all([
     ...globSync(`build/plugins/*`).map(async (pluginDir) => {
@@ -246,16 +263,16 @@ async function publish(dryRun = true) {
         tags.push(tag)
       })
       tags.sort(rcompare)
-      const max = tags[0]!
+      const max = tags.shift()!
       try {
         await limiter.schedule(() => {
-          console.log(`Publishing latest ${pluginName}:${max}`)
+          console.log(`Publishing latest ${pluginName}:${max} ${p}`)
           return runShellCommand(`npm publish ${p}`, join(pluginDir, max))
         })
         for (const i in tags) {
           const tag = tags[i]!
           await limiter.schedule(() => {
-            console.log(`Publishing ${pluginName}:${tag}`)
+            console.log(`Publishing ${pluginName}:${tag} ${p}`)
             return runShellCommand(
               `npm publish ${p} --tag="archive-${tag}"`,
               join(pluginDir, tag),
@@ -267,4 +284,5 @@ async function publish(dryRun = true) {
       }
     }),
   ])
+  server.stop()
 }
