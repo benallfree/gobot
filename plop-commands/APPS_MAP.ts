@@ -5,6 +5,7 @@ export type AppInfo = {
   slug: string
   version?: string
 }
+
 export const APPS_MAP: AppInfo[] = [
   {
     name: `act`,

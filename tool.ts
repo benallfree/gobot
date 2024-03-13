@@ -4,16 +4,11 @@ import { boolean } from 'boolean'
 
 import Bottleneck from 'bottleneck'
 import { Command, program } from 'commander'
-import copyfiles from 'copyfiles'
-import { readFileSync, writeFileSync } from 'fs'
 import { globSync } from 'glob'
 import { createRequire } from 'module'
-import { basename, dirname, join } from 'path'
-import { rimraf } from 'rimraf'
+import { basename, join } from 'path'
 import { rcompare } from 'semver'
-import sharp from 'sharp'
 import { runShellCommand } from './runShellCommand'
-import { stringify } from './src/util/stringify'
 
 const require = createRequire(import.meta.url)
 
@@ -27,21 +22,7 @@ function cleanFilterGuard(filter: any): CleanFilters {
 }
 
 program
-  .addCommand(
-    new Command(`clean`)
-      .argument(
-        `<filter>`,
-        `Filter to use when cleaning (${CLEAN_FILTERS.join(`, `)})`,
-        cleanFilterGuard,
-        `none`,
-      )
-      .action(clean),
-  )
-  .addCommand(
-    new Command(`gen`)
-      .argument(`<kind>`, `Kind of generation to perform`)
-      .action(gen),
-  )
+
   .addCommand(new Command(`build`).action(build))
   .addCommand(new Command(`bump`).action(bump))
   .addCommand(new Command(`pack`).action(pack))
@@ -53,123 +34,8 @@ program
   )
   .parseAsync(process.argv)
 
-async function executePromisesSequentially(
-  promises: (() => Promise<any>)[],
-): Promise<void> {
-  for (const promise of promises) {
-    await promise()
-  }
-}
-
-const copy = (src: string, dst: string) => {
-  return new Promise<void>((resolve) => {
-    copyfiles(
-      [src, dst],
-      {
-        verbose: false,
-        up: true,
-      },
-      (err) => {
-        if (err) {
-          console.error(err)
-          throw err
-        }
-        resolve()
-      },
-    )
-  })
-}
-
-async function clean(only: CleanFilters) {
-  const tasks = [
-    {
-      fn: async () => {
-        await rimraf(`plop-templates/plugin/helper/node_modules`, {
-          glob: true,
-        })
-        await rimraf(`plop-templates/plugin/helper/pnpm-lock.yaml`, {
-          glob: true,
-        })
-      },
-      only: ['templates'],
-    },
-    {
-      fn: async () => {
-        await rimraf(`src/plugins/*/logo-*.png`, { glob: true })
-        await rimraf(`src/plugins/*/helper`, { glob: true })
-        await rimraf(`src/plugins/*/sample-project`, { glob: true })
-      },
-      only: [`plugins`],
-    },
-    {
-      fn: async () => {
-        await rimraf(`build`, { glob: true })
-      },
-      only: [`build`],
-    },
-    {
-      fn: async () => {
-        await rimraf(`dist`, { glob: true })
-      },
-      only: [`build`],
-    },
-    {
-      fn: async () => {
-        const vRoot = join(process.env.HOME!, `.local/share/verdaccio/storage`)
-        const dbPath = join(vRoot, `.verdaccio-db.json`)
-        const db = JSON.parse(readFileSync(dbPath).toString())
-        writeFileSync(dbPath, stringify({ ...db, list: [] }))
-        await rimraf(join(vRoot, `*`), {
-          glob: true,
-        })
-      },
-      only: [`registry`],
-    },
-    {
-      fn: async () => {
-        await rimraf(`**/gobot-*.tgz`, { glob: true })
-      },
-      only: [`pack`],
-    },
-  ]
-
-  for (const taskIdx in tasks) {
-    const task = tasks[taskIdx]!
-    if (!(task.only.includes(only) || only === 'all')) continue
-    await task.fn()
-  }
-  await rimraf(`**/.DS_Store`, { glob: true })
-}
-
 const limiter = new Bottleneck({ maxConcurrent: 50 })
 
-async function gen(kind: string) {
-  if (kind === `docs`) {
-    await runShellCommand(`pnpm run docs`)
-  }
-  if (kind === `readme`) {
-    await runShellCommand(`pnpm plop readme`)
-  }
-  if (kind === `plugins`) {
-    await runShellCommand(`pnpm plop plugins`)
-  }
-  if ([`plugins`, `logos`].includes(kind)) {
-    await Promise.all([
-      ...globSync(`src/plugins/*/logo.png`).map(async (logo) => {
-        await sharp(logo)
-          .resize({ width: 50 })
-          .trim()
-          .png()
-          .toFile(join(dirname(logo), `logo-50x.png`))
-        await sharp(logo)
-          .resize({ height: 50 })
-          .trim()
-          .png()
-          .toFile(join(dirname(logo), `logo-x50.png`))
-      }),
-    ])
-  }
-}
 async function build() {
   await runShellCommand(`pnpm build`)
   await runShellCommand(`pnpm i`, `plop-templates/plugin/helper`)
