@@ -133,7 +133,7 @@ import { {{name}} } from 'gobot-{{name}}'
 
 Reminder: the `{{name}}` executable alias can also be called from your npm scripts, and it will always use the version in the lockfile.
 
-{{{notes}}}
+{{{notesMd}}}
 
 ### OS X Users
 
@@ -153,6 +153,6 @@ View the [{{slug}} sample project](https://github.com/benallfree/gobot/tree/{{{b
 
 Gobot has a growing list of apps. Have you tried them all?
 
-{{{apps}}}
+{{{availableAppsMd}}}
 
-{{{postamble}}}
+{{{postambleMd}}}

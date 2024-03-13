@@ -1,4 +1,11 @@
-export const APPS_MAP = [
+export type AppInfo = {
+  name: string
+  description: string
+  homepage: string
+  slug: string
+  version?: string
+}
+export const APPS_MAP: AppInfo[] = [
   {
     name: `act`,
     description: `Run your GitHub Actions locally 🚀`,
@@ -22,14 +29,12 @@ export const APPS_MAP = [
     description: `The Object Store for AI Data Infrastructure (server)`,
     homepage: `https://min.io`,
     slug: `Minio`,
-    logo: `minio`,
   },
   {
     name: `mc`,
     description: `The Object Store for AI Data Infrastructure (client)`,
     homepage: `https://min.io`,
     slug: `Mc`,
-    logo: `minio`,
   },
   {
     name: `pocketbase`,

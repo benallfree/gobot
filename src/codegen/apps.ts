@@ -1,56 +1,23 @@
-import { keys, map, times } from '@s-libs/micro-dash'
-import { execSync } from 'child_process'
+import { keys, map } from '@s-libs/micro-dash'
 import findUpJson from 'find-up-json'
 import { existsSync, readFileSync } from 'fs'
 import { globSync } from 'glob'
-import { markdownTable } from 'markdown-table'
 import { ActionType, NodePlopAPI } from 'plop'
 import { DEFAULT_PLATFORM_MAP, SUPPORTED_ARCH } from '../GithubReleaseProvider'
 import { gobot } from '../api'
 import { APPS_MAP } from './APPS_MAP'
-
-function getCurrentGitBranch() {
-  try {
-    const branch = execSync('git rev-parse --abbrev-ref HEAD').toString().trim()
-    return branch
-  } catch (error) {
-    console.error('Failed to get current git branch:', error)
-    return null
-  }
-}
-
-export const branch = getCurrentGitBranch()
+import { getCurrentGitBranch } from './getCurrentGitBranch'
+import { availableAppsMd } from './readme'
 
 const pkg = findUpJson(`package.json`)
 if (!pkg) {
   throw new Error(`Couldn't find package`)
 }
 
-const mkLink = (name: string, url: string) => `[${name}](${url})`
-const code = (content: string) => `\`${content}\``
-const space = (n = 5) => times(n, () => `&nbsp;`).join('')
-
-export const appsTable = markdownTable([
-  [space(10), code(`<app>`), `What is it?`],
-  ...APPS_MAP.sort((a, b) =>
-    a.name.toLocaleLowerCase().localeCompare(b.name.toLocaleLowerCase()),
-  ).map((app) => {
-    const { name, description, homepage, slug, logo } = app
-    const readmeUrl = `https://github.com/benallfree/gobot/tree/${branch}/src/plugins/${name}/helper/readme.md`
-    const logoUrl = `https://raw.githubusercontent.com/benallfree/gobot/${branch}/src/plugins/${name}/logo-50x.png`
-    return [
-      mkLink(`<img src="${logoUrl}">`, homepage),
-      code(name),
-      description,
-      mkLink(`readme`, readmeUrl),
-    ]
-  }),
-])
-
-export const postamble = readFileSync(
+export const postambleMd = readFileSync(
   `plop-templates/readme/postamble.md`,
 ).toString()
-export const cli_options = readFileSync(
+export const cliOptionsMd = readFileSync(
   `plop-templates/readme/cli_options.md`,
 ).toString()
 
@@ -77,16 +44,16 @@ export const mkActions = async (plop: NodePlopAPI) => {
 
       const data: any = {
         ...app,
-        apps: appsTable,
-        cli_options,
-        branch,
+        availableAppsMd,
+        cliOptionsMd,
+        branch: getCurrentGitBranch(),
         version: versions[0]!,
         versions,
         platforms: keys(DEFAULT_PLATFORM_MAP),
         architectures: keys(SUPPORTED_ARCH),
       }
-      data.postamble = plop.renderString(postamble, data)
-      data.notes = plop.renderString(notes, data)
+      data.postambleMd = plop.renderString(postambleMd, data)
+      data.notesMd = plop.renderString(notes, data)
 
       actions.push({
         type: 'addMany',

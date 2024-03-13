@@ -57,7 +57,7 @@ npx gobot <app>
 
 ### `gobot [gobotOptions] <app> [appOptions]`
 
-{{{cli_options}}}
+{{{cliOptionsMd}}}
 
 **Examples**
 
@@ -94,7 +94,7 @@ const childProcess = bot.run([`serve`])
 
 These apps have their own helper packages to assist with locking the dependency to a specific version of the app.
 
-{{{apps}}}
+{{{availableAppsMd}}}
 
 ### Running unofficial apps
 
@@ -123,4 +123,4 @@ As long as the project uses the github [Releases](https://docs.github.com/en/rep
 
 Go apps work flawlessly. Gobot was originally named and conceived to support Go apps.
 
-{{{postamble}}}
+{{{postambleMd}}}

@@ -3,7 +3,6 @@
 import { boolean } from 'boolean'
 
 import Bottleneck from 'bottleneck'
-import { spawn } from 'child_process'
 import { Command, program } from 'commander'
 import copyfiles from 'copyfiles'
 import { readFileSync, writeFileSync } from 'fs'
@@ -13,6 +12,7 @@ import { basename, dirname, join } from 'path'
 import { rimraf } from 'rimraf'
 import { rcompare } from 'semver'
 import sharp from 'sharp'
+import { runShellCommand } from './runShellCommand'
 import { stringify } from './src/util/stringify'
 
 const require = createRequire(import.meta.url)
@@ -37,7 +37,11 @@ program
       )
       .action(clean),
   )
-  .addCommand(new Command(`gen`).action(gen))
+  .addCommand(
+    new Command(`gen`)
+      .argument(`<kind>`, `Kind of generation to perform`)
+      .action(gen),
+  )
   .addCommand(new Command(`build`).action(build))
   .addCommand(new Command(`bump`).action(bump))
   .addCommand(new Command(`pack`).action(pack))
@@ -73,44 +77,6 @@ const copy = (src: string, dst: string) => {
         resolve()
       },
     )
-  })
-}
-
-async function runShellCommand(
-  command: string,
-  directory?: string,
-): Promise<void> {
-  return new Promise((resolve, reject) => {
-    const [cmd, ...args] = command.split(/\s+/)
-    if (!cmd) {
-      throw new Error(`cmd expected`)
-    }
-    const cmdProcess = spawn(cmd, args, {
-      cwd: directory ? directory : process.cwd(),
-      shell: true,
-      stdio: ['inherit', 'pipe', 'pipe'],
-    })
-
-    cmdProcess.stdout.on('data', (data) => {
-      console.log(data.toString())
-    })
-
-    cmdProcess.stderr.on('data', (data) => {
-      console.error(data.toString())
-    })
-
-    cmdProcess.on(`error`, (err) => {
-      console.error(`Command failed`, command, directory)
-      reject(err)
-    })
-
-    cmdProcess.on('close', (code) => {
-      if (code === 0) {
-        resolve()
-      } else {
-        reject(new Error(`Command "${command}" exited with code ${code}`))
-      }
-    })
   })
 }
 
@@ -177,31 +143,38 @@ async function clean(only: CleanFilters) {
 
 const limiter = new Bottleneck({ maxConcurrent: 50 })
 
-async function gen() {
+async function gen(kind: string) {
+  if (kind === `docs`) {
+    await runShellCommand(`pnpm run docs`)
+  }
+  if (kind === `readme`) {
+    await runShellCommand(`pnpm plop readme`)
+  }
+  if (kind === `plugins`) {
+    await runShellCommand(`pnpm plop plugins`)
+  }
+  if ([`plugins`, `logos`].includes(kind)) {
+    await Promise.all([
+      ...globSync(`src/plugins/*/logo.png`).map(async (logo) => {
+        await sharp(logo)
+          .resize({ width: 50 })
+          .trim()
+          .png()
+          .toFile(join(dirname(logo), `logo-50x.png`))
+        await sharp(logo)
+          .resize({ height: 50 })
+          .trim()
+          .png()
+          .toFile(join(dirname(logo), `logo-x50.png`))
+      }),
+    ])
+  }
+}
+async function build() {
   await runShellCommand(`pnpm build`)
   await runShellCommand(`pnpm i`, `plop-templates/plugin/helper`)
   await runShellCommand(`pnpm link ../../..`, `plop-templates/plugin/helper`)
   await runShellCommand(`pnpm build`, `plop-templates/plugin/helper`)
-  await runShellCommand(`pnpm run docs`)
-  await runShellCommand(`pnpm plop readme`)
-  await runShellCommand(`pnpm plop plugins`)
-  await Promise.all([
-    ...globSync(`src/plugins/*/logo.png`).map(async (logo) => {
-      await sharp(logo)
-        .resize({ width: 50 })
-        .trim()
-        .png()
-        .toFile(join(dirname(logo), `logo-50x.png`))
-      await sharp(logo)
-        .resize({ height: 50 })
-        .trim()
-        .png()
-        .toFile(join(dirname(logo), `logo-x50.png`))
-    }),
-  ])
-}
-async function build() {
-  await runShellCommand(`pnpm run build`)
 }
 
 async function pack() {
