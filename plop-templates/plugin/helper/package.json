@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "https",
-    "url": "https://github.com/benallfree/gobot/tree/{{branch}}/src/apps/{{name}}/helper"
+    "url": "https://github.com/benallfree/gobot/tree/main/src/apps/{{name}}/helper"
   },
   "keywords": [
     "gobot",
