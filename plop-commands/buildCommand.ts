@@ -6,10 +6,11 @@ import sharp from 'sharp'
 import { runShellCommand } from '../runShellCommand'
 import { APPS_MAP } from '../src/apps/APPS_MAP'
 import { buildData, buildDataForApp } from './util/buildData'
+import { localAction } from './util/localAction'
 import { mkSubcommander } from './util/mkSubcommander'
 
 export const buildCommand = (plop: NodePlopAPI) => {
-  plop.setActionType(`plugin-logos-gen`, async (answers, config, plop) => {
+  const LOGOS_ACTION = localAction(plop, async (answers, config, plop) => {
     await Promise.all([
       ...globSync(`src/apps/*/logo.png`).map(async (logo) => {
         await sharp(logo)
@@ -27,13 +28,16 @@ export const buildCommand = (plop: NodePlopAPI) => {
     return 'ok'
   })
 
-  plop.setActionType(`gobot-build`, async (answers, config, plop) => {
-    await runShellCommand(`pnpm build`)
-    return 'Built gobot'
-  })
+  const GOBOT_BUILD_ACTION = localAction(
+    plop,
+    async (answers, config, plop) => {
+      await runShellCommand(`pnpm build`)
+      return 'Built gobot'
+    },
+  )
 
-  plop.setActionType(
-    `plugins-helper-template-build`,
+  const HELPER_BUILD_ACTION = localAction(
+    plop,
     async (answers, config, plop) => {
       await runShellCommand(`pnpm i`, `plop-templates/plugin/helper`)
       await runShellCommand(
@@ -53,7 +57,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
       gobot: {
         gen: async () => [
           {
-            type: 'gobot-build',
+            type: GOBOT_BUILD_ACTION,
           },
         ],
         clean: [
@@ -81,7 +85,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
         ],
       },
       'plugins:helper-template': {
-        gen: [{ type: `plugins-helper-template-build` }],
+        gen: [{ type: HELPER_BUILD_ACTION }],
         clean: [
           {
             type: `rimraf`,
@@ -92,7 +96,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
       'plugins:logos': {
         gen: [
           {
-            type: `plugin-logos-gen`,
+            type: LOGOS_ACTION,
           },
         ],
         clean: [
