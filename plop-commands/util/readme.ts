@@ -1,7 +1,7 @@
 import { times } from '@s-libs/micro-dash'
 import { readFileSync } from 'fs'
 import { markdownTable } from 'markdown-table'
-import { APPS_MAP } from '../../src/apps/APPS_MAP'
+import { APPS_MAP } from '../../src/api'
 import { getCurrentGitBranch } from './getCurrentGitBranch'
 
 const mkLink = (name: string, url: string) => `[${name}](${url})`

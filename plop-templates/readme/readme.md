@@ -38,6 +38,12 @@ Inspired by [esbuild](https://esbuild.github.io/) and other packages that instal
 ## Quickstart
 
 ```bash
+npx gobot <app>
+```
+
+Or, if you're not into the whole brevity thing...
+
+```bash
 npm i -g gobot
 gobot pocketbase --help
 gobot caddy --help
@@ -45,12 +51,6 @@ gobot act --help
 
 # Run unofficial binaries from github
 gobot <user>/<repo> --help
-```
-
-or
-
-```bash
-npx gobot <app>
 ```
 
 ## CLI
