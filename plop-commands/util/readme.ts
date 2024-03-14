@@ -1,7 +1,7 @@
 import { times } from '@s-libs/micro-dash'
 import { readFileSync } from 'fs'
 import { markdownTable } from 'markdown-table'
-import { APPS_MAP } from '../APPS_MAP'
+import { APPS_MAP } from '../../src/apps/APPS_MAP'
 import { getCurrentGitBranch } from './getCurrentGitBranch'
 
 const mkLink = (name: string, url: string) => `[${name}](${url})`
@@ -16,8 +16,8 @@ export const availableAppsMd = markdownTable([
     const branch = getCurrentGitBranch()
     console.log({ branch })
     const { name, description, homepage, slug } = app
-    const readmeUrl = `https://github.com/benallfree/gobot/tree/${branch}/src/plugins/${name}/helper/readme.md`
-    const logoUrl = `https://raw.githubusercontent.com/benallfree/gobot/${branch}/src/plugins/${name}/logo-50x.png`
+    const readmeUrl = `https://github.com/benallfree/gobot/tree/${branch}/src/apps/${name}/helper/readme.md`
+    const logoUrl = `https://raw.githubusercontent.com/benallfree/gobot/${branch}/src/apps/${name}/logo-50x.png`
     return [
       mkLink(`<img src="${logoUrl}">`, homepage),
       code(name),

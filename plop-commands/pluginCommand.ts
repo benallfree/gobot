@@ -3,14 +3,14 @@ import { globSync } from 'glob'
 import { dirname, join } from 'path'
 import { NodePlopAPI } from 'plop'
 import sharp from 'sharp'
-import { APPS_MAP } from './APPS_MAP'
+import { APPS_MAP } from '../src/apps/APPS_MAP'
 import { buildDataForApp } from './util/buildData'
 import { mkSubcommander } from './util/mkSubcommander'
 
 export const pluginCommand = (plop: NodePlopAPI) => {
   plop.setActionType(`plugin-logos-gen`, async (answers, config, plop) => {
     await Promise.all([
-      ...globSync(`src/plugins/*/logo.png`).map(async (logo) => {
+      ...globSync(`src/apps/*/logo.png`).map(async (logo) => {
         await sharp(logo)
           .resize({ width: 50 })
           .trim()
@@ -40,7 +40,7 @@ export const pluginCommand = (plop: NodePlopAPI) => {
         clean: [
           {
             type: `rimraf`,
-            path: `src/plugins/*/logo-*.png`,
+            path: `src/apps/*/logo-*.png`,
             options: { glob: true },
           },
         ],
@@ -52,7 +52,7 @@ export const pluginCommand = (plop: NodePlopAPI) => {
               const { name } = app
               return {
                 type: 'addMany',
-                destination: `src/plugins/${name}/sample-project`,
+                destination: `src/apps/${name}/sample-project`,
                 base: 'plop-templates/plugin/sample-project',
                 templateFiles: 'plop-templates/plugin/sample-project/**/*',
                 globOptions: { dot: true, ignore: [`node_modules`] },
@@ -64,7 +64,7 @@ export const pluginCommand = (plop: NodePlopAPI) => {
         clean: [
           {
             type: `rimraf`,
-            path: `src/plugins/*/sample-project`,
+            path: `src/apps/*/sample-project`,
           },
         ],
       },
@@ -79,7 +79,7 @@ export const pluginCommand = (plop: NodePlopAPI) => {
               return [
                 {
                   type: 'addMany',
-                  destination: `src/plugins/${name}/helper`,
+                  destination: `src/apps/${name}/helper`,
                   base: 'plop-templates/plugin/helper',
                   templateFiles: 'plop-templates/plugin/helper/**/*',
                   globOptions: {
@@ -93,7 +93,7 @@ export const pluginCommand = (plop: NodePlopAPI) => {
                 ...srcFiles.map((path) => {
                   return {
                     type: 'modify',
-                    path: `src/plugins/${name}/helper/src/${path}`,
+                    path: `src/apps/${name}/helper/src/${path}`,
                     pattern: /__EXPORT__/g,
                     template: name,
                   }
@@ -106,7 +106,7 @@ export const pluginCommand = (plop: NodePlopAPI) => {
         clean: [
           {
             type: 'rimraf',
-            path: `src/plugins/*/helper`,
+            path: `src/apps/*/helper`,
           },
         ],
       },
@@ -125,7 +125,7 @@ export const pluginCommand = (plop: NodePlopAPI) => {
                 return [
                   {
                     type: 'addMany',
-                    destination: `build/plugins/${name}/${version}`,
+                    destination: `build/apps/${name}/${version}`,
                     base: 'plop-templates/plugin/helper',
                     templateFiles: 'plop-templates/plugin/helper/**/*',
                     globOptions: {
@@ -137,7 +137,7 @@ export const pluginCommand = (plop: NodePlopAPI) => {
                     verbose: true,
                   },
                   ...distFiles.map((file) => {
-                    const path = `build/plugins/${name}/${version}/dist/${file}`
+                    const path = `build/apps/${name}/${version}/dist/${file}`
                     return {
                       type: 'modify',
                       path,
@@ -154,7 +154,7 @@ export const pluginCommand = (plop: NodePlopAPI) => {
         clean: [
           {
             type: `rimraf`,
-            path: `build/plugins`,
+            path: `build/apps`,
           },
         ],
       },

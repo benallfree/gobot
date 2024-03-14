@@ -1,4 +1,5 @@
 import { NodePlopAPI } from 'plop'
+import { rimraf } from 'rimraf'
 import { cleanCommand } from './plop-commands/cleanCommand'
 import { inviteCommand } from './plop-commands/inviteCommand'
 import { pluginCommand } from './plop-commands/pluginCommand'
@@ -20,7 +21,7 @@ export default async function (plop: NodePlopAPI) {
   })
   plop.setActionType(`rimraf`, async (answers, config, plop) => {
     const { path, options } = config
-    // await rimraf(path, { glob: true, ...options })
+    await rimraf(path, { glob: true, ...options })
     return `Removed ${path}`
   })
 

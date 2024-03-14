@@ -4,16 +4,6 @@ If you are writing a nodejs application that depends upon binaries being present
 
 If you just want to grab a binary quickly for your own use, `npx gobot@latest <app>` is quite a bit easier than manually downloading zips and installing binaries in shell paths. Gobot handles it all for you effortlessly.
 
-## Technical Notes
-
-### Repository API Rate Limits
-
-When you run an app, Gobot may periodically hits repository REST APIs to query for new releases. This may, at times, lead to hitting API rate limits.
-
-#### Github API
-
-If you are hitting Github API rate limits, you may supply a `GITHUB_TOKEN` environment variable. More information in the [manual](https://cli.github.com/manual/gh_help_environment)
-
 ## Adding your app to the Gobot registry
 
 We want to add native support for lots of binary apps!

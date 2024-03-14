@@ -18,6 +18,7 @@ import { compare, satisfies } from 'semver'
 import { GithubReleaseProvider } from './GithubReleaseProvider'
 import { downloadFile } from './util/downloadFile'
 import { findFileRecursive } from './util/find'
+import { getPluginVersion } from './util/getPluginVersion'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { mkSetting } from './util/mkSetting'
@@ -93,7 +94,7 @@ export class Gobot {
       {
         os: platform(),
         arch: _arch() as ArchKey,
-        version: `*`,
+        version: ``,
         env: {},
         cachePath: defaultCachePath,
       },
@@ -215,7 +216,8 @@ export class Gobot {
   }
 
   async getBinaryPath(versionRangeIn?: string) {
-    const versionRange = versionRangeIn || this.version
+    const versionRange =
+      versionRangeIn || this.version || (await getPluginVersion(this.name))
     const storedRelease = await this.maxSatisfyingRelease(versionRange)
     if (!storedRelease) {
       dbg(
@@ -226,7 +228,7 @@ export class Gobot {
     const url = storedRelease.archives[this.os]?.[this.arch]
     if (!url) {
       dbg(
-        `No archive URL satisfying version ${this.version} for ${this.os}/${this.arch}`,
+        `No archive URL satisfying version ${versionRange} for ${this.os}/${this.arch}`,
       )
       return
     }

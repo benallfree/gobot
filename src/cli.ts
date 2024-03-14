@@ -6,6 +6,7 @@ import { exit } from 'process'
 import json from '../package.json'
 import { Gobot } from './Gobot'
 import { gobot } from './api'
+import { getPluginVersion } from './util/getPluginVersion'
 import { dbg } from './util/log'
 
 const main = async () => {
@@ -28,7 +29,7 @@ const main = async () => {
     .option(
       `--g-use-version <version>`,
       `Use a specific binary version (format: x.y.z semver or x.y.* semver range)`,
-      `*`,
+      ``,
     )
     .option(
       `--g-download`,
@@ -57,7 +58,7 @@ const main = async () => {
         gV,
         gVv,
         gVvv,
-        gUseVersion: version,
+        gUseVersion,
         gOs: os,
         gArch: arch,
         gRefresh: refresh,
@@ -73,7 +74,7 @@ const main = async () => {
         const bot = gobot(pluginName, {
           os,
           arch,
-          version,
+          version: gUseVersion || (await getPluginVersion(pluginName)),
           cachePath,
           env: process.env,
         })

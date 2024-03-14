@@ -3,8 +3,6 @@
   "version": "{{version}}",
   "description": "{{slug}} helper for Gobot",
   "type": "module",
-  "main": "dist/api.js",
-  "types": "dist/api.d.ts",
   "scripts": {
     "clean": "rimraf dist",
     "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
@@ -17,7 +15,7 @@
   },
   "repository": {
     "type": "https",
-    "url": "https://github.com/benallfree/gobot/tree/{{branch}}/src/plugins/{{name}}/helper"
+    "url": "https://github.com/benallfree/gobot/tree/{{branch}}/src/apps/{{name}}/helper"
   },
   "keywords": [
     "gobot",
@@ -28,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/benallfree/gobot/issues"
   },
-  "homepage": "https://github.com/benallfree/gobot/tree/{{branch}}/src/plugins/{{name}}/helper/readme.md",
+  "homepage": "https://github.com/benallfree/gobot/tree/{{branch}}/src/apps/{{name}}/helper/readme.md",
   "dependencies": {
     "commander": "^12.0"
   },

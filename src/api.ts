@@ -1,11 +1,11 @@
-import { APPS_MAP, AppInfo } from '../plop-commands/APPS_MAP'
 import {
   GithubRelease,
   GithubReleaseProvider,
   GithubReleaseProviderOptions,
 } from './GithubReleaseProvider'
 import { Gobot, GobotOptions } from './Gobot'
-import { PLUGINS, isPluginFactory, isPluginName } from './plugins'
+import { PLUGINS, isPluginFactory, isPluginName } from './apps'
+import { APPS_MAP, AppInfo } from './apps/APPS_MAP'
 import { dbg } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { sanitizeOptions } from './util/sanitize'

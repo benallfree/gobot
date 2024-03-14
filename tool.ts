@@ -46,7 +46,7 @@ async function build() {
 async function pack() {
   await runShellCommand(`npm pack`)
   await Promise.all([
-    ...globSync(`build/plugins/*/*/`, {
+    ...globSync(`build/apps/*/*/`, {
       absolute: true,
     }).map(async (dir) => {
       await limiter.schedule(async () => {
@@ -94,7 +94,7 @@ async function publish({
   const p = `${s} ${d} ${r}`
   await runShellCommand(`npm publish ${p}`).catch(console.warn)
   await Promise.all([
-    ...globSync(`build/plugins/*`).map(async (pluginDir) => {
+    ...globSync(`build/apps/*`).map(async (pluginDir) => {
       const pluginName = basename(pluginDir)
       const tags: string[] = []
       globSync(join(pluginDir, '*')).forEach(async (dir) => {

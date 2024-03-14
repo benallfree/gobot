@@ -1,0 +1,40 @@
+{
+  "name": "gobot-pulumi",
+  "version": "3.109.0",
+  "description": "Pulumi helper for Gobot",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
+    "dev": "node ./src/cli.js",
+    "test": "npm pack && npm rm -g gobot-pulumi && npm i -g gobot-pulumi-`cat package.json | fx '.version'`.tgz && pulumi --g-refresh --g-vvv --help",
+    "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
+  },
+  "bin": {
+    "pulumi": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/benallfree/gobot/tree/main/src/apps/pulumi/helper"
+  },
+  "keywords": [
+    "gobot",
+    "pulumi"
+  ],
+  "author": "Ben Allfree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benallfree/gobot/issues"
+  },
+  "homepage": "https://github.com/benallfree/gobot/tree/main/src/apps/pulumi/helper/readme.md",
+  "dependencies": {
+    "commander": "^12.0"
+  },
+  "peerDependencies": {
+    "gobot": "*"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}

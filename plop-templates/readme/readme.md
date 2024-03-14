@@ -69,9 +69,9 @@ npx gobot pocketbase serve
 npx gobot --g-debug
 
 # Run a specific PocketBase version
-npx gobot pocketbase --g-version="0.21.0" # Run this exact version
-npx gobot pocketbase --g-version="~0.21.0" # Run highest 0.21.z version
-npx gobot pocketbase --g-version="0.*" # Run highest 0.y.z
+npx gobot pocketbase --g-use-version="0.21.0" # Run this exact version
+npx gobot pocketbase --g-use-version="~0.21.0" # Run highest 0.21.z version
+npx gobot pocketbase --g-use-version="0.*" # Run highest 0.y.z
 
 # Force gobot to dump cache and refresh PocketBase tags and binaries
 npx gobot pocketbase --g-refresh

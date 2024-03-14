@@ -7,7 +7,7 @@ export default defineConfig({
   outDir: 'dist',
   entry: [`./src/cli.ts`, './src/api.ts'],
   ignoreWatch: [
-    `./src/plugins/*/**/*`,
+    `./src/apps/*/**/*`,
     `docs`,
     `build`,
     `dist`,

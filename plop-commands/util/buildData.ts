@@ -6,7 +6,7 @@ import {
   SUPPORTED_ARCH,
 } from '../../src/GithubReleaseProvider'
 import { gobot } from '../../src/api'
-import { AppInfo } from '../APPS_MAP'
+import { AppInfo } from '../../src/apps/APPS_MAP'
 import { getCurrentGitBranch } from './getCurrentGitBranch'
 import { availableAppsMd, cliOptionsMd, postambleMd } from './readme'
 
@@ -42,7 +42,7 @@ export async function buildDataForApp(app: AppInfo, plop: NodePlopAPI) {
   }
 
   const notes = (() => {
-    const notesPath = `./src/plugins/${name}/notes.md`
+    const notesPath = `./src/apps/${name}/notes.md`
     if (!existsSync(notesPath)) return ''
     return readFileSync(notesPath).toString()
   })()
