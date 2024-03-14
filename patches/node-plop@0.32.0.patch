@@ -1,0 +1,43 @@
+diff --git a/src/generator-runner.js b/src/generator-runner.js
+index bd96d294dc5dd2f5a50f46efad69626a07a78097..2f73050b6220191fb161b73c8455f6114ba1f7bd 100644
+--- a/src/generator-runner.js
++++ b/src/generator-runner.js
+@@ -53,7 +53,7 @@ export default function (plopfileApi, flags) {
+ 
+     // if action is a function, run it to get our array of actions
+     if (typeof actions === "function") {
+-      actions = actions(data);
++      actions = await actions(data);
+     }
+ 
+     // if actions are not defined... we cannot proceed.
+@@ -62,7 +62,7 @@ export default function (plopfileApi, flags) {
+     }
+ 
+     // if actions are not an array, invalid!
+-    if (!(actions instanceof Array)) {
++    if (!Array.isArray(actions)) {
+       throw Error(`${genObject.name} has invalid actions`);
+     }
+ 
+diff --git a/types/index.d.ts b/types/index.d.ts
+index 377f6ac4f0bde306702051bc5ee6f5d4794fd4b8..8f85a8a3567514c9d285dbae3e6b823b0843e7f9 100644
+--- a/types/index.d.ts
++++ b/types/index.d.ts
+@@ -154,7 +154,7 @@ export type PromptQuestion =
+   | InputQuestion;
+ 
+ export type DynamicPromptsFunction = (inquirer: Inquirer) => Promise<Answers>;
+-export type DynamicActionsFunction = (data?: Answers) => ActionType[];
++export type DynamicActionsFunction = (data?: Answers) => ActionType[] | Promise<ActionType[]>;
+ 
+ export type Prompts = DynamicPromptsFunction | PromptQuestion[];
+ export type Actions = DynamicActionsFunction | ActionType[];
+@@ -224,6 +224,7 @@ export interface ActionConfig {
+   abortOnFail?: boolean;
+   // eslint-disable-next-line @typescript-eslint/ban-types
+   skip?: Function;
++  [_:string]: any
+ }
+ 
+ type TransformFn<T> = (

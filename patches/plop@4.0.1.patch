@@ -1,0 +1,12 @@
+diff --git a/src/plop.d.ts b/src/plop.d.ts
+index 0e31399ca75feda917d6765c07f286adc2c86004..95b8dd8626ba065b8ae1c175d8fc0e6db4c4a08a 100644
+--- a/src/plop.d.ts
++++ b/src/plop.d.ts
+@@ -12,6 +12,7 @@ export {
+   PlopGenerator,
+   NodePlopAPI,
+   PlopGeneratorConfig,
++  Actions
+ } from "node-plop";
+ 
+ export const Plop: Liftoff;

@@ -12,7 +12,7 @@
   "scripts": {
     "prepack": "rimraf -v --glob \"gobot-*.tgz\" pb_data",
     "pack": "npm pack",
-    "bump": "npm version prerelease --preid alpha",
+    "bump": "npm version prerelease --no-git-tag-version --preid alpha",
     "clean": "rimraf dist",
     "plop": "pnpm plop:transpile && plop",
     "plop:transpile": "tsup-node ./plopfile.ts --format esm --out-dir .",
@@ -76,5 +76,11 @@
     "typedoc-plugin-markdown": "^3.17.1",
     "typescript": "^5.3.3",
     "verdaccio": "^5.29.2"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "plop@4.0.1": "patches/plop@4.0.1.patch",
+      "node-plop@0.32.0": "patches/node-plop@0.32.0.patch"
+    }
   }
 }
