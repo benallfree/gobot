@@ -6,6 +6,7 @@ import sharp from 'sharp'
 import { runShellCommand } from '../runShellCommand'
 import { APPS_MAP } from '../src/apps/APPS_MAP'
 import { buildData, buildDataForApp } from './util/buildData'
+import { getCurrentGitBranch } from './util/getCurrentGitBranch'
 import { localAction } from './util/localAction'
 import { mkSubcommander } from './util/mkSubcommander'
 
@@ -36,6 +37,13 @@ export const buildCommand = (plop: NodePlopAPI) => {
     },
   )
 
+  const DOCS_BUILD_ACTION = localAction(plop, async (answers, config, plop) => {
+    await runShellCommand(
+      `pnpm run docs --gitRevision ${getCurrentGitBranch()}`,
+    )
+    return 'Built API docs'
+  })
+
   const HELPER_BUILD_ACTION = localAction(
     plop,
     async (answers, config, plop) => {
@@ -64,6 +72,19 @@ export const buildCommand = (plop: NodePlopAPI) => {
           {
             type: `rimraf`,
             path: `dist`,
+          },
+        ],
+      },
+      docs: {
+        gen: async () => [
+          {
+            type: DOCS_BUILD_ACTION,
+          },
+        ],
+        clean: [
+          {
+            type: `rimraf`,
+            path: `docs`,
           },
         ],
       },
