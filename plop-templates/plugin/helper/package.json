@@ -8,7 +8,7 @@
     "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "node ./src/cli.js",
     "test": "npm pack && npm rm -g gobot-{{name}} && npm i -g gobot-{{name}}-`cat package.json | fx '.version'`.tgz && {{name}} --g-refresh --g-vvv --help",
-    "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
+    "build": "npm run clean && tsup-node src/cli.ts --format esm"
   },
   "bin": {
     "{{name}}": "./dist/cli.js"

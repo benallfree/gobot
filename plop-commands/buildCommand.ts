@@ -3,11 +3,12 @@ import { globSync } from 'glob'
 import { dirname, join } from 'path'
 import { NodePlopAPI } from 'plop'
 import sharp from 'sharp'
+import { runShellCommand } from '../runShellCommand'
 import { APPS_MAP } from '../src/apps/APPS_MAP'
-import { buildDataForApp } from './util/buildData'
+import { buildData, buildDataForApp } from './util/buildData'
 import { mkSubcommander } from './util/mkSubcommander'
 
-export const pluginCommand = (plop: NodePlopAPI) => {
+export const buildCommand = (plop: NodePlopAPI) => {
   plop.setActionType(`plugin-logos-gen`, async (answers, config, plop) => {
     await Promise.all([
       ...globSync(`src/apps/*/logo.png`).map(async (logo) => {
@@ -26,12 +27,69 @@ export const pluginCommand = (plop: NodePlopAPI) => {
     return 'ok'
   })
 
+  plop.setActionType(`gobot-build`, async (answers, config, plop) => {
+    await runShellCommand(`pnpm build`)
+    return 'Built gobot'
+  })
+
+  plop.setActionType(
+    `plugins-helper-template-build`,
+    async (answers, config, plop) => {
+      await runShellCommand(`pnpm i`, `plop-templates/plugin/helper`)
+      await runShellCommand(
+        `pnpm link ../../..`,
+        `plop-templates/plugin/helper`,
+      )
+      await runShellCommand(`pnpm build`, `plop-templates/plugin/helper`)
+      return 'Built helper template'
+    },
+  )
+
   mkSubcommander(
-    `plugin`,
-    `Generate plugin artifacts`,
-    `Choose plugin artifacts to generate`,
+    `build`,
+    `Generate build artifacts`,
+    `Choose build artifacts to generate`,
     {
-      'plugin:logos': {
+      gobot: {
+        gen: async () => [
+          {
+            type: 'gobot-build',
+          },
+        ],
+        clean: [
+          {
+            type: `rimraf`,
+            path: `dist`,
+          },
+        ],
+      },
+      'gobot:readme': {
+        gen: async () => [
+          {
+            type: 'add',
+            path: 'readme.md',
+            templateFile: 'plop-templates/readme/readme.md',
+            force: true,
+            data: await buildData(plop),
+          },
+        ],
+        clean: [
+          {
+            type: `rimraf`,
+            path: `readme.md`,
+          },
+        ],
+      },
+      'plugins:helper-template': {
+        gen: [{ type: `plugins-helper-template-build` }],
+        clean: [
+          {
+            type: `rimraf`,
+            path: `plop-templates/plugin/helper/dist`,
+          },
+        ],
+      },
+      'plugins:logos': {
         gen: [
           {
             type: `plugin-logos-gen`,
@@ -45,7 +103,7 @@ export const pluginCommand = (plop: NodePlopAPI) => {
           },
         ],
       },
-      'plugin:sample-projects': {
+      'plugins:sample-projects': {
         gen: async () =>
           Promise.all(
             map(APPS_MAP, async (app) => {
@@ -68,7 +126,7 @@ export const pluginCommand = (plop: NodePlopAPI) => {
           },
         ],
       },
-      'plugin:helpers': {
+      'plugins:helpers': {
         gen: async () => {
           const srcFiles = globSync(`**/*.ts`, {
             cwd: `plop-templates/plugin/helper/src`,
@@ -110,7 +168,7 @@ export const pluginCommand = (plop: NodePlopAPI) => {
           },
         ],
       },
-      'plugin:helpers:archive': {
+      'plugins:helpers:archive': {
         gen: async () => {
           const distFiles = globSync(`*`, {
             cwd: `plop-templates/plugin/helper/dist`,

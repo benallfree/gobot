@@ -23,7 +23,6 @@ function cleanFilterGuard(filter: any): CleanFilters {
 
 program
 
-  .addCommand(new Command(`build`).action(build))
   .addCommand(new Command(`bump`).action(bump))
   .addCommand(new Command(`pack`).action(pack))
   .addCommand(
@@ -35,13 +34,6 @@ program
   .parseAsync(process.argv)
 
 const limiter = new Bottleneck({ maxConcurrent: 50 })
-
-async function build() {
-  await runShellCommand(`pnpm build`)
-  await runShellCommand(`pnpm i`, `plop-templates/plugin/helper`)
-  await runShellCommand(`pnpm link ../../..`, `plop-templates/plugin/helper`)
-  await runShellCommand(`pnpm build`, `plop-templates/plugin/helper`)
-}
 
 async function pack() {
   await runShellCommand(`npm pack`)
