@@ -37,20 +37,60 @@ Inspired by [esbuild](https://esbuild.github.io/) and other packages that instal
 
 ## Quickstart
 
-```bash
-npm i -g gobot
-gobot pocketbase --help
-gobot caddy --help
-gobot act --help
-
-# Run unofficial binaries from github
-gobot <user>/<repo> --help
-```
-
-or
+**Run any official Gobot app**
 
 ```bash
 npx gobot <app>
+```
+
+**Install Gobot globally**
+
+```bash
+npm i -g gobot
+```
+
+**Run some official Gobot apps**
+
+```bash
+gobot pocketbase --help
+gobot caddy --help
+gobot act --help
+```
+
+**Try to run any _unofficial_ app from github**
+
+```bash
+gobot <user>/<repo> --help
+```
+
+**Use Gobot programmatically**
+
+```js
+import { gobot } from 'gobot'
+
+gobot(`pocketbase`, {
+  version: `0.19.3`, // Optional version, defaults to `*` (latest)
+}).run([`--help`])
+```
+
+**Add an app as a dependency and run programmatically**
+
+Every official <app> as an optional gobot-<app> helper package to version lock it as a dependency
+
+```bash
+npm i gobot-pocketbase@0.19.3
+```
+
+Now Gobot will use the version from the `gobot-pocketbase` package
+
+```js
+gobot(`pocketbase`).run([`--help`])
+```
+
+But even if the `gobot-<app>` package is present, you can still always override the version
+
+```js
+gobot(`pocketbase`, { version: `0.22.0` }).run([`--help`])
 ```
 
 ## CLI
@@ -69,7 +109,6 @@ All Gobots options begin with `--g-` so as not to conflict with app option switc
 | `--g-refresh`     | `false`       | Clear the gobot cache                                                                                                                                        |
 | `--g-use-version` | latest        | Run a specific binary version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
 | `--g-cache-path`  | host specific | Use the specified directory for cache files.                                                                                                                 |
-
 
 **Examples**
 
@@ -90,15 +129,6 @@ npx gobot pocketbase --g-refresh
 ```
 
 ## API
-
-Gobot can be used programmatically. You can add `gobot` as a dependency of your nodejs package and benefit from the seamless management of binary dependencies.
-
-```ts
-import { gobot } from 'gobot'
-
-const bot = gobot(`pocketbase`)
-const childProcess = bot.run([`serve`])
-```
 
 [Full API Docs](https://github.com/benallfree/gobot/tree/main/docs/readme.md)
 
@@ -177,4 +207,3 @@ To test a build locally:
 ```bash
 pnpm test
 ```
-
