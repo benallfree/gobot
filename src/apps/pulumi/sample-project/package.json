@@ -8,6 +8,6 @@
     "pulumi": "pulumi"
   },
   "dependencies": {
-    "gobot-pulumi": "3.109.0"
+    "gobot-pulumi": "3.111.0"
   }
 }
