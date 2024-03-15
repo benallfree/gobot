@@ -5,21 +5,21 @@ import { mkMinioServerBot } from './minio/mkMinioServerBot'
 import { mkPocketBaseBot } from './pocketbase/PocketBaseBot'
 import { mkWeaviateBot } from './weaviate/WeaviateBot'
 
-export type PluginKey = keyof typeof PLUGINS
+export type AppKey = keyof typeof APPS
 
-export type PluginFactory = (optionsIn?: Partial<GobotOptions>) => Gobot
+export type AppFactory = (optionsIn?: Partial<GobotOptions>) => Gobot
 
-export function isPluginName(name: string): name is keyof typeof PLUGINS {
-  return name in PLUGINS
+export function isAppName(name: string): name is keyof typeof APPS {
+  return name in APPS
 }
 
-export function isPluginFactory(
-  plugin: (typeof PLUGINS)[keyof typeof PLUGINS],
-): plugin is PluginFactory {
-  return isFunction(plugin)
+export function isAppFactory(
+  app: (typeof APPS)[keyof typeof APPS],
+): app is AppFactory {
+  return isFunction(app)
 }
 
-export const PLUGINS = {
+export const APPS = {
   pocketbase: mkPocketBaseBot,
   caddy: 'caddyserver/caddy',
   act: 'nektos/act',

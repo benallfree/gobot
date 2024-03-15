@@ -1,5 +1,5 @@
 import { join } from 'path'
-import { PluginFactory } from '..'
+import { AppFactory } from '..'
 import { GithubReleaseProvider } from '../../GithubReleaseProvider'
 import { Gobot, GobotOptions } from '../../Gobot'
 import { pwd } from '../../util/shell'
@@ -11,7 +11,7 @@ class PocketBaseBot extends Gobot {
   }
 }
 
-export const mkPocketBaseBot: PluginFactory = (
+export const mkPocketBaseBot: AppFactory = (
   optionsIn: Partial<GobotOptions> = {},
 ) => {
   const repo = `pocketbase/pocketbase`

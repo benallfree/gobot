@@ -1,3 +1,3 @@
-import { pocketbase } from 'gobot-pocketbase'
+import { gobot } from 'gobot'
 
-pocketbase().run([`--version`])
+gobot(`pocketbase`).run([`--version`])

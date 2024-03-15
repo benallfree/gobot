@@ -1,12 +1,12 @@
 import { cloneDeep } from '@s-libs/micro-dash'
-import { PluginFactory } from '..'
+import { AppFactory } from '..'
 import {
   DEFAULT_PLATFORM_MAP,
   GithubReleaseProvider,
 } from '../../GithubReleaseProvider'
 import { Gobot, GobotOptions } from '../../Gobot'
 
-export const mkWeaviateBot: PluginFactory = (
+export const mkWeaviateBot: AppFactory = (
   optionsIn: Partial<GobotOptions> = {},
 ) => {
   const repo = `weaviate/weaviate`

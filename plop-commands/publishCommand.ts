@@ -29,10 +29,10 @@ export const publishCommand = (plop: NodePlopAPI) => {
     const limiter = new Bottleneck({ maxConcurrent: 50 })
 
     await Promise.all([
-      ...globSync(`build/apps/*`).map(async (pluginDir) => {
-        const pluginName = basename(pluginDir)
+      ...globSync(`build/apps/*`).map(async (appDir) => {
+        const appName = basename(appDir)
         const tags: string[] = []
-        globSync(join(pluginDir, '*')).forEach(async (dir) => {
+        globSync(join(appDir, '*')).forEach(async (dir) => {
           const tag = basename(dir)
           tags.push(tag)
         })
@@ -40,16 +40,16 @@ export const publishCommand = (plop: NodePlopAPI) => {
         const max = tags.shift()!
         try {
           await limiter.schedule(() => {
-            console.log(`Publishing latest ${pluginName}:${max} ${p}`)
-            return runShellCommand(`npm publish ${p}`, join(pluginDir, max))
+            console.log(`Publishing latest ${appName}:${max} ${p}`)
+            return runShellCommand(`npm publish ${p}`, join(appDir, max))
           })
           for (const i in tags) {
             const tag = tags[i]!
             await limiter.schedule(() => {
-              console.log(`Publishing ${pluginName}:${tag} ${p}`)
+              console.log(`Publishing ${appName}:${tag} ${p}`)
               return runShellCommand(
                 `npm publish ${p} --tag="archive-${tag}"`,
-                join(pluginDir, tag),
+                join(appDir, tag),
               )
             })
           }

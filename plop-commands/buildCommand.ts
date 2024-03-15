@@ -44,15 +44,12 @@ export const buildCommand = (plop: NodePlopAPI) => {
     return 'Built API docs'
   })
 
-  const HELPER_BUILD_ACTION = localAction(
+  const HELPER_TEMPLATE_BUILD_ACTION = localAction(
     plop,
     async (answers, config, plop) => {
-      await runShellCommand(`pnpm i`, `plop-templates/plugin/helper`)
-      await runShellCommand(
-        `pnpm link ../../..`,
-        `plop-templates/plugin/helper`,
-      )
-      await runShellCommand(`pnpm build`, `plop-templates/plugin/helper`)
+      await runShellCommand(`pnpm i`, `plop-templates/app/helper`)
+      await runShellCommand(`pnpm link ../../..`, `plop-templates/app/helper`)
+      await runShellCommand(`pnpm build`, `plop-templates/app/helper`)
       return 'Built helper template'
     },
   )
@@ -105,16 +102,16 @@ export const buildCommand = (plop: NodePlopAPI) => {
           },
         ],
       },
-      'plugins:helper-template': {
-        gen: [{ type: HELPER_BUILD_ACTION }],
+      'apps:helper-template': {
+        gen: [{ type: HELPER_TEMPLATE_BUILD_ACTION }],
         clean: [
           {
             type: `rimraf`,
-            path: `plop-templates/plugin/helper/dist`,
+            path: `plop-templates/app/helper/dist`,
           },
         ],
       },
-      'plugins:logos': {
+      'apps:logos': {
         gen: [
           {
             type: LOGOS_ACTION,
@@ -128,7 +125,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
           },
         ],
       },
-      'plugins:sample-projects': {
+      'apps:sample-projects': {
         gen: async () =>
           Promise.all(
             map(APPS_MAP, async (app) => {
@@ -136,8 +133,8 @@ export const buildCommand = (plop: NodePlopAPI) => {
               return {
                 type: 'addMany',
                 destination: `src/apps/${name}/sample-project`,
-                base: 'plop-templates/plugin/sample-project',
-                templateFiles: 'plop-templates/plugin/sample-project/**/*',
+                base: 'plop-templates/app/sample-project',
+                templateFiles: 'plop-templates/app/sample-project/**/*',
                 globOptions: { dot: true, ignore: [`node_modules`] },
                 data: await buildDataForApp(app, plop),
                 force: true,
@@ -151,10 +148,10 @@ export const buildCommand = (plop: NodePlopAPI) => {
           },
         ],
       },
-      'plugins:helpers': {
+      'apps:helpers': {
         gen: async () => {
-          const srcFiles = globSync(`**/*.ts`, {
-            cwd: `plop-templates/plugin/helper/src`,
+          const srcFiles = globSync(`**/*.{ts,js}`, {
+            cwd: `plop-templates/app/helper`,
           })
           const results = await Promise.all(
             map(APPS_MAP, async (app) => {
@@ -163,11 +160,11 @@ export const buildCommand = (plop: NodePlopAPI) => {
                 {
                   type: 'addMany',
                   destination: `src/apps/${name}/helper`,
-                  base: 'plop-templates/plugin/helper',
-                  templateFiles: 'plop-templates/plugin/helper/**/*',
+                  base: 'plop-templates/app/helper',
+                  templateFiles: 'plop-templates/app/helper/**/*',
                   globOptions: {
                     dot: true,
-                    ignore: [`**/node_modules`, `**/dist`, `**/.DS_Store`],
+                    ignore: [`**/node_modules`, `**/.DS_Store`],
                   },
                   data: await buildDataForApp(app, plop),
                   force: true,
@@ -176,7 +173,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
                 ...srcFiles.map((path) => {
                   return {
                     type: 'modify',
-                    path: `src/apps/${name}/helper/src/${path}`,
+                    path: `src/apps/${name}/helper/${path}`,
                     pattern: /__EXPORT__/g,
                     template: name,
                   }
@@ -193,10 +190,10 @@ export const buildCommand = (plop: NodePlopAPI) => {
           },
         ],
       },
-      'plugins:helpers:archive': {
+      'apps:helpers:archive': {
         gen: async () => {
           const distFiles = globSync(`*`, {
-            cwd: `plop-templates/plugin/helper/dist`,
+            cwd: `plop-templates/app/helper/dist`,
           })
 
           const results = await Promise.all(
@@ -209,8 +206,8 @@ export const buildCommand = (plop: NodePlopAPI) => {
                   {
                     type: 'addMany',
                     destination: `build/apps/${name}/${version}`,
-                    base: 'plop-templates/plugin/helper',
-                    templateFiles: 'plop-templates/plugin/helper/**/*',
+                    base: 'plop-templates/app/helper',
+                    templateFiles: 'plop-templates/app/helper/**/*',
                     globOptions: {
                       dot: true,
                       ignore: [`**/node_modules`],

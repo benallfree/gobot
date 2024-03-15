@@ -9,6 +9,8 @@ export async function runShellCommand(
     if (!cmd) {
       throw new Error(`cmd expected`)
     }
+    console.log(`${cmd} ${args.join(' ')}`)
+
     const cmdProcess = spawn(cmd, args, {
       cwd: directory ? directory : process.cwd(),
       shell: true,

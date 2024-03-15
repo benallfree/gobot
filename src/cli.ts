@@ -6,7 +6,7 @@ import { exit } from 'process'
 import json from '../package.json'
 import { Gobot } from './Gobot'
 import { gobot } from './api'
-import { getPluginVersion } from './util/getPluginVersion'
+import { getAppVersion } from './util/getAppVersion'
 import { dbg } from './util/log'
 
 const main = async () => {
@@ -22,7 +22,7 @@ const main = async () => {
 
   program
     .command(`run`, { isDefault: true })
-    .argument(`pluginName <pluginName>`, `The name of the plugin to run`)
+    .argument(`appName <appName>`, `The name of the app to run`)
     .description(`Run binaries`)
     .allowUnknownOption()
     .allowExcessArguments()
@@ -53,7 +53,7 @@ const main = async () => {
       `The cache path to use (default root: ${Gobot.DEFAULT_GOBOT_CACHE_ROOT()})`,
       undefined,
     )
-    .action(async (pluginName, options, command) => {
+    .action(async (appName, options, command) => {
       const {
         gV,
         gVv,
@@ -67,14 +67,14 @@ const main = async () => {
         gShowVersions: showVersions,
       } = options
       Gobot.verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
-      dbg(`Plugin name:`, pluginName)
-      dbg(`CLI:`, pluginName, options)
+      dbg(`App name:`, appName)
+      dbg(`CLI:`, appName, options)
 
       try {
-        const bot = gobot(pluginName, {
+        const bot = gobot(appName, {
           os,
           arch,
-          version: gUseVersion || (await getPluginVersion(pluginName)),
+          version: gUseVersion || (await getAppVersion(appName)),
           cachePath,
           env: process.env,
         })

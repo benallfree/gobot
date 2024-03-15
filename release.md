@@ -1,0 +1,5 @@
+- Work in `main`
+- pnpm bump
+- pnpm plop build
+- pnpm plop pack
+- pnpm plop publish

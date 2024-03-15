@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gobot": "link:../..",
+    "gobot": "file:../..",
     "gobot-pocketbase": "file:../../build/apps/pocketbase/0.19.4/gobot-pocketbase-0.19.4.tgz"
   }
 }

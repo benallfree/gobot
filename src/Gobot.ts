@@ -18,7 +18,7 @@ import { compare, satisfies } from 'semver'
 import { GithubReleaseProvider } from './GithubReleaseProvider'
 import { downloadFile } from './util/downloadFile'
 import { findFileRecursive } from './util/find'
-import { getPluginVersion } from './util/getPluginVersion'
+import { getAppVersion } from './util/getAppVersion'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { mkSetting } from './util/mkSetting'
@@ -52,7 +52,7 @@ export interface GobotOptions {
 }
 
 /**
- * Generic Gobot plugin. Subclass this for specific functionality.
+ * Generic Gobot app. Subclass this for specific functionality.
  */
 export class Gobot {
   /**
@@ -217,7 +217,7 @@ export class Gobot {
 
   async getBinaryPath(versionRangeIn?: string) {
     const versionRange =
-      versionRangeIn || this.version || (await getPluginVersion(this.name))
+      versionRangeIn || this.version || (await getAppVersion(this.name))
     const storedRelease = await this.maxSatisfyingRelease(versionRange)
     if (!storedRelease) {
       dbg(

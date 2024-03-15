@@ -3,12 +3,13 @@
   "version": "{{version}}",
   "description": "{{slug}} helper for Gobot",
   "type": "module",
+  "main": "dist/api.js",
   "scripts": {
     "clean": "rimraf dist",
     "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
-    "dev": "node ./src/cli.js",
-    "test": "npm pack && npm rm -g gobot-{{name}} && npm i -g gobot-{{name}}-`cat package.json | fx '.version'`.tgz && {{name}} --g-refresh --g-vvv --help",
-    "build": "npm run clean && tsup-node src/cli.ts --format esm"
+    "dev": "tsx ./src/cli.ts",
+    "test": "npm pack && npm rm -g gobot-{{name}} && npm i -g gobot-{{name}}-{{version}}.tgz && {{name}} --g-refresh --g-vvv --help",
+    "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {
     "{{name}}": "./dist/cli.js"
@@ -35,6 +36,7 @@
   },
   "devDependencies": {
     "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
     "typescript": "^5.4.2"
   }
 }

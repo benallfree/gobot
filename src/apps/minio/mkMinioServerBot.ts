@@ -1,9 +1,9 @@
 import { GobotOptions } from '../../Gobot'
-import { PluginFactory } from '../index'
+import { AppFactory } from '../index'
 import { MinioGobot } from './MinioGobot'
 import { MinioReleaseProvider } from './MinioReleaseProvider'
 
-export const mkMinioServerBot: PluginFactory = (
+export const mkMinioServerBot: AppFactory = (
   optionsIn: Partial<GobotOptions> = {},
 ) => {
   const repo = `minio/minio`

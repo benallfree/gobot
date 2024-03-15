@@ -7,29 +7,22 @@ import { localAction } from './util/localAction'
 import { mkSubcommander } from './util/mkSubcommander'
 
 export const packCommand = (plop: NodePlopAPI) => {
-  const PACK_GOBOT = localAction(plop, async (answers, config, plop) => {
-    await runShellCommand(`npm pack`)
-    return 'Gobot packed'
-  })
+  const limiter = new Bottleneck({ maxConcurrent: 50 })
+  const PACK = localAction(plop, async (answers, config, plop) => {
+    const { path } = config
 
-  const PACK_HELPERS = localAction(plop, async (answers, config, plop) => {
-    const limiter = new Bottleneck({ maxConcurrent: 50 })
-
-    await Promise.all([
-      ...globSync(`build/apps/*/*/`, {
+    await Promise.all(
+      globSync(path, {
         absolute: true,
-      }).map(async (dir) => {
-        await limiter.schedule(async () => {
-          console.log(`packing ${dir}`)
-          if (globSync(join(dir, `gobot-*.tgz`)).length > 0) {
-            console.log(`Skipping ${dir}`)
-            return
-          }
-          await runShellCommand(`npm pack --silent`, dir)
-        })
+      }).map(async (path) => {
+        if (globSync(join(path, `gobot-*.tgz`)).length > 0) {
+          console.log(`Pack exists, skipping ${path}`)
+          return
+        }
+        await limiter.schedule(() => runShellCommand(`npm pack --silent`, path))
       }),
-    ])
-    return 'Helpers packed'
+    )
+    return `Packed ${path}`
   })
 
   mkSubcommander(
@@ -40,7 +33,8 @@ export const packCommand = (plop: NodePlopAPI) => {
       gobot: {
         gen: async () => [
           {
-            type: PACK_GOBOT,
+            type: PACK,
+            path: ['.'],
           },
         ],
         clean: [
@@ -50,16 +44,31 @@ export const packCommand = (plop: NodePlopAPI) => {
           },
         ],
       },
-      helpers: {
-        gen: async () => [
+      'helpers:current': {
+        gen: [
           {
-            type: PACK_HELPERS,
+            type: PACK,
+            path: `src/apps/*/helper`,
           },
         ],
         clean: [
           {
             type: `rimraf`,
-            path: `src/plugins/*/helpers/gobot-*.tgz`,
+            path: `src/apps/*/helper/gobot-*.tgz`,
+          },
+        ],
+      },
+      'helpers:archived': {
+        gen: () => [
+          {
+            type: PACK,
+            path: `build/apps/*/*`,
+          },
+        ],
+        clean: [
+          {
+            type: `rimraf`,
+            path: `build/apps/**/gobot-*.tgz`,
           },
         ],
       },

@@ -4,7 +4,7 @@ import {
   GithubReleaseProviderOptions,
 } from './GithubReleaseProvider'
 import { Gobot, GobotOptions } from './Gobot'
-import { PLUGINS, isPluginFactory, isPluginName } from './apps'
+import { APPS, isAppFactory, isAppName } from './apps'
 import { APPS_MAP, AppInfo } from './apps/APPS_MAP'
 import { dbg } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
@@ -25,27 +25,27 @@ export {
 /**
  * Instantiate a gobot for a specific app.
  *
- * @param pluginName `<app>` for officially supported apps, or `<user>/<repo>` for unofficial apps (your mileage may vary)
+ * @param appName `<app>` for officially supported apps, or `<user>/<repo>` for unofficial apps (your mileage may vary)
  * @param optionsIn Option overrides
  * @returns An instance of GobotBase
  */
 
 export const gobot = (
-  pluginName: string,
+  appName: string,
   optionsIn: Partial<GobotOptions> = {},
 ): Gobot => {
   dbg(`gobot() factory optionsIn`, sanitizeOptions(optionsIn))
   if (!optionsIn.cachePath) {
-    optionsIn.cachePath = Gobot.DEFAULT_GOBOT_CACHE_ROOT(pluginName)
+    optionsIn.cachePath = Gobot.DEFAULT_GOBOT_CACHE_ROOT(appName)
   }
-  if (isPluginName(pluginName)) {
-    dbg(pluginName, `is a valid plugin`)
-    const repoOrFactory = PLUGINS[pluginName]
-    if (isPluginFactory(repoOrFactory)) {
-      dbg(pluginName, `is a factory plugin`)
+  if (isAppName(appName)) {
+    dbg(appName, `is a valid app`)
+    const repoOrFactory = APPS[appName]
+    if (isAppFactory(repoOrFactory)) {
+      dbg(appName, `is a factory app`)
       return repoOrFactory(optionsIn)
     } else {
-      dbg(pluginName, `is a mapped repo plugin`)
+      dbg(appName, `is a mapped repo app`)
       return new Gobot(
         repoOrFactory,
         (cacheRoot) => new GithubReleaseProvider(repoOrFactory, cacheRoot),
@@ -53,20 +53,20 @@ export const gobot = (
       )
     }
   }
-  if (!pluginName.includes(`/`)) {
+  if (!appName.includes(`/`)) {
     throw new Error(
-      `${pluginName} is not a binary known to Gobot. Try <user>/<repo>`,
+      `${appName} is not a binary known to Gobot. Try <user>/<repo>`,
     )
   }
-  dbg(pluginName, `is a generic repo plugin`)
+  dbg(appName, `is a generic repo app`)
   return new Gobot(
-    pluginName,
-    (cacheRoot) => new GithubReleaseProvider(pluginName, cacheRoot),
+    appName,
+    (cacheRoot) => new GithubReleaseProvider(appName, cacheRoot),
     optionsIn,
   )
 }
 
 export const mkGobot =
-  (pluginName: string, defaultOptionsIn: Partial<GobotOptions> = {}) =>
+  (appName: string, defaultOptionsIn: Partial<GobotOptions> = {}) =>
   (optionsIn: Partial<GobotOptions> = {}) =>
-    gobot(pluginName, mergeConfig(defaultOptionsIn, optionsIn))
+    gobot(appName, mergeConfig(defaultOptionsIn, optionsIn))

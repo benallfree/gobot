@@ -3,11 +3,12 @@
   "version": "2024.3.10025348",
   "description": "Minio helper for Gobot",
   "type": "module",
+  "main": "dist/api.js",
   "scripts": {
     "clean": "rimraf dist",
     "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
-    "dev": "node ./src/cli.js",
-    "test": "npm pack && npm rm -g gobot-minio && npm i -g gobot-minio-`cat package.json | fx '.version'`.tgz && minio --g-refresh --g-vvv --help",
+    "dev": "tsx ./src/cli.ts",
+    "test": "npm pack && npm rm -g gobot-minio && npm i -g gobot-minio-2024.3.10025348.tgz && minio --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {
@@ -26,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/benallfree/gobot/issues"
   },
-  "homepage": "https://github.com/benallfree/gobot/tree/main/src/apps/minio/helper/readme.md",
+  "homepage": "https://github.com/benallfree/gobot/tree/v1.0.0-alpha.14/src/apps/minio/helper/readme.md",
   "dependencies": {
     "commander": "^12.0"
   },
@@ -35,6 +36,7 @@
   },
   "devDependencies": {
     "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
     "typescript": "^5.4.2"
   }
 }
