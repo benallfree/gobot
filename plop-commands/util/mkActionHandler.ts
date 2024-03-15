@@ -1,12 +1,11 @@
 import { flatten, isFunction, keys, map } from '@s-libs/micro-dash'
-import { Subcommands } from './mkSubcommander'
+import { Subcommand, Subcommands } from './mkSubcommander'
 
 export const mkActionHandler = (
   subcommandsIn: Subcommands,
-  actionType: keyof Subcommands[string],
+  actionType: keyof Subcommand,
 ) => {
   return async (answers: any) => {
-    console.log({ answers, actionType })
     if (!answers) {
       throw new Error(`Expected answers here`)
     }
