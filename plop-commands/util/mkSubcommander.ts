@@ -16,9 +16,11 @@ export const mkSubcommander = (
   commandType: keyof Subcommand,
   plop: NodePlopAPI,
 ) => {
-  forEach(subcommandsIn, (info, command) => {
-    addCleanCommand(command, info.clean)
-  })
+  if (commandType === 'gen') {
+    forEach(subcommandsIn, (info, command) => {
+      addCleanCommand(`${generatorName}:${command}`, info.clean)
+    })
+  }
 
   plop.setGenerator(generatorName, {
     description: generatorDescription,
@@ -28,6 +30,7 @@ export const mkSubcommander = (
         name: 'subcommands',
         type: 'checkbox',
         choices: keys(subcommandsIn),
+        pageSize: 100,
         default: keys(subcommandsIn),
       },
     ],

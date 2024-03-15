@@ -44,7 +44,7 @@ export const packCommand = (plop: NodePlopAPI) => {
           },
         ],
       },
-      'helpers:current': {
+      'helpers:latest': {
         gen: [
           {
             type: PACK,
