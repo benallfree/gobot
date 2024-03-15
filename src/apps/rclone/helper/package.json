@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/benallfree/gobot/issues"
   },
-  "homepage": "https://github.com/benallfree/gobot/tree/v1.0.0-alpha.14/src/apps/rclone/helper/readme.md",
+  "homepage": "https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/rclone/helper/readme.md",
   "dependencies": {
     "commander": "^12.0"
   },
