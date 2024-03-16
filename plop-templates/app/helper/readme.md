@@ -43,6 +43,15 @@ gobot(`{{name}}`, { version: `0.19.4` }).run([`--version`])
 gobot(`{{name}}`, { version: `*` }).run([`--version`])
 ```
 
+**Pass environment variables**
+
+```js
+import { gobot } from 'gobot'
+gobot(`{{name}}`, {
+  env: process.env, // This is not always necessary, but some apps do need it
+}).run([`--version`])
+```
+
 **Install globally for CLI access**
 
 Exactly one `gobot-{{name}}` can be installed globally. It will receive a bin alias:

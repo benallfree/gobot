@@ -71,6 +71,15 @@ import { gobot } from 'gobot'
 gobot(`pocketbase`).run([`--help`])
 ```
 
+**Pass environment variables**
+
+```js
+import { gobot } from 'gobot'
+gobot(`pocketbase`, {
+  env: process.env, // This is not always necessary, but some apps do need it
+}).run([`--help`])
+```
+
 **Use a specific version of a Gobot app**
 
 ```js
