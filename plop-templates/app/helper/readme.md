@@ -1,41 +1,31 @@
 ![Gobot](https://raw.githubusercontent.com/benallfree/gobot/{{{branch}}}/assets/gobot-banner-300x.png)
 
-# `gobot-{{name}}`
+## `{{name}}` for npm
 
-## `{{name}}` as an npm package
+This package allows you to use [{{slug}}]({{homepage}}) as an npm dependency.
 
-This is an optional [Gobot](https://github.com/benallfree/gobot) helper used when you want [{{slug}}]({{homepage}}) to be a dependency in your project.
-
-With it, you can ensure that `{{name}}` is always installed and available to your application, in the specific version (or range) you require.
-
-`{{name}}` can also be surfaced as a CLI alias by installing this package globally.
+Part of the [Gobot](https://github.com/benallfree/gobot) project.
 
 ## Usage
 
 **Basic version locking**
 
-Install `gobot` and `gobot-{{name}}`:
+Install `gobot-{{name}}`:
 
 ```bash
-npm i gobot gobot-{{name}}
+npm i gobot-{{name}}
 ```
 
-Then, use Gobot normally:
+With `gobot-{{name}}` present, Gobot will default to the `{{name}` version corresponding to the `gobot-{{name}}` version you installed.
 
 ```js
 import { gobot } from 'gobot'
-
-/**
- * With `gobot-{{name}} present, Gobot will default
- * to the `{{name}}` version corresponding to
- * `package.version`
- */
 gobot(`{{name}}`).run([`--version])
 ```
 
 **Locking to a specific version**
 
-The `gobot-{{name}}` package version always mirrors the underlying `{{name}}` version:
+The `gobot-{{name}}` package version always mirrors the underlying `{{name}}` [version](#known-versions):
 
 ```bash
 npm i gobot-{{name}}@{{version}}
@@ -69,7 +59,7 @@ For more information, see [Gobot's full documentation](https://github.com/benall
 
 ## How package versioning works
 
-`gobot-{{name}}` is designed to work with any future version of `gobot`.
+`gobot-{{name}}` is designed to work with any future version of Gobot.
 
 The published versions of this package mirror the underlying versions of `{{name}}`. That means it is not possible to release updates to this package until/unless the underlying `{{name}}` project also releases a new version.
 
