@@ -18,7 +18,7 @@
     "plop:transpile": "tsup-node ./plopfile.ts --format esm --out-dir .",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm",
     "watch": "tsup-node --watch .",
-    "dev": "node dist/cli.js",
+    "dev": "pnpm build && node dist/cli.js",
     "test": "pnpm build && npm pack && npm rm -g gobot && npm i -g gobot-`cat package.json | fx '.version'`.tgz && gobot pocketbase --g-refresh --g-vvv --help",
     "docs": "typedoc"
   },
