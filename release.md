@@ -1,5 +1,7 @@
 - Work in `main`
-- pnpm bump
+- bump main
+- bump helper
+- pnpm plop clean
 - pnpm plop build
 - pnpm plop pack
 - pnpm plop publish
