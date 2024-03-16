@@ -29,9 +29,7 @@
   },
   "homepage": "https://www.npmjs.com/package/gobot-{{lowerCase name}}",
   "dependencies": {
-    "commander": "^12.0"
-  },
-  "peerDependencies": {
+    "commander": "^12.0",
     "gobot": "*"
   },
   "devDependencies": {
