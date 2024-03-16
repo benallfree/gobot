@@ -1,7 +1,7 @@
 import { forEach } from '@s-libs/micro-dash'
 import { join, resolve } from 'path'
 import { valid } from 'semver'
-import type { StoredRelease } from './Gobot'
+import type { ArchKey, PlatformKey, StoredRelease } from './Gobot'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { mkdir } from './util/shell'
@@ -77,6 +77,8 @@ export type GithubReleaseProviderOptions = {
   platformMap: PlatformMap
 }
 
+const ALLOWED_EXTS = [`.zip`, `.tgz`, `.tar.gz`, `.bz2`]
+
 export class GithubReleaseProvider {
   protected repo: string
   protected cacheRoot: string
@@ -95,7 +97,7 @@ export class GithubReleaseProvider {
       },
       optionsIn,
     )
-    dbg(`GithubReleaseProvider options`, stringify(options, null, 2))
+    dbg(`${this.slug} options`, stringify(options, null, 2))
     const { platformMap: releaseMap } = options
     this.platformMap = releaseMap
   }
@@ -157,41 +159,50 @@ export class GithubReleaseProvider {
       })
   }
 
+  get allowedExts() {
+    return ALLOWED_EXTS
+  }
+
+  isArchiveUrlAllowed(url: string) {
+    return this.allowedExts.some((ext) => url.endsWith(ext))
+  }
+
+  platformRegex(arch: ArchKey, aliases: string[]) {
+    return new RegExp(`[_-](?:${aliases.join(`|`)})[_\\-.]`, 'i')
+  }
+
+  archRegex(os: PlatformKey, aliases: string[]) {
+    return new RegExp(`[_-](?:${aliases.join(`|`)})[_\\-.]`, 'i')
+  }
+
   getArchivesForRelease(release: GithubRelease): StoredRelease['archives'] {
     const archives: StoredRelease['archives'] = {}
 
     const { assets } = release
-    const allowedExts = [`.zip`, `.tgz`, `.tar.gz`, `.bz2`]
-    const urls = assets
-      .map((asset) => asset.browser_download_url)
-      .filter((url) => allowedExts.some((ext) => url.endsWith(ext)))
+    const allUrls = assets.map((asset) => asset.browser_download_url)
+    dbg(`Examining ${release.tag_name}`, allUrls)
 
-    dbg(`Examining ${release.tag_name}`, urls)
-    if (urls.length === 0) {
+    const allowedUrls = allUrls.filter((url) => this.isArchiveUrlAllowed(url))
+    dbg(`Filtered to`, allowedUrls)
+
+    if (allowedUrls.length === 0) {
       return archives
     }
 
     forEach(this.platformMap, (platformInfo, platformKey) => {
+      const platformAliases = [
+        platformKey,
+        ...(platformInfo?.aliases || []),
+      ].filter((v) => !!v)
       forEach(platformInfo?.architectures, (archInfo, archKey) => {
-        const platformAliases = [
-          platformKey,
-          ...(platformInfo?.aliases || []),
-        ].filter((v) => !!v)
-        const platformRegex = new RegExp(
-          `[_-](?:${platformAliases.join(`|`)})[_\\-.]`,
-          'i',
-        )
-
         const archAliases = [archKey, ...(archInfo?.aliases || [])].filter(
           (v) => !!v,
         )
-        const archRegex = new RegExp(
-          `[_-](?:${archAliases.join(`|`)})[_\\-.]`,
-          'i',
-        )
+        const platformRegex = this.platformRegex(archKey, platformAliases)
+        const archRegex = this.archRegex(platformKey, archAliases)
 
-        dbg(`Scanning for`, platformAliases, archAliases)
-        urls.forEach((url) => {
+        dbg(`Scanning for`, platformRegex, archRegex)
+        allowedUrls.forEach((url) => {
           if (
             platformRegex.test(url.toLocaleLowerCase()) &&
             archRegex.test(url.toLocaleLowerCase())
