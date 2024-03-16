@@ -49,9 +49,9 @@
     "shelljs": "^0.8.5"
   },
   "devDependencies": {
-    "@types/node": "^20.11.24",
     "@types/decompress": "^4.2.7",
     "@types/json-stringify-safe": "^5.0.3",
+    "@types/node": "^20.11.28",
     "@types/semver": "^7.5.8",
     "@types/shelljs": "^0.8.15",
     "boolean": "^3.2.0",
@@ -63,9 +63,9 @@
     "prettier-plugin-organize-imports": "^3.2.4",
     "sharp": "^0.33.2",
     "tsup": "^8.0.2",
-    "typedoc": "^0.25.9",
+    "typedoc": "^0.25.12",
     "typedoc-plugin-markdown": "^3.17.1",
-    "typescript": "^5.3.3",
+    "typescript": "^5.4.2",
     "verdaccio": "^5.29.2",
     "yaml": "^2.4.1"
   },
