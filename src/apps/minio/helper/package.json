@@ -1,6 +1,6 @@
 {
   "name": "gobot-minio",
-  "version": "2024.3.15010719-alpha.2",
+  "version": "2024.3.15010719-alpha.3",
   "description": "Minio helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
