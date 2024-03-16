@@ -1,10 +1,10 @@
-import decompressTargz from '@xhmikosr/decompress-targz'
-import decompressUnzip from '@xhmikosr/decompress-unzip'
-import decompressBz2 from 'decompress-bzip2'
-
 import Bottleneck from 'bottleneck'
 import { spawn } from 'child_process'
 import decompress from 'decompress'
+import decompressBz2 from 'decompress-bzip2'
+import decompressTarbz2 from 'decompress-tarbz2'
+import decompressTargz from 'decompress-targz'
+import decompressUnzip from 'decompress-unzip'
 import envPaths from 'env-paths'
 import {
   chmodSync,
@@ -216,6 +216,7 @@ export class Gobot {
       plugins: [
         decompressTargz(),
         decompressUnzip(),
+        decompressTarbz2(),
         decompressBz2({ path: join(dirname(downloadPath), this.name) }),
       ],
     })

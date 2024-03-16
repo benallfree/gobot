@@ -1,4 +1,5 @@
 {
+  "ignorePaths": ["pnpm-lock.yaml"],
   "words": [
     "Adguard",
     "annoucements",
@@ -80,6 +81,7 @@
     "superadmin",
     "syslogd",
     "tailable",
+    "tarbz",
     "targz",
     "TRYFETCH",
     "tsup",
