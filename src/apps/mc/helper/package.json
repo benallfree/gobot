@@ -1,6 +1,6 @@
 {
   "name": "gobot-mc",
-  "version": "2024.3.9064306-alpha.1",
+  "version": "2024.3.13235157-alpha.1",
   "description": "Mc helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -8,7 +8,7 @@
     "clean": "rimraf dist",
     "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-mc && npm i -g gobot-mc-2024.3.9064306.tgz && mc --g-refresh --g-vvv --help",
+    "test": "npm pack && npm rm -g gobot-mc && npm i -g gobot-mc-2024.3.13235157.tgz && mc --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {
