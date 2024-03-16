@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/benallfree/gobot/issues"
   },
-  "homepage": "https://www.npmjs.com/package/gobot-{{name}}",
+  "homepage": "https://www.npmjs.com/package/gobot-{{lowerCase name}}",
   "dependencies": {
     "commander": "^12.0"
   },
