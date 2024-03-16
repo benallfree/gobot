@@ -8,15 +8,30 @@ Part of the [Gobot](https://www.npmjs.com/package/gobot) project.
 
 ## Usage
 
-**Basic version locking**
+**Quick run**
 
-Install `gobot-{{lowerCase name}}`:
+```bash
+npx gobot {{name}} --version
+```
+
+**Quick use**
+
+```bash
+npm i gobot
+```
+
+```js
+import { gobot } from 'gobot'
+gobot(`{{name}}`).run([`--version`])
+```
+
+**Basic version locking**
 
 ```bash
 npm i gobot-{{lowerCase name}}
 ```
 
-With `gobot-{{lowerCase name}}` present, Gobot will default to the `{{name}}` version corresponding to the `gobot-{{lowerCase name}}` version you installed.
+With `gobot-{{lowerCase name}}` present, Gobot will default to the `{{name}}` version corresponding to the `gobot-{{lowerCase name}}` version you installed. Now you can use `{{name}}` as a real dependency.
 
 ```js
 import { gobot } from 'gobot'
