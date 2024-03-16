@@ -73,4 +73,10 @@ export const APPS_MAP: AppInfo[] = [
     description: `Backrest is a web UI and orchestrator for restic backup.`,
     homepage: `https://github.com/garethgeorge/backrest`,
   },
+  {
+    name: `ollama`,
+    slug: `Ollama`,
+    description: `Get up and running with Llama 2, Mistral, Gemma, and other large language models.`,
+    homepage: `https://ollama.com/`,
+  },
 ]

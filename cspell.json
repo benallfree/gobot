@@ -50,6 +50,7 @@
     "noaxis",
     "nofile",
     "nohup",
+    "ollama",
     "oneline",
     "opengraph",
     "PASV",

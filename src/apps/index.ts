@@ -2,6 +2,7 @@ import { isFunction } from '@s-libs/micro-dash'
 import { Gobot, GobotOptions } from '../Gobot'
 import { mkMinioClientBot } from './mc/mkMinioClientBot'
 import { mkMinioServerBot } from './minio/mkMinioServerBot'
+import { mkOllamaBot } from './ollama/factory'
 import { mkPocketBaseBot } from './pocketbase/PocketBaseBot'
 import { mkWeaviateBot } from './weaviate/WeaviateBot'
 
@@ -26,6 +27,7 @@ export const APPS = {
   caddy: 'caddyserver/caddy',
   mc: mkMinioClientBot,
   minio: mkMinioServerBot,
+  ollama: mkOllamaBot,
   pocketbase: mkPocketBaseBot,
   pulumi: `pulumi/pulumi`,
   rclone: `rclone/rclone`,
