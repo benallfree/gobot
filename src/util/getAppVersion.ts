@@ -4,7 +4,7 @@ export async function getAppVersion(name: string): Promise<string> {
     const module = await import(moduleName)
     return module.meta.version || '*'
   } catch (error) {
-    console.error(error)
+    // console.error(error)
     return '*'
   }
 }
