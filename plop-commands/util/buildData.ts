@@ -1,5 +1,6 @@
-import { keys } from '@s-libs/micro-dash'
+import { flatMap, keys, uniq } from '@s-libs/micro-dash'
 import { existsSync, readFileSync } from 'fs'
+import { markdownTable } from 'markdown-table'
 import { NodePlopAPI } from 'plop'
 import {
   DEFAULT_PLATFORM_MAP,
@@ -32,6 +33,7 @@ export async function buildDataForApp(app: AppInfo, plop: NodePlopAPI) {
 
   const bot = gobot(name)
   const versions = await bot.versions()
+  const releases = await bot.releases()
 
   const data = {
     ...(await buildData(plop)),
@@ -39,6 +41,7 @@ export async function buildDataForApp(app: AppInfo, plop: NodePlopAPI) {
     version: versions[0]!,
     versions,
     notesMd: '',
+    releasesMd: '',
   }
 
   const notes = (() => {
@@ -46,6 +49,27 @@ export async function buildDataForApp(app: AppInfo, plop: NodePlopAPI) {
     if (!existsSync(notesPath)) return ''
     return readFileSync(notesPath).toString()
   })()
+
+  /*
+  | Version    | darwin      | linux |
+| ---------- | ----------- | ----- |
+| **0.1.05** | arm64/amd52 | arm7  |
+
+  */
+
+  const allPlatforms = uniq(
+    flatMap(releases, (release) => keys(release.archives)),
+  )
+
+  data.releasesMd = markdownTable([
+    [`Version`, ...allPlatforms],
+    ...releases.map((release) => {
+      return [
+        `**${release.version}**`,
+        ...allPlatforms.map((os) => keys(release.archives[os]).join(`/`)),
+      ]
+    }),
+  ])
   data.notesMd = plop.renderString(notes, data)
 
   return data

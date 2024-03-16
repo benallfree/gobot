@@ -68,12 +68,6 @@ For more information, see [Gobot's full documentation](https://github.com/benall
 
 {{{notesMd}}}
 
-## Versions
-
-`gobot-{{lowerCase name}}` versions mirror `{{name}}` versions. Gobot knows about {{count versions}} releases of `{{name}}`:
-
-{{csv versions}}
-
 ## Sample project
 
 View the [{{slug}} sample project](https://github.com/benallfree/gobot/tree/{{{branch}}}/src/apps/{{name}}/sample-project) on github.
@@ -85,3 +79,9 @@ Gobot has a growing list of apps. Have you tried them all?
 {{{availableAppsMd}}}
 
 {{{postambleMd}}}
+
+## All known releases
+
+`gobot-{{lowerCase name}}` versions mirror `{{name}}` versions. Gobot knows about {{count versions}} releases of `{{name}}`:
+
+{{{releasesMd}}}
