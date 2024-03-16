@@ -1,6 +1,6 @@
 {
   "name": "gobot-adguardhome",
-  "version": "0.108.0-b.53-alpha.1",
+  "version": "0.108.0-b.53-alpha.2",
   "description": "AdGuardHome helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/benallfree/gobot/issues"
   },
-  "homepage": "https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/AdGuardHome/helper/readme.md",
+  "homepage": "https://www.npmjs.com/package/gobot-AdGuardHome",
   "dependencies": {
     "commander": "^12.0"
   },

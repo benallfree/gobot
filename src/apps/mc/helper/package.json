@@ -1,6 +1,6 @@
 {
   "name": "gobot-mc",
-  "version": "2024.3.13235157-alpha.1",
+  "version": "2024.3.13235157-alpha.2",
   "description": "Mc helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/benallfree/gobot/issues"
   },
-  "homepage": "https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/mc/helper/readme.md",
+  "homepage": "https://www.npmjs.com/package/gobot-mc",
   "dependencies": {
     "commander": "^12.0"
   },

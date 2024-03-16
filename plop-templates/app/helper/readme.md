@@ -16,7 +16,7 @@ Install `gobot-{{name}}`:
 npm i gobot-{{name}}
 ```
 
-With `gobot-{{name}}` present, Gobot will default to the `{{name}` version corresponding to the `gobot-{{name}}` version you installed.
+With `gobot-{{name}}` present, Gobot will default to the `{{name}}` version corresponding to the `gobot-{{name}}` version you installed.
 
 ```js
 import { gobot } from 'gobot'

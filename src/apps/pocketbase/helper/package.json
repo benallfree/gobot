@@ -1,6 +1,6 @@
 {
   "name": "gobot-pocketbase",
-  "version": "0.22.4-alpha.1",
+  "version": "0.22.4-alpha.2",
   "description": "PocketBase helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/benallfree/gobot/issues"
   },
-  "homepage": "https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/pocketbase/helper/readme.md",
+  "homepage": "https://www.npmjs.com/package/gobot-pocketbase",
   "dependencies": {
     "commander": "^12.0"
   },

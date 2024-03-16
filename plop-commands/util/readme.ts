@@ -16,7 +16,7 @@ export const availableAppsMd = markdownTable([
     const branch = getCurrentGitBranch()
     console.log({ branch })
     const { name, description, homepage, slug } = app
-    const readmeUrl = `https://www.npmjs.com/package/gobot-{{name}}`
+    const readmeUrl = `https://www.npmjs.com/package/gobot-${name}`
     const logoUrl = `https://raw.githubusercontent.com/benallfree/gobot/${branch}/src/apps/${name}/logo-50x.png`
     return [
       mkLink(`<img src="${logoUrl}">`, homepage),

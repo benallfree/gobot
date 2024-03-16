@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.15/assets/gobot-banner.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.16/assets/gobot-banner.png)
 
 # The binary package manager for Node
 
@@ -37,20 +37,59 @@ Inspired by [esbuild](https://esbuild.github.io/) and other packages that instal
 
 ## Quickstart
 
+**Run an app from anywhere**
+
 ```bash
 npx gobot <app>
 ```
 
-Or, if you're not into the whole brevity thing...
+**Install gobot globally**
 
 ```bash
 npm i -g gobot
 gobot pocketbase --help
 gobot caddy --help
 gobot act --help
+```
 
-# Run unofficial binaries from github
+**Try running an unofficial app using github user/repo**
+
+Works 100% of the time 50% of the time.
+
+```bash
 gobot <user>/<repo> --help
+```
+
+**Use a Gobot app programmatically**
+
+```bash
+npm i gobot
+```
+
+```js
+import { gobot } from 'gobot'
+gobot(`pocketbase`).run([`--help`])
+```
+
+**Use a specific version of a Gobot app**
+
+```js
+gobot(`pocketbase`, {
+  version: `0.19.3`,
+}).run([`--help`])
+```
+
+**Add a [specific app](#official-gobot-apps) and version as a project dependency**
+
+```bash
+npm i gobot-pocketbase
+```
+
+Now, Gobot will automatically select the specific version of `pocketbase` you installed and it will stay locked according to your `package.json` constraints.
+
+```js
+import { gobot } from 'gobot'
+gobot(`pocketbase`).run([`--help`])
 ```
 
 ## CLI
@@ -91,32 +130,23 @@ npx gobot pocketbase --g-refresh
 
 ## API
 
-Gobot can be used programmatically. You can add `gobot` as a dependency of your nodejs package and benefit from the seamless management of binary dependencies.
-
-```ts
-import { gobot } from 'gobot'
-
-const bot = gobot(`pocketbase`)
-const childProcess = bot.run([`serve`])
-```
-
-[Full API Docs](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/docs/readme.md)
+[Full API Docs](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.16/docs/readme.md)
 
 ## Official Gobot Apps
 
 These apps have their own helper packages to assist with locking the dependency to a specific version of the app.
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                              | `<app>`       | What is it?                                                                                                                                                                                                                                                                              |                                                                                                          |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.15/src/apps/act/logo-50x.png">](https://github.com/nektos/act)                 | `act`         | Run your GitHub Actions locally 🚀                                                                                                                                                                                                                                                       | [readme](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/act/helper/readme.md)         |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.15/src/apps/AdGuardHome/logo-50x.png">](https://adguard.com/adguard-home.html) | `AdGuardHome` | Network-wide ads & trackers blocking DNS server                                                                                                                                                                                                                                          | [readme](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/AdGuardHome/helper/readme.md) |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.15/src/apps/caddy/logo-50x.png">](https://caddyserver.com/)                    | `caddy`       | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS                                                                                                                                                                                                            | [readme](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/caddy/helper/readme.md)       |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.15/src/apps/mc/logo-50x.png">](https://min.io)                                 | `mc`          | The Object Store for AI Data Infrastructure (client)                                                                                                                                                                                                                                     | [readme](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/mc/helper/readme.md)          |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.15/src/apps/minio/logo-50x.png">](https://min.io)                              | `minio`       | The Object Store for AI Data Infrastructure (server)                                                                                                                                                                                                                                     | [readme](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/minio/helper/readme.md)       |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.15/src/apps/pocketbase/logo-50x.png">](https://pocketbase.io)                  | `pocketbase`  | Open Source realtime backend in 1 file                                                                                                                                                                                                                                                   | [readme](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/pocketbase/helper/readme.md)  |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.15/src/apps/pulumi/logo-50x.png">](https://www.pulumi.com)                     | `pulumi`      | Pulumi - Infrastructure as Code in any programming language. Build infrastructure intuitively on any cloud using familiar languages 🚀                                                                                                                                                   | [readme](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/pulumi/helper/readme.md)      |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.15/src/apps/rclone/logo-50x.png">](https://rclone.org/)                        | `rclone`      | rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files                                                                                                                                                  | [readme](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/rclone/helper/readme.md)      |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.15/src/apps/weaviate/logo-50x.png">](https://weaviate.io)                      | `weaviate`    | Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients. | [readme](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/weaviate/helper/readme.md)    |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                              | `<app>`       | What is it?                                                                                                                                                                                                                                                                              |                                                           |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.16/src/apps/act/logo-50x.png">](https://github.com/nektos/act)                 | `act`         | Run your GitHub Actions locally 🚀                                                                                                                                                                                                                                                       | [readme](https://www.npmjs.com/package/gobot-act)         |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.16/src/apps/AdGuardHome/logo-50x.png">](https://adguard.com/adguard-home.html) | `AdGuardHome` | Network-wide ads & trackers blocking DNS server                                                                                                                                                                                                                                          | [readme](https://www.npmjs.com/package/gobot-AdGuardHome) |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.16/src/apps/caddy/logo-50x.png">](https://caddyserver.com/)                    | `caddy`       | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS                                                                                                                                                                                                            | [readme](https://www.npmjs.com/package/gobot-caddy)       |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.16/src/apps/mc/logo-50x.png">](https://min.io)                                 | `mc`          | The Object Store for AI Data Infrastructure (client)                                                                                                                                                                                                                                     | [readme](https://www.npmjs.com/package/gobot-mc)          |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.16/src/apps/minio/logo-50x.png">](https://min.io)                              | `minio`       | The Object Store for AI Data Infrastructure (server)                                                                                                                                                                                                                                     | [readme](https://www.npmjs.com/package/gobot-minio)       |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.16/src/apps/pocketbase/logo-50x.png">](https://pocketbase.io)                  | `pocketbase`  | Open Source realtime backend in 1 file                                                                                                                                                                                                                                                   | [readme](https://www.npmjs.com/package/gobot-pocketbase)  |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.16/src/apps/pulumi/logo-50x.png">](https://www.pulumi.com)                     | `pulumi`      | Pulumi - Infrastructure as Code in any programming language. Build infrastructure intuitively on any cloud using familiar languages 🚀                                                                                                                                                   | [readme](https://www.npmjs.com/package/gobot-pulumi)      |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.16/src/apps/rclone/logo-50x.png">](https://rclone.org/)                        | `rclone`      | rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files                                                                                                                                                  | [readme](https://www.npmjs.com/package/gobot-rclone)      |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.16/src/apps/weaviate/logo-50x.png">](https://weaviate.io)                      | `weaviate`    | Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients. | [readme](https://www.npmjs.com/package/gobot-weaviate)    |
 
 ### Running unofficial apps
 

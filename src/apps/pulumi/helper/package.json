@@ -1,6 +1,6 @@
 {
   "name": "gobot-pulumi",
-  "version": "3.111.0-alpha.1",
+  "version": "3.111.0-alpha.2",
   "description": "Pulumi helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/benallfree/gobot/issues"
   },
-  "homepage": "https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/pulumi/helper/readme.md",
+  "homepage": "https://www.npmjs.com/package/gobot-pulumi",
   "dependencies": {
     "commander": "^12.0"
   },

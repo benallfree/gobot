@@ -1,6 +1,6 @@
 {
   "name": "gobot-caddy",
-  "version": "2.7.6-alpha.1",
+  "version": "2.7.6-alpha.2",
   "description": "Caddy helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/benallfree/gobot/issues"
   },
-  "homepage": "https://github.com/benallfree/gobot/tree/v1.0.0-alpha.15/src/apps/caddy/helper/readme.md",
+  "homepage": "https://www.npmjs.com/package/gobot-caddy",
   "dependencies": {
     "commander": "^12.0"
   },
