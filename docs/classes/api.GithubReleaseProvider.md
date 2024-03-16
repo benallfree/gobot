@@ -14,15 +14,19 @@
 
 ### Accessors
 
+- [allowedExts](api.GithubReleaseProvider.md#allowedexts)
 - [slug](api.GithubReleaseProvider.md#slug)
 
 ### Methods
 
+- [archRegex](api.GithubReleaseProvider.md#archregex)
 - [cachePath](api.GithubReleaseProvider.md#cachepath)
 - [extractVersionFromTag](api.GithubReleaseProvider.md#extractversionfromtag)
 - [fetch](api.GithubReleaseProvider.md#fetch)
 - [getArchivesForRelease](api.GithubReleaseProvider.md#getarchivesforrelease)
+- [isArchiveUrlAllowed](api.GithubReleaseProvider.md#isarchiveurlallowed)
 - [isValidRelease](api.GithubReleaseProvider.md#isvalidrelease)
+- [platformRegex](api.GithubReleaseProvider.md#platformregex)
 
 ## Constructors
 
@@ -44,7 +48,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:85](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/GithubReleaseProvider.ts#L85)
+[GithubReleaseProvider.ts:93](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L93)
 
 ## Properties
 
@@ -54,7 +58,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:82](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/GithubReleaseProvider.ts#L82)
+[GithubReleaseProvider.ts:90](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L90)
 
 ___
 
@@ -66,22 +70,26 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `darwin` | \{ `aliases`: readonly [``"mac"``, ``"osx"``, ``"macos"``] ; `architectures`: `SupportedArchMap` = SUPPORTED\_ARCH } |
+| `darwin` | \{ `aliases`: readonly [``"mac"``, ``"osx"``, ``"macos"``] ; `architectures`: \{ `arm64`: `ArchAliasMap` = SUPPORTED\_ARCH.arm64; `x64`: `ArchAliasMap` = SUPPORTED\_ARCH.x64 }  } |
 | `darwin.aliases` | readonly [``"mac"``, ``"osx"``, ``"macos"``] |
-| `darwin.architectures` | `SupportedArchMap` |
+| `darwin.architectures` | \{ `arm64`: `ArchAliasMap` = SUPPORTED\_ARCH.arm64; `x64`: `ArchAliasMap` = SUPPORTED\_ARCH.x64 } |
+| `darwin.architectures.arm64` | `ArchAliasMap` |
+| `darwin.architectures.x64` | `ArchAliasMap` |
 | `freebsd` | \{ `aliases`: readonly [] = []; `architectures`: `SupportedArchMap` = SUPPORTED\_ARCH } |
 | `freebsd.aliases` | readonly [] |
 | `freebsd.architectures` | `SupportedArchMap` |
 | `linux` | \{ `aliases`: readonly [] = []; `architectures`: `SupportedArchMap` = SUPPORTED\_ARCH } |
 | `linux.aliases` | readonly [] |
 | `linux.architectures` | `SupportedArchMap` |
-| `win32` | \{ `aliases`: readonly [``"win"``, ``"windows"``] ; `architectures`: `SupportedArchMap` = SUPPORTED\_ARCH } |
+| `win32` | \{ `aliases`: readonly [``"win"``, ``"windows"``] ; `architectures`: \{ `ia32`: `ArchAliasMap` = SUPPORTED\_ARCH.ia32; `x64`: `ArchAliasMap` = SUPPORTED\_ARCH.x64 }  } |
 | `win32.aliases` | readonly [``"win"``, ``"windows"``] |
-| `win32.architectures` | `SupportedArchMap` |
+| `win32.architectures` | \{ `ia32`: `ArchAliasMap` = SUPPORTED\_ARCH.ia32; `x64`: `ArchAliasMap` = SUPPORTED\_ARCH.x64 } |
+| `win32.architectures.ia32` | `ArchAliasMap` |
+| `win32.architectures.x64` | `ArchAliasMap` |
 
 #### Defined in
 
-[GithubReleaseProvider.ts:83](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/GithubReleaseProvider.ts#L83)
+[GithubReleaseProvider.ts:91](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L91)
 
 ___
 
@@ -91,9 +99,23 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:81](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/GithubReleaseProvider.ts#L81)
+[GithubReleaseProvider.ts:89](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L89)
 
 ## Accessors
+
+### allowedExts
+
+• `get` **allowedExts**(): `string`[]
+
+#### Returns
+
+`string`[]
+
+#### Defined in
+
+[GithubReleaseProvider.ts:168](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L168)
+
+___
 
 ### slug
 
@@ -105,9 +127,30 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:103](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/GithubReleaseProvider.ts#L103)
+[GithubReleaseProvider.ts:111](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L111)
 
 ## Methods
+
+### archRegex
+
+▸ **archRegex**(`os`, `aliases`): `RegExp`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `os` | `Platform` |
+| `aliases` | `string`[] |
+
+#### Returns
+
+`RegExp`
+
+#### Defined in
+
+[GithubReleaseProvider.ts:180](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L180)
+
+___
 
 ### cachePath
 
@@ -137,7 +180,7 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:107](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/GithubReleaseProvider.ts#L107)
+[GithubReleaseProvider.ts:115](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L115)
 
 ___
 
@@ -157,7 +200,7 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:212](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/GithubReleaseProvider.ts#L212)
+[GithubReleaseProvider.ts:229](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L229)
 
 ___
 
@@ -171,7 +214,7 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:120](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/GithubReleaseProvider.ts#L120)
+[GithubReleaseProvider.ts:128](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L128)
 
 ___
 
@@ -205,7 +248,27 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:160](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/GithubReleaseProvider.ts#L160)
+[GithubReleaseProvider.ts:184](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L184)
+
+___
+
+### isArchiveUrlAllowed
+
+▸ **isArchiveUrlAllowed**(`url`): `boolean`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `url` | `string` |
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[GithubReleaseProvider.ts:172](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L172)
 
 ___
 
@@ -225,4 +288,25 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:113](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/GithubReleaseProvider.ts#L113)
+[GithubReleaseProvider.ts:121](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L121)
+
+___
+
+### platformRegex
+
+▸ **platformRegex**(`arch`, `aliases`): `RegExp`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `arch` | `Architecture` |
+| `aliases` | `string`[] |
+
+#### Returns
+
+`RegExp`
+
+#### Defined in
+
+[GithubReleaseProvider.ts:176](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L176)

@@ -59,7 +59,7 @@ Re-exports [GobotOptions](../interfaces/Gobot.GobotOptions.md)
 
 #### Defined in
 
-[apps/APPS_MAP.ts:1](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/apps/APPS_MAP.ts#L1)
+[apps/APPS_MAP.ts:1](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/apps/APPS_MAP.ts#L1)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:76](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/GithubReleaseProvider.ts#L76)
+[GithubReleaseProvider.ts:82](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/GithubReleaseProvider.ts#L82)
 
 ## Variables
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[apps/APPS_MAP.ts:9](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/apps/APPS_MAP.ts#L9)
+[apps/APPS_MAP.ts:9](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/apps/APPS_MAP.ts#L9)
 
 ## Functions
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[util/botrun.ts:15](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/util/botrun.ts#L15)
+[util/botrun.ts:15](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/util/botrun.ts#L15)
 
 ___
 
@@ -130,7 +130,7 @@ An instance of GobotBase
 
 #### Defined in
 
-[api.ts:33](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/api.ts#L33)
+[api.ts:33](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/api.ts#L33)
 
 ___
 
@@ -160,7 +160,7 @@ skipping`undefined` values.
 
 #### Defined in
 
-[util/mergeConfig.ts:9](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/util/mergeConfig.ts#L9)
+[util/mergeConfig.ts:9](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/util/mergeConfig.ts#L9)
 
 ___
 
@@ -193,4 +193,4 @@ ___
 
 #### Defined in
 
-[api.ts:70](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.21/src/api.ts#L70)
+[api.ts:70](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/api.ts#L70)

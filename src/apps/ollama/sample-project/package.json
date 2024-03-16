@@ -1,0 +1,13 @@
+{
+  "name": "ollama-gobot-sample",
+  "bin": {
+    "ollama-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "ollama": "ollama"
+  },
+  "dependencies": {
+    "gobot-ollama": "0.1.29"
+  }
+}

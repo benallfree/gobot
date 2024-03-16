@@ -1,6 +1,6 @@
 {
   "name": "gobot-caddy",
-  "version": "2.7.6-alpha.6",
+  "version": "2.7.6-alpha.7",
   "description": "Caddy helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
