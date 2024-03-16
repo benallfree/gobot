@@ -10,13 +10,13 @@ Part of the [Gobot](https://www.npmjs.com/package/gobot) project.
 
 **Basic version locking**
 
-Install `gobot-{{name}}`:
+Install `gobot-{{lowerCase name}}`:
 
 ```bash
-npm i gobot-{{name}}
+npm i gobot-{{lowerCase name}}
 ```
 
-With `gobot-{{name}}` present, Gobot will default to the `{{name}}` version corresponding to the `gobot-{{name}}` version you installed.
+With `gobot-{{lowerCase name}}` present, Gobot will default to the `{{name}}` version corresponding to the `gobot-{{lowerCase name}}` version you installed.
 
 ```js
 import { gobot } from 'gobot'
@@ -25,15 +25,15 @@ gobot(`{{name}}`).run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-{{name}}` package version always mirrors the underlying `{{name}}` [version](#known-versions):
+The `gobot-{{lowerCase name}}` package version always mirrors the underlying `{{name}}` [version](#known-versions):
 
 ```bash
-npm i gobot-{{name}}@{{version}}
+npm i gobot-{{lowerCase name}}@{{version}}
 ```
 
 **Override the default version imposed by this package**
 
-In rare cases, you may want to intentionally run a different version of `{{name}}` even though `gobot-{{name}}` is installed.
+In rare cases, you may want to intentionally run a different version of `{{name}}` even though `gobot-{{lowerCase name}}` is installed.
 
 ```js
 // Run a specific version (override)
@@ -54,29 +54,23 @@ gobot(`{{name}}`, {
 
 **Install globally for CLI access**
 
-Exactly one `gobot-{{name}}` can be installed globally. It will receive a bin alias:
+Exactly one `gobot-{{lowerCase name}}` can be installed globally. It will receive a bin alias:
 
 ```bash
-npm i -g gobot-{{name}}
+npm i -g gobot-{{lowerCase name}}
 {{name}} --help
 
 # Upgrade to  @latest or any version
-npm i -g gobot-{{name}}@latest
+npm i -g gobot-{{lowerCase name}}@latest
 ```
 
 For more information, see [Gobot's full documentation](https://github.com/benallfree/gobot).
 
-## How package versioning works
-
-`gobot-{{name}}` is designed to work with any future version of Gobot.
-
-The published versions of this package mirror the underlying versions of `{{name}}`. That means it is not possible to release updates to this package until/unless the underlying `{{name}}` project also releases a new version.
-
 {{{notesMd}}}
 
-## Known Versions
+## Versions
 
-Gobot knows about {{count versions}} releases of `{{name}}`:
+`gobot-{{lowerCase name}}` versions mirror `{{name}}` versions. Gobot knows about {{count versions}} releases of `{{name}}`:
 
 {{csv versions}}
 

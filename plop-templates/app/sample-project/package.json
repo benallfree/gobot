@@ -1,5 +1,5 @@
 {
-  "name": "{{name}}-gobot-sample",
+  "name": "{{lowerCase name}}-gobot-sample",
   "bin": {
     "{{name}}-gobot-sample": "./index.mjs"
   },
@@ -8,6 +8,6 @@
     "{{name}}": "{{name}}"
   },
   "dependencies": {
-    "gobot-{{name}}": "{{version}}"
+    "gobot-{{lowerCase name}}": "{{version}}"
   }
 }

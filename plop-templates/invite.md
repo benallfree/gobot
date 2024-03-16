@@ -11,21 +11,23 @@ npx gobot {{name}} --help
 or globally as `{{name}}`:
 
 ```bash
-npm i -g gobot-{{name}}
+npm i -g gobot-{{lowerCase name}}
 
-# This is only available if the user installs `gobot-{{name}}`, to avoid CLI pollution.
+# This is only available if the user installs `gobot-{{lowerCase name}}`, to avoid CLI pollution.
 {{name}} --help
 ```
 
 or used in a project:
 
 ```bash
-npm i gobot-{{name}}@{{version}}
+npm i gobot-{{lowerCase name}}@{{version}}
 ```
 
 ```js
-import { {{name}} } from 'gobot-{{name}}'
-{{name}}([`--help`])
+import { gobot } from 'gobot'
+gobot(`{{name}}`, {
+  env: process.env,
+})([`--help`])
 ```
 
 If you would like me to send a PR updating the `{{name}}` installation docs to include instructions for installation via Gobot, please let me know!
