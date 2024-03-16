@@ -29,7 +29,6 @@
   },
   "homepage": "https://www.npmjs.com/package/gobot-minio",
   "dependencies": {
-    "commander": "^12.0",
     "gobot": "*"
   },
   "devDependencies": {

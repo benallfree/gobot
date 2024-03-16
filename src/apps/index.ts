@@ -20,13 +20,14 @@ export function isAppFactory(
 }
 
 export const APPS = {
-  pocketbase: mkPocketBaseBot,
-  caddy: 'caddyserver/caddy',
   act: 'nektos/act',
-  pulumi: `pulumi/pulumi`,
-  weaviate: mkWeaviateBot,
   AdGuardHome: `AdguardTeam/AdGuardHome`,
-  rclone: `rclone/rclone`,
-  minio: mkMinioServerBot,
+  caddy: 'caddyserver/caddy',
   mc: mkMinioClientBot,
+  minio: mkMinioServerBot,
+  pocketbase: mkPocketBaseBot,
+  pulumi: `pulumi/pulumi`,
+  rclone: `rclone/rclone`,
+  restic: 'restic/restic',
+  weaviate: mkWeaviateBot,
 } as const
