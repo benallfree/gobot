@@ -4,4 +4,5 @@
 - pnpm plop clean
 - pnpm plop build
 - pnpm plop pack
+- commit, tag, & push
 - pnpm plop publish

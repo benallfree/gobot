@@ -1,6 +1,6 @@
 {
   "name": "gobot-pulumi",
-  "version": "3.111.0-alpha.3",
+  "version": "3.111.0-alpha.4",
   "description": "Pulumi helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -29,9 +29,7 @@
   },
   "homepage": "https://www.npmjs.com/package/gobot-pulumi",
   "dependencies": {
-    "commander": "^12.0"
-  },
-  "peerDependencies": {
+    "commander": "^12.0",
     "gobot": "*"
   },
   "devDependencies": {

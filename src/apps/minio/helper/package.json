@@ -1,6 +1,6 @@
 {
   "name": "gobot-minio",
-  "version": "2024.3.15010719-alpha.3",
+  "version": "2024.3.15010719-alpha.4",
   "description": "Minio helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -29,9 +29,7 @@
   },
   "homepage": "https://www.npmjs.com/package/gobot-minio",
   "dependencies": {
-    "commander": "^12.0"
-  },
-  "peerDependencies": {
+    "commander": "^12.0",
     "gobot": "*"
   },
   "devDependencies": {

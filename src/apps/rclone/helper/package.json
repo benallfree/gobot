@@ -1,6 +1,6 @@
 {
   "name": "gobot-rclone",
-  "version": "1.66.0-alpha.3",
+  "version": "1.66.0-alpha.4",
   "description": "RClone helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -29,9 +29,7 @@
   },
   "homepage": "https://www.npmjs.com/package/gobot-rclone",
   "dependencies": {
-    "commander": "^12.0"
-  },
-  "peerDependencies": {
+    "commander": "^12.0",
     "gobot": "*"
   },
   "devDependencies": {

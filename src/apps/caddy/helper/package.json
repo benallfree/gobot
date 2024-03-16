@@ -1,6 +1,6 @@
 {
   "name": "gobot-caddy",
-  "version": "2.7.6-alpha.3",
+  "version": "2.7.6-alpha.4",
   "description": "Caddy helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -29,9 +29,7 @@
   },
   "homepage": "https://www.npmjs.com/package/gobot-caddy",
   "dependencies": {
-    "commander": "^12.0"
-  },
-  "peerDependencies": {
+    "commander": "^12.0",
     "gobot": "*"
   },
   "devDependencies": {

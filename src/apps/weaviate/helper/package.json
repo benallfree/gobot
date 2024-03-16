@@ -1,6 +1,6 @@
 {
   "name": "gobot-weaviate",
-  "version": "1.24.3-alpha.3",
+  "version": "1.24.3-alpha.4",
   "description": "Weaviate helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -29,9 +29,7 @@
   },
   "homepage": "https://www.npmjs.com/package/gobot-weaviate",
   "dependencies": {
-    "commander": "^12.0"
-  },
-  "peerDependencies": {
+    "commander": "^12.0",
     "gobot": "*"
   },
   "devDependencies": {

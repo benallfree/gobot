@@ -1,6 +1,6 @@
 {
   "name": "gobot-adguardhome",
-  "version": "0.108.0-b.53-alpha.3",
+  "version": "0.108.0-b.53-alpha.4",
   "description": "AdGuardHome helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -29,9 +29,7 @@
   },
   "homepage": "https://www.npmjs.com/package/gobot-adguardhome",
   "dependencies": {
-    "commander": "^12.0"
-  },
-  "peerDependencies": {
+    "commander": "^12.0",
     "gobot": "*"
   },
   "devDependencies": {
