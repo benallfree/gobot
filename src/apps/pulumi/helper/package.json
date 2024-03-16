@@ -1,6 +1,6 @@
 {
   "name": "gobot-pulumi",
-  "version": "3.111.0-alpha.4",
+  "version": "3.111.0-alpha.5",
   "description": "Pulumi helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

@@ -1,5 +1,5 @@
 {
-  "name": "AdGuardHome-gobot-sample",
+  "name": "adguardhome-gobot-sample",
   "bin": {
     "AdGuardHome-gobot-sample": "./index.mjs"
   },
@@ -8,6 +8,6 @@
     "AdGuardHome": "AdGuardHome"
   },
   "dependencies": {
-    "gobot-AdGuardHome": "0.108.0-b.53"
+    "gobot-adguardhome": "0.108.0-b.53"
   }
 }
