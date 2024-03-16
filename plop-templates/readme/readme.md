@@ -37,20 +37,59 @@ Inspired by [esbuild](https://esbuild.github.io/) and other packages that instal
 
 ## Quickstart
 
+**Run an app from anywhere**
+
 ```bash
 npx gobot <app>
 ```
 
-Or, if you're not into the whole brevity thing...
+**Install gobot globally**
 
 ```bash
 npm i -g gobot
 gobot pocketbase --help
 gobot caddy --help
 gobot act --help
+```
 
-# Run unofficial binaries from github
+**Try running an unofficial app using github user/repo**
+
+Works 100% of the time 50% of the time.
+
+```bash
 gobot <user>/<repo> --help
+```
+
+**Use a Gobot app programmatically**
+
+```bash
+npm i gobot
+```
+
+```js
+import { gobot } from 'gobot'
+gobot(`pocketbase`).run([`--help`])
+```
+
+**Use a specific version of a Gobot app**
+
+```js
+gobot(`pocketbase`, {
+  version: `0.19.3`,
+}).run([`--help`])
+```
+
+**Add a [specific app](#official-gobot-apps) and version as a project dependency**
+
+```bash
+npm i gobot-pocketbase
+```
+
+Now, Gobot will automatically select the specific version of `pocketbase` you installed and it will stay locked according to your `package.json` constraints.
+
+```js
+import { gobot } from 'gobot'
+gobot(`pocketbase`).run([`--help`])
 ```
 
 ## CLI
@@ -78,15 +117,6 @@ npx gobot pocketbase --g-refresh
 ```
 
 ## API
-
-Gobot can be used programmatically. You can add `gobot` as a dependency of your nodejs package and benefit from the seamless management of binary dependencies.
-
-```ts
-import { gobot } from 'gobot'
-
-const bot = gobot(`pocketbase`)
-const childProcess = bot.run([`serve`])
-```
 
 [Full API Docs](https://github.com/benallfree/gobot/tree/{{{branch}}}/docs/readme.md)
 
