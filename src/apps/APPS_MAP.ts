@@ -10,7 +10,7 @@ export const APPS_MAP: AppInfo[] = [
   {
     name: `act`,
     description: `Run your GitHub Actions locally 🚀`,
-    homepage: `https://github.com/nektos/act`,
+    homepage: `https://nektosact.com/`,
     slug: 'Act',
   },
   {
@@ -60,5 +60,11 @@ export const APPS_MAP: AppInfo[] = [
     slug: `Weaviate`,
     description: `Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients.`,
     homepage: `https://weaviate.io`,
+  },
+  {
+    name: `restic`,
+    slug: `Restic`,
+    description: `Fast, secure, efficient backup program.`,
+    homepage: `https://restic.net/`,
   },
 ]

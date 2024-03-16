@@ -1,0 +1,39 @@
+{
+  "name": "gobot-restic",
+  "version": "0.16.4-alpha.5",
+  "description": "Restic helper for Gobot",
+  "type": "module",
+  "main": "dist/api.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
+    "dev": "tsx ./src/cli.ts",
+    "test": "npm pack && npm rm -g gobot-restic && npm i -g gobot-restic-0.16.4.tgz && restic --g-refresh --g-vvv --help",
+    "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
+  },
+  "bin": {
+    "restic": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/benallfree/gobot/tree/main/src/apps/restic/helper"
+  },
+  "keywords": [
+    "gobot",
+    "restic"
+  ],
+  "author": "Ben Allfree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benallfree/gobot/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/gobot-restic",
+  "dependencies": {
+    "gobot": "*"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  }
+}

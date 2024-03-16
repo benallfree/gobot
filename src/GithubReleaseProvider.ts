@@ -161,7 +161,7 @@ export class GithubReleaseProvider {
     const archives: StoredRelease['archives'] = {}
 
     const { assets } = release
-    const allowedExts = [`.zip`, `.tgz`, `.tar.gz`]
+    const allowedExts = [`.zip`, `.tgz`, `.tar.gz`, `.bz2`]
     const urls = assets
       .map((asset) => asset.browser_download_url)
       .filter((url) => allowedExts.some((ext) => url.endsWith(ext)))

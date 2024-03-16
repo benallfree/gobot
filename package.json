@@ -38,6 +38,7 @@
     "bottleneck": "^2.19.5",
     "commander": "^12.0.0",
     "decompress": "^4.2.1",
+    "decompress-bzip2": "^4.0.0",
     "env-paths": "^3.0.0",
     "json-stringify-safe": "^5.0.1",
     "node-fetch": "^3.3.2",

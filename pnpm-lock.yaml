@@ -31,6 +31,9 @@ dependencies:
   decompress:
     specifier: ^4.2.1
     version: 4.2.1
+  decompress-bzip2:
+    specifier: ^4.0.0
+    version: 4.0.0
   env-paths:
     specifier: ^3.0.0
     version: 3.0.0
@@ -1619,6 +1622,14 @@ packages:
       ms: 2.1.2
     dev: true
 
+  /decompress-bzip2@4.0.0:
+    resolution: {integrity: sha512-RwEcbZWaM7F5EiYfsAXUmZ/KLEVAPjYXfGbb5bztXZQ3d5PMpXYxa/1j04QL/gjotRdmzpHh++/cxz+rNZ4AZg==}
+    engines: {node: '>=4'}
+    dependencies:
+      file-type: 4.4.0
+      seek-bzip: 1.0.6
+    dev: false
+
   /decompress-tar@4.1.1:
     resolution: {integrity: sha512-JdJMaCrGpB5fESVyxwpCx4Jdj2AagLmv3y58Qy4GE6HMVjWz1FeVQk1Ct4Kye7PftcdOo/7U7UKzYBJgqnGeUQ==}
     engines: {node: '>=4'}
@@ -2022,6 +2033,11 @@ packages:
   /file-type@3.9.0:
     resolution: {integrity: sha512-RLoqTXE8/vPmMuTI88DAzhMYC99I8BWv7zYP4A1puo5HIjEJ5EX48ighy4ZyKMG9EDXxBgW6e++cn7d1xuFghA==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /file-type@4.4.0:
+    resolution: {integrity: sha512-f2UbFQEk7LXgWpi5ntcO86OeA/cC80fuDDDaX/fZ2ZGel+AF7leRQqBBW1eJNiiQkrZlAoM6P+VYP5P6bOlDEQ==}
+    engines: {node: '>=4'}
     dev: false
 
   /file-type@5.2.0:

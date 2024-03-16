@@ -1,0 +1,13 @@
+{
+  "name": "restic-gobot-sample",
+  "bin": {
+    "restic-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "restic": "restic"
+  },
+  "dependencies": {
+    "gobot-restic": "0.16.4"
+  }
+}

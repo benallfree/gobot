@@ -1,5 +1,7 @@
 import decompressTargz from '@xhmikosr/decompress-targz'
 import decompressUnzip from '@xhmikosr/decompress-unzip'
+import decompressBz2 from 'decompress-bzip2'
+
 import Bottleneck from 'bottleneck'
 import { spawn } from 'child_process'
 import decompress from 'decompress'
@@ -12,7 +14,7 @@ import {
   writeFileSync,
 } from 'fs'
 import { arch as _arch, platform } from 'os'
-import { basename, join, resolve } from 'path'
+import { basename, dirname, join, resolve } from 'path'
 import { rimrafSync } from 'rimraf'
 import { compare, satisfies } from 'semver'
 import { GithubReleaseProvider } from './GithubReleaseProvider'
@@ -211,7 +213,11 @@ export class Gobot {
   async unpack(downloadPath: string, version: string) {
     info(`Unpacking ${downloadPath}`)
     await decompress(downloadPath, this.downloadRoot(version), {
-      plugins: [decompressTargz(), decompressUnzip()],
+      plugins: [
+        decompressTargz(),
+        decompressUnzip(),
+        decompressBz2({ path: join(dirname(downloadPath), this.name) }),
+      ],
     })
   }
 

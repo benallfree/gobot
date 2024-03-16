@@ -1,8 +1,8 @@
 ![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.20/assets/gobot-banner-300x.png)
 
-## `rclone` for npm
+## `restic` for npm
 
-This package allows you to use [RClone](https://rclone.org/) as an npm dependency.
+This package allows you to use [Restic](https://restic.net/) as an npm dependency.
 
 Part of the [Gobot](https://www.npmjs.com/package/gobot) project.
 
@@ -10,71 +10,73 @@ Part of the [Gobot](https://www.npmjs.com/package/gobot) project.
 
 **Basic version locking**
 
-Install `gobot-rclone`:
+Install `gobot-restic`:
 
 ```bash
-npm i gobot-rclone
+npm i gobot-restic
 ```
 
-With `gobot-rclone` present, Gobot will default to the `rclone` version corresponding to the `gobot-rclone` version you installed.
+With `gobot-restic` present, Gobot will default to the `restic` version corresponding to the `gobot-restic` version you installed.
 
 ```js
 import { gobot } from 'gobot'
-gobot(`rclone`).run([`--version`])
+gobot(`restic`).run([`--version`])
 ```
 
 **Locking to a specific version**
 
-The `gobot-rclone` package version always mirrors the underlying `rclone` [version](#known-versions):
+The `gobot-restic` package version always mirrors the underlying `restic` [version](#known-versions):
 
 ```bash
-npm i gobot-rclone@1.66.0
+npm i gobot-restic@0.16.4
 ```
 
 **Override the default version imposed by this package**
 
-In rare cases, you may want to intentionally run a different version of `rclone` even though `gobot-rclone` is installed.
+In rare cases, you may want to intentionally run a different version of `restic` even though `gobot-restic` is installed.
 
 ```js
 // Run a specific version (override)
-gobot(`rclone`, { version: `0.19.4` }).run([`--version`])
+gobot(`restic`, { version: `0.19.4` }).run([`--version`])
 
 // Or the latest version (override)
-gobot(`rclone`, { version: `*` }).run([`--version`])
+gobot(`restic`, { version: `*` }).run([`--version`])
 ```
 
 **Pass environment variables**
 
 ```js
 import { gobot } from 'gobot'
-gobot(`rclone`, {
+gobot(`restic`, {
   env: process.env, // This is not always necessary, but some apps do need it
 }).run([`--version`])
 ```
 
 **Install globally for CLI access**
 
-Exactly one `gobot-rclone` can be installed globally. It will receive a bin alias:
+Exactly one `gobot-restic` can be installed globally. It will receive a bin alias:
 
 ```bash
-npm i -g gobot-rclone
-rclone --help
+npm i -g gobot-restic
+restic --help
 
 # Upgrade to  @latest or any version
-npm i -g gobot-rclone@latest
+npm i -g gobot-restic@latest
 ```
 
 For more information, see [Gobot's full documentation](https://github.com/benallfree/gobot).
 
+
+
 ## Versions
 
-`gobot-rclone` versions mirror `rclone` versions. Gobot knows about 51 releases of `rclone`:
+`gobot-restic` versions mirror `restic` versions. Gobot knows about 42 releases of `restic`:
 
-1.66.0, 1.65.2, 1.65.1, 1.65.0, 1.64.2, 1.64.1, 1.64.0, 1.63.1, 1.63.0, 1.62.2, 1.62.1, 1.62.0, 1.61.1, 1.61.0, 1.60.1, 1.60.0, 1.59.2, 1.59.1, 1.59.0, 1.58.1, 1.58.0, 1.57.0, 1.56.2, 1.56.1, 1.56.0, 1.55.1, 1.55.0, 1.54.1, 1.54.0, 1.53.4, 1.53.3, 1.53.2, 1.53.1, 1.53.0, 1.52.3, 1.52.2, 1.52.1, 1.52.0, 1.51.0, 1.50.2, 1.50.1, 1.50.0, 1.49.5, 1.49.4, 1.49.3, 1.49.2, 1.49.1, 1.49.0, 1.48.0, 1.47.0, 1.43.1
+0.16.4, 0.16.3, 0.16.2, 0.16.1, 0.16.0, 0.15.2, 0.15.1, 0.15.0, 0.14.0, 0.13.1, 0.13.0, 0.12.1, 0.12.0, 0.11.0, 0.10.0, 0.9.6, 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.1, 0.9.0, 0.8.3, 0.8.2, 0.8.1, 0.8.0, 0.7.3, 0.7.2, 0.7.1, 0.7.0, 0.6.1, 0.6.0, 0.6.0-rc.1, 0.5.0, 0.5.0-rc.1, 0.4.0, 0.3.3, 0.3.2, 0.3.1, 0.3.0, 0.2.0, 0.1.0
 
 ## Sample project
 
-View the [RClone sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.20/src/apps/rclone/sample-project) on github.
+View the [Restic sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.20/src/apps/restic/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -125,3 +127,4 @@ To test a build locally:
 ```bash
 pnpm test
 ```
+
