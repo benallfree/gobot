@@ -1,6 +1,6 @@
 import { createWriteStream } from 'fs'
 import fetch from 'node-fetch'
-import { rinfo, rinfoe } from './log'
+import { info, infoe, rinfo } from './log'
 
 export const downloadFile = async (url: string, path: string) => {
   const response = await fetch(url)
@@ -36,11 +36,11 @@ export const downloadFile = async (url: string, path: string) => {
 
   return new Promise<void>((resolve, reject) => {
     stream.on('finish', () => {
-      rinfo('\nDownload completed.') // Newline after download finishes
+      info('\nDownload completed.') // Newline after download finishes
       resolve()
     })
     stream.on('error', (error) => {
-      rinfoe('\nDownload failed.') // Newline and error message on failure
+      infoe('\nDownload failed.') // Newline and error message on failure
       reject(error)
     })
   })
