@@ -1,6 +1,6 @@
 {
-  "name": "gobot-{{name}}",
-  "version": "{{version}}-alpha.1",
+  "name": "gobot-{{lowerCase name}}",
+  "version": "{{version}}-alpha.2",
   "description": "{{slug}} helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -8,7 +8,7 @@
     "clean": "rimraf dist",
     "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-{{name}} && npm i -g gobot-{{name}}-{{version}}.tgz && {{name}} --g-refresh --g-vvv --help",
+    "test": "npm pack && npm rm -g gobot-{{lowerCase name}} && npm i -g gobot-{{lowerCase name}}-{{version}}.tgz && {{name}} --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {
