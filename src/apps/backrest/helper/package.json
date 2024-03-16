@@ -1,0 +1,39 @@
+{
+  "name": "gobot-backrest",
+  "version": "0.14.0-alpha.5",
+  "description": "Backrest helper for Gobot",
+  "type": "module",
+  "main": "dist/api.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
+    "dev": "tsx ./src/cli.ts",
+    "test": "npm pack && npm rm -g gobot-backrest && npm i -g gobot-backrest-0.14.0.tgz && backrest --g-refresh --g-vvv --help",
+    "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
+  },
+  "bin": {
+    "backrest": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/benallfree/gobot/tree/main/src/apps/backrest/helper"
+  },
+  "keywords": [
+    "gobot",
+    "backrest"
+  ],
+  "author": "Ben Allfree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benallfree/gobot/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/gobot-backrest",
+  "dependencies": {
+    "gobot": "*"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "backrest-gobot-sample",
+  "bin": {
+    "backrest-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "backrest": "backrest"
+  },
+  "dependencies": {
+    "gobot-backrest": "0.14.0"
+  }
+}

@@ -66,6 +66,8 @@ npm i -g gobot-rclone@latest
 
 For more information, see [Gobot's full documentation](https://github.com/benallfree/gobot).
 
+
+
 ## Versions
 
 `gobot-rclone` versions mirror `rclone` versions. Gobot knows about 51 releases of `rclone`:
@@ -84,6 +86,7 @@ Gobot has a growing list of apps. Have you tried them all?
 | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.20/src/apps/act/logo-50x.png">](https://nektosact.com/)                        | `act`         | Run your GitHub Actions locally 🚀                                                                                                                                                                                                                                                       | [readme](https://www.npmjs.com/package/gobot-act)         |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.20/src/apps/AdGuardHome/logo-50x.png">](https://adguard.com/adguard-home.html) | `AdGuardHome` | Network-wide ads & trackers blocking DNS server                                                                                                                                                                                                                                          | [readme](https://www.npmjs.com/package/gobot-adguardhome) |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.20/src/apps/backrest/logo-50x.png">](https://github.com/garethgeorge/backrest) | `backrest`    | Backrest is a web UI and orchestrator for restic backup.                                                                                                                                                                                                                                 | [readme](https://www.npmjs.com/package/gobot-backrest)    |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.20/src/apps/caddy/logo-50x.png">](https://caddyserver.com/)                    | `caddy`       | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS                                                                                                                                                                                                            | [readme](https://www.npmjs.com/package/gobot-caddy)       |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.20/src/apps/mc/logo-50x.png">](https://min.io)                                 | `mc`          | The Object Store for AI Data Infrastructure (client)                                                                                                                                                                                                                                     | [readme](https://www.npmjs.com/package/gobot-mc)          |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.20/src/apps/minio/logo-50x.png">](https://min.io)                              | `minio`       | The Object Store for AI Data Infrastructure (server)                                                                                                                                                                                                                                     | [readme](https://www.npmjs.com/package/gobot-minio)       |
@@ -125,3 +128,4 @@ To test a build locally:
 ```bash
 pnpm test
 ```
+

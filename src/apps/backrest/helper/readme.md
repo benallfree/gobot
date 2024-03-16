@@ -1,149 +1,86 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.20/assets/gobot-banner.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.20/assets/gobot-banner-300x.png)
 
-# The binary package manager for Node
+## `backrest` for npm
 
-_Manage and run popular binaries as `package.json` dependencies. CLI and API interfaces._
+This package allows you to use [Backrest](https://github.com/garethgeorge/backrest) as an npm dependency.
 
-## Table of Contents
+Part of the [Gobot](https://www.npmjs.com/package/gobot) project.
 
-- [Introduction](#introduction)
-- [Quickstart](#quickstart)
-- [CLI](#cli)
-  - [gobot [gobotOptions] <app> [appOptions]](#gobot-gobotoptions-app-appoptions)
-- [API](#api)
-- [Official Gobot Apps](#official-gobot-apps)
-  - [Running unofficial apps](#running-unofficial-apps)
-- [Why?](#why)
-- [Technical Notes](#technical-notes)
-  - [Repository API Rate Limits](#repository-api-rate-limits)
-    - [Github API](#github-api)
-- [Adding your app to the Gobot registry](#adding-your-app-to-the-gobot-registry)
-- [Contributing](#contributing)
+## Usage
 
-## Introduction
+**Basic version locking**
 
-Gobot installs popular binary apps anywhere `npm` is available. It transparently downloads, installs, and runs binary apps (including semver ranges) for the current operating system and architecture.
-
-Works on Windows, Linux, OS X.
-
-**Features**
-
-- Run any version of supported apps and many unsupported apps from github.
-- Binaries are intelligently downloaded and cached
-- New binary versions are automatically detected and downloaded
-- Efficient - downloads only what is needed
-
-Inspired by [esbuild](https://esbuild.github.io/) and other packages that install binary dependencies
-
-## Quickstart
-
-**Run an app from anywhere**
+Install `gobot-backrest`:
 
 ```bash
-npx gobot <app>
+npm i gobot-backrest
 ```
 
-**Install gobot globally**
-
-```bash
-npm i -g gobot
-gobot pocketbase --help
-gobot caddy --help
-gobot act --help
-```
-
-**Try running an unofficial app using github user/repo**
-
-Works 100% of the time 50% of the time.
-
-```bash
-gobot <user>/<repo> --help
-```
-
-**Use a Gobot app programmatically**
-
-```bash
-npm i gobot
-```
+With `gobot-backrest` present, Gobot will default to the `backrest` version corresponding to the `gobot-backrest` version you installed.
 
 ```js
 import { gobot } from 'gobot'
-gobot(`pocketbase`).run([`--help`])
+gobot(`backrest`).run([`--version`])
+```
+
+**Locking to a specific version**
+
+The `gobot-backrest` package version always mirrors the underlying `backrest` [version](#known-versions):
+
+```bash
+npm i gobot-backrest@0.14.0
+```
+
+**Override the default version imposed by this package**
+
+In rare cases, you may want to intentionally run a different version of `backrest` even though `gobot-backrest` is installed.
+
+```js
+// Run a specific version (override)
+gobot(`backrest`, { version: `0.19.4` }).run([`--version`])
+
+// Or the latest version (override)
+gobot(`backrest`, { version: `*` }).run([`--version`])
 ```
 
 **Pass environment variables**
 
 ```js
 import { gobot } from 'gobot'
-gobot(`pocketbase`, {
+gobot(`backrest`, {
   env: process.env, // This is not always necessary, but some apps do need it
-}).run([`--help`])
+}).run([`--version`])
 ```
 
-**Use a specific version of a Gobot app**
+**Install globally for CLI access**
 
-```js
-gobot(`pocketbase`, {
-  version: `0.19.3`,
-}).run([`--help`])
-```
-
-**Add a [specific app](#official-gobot-apps) and version as a project dependency**
+Exactly one `gobot-backrest` can be installed globally. It will receive a bin alias:
 
 ```bash
-npm i gobot-pocketbase
+npm i -g gobot-backrest
+backrest --help
+
+# Upgrade to  @latest or any version
+npm i -g gobot-backrest@latest
 ```
 
-Now, Gobot will automatically select the specific version of `pocketbase` you installed and it will stay locked according to your `package.json` constraints.
-
-```js
-import { gobot } from 'gobot'
-gobot(`pocketbase`).run([`--help`])
-```
-
-## CLI
-
-### `gobot [gobotOptions] <app> [appOptions]`
-
-All Gobots options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
-
-| Option            | Default       | Discussion                                                                                                                                                   |
-| ----------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `--g-help`        | Show help     | Display help and options for Gobot                                                                                                                           |
-| `--g-os`          | host OS       | `aix`, `darwin`, `freebsd`,`linux`, `openbsd`, `sunos`, and `win32`                                                                                          |
-| `--g-arch`        | host arch     | `arm`, `arm64`, `ia32`, `loong64`, `mips`, `mipsel`, `ppc`, `ppc64`, `riscv64`, `s390`, `s390x`, and `x64`                                                   |
-| `--g-v[vv]`       |               | Adjust output verbosity                                                                                                                                      |
-| `--g-download`    | `false`       | Download all matching versions and exit                                                                                                                      |
-| `--g-refresh`     | `false`       | Clear the gobot cache                                                                                                                                        |
-| `--g-use-version` | latest        | Run a specific binary version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
-| `--g-cache-path`  | host specific | Use the specified directory for cache files.                                                                                                                 |
+For more information, see [Gobot's full documentation](https://github.com/benallfree/gobot).
 
 
-**Examples**
 
-```bash
-# Run `pocketbase serve`
-npx gobot pocketbase serve
+## Versions
 
-# Run in gobot debugging mode`
-npx gobot --g-debug
+`gobot-backrest` versions mirror `backrest` versions. Gobot knows about 15 releases of `backrest`:
 
-# Run a specific PocketBase version
-npx gobot pocketbase --g-use-version="0.21.0" # Run this exact version
-npx gobot pocketbase --g-use-version="~0.21.0" # Run highest 0.21.z version
-npx gobot pocketbase --g-use-version="0.*" # Run highest 0.y.z
+0.14.0, 0.13.0, 0.12.2, 0.12.0, 0.11.1, 0.11.0, 0.10.1, 0.10.0, 0.9.3, 0.9.2, 0.9.1, 0.9.0, 0.8.2, 0.8.1, 0.7.0
 
-# Force gobot to dump cache and refresh PocketBase tags and binaries
-npx gobot pocketbase --g-refresh
-```
+## Sample project
 
-## API
+View the [Backrest sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.20/src/apps/backrest/sample-project) on github.
 
-[Full API Docs](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.20/docs/readme.md)
+## Try Gobot's other apps
 
-## Official Gobot Apps
-
-These apps have their own helper packages to assist with locking the dependency to a specific version of the app.
+Gobot has a growing list of apps. Have you tried them all?
 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                              | `<app>`       | What is it?                                                                                                                                                                                                                                                                              |                                                           |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -158,33 +95,6 @@ These apps have their own helper packages to assist with locking the dependency 
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.20/src/apps/rclone/logo-50x.png">](https://rclone.org/)                        | `rclone`      | rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files                                                                                                                                                  | [readme](https://www.npmjs.com/package/gobot-rclone)      |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.20/src/apps/restic/logo-50x.png">](https://restic.net/)                        | `restic`      | Fast, secure, efficient backup program.                                                                                                                                                                                                                                                  | [readme](https://www.npmjs.com/package/gobot-restic)      |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.20/src/apps/weaviate/logo-50x.png">](https://weaviate.io)                      | `weaviate`    | Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients. | [readme](https://www.npmjs.com/package/gobot-weaviate)    |
-
-### Running unofficial apps
-
-Gobot can run many apps hosted on github, without official support.
-
-```bash
-gobot <user>/<repo>
-```
-
-**Example**
-
-```bash
-# Run PocketBase as a direct repo name rather than the `pocketbase` alias
-gobot pocketbase/pocketbase --help
-```
-
-or API:
-
-```ts
-gobot(`pocketbase/pocketbase`).run([`--help`])
-```
-
-The above command format may run the app you have in mind. For example, `gobot caddy --help` runs the Caddy by the official name, but `gobot caddyserver/caddy --help` will also run it.
-
-As long as the project uses the github [Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) feature and includes statically linked binaries with zero dependencies, Gobot can probably run it.
-
-Go apps work flawlessly. Gobot was originally named and conceived to support Go apps.
 
 ## Why?
 

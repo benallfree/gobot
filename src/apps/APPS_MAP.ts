@@ -67,4 +67,10 @@ export const APPS_MAP: AppInfo[] = [
     description: `Fast, secure, efficient backup program.`,
     homepage: `https://restic.net/`,
   },
+  {
+    name: `backrest`,
+    slug: `Backrest`,
+    description: `Backrest is a web UI and orchestrator for restic backup.`,
+    homepage: `https://github.com/garethgeorge/backrest`,
+  },
 ]

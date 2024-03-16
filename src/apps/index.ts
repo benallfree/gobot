@@ -22,6 +22,7 @@ export function isAppFactory(
 export const APPS = {
   act: 'nektos/act',
   AdGuardHome: `AdguardTeam/AdGuardHome`,
+  backrest: `garethgeorge/backrest`,
   caddy: 'caddyserver/caddy',
   mc: mkMinioClientBot,
   minio: mkMinioServerBot,
