@@ -59,7 +59,10 @@ export const DEFAULT_PLATFORM_MAP = {
   },
   darwin: {
     aliases: ['mac', 'osx', 'macos'],
-    architectures: SUPPORTED_ARCH,
+    architectures: {
+      arm64: SUPPORTED_ARCH.arm64,
+      x64: SUPPORTED_ARCH.x64,
+    },
   },
   linux: {
     aliases: [],
@@ -67,7 +70,10 @@ export const DEFAULT_PLATFORM_MAP = {
   },
   win32: {
     aliases: ['win', 'windows'],
-    architectures: SUPPORTED_ARCH,
+    architectures: {
+      x64: SUPPORTED_ARCH.x64,
+      ia32: SUPPORTED_ARCH.ia32,
+    },
   },
 } as const
 
