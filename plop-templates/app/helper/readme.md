@@ -4,7 +4,7 @@
 
 This package allows you to use [{{slug}}]({{homepage}}) as an npm dependency.
 
-Part of the [Gobot](https://github.com/benallfree/gobot) project.
+Part of the [Gobot](https://www.npmjs.com/package/gobot) project.
 
 ## Usage
 
@@ -20,7 +20,7 @@ With `gobot-{{name}}` present, Gobot will default to the `{{name}}` version corr
 
 ```js
 import { gobot } from 'gobot'
-gobot(`{{name}}`).run([`--version])
+gobot(`{{name}}`).run([`--version`])
 ```
 
 **Locking to a specific version**
