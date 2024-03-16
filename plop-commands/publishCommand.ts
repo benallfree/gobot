@@ -75,6 +75,7 @@ export const publishCommand = (plop: NodePlopAPI) => {
           {
             type: PUBLISH,
             path: `src/apps/**/gobot-*.tgz`,
+            tag: `latest`,
           },
         ],
         clean: [
