@@ -1,3 +1,7 @@
+## Getting Help
+
+Join [our Discord community](https://discord.gg/977kMmFnXc).
+
 ## Why?
 
 If you are writing a nodejs application that depends upon binaries being present (like [PocketHost](https://github.com/pockethost/pockethost) does), you can add this package as a dependency and execute the binary via CLI or programmatically. This package will make sure your desired external binaries are always available.
