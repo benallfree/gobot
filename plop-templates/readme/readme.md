@@ -12,7 +12,6 @@ _Manage and run binaries as `package.json` npm dependencies. CLI and API interfa
   - [gobot [gobotOptions] <app> [appOptions]](#gobot-gobotoptions-app-appoptions)
 - [API](#api)
 - [Official Gobot Apps](#official-gobot-apps)
-  - [Running unofficial apps](#running-unofficial-apps)
 - [Why?](#why)
 - [Technical Notes](#technical-notes)
   - [Repository API Rate Limits](#repository-api-rate-limits)
@@ -28,7 +27,7 @@ Works on Windows, Linux, OS X.
 
 **Features**
 
-- Run any version of official apps and many unofficial apps from github.
+- Run any version of [official apps](#official-gobot-apps) and many [unofficial apps](#running-unofficial-apps) from github.
 - Binaries are intelligently downloaded and cached
 - New binary versions are automatically detected and downloaded
 - Efficient - downloads only what is needed
@@ -45,7 +44,7 @@ npx gobot <app>
 
 [List of official apps](#official-gobot-apps)
 
-**Try running an unofficial app using github user/repo**
+**Try running an [unofficial app](#running-unofficial-apps) using github user/repo**
 
 Gobot will examine releases from Github and attempt to decipher versions, platforms, and architectures.
 

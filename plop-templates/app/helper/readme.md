@@ -89,9 +89,7 @@ View the [{{slug}} sample project](https://github.com/benallfree/gobot/tree/{{{b
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of apps. Have you tried them all?
-
-{{{availableAppsMd}}}
+Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 {{{postambleMd}}}
 
