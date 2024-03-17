@@ -1,4 +1,4 @@
-import { ActionConfig, NodePlopAPI } from 'plop'
+import { NodePlopAPI } from 'plop'
 import { APPS_MAP } from '../src/api'
 import { addCleanCommand } from './cleanCommand'
 import { buildDataForApp } from './util/buildData'
@@ -8,9 +8,11 @@ export function inviteCommand(plop: NodePlopAPI) {
     description: 'Generate invite',
     prompts: [
       {
-        type: 'input',
+        type: 'list',
         name: 'name',
-        message: 'What is the CLI name of the app?',
+        choices: APPS_MAP.map((app) => app.name),
+        message: 'Which app?',
+        pageSize: 100,
       },
     ],
     actions: (data) => {
@@ -19,15 +21,19 @@ export function inviteCommand(plop: NodePlopAPI) {
       }
       const { name } = data
 
-      return [
+      const app = APPS_MAP.find((app) => app.name === name)!
+
+      const actions = [
         {
           type: 'add',
           path: 'build/invite.md',
           templateFile: 'plop-templates/invite.md',
           force: true,
-          data: buildDataForApp(APPS_MAP[name]!, plop),
+          data: () => buildDataForApp(app, plop),
         },
       ]
+
+      return actions
     },
   })
 
@@ -35,6 +41,6 @@ export function inviteCommand(plop: NodePlopAPI) {
     {
       type: `rimraf`,
       path: `invite.md`,
-    } as ActionConfig,
+    },
   ])
 }
