@@ -4,7 +4,6 @@ import { mkMinioClientBot } from './mc/mkMinioClientBot'
 import { mkMinioServerBot } from './minio/mkMinioServerBot'
 import { mkOllamaBot } from './ollama/factory'
 import { mkPocketBaseBot } from './pocketbase/PocketBaseBot'
-import { mkWeaviateBot } from './weaviate/WeaviateBot'
 
 export type AppKey = keyof typeof APPS
 
@@ -32,5 +31,5 @@ export const APPS = {
   pulumi: `pulumi/pulumi`,
   rclone: `rclone/rclone`,
   restic: 'restic/restic',
-  weaviate: mkWeaviateBot,
+  weaviate: `weaviate/weaviate`,
 } as const
