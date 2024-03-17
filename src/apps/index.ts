@@ -24,6 +24,7 @@ export const APPS = {
   AdGuardHome: `AdguardTeam/AdGuardHome`,
   backrest: `garethgeorge/backrest`,
   caddy: 'caddyserver/caddy',
+  gptscript: `gptscript-ai/gptscript`,
   mc: mkMinioClientBot,
   minio: mkMinioServerBot,
   ollama: mkOllamaBot,

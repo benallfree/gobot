@@ -1,0 +1,13 @@
+{
+  "name": "gptscript-gobot-sample",
+  "bin": {
+    "gptscript-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "gptscript": "gptscript"
+  },
+  "dependencies": {
+    "gobot-gptscript": "0.2.1"
+  }
+}

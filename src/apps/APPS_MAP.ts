@@ -92,4 +92,11 @@ export const APPS_MAP: AppInfo[] = [
     homepage: `https://ollama.com/`,
     isAlpha: true,
   },
+  {
+    name: `gptscript`,
+    slug: `GPTScript`,
+    description: `Natural Language Programming.`,
+    homepage: `https://gptscript.ai/`,
+    isAlpha: true,
+  },
 ]
