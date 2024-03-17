@@ -60,8 +60,8 @@ export const DEFAULT_PLATFORM_MAP = {
   darwin: {
     aliases: ['mac', 'osx', 'macos'],
     architectures: {
-      arm64: SUPPORTED_ARCH.arm64,
-      x64: SUPPORTED_ARCH.x64,
+      arm64: { aliases: [...SUPPORTED_ARCH.arm64.aliases, `universal`, `all`] },
+      x64: { aliases: [...SUPPORTED_ARCH.x64.aliases, `universal`, `all`] },
     },
   },
   linux: {
