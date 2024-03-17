@@ -44,7 +44,6 @@
     "json-stringify-safe": "^5.0.1",
     "node-fetch": "^3.3.2",
     "readdirp": "^3.6.0",
-    "rimraf": "^5.0.5",
     "semver": "^7.6.0",
     "shelljs": "^0.8.5"
   },
@@ -61,6 +60,7 @@
     "plop": "^4.0.1",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
+    "rimraf": "^5.0.5",
     "sharp": "^0.33.2",
     "tsup": "^8.0.2",
     "typedoc": "^0.25.12",

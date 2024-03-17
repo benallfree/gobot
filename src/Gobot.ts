@@ -15,7 +15,6 @@ import {
 } from 'fs'
 import { arch as _arch, platform } from 'os'
 import { basename, dirname, join, resolve } from 'path'
-import { rimrafSync } from 'rimraf'
 import { compare, satisfies } from 'semver'
 import { GithubReleaseProvider } from './GithubReleaseProvider'
 import { downloadFile } from './util/downloadFile'
@@ -25,7 +24,7 @@ import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { mkSetting } from './util/mkSetting'
 import { sanitizeOptions } from './util/sanitize'
-import { mkdir, pwd } from './util/shell'
+import { mkdir, pwd, rimrafSync } from './util/shell'
 import { stringify } from './util/stringify'
 
 export type PlatformKey = NodeJS.Platform
