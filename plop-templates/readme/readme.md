@@ -2,7 +2,7 @@
 
 # The binary package manager for Node
 
-_Manage and run popular binaries as `package.json` dependencies. CLI and API interfaces._
+_Manage and run binaries as `package.json` npm dependencies. CLI and API interfaces._
 
 ## Table of Contents
 
@@ -22,13 +22,13 @@ _Manage and run popular binaries as `package.json` dependencies. CLI and API int
 
 ## Introduction
 
-Gobot installs popular binary apps anywhere `npm` is available. It transparently downloads, installs, and runs binary apps (including semver ranges) for the current operating system and architecture.
+Gobot installs binary apps anywhere `npm` is available. It transparently downloads, installs, and runs binary apps (including semver ranges) for the current operating system and architecture.
 
 Works on Windows, Linux, OS X.
 
 **Features**
 
-- Run any version of supported apps and many unsupported apps from github.
+- Run any version of official apps and many unofficial apps from github.
 - Binaries are intelligently downloaded and cached
 - New binary versions are automatically detected and downloaded
 - Efficient - downloads only what is needed
@@ -37,27 +37,32 @@ Inspired by [esbuild](https://esbuild.github.io/) and other packages that instal
 
 ## Quickstart
 
-**Run an app from anywhere**
+**Run an [official app](#official-gobot-apps) from anywhere**
 
 ```bash
 npx gobot <app>
+```
+
+[List of official apps](#official-gobot-apps)
+
+**Try running an unofficial app using github user/repo**
+
+Gobot will examine releases from Github and attempt to decipher versions, platforms, and architectures.
+
+```bash
+gobot <user>/<repo> --help
 ```
 
 **Install gobot globally**
 
 ```bash
 npm i -g gobot
+```
+
+```bash
 gobot pocketbase --help
 gobot caddy --help
 gobot act --help
-```
-
-**Try running an unofficial app using github user/repo**
-
-Works 100% of the time 50% of the time.
-
-```bash
-gobot <user>/<repo> --help
 ```
 
 **Use a Gobot app programmatically**
@@ -73,10 +78,12 @@ gobot(`pocketbase`).run([`--help`])
 
 **Pass environment variables**
 
+In API mode, Gobot does not forward environment variables by default.
+
 ```js
 import { gobot } from 'gobot'
 gobot(`pocketbase`, {
-  env: process.env, // This is not always necessary, but some apps do need it
+  env: process.env,
 }).run([`--help`])
 ```
 
@@ -88,13 +95,17 @@ gobot(`pocketbase`, {
 }).run([`--help`])
 ```
 
-**Add a [specific app](#official-gobot-apps) and version as a project dependency**
+**Add an [official app](#official-gobot-apps) as a project dependency**
 
 ```bash
-npm i gobot-pocketbase
+npm i gobot-<app>[@version]
 ```
 
-Now, Gobot will automatically select the specific version of `pocketbase` you installed and it will stay locked according to your `package.json` constraints.
+Gobot will automatically select the specific version of `<app>` you installed and it will stay locked according to your `package.json` constraints.
+
+```bash
+npm i gobot-pocketbase@0.19.3
+```
 
 ```js
 import { gobot } from 'gobot'
@@ -131,13 +142,13 @@ npx gobot pocketbase --g-refresh
 
 ## Official Gobot Apps
 
-These apps have their own helper packages to assist with locking the dependency to a specific version of the app.
+These apps have single-token names and dedicated helper packages to assist with version locking.
 
 {{{availableAppsMd}}}
 
 ### Running unofficial apps
 
-Gobot can run many apps hosted on github, without official support.
+Gobot can run many apps hosted on github. Gobot will examine the releases and attempt to decipher binaries based on version, platform, and architecture.
 
 ```bash
 gobot <user>/<repo>
@@ -146,7 +157,8 @@ gobot <user>/<repo>
 **Example**
 
 ```bash
-# Run PocketBase as a direct repo name rather than the `pocketbase` alias
+# Run PocketBase as a direct repo name
+# rather than the `pocketbase` alias
 gobot pocketbase/pocketbase --help
 ```
 
@@ -156,10 +168,10 @@ or API:
 gobot(`pocketbase/pocketbase`).run([`--help`])
 ```
 
-The above command format may run the app you have in mind. For example, `gobot caddy --help` runs the Caddy by the official name, but `gobot caddyserver/caddy --help` will also run it.
+The above command format **_may_** run the app you have in mind. For example, `gobot caddy --help` runs the Caddy by the official name, but `gobot caddyserver/caddy --help` will also run it.
 
 As long as the project uses the github [Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) feature and includes statically linked binaries with zero dependencies, Gobot can probably run it.
 
-Go apps work flawlessly. Gobot was originally named and conceived to support Go apps.
+Go apps work flawlessly, if the releases are named well. Gobot was originally named and conceived to support Go apps.
 
 {{{postambleMd}}}
