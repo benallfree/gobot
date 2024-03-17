@@ -1,5 +1,7 @@
 {
-  "ignorePaths": ["pnpm-lock.yaml"],
+  "ignorePaths": [
+    "pnpm-lock.yaml"
+  ],
   "words": [
     "Adguard",
     "annoucements",
@@ -30,6 +32,7 @@
     "getenv",
     "gobot",
     "goja",
+    "gptscript",
     "Hubic",
     "infoe",
     "IPCIDR",

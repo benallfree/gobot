@@ -70,11 +70,13 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `darwin` | \{ `aliases`: readonly [``"mac"``, ``"osx"``, ``"macos"``] ; `architectures`: \{ `arm64`: `ArchAliasMap` = SUPPORTED\_ARCH.arm64; `x64`: `ArchAliasMap` = SUPPORTED\_ARCH.x64 }  } |
+| `darwin` | \{ `aliases`: readonly [``"mac"``, ``"osx"``, ``"macos"``] ; `architectures`: \{ `arm64`: \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``]  } ; `x64`: \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``]  }  }  } |
 | `darwin.aliases` | readonly [``"mac"``, ``"osx"``, ``"macos"``] |
-| `darwin.architectures` | \{ `arm64`: `ArchAliasMap` = SUPPORTED\_ARCH.arm64; `x64`: `ArchAliasMap` = SUPPORTED\_ARCH.x64 } |
-| `darwin.architectures.arm64` | `ArchAliasMap` |
-| `darwin.architectures.x64` | `ArchAliasMap` |
+| `darwin.architectures` | \{ `arm64`: \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``]  } ; `x64`: \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``]  }  } |
+| `darwin.architectures.arm64` | \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``]  } |
+| `darwin.architectures.arm64.aliases` | readonly [`string`, ``"universal"``, ``"all"``] |
+| `darwin.architectures.x64` | \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``]  } |
+| `darwin.architectures.x64.aliases` | readonly [`string`, ``"universal"``, ``"all"``] |
 | `freebsd` | \{ `aliases`: readonly [] = []; `architectures`: `SupportedArchMap` = SUPPORTED\_ARCH } |
 | `freebsd.aliases` | readonly [] |
 | `freebsd.architectures` | `SupportedArchMap` |

@@ -53,6 +53,7 @@ Re-exports [GobotOptions](../interfaces/Gobot.GobotOptions.md)
 | :------ | :------ |
 | `description` | `string` |
 | `homepage` | `string` |
+| `isAlpha` | `boolean` |
 | `name` | `string` |
 | `slug` | `string` |
 | `version?` | `string` |
@@ -85,7 +86,7 @@ ___
 
 #### Defined in
 
-[apps/APPS_MAP.ts:9](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/apps/APPS_MAP.ts#L9)
+[apps/APPS_MAP.ts:10](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.22/src/apps/APPS_MAP.ts#L10)
 
 ## Functions
 
