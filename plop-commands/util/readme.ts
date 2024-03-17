@@ -14,7 +14,6 @@ export const availableAppsMd = markdownTable([
     a.name.toLocaleLowerCase().localeCompare(b.name.toLocaleLowerCase()),
   ).map((app) => {
     const branch = getCurrentGitBranch()
-    console.log({ branch })
     const { name, description, homepage, slug } = app
     const readmeUrl = `https://www.npmjs.com/package/gobot-${name.toLocaleLowerCase()}`
     const logoUrl = `https://raw.githubusercontent.com/benallfree/gobot/${branch}/src/apps/${name}/logo-50x.png`
