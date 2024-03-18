@@ -15,6 +15,10 @@
 - [StoredRelease](Gobot.md#storedrelease)
 - [VersionFormat](Gobot.md#versionformat)
 
+### Functions
+
+- [mkGobot](Gobot.md#mkgobot)
+
 ## Type Aliases
 
 ### ArchKey
@@ -61,3 +65,24 @@ ___
 #### Defined in
 
 [Gobot.ts:58](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.28/src/Gobot.ts#L58)
+
+## Functions
+
+### mkGobot
+
+▸ **mkGobot**(`repo`, `config?`): [`Gobot`](../classes/Gobot.Gobot.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `repo` | `string` |
+| `config?` | [`GobotOptions`](../interfaces/Gobot.GobotOptions.md) |
+
+#### Returns
+
+[`Gobot`](../classes/Gobot.Gobot.md)
+
+#### Defined in
+
+[Gobot.ts:428](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.28/src/Gobot.ts#L428)
