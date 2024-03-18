@@ -35,7 +35,6 @@ export class MinioReleaseProvider extends GithubReleaseProvider {
     const final = [major!, minor!, `${patchPrefix}${patchRest}`]
       .map((part) => parseInt(part, 10))
       .join('.')
-    console.log(final)
     return final
   }
 
