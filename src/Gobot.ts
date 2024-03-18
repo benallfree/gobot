@@ -1,3 +1,4 @@
+import { find, keys } from '@s-libs/micro-dash'
 import Bottleneck from 'bottleneck'
 import { spawn } from 'child_process'
 import decompress from 'decompress'
@@ -343,6 +344,18 @@ export class Gobot {
 
   filterArgs(args: string[]) {
     return args
+  }
+
+  async hasAnyBuildForVersion(version: string) {
+    const releases = await this.releases()
+    const release = releases.find(
+      (release) => compare(release.version, version) === 0,
+    )
+    if (!release) return false
+    return !!find(
+      release.archives,
+      (platformInfo, platformKey) => keys(platformInfo).length > 0,
+    )
   }
 
   /**
