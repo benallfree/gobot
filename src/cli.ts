@@ -37,7 +37,7 @@ const main = async () => {
       false,
     )
     .option(
-      `--g-show-versions [fmt]`,
+      `--g-show-versions <fmt>`,
       `Output in JSON format`,
       (v) => {
         if (!Gobot.VERSION_FORMATS.includes(v as VersionFormat)) {
@@ -45,7 +45,7 @@ const main = async () => {
         }
         return v as VersionFormat
       },
-      `md`,
+      ``,
     )
     .option(`--g-v`, `Show informational output`, true)
     .option(`--g-vv`, `Show even more output`, false)
