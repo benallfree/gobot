@@ -58,6 +58,13 @@ export const APPS_MAP: AppInfo[] = [
     isAlpha: true,
   },
   {
+    name: `lazygit`,
+    slug: `Lazygit`,
+    description: `simple terminal UI for git commands`,
+    homepage: `https://github.com/jesseduffield/lazygit`,
+    isAlpha: true,
+  },
+  {
     name: `loki`,
     slug: `Loki`,
     description: `Like Prometheus, but for logs.`,

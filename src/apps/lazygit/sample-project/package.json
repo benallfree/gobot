@@ -1,0 +1,13 @@
+{
+  "name": "lazygit-gobot-sample",
+  "bin": {
+    "lazygit-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "lazygit": "lazygit"
+  },
+  "dependencies": {
+    "gobot-lazygit": "0.40.2"
+  }
+}
