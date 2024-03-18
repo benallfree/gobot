@@ -227,6 +227,6 @@ export class GithubReleaseProvider {
   }
 
   protected extractVersionFromTag(tag: string) {
-    return tag.slice(1)
+    return tag.replace(/^v(.*)/, '$1')
   }
 }
