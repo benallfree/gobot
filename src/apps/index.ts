@@ -41,5 +41,6 @@ export const APPS = {
   weaviate: `weaviate/weaviate`,
   syncthing: 'syncthing/syncthing',
   weed: 'seaweedfs/seaweedfs',
+  cue: 'cue-lang/cue',
   // #app-gen
 } as const

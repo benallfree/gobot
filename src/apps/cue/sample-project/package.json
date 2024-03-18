@@ -1,0 +1,13 @@
+{
+  "name": "cue-gobot-sample",
+  "bin": {
+    "cue-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "cue": "cue"
+  },
+  "dependencies": {
+    "gobot-cue": "0.8.0"
+  }
+}

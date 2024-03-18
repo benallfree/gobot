@@ -156,5 +156,13 @@ export const APPS_MAP: AppInfo[] = [
     homepage: 'https://github.com/seaweedfs/seaweedfs',
     isAlpha: true,
   },
+  {
+    name: 'cue',
+    slug: 'CUE',
+    description:
+      'The home of the CUE language! Validate and define text-based and dynamic configuration',
+    homepage: 'https://cuelang.org',
+    isAlpha: true,
+  },
   // #app-gen
 ]
