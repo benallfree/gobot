@@ -52,7 +52,7 @@ In rare cases, you may want to intentionally run a different version of `gptscri
 
 ```js
 // Run a specific version (override)
-gobot(`gptscript`, { version: `0.19.4` }).run([`--version`])
+gobot(`gptscript`, { version: `0.2.1` }).run([`--version`])
 
 // Or the latest version (override)
 gobot(`gptscript`, { version: `*` }).run([`--version`])

@@ -52,7 +52,7 @@ In rare cases, you may want to intentionally run a different version of `weaviat
 
 ```js
 // Run a specific version (override)
-gobot(`weaviate`, { version: `0.19.4` }).run([`--version`])
+gobot(`weaviate`, { version: `1.24.4` }).run([`--version`])
 
 // Or the latest version (override)
 gobot(`weaviate`, { version: `*` }).run([`--version`])

@@ -52,7 +52,7 @@ In rare cases, you may want to intentionally run a different version of `pulumi`
 
 ```js
 // Run a specific version (override)
-gobot(`pulumi`, { version: `0.19.4` }).run([`--version`])
+gobot(`pulumi`, { version: `3.111.1` }).run([`--version`])
 
 // Or the latest version (override)
 gobot(`pulumi`, { version: `*` }).run([`--version`])

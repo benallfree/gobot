@@ -52,7 +52,7 @@ In rare cases, you may want to intentionally run a different version of `restic`
 
 ```js
 // Run a specific version (override)
-gobot(`restic`, { version: `0.19.4` }).run([`--version`])
+gobot(`restic`, { version: `0.16.4` }).run([`--version`])
 
 // Or the latest version (override)
 gobot(`restic`, { version: `*` }).run([`--version`])

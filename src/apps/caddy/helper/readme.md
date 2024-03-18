@@ -52,7 +52,7 @@ In rare cases, you may want to intentionally run a different version of `caddy` 
 
 ```js
 // Run a specific version (override)
-gobot(`caddy`, { version: `0.19.4` }).run([`--version`])
+gobot(`caddy`, { version: `2.7.6` }).run([`--version`])
 
 // Or the latest version (override)
 gobot(`caddy`, { version: `*` }).run([`--version`])

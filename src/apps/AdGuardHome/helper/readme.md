@@ -52,7 +52,7 @@ In rare cases, you may want to intentionally run a different version of `AdGuard
 
 ```js
 // Run a specific version (override)
-gobot(`AdGuardHome`, { version: `0.19.4` }).run([`--version`])
+gobot(`AdGuardHome`, { version: `0.108.0-b.53` }).run([`--version`])
 
 // Or the latest version (override)
 gobot(`AdGuardHome`, { version: `*` }).run([`--version`])

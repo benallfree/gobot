@@ -52,7 +52,7 @@ In rare cases, you may want to intentionally run a different version of `pocketb
 
 ```js
 // Run a specific version (override)
-gobot(`pocketbase`, { version: `0.19.4` }).run([`--version`])
+gobot(`pocketbase`, { version: `0.22.4` }).run([`--version`])
 
 // Or the latest version (override)
 gobot(`pocketbase`, { version: `*` }).run([`--version`])

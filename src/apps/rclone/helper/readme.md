@@ -52,7 +52,7 @@ In rare cases, you may want to intentionally run a different version of `rclone`
 
 ```js
 // Run a specific version (override)
-gobot(`rclone`, { version: `0.19.4` }).run([`--version`])
+gobot(`rclone`, { version: `1.66.0` }).run([`--version`])
 
 // Or the latest version (override)
 gobot(`rclone`, { version: `*` }).run([`--version`])
