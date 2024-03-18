@@ -79,7 +79,7 @@ npm i -g gobot-{{lowerCase name}}
 npm i -g gobot-{{lowerCase name}}@latest
 ```
 
-For more information, see [Gobot's full documentation](https://github.com/benallfree/gobot).
+For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/{{branch}}/docs/readme.md).
 
 {{{notesMd}}}
 
