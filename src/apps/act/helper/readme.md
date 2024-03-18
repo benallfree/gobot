@@ -85,7 +85,7 @@ For more information, see [Gobot's full documentation](https://github.com/benall
 
 ### `$HOME` required
 
-`act` needs the `HOME` environment variable defined. Gobot does NOT automatically forward environment variables, so use this:
+`act` needs the `HOME` environment variable defined. In API mode, Gobot does NOT automatically forward environment variables, so use this:
 
 ```js
 gobot(`act`, {
