@@ -18,12 +18,12 @@ export const buildCommand = (plop: NodePlopAPI) => {
           .resize({ width: 50 })
           .trim()
           .png()
-          .toFile(join(dirname(logo), `logo-50x.png`))
+          .toFile(join(dirname(logo), `logo-50x.webp`))
         await sharp(logo)
           .resize({ height: 50 })
           .trim()
           .png()
-          .toFile(join(dirname(logo), `logo-x50.png`))
+          .toFile(join(dirname(logo), `logo-x50.webp`))
       }),
     ])
     return 'ok'

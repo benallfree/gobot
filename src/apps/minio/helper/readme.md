@@ -143,7 +143,7 @@ This will index all the releases from your repo and show you exactly what Gobot 
 
 If you see everything you expect, you're golden. If things are missing, it may mean some custom programming. Either way, jump on [Discord](https://discord.gg/977kMmFnXc) and let us know your results.
 
-If you have the flexibility or are starting an ew project, make sure your release names follows these rules:
+If you have the flexibility or are starting a new project, make sure your release names follows these rules:
 
 - Ends in `.zip`, `.tgz`, `.tar.gz`, `.bz2`
 - Include the version ([semver](https://semver.org) recommended)
