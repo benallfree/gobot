@@ -1,0 +1,13 @@
+{
+  "name": "weed-gobot-sample",
+  "bin": {
+    "weed-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "weed": "weed"
+  },
+  "dependencies": {
+    "gobot-weed": "3.64.0"
+  }
+}
