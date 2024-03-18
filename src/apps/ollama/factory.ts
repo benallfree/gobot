@@ -6,10 +6,9 @@ import { OllamaReleaseProvider } from './OllamaReleaseProvider'
 export const mkOllamaBot: AppFactory = (
   optionsIn: Partial<GobotOptions> = {},
 ) => {
-  const repo = `ollama/ollama`
   return new OllamaGobot(
-    repo,
-    (cacheRoot) => new OllamaReleaseProvider(repo, cacheRoot),
+    `ollama/ollama`,
+    (repo, cacheRoot) => new OllamaReleaseProvider(repo, cacheRoot),
     optionsIn,
   )
 }

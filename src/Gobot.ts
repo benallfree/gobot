@@ -88,7 +88,10 @@ export class Gobot {
    */
   constructor(
     repo: string,
-    releaseProviderFactory: (cacheRoot: string) => GithubReleaseProvider,
+    releaseProviderFactory: (
+      repo: string,
+      cacheRoot: string,
+    ) => GithubReleaseProvider,
     optionsIn: Partial<GobotOptions> = {},
   ) {
     this.repo = repo
@@ -117,6 +120,7 @@ export class Gobot {
     mkdir('-p', this.cacheRoot)
     dbg(`Final cache root`, this.cacheRoot)
     this.releaseProvider = releaseProviderFactory(
+      this.repo,
       join(this.cacheRoot, `remote`),
     )
     dbg(`Release provider is`, this.releaseProvider.slug)

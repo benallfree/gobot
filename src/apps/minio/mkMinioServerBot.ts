@@ -6,10 +6,9 @@ import { MinioReleaseProvider } from './MinioReleaseProvider'
 export const mkMinioServerBot: AppFactory = (
   optionsIn: Partial<GobotOptions> = {},
 ) => {
-  const repo = `minio/minio`
   return new MinioGobot(
-    repo,
-    (cacheRoot) =>
+    `minio/minio`,
+    (repo, cacheRoot) =>
       new MinioReleaseProvider(
         repo,
         cacheRoot,

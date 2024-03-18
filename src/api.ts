@@ -48,7 +48,7 @@ export const gobot = (
       dbg(appName, `is a mapped repo app`)
       return new Gobot(
         repoOrFactory,
-        (cacheRoot) => new GithubReleaseProvider(repoOrFactory, cacheRoot),
+        (repo, cacheRoot) => new GithubReleaseProvider(repo, cacheRoot),
         optionsIn,
       )
     }
@@ -61,7 +61,7 @@ export const gobot = (
   dbg(appName, `is a generic repo app`)
   return new Gobot(
     appName,
-    (cacheRoot) => new GithubReleaseProvider(appName, cacheRoot),
+    (repo, cacheRoot) => new GithubReleaseProvider(repo, cacheRoot),
     optionsIn,
   )
 }

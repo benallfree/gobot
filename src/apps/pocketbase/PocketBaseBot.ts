@@ -14,10 +14,9 @@ class PocketBaseBot extends Gobot {
 export const mkPocketBaseBot: AppFactory = (
   optionsIn: Partial<GobotOptions> = {},
 ) => {
-  const repo = `pocketbase/pocketbase`
   return new PocketBaseBot(
-    repo,
-    (cacheRoot) => new GithubReleaseProvider(repo, cacheRoot),
+    `pocketbase/pocketbase`,
+    (repo, cacheRoot) => new GithubReleaseProvider(repo, cacheRoot),
     optionsIn,
   )
 }
