@@ -39,8 +39,8 @@ const main = async () => {
     .option(
       `--g-show-versions <fmt>`,
       `Output in JSON format`,
-      (v) => (['txt', 'json', 'cjs', 'esm'].includes(v) ? v : 'txt'),
-      ``,
+      (v) => (['txt', 'json', 'cjs', 'esm', 'md'].includes(v) ? v : 'txt'),
+      `md`,
     )
     .option(`--g-v`, `Show informational output`, true)
     .option(`--g-vv`, `Show even more output`, false)

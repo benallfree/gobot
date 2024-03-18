@@ -1,4 +1,4 @@
-import { find, keys } from '@s-libs/micro-dash'
+import { find, flatMap, keys, uniq } from '@s-libs/micro-dash'
 import Bottleneck from 'bottleneck'
 import { spawn } from 'child_process'
 import decompress from 'decompress'
@@ -14,6 +14,7 @@ import {
   statSync,
   writeFileSync,
 } from 'fs'
+import { markdownTable } from 'markdown-table'
 import { arch as _arch, platform } from 'os'
 import { basename, dirname, join, resolve } from 'path'
 import { compare, satisfies } from 'semver'
@@ -154,17 +155,32 @@ export class Gobot {
   }
 
   async versions(type?: 'js'): Promise<string[]>
+  async versions(type?: 'md'): Promise<string>
   async versions(type: 'json'): Promise<string>
   async versions(type: 'txt'): Promise<string>
   async versions(type: 'cjs'): Promise<string>
   async versions(type: 'esm'): Promise<string>
   async versions(
-    type: 'js' | 'json' | 'cjs' | 'esm' | 'txt' = 'js',
+    type: 'js' | 'json' | 'cjs' | 'esm' | 'txt' | 'md' = 'js',
   ): Promise<string | string[]> {
     const versions = (await this.releases()).map((release) => release.version)
     const js = versions
     if (type === `js`) return js
     if (type === `txt`) return js.join(`\n`)
+    if (type === 'md') {
+      const allPlatforms = await this.allPlatforms()
+      const releases = await this.releases()
+      const md = markdownTable([
+        [`Version`, ...allPlatforms],
+        ...(await releases).map((release) => {
+          return [
+            `**${release.version}**`,
+            ...allPlatforms.map((os) => keys(release.archives[os]).join(`/`)),
+          ]
+        }),
+      ])
+      return md
+    }
     const json = stringify(js, null, 2)
     switch (type) {
       case 'json':
@@ -355,6 +371,12 @@ export class Gobot {
     return !!find(
       release.archives,
       (platformInfo, platformKey) => keys(platformInfo).length > 0,
+    )
+  }
+
+  async allPlatforms() {
+    return uniq(
+      flatMap(await this.releases(), (release) => keys(release.archives)),
     )
   }
 
