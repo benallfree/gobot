@@ -1,5 +1,7 @@
 ![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/assets/gobot-banner-300x.png)
 
+![](https://img.shields.io/npm/v/gobot-AdGuardHome) ![](https://img.shields.io/npm/dt/gobot-AdGuardHome) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
+
 ## `AdGuardHome` for npm
 
 This package allows you to use [AdGuardHome](https://adguard.com/adguard-home.html) as an npm dependency.

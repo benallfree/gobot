@@ -1,5 +1,7 @@
 ![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/assets/gobot-banner-300x.png)
 
+![](https://img.shields.io/npm/v/gobot-hugo) ![](https://img.shields.io/npm/dt/gobot-hugo) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
+
 ## `hugo` for npm
 
 This package allows you to use [Hugo](https://gohugo.io/) as an npm dependency.
@@ -81,6 +83,21 @@ npm i -g gobot-hugo@latest
 
 For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.24/docs/readme.md).
 
+## Quirks
+
+### Extended Edition
+
+Hugo is available in two editions: standard and [extended](https://gohugo.io/troubleshooting/faq/#an-error-message-indicates-that-a-feature-is-not-available-why). With the extended edition you can (a) encode to the WebP format when processing images, and (b) transpile Sass to CSS using the embedded LibSass transpiler. The extended edition is not required to use the Dart Sass transpiler.
+
+Hugo Extended is selected by default when available.
+
+If you'll be using the SCSS features of Hugo Extended, it's probably smart to install [`postcss`](https://www.npmjs.com/package/postcss), [`postcss-cli`](https://www.npmjs.com/package/postcss-cli), and [`autoprefixer`](https://www.npmjs.com/package/autoprefixer) as devDependencies too, since they can be conveniently called via [built-in Hugo pipes](https://gohugo.io/hugo-pipes/postcss/):
+
+```sh
+npm install postcss postcss-cli autoprefixer --save-dev
+# or...
+yarn add postcss postcss-cli autoprefixer --dev
+```
 
 
 ## Sample project

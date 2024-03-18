@@ -1,5 +1,7 @@
 ![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/assets/gobot-banner-300x.png)
 
+![](https://img.shields.io/npm/v/gobot-pulumi) ![](https://img.shields.io/npm/dt/gobot-pulumi) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
+
 ## `pulumi` for npm
 
 This package allows you to use [Pulumi](https://www.pulumi.com) as an npm dependency.

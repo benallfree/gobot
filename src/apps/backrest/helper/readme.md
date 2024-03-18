@@ -1,5 +1,7 @@
 ![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/assets/gobot-banner-300x.png)
 
+![](https://img.shields.io/npm/v/gobot-backrest) ![](https://img.shields.io/npm/dt/gobot-backrest) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
+
 ## `backrest` for npm
 
 This package allows you to use [Backrest](https://github.com/garethgeorge/backrest) as an npm dependency.

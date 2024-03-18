@@ -1,5 +1,7 @@
 ![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/assets/gobot-banner-300x.png)
 
+![](https://img.shields.io/npm/v/gobot-caddy) ![](https://img.shields.io/npm/dt/gobot-caddy) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
+
 ## `caddy` for npm
 
 This package allows you to use [Caddy](https://caddyserver.com/) as an npm dependency.
