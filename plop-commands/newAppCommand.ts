@@ -52,7 +52,7 @@ export function newAppCommand(plop: NodePlopAPI) {
         name: data.name,
         slug: adjustCapitalization(data.name, data.description),
         description: data.description,
-        homepage: data.homepage,
+        homepage: data.homepage || data.html_url,
         isAlpha: true,
       }
 
