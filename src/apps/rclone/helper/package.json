@@ -1,6 +1,6 @@
 {
   "name": "gobot-rclone",
-  "version": "1.66.0-alpha.10",
+  "version": "1.66.0-alpha.11",
   "description": "RClone helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

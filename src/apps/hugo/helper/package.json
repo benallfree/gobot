@@ -1,6 +1,6 @@
 {
   "name": "gobot-hugo",
-  "version": "0.124.0-alpha.10",
+  "version": "0.124.0-alpha.11",
   "description": "Hugo helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
