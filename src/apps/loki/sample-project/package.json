@@ -1,0 +1,13 @@
+{
+  "name": "loki-gobot-sample",
+  "bin": {
+    "loki-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "loki": "loki"
+  },
+  "dependencies": {
+    "gobot-loki": "2.9.5"
+  }
+}

@@ -58,6 +58,13 @@ export const APPS_MAP: AppInfo[] = [
     isAlpha: true,
   },
   {
+    name: `loki`,
+    slug: `Loki`,
+    description: `Like Prometheus, but for logs.`,
+    homepage: `https://grafana.com/loki`,
+    isAlpha: true,
+  },
+  {
     name: `mc`,
     description: `The Object Store for AI Data Infrastructure (client)`,
     homepage: `https://min.io`,

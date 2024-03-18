@@ -27,6 +27,7 @@ export const APPS = {
   fzf: `junegunn/fzf`,
   gptscript: `gptscript-ai/gptscript`,
   hugo: `gohugoio/hugo`,
+  loki: `grafana/loki`,
   mc: mkMinioClientBot,
   minio: mkMinioServerBot,
   ollama: mkOllamaBot,
