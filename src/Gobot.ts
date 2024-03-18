@@ -14,6 +14,7 @@ import {
   statSync,
   writeFileSync,
 } from 'fs'
+import { globSync } from 'glob'
 import { markdownTable } from 'markdown-table'
 import { arch as _arch, platform } from 'os'
 import { basename, dirname, join, resolve } from 'path'
@@ -208,7 +209,18 @@ export class Gobot {
 
   async findArchiveBinPath(version: string) {
     const path = this.downloadRoot(version)
-    const fname = await findFileRecursive(this.binName, path)
+    const fname = await (async () => {
+      const fname = await findFileRecursive(this.binName, path)
+      if (fname) return fname
+      return globSync(join(path, `**`)).find((path) => {
+        const stats = statSync(path)
+        if (stats.isDirectory()) return false
+        const isExecutable =
+          (this.os === 'win32' && path.endsWith(`.exe`)) ||
+          !!(stats.mode & parseInt('0100', 8))
+        if (isExecutable) return path
+      })
+    })()
     if (!fname) {
       throw new Error(`Could not find ${this.binName} anywhere in path ${path}`)
     }
