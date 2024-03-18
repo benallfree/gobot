@@ -227,6 +227,15 @@ export class GithubReleaseProvider {
   }
 
   protected extractVersionFromTag(tag: string) {
-    return tag.replace(/^v(.*)/, '$1')
+    const version = [0, 0, 0]
+    const actual = tag.replace(/^v(.*)/, '$1').split('.')
+
+    actual.forEach((v, i) => {
+      version[i] = parseInt(v, 10) || 0
+    })
+
+    console.log({ actual, version })
+
+    return version.join('.')
   }
 }
