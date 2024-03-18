@@ -13,7 +13,7 @@ import { mkSubcommander } from './util/mkSubcommander'
 export const buildCommand = (plop: NodePlopAPI) => {
   const LOGOS_ACTION = localAction(plop, async (answers, config, plop) => {
     await Promise.all([
-      ...globSync(`src/apps/*/logo.png`).map(async (logo) => {
+      ...globSync(`src/apps/*/logo.{png,webp}`).map(async (logo) => {
         await sharp(logo)
           .resize({ width: 50 })
           .trim()
