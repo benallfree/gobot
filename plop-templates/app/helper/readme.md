@@ -1,5 +1,7 @@
 ![Gobot](https://raw.githubusercontent.com/benallfree/gobot/{{{branch}}}/assets/gobot-banner-300x.png)
 
+![](https://img.shields.io/npm/v/gobot-{{name}}) ![](https://img.shields.io/npm/dt/gobot-{{name}}) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
+
 ## `{{name}}` for npm
 
 This package allows you to use [{{slug}}]({{homepage}}) as an npm dependency.
