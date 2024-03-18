@@ -37,6 +37,7 @@ export async function buildDataForApp(app: AppInfo, plop: NodePlopAPI) {
   const data = {
     ...(await buildData(plop)),
     ...app,
+    bot,
     version: versions[0]!,
     versions,
     notesMd: '',

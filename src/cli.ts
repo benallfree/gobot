@@ -4,7 +4,7 @@ import { Command } from 'commander'
 import { arch, platform } from 'os'
 import { exit } from 'process'
 import json from '../package.json'
-import { Gobot } from './Gobot'
+import { Gobot, VersionFormat } from './Gobot'
 import { gobot } from './api'
 import { getAppVersion } from './util/getAppVersion'
 import { dbg } from './util/log'
@@ -37,9 +37,14 @@ const main = async () => {
       false,
     )
     .option(
-      `--g-show-versions <fmt>`,
+      `--g-show-versions [fmt]`,
       `Output in JSON format`,
-      (v) => (['txt', 'json', 'cjs', 'esm', 'md'].includes(v) ? v : 'txt'),
+      (v) => {
+        if (!Gobot.VERSION_FORMATS.includes(v as VersionFormat)) {
+          throw new Error(`${v} is not a supported type`)
+        }
+        return v as VersionFormat
+      },
       `md`,
     )
     .option(`--g-v`, `Show informational output`, true)

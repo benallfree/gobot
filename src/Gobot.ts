@@ -54,6 +54,8 @@ export interface GobotOptions {
   cachePath: string
 }
 
+export type VersionFormat = (typeof Gobot.VERSION_FORMATS)[number]
+
 /**
  * Generic Gobot app. Subclass this for specific functionality.
  */
@@ -66,6 +68,8 @@ export class Gobot {
     resolve(envPaths('gobot').cache, ...paths)
 
   static verbosity = mkSetting<0 | 1 | 2 | 3>(0)
+
+  static VERSION_FORMATS = ['js', 'txt', 'json', 'cjs', 'esm', 'md'] as const
 
   repo: string
   os: PlatformKey
@@ -160,9 +164,7 @@ export class Gobot {
   async versions(type: 'txt'): Promise<string>
   async versions(type: 'cjs'): Promise<string>
   async versions(type: 'esm'): Promise<string>
-  async versions(
-    type: 'js' | 'json' | 'cjs' | 'esm' | 'txt' | 'md' = 'js',
-  ): Promise<string | string[]> {
+  async versions(type: VersionFormat = 'js'): Promise<string | string[]> {
     const versions = (await this.releases()).map((release) => release.version)
     const js = versions
     if (type === `js`) return js
@@ -174,7 +176,7 @@ export class Gobot {
         [`Version`, ...allPlatforms],
         ...(await releases).map((release) => {
           return [
-            `**${release.version}**`,
+            release.version,
             ...allPlatforms.map((os) => keys(release.archives[os]).join(`/`)),
           ]
         }),
