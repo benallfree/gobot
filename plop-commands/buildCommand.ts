@@ -102,6 +102,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
           },
         ],
       },
+
       'apps:helper-template': {
         gen: [{ type: HELPER_TEMPLATE_BUILD_ACTION }],
         clean: [
@@ -121,6 +122,29 @@ export const buildCommand = (plop: NodePlopAPI) => {
           {
             type: `rimraf`,
             path: `src/apps/*/logo-*.png`,
+            options: { glob: true },
+          },
+        ],
+      },
+      'apps:invites': {
+        gen: async () =>
+          Promise.all(
+            map(APPS_MAP, async (app) => {
+              const { name } = app
+              return {
+                type: 'addMany',
+                destination: `src/apps/${name}`,
+                base: 'plop-templates/app',
+                templateFiles: 'plop-templates/app/invite.md',
+                data: await buildDataForApp(app, plop),
+                force: true,
+              }
+            }),
+          ),
+        clean: [
+          {
+            type: `rimraf`,
+            path: `src/apps/*/invite.md`,
             options: { glob: true },
           },
         ],

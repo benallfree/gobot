@@ -2,7 +2,6 @@ import { NodePlopAPI } from 'plop'
 import { rimraf } from 'rimraf'
 import { buildCommand } from './plop-commands/buildCommand'
 import { cleanCommand } from './plop-commands/cleanCommand'
-import { inviteCommand } from './plop-commands/inviteCommand'
 import { packCommand } from './plop-commands/packCommand'
 import { publishCommand } from './plop-commands/publishCommand'
 import { stringify } from './src/util/stringify'
@@ -26,7 +25,6 @@ export default async function (plop: NodePlopAPI) {
     return `Removed ${path}`
   })
 
-  inviteCommand(plop)
   buildCommand(plop)
   packCommand(plop)
   publishCommand(plop)
