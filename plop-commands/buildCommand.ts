@@ -17,12 +17,12 @@ export const buildCommand = (plop: NodePlopAPI) => {
         await sharp(logo)
           .resize({ width: 50 })
           .trim()
-          .png()
+          .webp()
           .toFile(join(dirname(logo), `logo-50x.webp`))
         await sharp(logo)
           .resize({ height: 50 })
           .trim()
-          .png()
+          .webp()
           .toFile(join(dirname(logo), `logo-x50.webp`))
       }),
     ])
@@ -121,7 +121,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
         clean: [
           {
             type: `rimraf`,
-            path: `src/apps/*/logo-*.png`,
+            path: `src/apps/*/logo-*`,
             options: { glob: true },
           },
         ],
