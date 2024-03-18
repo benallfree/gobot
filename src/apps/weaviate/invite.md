@@ -10,7 +10,7 @@ Gobot installs and runs popular statically-linked binaries via npm/npx, accounti
 
 npm users can also use Weaviate as a 1st class project dependency. They can lock to a specific version of Weaviate by installing the helper package [https://npmjs.org/gobot-weaviate](https://npmjs.org/gobot-weaviate).
 
-The helper package version mirrors your version numbers. As of this writing, Gobot has indexed 151 releases of Weaviate and I will back-publish all of them after a brief testing and commentary period.
+The helper package version mirrors your version numbers. As of this writing, Gobot has indexed 219 releases of Weaviate and I will back-publish all of them after a brief testing and commentary period.
 
 **Run `weaviate` via npx**
 

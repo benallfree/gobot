@@ -1,0 +1,13 @@
+{
+  "name": "fzf-gobot-sample",
+  "bin": {
+    "fzf-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "fzf": "fzf"
+  },
+  "dependencies": {
+    "gobot-fzf": "0.48.1"
+  }
+}
