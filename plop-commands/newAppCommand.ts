@@ -4,6 +4,7 @@ import { NodePlopAPI } from 'plop'
 import { format } from 'prettier'
 import sharp from 'sharp'
 import { AppInfo } from '../src/api'
+import { extractUserAndRepo } from '../src/util/extractUserAndRepo'
 import { mkdir } from '../src/util/shell'
 import { stringify } from '../src/util/stringify'
 import { localAction } from './util/localAction'
@@ -25,13 +26,14 @@ export function newAppCommand(plop: NodePlopAPI) {
       {
         type: 'input',
         message: `What is the <user>/<repo> of the app?`,
-        name: `repo`,
+        name: `name`,
       },
     ],
     actions: async (answers) => {
       if (!answers) throw new Error(`Answers expected here`)
-      const { repo } = answers
-      const url = `https://api.github.com/repos/${repo}`
+      const { name } = answers
+      const { user, repo } = extractUserAndRepo(name)
+      const url = `https://api.github.com/repos/${user}/${repo}`
       const res = await fetch(url)
       const data = (await res.json()) as any
       const info: AppInfo = {
