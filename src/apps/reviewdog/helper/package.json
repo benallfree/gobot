@@ -1,6 +1,6 @@
 {
   "name": "gobot-reviewdog",
-  "version": "0.17.2-alpha.12",
+  "version": "0.17.2-alpha.13",
   "description": "reviewdog helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

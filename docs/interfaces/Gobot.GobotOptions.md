@@ -20,7 +20,7 @@ Options for Gobot
 
 #### Defined in
 
-[Gobot.ts:52](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.27/src/Gobot.ts#L52)
+[Gobot.ts:52](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.28/src/Gobot.ts#L52)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:55](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.27/src/Gobot.ts#L55)
+[Gobot.ts:55](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.28/src/Gobot.ts#L55)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:54](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.27/src/Gobot.ts#L54)
+[Gobot.ts:54](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.28/src/Gobot.ts#L54)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:51](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.27/src/Gobot.ts#L51)
+[Gobot.ts:51](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.28/src/Gobot.ts#L51)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[Gobot.ts:53](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.27/src/Gobot.ts#L53)
+[Gobot.ts:53](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.28/src/Gobot.ts#L53)
