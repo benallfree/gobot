@@ -424,3 +424,10 @@ export class Gobot {
     return proc
   }
 }
+
+export const mkGobot = (repo: string, config?: GobotOptions) =>
+  new Gobot(
+    repo,
+    (repo, cacheRoot) => new GithubReleaseProvider(repo, cacheRoot),
+    config,
+  )
