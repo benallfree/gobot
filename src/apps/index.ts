@@ -39,4 +39,5 @@ export const APPS = {
   restic: 'restic/restic',
   reviewdog: `reviewdog/reviewdog`,
   weaviate: `weaviate/weaviate`,
+  // #app-gen
 } as const

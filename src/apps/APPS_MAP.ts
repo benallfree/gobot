@@ -141,4 +141,5 @@ export const APPS_MAP: AppInfo[] = [
     homepage: `https://weaviate.io`,
     isAlpha: true,
   },
+  // #app-gen
 ]
