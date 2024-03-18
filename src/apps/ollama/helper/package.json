@@ -1,6 +1,6 @@
 {
   "name": "gobot-ollama",
-  "version": "0.1.29-alpha.11",
+  "version": "0.1.29-alpha.12",
   "description": "Ollama helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
