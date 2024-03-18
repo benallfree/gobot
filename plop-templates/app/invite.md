@@ -37,7 +37,7 @@ npm i gobot gobot-{{lowerCase name}}@{{version}}
 import { gobot } from 'gobot'
 gobot(`{{name}}`, {
   env: process.env,
-})([`--help`])
+}).run([`--help`])
 ```
 
 {{{notesMd}}}
