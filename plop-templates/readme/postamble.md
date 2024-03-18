@@ -18,7 +18,7 @@ Test it out by running `npx gobot <user>/<repo> --help` (example: `gobot pocketb
 
 Make sure your release name follows these rules:
 
-- Ends in `.zip`, `.tgz`, or `.tar.gz`
+- Ends in `.zip`, `.tgz`, `.tar.gz`, `.bz2`
 - Include the version ([semver](https://semver.org) recommended)
 - Include the platform ({{{codecsv platforms}}})
 - Include the architecture ({{{codecsv architectures}}})
