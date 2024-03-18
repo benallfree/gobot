@@ -37,6 +37,13 @@ export const APPS_MAP: AppInfo[] = [
     isAlpha: true,
   },
   {
+    name: `fzf`,
+    slug: `fzf`,
+    description: `🌸 A command-line fuzzy finder`,
+    homepage: `https://github.com/junegunn/fzf`,
+    isAlpha: true,
+  },
+  {
     name: `gptscript`,
     slug: `GPTScript`,
     description: `Natural Language Programming.`,

@@ -24,6 +24,7 @@ export const APPS = {
   AdGuardHome: `AdguardTeam/AdGuardHome`,
   backrest: `garethgeorge/backrest`,
   caddy: 'caddyserver/caddy',
+  fzf: `junegunn/fzf`,
   gptscript: `gptscript-ai/gptscript`,
   hugo: `gohugoio/hugo`,
   mc: mkMinioClientBot,
