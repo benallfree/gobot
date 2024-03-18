@@ -42,10 +42,10 @@ export const SUPPORTED_ARCH: SupportedArchMap = {
     aliases: [],
   },
   x64: {
-    aliases: [`x86_64`, `amd64`],
+    aliases: [`x86_64`, `amd64`, `64bit`],
   },
   ia32: {
-    aliases: [`386`],
+    aliases: [`386`, `32bit`],
   },
   arm: {
     aliases: ['armv7', 'armv6', 'armv5'],
