@@ -1,6 +1,6 @@
 {
   "name": "gobot-backrest",
-  "version": "0.14.0-alpha.8",
+  "version": "0.14.0-alpha.9",
   "description": "Backrest helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

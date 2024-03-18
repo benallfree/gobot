@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.23/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/assets/gobot-banner-300x.png)
 
 ## `pocketbase` for npm
 
@@ -104,7 +104,7 @@ Instead, specify the version you wish to use either via CLI or programmatically 
 
 ## Sample project
 
-View the [PocketBase sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.23/src/apps/pocketbase/sample-project) on github.
+View the [PocketBase sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.24/src/apps/pocketbase/sample-project) on github.
 
 ## Try Gobot's other apps
 

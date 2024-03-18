@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.23/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/assets/gobot-banner-300x.png)
 
 ## `minio` for npm
 
@@ -109,7 +109,7 @@ Example:
 
 ## Sample project
 
-View the [Minio sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.23/src/apps/minio/sample-project) on github.
+View the [Minio sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.24/src/apps/minio/sample-project) on github.
 
 ## Try Gobot's other apps
 

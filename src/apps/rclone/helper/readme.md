@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.23/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/assets/gobot-banner-300x.png)
 
 ## `rclone` for npm
 
@@ -85,7 +85,7 @@ For more information, see [Gobot's full documentation](https://github.com/benall
 
 ## Sample project
 
-View the [RClone sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.23/src/apps/rclone/sample-project) on github.
+View the [RClone sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.24/src/apps/rclone/sample-project) on github.
 
 ## Try Gobot's other apps
 

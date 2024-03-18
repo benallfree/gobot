@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.23/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/assets/gobot-banner-300x.png)
 
 ## `act` for npm
 
@@ -96,7 +96,7 @@ gobot(`act`, {
 
 ## Sample project
 
-View the [Act sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.23/src/apps/act/sample-project) on github.
+View the [Act sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.24/src/apps/act/sample-project) on github.
 
 ## Try Gobot's other apps
 
