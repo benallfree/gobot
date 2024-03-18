@@ -25,6 +25,7 @@ export const APPS = {
   backrest: `garethgeorge/backrest`,
   caddy: 'caddyserver/caddy',
   gptscript: `gptscript-ai/gptscript`,
+  hugo: `gohugoio/hugo`,
   mc: mkMinioClientBot,
   minio: mkMinioServerBot,
   ollama: mkOllamaBot,

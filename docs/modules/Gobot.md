@@ -13,6 +13,7 @@
 - [ArchKey](Gobot.md#archkey)
 - [PlatformKey](Gobot.md#platformkey)
 - [StoredRelease](Gobot.md#storedrelease)
+- [VersionFormat](Gobot.md#versionformat)
 
 ## Type Aliases
 
@@ -22,7 +23,7 @@
 
 #### Defined in
 
-[Gobot.ts:31](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.24/src/Gobot.ts#L31)
+[Gobot.ts:33](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.24/src/Gobot.ts#L33)
 
 ___
 
@@ -32,7 +33,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:30](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.24/src/Gobot.ts#L30)
+[Gobot.ts:32](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.24/src/Gobot.ts#L32)
 
 ___
 
@@ -49,4 +50,14 @@ ___
 
 #### Defined in
 
-[Gobot.ts:33](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.24/src/Gobot.ts#L33)
+[Gobot.ts:35](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.24/src/Gobot.ts#L35)
+
+___
+
+### VersionFormat
+
+Ƭ **VersionFormat**: typeof [`VERSION_FORMATS`](../classes/Gobot.Gobot.md#version_formats)[`number`]
+
+#### Defined in
+
+[Gobot.ts:57](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.24/src/Gobot.ts#L57)

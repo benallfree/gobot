@@ -79,7 +79,7 @@ restic --help
 npm i -g gobot-restic@latest
 ```
 
-For more information, see [Gobot's full documentation](https://github.com/benallfree/gobot).
+For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.24/docs/readme.md).
 
 
 
@@ -107,11 +107,19 @@ We want to add native support for lots of binary apps!
 
 If you use publish statically linked binary releases on github, you are already 98% compatible with Gobot. In fact, Gobot may already know how to work with it.
 
-Test it out by running `npx gobot <user>/<repo> --help` (example: `gobot pocketbase/pocketbase --help` for the [https://github.com/pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) project).
+To see what initial support looks like:
 
-Make sure your release name follows these rules:
+```bash
+npx gobot <user>/<repo> --g-show-versions md --g-refresh
+```
 
-- Ends in `.zip`, `.tgz`, or `.tar.gz`
+This will index all the releases from your repo and show you exactly what Gobot sees.
+
+If you see everything you expect, you're golden. If things are missing, it may mean some custom programming. Either way, jump on [Discord](https://discord.gg/977kMmFnXc) and let us know your results.
+
+If you have the flexibility or are starting an ew project, make sure your release names follows these rules:
+
+- Ends in `.zip`, `.tgz`, `.tar.gz`, `.bz2`
 - Include the version ([semver](https://semver.org) recommended)
 - Include the platform (`freebsd`, `darwin`, `linux`, `win32`)
 - Include the architecture (`arm64`, `x64`, `ia32`, `arm`)
@@ -133,47 +141,47 @@ pnpm test
 
 `gobot-restic` versions mirror `restic` versions. Gobot knows about 42 releases of `restic`:
 
-| Version        | freebsd      | darwin    | linux              | win32    |
-| -------------- | ------------ | --------- | ------------------ | -------- |
-| **0.16.4**     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| **0.16.3**     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| **0.16.2**     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| **0.16.1**     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| **0.16.0**     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| **0.15.2**     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| **0.15.1**     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| **0.15.0**     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| **0.14.0**     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| **0.13.1**     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| **0.13.0**     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| **0.12.1**     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| **0.12.0**     | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.11.0**     | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.10.0**     | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.9.6**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.9.5**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.9.4**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.9.3**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.9.2**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.9.1**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.9.0**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.8.3**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.8.2**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.8.1**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.8.0**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.7.3**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.7.2**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.7.1**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.7.0**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.6.1**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.6.0**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.6.0-rc.1** | x64/ia32/arm | x64       | arm64/x64/ia32/arm | ia32     |
-| **0.5.0**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.5.0-rc.1** | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.4.0**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.3.3**      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| **0.3.2**      |              |           |                    |          |
-| **0.3.1**      |              |           |                    |          |
-| **0.3.0**      |              |           |                    |          |
-| **0.2.0**      |              |           |                    |          |
-| **0.1.0**      |              |           |                    |          |
+| Version    | freebsd      | darwin    | linux              | win32    |
+| ---------- | ------------ | --------- | ------------------ | -------- |
+| 0.16.4     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.16.3     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.16.2     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.16.1     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.16.0     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.15.2     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.15.1     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.15.0     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.14.0     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.13.1     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.13.0     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.12.1     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.12.0     | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.11.0     | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.10.0     | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.9.6      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.9.5      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.9.4      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.9.3      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.9.2      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.9.1      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.9.0      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.8.3      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.8.2      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.8.1      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.8.0      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.7.3      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.7.2      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.7.1      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.7.0      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.6.1      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.6.0      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.6.0-rc.1 | x64/ia32/arm | x64       | arm64/x64/ia32/arm | ia32     |
+| 0.5.0      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.5.0-rc.1 | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.4.0      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.3.3      | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.3.2      |              |           |                    |          |
+| 0.3.1      |              |           |                    |          |
+| 0.3.0      |              |           |                    |          |
+| 0.2.0      |              |           |                    |          |
+| 0.1.0      |              |           |                    |          |

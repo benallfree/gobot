@@ -115,18 +115,19 @@ gobot(`pocketbase`).run([`--help`])
 
 ### `gobot [gobotOptions] <app> [appOptions]`
 
-All Gobots options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
+All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
 
-| Option            | Default       | Discussion                                                                                                                                                   |
-| ----------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `--g-help`        | Show help     | Display help and options for Gobot                                                                                                                           |
-| `--g-os`          | host OS       | `aix`, `darwin`, `freebsd`,`linux`, `openbsd`, `sunos`, and `win32`                                                                                          |
-| `--g-arch`        | host arch     | `arm`, `arm64`, `ia32`, `loong64`, `mips`, `mipsel`, `ppc`, `ppc64`, `riscv64`, `s390`, `s390x`, and `x64`                                                   |
-| `--g-v[vv]`       |               | Adjust output verbosity                                                                                                                                      |
-| `--g-download`    | `false`       | Download all matching versions and exit                                                                                                                      |
-| `--g-refresh`     | `false`       | Clear the gobot cache                                                                                                                                        |
-| `--g-use-version` | latest        | Run a specific binary version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
-| `--g-cache-path`  | host specific | Use the specified directory for cache files.                                                                                                                 |
+| Option                    | Default       | Discussion                                                                                                                                                                                           |
+| ------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `--g-help`                | Show help     | Display help and options for Gobot                                                                                                                                                                   |
+| `--g-os <os>`             | host OS       | `aix`, `darwin`, `freebsd`,`linux`, `openbsd`, `sunos`, and `win32`                                                                                                                                  |
+| `--g-arch <arch>`         | host arch     | `arm`, `arm64`, `ia32`, `loong64`, `mips`, `mipsel`, `ppc`, `ppc64`, `riscv64`, `s390`, `s390x`, and `x64`                                                                                           |
+| `--g-v[vv]`               |               | Adjust output verbosity                                                                                                                                                                              |
+| `--g-download`            | `false`       | Download all matching versions and exit                                                                                                                                                              |
+| `--g-refresh`             | `false`       | Clear the gobot cache                                                                                                                                                                                |
+| `--g-use-version`         | latest        | Run a specific binary version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*`                                         |
+| `--g-show-versions [fmt]` | `md`          | Show available versions of `<app>`. Possible `<fmt>` values are: {{codecsv bot.VERSION_FORMATS}}. When choosing `md`, it will display a table of versions, platforms, and architecture availability. |
+| `--g-cache-path <path>`   | host specific | Use the specified directory for cache files.                                                                                                                                                         |
 
 
 **Examples**
@@ -162,6 +163,7 @@ These apps have single-token names and dedicated helper packages to assist with 
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/src/apps/backrest/logo-50x.png">](https://github.com/garethgeorge/backrest) | `backrest`    | Backrest is a web UI and orchestrator for restic backup.                                                                                                                                                                                                                                 | [readme](https://www.npmjs.com/package/gobot-backrest)    |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/src/apps/caddy/logo-50x.png">](https://caddyserver.com/)                    | `caddy`       | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS                                                                                                                                                                                                            | [readme](https://www.npmjs.com/package/gobot-caddy)       |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/src/apps/gptscript/logo-50x.png">](https://gptscript.ai/)                   | `gptscript`   | Natural Language Programming.                                                                                                                                                                                                                                                            | [readme](https://www.npmjs.com/package/gobot-gptscript)   |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/src/apps/hugo/logo-50x.png">](https://gohugo.io/)                           | `hugo`        | The world’s fastest framework for building websites.                                                                                                                                                                                                                                     | [readme](https://www.npmjs.com/package/gobot-hugo)        |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/src/apps/mc/logo-50x.png">](https://min.io)                                 | `mc`          | The Object Store for AI Data Infrastructure (client)                                                                                                                                                                                                                                     | [readme](https://www.npmjs.com/package/gobot-mc)          |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/src/apps/minio/logo-50x.png">](https://min.io)                              | `minio`       | The Object Store for AI Data Infrastructure (server)                                                                                                                                                                                                                                     | [readme](https://www.npmjs.com/package/gobot-minio)       |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/src/apps/ollama/logo-50x.png">](https://ollama.com/)                        | `ollama`      | Get up and running with Llama 2, Mistral, Gemma, and other large language models.                                                                                                                                                                                                        | [readme](https://www.npmjs.com/package/gobot-ollama)      |
@@ -215,11 +217,19 @@ We want to add native support for lots of binary apps!
 
 If you use publish statically linked binary releases on github, you are already 98% compatible with Gobot. In fact, Gobot may already know how to work with it.
 
-Test it out by running `npx gobot <user>/<repo> --help` (example: `gobot pocketbase/pocketbase --help` for the [https://github.com/pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) project).
+To see what initial support looks like:
 
-Make sure your release name follows these rules:
+```bash
+npx gobot <user>/<repo> --g-show-versions md --g-refresh
+```
 
-- Ends in `.zip`, `.tgz`, or `.tar.gz`
+This will index all the releases from your repo and show you exactly what Gobot sees.
+
+If you see everything you expect, you're golden. If things are missing, it may mean some custom programming. Either way, jump on [Discord](https://discord.gg/977kMmFnXc) and let us know your results.
+
+If you have the flexibility or are starting an ew project, make sure your release names follows these rules:
+
+- Ends in `.zip`, `.tgz`, `.tar.gz`, `.bz2`
 - Include the version ([semver](https://semver.org) recommended)
 - Include the platform (`freebsd`, `darwin`, `linux`, `win32`)
 - Include the architecture (`arm64`, `x64`, `ia32`, `arm`)

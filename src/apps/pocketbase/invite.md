@@ -37,7 +37,7 @@ npm i gobot gobot-pocketbase@0.22.4
 import { gobot } from 'gobot'
 gobot(`pocketbase`, {
   env: process.env,
-})([`--help`])
+}).run([`--help`])
 ```
 
 ## Quirks
@@ -63,8 +63,8 @@ Instead, specify the version you wish to use either via CLI or programmatically 
 
 ## What's next
 
-- **Testing & Comments.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period.
-- **Install docs.** Please consider adding Gobot to your official install instructions. If you would like me to send a PR updating the PocketBase installation docs to include instructions for installation via Gobot, I'm happy to do that.
+- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period.
+- **Update PocketBase installation docs.** Please consider adding Gobot to your official install instructions. If you would like me to send a PR updating the PocketBase installation docs to include instructions for installation via Gobot, I'm happy to do that.
 - **Give Gobot a 💫.** Gobot is a big effort to solve binary dependencies for nodejs in a universal way. Please consider giving [the Gobot project](https://github.com/benallfree/gobot) a star if it resonates.
 - **Keep going.** Keep doing what you do! Gobot will automatically pick up and publish your new releases.
 

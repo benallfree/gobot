@@ -79,7 +79,7 @@ ollama --help
 npm i -g gobot-ollama@latest
 ```
 
-For more information, see [Gobot's full documentation](https://github.com/benallfree/gobot).
+For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.24/docs/readme.md).
 
 
 
@@ -107,11 +107,19 @@ We want to add native support for lots of binary apps!
 
 If you use publish statically linked binary releases on github, you are already 98% compatible with Gobot. In fact, Gobot may already know how to work with it.
 
-Test it out by running `npx gobot <user>/<repo> --help` (example: `gobot pocketbase/pocketbase --help` for the [https://github.com/pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) project).
+To see what initial support looks like:
 
-Make sure your release name follows these rules:
+```bash
+npx gobot <user>/<repo> --g-show-versions md --g-refresh
+```
 
-- Ends in `.zip`, `.tgz`, or `.tar.gz`
+This will index all the releases from your repo and show you exactly what Gobot sees.
+
+If you see everything you expect, you're golden. If things are missing, it may mean some custom programming. Either way, jump on [Discord](https://discord.gg/977kMmFnXc) and let us know your results.
+
+If you have the flexibility or are starting an ew project, make sure your release names follows these rules:
+
+- Ends in `.zip`, `.tgz`, `.tar.gz`, `.bz2`
 - Include the version ([semver](https://semver.org) recommended)
 - Include the platform (`freebsd`, `darwin`, `linux`, `win32`)
 - Include the architecture (`arm64`, `x64`, `ia32`, `arm`)
@@ -133,56 +141,56 @@ pnpm test
 
 `gobot-ollama` versions mirror `ollama` versions. Gobot knows about 51 releases of `ollama`:
 
-| Version    | darwin    | linux     |
-| ---------- | --------- | --------- |
-| **0.1.29** | arm64/x64 | arm64/x64 |
-| **0.1.28** | arm64/x64 | arm64/x64 |
-| **0.1.27** | arm64/x64 | arm64/x64 |
-| **0.1.26** | arm64/x64 | arm64/x64 |
-| **0.1.25** | arm64/x64 | arm64/x64 |
-| **0.1.24** | arm64/x64 | arm64/x64 |
-| **0.1.23** | arm64/x64 | arm64/x64 |
-| **0.1.22** | arm64/x64 | arm64/x64 |
-| **0.1.21** | arm64/x64 | arm64/x64 |
-| **0.1.20** | arm64/x64 | arm64/x64 |
-| **0.1.19** | arm64/x64 | arm64/x64 |
-| **0.1.18** | arm64/x64 | arm64/x64 |
-| **0.1.17** | arm64/x64 | arm64/x64 |
-| **0.1.16** | arm64/x64 | arm64/x64 |
-| **0.1.15** | arm64/x64 | arm64/x64 |
-| **0.1.14** | arm64/x64 | arm64/x64 |
-| **0.1.13** | arm64/x64 | arm64/x64 |
-| **0.1.12** | arm64/x64 | arm64/x64 |
-| **0.1.11** | arm64/x64 | arm64/x64 |
-| **0.1.10** | arm64/x64 | arm64/x64 |
-| **0.1.9**  | arm64/x64 | arm64/x64 |
-| **0.1.8**  | arm64/x64 | arm64/x64 |
-| **0.1.7**  | arm64/x64 | arm64/x64 |
-| **0.1.6**  | arm64/x64 | arm64/x64 |
-| **0.1.5**  | arm64/x64 | arm64/x64 |
-| **0.1.4**  | arm64/x64 | arm64/x64 |
-| **0.1.3**  | arm64/x64 | arm64/x64 |
-| **0.1.2**  | arm64/x64 | arm64/x64 |
-| **0.1.1**  | arm64/x64 | arm64/x64 |
-| **0.1.0**  | arm64/x64 | arm64/x64 |
-| **0.0.21** | arm64/x64 |           |
-| **0.0.20** | arm64/x64 |           |
-| **0.0.19** | arm64/x64 |           |
-| **0.0.18** | arm64/x64 |           |
-| **0.0.17** | arm64/x64 |           |
-| **0.0.16** | arm64/x64 |           |
-| **0.0.15** | arm64/x64 |           |
-| **0.0.14** | arm64/x64 |           |
-| **0.0.13** | arm64/x64 |           |
-| **0.0.12** | arm64/x64 |           |
-| **0.0.11** | arm64/x64 |           |
-| **0.0.10** | arm64/x64 |           |
-| **0.0.9**  | arm64/x64 |           |
-| **0.0.8**  | arm64/x64 |           |
-| **0.0.7**  | arm64/x64 |           |
-| **0.0.6**  | arm64/x64 |           |
-| **0.0.5**  | arm64/x64 |           |
-| **0.0.4**  | arm64/x64 |           |
-| **0.0.3**  | arm64/x64 |           |
-| **0.0.2**  | arm64/x64 |           |
-| **0.0.1**  | arm64/x64 |           |
+| Version | darwin    | linux     |
+| ------- | --------- | --------- |
+| 0.1.29  | arm64/x64 | arm64/x64 |
+| 0.1.28  | arm64/x64 | arm64/x64 |
+| 0.1.27  | arm64/x64 | arm64/x64 |
+| 0.1.26  | arm64/x64 | arm64/x64 |
+| 0.1.25  | arm64/x64 | arm64/x64 |
+| 0.1.24  | arm64/x64 | arm64/x64 |
+| 0.1.23  | arm64/x64 | arm64/x64 |
+| 0.1.22  | arm64/x64 | arm64/x64 |
+| 0.1.21  | arm64/x64 | arm64/x64 |
+| 0.1.20  | arm64/x64 | arm64/x64 |
+| 0.1.19  | arm64/x64 | arm64/x64 |
+| 0.1.18  | arm64/x64 | arm64/x64 |
+| 0.1.17  | arm64/x64 | arm64/x64 |
+| 0.1.16  | arm64/x64 | arm64/x64 |
+| 0.1.15  | arm64/x64 | arm64/x64 |
+| 0.1.14  | arm64/x64 | arm64/x64 |
+| 0.1.13  | arm64/x64 | arm64/x64 |
+| 0.1.12  | arm64/x64 | arm64/x64 |
+| 0.1.11  | arm64/x64 | arm64/x64 |
+| 0.1.10  | arm64/x64 | arm64/x64 |
+| 0.1.9   | arm64/x64 | arm64/x64 |
+| 0.1.8   | arm64/x64 | arm64/x64 |
+| 0.1.7   | arm64/x64 | arm64/x64 |
+| 0.1.6   | arm64/x64 | arm64/x64 |
+| 0.1.5   | arm64/x64 | arm64/x64 |
+| 0.1.4   | arm64/x64 | arm64/x64 |
+| 0.1.3   | arm64/x64 | arm64/x64 |
+| 0.1.2   | arm64/x64 | arm64/x64 |
+| 0.1.1   | arm64/x64 | arm64/x64 |
+| 0.1.0   | arm64/x64 | arm64/x64 |
+| 0.0.21  | arm64/x64 |           |
+| 0.0.20  | arm64/x64 |           |
+| 0.0.19  | arm64/x64 |           |
+| 0.0.18  | arm64/x64 |           |
+| 0.0.17  | arm64/x64 |           |
+| 0.0.16  | arm64/x64 |           |
+| 0.0.15  | arm64/x64 |           |
+| 0.0.14  | arm64/x64 |           |
+| 0.0.13  | arm64/x64 |           |
+| 0.0.12  | arm64/x64 |           |
+| 0.0.11  | arm64/x64 |           |
+| 0.0.10  | arm64/x64 |           |
+| 0.0.9   | arm64/x64 |           |
+| 0.0.8   | arm64/x64 |           |
+| 0.0.7   | arm64/x64 |           |
+| 0.0.6   | arm64/x64 |           |
+| 0.0.5   | arm64/x64 |           |
+| 0.0.4   | arm64/x64 |           |
+| 0.0.3   | arm64/x64 |           |
+| 0.0.2   | arm64/x64 |           |
+| 0.0.1   | arm64/x64 |           |

@@ -37,15 +37,15 @@ npm i gobot gobot-backrest@0.14.0
 import { gobot } from 'gobot'
 gobot(`backrest`, {
   env: process.env,
-})([`--help`])
+}).run([`--help`])
 ```
 
 
 
 ## What's next
 
-- **Testing & Comments.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period.
-- **Install docs.** Please consider adding Gobot to your official install instructions. If you would like me to send a PR updating the Backrest installation docs to include instructions for installation via Gobot, I'm happy to do that.
+- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period.
+- **Update Backrest installation docs.** Please consider adding Gobot to your official install instructions. If you would like me to send a PR updating the Backrest installation docs to include instructions for installation via Gobot, I'm happy to do that.
 - **Give Gobot a 💫.** Gobot is a big effort to solve binary dependencies for nodejs in a universal way. Please consider giving [the Gobot project](https://github.com/benallfree/gobot) a star if it resonates.
 - **Keep going.** Keep doing what you do! Gobot will automatically pick up and publish your new releases.
 

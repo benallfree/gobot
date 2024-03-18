@@ -79,7 +79,7 @@ gptscript --help
 npm i -g gobot-gptscript@latest
 ```
 
-For more information, see [Gobot's full documentation](https://github.com/benallfree/gobot).
+For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.24/docs/readme.md).
 
 
 
@@ -107,11 +107,19 @@ We want to add native support for lots of binary apps!
 
 If you use publish statically linked binary releases on github, you are already 98% compatible with Gobot. In fact, Gobot may already know how to work with it.
 
-Test it out by running `npx gobot <user>/<repo> --help` (example: `gobot pocketbase/pocketbase --help` for the [https://github.com/pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) project).
+To see what initial support looks like:
 
-Make sure your release name follows these rules:
+```bash
+npx gobot <user>/<repo> --g-show-versions md --g-refresh
+```
 
-- Ends in `.zip`, `.tgz`, or `.tar.gz`
+This will index all the releases from your repo and show you exactly what Gobot sees.
+
+If you see everything you expect, you're golden. If things are missing, it may mean some custom programming. Either way, jump on [Discord](https://discord.gg/977kMmFnXc) and let us know your results.
+
+If you have the flexibility or are starting an ew project, make sure your release names follows these rules:
+
+- Ends in `.zip`, `.tgz`, `.tar.gz`, `.bz2`
 - Include the version ([semver](https://semver.org) recommended)
 - Include the platform (`freebsd`, `darwin`, `linux`, `win32`)
 - Include the architecture (`arm64`, `x64`, `ia32`, `arm`)
@@ -133,21 +141,21 @@ pnpm test
 
 `gobot-gptscript` versions mirror `gptscript` versions. Gobot knows about 16 releases of `gptscript`:
 
-| Version       | darwin    | linux     | win32 |
-| ------------- | --------- | --------- | ----- |
-| **0.2.1**     | arm64/x64 | arm64/x64 | x64   |
-| **0.2.0**     | arm64/x64 | arm64/x64 | x64   |
-| **0.2.0-rc1** | arm64/x64 | arm64/x64 | x64   |
-| **0.1.5**     | arm64/x64 | arm64/x64 | x64   |
-| **0.1.4**     | arm64/x64 | arm64/x64 | x64   |
-| **0.1.3**     | arm64/x64 | arm64/x64 | x64   |
-| **0.1.3-rc4** | arm64/x64 | arm64/x64 | x64   |
-| **0.1.3-rc3** | arm64/x64 | arm64/x64 | x64   |
-| **0.1.3-rc2** | arm64/x64 | arm64/x64 | x64   |
-| **0.1.3-rc1** | arm64/x64 | arm64/x64 | x64   |
-| **0.1.2**     | arm64/x64 | arm64/x64 | x64   |
-| **0.1.1**     | arm64/x64 | arm64/x64 | x64   |
-| **0.1.0**     | arm64/x64 | arm64/x64 | x64   |
-| **0.0.3**     | arm64/x64 | arm64/x64 | x64   |
-| **0.0.2**     | arm64/x64 | arm64/x64 | x64   |
-| **0.0.1**     | arm64/x64 | arm64/x64 | x64   |
+| Version   | darwin    | linux     | win32 |
+| --------- | --------- | --------- | ----- |
+| 0.2.1     | arm64/x64 | arm64/x64 | x64   |
+| 0.2.0     | arm64/x64 | arm64/x64 | x64   |
+| 0.2.0-rc1 | arm64/x64 | arm64/x64 | x64   |
+| 0.1.5     | arm64/x64 | arm64/x64 | x64   |
+| 0.1.4     | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3     | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3-rc4 | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3-rc3 | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3-rc2 | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3-rc1 | arm64/x64 | arm64/x64 | x64   |
+| 0.1.2     | arm64/x64 | arm64/x64 | x64   |
+| 0.1.1     | arm64/x64 | arm64/x64 | x64   |
+| 0.1.0     | arm64/x64 | arm64/x64 | x64   |
+| 0.0.3     | arm64/x64 | arm64/x64 | x64   |
+| 0.0.2     | arm64/x64 | arm64/x64 | x64   |
+| 0.0.1     | arm64/x64 | arm64/x64 | x64   |

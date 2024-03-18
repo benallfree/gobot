@@ -1,0 +1,13 @@
+{
+  "name": "hugo-gobot-sample",
+  "bin": {
+    "hugo-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "hugo": "hugo"
+  },
+  "dependencies": {
+    "gobot-hugo": "0.124.0"
+  }
+}

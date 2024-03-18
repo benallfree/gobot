@@ -43,10 +43,11 @@ export const APPS_MAP: AppInfo[] = [
     homepage: `https://gptscript.ai/`,
     isAlpha: true,
   },
-    name: `minio`,
-    description: `The Object Store for AI Data Infrastructure (server)`,
-    homepage: `https://min.io`,
-    slug: `Minio`,
+  {
+    name: `hugo`,
+    slug: `Hugo`,
+    description: `The world’s fastest framework for building websites.`,
+    homepage: `https://gohugo.io/`,
     isAlpha: true,
   },
   {
