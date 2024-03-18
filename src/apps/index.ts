@@ -40,5 +40,6 @@ export const APPS = {
   reviewdog: `reviewdog/reviewdog`,
   weaviate: `weaviate/weaviate`,
   syncthing: 'syncthing/syncthing',
+  weed: 'seaweedfs/seaweedfs',
   // #app-gen
 } as const
