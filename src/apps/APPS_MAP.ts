@@ -10,9 +10,16 @@ export type AppInfo = {
 export const APPS_MAP: AppInfo[] = [
   {
     name: `act`,
+    slug: 'Act',
     description: `Run your GitHub Actions locally 🚀`,
     homepage: `https://nektosact.com/`,
-    slug: 'Act',
+    isAlpha: true,
+  },
+  {
+    name: `age`,
+    slug: 'Age',
+    description: `A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.`,
+    homepage: `https://age-encryption.org/`,
     isAlpha: true,
   },
   {

@@ -21,6 +21,7 @@ export function isAppFactory(
 
 export const APPS = {
   act: 'nektos/act',
+  age: 'FiloSottile/age',
   AdGuardHome: `AdguardTeam/AdGuardHome`,
   backrest: `garethgeorge/backrest`,
   caddy: 'caddyserver/caddy',

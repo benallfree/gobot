@@ -1,0 +1,13 @@
+{
+  "name": "age-gobot-sample",
+  "bin": {
+    "age-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "age": "age"
+  },
+  "dependencies": {
+    "gobot-age": "1.1.1"
+  }
+}
