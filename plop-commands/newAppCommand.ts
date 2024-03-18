@@ -72,7 +72,7 @@ export function newAppCommand(plop: NodePlopAPI) {
           type: 'modify',
           path: `src/apps/index.ts`,
           pattern: /\/\/\s+#app-gen/,
-          template: `'${info.name}': '${repo}'\n  // #app-gen\n`,
+          template: `'${info.name}': '${user}/${repo}'\n  // #app-gen\n`,
           transform: (template: string) =>
             format(template, {
               ...JSON.parse(readFileSync(`.prettierrc`).toString()),
