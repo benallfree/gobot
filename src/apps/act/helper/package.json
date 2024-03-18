@@ -1,6 +1,6 @@
 {
   "name": "gobot-act",
-  "version": "0.2.60-alpha.9",
+  "version": "0.2.60-alpha.10",
   "description": "Act helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

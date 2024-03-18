@@ -1,6 +1,6 @@
 {
   "name": "gobot-fzf",
-  "version": "0.48.1-alpha.9",
+  "version": "0.48.1-alpha.10",
   "description": "fzf helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

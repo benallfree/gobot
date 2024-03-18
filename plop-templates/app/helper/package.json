@@ -1,6 +1,6 @@
 {
   "name": "gobot-{{lowerCase name}}",
-  "version": "{{version}}{{#if isAlpha}}-alpha.9{{/if}}",
+  "version": "{{version}}{{#if isAlpha}}-alpha.10{{/if}}",
   "description": "{{slug}} helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

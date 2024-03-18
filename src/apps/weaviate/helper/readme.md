@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.24/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.25/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-weaviate) ![](https://img.shields.io/npm/dt/gobot-weaviate) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -81,13 +81,13 @@ weaviate --help
 npm i -g gobot-weaviate@latest
 ```
 
-For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.24/docs/readme.md).
+For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.25/docs/readme.md).
 
 
 
 ## Sample project
 
-View the [Weaviate sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.24/src/apps/weaviate/sample-project) on github.
+View the [Weaviate sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.25/src/apps/weaviate/sample-project) on github.
 
 ## Try Gobot's other apps
 
