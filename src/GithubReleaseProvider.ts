@@ -1,7 +1,7 @@
 import { forEach } from '@s-libs/micro-dash'
 import { join, resolve } from 'path'
 import { valid } from 'semver'
-import type { ArchKey, PlatformKey, StoredRelease } from './Gobot'
+import { ArchKey, Gobot, PlatformKey, StoredRelease } from './Gobot'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { mkdir } from './util/shell'
@@ -82,8 +82,6 @@ export type PlatformMap = typeof DEFAULT_PLATFORM_MAP
 export type GithubReleaseProviderOptions = {
   platformMap: PlatformMap
 }
-
-const ALLOWED_EXTS = [`.zip`, `.tgz`, `.tar.gz`, `.bz2`]
 
 export class GithubReleaseProvider {
   protected repo: string
@@ -166,7 +164,7 @@ export class GithubReleaseProvider {
   }
 
   get allowedExts() {
-    return ALLOWED_EXTS
+    return Gobot.ALLOWED_EXTS
   }
 
   isArchiveUrlAllowed(url: string) {

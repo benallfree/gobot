@@ -5,6 +5,7 @@ import decompress from 'decompress'
 import decompressBz2 from 'decompress-bzip2'
 import decompressTarbz2 from 'decompress-tarbz2'
 import decompressTargz from 'decompress-targz'
+import decompressTarxz from 'decompress-tarxz'
 import decompressUnzip from 'decompress-unzip'
 import envPaths from 'env-paths'
 import {
@@ -244,6 +245,7 @@ export class Gobot {
     return downloadPath
   }
 
+  static ALLOWED_EXTS = [`.zip`, `.tgz`, `.tar.gz`, `.bz2`, `.tar.xz`]
   async unpack(downloadPath: string, version: string) {
     info(`Unpacking ${downloadPath}`)
     await decompress(downloadPath, this.downloadRoot(version), {
@@ -251,6 +253,7 @@ export class Gobot {
         decompressTargz(),
         decompressUnzip(),
         decompressTarbz2(),
+        decompressTarxz(),
         decompressBz2({ path: join(dirname(downloadPath), this.name) }),
       ],
     })
