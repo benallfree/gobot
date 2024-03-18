@@ -1,5 +1,5 @@
 export function extractUserAndRepo(url: string) {
-  const regex = /^(?:https?:\/\/)?github\.com\/([^/]+)\/([^/]+).*$/
+  const regex = /^(?:https?:\/\/)?(?:github\.com\/|github:)?([^/]+)\/([^/]+).*$/
   const match = url.match(regex)
   if (match) {
     return {
