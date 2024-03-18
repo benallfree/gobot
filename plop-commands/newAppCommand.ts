@@ -20,6 +20,18 @@ export function newAppCommand(plop: NodePlopAPI) {
     return `${path} written`
   })
 
+  function adjustCapitalization(word: string, reference: string) {
+    // Check if the word exists in the reference string with any capitalization
+    const regex = new RegExp(`\\b${word}\\b`, 'i')
+    const match = reference.match(regex)
+
+    // If the word is found in the reference string
+    if (match) {
+      return match[0]! // Return the matched word
+    }
+    return word
+  }
+
   plop.setGenerator(`add`, {
     description: `Add a new app`,
     prompts: [
@@ -38,7 +50,7 @@ export function newAppCommand(plop: NodePlopAPI) {
       const data = (await res.json()) as any
       const info: AppInfo = {
         name: data.name,
-        slug: data.name,
+        slug: adjustCapitalization(data.name, data.description),
         description: data.description,
         homepage: data.homepage,
         isAlpha: true,
