@@ -7,7 +7,7 @@ export type AppInfo = {
   version?: string
 }
 
-export const APPS_MAP: readonly AppInfo[] = [
+export const APPS_MAP: AppInfo[] = [
   {
     name: `act`,
     slug: 'Act',
@@ -149,4 +149,4 @@ export const APPS_MAP: readonly AppInfo[] = [
     isAlpha: true,
   },
   // #app-gen
-] as const
+]
