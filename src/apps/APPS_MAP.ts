@@ -164,5 +164,13 @@ export const APPS_MAP: AppInfo[] = [
     homepage: 'https://cuelang.org',
     isAlpha: true,
   },
+  {
+    name: 'kopia',
+    slug: 'kopia',
+    description:
+      'Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.',
+    homepage: 'https://kopia.io',
+    isAlpha: true,
+  },
   // #app-gen
 ]

@@ -1,0 +1,13 @@
+{
+  "name": "kopia-gobot-sample",
+  "bin": {
+    "kopia-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "kopia": "kopia"
+  },
+  "dependencies": {
+    "gobot-kopia": "0.15.0"
+  }
+}

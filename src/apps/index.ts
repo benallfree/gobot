@@ -42,5 +42,6 @@ export const APPS = {
   syncthing: 'syncthing/syncthing',
   weed: 'seaweedfs/seaweedfs',
   cue: 'cue-lang/cue',
+  kopia: 'kopia/kopia',
   // #app-gen
 } as const

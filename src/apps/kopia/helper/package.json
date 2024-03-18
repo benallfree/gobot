@@ -1,0 +1,39 @@
+{
+  "name": "gobot-kopia",
+  "version": "0.15.0-alpha.13",
+  "description": "kopia helper for Gobot",
+  "type": "module",
+  "main": "dist/api.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
+    "dev": "tsx ./src/cli.ts",
+    "test": "npm pack && npm rm -g gobot-kopia && npm i -g gobot-kopia-0.15.0.tgz && kopia --g-refresh --g-vvv --help",
+    "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
+  },
+  "bin": {
+    "kopia": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/benallfree/gobot/tree/main/src/apps/kopia/helper"
+  },
+  "keywords": [
+    "gobot",
+    "kopia"
+  ],
+  "author": "Ben Allfree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benallfree/gobot/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/gobot-kopia",
+  "dependencies": {
+    "gobot": "*"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  }
+}
