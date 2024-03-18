@@ -83,6 +83,11 @@ npm i -g gobot-weed@latest
 
 For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.28/docs/readme.md).
 
+## Quirks
+
+### Versioning
+
+SeaweedFS uses two-part versions, but Gobot and npm require three-part semver. A `.0` _patch_ part has been added for compatibility.
 
 
 ## Sample project
