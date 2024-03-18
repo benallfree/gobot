@@ -1,0 +1,13 @@
+{
+  "name": "syncthing-gobot-sample",
+  "bin": {
+    "syncthing-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "syncthing": "syncthing"
+  },
+  "dependencies": {
+    "gobot-syncthing": "1.27.5-rc.1"
+  }
+}
