@@ -52,7 +52,7 @@ In rare cases, you may want to intentionally run a different version of `{{name}
 
 ```js
 // Run a specific version (override)
-gobot(`{{name}}`, { version: `0.19.4` }).run([`--version`])
+gobot(`{{name}}`, { version: `{{version}}` }).run([`--version`])
 
 // Or the latest version (override)
 gobot(`{{name}}`, { version: `*` }).run([`--version`])
