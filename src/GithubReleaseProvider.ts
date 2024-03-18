@@ -174,7 +174,7 @@ export class GithubReleaseProvider {
   }
 
   platformRegex(arch: ArchKey, aliases: string[]) {
-    return new RegExp(`[_-](?:${aliases.join(`|`)})[_\\-.]`, 'i')
+    return new RegExp(`[_\\-\\/](${aliases.join('|')})[_\\-.]`, 'i')
   }
 
   archRegex(os: PlatformKey, aliases: string[]) {
