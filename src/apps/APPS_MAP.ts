@@ -121,6 +121,13 @@ export const APPS_MAP: AppInfo[] = [
     isAlpha: true,
   },
   {
+    name: `reviewdog`,
+    slug: `reviewdog`,
+    description: `🐶 Automated code review tool integrated with any code analysis tools regardless of programming language`,
+    homepage: `https://medium.com/@haya14busa/reviewdog-a-code-review-dog-who-keeps-your-codebase-healthy-d957c471938b#.8xctbaw5u`,
+    isAlpha: true,
+  },
+  {
     name: `weaviate`,
     slug: `Weaviate`,
     description: `Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients.`,

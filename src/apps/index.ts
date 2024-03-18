@@ -36,5 +36,6 @@ export const APPS = {
   pulumi: `pulumi/pulumi`,
   rclone: `rclone/rclone`,
   restic: 'restic/restic',
+  reviewdog: `reviewdog/reviewdog`,
   weaviate: `weaviate/weaviate`,
 } as const

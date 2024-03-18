@@ -1,0 +1,13 @@
+{
+  "name": "reviewdog-gobot-sample",
+  "bin": {
+    "reviewdog-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "reviewdog": "reviewdog"
+  },
+  "dependencies": {
+    "gobot-reviewdog": "0.17.2"
+  }
+}
