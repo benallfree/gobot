@@ -7,7 +7,7 @@ export type AppInfo = {
   version?: string
 }
 
-export const APPS_MAP: AppInfo[] = [
+export const APPS_MAP: readonly AppInfo[] = [
   {
     name: `act`,
     slug: 'Act',
@@ -141,5 +141,12 @@ export const APPS_MAP: AppInfo[] = [
     homepage: `https://weaviate.io`,
     isAlpha: true,
   },
+  {
+    name: 'syncthing',
+    slug: 'syncthing',
+    description: 'Open Source Continuous File Synchronization',
+    homepage: 'https://forum.syncthing.net/',
+    isAlpha: true,
+  },
   // #app-gen
-]
+] as const
