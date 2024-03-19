@@ -1,0 +1,13 @@
+{
+  "name": "duf-gobot-sample",
+  "bin": {
+    "duf-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "duf": "duf"
+  },
+  "dependencies": {
+    "gobot-duf": "0.8.1"
+  }
+}
