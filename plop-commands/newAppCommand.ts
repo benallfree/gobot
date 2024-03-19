@@ -48,41 +48,44 @@ export function newAppCommand(plop: NodePlopAPI) {
       if (!answers) throw new Error(`Answers expected here`)
       const { _name, _custom } = answers
       const { user, repo } = extractUserAndRepo(_name)
+      const slug = repo.toLocaleLowerCase()
       const url = `https://api.github.com/repos/${user}/${repo}`
       const res = await fetch(url)
-      const data = (await res.json()) as any
+      const apiData = (await res.json()) as any
       const info: AppInfo = {
-        name: adjustCapitalization(data.name, data.description),
-        description: data.description,
-        homepage: data.homepage || data.html_url,
+        name: adjustCapitalization(apiData.name, apiData.description),
+        description: apiData.description,
+        homepage: apiData.homepage || apiData.html_url,
         isAlpha: true,
         factory: `\`${user}/${repo}\``,
       }
 
+      const data = { ...info, slug, user }
       const actions: ActionType[] = [
         {
           type: GEN_APP_LOGO,
-          path: `src/apps/${info.name}/logo.webp`,
-          data,
+          path: `src/apps/${slug}/logo.webp`,
+          data: apiData,
         },
         {
           type: 'add',
-          path: `src/apps/{{slug}}/index.ts`,
+          path: `src/apps/${slug}/index.ts`,
           templateFile: `./plop-templates/app/index.ts`,
           force: true,
-          data: { ...info, slug: repo, user },
+          data,
         },
       ]
 
       if (_custom) {
         actions.push({
           type: 'add',
-          path: `src/apps/{{slug}}/overrides.ts`,
+          path: `src/apps/${slug}/overrides.ts`,
           templateFile: `./plop-templates/app/overrides.ts`,
           force: true,
-          data: { ...info, slug: repo, user },
+          data,
         })
       }
+      console.log({ actions })
 
       return actions
     },
