@@ -7,18 +7,24 @@ import {
 } from '../../src/GithubReleaseProvider'
 import { AppInfo, gobot } from '../../src/api'
 import { getCurrentGitBranch } from './getCurrentGitBranch'
-import { availableAppsMd, cliOptionsMd, postambleMd } from './readme'
+import {
+  availableAppsMd,
+  cliGlobalOptionsMd,
+  cliOptionsMd,
+  postambleMd,
+} from './readme'
 
 export async function buildData(plop: NodePlopAPI) {
   const branch = getCurrentGitBranch()
 
   const data = {
-    cliOptionsMd: cliOptionsMd,
+    cliOptionsMd,
     branch,
     platforms: keys(DEFAULT_PLATFORM_MAP),
     architectures: keys(SUPPORTED_ARCH),
     availableAppsMd: '',
     postambleMd: '',
+    cliGlobalOptionsMd,
   }
 
   data.postambleMd = plop.renderString(postambleMd, data)

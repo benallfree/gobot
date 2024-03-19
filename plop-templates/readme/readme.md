@@ -115,9 +115,21 @@ gobot(`pocketbase`).run([`--help`])
 
 ## CLI
 
-### `gobot [gobotOptions] <app> [appOptions]`
+Note: All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
+
+{{globalOptionsMd}}
+
+### `gobot <app> [gobotOptions] [appOptions]`
 
 {{{cliOptionsMd}}}
+
+### `gobot inspect <app> [gobotOptions]`
+
+| Option                  | Default       | Discussion                                   |
+| ----------------------- | ------------- | -------------------------------------------- |
+| `--g-help`              | Show help     | Display help and options for Gobot           |
+| `--g-v[vv]`             |               | Adjust output verbosity                      |
+| `--g-cache-path <path>` | host specific | Use the specified directory for cache files. |
 
 **Examples**
 

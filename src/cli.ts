@@ -4,7 +4,7 @@ import { Command } from 'commander'
 import { arch, platform } from 'os'
 import { exit } from 'process'
 import json from '../package.json'
-import { Gobot, VersionFormat } from './Gobot'
+import { Gobot } from './Gobot'
 import { gobot } from './api'
 import { getAppVersion } from './util/getAppVersion'
 import { dbg } from './util/log'
@@ -21,6 +21,36 @@ const main = async () => {
     .allowExcessArguments()
 
   program
+    .command(`inspect`)
+    .argument(`appName <appName>`, `The name of the app to run`)
+    .description(`Inspect an app's information`)
+    .option(`--g-v`, `Show informational output`, true)
+    .option(`--g-vv`, `Show even more output`, false)
+    .option(`--g-vvv`, `Show even more output`, false)
+    .option(
+      `--g-cache-path <path>`,
+      `The cache path to use (default root: ${Gobot.DEFAULT_GOBOT_CACHE_ROOT()})`,
+      undefined,
+    )
+    .action(async (appName, options, command) => {
+      const { gV, gVv, gVvv, gCachePath: cachePath } = options
+      Gobot.verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
+      dbg(`App name:`, appName)
+      dbg(`CLI:`, appName, options)
+
+      try {
+        const bot = gobot(appName, {
+          cachePath,
+          env: process.env,
+        })
+        bot.clearCache()
+        const fmt = await bot.versions('md')
+        console.log(fmt)
+      } catch (e) {
+        console.error(`${e}`)
+      }
+    })
+  program
     .command(`run`, { isDefault: true })
     .argument(`appName <appName>`, `The name of the app to run`)
     .description(`Run binaries`)
@@ -35,17 +65,6 @@ const main = async () => {
       `--g-download`,
       `Download all matching versions (semver range)`,
       false,
-    )
-    .option(
-      `--g-show-versions <fmt>`,
-      `Output in JSON format`,
-      (v) => {
-        if (!Gobot.VERSION_FORMATS.includes(v as VersionFormat)) {
-          throw new Error(`${v} is not a supported type`)
-        }
-        return v as VersionFormat
-      },
-      ``,
     )
     .option(`--g-v`, `Show informational output`, true)
     .option(`--g-vv`, `Show even more output`, false)
@@ -69,7 +88,6 @@ const main = async () => {
         gRefresh: refresh,
         gCachePath: cachePath,
         gDownload: download,
-        gShowVersions: showVersions,
       } = options
       Gobot.verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
       dbg(`App name:`, appName)
@@ -88,11 +106,6 @@ const main = async () => {
         }
         if (download) {
           await bot.download()
-          exit(0)
-        }
-        if (showVersions) {
-          const fmt = await bot.versions(showVersions)
-          console.log(fmt)
           exit(0)
         }
         const args = command.args.slice(1)

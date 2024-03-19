@@ -33,3 +33,7 @@ export const postambleMd = readFileSync(
 export const cliOptionsMd = readFileSync(
   `plop-templates/readme/cli_options.md`,
 ).toString()
+
+export const cliGlobalOptionsMd = readFileSync(
+  `plop-templates/readme/cli_global_options.md`,
+).toString()
