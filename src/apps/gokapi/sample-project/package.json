@@ -1,0 +1,13 @@
+{
+  "name": "gokapi-gobot-sample",
+  "bin": {
+    "gokapi-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "gokapi": "gokapi"
+  },
+  "dependencies": {
+    "gobot-gokapi": "1.8.1"
+  }
+}
