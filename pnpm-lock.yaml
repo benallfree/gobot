@@ -28,6 +28,9 @@ dependencies:
   decompress-bzip2:
     specifier: ^4.0.0
     version: 4.0.0
+  decompress-gz:
+    specifier: ^0.0.1
+    version: 0.0.1
   decompress-tar:
     specifier: 4.1.1
     version: 4.1.1
@@ -1657,6 +1660,13 @@ packages:
     dependencies:
       file-type: 4.4.0
       seek-bzip: 1.0.6
+    dev: false
+
+  /decompress-gz@0.0.1:
+    resolution: {integrity: sha512-YMdCWdxHvPplsTbV1tvr2oFJOtAFNxqVMFnKWEmePBXl+LKG5z5bFrowzc12Jzd7O29nnzI/D1M95Asx0Qa1fg==}
+    engines: {node: '>=4'}
+    dependencies:
+      file-type: 5.2.0
     dev: false
 
   /decompress-tar@4.1.1:

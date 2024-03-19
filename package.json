@@ -38,6 +38,7 @@
     "commander": "^12.0.0",
     "decompress": "^4.2.1",
     "decompress-bzip2": "^4.0.0",
+    "decompress-gz": "^0.0.1",
     "decompress-tar": "4.1.1",
     "decompress-tarbz2": "^4.1.1",
     "decompress-targz": "^4.1.1",

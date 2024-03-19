@@ -3,6 +3,7 @@ import Bottleneck from 'bottleneck'
 import { spawn } from 'child_process'
 import decompress from 'decompress'
 import decompressBz2 from 'decompress-bzip2'
+import decompressGz from 'decompress-gz'
 import decompressTarbz2 from 'decompress-tarbz2'
 import decompressTargz from 'decompress-targz'
 import decompressUnzip from 'decompress-unzip'
@@ -63,6 +64,7 @@ export const COMPRESSED_ARCHIVE_EXTS = [
   `.tar.gz`,
   `.bz2`,
   `.tar.xz`,
+  `.gz`,
 ]
 
 /**
@@ -261,6 +263,7 @@ export class Gobot {
         decompressTarbz2(),
         decompressTarxz(),
         decompressBz2({ path: join(dirname(downloadPath), this.name) }),
+        decompressGz(),
       ],
     })
   }
