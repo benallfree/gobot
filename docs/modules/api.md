@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:82](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/GithubReleaseProvider.ts#L82)
+[GithubReleaseProvider.ts:87](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/GithubReleaseProvider.ts#L87)
 
 ## Functions
 

@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:15](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/GithubReleaseProvider.ts#L15)
+[GithubReleaseProvider.ts:20](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/GithubReleaseProvider.ts#L20)
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:14](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/GithubReleaseProvider.ts#L14)
+[GithubReleaseProvider.ts:19](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/GithubReleaseProvider.ts#L19)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:13](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/GithubReleaseProvider.ts#L13)
+[GithubReleaseProvider.ts:18](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/GithubReleaseProvider.ts#L18)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:12](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/GithubReleaseProvider.ts#L12)
+[GithubReleaseProvider.ts:17](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/GithubReleaseProvider.ts#L17)

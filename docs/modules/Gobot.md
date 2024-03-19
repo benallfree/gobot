@@ -15,6 +15,10 @@
 - [StoredRelease](Gobot.md#storedrelease)
 - [VersionFormat](Gobot.md#versionformat)
 
+### Variables
+
+- [COMPRESSED\_ARCHIVE\_EXTS](Gobot.md#compressed_archive_exts)
+
 ### Functions
 
 - [mkGobot](Gobot.md#mkgobot)
@@ -66,6 +70,16 @@ ___
 
 [Gobot.ts:58](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L58)
 
+## Variables
+
+### COMPRESSED\_ARCHIVE\_EXTS
+
+• `Const` **COMPRESSED\_ARCHIVE\_EXTS**: `string`[]
+
+#### Defined in
+
+[Gobot.ts:60](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L60)
+
 ## Functions
 
 ### mkGobot
@@ -85,4 +99,4 @@ ___
 
 #### Defined in
 
-[Gobot.ts:430](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L430)
+[Gobot.ts:437](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L437)
