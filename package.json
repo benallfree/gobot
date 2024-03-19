@@ -16,7 +16,7 @@
     "base": "pnpm clean && concurrently 'pnpm:plop:transpile' 'pnpm:build:gobot'",
     "build": "pnpm base && pnpm plop build all",
     "paq": "pnpm build && pnpm plop pack all",
-    "publish": "pnpm pack && pnpm plop publish all",
+    "publish": "pnpm paq && pnpm plop publish all",
     "plop": "plop",
     "watch": "tsup-node --watch .",
     "dev": "pnpm build:gobot && node dist/cli.js",

@@ -11,7 +11,6 @@ import { mkSubcommander } from './util/mkSubcommander'
 export const publishCommand = (plop: NodePlopAPI) => {
   const dryRun = !boolean(process.env.CONFIRM)
   const registry = process.env.REGISTRY || 'verdaccio'
-  console.log({ dryRun, registry })
   const r =
     registry === 'npm'
       ? `--registry=https://registry.npmjs.org/`
@@ -23,7 +22,6 @@ export const publishCommand = (plop: NodePlopAPI) => {
 
   const PUBLISH = localAction(plop, async (answers, config, plop) => {
     const { path, tag } = config
-    console.log({ path, tag }, globSync(path))
     await Promise.all(
       globSync(path).map((tgz) =>
         limiter.schedule(async () => {
