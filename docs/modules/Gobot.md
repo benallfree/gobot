@@ -99,4 +99,4 @@ ___
 
 #### Defined in
 
-[Gobot.ts:440](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L440)
+[Gobot.ts:446](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L446)
