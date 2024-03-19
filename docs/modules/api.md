@@ -56,7 +56,7 @@ Re-exports [GobotOptions](../interfaces/Gobot.GobotOptions.md)
 
 #### Defined in
 
-[apps/index.ts:4](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/apps/index.ts#L4)
+[apps/index.ts:4](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/apps/index.ts#L4)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:87](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/GithubReleaseProvider.ts#L87)
+[GithubReleaseProvider.ts:87](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L87)
 
 ## Functions
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[util/botrun.ts:15](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/util/botrun.ts#L15)
+[util/botrun.ts:15](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/util/botrun.ts#L15)
 
 ___
 
@@ -117,7 +117,7 @@ An instance of GobotBase
 
 #### Defined in
 
-[api.ts:33](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/api.ts#L33)
+[api.ts:33](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/api.ts#L33)
 
 ___
 
@@ -147,7 +147,7 @@ skipping`undefined` values.
 
 #### Defined in
 
-[util/mergeConfig.ts:9](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/util/mergeConfig.ts#L9)
+[util/mergeConfig.ts:9](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/util/mergeConfig.ts#L9)
 
 ___
 
@@ -180,4 +180,4 @@ ___
 
 #### Defined in
 
-[api.ts:71](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/api.ts#L71)
+[api.ts:71](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/api.ts#L71)

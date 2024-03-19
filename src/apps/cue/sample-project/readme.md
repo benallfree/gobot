@@ -3,5 +3,5 @@
 Features:
 
 - Demo `"bin"` script
-- Shows how to run `cue` programmatically using the [Gobot API](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.31/docs/readme.md).
+- Shows how to run `cue` programmatically using the [Gobot API](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.32/docs/readme.md).
 - Shows how to add [gobot-cue](https://www.npmjs.com/package/gobot-cue) as a version-locked dependency.

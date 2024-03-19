@@ -1,6 +1,6 @@
 {
   "name": "gobot-gotify",
-  "version": "2.2.3-alpha.16",
+  "version": "2.2.3-alpha.17",
   "description": "Gotify helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

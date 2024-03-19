@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.31/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.32/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-backrest) ![](https://img.shields.io/npm/dt/gobot-backrest) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -86,13 +86,13 @@ backrest --help
 npm i -g gobot-backrest@latest
 ```
 
-For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/docs/readme.md).
+For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/docs/readme.md).
 
 
 
 ## Sample project
 
-View the [Backrest sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.31/src/apps/backrest/sample-project) on github.
+View the [Backrest sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.32/src/apps/backrest/sample-project) on github.
 
 ## Try Gobot's other apps
 
