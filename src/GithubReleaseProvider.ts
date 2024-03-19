@@ -226,12 +226,19 @@ export class GithubReleaseProvider {
 
   protected extractVersionFromTag(tag: string) {
     const version = [0, 0, 0]
-    const actual = tag.replace(/^v(.*)/, '$1').split('.')
+    const [_actual, ..._pre] = tag.replace(/^v(.*)/, '$1').split(`-`)
+    if (!_actual) {
+      throw new Error(`Unable to find version in tag ${tag}`)
+    }
+    const actual = _actual.split('.')
 
     actual.forEach((v, i) => {
       version[i] = parseInt(v, 10) || 0
     })
 
-    return version.join('.')
+    const final = [version.join('.'), _pre.join(`-`)]
+      .filter((v) => !!v)
+      .join(`-`)
+    return final
   }
 }
