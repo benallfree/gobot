@@ -19,7 +19,6 @@ export function inspectCommand(plop: NodePlopAPI) {
       const bot = mkGobot(`${user}/${repo}`)
       bot.clearCache()
       const md = await bot.versions(`md`)
-      console.log(md)
       return []
     },
   })
