@@ -422,6 +422,11 @@ export class Gobot {
       return
     }
 
+    // Ensure the binary is executable
+    if (this.os !== 'win32') {
+      chmodSync(fname, '755')
+    }
+
     dbg(`Running${fname}`)
     dbg(`Original args`, args)
     const _filteredArgs = this.filterArgs(args)
