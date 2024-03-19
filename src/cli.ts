@@ -45,6 +45,7 @@ const main = async () => {
         })
         bot.clearCache()
         const fmt = await bot.versions('md')
+        console.log(fmt)
       } catch (e) {
         console.error(`${e}`)
       }
