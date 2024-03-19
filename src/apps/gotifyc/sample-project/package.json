@@ -1,0 +1,13 @@
+{
+  "name": "gotifyc-gobot-sample",
+  "bin": {
+    "gotifyc-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "gotifyc": "gotifyc"
+  },
+  "dependencies": {
+    "gobot-gotifyc": "2.2.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "gotify-gobot-sample",
+  "bin": {
+    "gotify-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "gotify": "gotify"
+  },
+  "dependencies": {
+    "gobot-gotify": "2.2.3"
+  }
+}
