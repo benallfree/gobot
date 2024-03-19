@@ -56,7 +56,7 @@ export function newAppCommand(plop: NodePlopAPI) {
         description: data.description,
         homepage: data.homepage || data.html_url,
         isAlpha: true,
-        factory: `${user}/${repo}`,
+        factory: `\`${user}/${repo}\``,
       }
 
       const actions: ActionType[] = [

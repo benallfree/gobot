@@ -5,5 +5,5 @@ export const {{slug}}: AppInfo = {
   description: `{{description}}`,
   homepage: `{{homepage}}`,
   isAlpha: true,
-  factory: {{factory}},
+  factory: {{{factory}}},
 }
