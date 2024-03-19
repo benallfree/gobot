@@ -172,5 +172,29 @@ export const APPS_MAP: AppInfo[] = [
     homepage: 'https://kopia.io',
     isAlpha: true,
   },
+  {
+    name: 'sftpgo',
+    slug: 'sftpgo',
+    description:
+      'Fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob',
+    homepage: 'https://github.com/drakkan/sftpgo',
+    isAlpha: true,
+  },
+  {
+    name: 'sftpgo',
+    slug: 'sftpgo',
+    description:
+      'Fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob',
+    homepage: 'https://github.com/drakkan/sftpgo',
+    isAlpha: true,
+  },
+  {
+    name: 'sftpgo',
+    slug: 'sftpgo',
+    description:
+      'Fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob',
+    homepage: 'https://github.com/drakkan/sftpgo',
+    isAlpha: true,
+  },
   // #app-gen
 ]

@@ -4,6 +4,7 @@ import { mkMinioClientBot } from './mc/mkMinioClientBot'
 import { mkMinioServerBot } from './minio/mkMinioServerBot'
 import { mkOllamaBot } from './ollama/factory'
 import { mkPocketBaseBot } from './pocketbase/PocketBaseBot'
+import { mksftpgo } from './sftpgo'
 
 export type AppKey = keyof typeof APPS
 
@@ -43,5 +44,6 @@ export const APPS = {
   weed: 'seaweedfs/seaweedfs',
   cue: 'cue-lang/cue',
   kopia: 'kopia/kopia',
+  sftpgo: mksftpgo,
   // #app-gen
 } as const
