@@ -1,0 +1,40 @@
+{
+  "name": "gobot-gotop",
+  "version": "4.2.0-alpha.16",
+  "description": "gotop helper for Gobot",
+  "type": "module",
+  "main": "dist/api.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
+    "dev": "tsx ./src/cli.ts",
+    "test": "npm pack && npm rm -g gobot-gotop && npm i -g gobot-gotop-4.2.0.tgz && gotop --g-refresh --g-vvv --help",
+    "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
+  },
+  "bin": {
+    "gotop": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/benallfree/gobot/tree/main/src/apps/gotop/helper"
+  },
+  "keywords": [
+    "gobot",
+    "gotop",
+    "gotop"
+  ],
+  "author": "Ben Allfree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benallfree/gobot/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/gobot-gotop",
+  "dependencies": {
+    "gobot": "*"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  }
+}

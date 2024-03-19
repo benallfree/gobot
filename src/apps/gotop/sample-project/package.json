@@ -1,0 +1,13 @@
+{
+  "name": "gotop-gobot-sample",
+  "bin": {
+    "gotop-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "gotop": "gotop"
+  },
+  "dependencies": {
+    "gobot-gotop": "4.2.0"
+  }
+}
