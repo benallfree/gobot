@@ -16,5 +16,5 @@
     "skipLibCheck": true
   },
   "include": ["./src", "./package.json", "**/*.ts"],
-  "exclude": ["./build", "**/helper", "./dist"]
+  "exclude": ["./build", "**/helper", "./dist", "plop-templates"]
 }

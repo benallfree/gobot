@@ -11,8 +11,8 @@ _Manage and run binaries as `package.json` npm dependencies. CLI and API interfa
 - [Introduction](#introduction)
 - [Quickstart](#quickstart)
 - [CLI](#cli)
-  - [gobot [gobotOptions] <app> [appOptions]](#gobot-gobotoptions-app-appoptions)
-- [API](#api)
+  - [gobot \<app> [gobotOptions] [appOptions]](#gobot-gobotoptions-app-appoptions)
+  - [gobot inspect \<app> [gobotOptions]](#gobot-inspect-app-gobotoptions)
 - [Official Gobot Apps](#official-gobot-apps)
 - [Why?](#why)
 - [Technical Notes](#technical-notes)
@@ -115,21 +115,23 @@ gobot(`pocketbase`).run([`--help`])
 
 ## CLI
 
-### `gobot [gobotOptions] <app> [appOptions]`
+Note: All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
+
+
+
+### `gobot <app> [gobotOptions] [appOptions]`
+
+Run `<app>`. Gobot will download and cache the specific platform, architecture, and version you request and defaults to the latest version for the host platform and architecture.
 
 All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
 
-| Option                    | Default       | Discussion                                                                                                                                                                                           |
-| ------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--g-help`                | Show help     | Display help and options for Gobot                                                                                                                                                                   |
-| `--g-os <os>`             | host OS       | `aix`, `darwin`, `freebsd`,`linux`, `openbsd`, `sunos`, and `win32`                                                                                                                                  |
-| `--g-arch <arch>`         | host arch     | `arm`, `arm64`, `ia32`, `loong64`, `mips`, `mipsel`, `ppc`, `ppc64`, `riscv64`, `s390`, `s390x`, and `x64`                                                                                           |
-| `--g-v[vv]`               |               | Adjust output verbosity                                                                                                                                                                              |
-| `--g-download`            | `false`       | Download all matching versions and exit                                                                                                                                                              |
-| `--g-refresh`             | `false`       | Clear the gobot cache                                                                                                                                                                                |
-| `--g-use-version`         | latest        | Run a specific binary version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*`                                         |
-| `--g-show-versions <fmt>` | `md`          | Show available versions of `<app>`. Possible `<fmt>` values are: {{codecsv bot.VERSION_FORMATS}}. When choosing `md`, it will display a table of versions, platforms, and architecture availability. |
-| `--g-cache-path <path>`   | host specific | Use the specified directory for cache files.                                                                                                                                                         |
+| Option            | Default   | Discussion                                                                                                                                                   |
+| ----------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `--g-os <os>`     | host OS   | `aix`, `darwin`, `freebsd`,`linux`, `openbsd`, `sunos`, and `win32`                                                                                          |
+| `--g-arch <arch>` | host arch | `arm`, `arm64`, `ia32`, `loong64`, `mips`, `mipsel`, `ppc`, `ppc64`, `riscv64`, `s390`, `s390x`, and `x64`                                                   |
+| `--g-download`    | `false`   | Download all matching versions and exit                                                                                                                      |
+| `--g-refresh`     | `false`   | Clear the gobot cache                                                                                                                                        |
+| `--g-use-version` | latest    | Run a specific binary version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
 
 
 **Examples**
@@ -149,6 +151,16 @@ npx gobot pocketbase --g-use-version="0.*" # Run highest 0.y.z
 # Force gobot to dump cache and refresh PocketBase tags and binaries
 npx gobot pocketbase --g-refresh
 ```
+
+### `gobot inspect <app> [gobotOptions]`
+
+Output metadata info about `<app>`, including unofficial apps. This command is helpful for exploring support for new apps.
+
+| Option                  | Default       | Discussion                                   |
+| ----------------------- | ------------- | -------------------------------------------- |
+| `--g-help`              | Show help     | Display help and options for Gobot           |
+| `--g-v[vv]`             |               | Adjust output verbosity                      |
+| `--g-cache-path <path>` | host specific | Use the specified directory for cache files. |
 
 ## API
 
@@ -180,6 +192,9 @@ These apps have single-token names and dedicated helper packages to assist with 
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.28/src/apps/rclone/logo-50x.webp">](https://rclone.org/)                                                                                                   | `rclone`      | rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files                                                                                                                                                                                     | [readme](https://www.npmjs.com/package/gobot-rclone)      |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.28/src/apps/restic/logo-50x.webp">](https://restic.net/)                                                                                                   | `restic`      | Fast, secure, efficient backup program.                                                                                                                                                                                                                                                                                     | [readme](https://www.npmjs.com/package/gobot-restic)      |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.28/src/apps/reviewdog/logo-50x.webp">](https://medium.com/@haya14busa/reviewdog-a-code-review-dog-who-keeps-your-codebase-healthy-d957c471938b#.8xctbaw5u) | `reviewdog`   | 🐶 Automated code review tool integrated with any code analysis tools regardless of programming language                                                                                                                                                                                                                    | [readme](https://www.npmjs.com/package/gobot-reviewdog)   |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.28/src/apps/sftpgo/logo-50x.webp">](https://github.com/drakkan/sftpgo)                                                                                     | `sftpgo`      | Fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob                                                                                                                                                                                    | [readme](https://www.npmjs.com/package/gobot-sftpgo)      |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.28/src/apps/sftpgo/logo-50x.webp">](https://github.com/drakkan/sftpgo)                                                                                     | `sftpgo`      | Fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob                                                                                                                                                                                    | [readme](https://www.npmjs.com/package/gobot-sftpgo)      |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.28/src/apps/sftpgo/logo-50x.webp">](https://github.com/drakkan/sftpgo)                                                                                     | `sftpgo`      | Fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob                                                                                                                                                                                    | [readme](https://www.npmjs.com/package/gobot-sftpgo)      |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.28/src/apps/syncthing/logo-50x.webp">](https://forum.syncthing.net/)                                                                                       | `syncthing`   | Open Source Continuous File Synchronization                                                                                                                                                                                                                                                                                 | [readme](https://www.npmjs.com/package/gobot-syncthing)   |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.28/src/apps/weaviate/logo-50x.webp">](https://weaviate.io)                                                                                                 | `weaviate`    | Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients.                                    | [readme](https://www.npmjs.com/package/gobot-weaviate)    |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.28/src/apps/weed/logo-50x.webp">](https://github.com/seaweedfs/seaweedfs)                                                                                  | `weed`        | SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, cross-DC active-active replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding. | [readme](https://www.npmjs.com/package/gobot-weed)        |

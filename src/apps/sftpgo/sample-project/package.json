@@ -1,0 +1,13 @@
+{
+  "name": "sftpgo-gobot-sample",
+  "bin": {
+    "sftpgo-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "sftpgo": "sftpgo"
+  },
+  "dependencies": {
+    "gobot-sftpgo": "2.5.6"
+  }
+}
