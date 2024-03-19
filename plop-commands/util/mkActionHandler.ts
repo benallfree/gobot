@@ -1,17 +1,23 @@
-import { flatten, isFunction, keys, map } from '@s-libs/micro-dash'
+import { flatten, isFunction, keys, map, uniq } from '@s-libs/micro-dash'
+import { Actions } from 'plop'
 import { Subcommand, Subcommands } from './mkSubcommander'
 
 export const mkActionHandler = (
   subcommandsIn: Subcommands,
   actionType: keyof Subcommand,
-) => {
-  return async (answers: any) => {
+): Actions => {
+  return async (answers) => {
     if (!answers) {
       throw new Error(`Expected answers here`)
     }
-    const { subcommands } = answers
+    const allSubcommands = keys(subcommandsIn)
+    const { subcommands } = answers as { subcommands: string[] }
+    const selectedSubcommands = uniq([
+      ...subcommands.filter((subcommand) => subcommand !== 'all'),
+      ...(subcommands.includes('all') ? allSubcommands : []),
+    ])
     const results = await Promise.all(
-      map(subcommands, (subcommand) => {
+      map(selectedSubcommands, (subcommand) => {
         if (!(subcommand in subcommandsIn)) {
           throw new Error(
             `${subcommand} is not one of ${keys(subcommandsIn).join(`,`)}`,

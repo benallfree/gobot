@@ -29,7 +29,7 @@ export const mkSubcommander = (
         message: promptMessage,
         name: 'subcommands',
         type: 'checkbox',
-        choices: keys(subcommandsIn),
+        choices: [...keys(subcommandsIn), `all`],
         pageSize: 100,
         default: keys(subcommandsIn),
       },
