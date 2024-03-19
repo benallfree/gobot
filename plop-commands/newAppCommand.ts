@@ -1,6 +1,6 @@
 import { readFileSync } from 'fs'
 import { dirname, resolve } from 'path'
-import { NodePlopAPI } from 'plop'
+import { ActionType, NodePlopAPI } from 'plop'
 import { format } from 'prettier'
 import sharp from 'sharp'
 import { AppInfo } from '../src/api'
@@ -38,13 +38,19 @@ export function newAppCommand(plop: NodePlopAPI) {
       {
         type: 'input',
         message: `What is the <user>/<repo> of the app?`,
-        name: `name`,
+        name: `_name`,
+      },
+      {
+        type: 'check',
+        message: `Do you want to create a custom provider?`,
+        name: `_custom`,
+        default: false,
       },
     ],
     actions: async (answers) => {
       if (!answers) throw new Error(`Answers expected here`)
-      const { name } = answers
-      const { user, repo } = extractUserAndRepo(name)
+      const { _name, _custom } = answers
+      const { user, repo } = extractUserAndRepo(_name)
       const url = `https://api.github.com/repos/${user}/${repo}`
       const res = await fetch(url)
       const data = (await res.json()) as any
@@ -56,7 +62,7 @@ export function newAppCommand(plop: NodePlopAPI) {
         isAlpha: true,
       }
 
-      return [
+      const actions: ActionType[] = [
         {
           type: 'modify',
           path: `src/apps/APPS_MAP.ts`,
@@ -72,7 +78,7 @@ export function newAppCommand(plop: NodePlopAPI) {
           type: 'modify',
           path: `src/apps/index.ts`,
           pattern: /\/\/\s+#app-gen/,
-          template: `'${info.name}': '${user}/${repo}'\n  // #app-gen\n`,
+          template: `'${info.name}': ${_custom ? `mk${info.name}` : `'${user}/${repo}'`}\n  // #app-gen\n`,
           transform: (template: string) =>
             format(template, {
               ...JSON.parse(readFileSync(`.prettierrc`).toString()),
@@ -85,6 +91,19 @@ export function newAppCommand(plop: NodePlopAPI) {
           data,
         },
       ]
+
+      if (_custom) {
+        actions.push({
+          type: 'add',
+          path: `src/apps/{{name}}/index.ts`,
+          templateFile: `./plop-templates/app/index.ts`,
+          force: true,
+          data: info,
+        })
+      }
+
+      console.log(actions)
+      return actions
     },
   })
 }
