@@ -57,6 +57,14 @@ export interface GobotOptions {
 
 export type VersionFormat = (typeof Gobot.VERSION_FORMATS)[number]
 
+export const COMPRESSED_ARCHIVE_EXTS = [
+  `.zip`,
+  `.tgz`,
+  `.tar.gz`,
+  `.bz2`,
+  `.tar.xz`,
+]
+
 /**
  * Generic Gobot app. Subclass this for specific functionality.
  */
@@ -244,7 +252,6 @@ export class Gobot {
     return downloadPath
   }
 
-  static ALLOWED_EXTS = [`.zip`, `.tgz`, `.tar.gz`, `.bz2`, `.tar.xz`]
   async unpack(downloadPath: string, version: string) {
     info(`Unpacking ${downloadPath}`)
     await decompress(downloadPath, this.downloadRoot(version), {

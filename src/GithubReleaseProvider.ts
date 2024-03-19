@@ -1,7 +1,12 @@
 import { forEach } from '@s-libs/micro-dash'
 import { join, resolve } from 'path'
 import { valid } from 'semver'
-import { ArchKey, Gobot, PlatformKey, StoredRelease } from './Gobot'
+import {
+  ArchKey,
+  COMPRESSED_ARCHIVE_EXTS,
+  PlatformKey,
+  StoredRelease,
+} from './Gobot'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { mkdir } from './util/shell'
@@ -164,7 +169,7 @@ export class GithubReleaseProvider {
   }
 
   get allowedExts() {
-    return Gobot.ALLOWED_EXTS
+    return COMPRESSED_ARCHIVE_EXTS
   }
 
   isArchiveUrlAllowed(url: string) {
