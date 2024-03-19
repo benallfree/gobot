@@ -1,0 +1,13 @@
+{
+  "name": "filebrowser-gobot-sample",
+  "bin": {
+    "filebrowser-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "filebrowser": "filebrowser"
+  },
+  "dependencies": {
+    "gobot-filebrowser": "2.27.0"
+  }
+}
