@@ -1,6 +1,6 @@
 import { dirname, join } from 'path'
 import { AppInfo } from '../apps/'
-import { dbg } from './log'
+import { dbge } from './log'
 import { mkSetting } from './mkSetting'
 
 export const appsRoot = mkSetting(
@@ -13,7 +13,6 @@ export const getApp = async (slug: string) => {
     const module = await import(path)
     return module[slug] as AppInfo
   } catch (e) {
-    console.error(e)
-    dbg(e)
+    dbge(e)
   }
 }
