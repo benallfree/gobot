@@ -1,6 +1,6 @@
 {
   "name": "gobot-pocketbase",
-  "version": "0.22.4-alpha.14",
+  "version": "0.22.4-alpha.15",
   "description": "PocketBase helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

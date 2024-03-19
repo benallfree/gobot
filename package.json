@@ -1,6 +1,6 @@
 {
   "name": "gobot",
-  "version": "1.0.0-alpha.29",
+  "version": "1.0.0-alpha.30",
   "description": "Install and run most any binary app as an npm package dependency.",
   "repository": "github:benallfree/gobot",
   "type": "module",
@@ -14,7 +14,7 @@
     "pack": "npm pack",
     "bump": "npm version prerelease --no-git-tag-version --preid alpha",
     "clean": "rimraf dist",
-    "plop": "pnpm plop:transpile && plop",
+    "plop": "pnpm build && pnpm plop:transpile && plop",
     "plop:transpile": "tsup-node ./plopfile.ts --format esm --out-dir .",
     "build": "npm run clean && tsup-node",
     "watch": "tsup-node --watch .",

@@ -1,6 +1,6 @@
 {
   "name": "gobot-restic",
-  "version": "0.16.4-alpha.14",
+  "version": "0.16.4-alpha.15",
   "description": "Restic helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
