@@ -86,7 +86,6 @@ export const botRun = async (appInfo: AppInfo) => {
         }
         if (showVersions) {
           const fmt = await bot.versions(showVersions)
-          console.log(fmt)
           exit(0)
         }
         const args = command.args

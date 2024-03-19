@@ -84,7 +84,6 @@ export function newAppCommand(plop: NodePlopAPI) {
         })
       }
 
-      console.log(actions)
       return actions
     },
   })
