@@ -10,7 +10,7 @@ The package is [https://npmjs.org/gobot-loki](https://npmjs.org/gobot-loki).
 
 ## What's next
 
-- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 50 versions of Loki.
+- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 52 versions of Loki.
 - **Update Loki installation docs.** Please consider adding Gobot to your official install instructions. If you would like me to send a PR updating the Loki installation docs to include instructions for installation via Gobot, I'm happy to do that.
 - **Give Gobot a 💫.** Gobot is a big effort to solve binary dependencies for nodejs in a universal way. Please consider giving [the Gobot project](https://github.com/benallfree/gobot) a star if it resonates.
 - **Keep going.** Keep doing what you do! Gobot will automatically pick up and publish your new releases.
@@ -23,7 +23,7 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 ## All releases indexed by Gobot
 
-`gobot-loki` versions mirror `loki` versions. Gobot has indexed 50 releases of `loki`:
+`gobot-loki` versions mirror `loki` versions. Gobot has indexed 52 releases of `loki`:
 
 | Version | freebsd | darwin    | linux         | win32    |
 | ------- | ------- | --------- | ------------- | -------- |
@@ -73,6 +73,8 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 | 1.2.0   | x64     | x64       | arm64/x64/arm | x64      |
 | 1.1.0   | x64     | x64       | arm64/x64/arm | x64      |
 | 1.0.0   |         |           |               |          |
+| 0.5.0   |         |           |               |          |
+| 0.4.0   |         |           |               |          |
 | 0.4.0   |         |           |               |          |
 | 0.3.0   |         |           |               |          |
 | 0.2.0   |         |           |               |          |

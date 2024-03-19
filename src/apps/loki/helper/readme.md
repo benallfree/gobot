@@ -146,7 +146,7 @@ pnpm test
 
 ## All known releases
 
-`gobot-loki` versions mirror `loki` versions. Gobot knows about 50 releases of `loki`:
+`gobot-loki` versions mirror `loki` versions. Gobot knows about 52 releases of `loki`:
 
 | Version | freebsd | darwin    | linux         | win32    |
 | ------- | ------- | --------- | ------------- | -------- |
@@ -196,6 +196,8 @@ pnpm test
 | 1.2.0   | x64     | x64       | arm64/x64/arm | x64      |
 | 1.1.0   | x64     | x64       | arm64/x64/arm | x64      |
 | 1.0.0   |         |           |               |          |
+| 0.5.0   |         |           |               |          |
+| 0.4.0   |         |           |               |          |
 | 0.4.0   |         |           |               |          |
 | 0.3.0   |         |           |               |          |
 | 0.2.0   |         |           |               |          |
