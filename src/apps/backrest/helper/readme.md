@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-backrest` package version always mirrors the underlying `backrest` [version](#known-versions):
 
 ```bash
-npm i gobot-backrest@0.14.0
+npm i gobot-backrest@0.15.0
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `backres
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`backrest`, { version: `0.14.0` })
+const bot = await gobot(`backrest`, { version: `0.15.0` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -146,22 +146,23 @@ pnpm test
 
 ## All known releases
 
-`gobot-backrest` versions mirror `backrest` versions. Gobot knows about 15 releases of `backrest`:
+`gobot-backrest` versions mirror `backrest` versions. Gobot knows about 16 releases of `backrest`:
 
-| Version | darwin    | linux         | win32 |
-| ------- | --------- | ------------- | ----- |
-| 0.14.0  | arm64/x64 | arm64/x64/arm | x64   |
-| 0.13.0  | arm64/x64 | arm64/x64     | x64   |
-| 0.12.2  | arm64/x64 | arm64/x64     | x64   |
-| 0.12.0  | arm64/x64 | arm64/x64     |       |
-| 0.11.1  | arm64/x64 | arm64/x64     | x64   |
-| 0.11.0  | arm64/x64 | arm64/x64     | x64   |
-| 0.10.1  | arm64/x64 | arm64/x64     | x64   |
-| 0.10.0  | arm64/x64 | arm64/x64     | x64   |
-| 0.9.3   | arm64/x64 | arm64/x64     | x64   |
-| 0.9.2   | arm64/x64 | arm64/x64     | x64   |
-| 0.9.1   | arm64/x64 | arm64/x64     | x64   |
-| 0.9.0   | arm64/x64 | arm64/x64     | x64   |
-| 0.8.2   | arm64/x64 | arm64/x64     | x64   |
-| 0.8.1   | arm64/x64 | arm64/x64     | x64   |
-| 0.7.0   | arm64/x64 | arm64/x64     | x64   |
+| Version | freebsd        | darwin    | linux              | win32    |
+| ------- | -------------- | --------- | ------------------ | -------- |
+| 0.15.0  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.14.0  |                | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.13.0  |                | arm64/x64 | arm64/x64/ia32     | x64/ia32 |
+| 0.12.2  |                | arm64/x64 | arm64/x64/ia32     | x64/ia32 |
+| 0.12.0  |                | arm64/x64 | arm64/x64/ia32     |          |
+| 0.11.1  |                | arm64/x64 | arm64/x64/ia32     | x64/ia32 |
+| 0.11.0  |                | arm64/x64 | arm64/x64/ia32     | x64/ia32 |
+| 0.10.1  |                | arm64/x64 | arm64/x64/ia32     | x64/ia32 |
+| 0.10.0  |                | arm64/x64 | arm64/x64/ia32     | x64/ia32 |
+| 0.9.3   |                | arm64/x64 | arm64/x64/ia32     | x64/ia32 |
+| 0.9.2   |                | arm64/x64 | arm64/x64/ia32     | x64/ia32 |
+| 0.9.1   |                | arm64/x64 | arm64/x64/ia32     | x64/ia32 |
+| 0.9.0   |                | arm64/x64 | arm64/x64/ia32     | x64/ia32 |
+| 0.8.2   |                | arm64/x64 | arm64/x64/ia32     | x64/ia32 |
+| 0.8.1   |                | arm64/x64 | arm64/x64/ia32     | x64/ia32 |
+| 0.7.0   |                | arm64/x64 | arm64/x64/ia32     | x64/ia32 |
