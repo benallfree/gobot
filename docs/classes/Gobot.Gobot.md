@@ -74,7 +74,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:90](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L90)
+[Gobot.ts:90](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L90)
 
 ## Properties
 
@@ -84,7 +84,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:77](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L77)
+[Gobot.ts:77](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L77)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:80](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L80)
+[Gobot.ts:80](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L80)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:79](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L79)
+[Gobot.ts:79](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L79)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:76](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L76)
+[Gobot.ts:76](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L76)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:82](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L82)
+[Gobot.ts:82](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L82)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:75](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L75)
+[Gobot.ts:75](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L75)
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:81](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L81)
+[Gobot.ts:81](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L81)
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:78](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L78)
+[Gobot.ts:78](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L78)
 
 ___
 
@@ -164,7 +164,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:247](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L247)
+[Gobot.ts:247](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L247)
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:73](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L73)
+[Gobot.ts:73](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L73)
 
 ___
 
@@ -198,7 +198,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:71](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L71)
+[Gobot.ts:71](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L71)
 
 ## Accessors
 
@@ -212,7 +212,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:204](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L204)
+[Gobot.ts:204](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L204)
 
 ___
 
@@ -226,7 +226,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:134](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L134)
+[Gobot.ts:134](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L134)
 
 ___
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:130](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L130)
+[Gobot.ts:130](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L130)
 
 ## Methods
 
@@ -254,7 +254,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:397](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L397)
+[Gobot.ts:397](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L397)
 
 ___
 
@@ -286,7 +286,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:138](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L138)
+[Gobot.ts:138](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L138)
 
 ___
 
@@ -302,7 +302,7 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[Gobot.ts:147](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L147)
+[Gobot.ts:147](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L147)
 
 ___
 
@@ -323,7 +323,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:304](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L304)
+[Gobot.ts:304](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L304)
 
 ___
 
@@ -337,7 +337,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:152](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L152)
+[Gobot.ts:152](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L152)
 
 ___
 
@@ -358,7 +358,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:241](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L241)
+[Gobot.ts:241](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L241)
 
 ___
 
@@ -378,7 +378,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:230](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L230)
+[Gobot.ts:230](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L230)
 
 ___
 
@@ -398,7 +398,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:381](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L381)
+[Gobot.ts:381](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L381)
 
 ___
 
@@ -418,7 +418,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:210](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L210)
+[Gobot.ts:210](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L210)
 
 ___
 
@@ -438,7 +438,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:261](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L261)
+[Gobot.ts:261](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L261)
 
 ___
 
@@ -452,7 +452,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:317](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L317)
+[Gobot.ts:317](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L317)
 
 ___
 
@@ -472,7 +472,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:312](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L312)
+[Gobot.ts:312](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L312)
 
 ___
 
@@ -492,7 +492,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:385](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L385)
+[Gobot.ts:385](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L385)
 
 ___
 
@@ -512,7 +512,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:330](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L330)
+[Gobot.ts:330](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L330)
 
 ___
 
@@ -532,7 +532,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:322](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L322)
+[Gobot.ts:322](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L322)
 
 ___
 
@@ -552,7 +552,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:339](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L339)
+[Gobot.ts:339](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L339)
 
 ___
 
@@ -574,7 +574,7 @@ Run a binary.
 
 #### Defined in
 
-[Gobot.ts:409](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L409)
+[Gobot.ts:409](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L409)
 
 ___
 
@@ -595,7 +595,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:308](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L308)
+[Gobot.ts:308](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L308)
 
 ___
 
@@ -616,7 +616,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:248](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L248)
+[Gobot.ts:248](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L248)
 
 ___
 
@@ -636,7 +636,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:166](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L166)
+[Gobot.ts:166](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L166)
 
 ▸ **versions**(`type?`): `Promise`\<`string`\>
 
@@ -652,7 +652,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:167](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L167)
+[Gobot.ts:167](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L167)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -668,7 +668,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:168](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L168)
+[Gobot.ts:168](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L168)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -684,7 +684,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:169](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L169)
+[Gobot.ts:169](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L169)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -700,7 +700,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:170](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L170)
+[Gobot.ts:170](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L170)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -716,7 +716,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:171](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L171)
+[Gobot.ts:171](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L171)
 
 ___
 
@@ -738,4 +738,4 @@ The default Gobot cache root. This is platform specific.
 
 #### Defined in
 
-[Gobot.ts:68](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.30/src/Gobot.ts#L68)
+[Gobot.ts:68](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.31/src/Gobot.ts#L68)
