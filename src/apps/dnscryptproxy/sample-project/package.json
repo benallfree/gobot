@@ -1,0 +1,13 @@
+{
+  "name": "dnscryptproxy-gobot-sample",
+  "bin": {
+    "dnscryptproxy-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "dnscryptproxy": "dnscryptproxy"
+  },
+  "dependencies": {
+    "gobot-dnscryptproxy": "2.1.5"
+  }
+}
