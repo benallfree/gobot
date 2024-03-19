@@ -1,0 +1,13 @@
+{
+  "name": "gocryptfs-gobot-sample",
+  "bin": {
+    "gocryptfs-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "gocryptfs": "gocryptfs"
+  },
+  "dependencies": {
+    "gobot-gocryptfs": "2.4.0"
+  }
+}
