@@ -1,0 +1,13 @@
+{
+  "name": "croc-gobot-sample",
+  "bin": {
+    "croc-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "croc": "croc"
+  },
+  "dependencies": {
+    "gobot-croc": "9.6.14"
+  }
+}
