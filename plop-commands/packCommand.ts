@@ -59,12 +59,15 @@ export const packCommand = (plop: NodePlopAPI) => {
         ],
       },
       'helpers:archived': {
-        gen: () => [
-          {
-            type: PACK,
-            path: `build/apps/*/*`,
-          },
-        ],
+        gen: () => {
+          return []
+          return [
+            {
+              type: PACK,
+              path: `build/apps/*/*`,
+            },
+          ]
+        },
         clean: [
           {
             type: `rimraf`,

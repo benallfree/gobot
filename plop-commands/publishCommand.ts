@@ -86,12 +86,15 @@ export const publishCommand = (plop: NodePlopAPI) => {
         ],
       },
       'helpers:archived': {
-        gen: async () => [
-          {
-            type: PUBLISH,
-            path: `build/apps/**/gobot-*.tgz`,
-          },
-        ],
+        gen: async () => {
+          return []
+          return [
+            {
+              type: PUBLISH,
+              path: `build/apps/**/gobot-*.tgz`,
+            },
+          ]
+        },
         clean: [
           {
             type: CLEAN,

@@ -213,6 +213,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
       },
       'apps:helpers:archive': {
         gen: async () => {
+          return []
           const distFiles = globSync(`*`, {
             cwd: `plop-templates/app/helper/dist`,
           })
