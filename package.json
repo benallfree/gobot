@@ -19,7 +19,7 @@
     "publish": "pnpm pack && pnpm plop publish all",
     "plop": "plop",
     "watch": "tsup-node --watch .",
-    "dev": "pnpm build && node dist/cli.js",
+    "dev": "pnpm build:gobot && node dist/cli.js",
     "test": "pnpm paq && npm rm -g gobot && npm i -g gobot-`cat package.json | fx '.version'`.tgz && gobot pocketbase --g-refresh --g-vvv --help",
     "docs": "typedoc"
   },
