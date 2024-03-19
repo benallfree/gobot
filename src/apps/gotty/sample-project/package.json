@@ -1,0 +1,13 @@
+{
+  "name": "gotty-gobot-sample",
+  "bin": {
+    "gotty-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "gotty": "gotty"
+  },
+  "dependencies": {
+    "gobot-gotty": "1.5.0"
+  }
+}
