@@ -48,7 +48,7 @@ export function newAppCommand(plop: NodePlopAPI) {
       if (!answers) throw new Error(`Answers expected here`)
       const { _name, _custom } = answers
       const { user, repo } = extractUserAndRepo(_name)
-      const slug = repo.toLocaleLowerCase()
+      const slug = repo.toLocaleLowerCase().replace(/[^a-zA-Z0-9]/g, '')
       const url = `https://api.github.com/repos/${user}/${repo}`
       const res = await fetch(url)
       const apiData = (await res.json()) as any
@@ -60,7 +60,7 @@ export function newAppCommand(plop: NodePlopAPI) {
         factory: `\`${user}/${repo}\``,
       }
 
-      const data = { ...info, slug, user }
+      const data = { ...info, slug, user, repo }
       const actions: ActionType[] = [
         {
           type: GEN_APP_LOGO,
