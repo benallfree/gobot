@@ -11,8 +11,8 @@ _Manage and run binaries as `package.json` npm dependencies. CLI and API interfa
 - [Introduction](#introduction)
 - [Quickstart](#quickstart)
 - [CLI](#cli)
-  - [gobot [gobotOptions] <app> [appOptions]](#gobot-gobotoptions-app-appoptions)
-- [API](#api)
+  - [gobot \<app> [gobotOptions] [appOptions]](#gobot-gobotoptions-app-appoptions)
+  - [gobot inspect \<app> [gobotOptions]](#gobot-inspect-app-gobotoptions)
 - [Official Gobot Apps](#official-gobot-apps)
 - [Why?](#why)
 - [Technical Notes](#technical-notes)
@@ -117,19 +117,13 @@ gobot(`pocketbase`).run([`--help`])
 
 Note: All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
 
-{{globalOptionsMd}}
+{{cliGlobaloptionsMd}}
 
 ### `gobot <app> [gobotOptions] [appOptions]`
 
+Run `<app>`. Gobot will download and cache the specific platform, architecture, and version you request and defaults to the latest version for the host platform and architecture.
+
 {{{cliOptionsMd}}}
-
-### `gobot inspect <app> [gobotOptions]`
-
-| Option                  | Default       | Discussion                                   |
-| ----------------------- | ------------- | -------------------------------------------- |
-| `--g-help`              | Show help     | Display help and options for Gobot           |
-| `--g-v[vv]`             |               | Adjust output verbosity                      |
-| `--g-cache-path <path>` | host specific | Use the specified directory for cache files. |
 
 **Examples**
 
@@ -148,6 +142,16 @@ npx gobot pocketbase --g-use-version="0.*" # Run highest 0.y.z
 # Force gobot to dump cache and refresh PocketBase tags and binaries
 npx gobot pocketbase --g-refresh
 ```
+
+### `gobot inspect <app> [gobotOptions]`
+
+Output metadata info about `<app>`, including unofficial apps. This command is helpful for exploring support for new apps.
+
+| Option                  | Default       | Discussion                                   |
+| ----------------------- | ------------- | -------------------------------------------- |
+| `--g-help`              | Show help     | Display help and options for Gobot           |
+| `--g-v[vv]`             |               | Adjust output verbosity                      |
+| `--g-cache-path <path>` | host specific | Use the specified directory for cache files. |
 
 ## API
 
