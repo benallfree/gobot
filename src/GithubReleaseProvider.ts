@@ -176,7 +176,7 @@ export class GithubReleaseProvider {
   }
 
   archRegex(os: PlatformKey, aliases: string[]) {
-    return new RegExp(`[_-](?:${aliases.join(`|`)})[_\\-.]`, 'i')
+    return new RegExp(`[_-](?:${aliases.join(`|`)})(?:[_\\-.]|$)`, 'i')
   }
 
   getArchivesForRelease(release: GithubRelease): StoredRelease['archives'] {
