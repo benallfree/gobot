@@ -1,0 +1,13 @@
+{
+  "name": "transfersh-gobot-sample",
+  "bin": {
+    "transfersh-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "transfersh": "transfersh"
+  },
+  "dependencies": {
+    "gobot-transfersh": "1.6.1"
+  }
+}
