@@ -1,8 +1,8 @@
 import { version } from './version'
 
 export const meta = {
-  name: `weaviate`,
+  name: `Weaviate`,
   homepage: `https://weaviate.io`,
-  slug: `Weaviate`,
+  slug: `weaviate`,
   version,
 }

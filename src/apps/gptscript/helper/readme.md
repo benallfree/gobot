@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/npm/v/gobot-gptscript) ![](https://img.shields.io/npm/dt/gobot-gptscript) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
-## `gptscript` for npm
+## GPTScript via npm
 
 This package allows you to use [GPTScript](https://gptscript.ai/) as an npm dependency.
 
@@ -24,7 +24,8 @@ npm i gobot
 
 ```js
 import { gobot } from 'gobot'
-gobot(`gptscript`).run([`--version`])
+const bot = await gobot(`gptscript`)
+bot.run([`--version`])
 ```
 
 **Basic version locking**
@@ -37,7 +38,8 @@ With `gobot-gptscript` present, Gobot will default to the `gptscript` version co
 
 ```js
 import { gobot } from 'gobot'
-gobot(`gptscript`).run([`--version`])
+const bot = await gobot(`gptscript`)
+bot..run([`--version`])
 ```
 
 **Locking to a specific version**
@@ -54,19 +56,22 @@ In rare cases, you may want to intentionally run a different version of `gptscri
 
 ```js
 // Run a specific version (override)
-gobot(`gptscript`, { version: `0.2.1` }).run([`--version`])
+const bot = await gobot(`gptscript`, { version: `0.2.1` })
+bot.run([`--version`])
 
 // Or the latest version (override)
-gobot(`gptscript`, { version: `*` }).run([`--version`])
+const bot = await gobot(`gptscript`, { version: `*` })
+bot.run([`--version`])
 ```
 
 **Pass environment variables**
 
 ```js
 import { gobot } from 'gobot'
-gobot(`gptscript`, {
+const bot = await gobot(`gptscript`, {
   env: process.env, // This is not always necessary, but some apps do need it
-}).run([`--version`])
+})
+bot.run([`--version`])
 ```
 
 **Install globally for CLI access**
@@ -112,7 +117,7 @@ If you use publish statically linked binary releases on github, you are already 
 To see what initial support looks like:
 
 ```bash
-npx gobot <user>/<repo> --g-show-versions md --g-refresh
+npx gobot inspect <user>/<repo>
 ```
 
 This will index all the releases from your repo and show you exactly what Gobot sees.
@@ -143,21 +148,21 @@ pnpm test
 
 `gobot-gptscript` versions mirror `gptscript` versions. Gobot knows about 16 releases of `gptscript`:
 
-| Version   | darwin    | linux     | win32 |
-| --------- | --------- | --------- | ----- |
-| 0.2.1     | arm64/x64 | arm64/x64 | x64   |
-| 0.2.0     | arm64/x64 | arm64/x64 | x64   |
-| 0.2.0-rc1 | arm64/x64 | arm64/x64 | x64   |
-| 0.1.5     | arm64/x64 | arm64/x64 | x64   |
-| 0.1.4     | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3     | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3-rc4 | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3-rc3 | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3-rc2 | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3-rc1 | arm64/x64 | arm64/x64 | x64   |
-| 0.1.2     | arm64/x64 | arm64/x64 | x64   |
-| 0.1.1     | arm64/x64 | arm64/x64 | x64   |
-| 0.1.0     | arm64/x64 | arm64/x64 | x64   |
-| 0.0.3     | arm64/x64 | arm64/x64 | x64   |
-| 0.0.2     | arm64/x64 | arm64/x64 | x64   |
-| 0.0.1     | arm64/x64 | arm64/x64 | x64   |
+| Version | darwin    | linux     | win32 |
+| ------- | --------- | --------- | ----- |
+| 0.2.1   | arm64/x64 | arm64/x64 | x64   |
+| 0.2.0   | arm64/x64 | arm64/x64 | x64   |
+| 0.2.0   | arm64/x64 | arm64/x64 | x64   |
+| 0.1.5   | arm64/x64 | arm64/x64 | x64   |
+| 0.1.4   | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
+| 0.1.2   | arm64/x64 | arm64/x64 | x64   |
+| 0.1.1   | arm64/x64 | arm64/x64 | x64   |
+| 0.1.0   | arm64/x64 | arm64/x64 | x64   |
+| 0.0.3   | arm64/x64 | arm64/x64 | x64   |
+| 0.0.2   | arm64/x64 | arm64/x64 | x64   |
+| 0.0.1   | arm64/x64 | arm64/x64 | x64   |

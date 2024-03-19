@@ -1,19 +1,16 @@
-import { readFileSync } from 'fs'
-import { dirname, resolve } from 'path'
+import { dirname } from 'path'
 import { ActionType, NodePlopAPI } from 'plop'
-import { format } from 'prettier'
 import sharp from 'sharp'
 import { AppInfo } from '../src/api'
 import { extractUserAndRepo } from '../src/util/extractUserAndRepo'
 import { mkdir } from '../src/util/shell'
-import { stringify } from '../src/util/stringify'
 import { localAction } from './util/localAction'
 
 export function newAppCommand(plop: NodePlopAPI) {
   const GEN_APP_LOGO = localAction(plop, async (answers, config) => {
     const { path, data } = config
     const res = await fetch(data.owner.avatar_url)
-    mkdir(`-p`, dirname(path))
+    mkdir(dirname(path))
     await sharp(await res.arrayBuffer())
       .webp()
       .toFile(path)
@@ -55,50 +52,35 @@ export function newAppCommand(plop: NodePlopAPI) {
       const res = await fetch(url)
       const data = (await res.json()) as any
       const info: AppInfo = {
-        name: data.name,
-        slug: adjustCapitalization(data.name, data.description),
+        name: adjustCapitalization(data.name, data.description),
         description: data.description,
         homepage: data.homepage || data.html_url,
         isAlpha: true,
+        factory: `${user}/${repo}`,
       }
 
       const actions: ActionType[] = [
         {
-          type: 'modify',
-          path: `src/apps/APPS_MAP.ts`,
-          pattern: /\/\/\s+#app-gen/,
-          template: `${stringify(info, null, 2)}\n  // #app-gen\n`,
-          transform: (template: string) =>
-            format(template, {
-              ...JSON.parse(readFileSync(`.prettierrc`).toString()),
-              filepath: resolve(`src/apps/APPS_MAP.ts`),
-            }),
-        },
-        {
-          type: 'modify',
-          path: `src/apps/index.ts`,
-          pattern: /\/\/\s+#app-gen/,
-          template: `'${info.name}': ${_custom ? `mk${info.name}` : `'${user}/${repo}'`}\n  // #app-gen\n`,
-          transform: (template: string) =>
-            format(template, {
-              ...JSON.parse(readFileSync(`.prettierrc`).toString()),
-              filepath: resolve(`src/apps/index.ts`),
-            }),
-        },
-        {
           type: GEN_APP_LOGO,
           path: `src/apps/${info.name}/logo.webp`,
           data,
+        },
+        {
+          type: 'add',
+          path: `src/apps/{{slug}}/index.ts`,
+          templateFile: `./plop-templates/app/index.ts`,
+          force: true,
+          data: { ...info, slug: repo, user },
         },
       ]
 
       if (_custom) {
         actions.push({
           type: 'add',
-          path: `src/apps/{{name}}/index.ts`,
-          templateFile: `./plop-templates/app/index.ts`,
+          path: `src/apps/{{slug}}/overrides.ts`,
+          templateFile: `./plop-templates/app/overrides.ts`,
           force: true,
-          data: info,
+          data: { ...info, slug: repo, user },
         })
       }
 

@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/npm/v/gobot-mc) ![](https://img.shields.io/npm/dt/gobot-mc) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
-## `mc` for npm
+## Mc via npm
 
 This package allows you to use [Mc](https://min.io) as an npm dependency.
 
@@ -24,7 +24,8 @@ npm i gobot
 
 ```js
 import { gobot } from 'gobot'
-gobot(`mc`).run([`--version`])
+const bot = await gobot(`mc`)
+bot.run([`--version`])
 ```
 
 **Basic version locking**
@@ -37,7 +38,8 @@ With `gobot-mc` present, Gobot will default to the `mc` version corresponding to
 
 ```js
 import { gobot } from 'gobot'
-gobot(`mc`).run([`--version`])
+const bot = await gobot(`mc`)
+bot..run([`--version`])
 ```
 
 **Locking to a specific version**
@@ -54,19 +56,22 @@ In rare cases, you may want to intentionally run a different version of `mc` eve
 
 ```js
 // Run a specific version (override)
-gobot(`mc`, { version: `2024.3.13235157` }).run([`--version`])
+const bot = await gobot(`mc`, { version: `2024.3.13235157` })
+bot.run([`--version`])
 
 // Or the latest version (override)
-gobot(`mc`, { version: `*` }).run([`--version`])
+const bot = await gobot(`mc`, { version: `*` })
+bot.run([`--version`])
 ```
 
 **Pass environment variables**
 
 ```js
 import { gobot } from 'gobot'
-gobot(`mc`, {
+const bot = await gobot(`mc`, {
   env: process.env, // This is not always necessary, but some apps do need it
-}).run([`--version`])
+})
+bot.run([`--version`])
 ```
 
 **Install globally for CLI access**
@@ -87,7 +92,7 @@ For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobo
 
 ### Versioning
 
-Mc uses date-based version tags. npm requires semver, so Gobot converts them.
+mc uses date-based version tags. npm requires semver, so Gobot converts them.
 
 Format:
 
@@ -99,7 +104,7 @@ Format:
 
 Example:
 
-| Original Mc release tag  | Gobot version                           | Note |
+| Original mc release tag  | Gobot version                           | Note |
 | ------------------------------ | --------------------------------------- | ---- |
 | `RELEASE.2024-03-11T11_34_09Z` | `2024.3.11113409`<br/>`_____^_______^^` | \*   |
 | `RELEASE.2017-12-08T01-21-00Z` | `2017.12.8012100`<br/>`________^^^____` | \*\* |
@@ -136,7 +141,7 @@ If you use publish statically linked binary releases on github, you are already 
 To see what initial support looks like:
 
 ```bash
-npx gobot <user>/<repo> --g-show-versions md --g-refresh
+npx gobot inspect <user>/<repo>
 ```
 
 This will index all the releases from your repo and show you exactly what Gobot sees.

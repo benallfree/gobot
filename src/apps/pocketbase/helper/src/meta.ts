@@ -1,8 +1,8 @@
 import { version } from './version'
 
 export const meta = {
-  name: `pocketbase`,
+  name: `PocketBase`,
   homepage: `https://pocketbase.io`,
-  slug: `PocketBase`,
+  slug: `pocketbase`,
   version,
 }

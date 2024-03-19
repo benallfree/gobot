@@ -1,4 +1,5 @@
 import { AppFactory } from '..'
+import { AppInfo } from '../'
 import { GithubReleaseProvider } from '../../GithubReleaseProvider'
 import { Gobot } from '../../Gobot'
 
@@ -28,4 +29,13 @@ export const mksftpgo: AppFactory = (optionsIn) => {
     (root, cacheRoot) => new sftpgoGithubReleaseProvider(root, cacheRoot),
     optionsIn,
   )
+}
+
+export const sftpgo: AppInfo = {
+  name: 'sftpgo',
+  description:
+    'Fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob',
+  homepage: 'https://github.com/drakkan/sftpgo',
+  isAlpha: true,
+  factory: mksftpgo,
 }

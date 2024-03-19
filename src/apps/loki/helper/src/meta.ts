@@ -1,8 +1,8 @@
 import { version } from './version'
 
 export const meta = {
-  name: `loki`,
+  name: `Loki`,
   homepage: `https://grafana.com/loki`,
-  slug: `Loki`,
+  slug: `loki`,
   version,
 }

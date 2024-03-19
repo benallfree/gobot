@@ -17,7 +17,7 @@ If you use publish statically linked binary releases on github, you are already 
 To see what initial support looks like:
 
 ```bash
-npx gobot <user>/<repo> --g-show-versions md --g-refresh
+npx gobot inspect <user>/<repo>
 ```
 
 This will index all the releases from your repo and show you exactly what Gobot sees.

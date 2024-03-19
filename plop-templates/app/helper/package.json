@@ -1,25 +1,26 @@
 {
-  "name": "gobot-{{lowerCase name}}",
+  "name": "gobot-{{lowerCase slug}}",
   "version": "{{version}}{{#if isAlpha}}-alpha.14{{/if}}",
-  "description": "{{slug}} helper for Gobot",
+  "description": "{{name}} helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
   "scripts": {
     "clean": "rimraf dist",
     "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-{{lowerCase name}} && npm i -g gobot-{{lowerCase name}}-{{version}}.tgz && {{name}} --g-refresh --g-vvv --help",
+    "test": "npm pack && npm rm -g gobot-{{lowerCase slug}} && npm i -g gobot-{{lowerCase slug}}-{{version}}.tgz && {{slug}} --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {
-    "{{name}}": "./dist/cli.js"
+    "{{slug}}": "./dist/cli.js"
   },
   "repository": {
     "type": "https",
-    "url": "https://github.com/benallfree/gobot/tree/main/src/apps/{{name}}/helper"
+    "url": "https://github.com/benallfree/gobot/tree/main/src/apps/{{slug}}/helper"
   },
   "keywords": [
     "gobot",
+    "{{slug}}",
     "{{name}}"
   ],
   "author": "Ben Allfree",
@@ -27,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/benallfree/gobot/issues"
   },
-  "homepage": "https://www.npmjs.com/package/gobot-{{lowerCase name}}",
+  "homepage": "https://www.npmjs.com/package/gobot-{{lowerCase slug}}",
   "dependencies": {
     "gobot": "*"
   },

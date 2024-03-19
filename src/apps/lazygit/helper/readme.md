@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/npm/v/gobot-lazygit) ![](https://img.shields.io/npm/dt/gobot-lazygit) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
-## `lazygit` for npm
+## Lazygit via npm
 
 This package allows you to use [Lazygit](https://github.com/jesseduffield/lazygit) as an npm dependency.
 
@@ -24,7 +24,8 @@ npm i gobot
 
 ```js
 import { gobot } from 'gobot'
-gobot(`lazygit`).run([`--version`])
+const bot = await gobot(`lazygit`)
+bot.run([`--version`])
 ```
 
 **Basic version locking**
@@ -37,7 +38,8 @@ With `gobot-lazygit` present, Gobot will default to the `lazygit` version corres
 
 ```js
 import { gobot } from 'gobot'
-gobot(`lazygit`).run([`--version`])
+const bot = await gobot(`lazygit`)
+bot..run([`--version`])
 ```
 
 **Locking to a specific version**
@@ -54,19 +56,22 @@ In rare cases, you may want to intentionally run a different version of `lazygit
 
 ```js
 // Run a specific version (override)
-gobot(`lazygit`, { version: `0.40.2` }).run([`--version`])
+const bot = await gobot(`lazygit`, { version: `0.40.2` })
+bot.run([`--version`])
 
 // Or the latest version (override)
-gobot(`lazygit`, { version: `*` }).run([`--version`])
+const bot = await gobot(`lazygit`, { version: `*` })
+bot.run([`--version`])
 ```
 
 **Pass environment variables**
 
 ```js
 import { gobot } from 'gobot'
-gobot(`lazygit`, {
+const bot = await gobot(`lazygit`, {
   env: process.env, // This is not always necessary, but some apps do need it
-}).run([`--version`])
+})
+bot.run([`--version`])
 ```
 
 **Install globally for CLI access**
@@ -112,7 +117,7 @@ If you use publish statically linked binary releases on github, you are already 
 To see what initial support looks like:
 
 ```bash
-npx gobot <user>/<repo> --g-show-versions md --g-refresh
+npx gobot inspect <user>/<repo>
 ```
 
 This will index all the releases from your repo and show you exactly what Gobot sees.

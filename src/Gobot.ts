@@ -5,7 +5,6 @@ import decompress from 'decompress'
 import decompressBz2 from 'decompress-bzip2'
 import decompressTarbz2 from 'decompress-tarbz2'
 import decompressTargz from 'decompress-targz'
-import decompressTarxz from 'decompress-tarxz'
 import decompressUnzip from 'decompress-unzip'
 import envPaths from 'env-paths'
 import {
@@ -22,7 +21,6 @@ import { basename, dirname, join, resolve } from 'path'
 import { compare, satisfies } from 'semver'
 import { GithubReleaseProvider } from './GithubReleaseProvider'
 import { downloadFile } from './util/downloadFile'
-import { findFileRecursive } from './util/find'
 import { getAppVersion } from './util/getAppVersion'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
@@ -30,6 +28,7 @@ import { mkSetting } from './util/mkSetting'
 import { sanitizeOptions } from './util/sanitize'
 import { mkdir, pwd, rimrafSync } from './util/shell'
 import { stringify } from './util/stringify'
+import decompressTarxz from './vendor/decompress-tarxz'
 
 export type PlatformKey = NodeJS.Platform
 export type ArchKey = NodeJS.Architecture
@@ -119,7 +118,7 @@ export class Gobot {
     this.version = version
     this.env = env
     this.cacheRoot = resolve(pwd(), cachePath)
-    mkdir('-p', this.cacheRoot)
+    mkdir(this.cacheRoot)
     dbg(`Final cache root`, this.cacheRoot)
     this.releaseProvider = releaseProviderFactory(
       this.repo,
@@ -138,7 +137,7 @@ export class Gobot {
 
   cachePath(...paths: string[]) {
     const path = resolve(this.cacheRoot, ...paths)
-    mkdir('-p', path)
+    mkdir(path)
     return (...paths: string[]) => join(path, ...paths)
   }
 
@@ -211,7 +210,7 @@ export class Gobot {
   async findArchiveBinPath(version: string) {
     const path = this.downloadRoot(version)
     const fname = await (async () => {
-      const fname = await findFileRecursive(this.binName, path)
+      const fname = globSync(join(path, `**`, this.binName))[0]
       if (fname) return fname
       return globSync(join(path, `**`)).find((path) => {
         const stats = statSync(path)

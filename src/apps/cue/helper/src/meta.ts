@@ -1,8 +1,8 @@
 import { version } from './version'
 
 export const meta = {
-  name: `cue`,
+  name: `CUE`,
   homepage: `https://cuelang.org`,
-  slug: `CUE`,
+  slug: `cue`,
   version,
 }

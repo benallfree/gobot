@@ -1,8 +1,8 @@
 import { version } from './version'
 
 export const meta = {
-  name: `weed`,
+  name: `SeaweedFS`,
   homepage: `https://github.com/seaweedfs/seaweedfs`,
-  slug: `SeaweedFS`,
+  slug: `weed`,
   version,
 }

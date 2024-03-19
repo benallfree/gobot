@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/npm/v/gobot-act) ![](https://img.shields.io/npm/dt/gobot-act) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
-## `act` for npm
+## Act via npm
 
 This package allows you to use [Act](https://nektosact.com/) as an npm dependency.
 
@@ -24,7 +24,8 @@ npm i gobot
 
 ```js
 import { gobot } from 'gobot'
-gobot(`act`).run([`--version`])
+const bot = await gobot(`act`)
+bot.run([`--version`])
 ```
 
 **Basic version locking**
@@ -37,7 +38,8 @@ With `gobot-act` present, Gobot will default to the `act` version corresponding 
 
 ```js
 import { gobot } from 'gobot'
-gobot(`act`).run([`--version`])
+const bot = await gobot(`act`)
+bot..run([`--version`])
 ```
 
 **Locking to a specific version**
@@ -54,19 +56,22 @@ In rare cases, you may want to intentionally run a different version of `act` ev
 
 ```js
 // Run a specific version (override)
-gobot(`act`, { version: `0.2.60` }).run([`--version`])
+const bot = await gobot(`act`, { version: `0.2.60` })
+bot.run([`--version`])
 
 // Or the latest version (override)
-gobot(`act`, { version: `*` }).run([`--version`])
+const bot = await gobot(`act`, { version: `*` })
+bot.run([`--version`])
 ```
 
 **Pass environment variables**
 
 ```js
 import { gobot } from 'gobot'
-gobot(`act`, {
+const bot = await gobot(`act`, {
   env: process.env, // This is not always necessary, but some apps do need it
-}).run([`--version`])
+})
+bot.run([`--version`])
 ```
 
 **Install globally for CLI access**
@@ -123,7 +128,7 @@ If you use publish statically linked binary releases on github, you are already 
 To see what initial support looks like:
 
 ```bash
-npx gobot <user>/<repo> --g-show-versions md --g-refresh
+npx gobot inspect <user>/<repo>
 ```
 
 This will index all the releases from your repo and show you exactly what Gobot sees.

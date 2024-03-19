@@ -1,3 +1,4 @@
+import { globSync } from 'glob'
 import { defineConfig } from 'tsup'
 
 export default defineConfig({
@@ -5,7 +6,7 @@ export default defineConfig({
   target: 'node18',
   format: 'esm',
   outDir: 'dist',
-  entry: [`./src/cli.ts`, './src/api.ts'],
+  entry: [`./src/cli.ts`, './src/api.ts', ...globSync('./src/apps/*/index.ts')],
   ignoreWatch: [
     `./src/apps/*/**/*`,
     `docs`,

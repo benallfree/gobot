@@ -1,8 +1,8 @@
 import { version } from './version'
 
 export const meta = {
-  name: `gptscript`,
+  name: `GPTScript`,
   homepage: `https://gptscript.ai/`,
-  slug: `GPTScript`,
+  slug: `gptscript`,
   version,
 }

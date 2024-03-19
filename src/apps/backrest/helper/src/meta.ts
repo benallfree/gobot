@@ -1,8 +1,8 @@
 import { version } from './version'
 
 export const meta = {
-  name: `backrest`,
+  name: `Backrest`,
   homepage: `https://github.com/garethgeorge/backrest`,
-  slug: `Backrest`,
+  slug: `backrest`,
   version,
 }

@@ -5,12 +5,13 @@ import {
   DEFAULT_PLATFORM_MAP,
   SUPPORTED_ARCH,
 } from '../../src/GithubReleaseProvider'
-import { AppInfo, gobot } from '../../src/api'
+import { gobot } from '../../src/api'
+import { getApp } from '../../src/util/getApp'
 import { getCurrentGitBranch } from './getCurrentGitBranch'
 import {
-  availableAppsMd,
   cliGlobalOptionsMd,
   cliOptionsMd,
+  mkAvailableAppsMd,
   postambleMd,
 } from './readme'
 
@@ -28,21 +29,24 @@ export async function buildData(plop: NodePlopAPI) {
   }
 
   data.postambleMd = plop.renderString(postambleMd, data)
-  data.availableAppsMd = plop.renderString(availableAppsMd, data)
+  data.availableAppsMd = plop.renderString(await mkAvailableAppsMd(), data)
 
   return data
 }
 
-export async function buildDataForApp(app: AppInfo, plop: NodePlopAPI) {
-  const { name } = app
+export async function buildDataForApp(slug: string, plop: NodePlopAPI) {
+  const app = await getApp(slug)
+  if (!app) {
+    throw new Error(`${slug} is not an app (buildDataForApp)`)
+  }
 
-  const bot = gobot(name)
+  const bot = await gobot(slug)
   const versions = await bot.versions()
-  const releases = await bot.releases()
 
   const data = {
     ...(await buildData(plop)),
     ...app,
+    slug,
     bot,
     version: versions[0]!,
     versions,
@@ -51,7 +55,7 @@ export async function buildDataForApp(app: AppInfo, plop: NodePlopAPI) {
   }
 
   const notes = (() => {
-    const notesPath = `./src/apps/${name}/notes.md`
+    const notesPath = `./src/apps/${slug}/notes.md`
     if (!existsSync(notesPath)) return ''
     return readFileSync(notesPath).toString()
   })()

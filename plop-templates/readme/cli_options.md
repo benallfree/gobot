@@ -1,5 +1,3 @@
-All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
-
 | Option            | Default   | Discussion                                                                                                                                                   |
 | ----------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `--g-os <os>`     | host OS   | `aix`, `darwin`, `freebsd`,`linux`, `openbsd`, `sunos`, and `win32`                                                                                          |

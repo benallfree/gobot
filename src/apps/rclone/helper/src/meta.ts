@@ -1,8 +1,8 @@
 import { version } from './version'
 
 export const meta = {
-  name: `rclone`,
+  name: `RClone`,
   homepage: `https://rclone.org/`,
-  slug: `RClone`,
+  slug: `rclone`,
   version,
 }

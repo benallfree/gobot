@@ -3,4 +3,5 @@
 import { gobot } from 'gobot'
 
 // Pass command line arguments and run the binary
-gobot(`weaviate`, { env: process.env }).run(process.argv.slice(2))
+const bot = await gobot(`weaviate`, { env: process.env })
+bot.run(process.argv.slice(2))

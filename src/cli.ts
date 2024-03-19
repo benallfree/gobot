@@ -39,7 +39,7 @@ const main = async () => {
       dbg(`CLI:`, appName, options)
 
       try {
-        const bot = gobot(appName, {
+        const bot = await gobot(appName, {
           cachePath,
           env: process.env,
         })
@@ -94,7 +94,7 @@ const main = async () => {
       dbg(`CLI:`, appName, options)
 
       try {
-        const bot = gobot(appName, {
+        const bot = await gobot(appName, {
           os,
           arch,
           version: gUseVersion || (await getAppVersion(appName)),

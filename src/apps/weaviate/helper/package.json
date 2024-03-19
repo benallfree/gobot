@@ -20,7 +20,8 @@
   },
   "keywords": [
     "gobot",
-    "weaviate"
+    "weaviate",
+    "Weaviate"
   ],
   "author": "Ben Allfree",
   "license": "ISC",

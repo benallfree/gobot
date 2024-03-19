@@ -1,8 +1,8 @@
 import { version } from './version'
 
 export const meta = {
-  name: `act`,
+  name: `Act`,
   homepage: `https://nektosact.com/`,
-  slug: `Act`,
+  slug: `act`,
   version,
 }

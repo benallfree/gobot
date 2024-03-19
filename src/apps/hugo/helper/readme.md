@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/npm/v/gobot-hugo) ![](https://img.shields.io/npm/dt/gobot-hugo) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
-## `hugo` for npm
+## Hugo via npm
 
 This package allows you to use [Hugo](https://gohugo.io/) as an npm dependency.
 
@@ -24,7 +24,8 @@ npm i gobot
 
 ```js
 import { gobot } from 'gobot'
-gobot(`hugo`).run([`--version`])
+const bot = await gobot(`hugo`)
+bot.run([`--version`])
 ```
 
 **Basic version locking**
@@ -37,7 +38,8 @@ With `gobot-hugo` present, Gobot will default to the `hugo` version correspondin
 
 ```js
 import { gobot } from 'gobot'
-gobot(`hugo`).run([`--version`])
+const bot = await gobot(`hugo`)
+bot..run([`--version`])
 ```
 
 **Locking to a specific version**
@@ -54,19 +56,22 @@ In rare cases, you may want to intentionally run a different version of `hugo` e
 
 ```js
 // Run a specific version (override)
-gobot(`hugo`, { version: `0.124.0` }).run([`--version`])
+const bot = await gobot(`hugo`, { version: `0.124.0` })
+bot.run([`--version`])
 
 // Or the latest version (override)
-gobot(`hugo`, { version: `*` }).run([`--version`])
+const bot = await gobot(`hugo`, { version: `*` })
+bot.run([`--version`])
 ```
 
 **Pass environment variables**
 
 ```js
 import { gobot } from 'gobot'
-gobot(`hugo`, {
+const bot = await gobot(`hugo`, {
   env: process.env, // This is not always necessary, but some apps do need it
-}).run([`--version`])
+})
+bot.run([`--version`])
 ```
 
 **Install globally for CLI access**
@@ -127,7 +132,7 @@ If you use publish statically linked binary releases on github, you are already 
 To see what initial support looks like:
 
 ```bash
-npx gobot <user>/<repo> --g-show-versions md --g-refresh
+npx gobot inspect <user>/<repo>
 ```
 
 This will index all the releases from your repo and show you exactly what Gobot sees.
@@ -156,7 +161,7 @@ pnpm test
 
 ## All known releases
 
-`gobot-hugo` versions mirror `hugo` versions. Gobot knows about 213 releases of `hugo`:
+`gobot-hugo` versions mirror `hugo` versions. Gobot knows about 260 releases of `hugo`:
 
 | Version | freebsd            | darwin    | linux              | win32    |
 | ------- | ------------------ | --------- | ------------------ | -------- |
@@ -341,30 +346,63 @@ pnpm test
 | 0.55.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.55.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.54.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.53.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.52.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.51.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.50.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.49.2  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.49.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.49.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.48.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.47.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.47.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.46.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.45.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.45.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.44.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.43.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.42.2  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.42.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.42.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.41.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.40.3  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.40.2  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.40.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.40.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.39.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.38.2  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.38.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.38.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.37.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.37.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.36.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.36.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.35.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.34.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.33.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.32.4  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.32.3  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.32.2  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.32.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.32.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.31.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.31.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.30.2  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.30.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.30.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.29.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.28.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.27.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.27.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.26.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.25.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.25.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.24.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.24.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.23.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.22.1  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.22.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 0.21.0  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.20.7  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.20.6  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.20.5  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
@@ -372,4 +410,18 @@ pnpm test
 | 0.20.3  | x64/ia32/arm       | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.20.2  | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
 | 0.20.1  | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.20.0  | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.19.0  | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
 | 0.18.1  | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.18.0  | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.17.0  | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.16.0  | x64/ia32           | x64       | arm64/x64/ia32     | x64/ia32 |
+| 0.15.0  | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.14.0  | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.13.0  | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.12.0  | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.11.0  | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.10.0  | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.9.0   | x64/ia32/arm       | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.8.0   |                    |           |                    |          |
+| 0.7.0   |                    |           |                    |          |

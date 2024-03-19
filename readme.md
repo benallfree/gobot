@@ -74,7 +74,8 @@ npm i gobot
 
 ```js
 import { gobot } from 'gobot'
-gobot(`pocketbase`).run([`--help`])
+const bot = await gobot(`pocketbase`)
+bot.run([`--help`])
 ```
 
 **Pass environment variables**
@@ -83,17 +84,19 @@ In API mode, Gobot does not forward environment variables by default.
 
 ```js
 import { gobot } from 'gobot'
-gobot(`pocketbase`, {
+const bot = await gobot(`pocketbase`, {
   env: process.env,
-}).run([`--help`])
+})
+bot.run([`--help`])
 ```
 
 **Use a specific version of a Gobot app**
 
 ```js
-gobot(`pocketbase`, {
+const bot = await gobot(`pocketbase`, {
   version: `0.19.3`,
-}).run([`--help`])
+})
+bot.run([`--help`])
 ```
 
 **Add an [official app](#official-gobot-apps) as a project dependency**
@@ -110,20 +113,26 @@ npm i gobot-pocketbase@0.19.3
 
 ```js
 import { gobot } from 'gobot'
-gobot(`pocketbase`).run([`--help`])
+const bot = await gobot(`pocketbase`)
+bot.run([`--help`])
 ```
 
 ## CLI
 
 Note: All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
 
+**Global Options**
+
+| Option                  | Default       | Discussion                                   |
+| ----------------------- | ------------- | -------------------------------------------- |
+| &#x60;--g-help&#x60;              | Show help     | Display help and options for Gobot           |
+| &#x60;--g-v[vv]&#x60;             |               | Adjust output verbosity                      |
+| &#x60;--g-cache-path &lt;path&gt;&#x60; | host specific | Use the specified directory for cache files. |
 
 
 ### `gobot <app> [gobotOptions] [appOptions]`
 
 Run `<app>`. Gobot will download and cache the specific platform, architecture, and version you request and defaults to the latest version for the host platform and architecture.
-
-All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
 
 | Option            | Default   | Discussion                                                                                                                                                   |
 | ----------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -193,8 +202,6 @@ These apps have single-token names and dedicated helper packages to assist with 
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.29/src/apps/restic/logo-50x.webp">](https://restic.net/)                                                                                                   | `restic`      | Fast, secure, efficient backup program.                                                                                                                                                                                                                                                                                     | [readme](https://www.npmjs.com/package/gobot-restic)      |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.29/src/apps/reviewdog/logo-50x.webp">](https://medium.com/@haya14busa/reviewdog-a-code-review-dog-who-keeps-your-codebase-healthy-d957c471938b#.8xctbaw5u) | `reviewdog`   | 🐶 Automated code review tool integrated with any code analysis tools regardless of programming language                                                                                                                                                                                                                    | [readme](https://www.npmjs.com/package/gobot-reviewdog)   |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.29/src/apps/sftpgo/logo-50x.webp">](https://github.com/drakkan/sftpgo)                                                                                     | `sftpgo`      | Fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob                                                                                                                                                                                    | [readme](https://www.npmjs.com/package/gobot-sftpgo)      |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.29/src/apps/sftpgo/logo-50x.webp">](https://github.com/drakkan/sftpgo)                                                                                     | `sftpgo`      | Fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob                                                                                                                                                                                    | [readme](https://www.npmjs.com/package/gobot-sftpgo)      |
-| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.29/src/apps/sftpgo/logo-50x.webp">](https://github.com/drakkan/sftpgo)                                                                                     | `sftpgo`      | Fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob                                                                                                                                                                                    | [readme](https://www.npmjs.com/package/gobot-sftpgo)      |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.29/src/apps/syncthing/logo-50x.webp">](https://forum.syncthing.net/)                                                                                       | `syncthing`   | Open Source Continuous File Synchronization                                                                                                                                                                                                                                                                                 | [readme](https://www.npmjs.com/package/gobot-syncthing)   |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.29/src/apps/weaviate/logo-50x.webp">](https://weaviate.io)                                                                                                 | `weaviate`    | Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering with the fault-tolerance and scalability of a cloud-native database, all accessible through GraphQL, REST, and various language clients.                                    | [readme](https://www.npmjs.com/package/gobot-weaviate)    |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.29/src/apps/weed/logo-50x.webp">](https://github.com/seaweedfs/seaweedfs)                                                                                  | `weed`        | SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, cross-DC active-active replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding. | [readme](https://www.npmjs.com/package/gobot-weed)        |
@@ -218,10 +225,15 @@ gobot pocketbase/pocketbase --help
 or API:
 
 ```ts
-gobot(`pocketbase/pocketbase`).run([`--help`])
+const bot = await gobot(`pocketbase/pocketbase`)
+bot.run([`--help`])
 ```
 
-The above command format **_may_** run the app you have in mind. For example, `gobot caddy --help` runs the Caddy by the official name, but `gobot caddyserver/caddy --help` will also run it.
+The above command format **_may_** run the app you have in mind. If it doesn't and you want more information, use
+
+```bash
+gobot inspect <user>/<repo>
+```
 
 As long as the project uses the github [Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) feature and includes statically linked binaries with zero dependencies, Gobot can probably run it.
 
@@ -246,7 +258,7 @@ If you use publish statically linked binary releases on github, you are already 
 To see what initial support looks like:
 
 ```bash
-npx gobot <user>/<repo> --g-show-versions md --g-refresh
+npx gobot inspect <user>/<repo>
 ```
 
 This will index all the releases from your repo and show you exactly what Gobot sees.

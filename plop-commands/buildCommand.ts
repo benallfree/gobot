@@ -1,12 +1,12 @@
-import { flatten, map } from '@s-libs/micro-dash'
+import { flatten } from '@s-libs/micro-dash'
 import { globSync } from 'glob'
 import { dirname, join } from 'path'
 import { NodePlopAPI } from 'plop'
 import sharp from 'sharp'
 import { runShellCommand } from '../runShellCommand'
-import { APPS_MAP } from '../src/apps/APPS_MAP'
 import { buildData, buildDataForApp } from './util/buildData'
 import { getCurrentGitBranch } from './util/getCurrentGitBranch'
+import { getSlugsFromFileSystem } from './util/getSlugsFromFileSystem'
 import { localAction } from './util/localAction'
 import { mkSubcommander } from './util/mkSubcommander'
 
@@ -129,14 +129,13 @@ export const buildCommand = (plop: NodePlopAPI) => {
       'apps:invites': {
         gen: async () =>
           Promise.all(
-            map(APPS_MAP, async (app) => {
-              const { name } = app
+            getSlugsFromFileSystem().map(async (slug) => {
               return {
                 type: 'addMany',
-                destination: `src/apps/${name}`,
+                destination: `src/apps/${slug}`,
                 base: 'plop-templates/app',
                 templateFiles: 'plop-templates/app/invite.md',
-                data: await buildDataForApp(app, plop),
+                data: await buildDataForApp(slug, plop),
                 force: true,
               }
             }),
@@ -152,15 +151,14 @@ export const buildCommand = (plop: NodePlopAPI) => {
       'apps:sample-projects': {
         gen: async () =>
           Promise.all(
-            map(APPS_MAP, async (app) => {
-              const { name } = app
+            getSlugsFromFileSystem().map(async (slug) => {
               return {
                 type: 'addMany',
-                destination: `src/apps/${name}/sample-project`,
+                destination: `src/apps/${slug}/sample-project`,
                 base: 'plop-templates/app/sample-project',
                 templateFiles: 'plop-templates/app/sample-project/**/*',
                 globOptions: { dot: true, ignore: [`node_modules`] },
-                data: await buildDataForApp(app, plop),
+                data: await buildDataForApp(slug, plop),
                 force: true,
               }
             }),
@@ -178,28 +176,27 @@ export const buildCommand = (plop: NodePlopAPI) => {
             cwd: `plop-templates/app/helper`,
           })
           const results = await Promise.all(
-            map(APPS_MAP, async (app) => {
-              const { name } = app
+            getSlugsFromFileSystem().map(async (slug) => {
               return [
                 {
                   type: 'addMany',
-                  destination: `src/apps/${name}/helper`,
+                  destination: `src/apps/${slug}/helper`,
                   base: 'plop-templates/app/helper',
                   templateFiles: 'plop-templates/app/helper/**/*',
                   globOptions: {
                     dot: true,
                     ignore: [`**/node_modules`, `**/.DS_Store`],
                   },
-                  data: await buildDataForApp(app, plop),
+                  data: await buildDataForApp(slug, plop),
                   force: true,
                   verbose: true,
                 },
                 ...srcFiles.map((path) => {
                   return {
                     type: 'modify',
-                    path: `src/apps/${name}/helper/${path}`,
+                    path: `src/apps/${slug}/helper/${path}`,
                     pattern: /__EXPORT__/g,
-                    template: name,
+                    template: slug,
                   }
                 }),
               ]
@@ -221,15 +218,14 @@ export const buildCommand = (plop: NodePlopAPI) => {
           })
 
           const results = await Promise.all(
-            map(APPS_MAP, async (app) => {
-              const { name } = app
-              const data = await buildDataForApp(app, plop)
+            getSlugsFromFileSystem().map(async (slug) => {
+              const data = await buildDataForApp(slug, plop)
 
               return data.versions.flatMap((version) => {
                 return [
                   {
                     type: 'addMany',
-                    destination: `build/apps/${name}/${version}`,
+                    destination: `build/apps/${slug}/${version}`,
                     base: 'plop-templates/app/helper',
                     templateFiles: 'plop-templates/app/helper/**/*',
                     globOptions: {
@@ -241,12 +237,12 @@ export const buildCommand = (plop: NodePlopAPI) => {
                     verbose: true,
                   },
                   ...distFiles.map((file) => {
-                    const path = `build/apps/${name}/${version}/dist/${file}`
+                    const path = `build/apps/${slug}/${version}/dist/${file}`
                     return {
                       type: 'modify',
                       path,
                       pattern: /__EXPORT__/g,
-                      template: name,
+                      template: slug,
                     }
                   }),
                 ]

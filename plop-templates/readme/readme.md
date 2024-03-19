@@ -74,7 +74,8 @@ npm i gobot
 
 ```js
 import { gobot } from 'gobot'
-gobot(`pocketbase`).run([`--help`])
+const bot = await gobot(`pocketbase`)
+bot.run([`--help`])
 ```
 
 **Pass environment variables**
@@ -83,17 +84,19 @@ In API mode, Gobot does not forward environment variables by default.
 
 ```js
 import { gobot } from 'gobot'
-gobot(`pocketbase`, {
+const bot = await gobot(`pocketbase`, {
   env: process.env,
-}).run([`--help`])
+})
+bot.run([`--help`])
 ```
 
 **Use a specific version of a Gobot app**
 
 ```js
-gobot(`pocketbase`, {
+const bot = await gobot(`pocketbase`, {
   version: `0.19.3`,
-}).run([`--help`])
+})
+bot.run([`--help`])
 ```
 
 **Add an [official app](#official-gobot-apps) as a project dependency**
@@ -110,14 +113,15 @@ npm i gobot-pocketbase@0.19.3
 
 ```js
 import { gobot } from 'gobot'
-gobot(`pocketbase`).run([`--help`])
+const bot = await gobot(`pocketbase`)
+bot.run([`--help`])
 ```
 
 ## CLI
 
 Note: All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
 
-{{cliGlobaloptionsMd}}
+{{cliGlobalOptionsMd}}
 
 ### `gobot <app> [gobotOptions] [appOptions]`
 
@@ -182,10 +186,15 @@ gobot pocketbase/pocketbase --help
 or API:
 
 ```ts
-gobot(`pocketbase/pocketbase`).run([`--help`])
+const bot = await gobot(`pocketbase/pocketbase`)
+bot.run([`--help`])
 ```
 
-The above command format **_may_** run the app you have in mind. For example, `gobot caddy --help` runs the Caddy by the official name, but `gobot caddyserver/caddy --help` will also run it.
+The above command format **_may_** run the app you have in mind. If it doesn't and you want more information, use
+
+```bash
+gobot inspect <user>/<repo>
+```
 
 As long as the project uses the github [Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) feature and includes statically linked binaries with zero dependencies, Gobot can probably run it.
 

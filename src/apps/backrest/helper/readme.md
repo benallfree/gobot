@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/npm/v/gobot-backrest) ![](https://img.shields.io/npm/dt/gobot-backrest) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
-## `backrest` for npm
+## Backrest via npm
 
 This package allows you to use [Backrest](https://github.com/garethgeorge/backrest) as an npm dependency.
 
@@ -24,7 +24,8 @@ npm i gobot
 
 ```js
 import { gobot } from 'gobot'
-gobot(`backrest`).run([`--version`])
+const bot = await gobot(`backrest`)
+bot.run([`--version`])
 ```
 
 **Basic version locking**
@@ -37,7 +38,8 @@ With `gobot-backrest` present, Gobot will default to the `backrest` version corr
 
 ```js
 import { gobot } from 'gobot'
-gobot(`backrest`).run([`--version`])
+const bot = await gobot(`backrest`)
+bot..run([`--version`])
 ```
 
 **Locking to a specific version**
@@ -54,19 +56,22 @@ In rare cases, you may want to intentionally run a different version of `backres
 
 ```js
 // Run a specific version (override)
-gobot(`backrest`, { version: `0.14.0` }).run([`--version`])
+const bot = await gobot(`backrest`, { version: `0.14.0` })
+bot.run([`--version`])
 
 // Or the latest version (override)
-gobot(`backrest`, { version: `*` }).run([`--version`])
+const bot = await gobot(`backrest`, { version: `*` })
+bot.run([`--version`])
 ```
 
 **Pass environment variables**
 
 ```js
 import { gobot } from 'gobot'
-gobot(`backrest`, {
+const bot = await gobot(`backrest`, {
   env: process.env, // This is not always necessary, but some apps do need it
-}).run([`--version`])
+})
+bot.run([`--version`])
 ```
 
 **Install globally for CLI access**
@@ -112,7 +117,7 @@ If you use publish statically linked binary releases on github, you are already 
 To see what initial support looks like:
 
 ```bash
-npx gobot <user>/<repo> --g-show-versions md --g-refresh
+npx gobot inspect <user>/<repo>
 ```
 
 This will index all the releases from your repo and show you exactly what Gobot sees.

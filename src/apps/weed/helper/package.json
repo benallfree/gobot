@@ -20,7 +20,8 @@
   },
   "keywords": [
     "gobot",
-    "weed"
+    "weed",
+    "SeaweedFS"
   ],
   "author": "Ben Allfree",
   "license": "ISC",

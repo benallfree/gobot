@@ -112,7 +112,7 @@ export class GithubReleaseProvider {
 
   cachePath(...paths: string[]) {
     const path = resolve(this.cacheRoot, ...paths)
-    mkdir('-p', path)
+    mkdir(path)
     return (...paths: string[]) => join(path, ...paths)
   }
 
@@ -231,8 +231,6 @@ export class GithubReleaseProvider {
     actual.forEach((v, i) => {
       version[i] = parseInt(v, 10) || 0
     })
-
-    console.log({ actual, version })
 
     return version.join('.')
   }

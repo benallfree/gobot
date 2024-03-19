@@ -1,8 +1,8 @@
 import { version } from './version'
 
 export const meta = {
-  name: `mc`,
+  name: `Mc`,
   homepage: `https://min.io`,
-  slug: `Mc`,
+  slug: `mc`,
   version,
 }

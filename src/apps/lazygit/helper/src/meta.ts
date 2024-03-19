@@ -1,8 +1,8 @@
 import { version } from './version'
 
 export const meta = {
-  name: `lazygit`,
+  name: `Lazygit`,
   homepage: `https://github.com/jesseduffield/lazygit`,
-  slug: `Lazygit`,
+  slug: `lazygit`,
   version,
 }

@@ -70,7 +70,7 @@ export const botRun = async (appInfo: AppInfo) => {
       dbg(`CLI:`, options, process.argv)
 
       try {
-        const bot = gobot(name, {
+        const bot = await gobot(name, {
           os,
           arch,
           version,

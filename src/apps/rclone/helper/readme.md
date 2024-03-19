@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/npm/v/gobot-rclone) ![](https://img.shields.io/npm/dt/gobot-rclone) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
-## `rclone` for npm
+## RClone via npm
 
 This package allows you to use [RClone](https://rclone.org/) as an npm dependency.
 
@@ -24,7 +24,8 @@ npm i gobot
 
 ```js
 import { gobot } from 'gobot'
-gobot(`rclone`).run([`--version`])
+const bot = await gobot(`rclone`)
+bot.run([`--version`])
 ```
 
 **Basic version locking**
@@ -37,7 +38,8 @@ With `gobot-rclone` present, Gobot will default to the `rclone` version correspo
 
 ```js
 import { gobot } from 'gobot'
-gobot(`rclone`).run([`--version`])
+const bot = await gobot(`rclone`)
+bot..run([`--version`])
 ```
 
 **Locking to a specific version**
@@ -54,19 +56,22 @@ In rare cases, you may want to intentionally run a different version of `rclone`
 
 ```js
 // Run a specific version (override)
-gobot(`rclone`, { version: `1.66.0` }).run([`--version`])
+const bot = await gobot(`rclone`, { version: `1.66.0` })
+bot.run([`--version`])
 
 // Or the latest version (override)
-gobot(`rclone`, { version: `*` }).run([`--version`])
+const bot = await gobot(`rclone`, { version: `*` })
+bot.run([`--version`])
 ```
 
 **Pass environment variables**
 
 ```js
 import { gobot } from 'gobot'
-gobot(`rclone`, {
+const bot = await gobot(`rclone`, {
   env: process.env, // This is not always necessary, but some apps do need it
-}).run([`--version`])
+})
+bot.run([`--version`])
 ```
 
 **Install globally for CLI access**
@@ -112,7 +117,7 @@ If you use publish statically linked binary releases on github, you are already 
 To see what initial support looks like:
 
 ```bash
-npx gobot <user>/<repo> --g-show-versions md --g-refresh
+npx gobot inspect <user>/<repo>
 ```
 
 This will index all the releases from your repo and show you exactly what Gobot sees.
@@ -141,7 +146,7 @@ pnpm test
 
 ## All known releases
 
-`gobot-rclone` versions mirror `rclone` versions. Gobot knows about 51 releases of `rclone`:
+`gobot-rclone` versions mirror `rclone` versions. Gobot knows about 102 releases of `rclone`:
 
 | Version | freebsd      | darwin    | linux              | win32    |
 | ------- | ------------ | --------- | ------------------ | -------- |
@@ -195,4 +200,55 @@ pnpm test
 | 1.49.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 1.48.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 1.47.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.46.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.45.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.44.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 1.43.1  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.43.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.42.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.41.0  | x64/arm      | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.40.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.39.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.38.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.37.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.36.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.35.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.34.0  | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.33.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.32.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.31.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.30.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.29.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.28.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.27.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.26.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.25.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.24.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.23.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.22.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.21.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.20.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.19.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.18.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.17.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.16.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.15.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.14.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.13.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.12.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.11.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.10.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.9.0   | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.8.0   | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.7.0   | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.6.0   | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.5.0   | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.4.0   | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.3.0   | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.2.0   | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.1.0   | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 1.0.0   | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.99.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.98.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.97.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |
+| 0.96.0  | x64/ia32/arm | x64       | x64/ia32/arm       | x64/ia32 |

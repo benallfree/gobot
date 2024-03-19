@@ -18,10 +18,6 @@
 - [AppInfo](api.md#appinfo)
 - [GithubReleaseProviderOptions](api.md#githubreleaseprovideroptions)
 
-### Variables
-
-- [APPS\_MAP](api.md#apps_map)
-
 ### Functions
 
 - [botRun](api.md#botrun)
@@ -52,15 +48,15 @@ Re-exports [GobotOptions](../interfaces/Gobot.GobotOptions.md)
 | Name | Type |
 | :------ | :------ |
 | `description` | `string` |
+| `factory` | `AppFactory` \| `string` |
 | `homepage` | `string` |
 | `isAlpha` | `boolean` |
 | `name` | `string` |
-| `slug` | `string` |
 | `version?` | `string` |
 
 #### Defined in
 
-[apps/APPS_MAP.ts:1](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.29/src/apps/APPS_MAP.ts#L1)
+[apps/index.ts:4](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.29/src/apps/index.ts#L4)
 
 ___
 
@@ -77,16 +73,6 @@ ___
 #### Defined in
 
 [GithubReleaseProvider.ts:82](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.29/src/GithubReleaseProvider.ts#L82)
-
-## Variables
-
-### APPS\_MAP
-
-• `Const` **APPS\_MAP**: [`AppInfo`](api.md#appinfo)[]
-
-#### Defined in
-
-[apps/APPS_MAP.ts:10](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.29/src/apps/APPS_MAP.ts#L10)
 
 ## Functions
 
@@ -112,7 +98,7 @@ ___
 
 ### gobot
 
-▸ **gobot**(`appName`, `optionsIn?`): [`Gobot`](../classes/Gobot.Gobot.md)
+▸ **gobot**(`appSlugOrPath`, `optionsIn?`): `Promise`\<[`Gobot`](../classes/Gobot.Gobot.md)\>
 
 Instantiate a gobot for a specific app.
 
@@ -120,12 +106,12 @@ Instantiate a gobot for a specific app.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `appName` | `string` | `<app>` for officially supported apps, or `<user>/<repo>` for unofficial apps (your mileage may vary) |
+| `appSlugOrPath` | `string` | `<app>` for officially supported apps, or `<user>/<repo>` for unofficial apps (your mileage may vary) |
 | `optionsIn` | `Partial`\<[`GobotOptions`](../interfaces/Gobot.GobotOptions.md)\> | Option overrides |
 
 #### Returns
 
-[`Gobot`](../classes/Gobot.Gobot.md)
+`Promise`\<[`Gobot`](../classes/Gobot.Gobot.md)\>
 
 An instance of GobotBase
 
@@ -167,7 +153,7 @@ ___
 
 ### mkGobot
 
-▸ **mkGobot**(`appName`, `defaultOptionsIn?`): (`optionsIn`: `Partial`\<[`GobotOptions`](../interfaces/Gobot.GobotOptions.md)\>) => [`Gobot`](../classes/Gobot.Gobot.md)
+▸ **mkGobot**(`appName`, `defaultOptionsIn?`): (`optionsIn`: `Partial`\<[`GobotOptions`](../interfaces/Gobot.GobotOptions.md)\>) => `Promise`\<[`Gobot`](../classes/Gobot.Gobot.md)\>
 
 #### Parameters
 
@@ -180,7 +166,7 @@ ___
 
 `fn`
 
-▸ (`optionsIn?`): [`Gobot`](../classes/Gobot.Gobot.md)
+▸ (`optionsIn?`): `Promise`\<[`Gobot`](../classes/Gobot.Gobot.md)\>
 
 ##### Parameters
 
@@ -190,8 +176,8 @@ ___
 
 ##### Returns
 
-[`Gobot`](../classes/Gobot.Gobot.md)
+`Promise`\<[`Gobot`](../classes/Gobot.Gobot.md)\>
 
 #### Defined in
 
-[api.ts:70](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.29/src/api.ts#L70)
+[api.ts:71](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.29/src/api.ts#L71)
