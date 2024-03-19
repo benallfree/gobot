@@ -10,16 +10,17 @@
   },
   "types": "dist/api.d.ts",
   "scripts": {
-    "prepack": "rimraf -v --glob \"gobot-*.tgz\" pb_data",
-    "pack": "npm pack",
-    "bump": "npm version prerelease --no-git-tag-version --preid alpha",
-    "clean": "rimraf dist",
-    "plop": "pnpm build && pnpm plop:transpile && plop",
-    "plop:transpile": "tsup-node ./plopfile.ts --format esm --out-dir .",
-    "build": "npm run clean && tsup-node",
+    "clean": "pnpm plop clean all && rimraf dist",
+    "build:gobot": "tsup-node",
+    "plop:transpile": "tsup-node ./plopfile.ts --out-dir .",
+    "base": "pnpm clean && concurrently 'pnpm:plop:transpile' 'pnpm:build:gobot'",
+    "build": "pnpm base && pnpm plop build all",
+    "paq": "pnpm build && pnpm plop pack all",
+    "publish": "pnpm pack && pnpm plop publish all",
+    "plop": "plop",
     "watch": "tsup-node --watch .",
     "dev": "pnpm build && node dist/cli.js",
-    "test": "pnpm build && npm pack && npm rm -g gobot && npm i -g gobot-`cat package.json | fx '.version'`.tgz && gobot pocketbase --g-refresh --g-vvv --help",
+    "test": "pnpm paq && npm rm -g gobot && npm i -g gobot-`cat package.json | fx '.version'`.tgz && gobot pocketbase --g-refresh --g-vvv --help",
     "docs": "typedoc"
   },
   "keywords": [
@@ -49,9 +50,9 @@
     "lzma-native": "^8.0.6",
     "markdown-table": "^3.0.3",
     "node-fetch": "^3.3.2",
+    "rimraf": "^5.0.5",
     "semver": "^7.6.0",
-    "tar-stream": "1.6.2",
-    "rimraf": "^5.0.5"
+    "tar-stream": "1.6.2"
   },
   "devDependencies": {
     "@types/decompress": "^4.2.7",
@@ -62,6 +63,7 @@
     "@types/shelljs": "^0.8.15",
     "@types/tar-stream": "1.6.2",
     "boolean": "^3.2.0",
+    "concurrently": "^8.2.2",
     "find-up": "^7.0.0",
     "fx": "^31.0.0",
     "plop": "^4.0.1",

@@ -32,7 +32,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
   const GOBOT_BUILD_ACTION = localAction(
     plop,
     async (answers, config, plop) => {
-      await runShellCommand(`pnpm build`)
+      await runShellCommand(`pnpm build:gobot`)
       return 'Built gobot'
     },
   )
@@ -59,19 +59,6 @@ export const buildCommand = (plop: NodePlopAPI) => {
     `Generate build artifacts`,
     `Choose build artifacts to generate`,
     {
-      gobot: {
-        gen: async () => [
-          {
-            type: GOBOT_BUILD_ACTION,
-          },
-        ],
-        clean: [
-          {
-            type: `rimraf`,
-            path: `dist`,
-          },
-        ],
-      },
       docs: {
         gen: async () => [
           {
