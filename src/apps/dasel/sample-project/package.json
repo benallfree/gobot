@@ -1,0 +1,13 @@
+{
+  "name": "dasel-gobot-sample",
+  "bin": {
+    "dasel-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "dasel": "dasel"
+  },
+  "dependencies": {
+    "gobot-dasel": "2.7.0"
+  }
+}
