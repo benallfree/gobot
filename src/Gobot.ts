@@ -58,14 +58,7 @@ export interface GobotOptions {
 
 export type VersionFormat = (typeof Gobot.VERSION_FORMATS)[number]
 
-export const COMPRESSED_ARCHIVE_EXTS = [
-  `.zip`,
-  `.tgz`,
-  `.tar.gz`,
-  `.bz2`,
-  `.tar.xz`,
-  `.gz`,
-]
+export const COMPRESSED_ARCHIVE_EXTS = [`.zip`, `.tgz`, `.bz2`, `.gz`, `.xz`]
 
 /**
  * Generic Gobot app. Subclass this for specific functionality.
