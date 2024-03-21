@@ -177,11 +177,14 @@ export class GithubReleaseProvider {
   }
 
   platformRegex(arch: ArchKey, aliases: string[]) {
-    return new RegExp(`[_\\-\\/](${aliases.join('|')})[_\\-.]`, 'i')
+    return new RegExp(
+      `[_\\-\\/](?:${[...aliases, arch].join('|')})[_\\-.]`,
+      'i',
+    )
   }
 
   archRegex(os: PlatformKey, aliases: string[]) {
-    return new RegExp(`[_-](?:${aliases.join(`|`)})(?:[_\\-.]|$)`, 'i')
+    return new RegExp(`[_-](?:${[...aliases, os].join(`|`)})(?:[_\\-.]|$)`, 'i')
   }
 
   getArchivesForRelease(release: GithubRelease): StoredRelease['archives'] {
