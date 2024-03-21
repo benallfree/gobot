@@ -84,14 +84,11 @@ export const DEFAULT_PLATFORM_MAP = {
 
 export type PlatformMap = typeof DEFAULT_PLATFORM_MAP
 
-export type GithubReleaseProviderOptions = {
-  platformMap: PlatformMap
-}
+export type GithubReleaseProviderOptions = {}
 
 export class GithubReleaseProvider {
   protected repo: string
   protected cacheRoot: string
-  platformMap: PlatformMap
 
   constructor(
     repo: string,
@@ -100,15 +97,8 @@ export class GithubReleaseProvider {
   ) {
     this.repo = repo
     this.cacheRoot = cacheRoot
-    const options = mergeConfig<GithubReleaseProviderOptions>(
-      {
-        platformMap: DEFAULT_PLATFORM_MAP,
-      },
-      optionsIn,
-    )
+    const options = mergeConfig<GithubReleaseProviderOptions>({}, optionsIn)
     dbg(`${this.slug} options`, stringify(options, null, 2))
-    const { platformMap: releaseMap } = options
-    this.platformMap = releaseMap
   }
 
   get slug() {
@@ -166,6 +156,10 @@ export class GithubReleaseProvider {
         dbg(`Stored asset`, stored)
         return stored
       })
+  }
+
+  get platformMap(): PlatformMap {
+    return DEFAULT_PLATFORM_MAP
   }
 
   get allowBareFiles(): boolean {
