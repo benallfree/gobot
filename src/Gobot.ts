@@ -2,10 +2,6 @@ import { find, flatMap, keys, uniq } from '@s-libs/micro-dash'
 import Bottleneck from 'bottleneck'
 import { spawn } from 'child_process'
 import decompress from 'decompress'
-import decompressBz2 from 'decompress-bzip2'
-import decompressGz from 'decompress-gz'
-import decompressTarbz2 from 'decompress-tarbz2'
-import decompressTargz from 'decompress-targz'
 import decompressUnzip from 'decompress-unzip'
 import envPaths from 'env-paths'
 import {
@@ -18,8 +14,9 @@ import {
 import { globSync } from 'glob'
 import { markdownTable } from 'markdown-table'
 import { arch as _arch, platform } from 'os'
-import { basename, dirname, join, resolve } from 'path'
+import { basename, join, resolve } from 'path'
 import { compare, satisfies } from 'semver'
+import decompressTarZ from '../packages/decompress-tar-z'
 import { GithubReleaseProvider } from './GithubReleaseProvider'
 import { downloadFile } from './util/downloadFile'
 import { getAppVersion } from './util/getAppVersion'
@@ -29,7 +26,6 @@ import { mkSetting } from './util/mkSetting'
 import { sanitizeOptions } from './util/sanitize'
 import { mkdir, pwd, rimrafSync } from './util/shell'
 import { stringify } from './util/stringify'
-import decompressTarxz from './vendor/decompress-tarxz'
 
 export type PlatformKey = NodeJS.Platform
 export type ArchKey = NodeJS.Architecture
@@ -250,14 +246,7 @@ export class Gobot {
   async unpack(downloadPath: string, version: string) {
     info(`Unpacking ${downloadPath}`)
     await decompress(downloadPath, this.downloadRoot(version), {
-      plugins: [
-        decompressTargz(),
-        decompressUnzip(),
-        decompressTarbz2(),
-        decompressTarxz(),
-        decompressBz2({ path: join(dirname(downloadPath), this.name) }),
-        decompressGz(),
-      ],
+      plugins: [decompressTarZ({ outfile: this.name }), decompressUnzip()],
     })
   }
 

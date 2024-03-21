@@ -44,7 +44,7 @@
     "decompress-targz": "^4.1.1",
     "decompress-unzip": "^4.0.1",
     "env-paths": "^3.0.0",
-    "file-type": "^6.2.0",
+    "file-type": "^19.0.0",
     "glob": "^10.3.10",
     "is-stream": "^4.0.1",
     "json-stringify-safe": "^5.0.1",
@@ -53,7 +53,8 @@
     "node-fetch": "^3.3.2",
     "rimraf": "^5.0.5",
     "semver": "^7.6.0",
-    "tar-stream": "1.6.2"
+    "tar-stream": "1.6.2",
+    "unbzip2-stream": "^1.4.3"
   },
   "devDependencies": {
     "@types/decompress": "^4.2.7",
@@ -63,6 +64,7 @@
     "@types/semver": "^7.5.8",
     "@types/shelljs": "^0.8.15",
     "@types/tar-stream": "1.6.2",
+    "@types/unbzip2-stream": "^1.4.3",
     "boolean": "^3.2.0",
     "concurrently": "^8.2.2",
     "find-up": "^7.0.0",
