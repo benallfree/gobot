@@ -27,6 +27,7 @@ export const smartFetch = async <TRet>(
     dbg(`Fetching`, url)
     const data = await _fetch<TRet>(url)(url, init)
     mkdir(dirname(path))
+    dbg(`Writing ${url} to ${path}`)
     writeFileSync(path, stringify(data))
     return data
   } catch (e) {
