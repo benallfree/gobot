@@ -6,6 +6,7 @@ import { exit } from 'process'
 import json from '../package.json'
 import { Gobot } from './Gobot'
 import { gobot } from './api'
+import { verbosity } from './settings/verbosity'
 import { getAppVersion } from './util/getAppVersion'
 import { dbg } from './util/log'
 
@@ -34,7 +35,7 @@ const main = async () => {
     )
     .action(async (appName, options, command) => {
       const { gV, gVv, gVvv, gCachePath: cachePath } = options
-      Gobot.verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
+      verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
       dbg(`App name:`, appName)
       dbg(`CLI:`, appName, options)
 
@@ -89,7 +90,7 @@ const main = async () => {
         gCachePath: cachePath,
         gDownload: download,
       } = options
-      Gobot.verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
+      verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
       dbg(`App name:`, appName)
       dbg(`CLI:`, appName, options)
 

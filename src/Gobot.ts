@@ -22,7 +22,6 @@ import { downloadFile } from './util/downloadFile'
 import { getAppVersion } from './util/getAppVersion'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
-import { mkSetting } from './util/mkSetting'
 import { sanitizeOptions } from './util/sanitize'
 import { mkdir, pwd, rimrafSync } from './util/shell'
 import { stringify } from './util/stringify'
@@ -66,8 +65,6 @@ export class Gobot {
 
   static DEFAULT_GOBOT_CACHE_ROOT = (...paths: string[]) =>
     resolve(envPaths('gobot').cache, ...paths)
-
-  static verbosity = mkSetting<0 | 1 | 2 | 3>(0)
 
   static VERSION_FORMATS = ['js', 'txt', 'json', 'cjs', 'esm', 'md'] as const
 

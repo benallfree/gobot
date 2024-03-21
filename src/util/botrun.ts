@@ -3,6 +3,7 @@ import { arch, platform } from 'os'
 import { exit } from 'process'
 import { Gobot } from '../Gobot'
 import { gobot } from '../api'
+import { verbosity } from '../settings/verbosity'
 import { dbg } from './log'
 
 export type AppInfo = {
@@ -66,7 +67,7 @@ export const botRun = async (appInfo: AppInfo) => {
         gDownload: download,
         gShowVersions: showVersions,
       } = options
-      Gobot.verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
+      verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
       dbg(`CLI:`, options, process.argv)
 
       try {
