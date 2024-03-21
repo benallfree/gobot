@@ -168,12 +168,24 @@ export class GithubReleaseProvider {
       })
   }
 
+  get allowBareFiles(): boolean {
+    return false
+  }
+
+  get excludedExts(): string[] {
+    return []
+  }
+
   get allowedExts() {
     return COMPRESSED_ARCHIVE_EXTS
   }
 
   isArchiveUrlAllowed(url: string) {
-    return this.allowedExts.some((ext) => url.endsWith(ext))
+    return (
+      (this.allowBareFiles ||
+        this.allowedExts.some((ext) => url.endsWith(ext))) &&
+      !this.excludedExts.some((ext) => url.endsWith(ext))
+    )
   }
 
   platformRegex(arch: ArchKey, aliases: string[]) {
