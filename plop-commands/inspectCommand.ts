@@ -1,5 +1,6 @@
 import { NodePlopAPI } from 'plop'
-import { Gobot, mkGobot } from '../src/Gobot'
+import { mkGobot } from '../src/Gobot'
+import { verbosity } from '../src/settings/verbosity'
 import { extractUserAndRepo } from '../src/util/extractUserAndRepo'
 
 export function inspectCommand(plop: NodePlopAPI) {
@@ -15,7 +16,7 @@ export function inspectCommand(plop: NodePlopAPI) {
       if (!answers) throw new Error(`Expected answers`)
       const { name } = answers
       const { user, repo } = extractUserAndRepo(name)
-      Gobot.verbosity(3)
+      verbosity(3)
       const bot = mkGobot(`${user}/${repo}`)
       bot.clearCache()
       const md = await bot.versions(`md`)
