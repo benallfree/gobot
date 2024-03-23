@@ -119,7 +119,7 @@ export class Gobot {
     dbg(`Final cache root`, this.cacheRoot)
     this.releaseProvider = releaseProviderFactory(
       this.repo,
-      join(this.cacheRoot, `remote`),
+      join(this.cacheRoot, `release-provider`),
     )
     dbg(`Release provider is`, this.releaseProvider.slug)
   }
