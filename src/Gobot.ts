@@ -68,14 +68,14 @@ export class Gobot {
 
   static VERSION_FORMATS = ['js', 'txt', 'json', 'cjs', 'esm', 'md'] as const
 
-  repo: string
-  os: PlatformKey
-  arch: ArchKey
-  version: string
-  env: NodeJS.ProcessEnv
-  cacheRoot: string
-  storedReleases: undefined | StoredRelease[] = undefined
-  releaseProvider: GithubReleaseProvider
+  protected repo: string
+  protected os: PlatformKey
+  protected arch: ArchKey
+  protected version: string
+  protected env: NodeJS.ProcessEnv
+  protected cacheRoot: string
+  protected storedReleases: undefined | Release[] = undefined
+  protected releaseProvider: GithubReleaseProvider
 
   /**
    * Create a new Gobot
