@@ -3,7 +3,7 @@ import { arch, platform } from 'os'
 import { exit } from 'process'
 import { Gobot } from '../Gobot'
 import { gobot } from '../api'
-import { verbosity } from '../settings/verbosity'
+import { verbosity } from '../settings'
 import { dbg } from './log'
 
 export type AppInfo = {

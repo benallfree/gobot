@@ -6,7 +6,7 @@ import { exit } from 'process'
 import json from '../package.json'
 import { Gobot } from './Gobot'
 import { gobot } from './api'
-import { verbosity } from './settings/verbosity'
+import { verbosity } from './settings'
 import { getAppVersion } from './util/getAppVersion'
 import { dbg } from './util/log'
 

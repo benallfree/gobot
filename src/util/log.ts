@@ -1,4 +1,4 @@
-import { verbosity } from '../settings/verbosity'
+import { verbosity } from '../settings'
 
 export const dbg = (...args: any[]) => verbosity() > 1 && console.log(...args)
 export const dbge = (...args: any[]) =>
