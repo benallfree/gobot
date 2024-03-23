@@ -1,0 +1,2254 @@
+[
+  {
+    "version": "0.9.0-alpha.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.9.0-alpha.1/cue_v0.9.0-alpha.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.8.0",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0/cue_v0.8.0_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.8.0-rc.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-rc.1/cue_v0.8.0-rc.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.8.0-alpha.5",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.5/cue_v0.8.0-alpha.5_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.8.0-alpha.4",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.4/cue_v0.8.0-alpha.4_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.8.0-alpha.3",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.3/cue_v0.8.0-alpha.3_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.8.0-alpha.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.8.0-alpha.1/cue_v0.8.0-alpha.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.7.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.7.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.1/cue_v0.7.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.7.0",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0/cue_v0.7.0_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.7.0-rc.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.7.0-rc.1/cue_v0.7.0-rc.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.6.0",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0/cue_v0.6.0_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.6.0-rc.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-rc.1/cue_v0.6.0-rc.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.6.0-beta.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-beta.1/cue_v0.6.0-beta.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.6.0-alpha.2",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.2/cue_v0.6.0-alpha.2_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.6.0-alpha.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.6.0-alpha.1/cue_v0.6.0-alpha.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.5.0",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0/cue_v0.5.0_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.5.0-rc.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-rc.1/cue_v0.5.0-rc.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.5.0-beta.5",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.5/cue_v0.5.0-beta.5_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.5.0-beta.2",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.2/cue_v0.5.0-beta.2_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.5.0-beta.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-beta.1/cue_v0.5.0-beta.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.5.0-alpha.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.5.0-alpha.1/cue_v0.5.0-alpha.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.4.3",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3/cue_v0.4.3_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.4.3-beta.2",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.2/cue_v0.4.3-beta.2_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.4.3-beta.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.3-beta.1/cue_v0.4.3-beta.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.4.2",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2/cue_v0.4.2_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.4.2-rc.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.2-rc.1/cue_v0.4.2-rc.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.4.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1/cue_v0.4.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.4.1-rc.2",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.2/cue_v0.4.1-rc.2_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.4.1-rc.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-rc.1/cue_v0.4.1-rc.1_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.4.1-beta.6",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_darwin_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_windows_amd64.zip",
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_windows_arm64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_windows_arm64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_darwin_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_windows_amd64.zip",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.1-beta.6/cue_v0.4.1-beta.6_windows_arm64.zip"
+    ]
+  },
+  {
+    "version": "0.4.0",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0/cue_v0.4.0_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.0/cue_v0.4.0_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0/cue_v0.4.0_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0/cue_v0.4.0_windows_amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0/cue_v0.4.0_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0/cue_v0.4.0_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0/cue_v0.4.0_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0/cue_v0.4.0_windows_amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0/cue_v0.4.0_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0/cue_v0.4.0_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0/cue_v0.4.0_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0/cue_v0.4.0_windows_amd64.zip"
+    ]
+  },
+  {
+    "version": "0.4.0-rc.1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-rc.1/cue_v0.4.0-rc.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-rc.1/cue_v0.4.0-rc.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-rc.1/cue_v0.4.0-rc.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-rc.1/cue_v0.4.0-rc.1_windows_amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-rc.1/cue_v0.4.0-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-rc.1/cue_v0.4.0-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-rc.1/cue_v0.4.0-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-rc.1/cue_v0.4.0-rc.1_windows_amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-rc.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-rc.1/cue_v0.4.0-rc.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-rc.1/cue_v0.4.0-rc.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-rc.1/cue_v0.4.0-rc.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-rc.1/cue_v0.4.0-rc.1_windows_amd64.zip"
+    ]
+  },
+  {
+    "version": "0.4.0-beta.2",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.2/cue_v0.4.0-beta.2_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.2/cue_v0.4.0-beta.2_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.2/cue_v0.4.0-beta.2_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.2/cue_v0.4.0-beta.2_windows_amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.2/cue_v0.4.0-beta.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.2/cue_v0.4.0-beta.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.2/cue_v0.4.0-beta.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.2/cue_v0.4.0-beta.2_windows_amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.2/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.2/cue_v0.4.0-beta.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.2/cue_v0.4.0-beta.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.2/cue_v0.4.0-beta.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.2/cue_v0.4.0-beta.2_windows_amd64.zip"
+    ]
+  },
+  {
+    "version": "0.4.0-beta.1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.1/cue_v0.4.0-beta.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.1/cue_v0.4.0-beta.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.1/cue_v0.4.0-beta.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.1/cue_v0.4.0-beta.1_windows_amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.1/cue_v0.4.0-beta.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.1/cue_v0.4.0-beta.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.1/cue_v0.4.0-beta.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.1/cue_v0.4.0-beta.1_windows_amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.1/cue_v0.4.0-beta.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.1/cue_v0.4.0-beta.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.1/cue_v0.4.0-beta.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-beta.1/cue_v0.4.0-beta.1_windows_amd64.zip"
+    ]
+  },
+  {
+    "version": "0.4.0-alpha.2",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.2/cue_v0.4.0-alpha.2_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.2/cue_v0.4.0-alpha.2_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.2/cue_v0.4.0-alpha.2_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.2/cue_v0.4.0-alpha.2_windows_amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.2/cue_v0.4.0-alpha.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.2/cue_v0.4.0-alpha.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.2/cue_v0.4.0-alpha.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.2/cue_v0.4.0-alpha.2_windows_amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.2/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.2/cue_v0.4.0-alpha.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.2/cue_v0.4.0-alpha.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.2/cue_v0.4.0-alpha.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.2/cue_v0.4.0-alpha.2_windows_amd64.zip"
+    ]
+  },
+  {
+    "version": "0.4.0-alpha.1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.1/cue_v0.4.0-alpha.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.1/cue_v0.4.0-alpha.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.1/cue_v0.4.0-alpha.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.1/cue_v0.4.0-alpha.1_windows_amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.1/cue_v0.4.0-alpha.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.1/cue_v0.4.0-alpha.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.1/cue_v0.4.0-alpha.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.1/cue_v0.4.0-alpha.1_windows_amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.1/cue_v0.4.0-alpha.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.1/cue_v0.4.0-alpha.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.1/cue_v0.4.0-alpha.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.4.0-alpha.1/cue_v0.4.0-alpha.1_windows_amd64.zip"
+    ]
+  },
+  {
+    "version": "0.3.2",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.2/cue_v0.3.2_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.2/cue_v0.3.2_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.2/cue_v0.3.2_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.2/cue_v0.3.2_windows_amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.2/cue_v0.3.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.2/cue_v0.3.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.2/cue_v0.3.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.2/cue_v0.3.2_windows_amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.2/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.2/cue_v0.3.2_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.2/cue_v0.3.2_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.2/cue_v0.3.2_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.2/cue_v0.3.2_windows_amd64.zip"
+    ]
+  },
+  {
+    "version": "0.3.1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.1/cue_v0.3.1_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.1/cue_v0.3.1_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.1/cue_v0.3.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.1/cue_v0.3.1_windows_amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.1/cue_v0.3.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.1/cue_v0.3.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.1/cue_v0.3.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.1/cue_v0.3.1_windows_amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.1/cue_v0.3.1_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.1/cue_v0.3.1_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.1/cue_v0.3.1_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.1/cue_v0.3.1_windows_amd64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0/cue_v0.3.0_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0/cue_v0.3.0_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0/cue_v0.3.0_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0/cue_v0.3.0_windows_amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0/cue_v0.3.0_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0/cue_v0.3.0_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0/cue_v0.3.0_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0/cue_v0.3.0_windows_amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0/cue_v0.3.0_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0/cue_v0.3.0_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0/cue_v0.3.0_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0/cue_v0.3.0_windows_amd64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-beta.8",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.8/cue_v0.3.0-beta.8_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.8/cue_v0.3.0-beta.8_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.8/cue_v0.3.0-beta.8_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.8/cue_v0.3.0-beta.8_windows_amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.8/cue_v0.3.0-beta.8_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.8/cue_v0.3.0-beta.8_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.8/cue_v0.3.0-beta.8_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.8/cue_v0.3.0-beta.8_windows_amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.8/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.8/cue_v0.3.0-beta.8_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.8/cue_v0.3.0-beta.8_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.8/cue_v0.3.0-beta.8_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.8/cue_v0.3.0-beta.8_windows_amd64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-beta.7",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.7/cue_v0.3.0-beta.7_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.7/cue_v0.3.0-beta.7_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.7/cue_v0.3.0-beta.7_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.7/cue_v0.3.0-beta.7_windows_amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.7/cue_v0.3.0-beta.7_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.7/cue_v0.3.0-beta.7_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.7/cue_v0.3.0-beta.7_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.7/cue_v0.3.0-beta.7_windows_amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.7/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.7/cue_v0.3.0-beta.7_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.7/cue_v0.3.0-beta.7_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.7/cue_v0.3.0-beta.7_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.7/cue_v0.3.0-beta.7_windows_amd64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-beta.6",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.6/cue_v0.3.0-beta.6_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.6/cue_v0.3.0-beta.6_linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.6/cue_v0.3.0-beta.6_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.6/cue_v0.3.0-beta.6_windows_amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.6/cue_v0.3.0-beta.6_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.6/cue_v0.3.0-beta.6_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.6/cue_v0.3.0-beta.6_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.6/cue_v0.3.0-beta.6_windows_amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.6/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.6/cue_v0.3.0-beta.6_darwin_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.6/cue_v0.3.0-beta.6_linux_amd64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.6/cue_v0.3.0-beta.6_linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.6/cue_v0.3.0-beta.6_windows_amd64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-beta.5",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.5/cue_0.3.0-beta.5_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.5/cue_0.3.0-beta.5_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.5/cue_0.3.0-beta.5_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.5/cue_0.3.0-beta.5_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.5/cue_0.3.0-beta.5_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.5/cue_0.3.0-beta.5_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.5/cue_0.3.0-beta.5_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.5/cue_0.3.0-beta.5_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.5/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.5/cue_0.3.0-beta.5_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.5/cue_0.3.0-beta.5_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.5/cue_0.3.0-beta.5_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.5/cue_0.3.0-beta.5_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-beta.4",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.4/cue_0.3.0-beta.4_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.4/cue_0.3.0-beta.4_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.4/cue_0.3.0-beta.4_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.4/cue_0.3.0-beta.4_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.4/cue_0.3.0-beta.4_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.4/cue_0.3.0-beta.4_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.4/cue_0.3.0-beta.4_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.4/cue_0.3.0-beta.4_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.4/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.4/cue_0.3.0-beta.4_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.4/cue_0.3.0-beta.4_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.4/cue_0.3.0-beta.4_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.4/cue_0.3.0-beta.4_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-beta.3",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.3/cue_0.3.0-beta.3_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.3/cue_0.3.0-beta.3_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.3/cue_0.3.0-beta.3_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.3/cue_0.3.0-beta.3_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.3/cue_0.3.0-beta.3_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.3/cue_0.3.0-beta.3_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.3/cue_0.3.0-beta.3_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.3/cue_0.3.0-beta.3_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.3/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.3/cue_0.3.0-beta.3_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.3/cue_0.3.0-beta.3_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.3/cue_0.3.0-beta.3_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.3/cue_0.3.0-beta.3_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-beta.2",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.2/cue_0.3.0-beta.2_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.2/cue_0.3.0-beta.2_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.2/cue_0.3.0-beta.2_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.2/cue_0.3.0-beta.2_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.2/cue_0.3.0-beta.2_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.2/cue_0.3.0-beta.2_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.2/cue_0.3.0-beta.2_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.2/cue_0.3.0-beta.2_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.2/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.2/cue_0.3.0-beta.2_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.2/cue_0.3.0-beta.2_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.2/cue_0.3.0-beta.2_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.2/cue_0.3.0-beta.2_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-beta.1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.1/cue_0.3.0-beta.1_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.1/cue_0.3.0-beta.1_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.1/cue_0.3.0-beta.1_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.1/cue_0.3.0-beta.1_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.1/cue_0.3.0-beta.1_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.1/cue_0.3.0-beta.1_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.1/cue_0.3.0-beta.1_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.1/cue_0.3.0-beta.1_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.1/cue_0.3.0-beta.1_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.1/cue_0.3.0-beta.1_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.1/cue_0.3.0-beta.1_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-beta.1/cue_0.3.0-beta.1_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-alpha6",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha6/cue_0.3.0-alpha6_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha6/cue_0.3.0-alpha6_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha6/cue_0.3.0-alpha6_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha6/cue_0.3.0-alpha6_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha6/cue_0.3.0-alpha6_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha6/cue_0.3.0-alpha6_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha6/cue_0.3.0-alpha6_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha6/cue_0.3.0-alpha6_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha6/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha6/cue_0.3.0-alpha6_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha6/cue_0.3.0-alpha6_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha6/cue_0.3.0-alpha6_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha6/cue_0.3.0-alpha6_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-alpha5",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha5/cue_0.3.0-alpha5_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha5/cue_0.3.0-alpha5_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha5/cue_0.3.0-alpha5_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha5/cue_0.3.0-alpha5_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha5/cue_0.3.0-alpha5_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha5/cue_0.3.0-alpha5_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha5/cue_0.3.0-alpha5_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha5/cue_0.3.0-alpha5_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha5/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha5/cue_0.3.0-alpha5_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha5/cue_0.3.0-alpha5_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha5/cue_0.3.0-alpha5_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha5/cue_0.3.0-alpha5_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-alpha4",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha4/cue_0.3.0-alpha4_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha4/cue_0.3.0-alpha4_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha4/cue_0.3.0-alpha4_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha4/cue_0.3.0-alpha4_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha4/cue_0.3.0-alpha4_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha4/cue_0.3.0-alpha4_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha4/cue_0.3.0-alpha4_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha4/cue_0.3.0-alpha4_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha4/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha4/cue_0.3.0-alpha4_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha4/cue_0.3.0-alpha4_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha4/cue_0.3.0-alpha4_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha4/cue_0.3.0-alpha4_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-alpha3",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha3/cue_0.3.0-alpha3_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha3/cue_0.3.0-alpha3_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha3/cue_0.3.0-alpha3_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha3/cue_0.3.0-alpha3_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha3/cue_0.3.0-alpha3_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha3/cue_0.3.0-alpha3_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha3/cue_0.3.0-alpha3_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha3/cue_0.3.0-alpha3_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha3/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha3/cue_0.3.0-alpha3_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha3/cue_0.3.0-alpha3_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha3/cue_0.3.0-alpha3_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha3/cue_0.3.0-alpha3_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-alpha2",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha2/cue_0.3.0-alpha2_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha2/cue_0.3.0-alpha2_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha2/cue_0.3.0-alpha2_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha2/cue_0.3.0-alpha2_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha2/cue_0.3.0-alpha2_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha2/cue_0.3.0-alpha2_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha2/cue_0.3.0-alpha2_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha2/cue_0.3.0-alpha2_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha2/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha2/cue_0.3.0-alpha2_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha2/cue_0.3.0-alpha2_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha2/cue_0.3.0-alpha2_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha2/cue_0.3.0-alpha2_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.3.0-alpha1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha1/cue_0.3.0-alpha1_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha1/cue_0.3.0-alpha1_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha1/cue_0.3.0-alpha1_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha1/cue_0.3.0-alpha1_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha1/cue_0.3.0-alpha1_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha1/cue_0.3.0-alpha1_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha1/cue_0.3.0-alpha1_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha1/cue_0.3.0-alpha1_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha1/cue_0.3.0-alpha1_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha1/cue_0.3.0-alpha1_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha1/cue_0.3.0-alpha1_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.3.0-alpha1/cue_0.3.0-alpha1_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.2.2",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.2.2/cue_0.2.2_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.2.2/cue_0.2.2_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.2.2/cue_0.2.2_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.2.2/cue_0.2.2_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.2.2/cue_0.2.2_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.2/cue_0.2.2_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.2/cue_0.2.2_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.2/cue_0.2.2_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.2.2/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.2/cue_0.2.2_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.2/cue_0.2.2_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.2/cue_0.2.2_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.2/cue_0.2.2_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.2.1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.2.1/cue_0.2.1_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.2.1/cue_0.2.1_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.2.1/cue_0.2.1_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.2.1/cue_0.2.1_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.2.1/cue_0.2.1_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.1/cue_0.2.1_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.1/cue_0.2.1_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.1/cue_0.2.1_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.2.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.1/cue_0.2.1_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.1/cue_0.2.1_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.1/cue_0.2.1_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.1/cue_0.2.1_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.2.0",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.2.0/cue_0.2.0_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.2.0/cue_0.2.0_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.2.0/cue_0.2.0_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.2.0/cue_0.2.0_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.2.0/cue_0.2.0_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.0/cue_0.2.0_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.0/cue_0.2.0_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.0/cue_0.2.0_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.2.0/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.0/cue_0.2.0_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.0/cue_0.2.0_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.0/cue_0.2.0_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.2.0/cue_0.2.0_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.1.2",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.1.2/cue_0.1.2_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.1.2/cue_0.1.2_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.1.2/cue_0.1.2_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.1.2/cue_0.1.2_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.1.2/cue_0.1.2_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.2/cue_0.1.2_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.2/cue_0.1.2_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.2/cue_0.1.2_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.1.2/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.2/cue_0.1.2_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.2/cue_0.1.2_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.2/cue_0.1.2_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.2/cue_0.1.2_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.1.1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.1.1/cue_0.1.1_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.1.1/cue_0.1.1_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.1.1/cue_0.1.1_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.1.1/cue_0.1.1_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.1.1/cue_0.1.1_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.1/cue_0.1.1_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.1/cue_0.1.1_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.1/cue_0.1.1_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.1.1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.1/cue_0.1.1_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.1/cue_0.1.1_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.1/cue_0.1.1_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.1/cue_0.1.1_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.1.0",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.1.0/cue_0.1.0_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.1.0/cue_0.1.0_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.1.0/cue_0.1.0_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.1.0/cue_0.1.0_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.1.0/cue_0.1.0_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.0/cue_0.1.0_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.0/cue_0.1.0_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.0/cue_0.1.0_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.1.0/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.0/cue_0.1.0_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.0/cue_0.1.0_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.0/cue_0.1.0_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.1.0/cue_0.1.0_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.15",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.15/cue_0.0.15_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.15/cue_0.0.15_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.15/cue_0.0.15_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.15/cue_0.0.15_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.15/cue_0.0.15_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.15/cue_0.0.15_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.15/cue_0.0.15_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.15/cue_0.0.15_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.15/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.15/cue_0.0.15_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.15/cue_0.0.15_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.15/cue_0.0.15_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.15/cue_0.0.15_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.14",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.14/cue_0.0.14_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.14/cue_0.0.14_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.14/cue_0.0.14_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.14/cue_0.0.14_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.14/cue_0.0.14_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.14/cue_0.0.14_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.14/cue_0.0.14_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.14/cue_0.0.14_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.14/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.14/cue_0.0.14_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.14/cue_0.0.14_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.14/cue_0.0.14_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.14/cue_0.0.14_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.13",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.13/cue_0.0.13_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.13/cue_0.0.13_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.13/cue_0.0.13_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.13/cue_0.0.13_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.13/cue_0.0.13_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.13/cue_0.0.13_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.13/cue_0.0.13_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.13/cue_0.0.13_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.13/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.13/cue_0.0.13_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.13/cue_0.0.13_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.13/cue_0.0.13_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.13/cue_0.0.13_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.12",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.12/cue_0.0.12_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.12/cue_0.0.12_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.12/cue_0.0.12_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.12/cue_0.0.12_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.12/cue_0.0.12_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.12/cue_0.0.12_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.12/cue_0.0.12_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.12/cue_0.0.12_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.12/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.12/cue_0.0.12_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.12/cue_0.0.12_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.12/cue_0.0.12_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.12/cue_0.0.12_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.11",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.11/cue_0.0.11_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.11/cue_0.0.11_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.11/cue_0.0.11_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.11/cue_0.0.11_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.11/cue_0.0.11_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.11/cue_0.0.11_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.11/cue_0.0.11_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.11/cue_0.0.11_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.11/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.11/cue_0.0.11_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.11/cue_0.0.11_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.11/cue_0.0.11_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.11/cue_0.0.11_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.10",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.10/cue_0.0.10_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.10/cue_0.0.10_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.10/cue_0.0.10_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.10/cue_0.0.10_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.10/cue_0.0.10_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.10/cue_0.0.10_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.10/cue_0.0.10_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.10/cue_0.0.10_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.10/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.10/cue_0.0.10_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.10/cue_0.0.10_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.10/cue_0.0.10_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.10/cue_0.0.10_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.9",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.9/cue_0.0.9_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.9/cue_0.0.9_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.9/cue_0.0.9_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.9/cue_0.0.9_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.9/cue_0.0.9_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.9/cue_0.0.9_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.9/cue_0.0.9_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.9/cue_0.0.9_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.9/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.9/cue_0.0.9_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.9/cue_0.0.9_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.9/cue_0.0.9_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.9/cue_0.0.9_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.8",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.8/cue_0.0.8_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.8/cue_0.0.8_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.8/cue_0.0.8_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.8/cue_0.0.8_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.8/cue_0.0.8_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.8/cue_0.0.8_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.8/cue_0.0.8_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.8/cue_0.0.8_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.8/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.8/cue_0.0.8_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.8/cue_0.0.8_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.8/cue_0.0.8_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.8/cue_0.0.8_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.7",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.7/cue_0.0.7_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.7/cue_0.0.7_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.7/cue_0.0.7_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.7/cue_0.0.7_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.7/cue_0.0.7_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.7/cue_0.0.7_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.7/cue_0.0.7_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.7/cue_0.0.7_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.7/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.7/cue_0.0.7_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.7/cue_0.0.7_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.7/cue_0.0.7_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.7/cue_0.0.7_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.6",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.6/cue_0.0.6_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.6/cue_0.0.6_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.6/cue_0.0.6_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.6/cue_0.0.6_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.6/cue_0.0.6_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.6/cue_0.0.6_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.6/cue_0.0.6_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.6/cue_0.0.6_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.6/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.6/cue_0.0.6_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.6/cue_0.0.6_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.6/cue_0.0.6_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.6/cue_0.0.6_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.5",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.5/cue_0.0.5_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.5/cue_0.0.5_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.5/cue_0.0.5_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.5/cue_0.0.5_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.5/cue_0.0.5_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.5/cue_0.0.5_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.5/cue_0.0.5_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.5/cue_0.0.5_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.5/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.5/cue_0.0.5_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.5/cue_0.0.5_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.5/cue_0.0.5_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.5/cue_0.0.5_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.4",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.4/cue_0.0.4_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.4/cue_0.0.4_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.4/cue_0.0.4_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.4/cue_0.0.4_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4/cue_0.0.4_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4/cue_0.0.4_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4/cue_0.0.4_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4/cue_0.0.4_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4/cue_0.0.4_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4/cue_0.0.4_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4/cue_0.0.4_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4/cue_0.0.4_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.4-rc1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.4-rc1/cue_0.0.4-rc1_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.4-rc1/cue_0.0.4-rc1_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.4-rc1/cue_0.0.4-rc1_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.4-rc1/cue_0.0.4-rc1_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4-rc1/cue_0.0.4-rc1_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4-rc1/cue_0.0.4-rc1_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4-rc1/cue_0.0.4-rc1_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4-rc1/cue_0.0.4-rc1_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4-rc1/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4-rc1/cue_0.0.4-rc1_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4-rc1/cue_0.0.4-rc1_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4-rc1/cue_0.0.4-rc1_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.4-rc1/cue_0.0.4-rc1_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.3",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.3/cue_0.0.3_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.3/cue_0.0.3_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.3/cue_0.0.3_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.3/cue_0.0.3_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.3/cue_0.0.3_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.3/cue_0.0.3_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.3/cue_0.0.3_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.3/cue_0.0.3_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.3/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.3/cue_0.0.3_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.3/cue_0.0.3_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.3/cue_0.0.3_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.3/cue_0.0.3_Windows_x86_64.zip"
+    ]
+  },
+  {
+    "version": "0.0.2",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.2/cue_0.0.2_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/cue-lang/cue/releases/download/v0.0.2/cue_0.0.2_Linux_arm64.tar.gz",
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.2/cue_0.0.2_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/cue-lang/cue/releases/download/v0.0.2/cue_0.0.2_Windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.2/cue_0.0.2_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.2/cue_0.0.2_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.2/cue_0.0.2_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.2/cue_0.0.2_Windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/cue-lang/cue/releases/download/v0.0.2/checksums.txt",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.2/cue_0.0.2_Darwin_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.2/cue_0.0.2_Linux_arm64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.2/cue_0.0.2_Linux_x86_64.tar.gz",
+      "https://github.com/cue-lang/cue/releases/download/v0.0.2/cue_0.0.2_Windows_x86_64.zip"
+    ]
+  }
+]

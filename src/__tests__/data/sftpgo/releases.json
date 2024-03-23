@@ -1,0 +1,2006 @@
+[
+  {
+    "version": "2.5.6",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo-2.5.6-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo-2.5.6-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo-2.5.6-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo-2.5.6-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_2.5.6-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_2.5.6-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_2.5.6-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_2.5.6-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.6/sftpgo_v2.5.6_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.5.5",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo-2.5.5-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo-2.5.5-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo-2.5.5-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo-2.5.5-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_2.5.5-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_2.5.5-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_2.5.5-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_2.5.5-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.5/sftpgo_v2.5.5_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.5.4",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo-2.5.4-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo-2.5.4-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo-2.5.4-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo-2.5.4-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_2.5.4-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_2.5.4-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_2.5.4-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_2.5.4-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.4/sftpgo_v2.5.4_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.5.3",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo-2.5.3-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo-2.5.3-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo-2.5.3-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo-2.5.3-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_2.5.3-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_2.5.3-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_2.5.3-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_2.5.3-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.3/sftpgo_v2.5.3_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.5.2",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo-2.5.2-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo-2.5.2-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo-2.5.2-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo-2.5.2-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_2.5.2-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_2.5.2-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_2.5.2-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_2.5.2-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.2/sftpgo_v2.5.2_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.5.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo-2.5.1-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo-2.5.1-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo-2.5.1-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo-2.5.1-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_2.5.1-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_2.5.1-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_2.5.1-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_2.5.1-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.1/sftpgo_v2.5.1_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.5.0",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo-2.5.0-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo-2.5.0-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo-2.5.0-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo-2.5.0-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_2.5.0-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_2.5.0-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_2.5.0-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_2.5.0-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.5.0/sftpgo_v2.5.0_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.4.6",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo-2.4.6-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo-2.4.6-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo-2.4.6-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo-2.4.6-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_2.4.6-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_2.4.6-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_2.4.6-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_2.4.6-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.6/sftpgo_v2.4.6_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.4.5",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo-2.4.5-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo-2.4.5-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo-2.4.5-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo-2.4.5-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_2.4.5-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_2.4.5-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_2.4.5-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_2.4.5-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.5/sftpgo_v2.4.5_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.4.4",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo-2.4.4-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo-2.4.4-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo-2.4.4-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo-2.4.4-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_2.4.4-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_2.4.4-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_2.4.4-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_2.4.4-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.4/sftpgo_v2.4.4_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.4.3",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo-2.4.3-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo-2.4.3-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo-2.4.3-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo-2.4.3-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_2.4.3-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_2.4.3-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_2.4.3-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_2.4.3-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.4.2",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo-2.4.2-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo-2.4.2-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo-2.4.2-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo-2.4.2-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_2.4.2-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_2.4.2-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_2.4.2-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_2.4.2-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.2/sftpgo_v2.4.2_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.4.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo-2.4.1-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo-2.4.1-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo-2.4.1-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo-2.4.1-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_2.4.1-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_2.4.1-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_2.4.1-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_2.4.1-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.1/sftpgo_v2.4.1_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.4.0",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo-2.4.0-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo-2.4.0-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo-2.4.0-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo-2.4.0-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_2.4.0-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_2.4.0-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_2.4.0-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_2.4.0-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.4.0/sftpgo_v2.4.0_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.3.6",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo-2.3.6-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo-2.3.6-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo-2.3.6-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo-2.3.6-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_2.3.6-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_2.3.6-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_2.3.6-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_2.3.6-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.6/sftpgo_v2.3.6_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.3.5",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo-2.3.5-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo-2.3.5-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo-2.3.5-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo-2.3.5-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_2.3.5-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_2.3.5-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_2.3.5-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_2.3.5-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.5/sftpgo_v2.3.5_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.3.4",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo-2.3.4-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo-2.3.4-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo-2.3.4-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo-2.3.4-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_2.3.4-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_2.3.4-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_2.3.4-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_2.3.4-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.4/sftpgo_v2.3.4_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.3.3",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo-2.3.3-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo-2.3.3-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo-2.3.3-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo-2.3.3-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_2.3.3-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_2.3.3-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_2.3.3-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_2.3.3-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.3/sftpgo_v2.3.3_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.3.2",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo-2.3.2-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo-2.3.2-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo-2.3.2-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo-2.3.2-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_2.3.2-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_2.3.2-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_2.3.2-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_2.3.2-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.2/sftpgo_v2.3.2_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.3.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo-2.3.1-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo-2.3.1-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo-2.3.1-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo-2.3.1-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_2.3.1-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_2.3.1-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_2.3.1-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_2.3.1-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.1/sftpgo_v2.3.1_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.3.0",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo-2.3.0-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo-2.3.0-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo-2.3.0-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo-2.3.0-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_2.3.0-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_2.3.0-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_2.3.0-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_2.3.0-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.3.0/sftpgo_v2.3.0_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.2.3",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo-2.2.3-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo-2.2.3-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo-2.2.3-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo-2.2.3-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_2.2.3-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_2.2.3-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_2.2.3-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_2.2.3-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.3/sftpgo_v2.2.3_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.2.2",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo-2.2.2-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo-2.2.2-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo-2.2.2-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo-2.2.2-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_2.2.2-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_2.2.2-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_2.2.2-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_2.2.2-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.2/sftpgo_v2.2.2_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.2.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_windows_x86_64.exe",
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_windows_arm64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo-2.2.1-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo-2.2.1-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo-2.2.1-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo-2.2.1-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_2.2.1-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_2.2.1-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_2.2.1-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_2.2.1-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_windows_arm64.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_windows_portable.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_windows_x86.exe",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.1/sftpgo_v2.2.1_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.2.0",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_linux_x86_64.tar.xz",
+        "arm": "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_linux_armv7.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo-2.2.0-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo-2.2.0-1.armv7hl.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo-2.2.0-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo-2.2.0-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_2.2.0-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_2.2.0-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_2.2.0-1_armhf.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_2.2.0-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_linux_armv7.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.2.0/sftpgo_v2.2.0_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.1.2",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo-2.1.2-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo-2.1.2-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo-2.1.2-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_2.1.2-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_2.1.2-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_2.1.2-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.2/sftpgo_v2.1.2_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.1.1",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo-2.1.1-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo-2.1.1-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo-2.1.1-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_2.1.1-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_2.1.1-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_2.1.1-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.1/sftpgo_v2.1.1_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.1.0",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_macOS_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo-2.1.0-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo-2.1.0-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo-2.1.0-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_2.1.0-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_2.1.0-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_2.1.0-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_macOS_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.1.0/sftpgo_v2.1.0_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.0.4",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo-2.0.4-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo-2.0.4-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo-2.0.4-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_2.0.4-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_2.0.4-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_2.0.4-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.4/sftpgo_v2.0.4_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.0.3",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo-2.0.3-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo-2.0.3-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo-2.0.3-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_2.0.3-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_2.0.3-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_2.0.3-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.3/sftpgo_v2.0.3_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.0.2",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo-2.0.2-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo-2.0.2-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo-2.0.2-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_2.0.2-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_2.0.2-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_2.0.2-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.2/sftpgo_v2.0.2_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.0.1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo-2.0.1-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo-2.0.1-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo-2.0.1-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_2.0.1-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_2.0.1-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_2.0.1-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v2.0.1/sftpgo_v2.0.1_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "2.0.0",
+    "archives": {},
+    "allowedUrls": [],
+    "allUrls": []
+  },
+  {
+    "version": "1.2.2",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo-1.2.2-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo-1.2.2-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo-1.2.2-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_1.2.2-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_1.2.2-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_1.2.2-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.2/sftpgo_v1.2.2_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "1.2.1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo-1.2.1-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo-1.2.1-1.ppc64le.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo-1.2.1-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_1.2.1-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_1.2.1-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_1.2.1-1_ppc64el.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_linux_bundle.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_linux_ppc64le.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.1/sftpgo_v1.2.1_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "arm64": "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_linux_arm64.tar.xz",
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo-1.2.0-1.aarch64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo-1.2.0-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_1.2.0-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_1.2.0-1_arm64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_linux_arm64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.2.0/sftpgo_v1.2.0_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "1.1.1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_v1.1.1_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_v1.1.1_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_v1.1.1_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_v1.1.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_v1.1.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_v1.1.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_v1.1.1_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_v1.1.1_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo-1.1.1-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_1.1.1-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_v1.1.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_v1.1.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_v1.1.1_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_v1.1.1_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.1/sftpgo_v1.1.1_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "1.1.0",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_v1.1.0_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_v1.1.0_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_v1.1.0_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_v1.1.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_v1.1.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_v1.1.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_v1.1.0_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_v1.1.0_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo-1.1.0-1.x86_64.rpm",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_1.1.0-1_amd64.deb",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_v1.1.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_v1.1.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_v1.1.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_v1.1.0_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.1.0/sftpgo_v1.1.0_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.0.0/sftpgo_v1.0.0_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.0.0/sftpgo_v1.0.0_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/v1.0.0/sftpgo_v1.0.0_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v1.0.0/sftpgo_v1.0.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.0.0/sftpgo_v1.0.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.0.0/sftpgo_v1.0.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.0.0/sftpgo_v1.0.0_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.0.0/sftpgo_v1.0.0_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/v1.0.0/sftpgo_v1.0.0_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.0.0/sftpgo_v1.0.0_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.0.0/sftpgo_v1.0.0_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.0.0/sftpgo_v1.0.0_windows_portable_x86_64.zip",
+      "https://github.com/drakkan/sftpgo/releases/download/v1.0.0/sftpgo_v1.0.0_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "0.9.6",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.6/sftpgo_0.9.6_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.6/sftpgo_0.9.6_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.6/sftpgo_0.9.6_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.6/sftpgo_0.9.6_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.6/sftpgo_0.9.6_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.6/sftpgo_0.9.6_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.6/sftpgo_0.9.6_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.6/sftpgo_0.9.6_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.6/sftpgo_0.9.6_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.6/sftpgo_0.9.6_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.6/sftpgo_0.9.6_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "0.9.5",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.5/sftpgo_0.9.5_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.5/sftpgo_0.9.5_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.5/sftpgo_0.9.5_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.5/sftpgo_0.9.5_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.5/sftpgo_0.9.5_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.5/sftpgo_0.9.5_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.5/sftpgo_0.9.5_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.5/sftpgo_0.9.5_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.5/sftpgo_0.9.5_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.5/sftpgo_0.9.5_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.5/sftpgo_0.9.5_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "0.9.4",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.4/sftpgo_0.9.4_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.4/sftpgo_0.9.4_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.4/sftpgo_0.9.4_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.4/sftpgo_0.9.4_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.4/sftpgo_0.9.4_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.4/sftpgo_0.9.4_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.4/sftpgo_0.9.4_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.4/sftpgo_0.9.4_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.4/sftpgo_0.9.4_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.4/sftpgo_0.9.4_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.4/sftpgo_0.9.4_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "0.9.3",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.3/sftpgo_0.9.3_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.3/sftpgo_0.9.3_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.3/sftpgo_0.9.3_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.3/sftpgo_0.9.3_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.3/sftpgo_0.9.3_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.3/sftpgo_0.9.3_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.3/sftpgo_0.9.3_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.3/sftpgo_0.9.3_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.3/sftpgo_0.9.3_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.3/sftpgo_0.9.3_src_with_deps.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.3/sftpgo_0.9.3_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "0.9.2",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.2/sftpgo_0.9.2_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.2/sftpgo_0.9.2_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.2/sftpgo_0.9.2_windows_x86_64.exe"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.2/sftpgo_0.9.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.2/sftpgo_0.9.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.2/sftpgo_0.9.2_windows_x86_64.exe"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.2/sftpgo_0.9.2_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.2/sftpgo_0.9.2_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.2/sftpgo_0.9.2_windows_x86_64.exe"
+    ]
+  },
+  {
+    "version": "0.9.1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.1/sftpgo_0.9.1_macOS_x86_64.tar.xz"
+      },
+      "linux": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.1/sftpgo_0.9.1_linux_x86_64.tar.xz"
+      },
+      "win32": {
+        "x64": "https://github.com/drakkan/sftpgo/releases/download/0.9.1/sftpgo_0.9.1_windows_x86_64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.1/sftpgo_0.9.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.1/sftpgo_0.9.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.1/sftpgo_0.9.1_windows_x86_64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.1/sftpgo_0.9.1_linux_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.1/sftpgo_0.9.1_macOS_x86_64.tar.xz",
+      "https://github.com/drakkan/sftpgo/releases/download/0.9.1/sftpgo_0.9.1_windows_x86_64.zip"
+    ]
+  }
+]

@@ -1,0 +1,374 @@
+[
+  {
+    "version": "1.1.1",
+    "archives": {
+      "freebsd": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-freebsd-amd64.tar.gz"
+      },
+      "darwin": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-darwin-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-darwin-amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-linux-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-linux-amd64.tar.gz",
+        "arm": "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-linux-arm.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-darwin-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-freebsd-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-windows-amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-darwin-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-freebsd-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-windows-amd64.zip"
+    ]
+  },
+  {
+    "version": "1.1.0",
+    "archives": {
+      "freebsd": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-freebsd-amd64.tar.gz"
+      },
+      "darwin": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-darwin-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-darwin-amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-linux-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-linux-amd64.tar.gz",
+        "arm": "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-linux-arm.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-darwin-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-freebsd-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-windows-amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-darwin-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-freebsd-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0/age-v1.1.0-windows-amd64.zip"
+    ]
+  },
+  {
+    "version": "1.1.0-rc.1",
+    "archives": {
+      "freebsd": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-freebsd-amd64.tar.gz"
+      },
+      "darwin": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-darwin-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-darwin-amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-linux-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-linux-amd64.tar.gz",
+        "arm": "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-linux-arm.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-darwin-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-freebsd-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-windows-amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-darwin-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-freebsd-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.1.0-rc.1/age-v1.1.0-rc.1-windows-amd64.zip"
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "archives": {
+      "freebsd": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-freebsd-amd64.tar.gz"
+      },
+      "darwin": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-darwin-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-darwin-amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-linux-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-linux-amd64.tar.gz",
+        "arm": "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-linux-arm.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-darwin-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-freebsd-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-windows-amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-darwin-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-freebsd-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0/age-v1.0.0-windows-amd64.zip"
+    ]
+  },
+  {
+    "version": "1.0.0-rc.3",
+    "archives": {
+      "freebsd": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-freebsd-amd64.tar.gz"
+      },
+      "darwin": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-darwin-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-darwin-amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-linux-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-linux-amd64.tar.gz",
+        "arm": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-linux-arm.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-darwin-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-freebsd-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-windows-amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-darwin-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-freebsd-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.3/age-v1.0.0-rc.3-windows-amd64.zip"
+    ]
+  },
+  {
+    "version": "1.0.0-rc.2",
+    "archives": {
+      "freebsd": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-freebsd-amd64.tar.gz"
+      },
+      "darwin": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-darwin-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-darwin-amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-linux-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-linux-amd64.tar.gz",
+        "arm": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-linux-arm.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-darwin-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-freebsd-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-windows-amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-darwin-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-freebsd-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.2/age-v1.0.0-rc.2-windows-amd64.zip"
+    ]
+  },
+  {
+    "version": "1.0.0-rc.1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-darwin-amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-linux-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-linux-amd64.tar.gz",
+        "arm": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-linux-arm.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-windows-amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-rc.1/age-v1.0.0-rc.1-windows-amd64.zip"
+    ]
+  },
+  {
+    "version": "1.0.0-beta7",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-darwin-amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-linux-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-linux-amd64.tar.gz",
+        "arm": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-linux-arm.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-windows-amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta7/age-v1.0.0-beta7-windows-amd64.zip"
+    ]
+  },
+  {
+    "version": "1.0.0-beta6",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-darwin-amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-linux-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-linux-amd64.tar.gz",
+        "arm": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-linux-arm.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-windows-amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta6/age-v1.0.0-beta6-windows-amd64.zip"
+    ]
+  },
+  {
+    "version": "1.0.0-beta5",
+    "archives": {},
+    "allowedUrls": [],
+    "allUrls": []
+  },
+  {
+    "version": "1.0.0-beta4",
+    "archives": {},
+    "allowedUrls": [],
+    "allUrls": []
+  },
+  {
+    "version": "1.0.0-beta3",
+    "archives": {},
+    "allowedUrls": [],
+    "allUrls": []
+  },
+  {
+    "version": "1.0.0-beta2",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-darwin-amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-linux-arm64.tar.gz",
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-linux-amd64.tar.gz",
+        "arm": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-linux-arm.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-windows-amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-darwin-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-linux-amd64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-linux-arm.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-linux-arm64.tar.gz",
+      "https://github.com/FiloSottile/age/releases/download/v1.0.0-beta2/age-v1.0.0-beta2-windows-amd64.zip"
+    ]
+  },
+  {
+    "version": "1.0.0-beta1",
+    "archives": {},
+    "allowedUrls": [],
+    "allUrls": []
+  }
+]
