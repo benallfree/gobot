@@ -3,7 +3,7 @@ import {
   GithubReleaseProvider,
   GithubReleaseProviderOptions,
 } from '../../GithubReleaseProvider'
-import type { StoredRelease } from '../../Gobot'
+import type { Release } from '../../Gobot'
 import { dbg } from '../../util/log'
 
 export class MinioReleaseProvider extends GithubReleaseProvider {
@@ -42,8 +42,8 @@ export class MinioReleaseProvider extends GithubReleaseProvider {
     return release.tag_name.startsWith(`RELEASE.`)
   }
 
-  getArchivesForRelease(release: GithubRelease): StoredRelease['archives'] {
-    const archives: StoredRelease['archives'] = {
+  getArchivesForRelease(release: GithubRelease): Release['archives'] {
+    const archives: Release['archives'] = {
       win32: {
         x64: `${this.endpoint}/windows-amd64/archive/${this.binName}.${release.tag_name}`,
       },

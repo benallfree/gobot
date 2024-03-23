@@ -30,7 +30,7 @@ import { stringify } from './util/stringify'
 export type PlatformKey = NodeJS.Platform
 export type ArchKey = NodeJS.Architecture
 
-export type StoredRelease = {
+export type Release = {
   version: string
   archives: {
     [osName in PlatformKey]?: {
@@ -360,7 +360,7 @@ export class Gobot {
         (
           JSON.parse(
             readFileSync(cachedReleasesFilePath, 'utf8').toString(),
-          ) as StoredRelease[]
+          ) as Release[]
         ).sort((a, b) => this.compare(b.version, a.version))
       dbg(`Stored releases from cache`, cachedReleasesFilePath)
     }
