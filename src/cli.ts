@@ -44,7 +44,7 @@ const main = async () => {
           cachePath,
           env: process.env,
         })
-        bot.clearCache()
+        await bot.clearCache()
         const fmt = await bot.versions('md')
         console.log(fmt)
       } catch (e) {
@@ -103,7 +103,7 @@ const main = async () => {
           env: process.env,
         })
         if (refresh) {
-          bot.clearCache()
+          await bot.clearCache()
         }
         if (download) {
           await bot.download()

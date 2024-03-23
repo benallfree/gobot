@@ -15,6 +15,7 @@ import { globSync } from 'glob'
 import { markdownTable } from 'markdown-table'
 import { arch as _arch, platform } from 'os'
 import { basename, join, resolve } from 'path'
+import { rimraf } from 'rimraf'
 import { compare, satisfies } from 'semver'
 import decompressTarZ from '../packages/decompress-tar-z'
 import { GithubReleaseProvider } from './GithubReleaseProvider'
@@ -140,9 +141,9 @@ export class Gobot {
   /**
    * Clear all items from cache (flush cache).
    */
-  clearCache() {
+  async clearCache() {
     dbg(`Clearing cache:`, this.cacheRoot)
-    rimrafSync(this.cacheRoot)
+    await rimraf(this.cacheRoot)
   }
 
   async download() {
