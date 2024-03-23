@@ -1,2 +1,3 @@
 plop-templates
 **/pnpm-lock.yaml
+src/__tests__/data
