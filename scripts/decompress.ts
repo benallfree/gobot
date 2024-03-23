@@ -4,7 +4,7 @@ import envPaths from 'env-paths'
 import { mkdirSync } from 'fs'
 import { globSync } from 'glob'
 import { basename, join } from 'path'
-import { rimrafSync } from 'rimraf'
+import { rimraf } from 'rimraf'
 import decompressTarZ from '../packages/decompress-tar-z'
 
 async function main() {
@@ -17,7 +17,7 @@ async function main() {
   for (let i = 0; i < paths.length; i++) {
     const downloadPath = paths[i]!
     const dst = join(envPaths(`gobot`).temp, basename(downloadPath))
-    rimrafSync(dst)
+    await rimraf(dst)
     mkdirSync(dst, { recursive: true })
 
     console.log({ downloadPath, dst })
