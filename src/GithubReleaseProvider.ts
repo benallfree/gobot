@@ -138,7 +138,6 @@ export class GithubReleaseProvider {
     let page = 1
     const remoteReleases: GithubReleaseCollection = []
     do {
-      info(`Fetching info for ${this.repo} releases page ${page}...`)
       const init = process.env.GITHUB_TOKEN
         ? {
             headers: {
