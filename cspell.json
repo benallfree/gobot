@@ -1,7 +1,5 @@
 {
-  "ignorePaths": [
-    "pnpm-lock.yaml"
-  ],
+  "ignorePaths": ["pnpm-lock.yaml", "src/__tests__/data"],
   "words": [
     "Adguard",
     "adguardhome",
@@ -39,6 +37,7 @@
     "fullchain",
     "garethgeorge",
     "getenv",
+    "GITEA",
     "gobot",
     "gohugoio",
     "goja",
@@ -98,6 +97,7 @@
     "rdbg",
     "rdbge",
     "readdirp",
+    "recalc",
     "restic",
     "reviewdog",
     "rinfoe",
