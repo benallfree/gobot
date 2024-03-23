@@ -87,6 +87,17 @@ export type PlatformMap = typeof DEFAULT_PLATFORM_MAP
 
 export type GithubReleaseProviderOptions = {}
 
+
+const rateLimitedFetch = (() => {
+  const limiter = new Bottleneck({
+    minTime: 3600, // 1000 per hour
+  })
+  return limiter.wrap(fetch) as (
+    input: string | URL | globalThis.Request,
+    init?: RequestInit,
+  ) => Promise<Response>
+})()
+
 export class GithubReleaseProvider {
   protected repo: string
   protected cacheRoot: string
@@ -136,11 +147,9 @@ export class GithubReleaseProvider {
           }
         : undefined
       const url = `https://api.github.com/repos/${this.repo}/releases?per_page=100&page=${page}`
-      const chunk = await smartFetch<GithubReleaseCollection>(
-        url,
-        this.cachePath()(`releases_page_${page}.json`),
-        init,
-      )
+      info(`Fetching info for ${this.repo} releases page ${page}...${url}`)
+      const res = await rateLimitedFetch(url, init)
+      const chunk = (await res.json()) as GithubReleaseCollection
       if (chunk.length === 0) break
       remoteReleases.push(...chunk)
       page++
