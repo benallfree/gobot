@@ -102,6 +102,10 @@ export class GithubReleaseProvider {
     dbg(`${this.slug} options`, stringify(options, null, 2))
   }
 
+  async clearCache() {
+    await rimraf(this.cacheRoot)
+  }
+
   get slug() {
     return `GithubReleaseProvider`
   }
