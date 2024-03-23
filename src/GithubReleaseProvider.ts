@@ -196,9 +196,13 @@ export class GithubReleaseProvider {
     )
   }
 
-  platformRegex(arch: ArchKey, aliases: string[]) {
+  platformRegex(os: PlatformKey, aliases: string[]) {
+    return new RegExp(`[_\\-\\/](?:${[...aliases, os].join('|')})[_\\-.]`, 'i')
+  }
+
+  archRegex(arch: ArchKey, aliases: string[]) {
     return new RegExp(
-      `[_\\-\\/](?:${[...aliases, arch].join('|')})[_\\-.]`,
+      `[_-](?:${[...aliases, arch].join(`|`)})(?:[_\\-.]|$)`,
       'i',
     )
   }
@@ -239,8 +243,8 @@ export class GithubReleaseProvider {
         const archAliases = [archKey, ...(archInfo?.aliases || [])].filter(
           (v) => !!v,
         )
-        const platformRegex = this.platformRegex(archKey, platformAliases)
-        const archRegex = this.archRegex(platformKey, archAliases)
+        const platformRegex = this.platformRegex(platformKey, platformAliases)
+        const archRegex = this.archRegex(archKey, archAliases)
 
         dbg(`Scanning for`, platformRegex, archRegex)
         allowedUrls.forEach((url) => {
