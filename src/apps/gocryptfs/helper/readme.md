@@ -88,8 +88,6 @@ npm i -g gobot-gocryptfs@latest
 
 For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/docs/readme.md).
 
-
-
 ## Sample project
 
 View the [gocryptfs sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.32/src/apps/gocryptfs/sample-project) on github.
@@ -143,51 +141,50 @@ To test a build locally:
 pnpm test
 ```
 
-
 ## All known releases
 
 `gobot-gocryptfs` versions mirror `gocryptfs` versions. Gobot knows about 41 releases of `gocryptfs`:
 
-| Version     | linux |
-| ----------- | ----- |
-| 2.4.0       | x64   |
-| 2.3.2       | x64   |
-| 2.3.1       | x64   |
-| 2.3.0       | x64   |
-| 2.2.1       | x64   |
-| 2.2.0       | x64   |
-| 2.2.0-beta2 | x64   |
-| 2.1.0       | x64   |
-| 2.0.1       | x64   |
-| 2.0.0       | x64   |
-| 2.0.0-beta4 | x64   |
-| 2.0.0-beta3 | x64   |
-| 2.0.0-beta2 | x64   |
-| 2.0.0-beta1 | x64   |
-| 1.8.0       | x64   |
-| 1.7.1       | x64   |
-| 1.7.0       | x64   |
-| 1.6.1       | x64   |
-| 1.6.0       | x64   |
-| 1.5.0       | x64   |
-| 1.4.4       | x64   |
-| 1.4.3       | x64   |
-| 1.4.2       | x64   |
-| 1.4.1       | x64   |
-| 1.4.0       | x64   |
-| 1.3.0       |       |
-| 1.2.1       |       |
-| 1.2.0       |       |
-| 1.1.1       |       |
-| 1.1.0       |       |
-| 1.1.0-rc1   |       |
-| 1.0.0       |       |
-| 1.0.0-rc1   |       |
-| 0.12.0      |       |
-| 0.11.0      |       |
-| 0.10.0      |       |
-| 0.10.0-rc3  |       |
-| 0.9.0       |       |
-| 0.8.0       |       |
-| 0.7.2       |       |
-| 0.7.1       |       |
+| Version     | linux              |
+| ----------- | ------------------ |
+| 2.4.0       | arm64/x64/ia32/arm |
+| 2.3.2       | arm64/x64/ia32/arm |
+| 2.3.1       | arm64/x64/ia32/arm |
+| 2.3.0       | arm64/x64/ia32/arm |
+| 2.2.1       | arm64/x64/ia32/arm |
+| 2.2.0       | arm64/x64/ia32/arm |
+| 2.2.0-beta2 | arm64/x64/ia32/arm |
+| 2.1.0       | arm64/x64/ia32/arm |
+| 2.0.1       | arm64/x64/ia32/arm |
+| 2.0.0       | arm64/x64/ia32/arm |
+| 2.0.0-beta4 | arm64/x64/ia32/arm |
+| 2.0.0-beta3 | arm64/x64/ia32/arm |
+| 2.0.0-beta2 | arm64/x64/ia32/arm |
+| 2.0.0-beta1 | arm64/x64/ia32/arm |
+| 1.8.0       | arm64/x64/ia32/arm |
+| 1.7.1       | arm64/x64/ia32/arm |
+| 1.7.0       | arm64/x64/ia32/arm |
+| 1.6.1       | arm64/x64/ia32/arm |
+| 1.6.0       | arm64/x64/ia32/arm |
+| 1.5.0       | arm64/x64/ia32/arm |
+| 1.4.4       | arm64/x64/ia32/arm |
+| 1.4.3       | arm64/x64/ia32/arm |
+| 1.4.2       | arm64/x64/ia32/arm |
+| 1.4.1       | arm64/x64/ia32/arm |
+| 1.4.0       | arm64/x64/ia32/arm |
+| 1.3.0       |                    |
+| 1.2.1       |                    |
+| 1.2.0       |                    |
+| 1.1.1       |                    |
+| 1.1.0       |                    |
+| 1.1.0-rc1   |                    |
+| 1.0.0       |                    |
+| 1.0.0-rc1   |                    |
+| 0.12.0      |                    |
+| 0.11.0      |                    |
+| 0.10.0      |                    |
+| 0.10.0-rc3  |                    |
+| 0.9.0       |                    |
+| 0.8.0       |                    |
+| 0.7.2       |                    |
+| 0.7.1       |                    |

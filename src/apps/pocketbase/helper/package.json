@@ -1,6 +1,6 @@
 {
   "name": "gobot-pocketbase",
-  "version": "0.22.4-alpha.17",
+  "version": "0.22.5-alpha.17",
   "description": "PocketBase helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -8,7 +8,7 @@
     "clean": "rimraf dist",
     "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-pocketbase && npm i -g gobot-pocketbase-0.22.4.tgz && pocketbase --g-refresh --g-vvv --help",
+    "test": "npm pack && npm rm -g gobot-pocketbase && npm i -g gobot-pocketbase-0.22.5.tgz && pocketbase --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

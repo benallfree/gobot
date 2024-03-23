@@ -88,8 +88,6 @@ npm i -g gobot-age@latest
 
 For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/docs/readme.md).
 
-
-
 ## Sample project
 
 View the [Age sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.32/src/apps/age/sample-project) on github.
@@ -143,24 +141,23 @@ To test a build locally:
 pnpm test
 ```
 
-
 ## All known releases
 
 `gobot-age` versions mirror `age` versions. Gobot knows about 14 releases of `age`:
 
-| Version     | freebsd | darwin    | linux         | win32 |
-| ----------- | ------- | --------- | ------------- | ----- |
-| 1.1.1       | x64     | arm64/x64 | arm64/x64/arm | x64   |
-| 1.1.0       | x64     | arm64/x64 | arm64/x64/arm | x64   |
-| 1.1.0-rc.1  | x64     | arm64/x64 | arm64/x64/arm | x64   |
-| 1.0.0       | x64     | arm64/x64 | arm64/x64/arm | x64   |
-| 1.0.0-rc.3  | x64     | arm64/x64 | arm64/x64/arm | x64   |
-| 1.0.0-rc.2  | x64     | arm64/x64 | arm64/x64/arm | x64   |
-| 1.0.0-rc.1  |         | x64       | arm64/x64/arm | x64   |
-| 1.0.0-beta7 |         | x64       | arm64/x64/arm | x64   |
-| 1.0.0-beta6 |         | x64       | arm64/x64/arm | x64   |
-| 1.0.0-beta5 |         |           |               |       |
-| 1.0.0-beta4 |         |           |               |       |
-| 1.0.0-beta3 |         |           |               |       |
-| 1.0.0-beta2 |         | x64       | arm64/x64/arm | x64   |
-| 1.0.0-beta1 |         |           |               |       |
+| Version     | freebsd            | darwin    | linux              | win32 |
+| ----------- | ------------------ | --------- | ------------------ | ----- |
+| 1.1.1       | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 1.1.0       | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 1.1.0-rc.1  | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 1.0.0       | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 1.0.0-rc.3  | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 1.0.0-rc.2  | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 1.0.0-rc.1  | arm64/arm          | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 1.0.0-beta7 | arm64/arm          | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 1.0.0-beta6 | arm64/arm          | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 1.0.0-beta5 |                    |           |                    |       |
+| 1.0.0-beta4 |                    |           |                    |       |
+| 1.0.0-beta3 |                    |           |                    |       |
+| 1.0.0-beta2 | arm64/arm          | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 1.0.0-beta1 |                    |           |                    |       |

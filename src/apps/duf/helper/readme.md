@@ -88,8 +88,6 @@ npm i -g gobot-duf@latest
 
 For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/docs/readme.md).
 
-
-
 ## Sample project
 
 View the [duf sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.32/src/apps/duf/sample-project) on github.
@@ -143,7 +141,6 @@ To test a build locally:
 pnpm test
 ```
 
-
 ## All known releases
 
 `gobot-duf` versions mirror `duf` versions. Gobot knows about 12 releases of `duf`:
@@ -155,10 +152,10 @@ pnpm test
 | 0.7.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
 | 0.6.2   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
 | 0.6.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.6.0   | arm64/x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 0.5.0   | arm64/x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 0.4.0   | arm64/x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 0.3.1   | arm64/x64/ia32/arm | x64       | arm64/x64/ia32/arm |          |
-| 0.3.0   | arm64/x64/ia32/arm | x64       | arm64/x64/ia32/arm |          |
-| 0.2.0   |                    |           | arm64/x64/ia32/arm |          |
-| 0.1.0   |                    |           | arm64/x64/ia32/arm |          |
+| 0.6.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.5.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.4.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 0.3.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |          |
+| 0.3.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |          |
+| 0.2.0   | arm64              | arm64     | arm64/x64/ia32/arm |          |
+| 0.1.0   | arm64              | arm64     | arm64/x64/ia32/arm |          |

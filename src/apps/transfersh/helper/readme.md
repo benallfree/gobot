@@ -88,8 +88,6 @@ npm i -g gobot-transfersh@latest
 
 For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/docs/readme.md).
 
-
-
 ## Sample project
 
 View the [transfer.sh sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.32/src/apps/transfersh/sample-project) on github.
@@ -143,29 +141,28 @@ To test a build locally:
 pnpm test
 ```
 
-
 ## All known releases
 
 `gobot-transfersh` versions mirror `transfersh` versions. Gobot knows about 19 releases of `transfersh`:
 
-| Version | freebsd        | darwin    | linux              | win32    |
-| ------- | -------------- | --------- | ------------------ | -------- |
-| 1.6.1   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.6.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.5.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.4.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.3.1   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.3.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.2.6   |                | x64       | x64/arm            | x64      |
-| 1.2.4   |                | x64       | x64/arm            | x64      |
-| 1.2.3   |                | x64       | x64/arm            | x64      |
-| 1.2.2   |                | x64       | x64/arm            | x64      |
-| 1.2.1   |                | x64       | x64/arm            | x64      |
-| 1.2.0   |                | x64       | x64/arm            | x64      |
-| 1.1.7   |                | x64       | x64/arm            | x64      |
-| 1.1.6   |                | x64       | x64/arm            | x64      |
-| 1.1.3   |                | x64       | x64/arm            | x64      |
-| 1.1.2   |                | x64       | x64/arm            | x64      |
-| 1.1.1   |                |           | x64                |          |
-| 1.1.0   |                |           |                    |          |
-| 1.0.0   |                |           |                    |          |
+| Version | freebsd            | darwin    | linux              | win32    |
+| ------- | ------------------ | --------- | ------------------ | -------- |
+| 1.6.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.6.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.5.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.4.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.3.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.3.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.2.6   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.2.4   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.2.3   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.2.2   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.2.1   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.2.0   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.1.7   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.1.6   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.1.3   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.1.2   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.1.1   |                    |           | arm64/x64/ia32/arm |          |
+| 1.1.0   |                    |           |                    |          |
+| 1.0.0   |                    |           |                    |          |

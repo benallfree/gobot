@@ -8,25 +8,30 @@
 
 ### Properties
 
-- [cacheRoot](api.GithubReleaseProvider.md#cacheroot)
-- [platformMap](api.GithubReleaseProvider.md#platformmap)
 - [repo](api.GithubReleaseProvider.md#repo)
 
 ### Accessors
 
+- [allowBareFiles](api.GithubReleaseProvider.md#allowbarefiles)
 - [allowedExts](api.GithubReleaseProvider.md#allowedexts)
+- [excludedExts](api.GithubReleaseProvider.md#excludedexts)
+- [platformMap](api.GithubReleaseProvider.md#platformmap)
+- [releasesKey](api.GithubReleaseProvider.md#releaseskey)
 - [slug](api.GithubReleaseProvider.md#slug)
 
 ### Methods
 
 - [archRegex](api.GithubReleaseProvider.md#archregex)
-- [cachePath](api.GithubReleaseProvider.md#cachepath)
+- [clearCache](api.GithubReleaseProvider.md#clearcache)
 - [extractVersionFromTag](api.GithubReleaseProvider.md#extractversionfromtag)
-- [fetch](api.GithubReleaseProvider.md#fetch)
+- [getAllUrlsForRelease](api.GithubReleaseProvider.md#getallurlsforrelease)
+- [getAllowedUrlsForRelease](api.GithubReleaseProvider.md#getallowedurlsforrelease)
 - [getArchivesForRelease](api.GithubReleaseProvider.md#getarchivesforrelease)
 - [isArchiveUrlAllowed](api.GithubReleaseProvider.md#isarchiveurlallowed)
 - [isValidRelease](api.GithubReleaseProvider.md#isvalidrelease)
 - [platformRegex](api.GithubReleaseProvider.md#platformregex)
+- [reduceReleases](api.GithubReleaseProvider.md#reducereleases)
+- [remoteReleases](api.GithubReleaseProvider.md#remotereleases)
 
 ## Constructors
 
@@ -36,10 +41,10 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `repo` | `string` |
-| `cacheRoot` | `string` |
+| Name        | Type                                                                                          |
+| :---------- | :-------------------------------------------------------------------------------------------- |
+| `repo`      | `string`                                                                                      |
+| `cacheRoot` | `string`                                                                                      |
 | `optionsIn` | `Partial`\<[`GithubReleaseProviderOptions`](../modules/api.md#githubreleaseprovideroptions)\> |
 
 #### Returns
@@ -48,52 +53,9 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:96](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L96)
+[GithubReleaseProvider.ts:118](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L118)
 
 ## Properties
-
-### cacheRoot
-
-• `Protected` **cacheRoot**: `string`
-
-#### Defined in
-
-[GithubReleaseProvider.ts:93](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L93)
-
-___
-
-### platformMap
-
-• **platformMap**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `darwin` | \{ `aliases`: readonly [``"mac"``, ``"osx"``, ``"macos"``] ; `architectures`: \{ `arm64`: \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``]  } ; `x64`: \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``]  }  }  } |
-| `darwin.aliases` | readonly [``"mac"``, ``"osx"``, ``"macos"``] |
-| `darwin.architectures` | \{ `arm64`: \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``]  } ; `x64`: \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``]  }  } |
-| `darwin.architectures.arm64` | \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``]  } |
-| `darwin.architectures.arm64.aliases` | readonly [`string`, ``"universal"``, ``"all"``] |
-| `darwin.architectures.x64` | \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``]  } |
-| `darwin.architectures.x64.aliases` | readonly [`string`, ``"universal"``, ``"all"``] |
-| `freebsd` | \{ `aliases`: readonly [] = []; `architectures`: `SupportedArchMap` = SUPPORTED\_ARCH } |
-| `freebsd.aliases` | readonly [] |
-| `freebsd.architectures` | `SupportedArchMap` |
-| `linux` | \{ `aliases`: readonly [] = []; `architectures`: `SupportedArchMap` = SUPPORTED\_ARCH } |
-| `linux.aliases` | readonly [] |
-| `linux.architectures` | `SupportedArchMap` |
-| `win32` | \{ `aliases`: readonly [``"win"``, ``"windows"``] ; `architectures`: \{ `ia32`: `ArchAliasMap` = SUPPORTED\_ARCH.ia32; `x64`: `ArchAliasMap` = SUPPORTED\_ARCH.x64 }  } |
-| `win32.aliases` | readonly [``"win"``, ``"windows"``] |
-| `win32.architectures` | \{ `ia32`: `ArchAliasMap` = SUPPORTED\_ARCH.ia32; `x64`: `ArchAliasMap` = SUPPORTED\_ARCH.x64 } |
-| `win32.architectures.ia32` | `ArchAliasMap` |
-| `win32.architectures.x64` | `ArchAliasMap` |
-
-#### Defined in
-
-[GithubReleaseProvider.ts:94](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L94)
-
-___
 
 ### repo
 
@@ -101,9 +63,23 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:92](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L92)
+[GithubReleaseProvider.ts:114](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L114)
 
 ## Accessors
+
+### allowBareFiles
+
+• `get` **allowBareFiles**(): `boolean`
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[GithubReleaseProvider.ts:203](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L203)
+
+---
 
 ### allowedExts
 
@@ -115,9 +91,73 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:171](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L171)
+[GithubReleaseProvider.ts:211](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L211)
 
-___
+---
+
+### excludedExts
+
+• `get` **excludedExts**(): `string`[]
+
+#### Returns
+
+`string`[]
+
+#### Defined in
+
+[GithubReleaseProvider.ts:207](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L207)
+
+---
+
+### platformMap
+
+• `get` **platformMap**(): `Object`
+
+#### Returns
+
+`Object`
+
+| Name                                 | Type                                                                                                                                                                                                                                   |
+| :----------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `darwin`                             | \{ `aliases`: readonly [``"mac"``, ``"osx"``, ``"macos"``] ; `architectures`: \{ `arm64`: \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``] } ; `x64`: \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``] } } } |
+| `darwin.aliases`                     | readonly [``"mac"``, ``"osx"``, ``"macos"``]                                                                                                                                                                                           |
+| `darwin.architectures`               | \{ `arm64`: \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``] } ; `x64`: \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``] } }                                                                                 |
+| `darwin.architectures.arm64`         | \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``] }                                                                                                                                                                        |
+| `darwin.architectures.arm64.aliases` | readonly [`string`, ``"universal"``, ``"all"``]                                                                                                                                                                                        |
+| `darwin.architectures.x64`           | \{ `aliases`: readonly [`string`, ``"universal"``, ``"all"``] }                                                                                                                                                                        |
+| `darwin.architectures.x64.aliases`   | readonly [`string`, ``"universal"``, ``"all"``]                                                                                                                                                                                        |
+| `freebsd`                            | \{ `aliases`: readonly [] = []; `architectures`: `SupportedArchMap` = SUPPORTED_ARCH }                                                                                                                                                 |
+| `freebsd.aliases`                    | readonly []                                                                                                                                                                                                                            |
+| `freebsd.architectures`              | `SupportedArchMap`                                                                                                                                                                                                                     |
+| `linux`                              | \{ `aliases`: readonly [] = []; `architectures`: `SupportedArchMap` = SUPPORTED_ARCH }                                                                                                                                                 |
+| `linux.aliases`                      | readonly []                                                                                                                                                                                                                            |
+| `linux.architectures`                | `SupportedArchMap`                                                                                                                                                                                                                     |
+| `win32`                              | \{ `aliases`: readonly [``"win"``, ``"windows"``] ; `architectures`: \{ `arm64`: `ArchAliasMap` = SUPPORTED_ARCH.arm64; `ia32`: `ArchAliasMap` = SUPPORTED_ARCH.ia32; `x64`: `ArchAliasMap` = SUPPORTED_ARCH.x64 } }                   |
+| `win32.aliases`                      | readonly [``"win"``, ``"windows"``]                                                                                                                                                                                                    |
+| `win32.architectures`                | \{ `arm64`: `ArchAliasMap` = SUPPORTED_ARCH.arm64; `ia32`: `ArchAliasMap` = SUPPORTED_ARCH.ia32; `x64`: `ArchAliasMap` = SUPPORTED_ARCH.x64 }                                                                                          |
+| `win32.architectures.arm64`          | `ArchAliasMap`                                                                                                                                                                                                                         |
+| `win32.architectures.ia32`           | `ArchAliasMap`                                                                                                                                                                                                                         |
+| `win32.architectures.x64`            | `ArchAliasMap`                                                                                                                                                                                                                         |
+
+#### Defined in
+
+[GithubReleaseProvider.ts:199](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L199)
+
+---
+
+### releasesKey
+
+• `get` **releasesKey**(): `string`
+
+#### Returns
+
+`string`
+
+#### Defined in
+
+[GithubReleaseProvider.ts:164](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L164)
+
+---
 
 ### slug
 
@@ -129,20 +169,20 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:114](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L114)
+[GithubReleaseProvider.ts:135](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L135)
 
 ## Methods
 
 ### archRegex
 
-▸ **archRegex**(`os`, `aliases`): `RegExp`
+▸ **archRegex**(`arch`, `aliases`): `RegExp`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `os` | `Platform` |
-| `aliases` | `string`[] |
+| Name      | Type           |
+| :-------- | :------------- |
+| `arch`    | `Architecture` |
+| `aliases` | `string`[]     |
 
 #### Returns
 
@@ -150,41 +190,23 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:183](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L183)
+[GithubReleaseProvider.ts:227](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L227)
 
-___
+---
 
-### cachePath
+### clearCache
 
-▸ **cachePath**(`...paths`): (...`paths`: `string`[]) => `string`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `...paths` | `string`[] |
+▸ **clearCache**(): `Promise`\<`void`\>
 
 #### Returns
 
-`fn`
-
-▸ (`...paths`): `string`
-
-##### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `...paths` | `string`[] |
-
-##### Returns
-
-`string`
+`Promise`\<`void`\>
 
 #### Defined in
 
-[GithubReleaseProvider.ts:118](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L118)
+[GithubReleaseProvider.ts:131](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L131)
 
-___
+---
 
 ### extractVersionFromTag
 
@@ -192,8 +214,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `tag` | `string` |
 
 #### Returns
@@ -202,23 +224,49 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:232](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L232)
+[GithubReleaseProvider.ts:292](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L292)
 
-___
+---
 
-### fetch
+### getAllUrlsForRelease
 
-▸ **fetch**(): `Promise`\<[`StoredRelease`](../modules/Gobot.md#storedrelease)[]\>
+▸ **getAllUrlsForRelease**(`release`): `string`[]
+
+#### Parameters
+
+| Name      | Type                                                  |
+| :-------- | :---------------------------------------------------- |
+| `release` | [`GithubRelease`](../interfaces/api.GithubRelease.md) |
 
 #### Returns
 
-`Promise`\<[`StoredRelease`](../modules/Gobot.md#storedrelease)[]\>
+`string`[]
 
 #### Defined in
 
-[GithubReleaseProvider.ts:131](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L131)
+[GithubReleaseProvider.ts:234](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L234)
 
-___
+---
+
+### getAllowedUrlsForRelease
+
+▸ **getAllowedUrlsForRelease**(`release`): `string`[]
+
+#### Parameters
+
+| Name      | Type                                                  |
+| :-------- | :---------------------------------------------------- |
+| `release` | [`GithubRelease`](../interfaces/api.GithubRelease.md) |
+
+#### Returns
+
+`string`[]
+
+#### Defined in
+
+[GithubReleaseProvider.ts:244](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L244)
+
+---
 
 ### getArchivesForRelease
 
@@ -226,33 +274,33 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                  |
+| :-------- | :---------------------------------------------------- |
 | `release` | [`GithubRelease`](../interfaces/api.GithubRelease.md) |
 
 #### Returns
 
 `Object`
 
-| Name | Type |
-| :------ | :------ |
-| `aix` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string`  } |
-| `android` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string`  } |
-| `cygwin` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string`  } |
-| `darwin` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string`  } |
-| `freebsd` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string`  } |
-| `haiku` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string`  } |
-| `linux` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string`  } |
-| `netbsd` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string`  } |
-| `openbsd` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string`  } |
-| `sunos` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string`  } |
-| `win32` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string`  } |
+| Name      | Type                                                                                                                                                                                                                                                                                                                                                                                                         |
+| :-------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `aix`     | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string` } |
+| `android` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string` } |
+| `cygwin`  | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string` } |
+| `darwin`  | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string` } |
+| `freebsd` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string` } |
+| `haiku`   | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string` } |
+| `linux`   | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string` } |
+| `netbsd`  | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string` } |
+| `openbsd` | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string` } |
+| `sunos`   | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string` } |
+| `win32`   | `undefined` \| \{ `arm`: `undefined` \| `string` ; `arm64`: `undefined` \| `string` ; `ia32`: `undefined` \| `string` ; `mips`: `undefined` \| `string` ; `mipsel`: `undefined` \| `string` ; `ppc`: `undefined` \| `string` ; `ppc64`: `undefined` \| `string` ; `riscv64`: `undefined` \| `string` ; `s390`: `undefined` \| `string` ; `s390x`: `undefined` \| `string` ; `x64`: `undefined` \| `string` } |
 
 #### Defined in
 
-[GithubReleaseProvider.ts:187](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L187)
+[GithubReleaseProvider.ts:252](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L252)
 
-___
+---
 
 ### isArchiveUrlAllowed
 
@@ -260,8 +308,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `url` | `string` |
 
 #### Returns
@@ -270,9 +318,9 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:175](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L175)
+[GithubReleaseProvider.ts:215](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L215)
 
-___
+---
 
 ### isValidRelease
 
@@ -280,8 +328,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type                                                  |
+| :-------- | :---------------------------------------------------- |
 | `release` | [`GithubRelease`](../interfaces/api.GithubRelease.md) |
 
 #### Returns
@@ -290,19 +338,19 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:124](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L124)
+[GithubReleaseProvider.ts:139](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L139)
 
-___
+---
 
 ### platformRegex
 
-▸ **platformRegex**(`arch`, `aliases`): `RegExp`
+▸ **platformRegex**(`os`, `aliases`): `RegExp`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `arch` | `Architecture` |
+| Name      | Type       |
+| :-------- | :--------- |
+| `os`      | `Platform` |
 | `aliases` | `string`[] |
 
 #### Returns
@@ -311,4 +359,44 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:179](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L179)
+[GithubReleaseProvider.ts:223](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L223)
+
+---
+
+### reduceReleases
+
+▸ **reduceReleases**(`refetch?`): `Promise`\<[`Release`](../modules/Gobot.md#release)[]\>
+
+#### Parameters
+
+| Name      | Type      | Default value |
+| :-------- | :-------- | :------------ |
+| `refetch` | `boolean` | `false`       |
+
+#### Returns
+
+`Promise`\<[`Release`](../modules/Gobot.md#release)[]\>
+
+#### Defined in
+
+[GithubReleaseProvider.ts:146](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L146)
+
+---
+
+### remoteReleases
+
+▸ **remoteReleases**(`force?`): `Promise`\<`GithubReleaseCollection`\>
+
+#### Parameters
+
+| Name    | Type      | Default value |
+| :------ | :-------- | :------------ |
+| `force` | `boolean` | `false`       |
+
+#### Returns
+
+`Promise`\<`GithubReleaseCollection`\>
+
+#### Defined in
+
+[GithubReleaseProvider.ts:168](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L168)

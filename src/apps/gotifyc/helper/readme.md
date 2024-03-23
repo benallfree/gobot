@@ -92,7 +92,6 @@ For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobo
 
 Because Gotify has both client and server binaries, this one is named `gotifyc` to signify that it is the CLI, while the server is named `gotify`.
 
-
 ## Sample project
 
 View the [Gotify CLI sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.32/src/apps/gotifyc/sample-project) on github.
@@ -146,20 +145,19 @@ To test a build locally:
 pnpm test
 ```
 
-
 ## All known releases
 
 `gobot-gotifyc` versions mirror `gotifyc` versions. Gobot knows about 10 releases of `gotifyc`:
 
-| Version | darwin    | linux              | win32    |
-| ------- | --------- | ------------------ | -------- |
-| 2.2.3   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.2.2   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.2.1   | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.2.0   | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.1.1   | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.1.0   |           | arm64/x64/ia32/arm | x64/ia32 |
-| 2.0.0   |           | arm64/x64/ia32/arm | x64/ia32 |
-| 1.2.2   |           | arm64/x64/ia32/arm | x64/ia32 |
-| 1.2.1   |           | arm64/x64/arm      | x64      |
-| 1.2.0   |           | arm64/x64/arm      | x64      |
+| Version | freebsd | darwin    | linux              | win32    |
+| ------- | ------- | --------- | ------------------ | -------- |
+| 2.2.3   | arm     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.2.2   | arm     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.2.1   | arm     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.2.0   | arm     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.1.1   | arm     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.1.0   | arm     |           | arm64/x64/ia32/arm | x64/ia32 |
+| 2.0.0   | arm     |           | arm64/x64/ia32/arm | x64/ia32 |
+| 1.2.2   | arm     |           | arm64/x64/ia32/arm | x64/ia32 |
+| 1.2.1   | arm     |           | arm64/x64/ia32/arm | x64      |
+| 1.2.0   | arm     |           | arm64/x64/ia32/arm | x64      |

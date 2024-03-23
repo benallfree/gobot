@@ -8,6 +8,6 @@
     "AdGuardHome": "AdGuardHome"
   },
   "dependencies": {
-    "gobot-adguardhome": "0.107.45"
+    "gobot-adguardhome": "0.108.0-b.54"
   }
 }

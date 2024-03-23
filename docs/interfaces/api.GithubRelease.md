@@ -6,20 +6,20 @@
 
 - [assets](api.GithubRelease.md#assets)
 - [prerelease](api.GithubRelease.md#prerelease)
-- [tag\_name](api.GithubRelease.md#tag_name)
+- [tag_name](api.GithubRelease.md#tag_name)
 - [url](api.GithubRelease.md#url)
 
 ## Properties
 
 ### assets
 
-• **assets**: \{ `browser_download_url`: `string` ; `name`: `string`  }[]
+• **assets**: \{ `browser_download_url`: `string` ; `name`: `string` }[]
 
 #### Defined in
 
-[GithubReleaseProvider.ts:20](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L20)
+[GithubReleaseProvider.ts:17](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L17)
 
-___
+---
 
 ### prerelease
 
@@ -27,19 +27,19 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:19](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L19)
+[GithubReleaseProvider.ts:16](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L16)
 
-___
+---
 
-### tag\_name
+### tag_name
 
-• **tag\_name**: `string`
+• **tag_name**: `string`
 
 #### Defined in
 
-[GithubReleaseProvider.ts:18](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L18)
+[GithubReleaseProvider.ts:15](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L15)
 
-___
+---
 
 ### url
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[GithubReleaseProvider.ts:17](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L17)
+[GithubReleaseProvider.ts:14](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L14)

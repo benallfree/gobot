@@ -123,12 +123,11 @@ Note: All Gobot options begin with `--g-` so as not to conflict with app option 
 
 **Global Options**
 
-| Option                  | Default       | Discussion                                   |
-| ----------------------- | ------------- | -------------------------------------------- |
-| &#x60;--g-help&#x60;              | Show help     | Display help and options for Gobot           |
-| &#x60;--g-v[vv]&#x60;             |               | Adjust output verbosity                      |
+| Option                                  | Default       | Discussion                                   |
+| --------------------------------------- | ------------- | -------------------------------------------- |
+| &#x60;--g-help&#x60;                    | Show help     | Display help and options for Gobot           |
+| &#x60;--g-v[vv]&#x60;                   |               | Adjust output verbosity                      |
 | &#x60;--g-cache-path &lt;path&gt;&#x60; | host specific | Use the specified directory for cache files. |
-
 
 ### `gobot <app> [gobotOptions] [appOptions]`
 
@@ -141,7 +140,6 @@ Run `<app>`. Gobot will download and cache the specific platform, architecture, 
 | `--g-download`    | `false`   | Download all matching versions and exit                                                                                                                      |
 | `--g-refresh`     | `false`   | Clear the gobot cache                                                                                                                                        |
 | `--g-use-version` | latest    | Run a specific binary version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
-
 
 **Examples**
 
@@ -193,6 +191,7 @@ These apps have single-token names and dedicated helper packages to assist with 
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.32/src/apps/duf/logo-50x.webp">](https://github.com/muesli/duf)                                                                                            | `duf`           | Disk Usage/Free Utility - a better &#x27;df&#x27; alternative                                                                                                                                                                                                                                                               | [readme](https://www.npmjs.com/package/gobot-duf)           |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.32/src/apps/filebrowser/logo-50x.webp">](https://filebrowser.org)                                                                                          | `filebrowser`   | 📂 Web File Browser                                                                                                                                                                                                                                                                                                         | [readme](https://www.npmjs.com/package/gobot-filebrowser)   |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.32/src/apps/fzf/logo-50x.webp">](https://github.com/junegunn/fzf)                                                                                          | `fzf`           | 🌸 A command-line fuzzy finder                                                                                                                                                                                                                                                                                              | [readme](https://www.npmjs.com/package/gobot-fzf)           |
+| [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.32/src/apps/gitea/logo-50x.webp">](https://about.gitea.com)                                                                                                | `gitea`         | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD                                                                                                                                                     | [readme](https://www.npmjs.com/package/gobot-gitea)         |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.32/src/apps/gocryptfs/logo-50x.webp">](https://nuetzlich.net/gocryptfs/)                                                                                   | `gocryptfs`     | Encrypted overlay filesystem written in Go                                                                                                                                                                                                                                                                                  | [readme](https://www.npmjs.com/package/gobot-gocryptfs)     |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.32/src/apps/gokapi/logo-50x.webp">](https://github.com/Forceu/Gokapi)                                                                                      | `gokapi`        | Lightweight self-hosted Firefox Send alternative without public upload. AWS S3 supported.                                                                                                                                                                                                                                   | [readme](https://www.npmjs.com/package/gobot-gokapi)        |
 | [<img src="https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.32/src/apps/gotify/logo-50x.webp">](https://gotify.net)                                                                                                    | `gotify`        | A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)                                                                                                                                                                                                                    | [readme](https://www.npmjs.com/package/gobot-gotify)        |
@@ -296,4 +295,3 @@ To test a build locally:
 ```bash
 pnpm test
 ```
-

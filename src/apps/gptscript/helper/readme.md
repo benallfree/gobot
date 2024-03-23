@@ -88,8 +88,6 @@ npm i -g gobot-gptscript@latest
 
 For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/docs/readme.md).
 
-
-
 ## Sample project
 
 View the [GPTScript sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.32/src/apps/gptscript/sample-project) on github.
@@ -143,26 +141,25 @@ To test a build locally:
 pnpm test
 ```
 
-
 ## All known releases
 
 `gobot-gptscript` versions mirror `gptscript` versions. Gobot knows about 16 releases of `gptscript`:
 
-| Version | darwin    | linux     | win32 |
-| ------- | --------- | --------- | ----- |
-| 0.2.1   | arm64/x64 | arm64/x64 | x64   |
-| 0.2.0   | arm64/x64 | arm64/x64 | x64   |
-| 0.2.0   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.5   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.4   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.2   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.1   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.0   | arm64/x64 | arm64/x64 | x64   |
-| 0.0.3   | arm64/x64 | arm64/x64 | x64   |
-| 0.0.2   | arm64/x64 | arm64/x64 | x64   |
-| 0.0.1   | arm64/x64 | arm64/x64 | x64   |
+| Version   | freebsd | darwin    | linux              | win32 |
+| --------- | ------- | --------- | ------------------ | ----- |
+| 0.2.1     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.2.0     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.2.0-rc1 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.5     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.4     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.3     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.3-rc4 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.3-rc3 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.3-rc2 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.3-rc1 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.2     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.1     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.0     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.0.3     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.0.2     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.0.1     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |

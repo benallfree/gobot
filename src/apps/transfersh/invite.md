@@ -25,24 +25,24 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 `gobot-transfersh` versions mirror `transfersh` versions. Gobot has indexed 19 releases of `transfersh`:
 
-| Version | freebsd        | darwin    | linux              | win32    |
-| ------- | -------------- | --------- | ------------------ | -------- |
-| 1.6.1   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.6.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.5.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.4.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.3.1   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.3.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.2.6   |                | x64       | x64/arm            | x64      |
-| 1.2.4   |                | x64       | x64/arm            | x64      |
-| 1.2.3   |                | x64       | x64/arm            | x64      |
-| 1.2.2   |                | x64       | x64/arm            | x64      |
-| 1.2.1   |                | x64       | x64/arm            | x64      |
-| 1.2.0   |                | x64       | x64/arm            | x64      |
-| 1.1.7   |                | x64       | x64/arm            | x64      |
-| 1.1.6   |                | x64       | x64/arm            | x64      |
-| 1.1.3   |                | x64       | x64/arm            | x64      |
-| 1.1.2   |                | x64       | x64/arm            | x64      |
-| 1.1.1   |                |           | x64                |          |
-| 1.1.0   |                |           |                    |          |
-| 1.0.0   |                |           |                    |          |
+| Version | freebsd            | darwin    | linux              | win32    |
+| ------- | ------------------ | --------- | ------------------ | -------- |
+| 1.6.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.6.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.5.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.4.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.3.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.3.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.2.6   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.2.4   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.2.3   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.2.2   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.2.1   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.2.0   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.1.7   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.1.6   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.1.3   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.1.2   |                    | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.1.1   |                    |           | arm64/x64/ia32/arm |          |
+| 1.1.0   |                    |           |                    |          |
+| 1.0.0   |                    |           |                    |          |

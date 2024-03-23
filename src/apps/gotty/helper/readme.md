@@ -88,8 +88,6 @@ npm i -g gobot-gotty@latest
 
 For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/docs/readme.md).
 
-
-
 ## Sample project
 
 View the [gotty sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.32/src/apps/gotty/sample-project) on github.
@@ -143,15 +141,14 @@ To test a build locally:
 pnpm test
 ```
 
-
 ## All known releases
 
 `gobot-gotty` versions mirror `gotty` versions. Gobot knows about 5 releases of `gotty`:
 
-| Version | freebsd      | darwin    | linux              |
-| ------- | ------------ | --------- | ------------------ |
-| 1.5.0   | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
-| 1.4.0   | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
-| 1.3.0   | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
-| 1.2.0   | x64/ia32/arm | x64       | x64/ia32/arm       |
-| 1.1.0   | x64/ia32/arm | x64       | x64/ia32/arm       |
+| Version | freebsd            | darwin    | linux              |
+| ------- | ------------------ | --------- | ------------------ |
+| 1.5.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
+| 1.4.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
+| 1.3.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
+| 1.2.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
+| 1.1.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |

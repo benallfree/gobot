@@ -12,12 +12,12 @@
 
 - [ArchKey](Gobot.md#archkey)
 - [PlatformKey](Gobot.md#platformkey)
-- [StoredRelease](Gobot.md#storedrelease)
+- [Release](Gobot.md#release)
 - [VersionFormat](Gobot.md#versionformat)
 
 ### Variables
 
-- [COMPRESSED\_ARCHIVE\_EXTS](Gobot.md#compressed_archive_exts)
+- [COMPRESSED_ARCHIVE_EXTS](Gobot.md#compressed_archive_exts)
 
 ### Functions
 
@@ -31,9 +31,9 @@
 
 #### Defined in
 
-[Gobot.ts:35](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L35)
+[Gobot.ts:31](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L31)
 
-___
+---
 
 ### PlatformKey
 
@@ -41,26 +41,28 @@ ___
 
 #### Defined in
 
-[Gobot.ts:34](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L34)
+[Gobot.ts:30](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L30)
 
-___
+---
 
-### StoredRelease
+### Release
 
-Ƭ **StoredRelease**: `Object`
+Ƭ **Release**: `Object`
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `archives` | \{ [osName in PlatformKey]?: \{ [archName in ArchKey]?: string } } |
-| `version` | `string` |
+| Name          | Type                                                               |
+| :------------ | :----------------------------------------------------------------- |
+| `allUrls`     | `string`[]                                                         |
+| `allowedUrls` | `string`[]                                                         |
+| `archives`    | \{ [osName in PlatformKey]?: \{ [archName in ArchKey]?: string } } |
+| `version`     | `string`                                                           |
 
 #### Defined in
 
-[Gobot.ts:37](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L37)
+[Gobot.ts:33](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L33)
 
-___
+---
 
 ### VersionFormat
 
@@ -68,17 +70,17 @@ ___
 
 #### Defined in
 
-[Gobot.ts:59](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L59)
+[Gobot.ts:57](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L57)
 
 ## Variables
 
-### COMPRESSED\_ARCHIVE\_EXTS
+### COMPRESSED_ARCHIVE_EXTS
 
-• `Const` **COMPRESSED\_ARCHIVE\_EXTS**: `string`[]
+• `Const` **COMPRESSED_ARCHIVE_EXTS**: `string`[]
 
 #### Defined in
 
-[Gobot.ts:61](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L61)
+[Gobot.ts:59](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L59)
 
 ## Functions
 
@@ -88,9 +90,9 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `repo` | `string` |
+| Name      | Type                                                  |
+| :-------- | :---------------------------------------------------- |
+| `repo`    | `string`                                              |
 | `config?` | [`GobotOptions`](../interfaces/Gobot.GobotOptions.md) |
 
 #### Returns
@@ -99,4 +101,4 @@ ___
 
 #### Defined in
 
-[Gobot.ts:445](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L445)
+[Gobot.ts:428](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L428)

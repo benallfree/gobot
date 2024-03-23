@@ -8,6 +8,6 @@
     "loki": "loki"
   },
   "dependencies": {
-    "gobot-loki": "2.9.5"
+    "gobot-loki": "2.9.6"
   }
 }

@@ -31,7 +31,7 @@
 
 Re-exports [Gobot](../classes/Gobot.Gobot.md)
 
-___
+---
 
 ### GobotOptions
 
@@ -45,34 +45,28 @@ Re-exports [GobotOptions](../interfaces/Gobot.GobotOptions.md)
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `description` | `string` |
-| `factory` | `AppFactory` \| `string` |
-| `homepage` | `string` |
-| `isAlpha` | `boolean` |
-| `name` | `string` |
-| `version?` | `string` |
+| Name          | Type                     |
+| :------------ | :----------------------- |
+| `description` | `string`                 |
+| `factory`     | `AppFactory` \| `string` |
+| `homepage`    | `string`                 |
+| `isAlpha`     | `boolean`                |
+| `name`        | `string`                 |
+| `version?`    | `string`                 |
 
 #### Defined in
 
 [apps/index.ts:4](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/apps/index.ts#L4)
 
-___
+---
 
 ### GithubReleaseProviderOptions
 
 Ƭ **GithubReleaseProviderOptions**: `Object`
 
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `platformMap` | `PlatformMap` |
-
 #### Defined in
 
-[GithubReleaseProvider.ts:87](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L87)
+[GithubReleaseProvider.ts:85](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L85)
 
 ## Functions
 
@@ -82,8 +76,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type      |
+| :-------- | :-------- |
 | `appInfo` | `AppInfo` |
 
 #### Returns
@@ -92,9 +86,9 @@ ___
 
 #### Defined in
 
-[util/botrun.ts:15](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/util/botrun.ts#L15)
+[util/botrun.ts:16](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/util/botrun.ts#L16)
 
-___
+---
 
 ### gobot
 
@@ -104,10 +98,10 @@ Instantiate a gobot for a specific app.
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `appSlugOrPath` | `string` | `<app>` for officially supported apps, or `<user>/<repo>` for unofficial apps (your mileage may vary) |
-| `optionsIn` | `Partial`\<[`GobotOptions`](../interfaces/Gobot.GobotOptions.md)\> | Option overrides |
+| Name            | Type                                                               | Description                                                                                           |
+| :-------------- | :----------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| `appSlugOrPath` | `string`                                                           | `<app>` for officially supported apps, or `<user>/<repo>` for unofficial apps (your mileage may vary) |
+| `optionsIn`     | `Partial`\<[`GobotOptions`](../interfaces/Gobot.GobotOptions.md)\> | Option overrides                                                                                      |
 
 #### Returns
 
@@ -119,7 +113,7 @@ An instance of GobotBase
 
 [api.ts:33](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/api.ts#L33)
 
-___
+---
 
 ### mergeConfig
 
@@ -131,14 +125,14 @@ skipping`undefined` values.
 #### Type parameters
 
 | Name |
-| :------ |
-| `T` |
+| :--- |
+| `T`  |
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `defaultConfig` | `T` | The default config values |
+| Name                | Type               | Description                             |
+| :------------------ | :----------------- | :-------------------------------------- |
+| `defaultConfig`     | `T`                | The default config values               |
 | `...partialConfigs` | `Partial`\<`T`\>[] | A partial config to merge with defaults |
 
 #### Returns
@@ -149,7 +143,7 @@ skipping`undefined` values.
 
 [util/mergeConfig.ts:9](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/util/mergeConfig.ts#L9)
 
-___
+---
 
 ### mkGobot
 
@@ -157,9 +151,9 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `appName` | `string` |
+| Name               | Type                                                               |
+| :----------------- | :----------------------------------------------------------------- |
+| `appName`          | `string`                                                           |
 | `defaultOptionsIn` | `Partial`\<[`GobotOptions`](../interfaces/Gobot.GobotOptions.md)\> |
 
 #### Returns
@@ -170,8 +164,8 @@ ___
 
 ##### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name        | Type                                                               |
+| :---------- | :----------------------------------------------------------------- |
 | `optionsIn` | `Partial`\<[`GobotOptions`](../interfaces/Gobot.GobotOptions.md)\> |
 
 ##### Returns

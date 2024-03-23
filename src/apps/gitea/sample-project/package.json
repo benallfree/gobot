@@ -1,0 +1,13 @@
+{
+  "name": "gitea-gobot-sample",
+  "bin": {
+    "gitea-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "gitea": "gitea"
+  },
+  "dependencies": {
+    "gobot-gitea": "1.21.9"
+  }
+}

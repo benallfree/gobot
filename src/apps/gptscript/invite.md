@@ -25,21 +25,21 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 `gobot-gptscript` versions mirror `gptscript` versions. Gobot has indexed 16 releases of `gptscript`:
 
-| Version | darwin    | linux     | win32 |
-| ------- | --------- | --------- | ----- |
-| 0.2.1   | arm64/x64 | arm64/x64 | x64   |
-| 0.2.0   | arm64/x64 | arm64/x64 | x64   |
-| 0.2.0   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.5   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.4   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.3   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.2   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.1   | arm64/x64 | arm64/x64 | x64   |
-| 0.1.0   | arm64/x64 | arm64/x64 | x64   |
-| 0.0.3   | arm64/x64 | arm64/x64 | x64   |
-| 0.0.2   | arm64/x64 | arm64/x64 | x64   |
-| 0.0.1   | arm64/x64 | arm64/x64 | x64   |
+| Version   | freebsd | darwin    | linux              | win32 |
+| --------- | ------- | --------- | ------------------ | ----- |
+| 0.2.1     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.2.0     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.2.0-rc1 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.5     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.4     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.3     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.3-rc4 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.3-rc3 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.3-rc2 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.3-rc1 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.2     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.1     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.1.0     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.0.3     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.0.2     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| 0.0.1     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |

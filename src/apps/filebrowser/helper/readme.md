@@ -88,8 +88,6 @@ npm i -g gobot-filebrowser@latest
 
 For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/docs/readme.md).
 
-
-
 ## Sample project
 
 View the [filebrowser sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.32/src/apps/filebrowser/sample-project) on github.
@@ -143,7 +141,6 @@ To test a build locally:
 pnpm test
 ```
 
-
 ## All known releases
 
 `gobot-filebrowser` versions mirror `filebrowser` versions. Gobot knows about 55 releases of `filebrowser`:
@@ -179,29 +176,29 @@ pnpm test
 | 2.13.0  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
 | 2.12.1  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
 | 2.12.0  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.11.0  | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.10.0  | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.9.0   | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.8.0   | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.7.0   | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.6.2   | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.6.1   | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.6.0   | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.5.0   | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.4.0   | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.3.0   | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.2.0   | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.1.2   | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.1.1   | arm64/x64/ia32 | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.1.0   | x64/ia32       | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.0.16  | x64/ia32       | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.0.15  | x64/ia32       | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.0.14  | x64/ia32       | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.0.13  | x64/ia32       | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.0.12  | x64/ia32       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 2.11.0  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.10.0  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.9.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.8.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.7.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.6.2   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.6.1   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.6.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.5.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.4.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.3.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.2.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.1.2   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.1.1   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.1.0   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.0.16  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.0.15  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.0.14  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.0.13  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.0.12  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
 | 2.0.11  |                |           |                    |          |
 | 2.0.10  |                |           |                    |          |
-| 2.0.9   | x64/ia32       | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.0.8   | x64/ia32       | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.0.7   | x64/ia32       | x64       | arm64/x64/ia32/arm | x64/ia32 |
-| 2.0.6   | x64/ia32       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 2.0.9   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.0.8   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.0.7   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.0.6   | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |

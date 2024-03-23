@@ -8,6 +8,6 @@
     "gotify": "gotify"
   },
   "dependencies": {
-    "gobot-gotify": "2.2.3"
+    "gobot-gotify": "2.4.0"
   }
 }

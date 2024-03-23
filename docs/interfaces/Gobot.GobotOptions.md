@@ -20,9 +20,9 @@ Options for Gobot
 
 #### Defined in
 
-[Gobot.ts:53](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L53)
+[Gobot.ts:51](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L51)
 
-___
+---
 
 ### cachePath
 
@@ -30,9 +30,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:56](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L56)
+[Gobot.ts:54](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L54)
 
-___
+---
 
 ### env
 
@@ -40,9 +40,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:55](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L55)
+[Gobot.ts:53](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L53)
 
-___
+---
 
 ### os
 
@@ -50,9 +50,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:52](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L52)
+[Gobot.ts:50](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L50)
 
-___
+---
 
 ### version
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[Gobot.ts:54](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L54)
+[Gobot.ts:52](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L52)

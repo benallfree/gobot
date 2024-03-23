@@ -88,8 +88,6 @@ npm i -g gobot-ollama@latest
 
 For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/docs/readme.md).
 
-
-
 ## Sample project
 
 View the [Ollama sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.32/src/apps/ollama/sample-project) on github.
@@ -142,7 +140,6 @@ To test a build locally:
 ```bash
 pnpm test
 ```
-
 
 ## All known releases
 

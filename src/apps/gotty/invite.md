@@ -25,10 +25,10 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 `gobot-gotty` versions mirror `gotty` versions. Gobot has indexed 5 releases of `gotty`:
 
-| Version | freebsd      | darwin    | linux              |
-| ------- | ------------ | --------- | ------------------ |
-| 1.5.0   | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
-| 1.4.0   | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
-| 1.3.0   | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
-| 1.2.0   | x64/ia32/arm | x64       | x64/ia32/arm       |
-| 1.1.0   | x64/ia32/arm | x64       | x64/ia32/arm       |
+| Version | freebsd            | darwin    | linux              |
+| ------- | ------------------ | --------- | ------------------ |
+| 1.5.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
+| 1.4.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
+| 1.3.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
+| 1.2.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |
+| 1.1.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |

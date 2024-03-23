@@ -1,6 +1,6 @@
 {
   "name": "gobot-hugo",
-  "version": "0.124.0-alpha.17",
+  "version": "0.124.1-alpha.17",
   "description": "Hugo helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
@@ -8,7 +8,7 @@
     "clean": "rimraf dist",
     "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-hugo && npm i -g gobot-hugo-0.124.0.tgz && hugo --g-refresh --g-vvv --help",
+    "test": "npm pack && npm rm -g gobot-hugo && npm i -g gobot-hugo-0.124.1.tgz && hugo --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

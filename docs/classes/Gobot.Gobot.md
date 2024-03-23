@@ -18,8 +18,7 @@ Generic Gobot app. Subclass this for specific functionality.
 - [repo](Gobot.Gobot.md#repo)
 - [storedReleases](Gobot.Gobot.md#storedreleases)
 - [version](Gobot.Gobot.md#version)
-- [VERSION\_FORMATS](Gobot.Gobot.md#version_formats)
-- [verbosity](Gobot.Gobot.md#verbosity)
+- [VERSION_FORMATS](Gobot.Gobot.md#version_formats)
 
 ### Accessors
 
@@ -49,7 +48,7 @@ Generic Gobot app. Subclass this for specific functionality.
 - [satisfies](Gobot.Gobot.md#satisfies)
 - [unpack](Gobot.Gobot.md#unpack)
 - [versions](Gobot.Gobot.md#versions)
-- [DEFAULT\_GOBOT\_CACHE\_ROOT](Gobot.Gobot.md#default_gobot_cache_root)
+- [DEFAULT_GOBOT_CACHE_ROOT](Gobot.Gobot.md#default_gobot_cache_root)
 
 ## Constructors
 
@@ -61,11 +60,11 @@ Create a new Gobot
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `repo` | `string` | The repo name, in `<user>/<repo>` format. |
-| `releaseProviderFactory` | (`repo`: `string`, `cacheRoot`: `string`) => [`GithubReleaseProvider`](api.GithubReleaseProvider.md) | - |
-| `optionsIn` | `Partial`\<[`GobotOptions`](../interfaces/Gobot.GobotOptions.md)\> | Option overrides |
+| Name                     | Type                                                                                                 | Description                               |
+| :----------------------- | :--------------------------------------------------------------------------------------------------- | :---------------------------------------- |
+| `repo`                   | `string`                                                                                             | The repo name, in `<user>/<repo>` format. |
+| `releaseProviderFactory` | (`repo`: `string`, `cacheRoot`: `string`) => [`GithubReleaseProvider`](api.GithubReleaseProvider.md) | -                                         |
+| `optionsIn`              | `Partial`\<[`GobotOptions`](../interfaces/Gobot.GobotOptions.md)\>                                   | Option overrides                          |
 
 #### Returns
 
@@ -73,121 +72,97 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:100](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L100)
+[Gobot.ts:89](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L89)
 
 ## Properties
 
 ### arch
 
-• **arch**: `Architecture`
+• `Protected` **arch**: `Architecture`
 
 #### Defined in
 
-[Gobot.ts:87](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L87)
+[Gobot.ts:76](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L76)
 
-___
+---
 
 ### cacheRoot
 
-• **cacheRoot**: `string`
+• `Protected` **cacheRoot**: `string`
 
 #### Defined in
 
-[Gobot.ts:90](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L90)
+[Gobot.ts:79](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L79)
 
-___
+---
 
 ### env
 
-• **env**: `ProcessEnv`
+• `Protected` **env**: `ProcessEnv`
 
 #### Defined in
 
-[Gobot.ts:89](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L89)
+[Gobot.ts:78](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L78)
 
-___
+---
 
 ### os
 
-• **os**: `Platform`
+• `Protected` **os**: `Platform`
 
 #### Defined in
 
-[Gobot.ts:86](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L86)
+[Gobot.ts:75](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L75)
 
-___
+---
 
 ### releaseProvider
 
-• **releaseProvider**: [`GithubReleaseProvider`](api.GithubReleaseProvider.md)
-
-#### Defined in
-
-[Gobot.ts:92](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L92)
-
-___
-
-### repo
-
-• **repo**: `string`
-
-#### Defined in
-
-[Gobot.ts:85](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L85)
-
-___
-
-### storedReleases
-
-• **storedReleases**: `undefined` \| [`StoredRelease`](../modules/Gobot.md#storedrelease)[] = `undefined`
-
-#### Defined in
-
-[Gobot.ts:91](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L91)
-
-___
-
-### version
-
-• **version**: `string`
-
-#### Defined in
-
-[Gobot.ts:88](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L88)
-
-___
-
-### VERSION\_FORMATS
-
-▪ `Static` **VERSION\_FORMATS**: readonly [``"js"``, ``"txt"``, ``"json"``, ``"cjs"``, ``"esm"``, ``"md"``]
-
-#### Defined in
-
-[Gobot.ts:83](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L83)
-
-___
-
-### verbosity
-
-▪ `Static` **verbosity**: (`newValue?`: ``0`` \| ``1`` \| ``2`` \| ``3``) => ``0`` \| ``1`` \| ``2`` \| ``3``
-
-#### Type declaration
-
-▸ (`newValue?`): ``0`` \| ``1`` \| ``2`` \| ``3``
-
-##### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `newValue?` | ``0`` \| ``1`` \| ``2`` \| ``3`` |
-
-##### Returns
-
-``0`` \| ``1`` \| ``2`` \| ``3``
+• `Protected` **releaseProvider**: [`GithubReleaseProvider`](api.GithubReleaseProvider.md)
 
 #### Defined in
 
 [Gobot.ts:81](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L81)
+
+---
+
+### repo
+
+• `Protected` **repo**: `string`
+
+#### Defined in
+
+[Gobot.ts:74](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L74)
+
+---
+
+### storedReleases
+
+• `Protected` **storedReleases**: `undefined` \| [`Release`](../modules/Gobot.md#release)[] = `undefined`
+
+#### Defined in
+
+[Gobot.ts:80](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L80)
+
+---
+
+### version
+
+• `Protected` **version**: `string`
+
+#### Defined in
+
+[Gobot.ts:77](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L77)
+
+---
+
+### VERSION_FORMATS
+
+▪ `Static` **VERSION_FORMATS**: readonly [``"js"``, ``"txt"``, ``"json"``, ``"cjs"``, ``"esm"``, ``"md"``]
+
+#### Defined in
+
+[Gobot.ts:72](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L72)
 
 ## Accessors
 
@@ -201,9 +176,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:214](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L214)
+[Gobot.ts:203](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L203)
 
-___
+---
 
 ### name
 
@@ -215,9 +190,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:144](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L144)
+[Gobot.ts:133](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L133)
 
-___
+---
 
 ### slug
 
@@ -229,7 +204,7 @@ ___
 
 #### Defined in
 
-[Gobot.ts:140](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L140)
+[Gobot.ts:129](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L129)
 
 ## Methods
 
@@ -243,9 +218,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:407](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L407)
+[Gobot.ts:390](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L390)
 
-___
+---
 
 ### cachePath
 
@@ -253,8 +228,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name       | Type       |
+| :--------- | :--------- |
 | `...paths` | `string`[] |
 
 #### Returns
@@ -265,8 +240,8 @@ ___
 
 ##### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name       | Type       |
+| :--------- | :--------- |
 | `...paths` | `string`[] |
 
 ##### Returns
@@ -275,46 +250,46 @@ ___
 
 #### Defined in
 
-[Gobot.ts:148](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L148)
+[Gobot.ts:137](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L137)
 
-___
+---
 
 ### clearCache
 
-▸ **clearCache**(): `void`
+▸ **clearCache**(): `Promise`\<`void`\>
 
 Clear all items from cache (flush cache).
 
 #### Returns
 
-`void`
+`Promise`\<`void`\>
 
 #### Defined in
 
-[Gobot.ts:157](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L157)
+[Gobot.ts:146](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L146)
 
-___
+---
 
 ### compare
 
-▸ **compare**(`a`, `b`): ``-1`` \| ``0`` \| ``1``
+▸ **compare**(`a`, `b`): `-1` \| `0` \| `1`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `a` | `string` |
-| `b` | `string` |
+| Name | Type     |
+| :--- | :------- |
+| `a`  | `string` |
+| `b`  | `string` |
 
 #### Returns
 
-``-1`` \| ``0`` \| ``1``
+`-1` \| `0` \| `1`
 
 #### Defined in
 
-[Gobot.ts:314](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L314)
+[Gobot.ts:296](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L296)
 
-___
+---
 
 ### download
 
@@ -326,9 +301,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:162](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L162)
+[Gobot.ts:151](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L151)
 
-___
+---
 
 ### downloadPath
 
@@ -336,30 +311,10 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `version` | `string` |
-| `url` | `string` |
-
-#### Returns
-
-`string`
-
-#### Defined in
-
-[Gobot.ts:251](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L251)
-
-___
-
-### downloadRoot
-
-▸ **downloadRoot**(`version`): `string`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `version` | `string` |
+| `url`     | `string` |
 
 #### Returns
 
@@ -369,7 +324,27 @@ ___
 
 [Gobot.ts:240](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L240)
 
-___
+---
+
+### downloadRoot
+
+▸ **downloadRoot**(`version`): `string`
+
+#### Parameters
+
+| Name      | Type     |
+| :-------- | :------- |
+| `version` | `string` |
+
+#### Returns
+
+`string`
+
+#### Defined in
+
+[Gobot.ts:229](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L229)
+
+---
 
 ### filterArgs
 
@@ -377,8 +352,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name   | Type       |
+| :----- | :--------- |
 | `args` | `string`[] |
 
 #### Returns
@@ -387,9 +362,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:391](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L391)
+[Gobot.ts:374](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L374)
 
-___
+---
 
 ### findArchiveBinPath
 
@@ -397,8 +372,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `version` | `string` |
 
 #### Returns
@@ -407,9 +382,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:220](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L220)
+[Gobot.ts:209](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L209)
 
-___
+---
 
 ### getBinaryPath
 
@@ -417,8 +392,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name              | Type     |
+| :---------------- | :------- |
 | `versionRangeIn?` | `string` |
 
 #### Returns
@@ -427,9 +402,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:271](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L271)
+[Gobot.ts:253](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L253)
 
-___
+---
 
 ### getLatestVersion
 
@@ -441,9 +416,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:327](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L327)
+[Gobot.ts:309](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L309)
 
-___
+---
 
 ### getSatisfyingVersions
 
@@ -451,8 +426,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name    | Type     |
+| :------ | :------- |
 | `range` | `string` |
 
 #### Returns
@@ -461,9 +436,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:322](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L322)
+[Gobot.ts:304](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L304)
 
-___
+---
 
 ### hasAnyBuildForVersion
 
@@ -471,8 +446,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `version` | `string` |
 
 #### Returns
@@ -481,29 +456,29 @@ ___
 
 #### Defined in
 
-[Gobot.ts:395](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L395)
+[Gobot.ts:378](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L378)
 
-___
+---
 
 ### maxSatisfyingRelease
 
-▸ **maxSatisfyingRelease**(`range`): `Promise`\<`undefined` \| [`StoredRelease`](../modules/Gobot.md#storedrelease)\>
+▸ **maxSatisfyingRelease**(`range`): `Promise`\<`undefined` \| [`Release`](../modules/Gobot.md#release)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name    | Type     |
+| :------ | :------- |
 | `range` | `string` |
 
 #### Returns
 
-`Promise`\<`undefined` \| [`StoredRelease`](../modules/Gobot.md#storedrelease)\>
+`Promise`\<`undefined` \| [`Release`](../modules/Gobot.md#release)\>
 
 #### Defined in
 
-[Gobot.ts:340](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L340)
+[Gobot.ts:322](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L322)
 
-___
+---
 
 ### maxSatisfyingVersion
 
@@ -511,8 +486,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name    | Type     |
+| :------ | :------- |
 | `range` | `string` |
 
 #### Returns
@@ -521,29 +496,29 @@ ___
 
 #### Defined in
 
-[Gobot.ts:332](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L332)
+[Gobot.ts:314](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L314)
 
-___
+---
 
 ### releases
 
-▸ **releases**(`force?`): `Promise`\<[`StoredRelease`](../modules/Gobot.md#storedrelease)[]\>
+▸ **releases**(`options?`): `Promise`\<[`Release`](../modules/Gobot.md#release)[]\>
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `force` | `boolean` | `false` |
+| Name       | Type                                                         |
+| :--------- | :----------------------------------------------------------- |
+| `options?` | `Partial`\<\{ `recalc`: `boolean` ; `refetch`: `boolean` }\> |
 
 #### Returns
 
-`Promise`\<[`StoredRelease`](../modules/Gobot.md#storedrelease)[]\>
+`Promise`\<[`Release`](../modules/Gobot.md#release)[]\>
 
 #### Defined in
 
-[Gobot.ts:349](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L349)
+[Gobot.ts:331](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L331)
 
-___
+---
 
 ### run
 
@@ -553,8 +528,8 @@ Run a binary.
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
+| Name   | Type       | Description                        |
+| :----- | :--------- | :--------------------------------- |
 | `args` | `string`[] | The arguments to pass to `spawn()` |
 
 #### Returns
@@ -563,9 +538,9 @@ Run a binary.
 
 #### Defined in
 
-[Gobot.ts:419](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L419)
+[Gobot.ts:402](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L402)
 
-___
+---
 
 ### satisfies
 
@@ -573,10 +548,10 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name      | Type     |
+| :-------- | :------- |
 | `version` | `string` |
-| `range` | `string` |
+| `range`   | `string` |
 
 #### Returns
 
@@ -584,9 +559,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:318](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L318)
+[Gobot.ts:300](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L300)
 
-___
+---
 
 ### unpack
 
@@ -594,10 +569,10 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name           | Type     |
+| :------------- | :------- |
 | `downloadPath` | `string` |
-| `version` | `string` |
+| `version`      | `string` |
 
 #### Returns
 
@@ -605,9 +580,9 @@ ___
 
 #### Defined in
 
-[Gobot.ts:257](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L257)
+[Gobot.ts:246](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L246)
 
-___
+---
 
 ### versions
 
@@ -615,9 +590,9 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `type?` | ``"js"`` |
+| Name    | Type   |
+| :------ | :----- |
+| `type?` | `"js"` |
 
 #### Returns
 
@@ -625,15 +600,15 @@ ___
 
 #### Defined in
 
-[Gobot.ts:176](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L176)
+[Gobot.ts:165](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L165)
 
 ▸ **versions**(`type?`): `Promise`\<`string`\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `type?` | ``"md"`` |
+| Name    | Type   |
+| :------ | :----- |
+| `type?` | `"md"` |
 
 #### Returns
 
@@ -641,15 +616,15 @@ ___
 
 #### Defined in
 
-[Gobot.ts:177](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L177)
+[Gobot.ts:166](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L166)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `type` | ``"json"`` |
+| Name   | Type     |
+| :----- | :------- |
+| `type` | `"json"` |
 
 #### Returns
 
@@ -657,15 +632,15 @@ ___
 
 #### Defined in
 
-[Gobot.ts:178](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L178)
+[Gobot.ts:167](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L167)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `type` | ``"txt"`` |
+| Name   | Type    |
+| :----- | :------ |
+| `type` | `"txt"` |
 
 #### Returns
 
@@ -673,15 +648,15 @@ ___
 
 #### Defined in
 
-[Gobot.ts:179](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L179)
+[Gobot.ts:168](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L168)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `type` | ``"cjs"`` |
+| Name   | Type    |
+| :----- | :------ |
+| `type` | `"cjs"` |
 
 #### Returns
 
@@ -689,15 +664,15 @@ ___
 
 #### Defined in
 
-[Gobot.ts:180](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L180)
+[Gobot.ts:169](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L169)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `type` | ``"esm"`` |
+| Name   | Type    |
+| :----- | :------ |
+| `type` | `"esm"` |
 
 #### Returns
 
@@ -705,11 +680,11 @@ ___
 
 #### Defined in
 
-[Gobot.ts:181](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L181)
+[Gobot.ts:170](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L170)
 
-___
+---
 
-### DEFAULT\_GOBOT\_CACHE\_ROOT
+### DEFAULT_GOBOT_CACHE_ROOT
 
 ▸ **DEFAULT_GOBOT_CACHE_ROOT**(`...paths`): `string`
 
@@ -717,8 +692,8 @@ The default Gobot cache root. This is platform specific.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name       | Type       |
+| :--------- | :--------- |
 | `...paths` | `string`[] |
 
 #### Returns
@@ -727,4 +702,4 @@ The default Gobot cache root. This is platform specific.
 
 #### Defined in
 
-[Gobot.ts:78](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L78)
+[Gobot.ts:69](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L69)
