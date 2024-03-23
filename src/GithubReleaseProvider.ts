@@ -203,19 +203,28 @@ export class GithubReleaseProvider {
     )
   }
 
-  archRegex(os: PlatformKey, aliases: string[]) {
-    return new RegExp(`[_-](?:${[...aliases, os].join(`|`)})(?:[_\\-.]|$)`, 'i')
-  }
-
-  getArchivesForRelease(release: GithubRelease): StoredRelease['archives'] {
-    const archives: StoredRelease['archives'] = {}
+  getAllUrlsForRelease(release: GithubRelease): string[] {
+    const archives: Release['archives'] = {}
 
     const { assets } = release
     const allUrls = assets.map((asset) => asset.browser_download_url)
     dbg(`Examining ${release.tag_name}`, allUrls)
 
+    return allUrls
+  }
+
+  getAllowedUrlsForRelease(release: GithubRelease): string[] {
+    const allUrls = this.getAllUrlsForRelease(release)
     const allowedUrls = allUrls.filter((url) => this.isArchiveUrlAllowed(url))
     dbg(`Filtered to`, allowedUrls)
+
+    return allowedUrls
+  }
+
+  getArchivesForRelease(release: GithubRelease): Release['archives'] {
+    const archives: Release['archives'] = {}
+
+    const allowedUrls = this.getAllowedUrlsForRelease(release)
 
     if (allowedUrls.length === 0) {
       return archives
