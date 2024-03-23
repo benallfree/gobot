@@ -24,7 +24,7 @@ import { getAppVersion } from './util/getAppVersion'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { sanitizeOptions } from './util/sanitize'
-import { mkdir, pwd, rimrafSync } from './util/shell'
+import { mkdir, pwd } from './util/shell'
 import { stringify } from './util/stringify'
 
 export type PlatformKey = NodeJS.Platform
