@@ -145,17 +145,17 @@ pnpm test
 
 `gobot-duf` versions mirror `duf` versions. Gobot knows about 12 releases of `duf`:
 
-| Version | freebsd            | darwin    | linux              | win32    |
-| ------- | ------------------ | --------- | ------------------ | -------- |
-| 0.8.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.8.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.7.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.6.2   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.6.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.6.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.5.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.4.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.3.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |          |
-| 0.3.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm |          |
-| 0.2.0   | arm64              | arm64     | arm64/x64/ia32/arm |          |
-| 0.1.0   | arm64              | arm64     | arm64/x64/ia32/arm |          |
+| Version | freebsd            | darwin    | linux              | win32          |
+| ------- | ------------------ | --------- | ------------------ | -------------- |
+| 0.8.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.8.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.7.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.6.2   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32       |
+| 0.6.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32       |
+| 0.6.0   | arm64/x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32       |
+| 0.5.0   | arm64/x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32       |
+| 0.4.0   | arm64/x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32       |
+| 0.3.1   | arm64/x64/ia32/arm | x64       | arm64/x64/ia32/arm |                |
+| 0.3.0   | arm64/x64/ia32/arm | x64       | arm64/x64/ia32/arm |                |
+| 0.2.0   |                    |           | arm64/x64/ia32/arm |                |
+| 0.1.0   |                    |           | arm64/x64/ia32/arm |                |

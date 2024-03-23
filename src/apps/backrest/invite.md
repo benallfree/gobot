@@ -25,22 +25,22 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 `gobot-backrest` versions mirror `backrest` versions. Gobot has indexed 17 releases of `backrest`:
 
-| Version | freebsd            | darwin    | linux              | win32    |
-| ------- | ------------------ | --------- | ------------------ | -------- |
-| 0.15.1  | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.15.0  | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.14.0  | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.13.0  | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.12.2  | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.12.0  | arm64              | arm64/x64 | arm64/x64/ia32/arm |          |
-| 0.11.1  | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.11.0  | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.10.1  | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.10.0  | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.9.3   | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.9.2   | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.9.1   | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.9.0   | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.8.2   | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.8.1   | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.7.0   | arm64              | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| Version | freebsd   | darwin    | linux         | win32     |
+| ------- | --------- | --------- | ------------- | --------- |
+| 0.15.1  | arm64/x64 | arm64/x64 | arm64/x64/arm | x64/arm64 |
+| 0.15.0  | arm64/x64 | arm64/x64 | arm64/x64/arm | x64/arm64 |
+| 0.14.0  |           | arm64/x64 | arm64/x64/arm | x64/arm64 |
+| 0.13.0  |           | arm64/x64 | arm64/x64     | x64/arm64 |
+| 0.12.2  |           | arm64/x64 | arm64/x64     | x64/arm64 |
+| 0.12.0  |           | arm64/x64 | arm64/x64     |           |
+| 0.11.1  |           | arm64/x64 | arm64/x64     | x64/arm64 |
+| 0.11.0  |           | arm64/x64 | arm64/x64     | x64/arm64 |
+| 0.10.1  |           | arm64/x64 | arm64/x64     | x64/arm64 |
+| 0.10.0  |           | arm64/x64 | arm64/x64     | x64/arm64 |
+| 0.9.3   |           | arm64/x64 | arm64/x64     | x64/arm64 |
+| 0.9.2   |           | arm64/x64 | arm64/x64     | x64/arm64 |
+| 0.9.1   |           | arm64/x64 | arm64/x64     | x64/arm64 |
+| 0.9.0   |           | arm64/x64 | arm64/x64     | x64/arm64 |
+| 0.8.2   |           | arm64/x64 | arm64/x64     | x64/arm64 |
+| 0.8.1   |           | arm64/x64 | arm64/x64     | x64/arm64 |
+| 0.7.0   |           | arm64/x64 | arm64/x64     | x64/arm64 |

@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-minio` package version always mirrors the underlying `minio` [version](#known-versions):
 
 ```bash
-npm i gobot-minio@2024.3.15010719
+npm i gobot-minio@2024.3.21231343
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `minio` 
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`minio`, { version: `2024.3.15010719` })
+const bot = await gobot(`minio`, { version: `2024.3.21231343` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -168,10 +168,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-minio` versions mirror `minio` versions. Gobot knows about 464 releases of `minio`:
+`gobot-minio` versions mirror `minio` versions. Gobot knows about 465 releases of `minio`:
 
 | Version          | win32 | darwin    | linux     |
 | ---------------- | ----- | --------- | --------- |
+| 2024.3.21231343  | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.15010719  | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.10025348  | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.7004348   | x64   | arm64/x64 | arm64/x64 |

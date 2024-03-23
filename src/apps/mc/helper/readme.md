@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-mc` package version always mirrors the underlying `mc` [version](#known-versions):
 
 ```bash
-npm i gobot-mc@2024.3.13235157
+npm i gobot-mc@2024.3.20210729
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `mc` eve
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`mc`, { version: `2024.3.13235157` })
+const bot = await gobot(`mc`, { version: `2024.3.20210729` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -168,10 +168,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-mc` versions mirror `mc` versions. Gobot knows about 263 releases of `mc`:
+`gobot-mc` versions mirror `mc` versions. Gobot knows about 264 releases of `mc`:
 
 | Version          | win32 | darwin    | linux     |
 | ---------------- | ----- | --------- | --------- |
+| 2024.3.20210729  | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.13235157  | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.9064306   | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.7003149   | x64   | arm64/x64 | arm64/x64 |

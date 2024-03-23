@@ -8,6 +8,6 @@
     "lazygit": "lazygit"
   },
   "dependencies": {
-    "gobot-lazygit": "0.40.2"
+    "gobot-lazygit": "0.41.0"
   }
 }

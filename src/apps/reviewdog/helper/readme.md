@@ -145,38 +145,38 @@ pnpm test
 
 `gobot-reviewdog` versions mirror `reviewdog` versions. Gobot knows about 33 releases of `reviewdog`:
 
-| Version | freebsd | darwin    | linux              | win32    |
-| ------- | ------- | --------- | ------------------ | -------- |
-| 0.17.2  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.17.1  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.17.0  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.16.0  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.15.0  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.14.2  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.14.1  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.14.0  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.13.1  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.13.0  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.12.0  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.11.0  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.10.2  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.10.1  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.10.0  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.9.17  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.9.16  | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 0.9.15  |         | arm64/x64 | arm64/x64/ia32/arm |          |
-| 0.9.14  |         | arm64/x64 | arm64/x64/ia32/arm |          |
-| 0.9.13  |         | arm64/x64 | arm64/x64/ia32/arm |          |
-| 0.9.12  |         | arm64/x64 | arm64/x64/ia32/arm |          |
-| 0.9.11  |         |           |                    |          |
-| 0.9.10  |         |           |                    |          |
-| 0.9.9   |         |           |                    |          |
-| 0.9.8   |         |           |                    |          |
-| 0.9.7   |         |           |                    |          |
-| 0.9.6   |         |           |                    |          |
-| 0.9.5   |         |           |                    |          |
-| 0.9.4   |         |           |                    |          |
-| 0.9.3   |         |           |                    |          |
-| 0.9.2   |         |           |                    |          |
-| 0.9.1   |         |           |                    |          |
-| 0.9.0   |         |           |                    |          |
+| Version | darwin    | linux              | win32          |
+| ------- | --------- | ------------------ | -------------- |
+| 0.17.2  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.17.1  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.17.0  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.16.0  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.15.0  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.14.2  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.14.1  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.14.0  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.13.1  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.13.0  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32       |
+| 0.12.0  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32       |
+| 0.11.0  | x64       | arm64/x64/ia32/arm | x64/ia32       |
+| 0.10.2  | x64       | arm64/x64/ia32/arm | x64/ia32       |
+| 0.10.1  | x64       | arm64/x64/ia32/arm | x64/ia32       |
+| 0.10.0  | x64       | arm64/x64/ia32/arm | x64/ia32       |
+| 0.9.17  | x64       | arm64/x64/ia32/arm | x64/ia32       |
+| 0.9.16  | x64       | arm64/x64/ia32/arm | x64/ia32       |
+| 0.9.15  | x64       | x64/ia32           |                |
+| 0.9.14  | x64       | x64/ia32           |                |
+| 0.9.13  | x64       | x64/ia32           |                |
+| 0.9.12  | x64       | x64/ia32           |                |
+| 0.9.11  |           |                    |                |
+| 0.9.10  |           |                    |                |
+| 0.9.9   |           |                    |                |
+| 0.9.8   |           |                    |                |
+| 0.9.7   |           |                    |                |
+| 0.9.6   |           |                    |                |
+| 0.9.5   |           |                    |                |
+| 0.9.4   |           |                    |                |
+| 0.9.3   |           |                    |                |
+| 0.9.2   |           |                    |                |
+| 0.9.1   |           |                    |                |
+| 0.9.0   |           |                    |                |

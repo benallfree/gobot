@@ -145,24 +145,24 @@ pnpm test
 
 `gobot-gokapi` versions mirror `gokapi` versions. Gobot knows about 19 releases of `gokapi`:
 
-| Version     | freebsd   | darwin    | linux              | win32    |
-| ----------- | --------- | --------- | ------------------ | -------- |
-| 1.8.1       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 1.8.0       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 1.7.2       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.7.1       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.6.2       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.6.1       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.6.0       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.5.2       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.5.1       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.5.0       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.5.0-beta1 | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.3.1       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.3.0       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.2.0       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.1.3       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.1.2       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.1.0       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.0.1       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 1.0.0       | arm64/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| Version     | darwin    | linux              | win32    |
+| ----------- | --------- | ------------------ | -------- |
+| 1.8.1       | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.8.0       | arm64/x64 | arm64/x64/ia32/arm | x64      |
+| 1.7.2       | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.7.1       | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.6.2       | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.6.1       | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.6.0       | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.5.2       | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.5.1       | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.5.0       | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 1.5.0-beta1 | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.3.1       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.3.0       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.2.0       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.1.3       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.1.2       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.1.0       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.0.1       | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 1.0.0       | x64       | arm64/x64/ia32/arm | x64/ia32 |

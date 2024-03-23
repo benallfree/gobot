@@ -25,60 +25,60 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 `gobot-loki` versions mirror `loki` versions. Gobot has indexed 55 releases of `loki`:
 
-| Version | freebsd            | darwin    | linux              | win32    |
-| ------- | ------------------ | --------- | ------------------ | -------- |
-| 2.9.6   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.9.5   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.9.4   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.9.3   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.9.2   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.9.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.9.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.8.11  | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.8.10  | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.8.9   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.8.8   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.8.7   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.8.6   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.8.5   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.8.4   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.8.3   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.8.2   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.8.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.8.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.7.7   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.7.6   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.7.5   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.7.4   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.7.3   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.7.2   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.7.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.7.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.6.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.6.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.5.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.4.2   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.4.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.4.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.3.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.2.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.2.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.1.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 2.0.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 2.0.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 1.6.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 1.6.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 1.5.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 1.4.1   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 1.4.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 1.3.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 1.2.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 1.1.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 1.0.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 0.6.0   |                    |           |                    |          |
-| 0.5.0   |                    |           |                    |          |
-| 0.4.0   |                    |           |                    |          |
-| 0.4.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 0.3.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 0.2.0   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64      |
-| 0.1.0   |                    |           |                    |          |
+| Version | freebsd | darwin    | linux         | win32    |
+| ------- | ------- | --------- | ------------- | -------- |
+| 2.9.6   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.9.5   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.9.4   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.9.3   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.9.2   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.9.1   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.9.0   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.8.11  | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.8.10  | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.8.9   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.8.8   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.8.7   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.8.6   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.8.5   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.8.4   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.8.3   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.8.2   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.8.1   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.8.0   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.7.7   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.7.6   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.7.5   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.7.4   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.7.3   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.7.2   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.7.1   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.7.0   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.6.1   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.6.0   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.5.0   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.4.2   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.4.1   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.4.0   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.3.0   | x64     | x64       | arm64/x64/arm | x64/ia32 |
+| 2.2.1   | x64     | x64       | arm64/x64/arm | x64/ia32 |
+| 2.2.0   | x64     | x64       | arm64/x64/arm | x64/ia32 |
+| 2.1.0   | x64     | x64       | arm64/x64/arm | x64      |
+| 2.0.1   | x64     | x64       | arm64/x64/arm | x64      |
+| 2.0.0   | x64     | x64       | arm64/x64/arm | x64      |
+| 1.6.1   | x64     | x64       | arm64/x64/arm | x64      |
+| 1.6.0   | x64     | x64       | arm64/x64/arm | x64      |
+| 1.5.0   | x64     | x64       | arm64/x64/arm | x64      |
+| 1.4.1   | x64     | x64       | arm64/x64/arm | x64      |
+| 1.4.0   | x64     | x64       | arm64/x64/arm | x64      |
+| 1.3.0   | x64     | x64       | arm64/x64/arm | x64      |
+| 1.2.0   | x64     | x64       | arm64/x64/arm | x64      |
+| 1.1.0   | x64     | x64       | arm64/x64/arm | x64      |
+| 1.0.0   | x64     | x64       | arm64/x64/arm | x64      |
+| 0.6.0   |         |           |               |          |
+| 0.5.0   |         |           |               |          |
+| 0.4.0   |         |           |               |          |
+| 0.4.0   | x64     | x64       | arm64/x64/arm | x64      |
+| 0.3.0   | x64     | x64       | arm64/x64/arm | x64      |
+| 0.2.0   | x64     | x64       | arm64/x64/arm | x64      |
+| 0.1.0   |         |           |               |          |

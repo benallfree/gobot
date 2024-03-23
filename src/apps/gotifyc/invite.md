@@ -25,15 +25,15 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 `gobot-gotifyc` versions mirror `gotifyc` versions. Gobot has indexed 10 releases of `gotifyc`:
 
-| Version | freebsd | darwin    | linux              | win32    |
-| ------- | ------- | --------- | ------------------ | -------- |
-| 2.2.3   | arm     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.2.2   | arm     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.2.1   | arm     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.2.0   | arm     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.1.1   | arm     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
-| 2.1.0   | arm     |           | arm64/x64/ia32/arm | x64/ia32 |
-| 2.0.0   | arm     |           | arm64/x64/ia32/arm | x64/ia32 |
-| 1.2.2   | arm     |           | arm64/x64/ia32/arm | x64/ia32 |
-| 1.2.1   | arm     |           | arm64/x64/ia32/arm | x64      |
-| 1.2.0   | arm     |           | arm64/x64/ia32/arm | x64      |
+| Version | darwin    | linux              | win32    |
+| ------- | --------- | ------------------ | -------- |
+| 2.2.3   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.2.2   | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
+| 2.2.1   | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 2.2.0   | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 2.1.1   | x64       | arm64/x64/ia32/arm | x64/ia32 |
+| 2.1.0   |           | arm64/x64/ia32/arm | x64/ia32 |
+| 2.0.0   |           | arm64/x64/ia32/arm | x64/ia32 |
+| 1.2.2   |           | arm64/x64/ia32/arm | x64/ia32 |
+| 1.2.1   |           | arm64/x64/arm      | x64      |
+| 1.2.0   |           | arm64/x64/arm      | x64      |

@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-gptscript` package version always mirrors the underlying `gptscript` [version](#known-versions):
 
 ```bash
-npm i gobot-gptscript@0.2.1
+npm i gobot-gptscript@0.2.2
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `gptscri
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`gptscript`, { version: `0.2.1` })
+const bot = await gobot(`gptscript`, { version: `0.2.2` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -143,23 +143,24 @@ pnpm test
 
 ## All known releases
 
-`gobot-gptscript` versions mirror `gptscript` versions. Gobot knows about 16 releases of `gptscript`:
+`gobot-gptscript` versions mirror `gptscript` versions. Gobot knows about 17 releases of `gptscript`:
 
-| Version   | freebsd | darwin    | linux              | win32 |
-| --------- | ------- | --------- | ------------------ | ----- |
-| 0.2.1     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.2.0     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.2.0-rc1 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.1.5     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.1.4     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.1.3     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.1.3-rc4 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.1.3-rc3 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.1.3-rc2 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.1.3-rc1 | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.1.2     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.1.1     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.1.0     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.0.3     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.0.2     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
-| 0.0.1     | arm64   | arm64/x64 | arm64/x64/ia32/arm | x64   |
+| Version   | darwin    | linux     | win32 |
+| --------- | --------- | --------- | ----- |
+| 0.2.2     | arm64/x64 | arm64/x64 | x64   |
+| 0.2.1     | arm64/x64 | arm64/x64 | x64   |
+| 0.2.0     | arm64/x64 | arm64/x64 | x64   |
+| 0.2.0-rc1 | arm64/x64 | arm64/x64 | x64   |
+| 0.1.5     | arm64/x64 | arm64/x64 | x64   |
+| 0.1.4     | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3     | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3-rc4 | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3-rc3 | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3-rc2 | arm64/x64 | arm64/x64 | x64   |
+| 0.1.3-rc1 | arm64/x64 | arm64/x64 | x64   |
+| 0.1.2     | arm64/x64 | arm64/x64 | x64   |
+| 0.1.1     | arm64/x64 | arm64/x64 | x64   |
+| 0.1.0     | arm64/x64 | arm64/x64 | x64   |
+| 0.0.3     | arm64/x64 | arm64/x64 | x64   |
+| 0.0.2     | arm64/x64 | arm64/x64 | x64   |
+| 0.0.1     | arm64/x64 | arm64/x64 | x64   |

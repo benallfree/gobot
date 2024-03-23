@@ -10,7 +10,7 @@ The package is [https://npmjs.org/gobot-mc](https://npmjs.org/gobot-mc).
 
 ## What's next
 
-- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 263 versions of Mc.
+- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 264 versions of Mc.
 - **Update Mc installation docs.** Please consider adding Gobot to your official install instructions. If you would like me to send a PR updating the Mc installation docs to include instructions for installation via Gobot, I'm happy to do that.
 - **Give Gobot a 💫.** Gobot is a big effort to solve binary dependencies for nodejs in a universal way. Please consider giving [the Gobot project](https://github.com/benallfree/gobot) a star if it resonates.
 - **Keep going.** Keep doing what you do! Gobot will automatically pick up and publish your new releases.
@@ -23,10 +23,11 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 ## All releases indexed by Gobot
 
-`gobot-mc` versions mirror `mc` versions. Gobot has indexed 263 releases of `mc`:
+`gobot-mc` versions mirror `mc` versions. Gobot has indexed 264 releases of `mc`:
 
 | Version          | win32 | darwin    | linux     |
 | ---------------- | ----- | --------- | --------- |
+| 2024.3.20210729  | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.13235157  | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.9064306   | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.7003149   | x64   | arm64/x64 | arm64/x64 |
