@@ -1,16 +1,13 @@
 import { forEach } from '@s-libs/micro-dash'
-import { join, resolve } from 'path'
+import Bottleneck from 'bottleneck'
+import { existsSync } from 'fs'
+import { mkdir, readFile, writeFile } from 'fs/promises'
+import { dirname, join } from 'path'
+import { rimraf } from 'rimraf'
 import { valid } from 'semver'
-import {
-  ArchKey,
-  COMPRESSED_ARCHIVE_EXTS,
-  PlatformKey,
-  StoredRelease,
-} from './Gobot'
+import { ArchKey, COMPRESSED_ARCHIVE_EXTS, PlatformKey, Release } from './Gobot'
+import { mergeConfig } from './api'
 import { dbg, info } from './util/log'
-import { mergeConfig } from './util/mergeConfig'
-import { mkdir } from './util/shell'
-import { smartFetch } from './util/smartFetch'
 import { stringify } from './util/stringify'
 
 export interface GithubRelease {
@@ -87,6 +84,21 @@ export type PlatformMap = typeof DEFAULT_PLATFORM_MAP
 
 export type GithubReleaseProviderOptions = {}
 
+export const mkFileProvider = (rootPath: string) => {
+  return {
+    async read<T>(...paths: string[]) {
+      const path = join(rootPath, ...paths)
+      if (!existsSync(path)) return undefined
+      const data = await readFile(path)
+      return JSON.parse(data.toString()) as T
+    },
+    async write(data: any, ...paths: string[]) {
+      const path = join(rootPath, ...paths)
+      await mkdir(dirname(path), { recursive: true })
+      await writeFile(path, stringify(data, null, 2))
+    },
+  }
+}
 
 const rateLimitedFetch = (() => {
   const limiter = new Bottleneck({
@@ -100,7 +112,8 @@ const rateLimitedFetch = (() => {
 
 export class GithubReleaseProvider {
   protected repo: string
-  protected cacheRoot: string
+  private cacheRoot
+  private fs
 
   constructor(
     repo: string,
@@ -109,6 +122,8 @@ export class GithubReleaseProvider {
   ) {
     this.repo = repo
     this.cacheRoot = cacheRoot
+    this.fs = mkFileProvider(cacheRoot)
+
     const options = mergeConfig<GithubReleaseProviderOptions>({}, optionsIn)
     dbg(`${this.slug} options`, stringify(options, null, 2))
   }
@@ -121,12 +136,6 @@ export class GithubReleaseProvider {
     return `GithubReleaseProvider`
   }
 
-  cachePath(...paths: string[]) {
-    const path = resolve(this.cacheRoot, ...paths)
-    mkdir(path)
-    return (...paths: string[]) => join(path, ...paths)
-  }
-
   protected isValidRelease(release: GithubRelease) {
     const version = this.extractVersionFromTag(release.tag_name)
     const isValid = !!valid(version)
@@ -134,7 +143,33 @@ export class GithubReleaseProvider {
     return isValid
   }
 
-  async fetch() {
+  async reduceReleases(refetch = false) {
+    const remoteReleases = await this.remoteReleases(refetch)
+    const storedReleases = remoteReleases
+      .filter((release) => this.isValidRelease(release))
+      .map((release) => {
+        dbg(`Release tag name`, release.tag_name)
+        const stored: Release = {
+          version: this.extractVersionFromTag(release.tag_name),
+          archives: this.getArchivesForRelease(release),
+          allowedUrls: this.getAllowedUrlsForRelease(release),
+          allUrls: this.getAllUrlsForRelease(release),
+        }
+        dbg(`Stored asset`, stored)
+        return stored
+      })
+    return storedReleases
+  }
+
+  get releasesKey() {
+    return 'releases.json'
+  }
+
+  async remoteReleases(force = false) {
+    const releases = await this.fs.read<GithubReleaseCollection>(
+      this.releasesKey,
+    )
+    if (!force && releases) return releases
     let page = 1
     const remoteReleases: GithubReleaseCollection = []
     do {
@@ -157,18 +192,8 @@ export class GithubReleaseProvider {
       `Remote releases`,
       remoteReleases.map((release) => release.tag_name).join(`, `),
     )
-
+    await this.fs.write(remoteReleases, this.releasesKey)
     return remoteReleases
-      .filter((release) => this.isValidRelease(release))
-      .map((release) => {
-        dbg(`Release tag name`, release.tag_name)
-        const stored: StoredRelease = {
-          version: this.extractVersionFromTag(release.tag_name),
-          archives: this.getArchivesForRelease(release),
-        }
-        dbg(`Stored asset`, stored)
-        return stored
-      })
   }
 
   get platformMap(): PlatformMap {

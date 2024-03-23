@@ -37,6 +37,8 @@ export type Release = {
       [archName in ArchKey]?: string
     }
   }
+  allUrls: string[]
+  allowedUrls: string[]
 }
 
 const RELEASES_NAME = `releases.json`
@@ -326,7 +328,8 @@ export class Gobot {
     return release
   }
 
-  async releases(force = false) {
+  async releases(options?: Partial<{ recalc: boolean; refetch: boolean }>) {
+    const { recalc = false, refetch = false } = options || {}
     const cachedReleasesFilePath = this.cachePath()(RELEASES_NAME)
     dbg(`Releases cache: ${cachedReleasesFilePath}`)
     const cacheExists = existsSync(cachedReleasesFilePath)
@@ -345,10 +348,10 @@ export class Gobot {
 
     dbg(`Release cache freshness: ${cacheIsFresh}`)
 
-    if (!cacheIsFresh || force) {
-      this.storedReleases = (await this.releaseProvider.fetch()).sort((a, b) =>
-        this.compare(b.version, a.version),
-      )
+    if (!cacheIsFresh || recalc || refetch) {
+      this.storedReleases = (
+        await this.releaseProvider.reduceReleases(refetch)
+      ).sort((a, b) => this.compare(b.version, a.version))
 
       const json = stringify(this.storedReleases, null, 2)
       writeFileSync(cachedReleasesFilePath, json)
