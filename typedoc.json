@@ -10,5 +10,6 @@
   "excludePrivate": true,
   "gitRevision": "main",
   "exclude": ["**/build"],
-  "excludeExternals": true
+  "excludeExternals": true,
+  "tsconfig": "tsconfig.typedoc.json"
 }
