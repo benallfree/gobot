@@ -82,6 +82,5 @@ export default (opts: { outfile?: string }) =>
         mtime: Date.now(),
       },
     ]
-    console.log({ ret })
     return ret
   }
