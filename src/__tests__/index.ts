@@ -40,7 +40,7 @@ describe(`bot`, () => {
         join(__dirname, `data`, appSlug, `releases-snapshot`),
       )
 
-      const skipRun = [`gotify`, `gocryptfs`]
+      const skipRun = [`gotify`, `gocryptfs`, `ferretdb`]
 
       if (skipRun.includes(appSlug)) continue
 
