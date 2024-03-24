@@ -1,7 +1,7 @@
 import type { JestConfigWithTsJest } from 'ts-jest'
 
 const jestConfig: JestConfigWithTsJest = {
-  testMatch: [`**/src/**/__tests__/**/*.[jt]s?(x)`],
+  testMatch: [`**/src/__tests__/*.ts`],
   preset: `ts-jest/presets/js-with-ts-esm`,
   moduleNameMapper: {
     '^(\\.{1,2}/.*)\\.js$': '$1',
