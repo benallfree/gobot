@@ -4,21 +4,21 @@ import { Gobot } from '../../Gobot'
 
 export const {{constantCase slug}}_REPO = '{{user}}/{{repo}}'
 
-class {{slug}}GithubReleaseProvider extends GithubReleaseProvider {
+class {{slug}}_GithubReleaseProvider extends GithubReleaseProvider {
   get slug() {
     return `{{slug}}GithubReleaseProvider`
   }
 }
-class {{slug}}Gobot extends Gobot {
+class {{slug}}_Gobot extends Gobot {
   get slug(): string {
     return `{{slug}}Gobot`
   }
 }
 
-export const mk{{slug}}: AppFactory = (optionsIn) => {
-  return new {{slug}}Gobot(
-    {{constantCase slug}}_REPO = '{{user}}/{{repo}}',
-    (root, cacheRoot) => new {{slug}}GithubReleaseProvider(root, cacheRoot),
+export const mk{{properCase slug}}: AppFactory = (optionsIn) => {
+  return new {{slug}}_Gobot(
+    {{constantCase slug}}_REPO,
+    (root, cacheRoot) => new {{slug}}_GithubReleaseProvider(root, cacheRoot),
     optionsIn
   )
 }
