@@ -34,7 +34,24 @@ describe(`bot`, () => {
         )
       })()
       const releases = await bot.releases({ recalc: true })
-      expect(releases).toMatchSnapshot(appName)
+      expect(releases).toMatchSpecificSnapshot(
+        join(__dirname, `__snapshots__`, `${appSlug}.shot`),
+      )
+
+      const code = await new Promise<number>((resolve, reject) => {
+        bot.run([`--help`]).then((proc) => {
+          if (!proc) {
+            reject()
+            return
+          }
+          proc.on('exit', resolve)
+        })
+      })
+      const overrides: any = {
+        weed: 2,
+        reviewdog: 2,
+      }
+      expect(code).toBe(overrides[appSlug] || 0)
     }
   })
 })
