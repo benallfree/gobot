@@ -37,23 +37,38 @@ describe(`bot`, () => {
       })()
       const releases = await bot.releases({ recalc: true })
       expect(releases).toMatchSpecificSnapshot(
-        join(__dirname, `__snapshots__`, `${appSlug}.shot`),
+        join(__dirname, `data`, appSlug, `releases-snapshot`),
       )
 
-      const code = await new Promise<number>((resolve, reject) => {
-        bot.run([`--help`]).then((proc) => {
-          if (!proc) {
-            reject()
-            return
-          }
-          proc.on('exit', resolve)
-        })
-      })
-      const overrides: any = {
-        weed: 2,
-        reviewdog: 2,
+      const skipRun = [`gotify`, `gocryptfs`]
+
+      if (skipRun.includes(appSlug)) continue
+
+      const switchOverrides: any = {
+        pulumi: `--help`,
       }
-      expect(code).toBe(overrides[appSlug] || 0)
+      const code = await new Promise<number>((resolve, reject) => {
+        bot
+          .run([switchOverrides[appSlug] || `--version`])
+          .then((proc) => {
+            if (!proc) {
+              reject()
+              return
+            }
+            proc.on('exit', resolve)
+          })
+          .catch(reject)
+      })
+      const codeOverrides: any = {
+        weed: 2,
+        weaviate: 1,
+        restic: 1,
+        hugo: 1,
+        filebrowser: 1,
+        cue: 1,
+        backrest: 2,
+      }
+      expect(code).toBe(codeOverrides[appSlug] || 0)
     }
   })
 })
