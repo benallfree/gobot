@@ -226,11 +226,14 @@ export class GithubReleaseProvider {
     )
   }
 
-  platformRegex(os: PlatformKey, aliases: string[]) {
-    return new RegExp(`[_\\-\\/](?:${[...aliases, os].join('|')})[_\\-.]`, 'i')
+  platformRegex(os: PlatformKey, arch: ArchKey, aliases: string[]) {
+    return new RegExp(
+      `[_\\-\\/](?:${[...aliases, os].join('|')})(?:[_\\-.]|$)`,
+      'i',
+    )
   }
 
-  archRegex(arch: ArchKey, aliases: string[]) {
+  archRegex(os: PlatformKey, arch: ArchKey, aliases: string[]) {
     return new RegExp(
       `[_-](?:${[...aliases, arch].join(`|`)})(?:[_\\-.]|$)`,
       'i',
@@ -265,16 +268,15 @@ export class GithubReleaseProvider {
     }
 
     forEach(this.platformMap, (platformInfo, platformKey) => {
-      const platformAliases = [
-        platformKey,
-        ...(platformInfo?.aliases || []),
-      ].filter((v) => !!v)
+      const platformAliases = platformInfo.aliases.filter((v) => !!v)
       forEach(platformInfo?.architectures, (archInfo, archKey) => {
-        const archAliases = [archKey, ...(archInfo?.aliases || [])].filter(
-          (v) => !!v,
+        const archAliases = (archInfo?.aliases || []).filter((v) => !!v)
+        const platformRegex = this.platformRegex(
+          platformKey,
+          archKey,
+          platformAliases,
         )
-        const platformRegex = this.platformRegex(platformKey, platformAliases)
-        const archRegex = this.archRegex(archKey, archAliases)
+        const archRegex = this.archRegex(platformKey, archKey, archAliases)
 
         dbg(`Scanning for`, platformRegex, archRegex)
         allowedUrls.forEach((url) => {
