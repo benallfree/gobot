@@ -1,5 +1,3 @@
-import { globSync } from 'glob'
-import { join } from 'path'
 import { AppFactory } from '..'
 import { GithubReleaseProvider } from '../../GithubReleaseProvider'
 import { COMPRESSED_ARCHIVE_EXTS, Gobot } from '../../Gobot'
@@ -23,13 +21,6 @@ class daselGobot extends Gobot {
     if (COMPRESSED_ARCHIVE_EXTS.find((ext) => downloadPath.endsWith(ext))) {
       await super.unpack(downloadPath, version)
     }
-  }
-
-  async findArchiveBinPath(version: string): Promise<string> {
-    const path = this.downloadRoot(version)
-    const fname = globSync(join(path, `**`, `*`), { nodir: true })[0]
-    if (fname) return fname
-    return super.findArchiveBinPath(version)
   }
 }
 
