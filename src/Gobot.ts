@@ -206,14 +206,13 @@ export class Gobot {
     return binName
   }
 
-  async findArchiveBinPath(version: string) {
+  findArchiveBinPath(version: string) {
     const path = this.downloadRoot(version)
-    const fname = await (async () => {
+    const fname = (() => {
       const fname = globSync(join(path, `**`, this.binName), { nodir: true })[0]
       if (fname) return fname
-      return globSync(join(path, `**`)).find((path) => {
+      return globSync(join(path, `**`), { nodir: true }).find((path) => {
         const stats = statSync(path)
-        if (stats.isDirectory()) return false
         const isExecutable =
           (this.os === 'win32' && path.endsWith(`.exe`)) ||
           !!(stats.mode & parseInt('0100', 8))
@@ -255,17 +254,15 @@ export class Gobot {
       versionRangeIn || this.version || (await getAppVersion(this.name))
     const storedRelease = await this.maxSatisfyingRelease(versionRange)
     if (!storedRelease) {
-      dbg(
+      throw new Error(
         `No release satisfying version ${versionRange} for ${this.os}/${this.arch}`,
       )
-      return
     }
     const url = storedRelease.archives[this.os]?.[this.arch]
     if (!url) {
-      dbg(
+      throw new Error(
         `No archive URL satisfying version ${versionRange} for ${this.os}/${this.arch}`,
       )
-      return
     }
     dbg(`Download link`, url)
 
@@ -279,7 +276,7 @@ export class Gobot {
 
       await this.unpack(downloadPath, exactVersion)
 
-      const unpackedBinPath = await this.findArchiveBinPath(exactVersion)
+      const unpackedBinPath = this.findArchiveBinPath(exactVersion)
 
       // Ensure the binary is executable
       if (this.os !== 'win32') {
@@ -287,7 +284,7 @@ export class Gobot {
       }
     }
 
-    const unpackedBinPath = await this.findArchiveBinPath(exactVersion)
+    const unpackedBinPath = this.findArchiveBinPath(exactVersion)
     dbg(`Unpacked bin path`, unpackedBinPath)
 
     return unpackedBinPath
@@ -401,9 +398,6 @@ export class Gobot {
    */
   async run(args: string[]) {
     const fname = await this.getBinaryPath()
-    if (!fname) {
-      return
-    }
 
     // Ensure the binary is executable
     if (this.os !== 'win32') {
