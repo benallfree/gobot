@@ -5,6 +5,7 @@ import { mkdir, readFile, writeFile } from 'fs/promises'
 import { dirname, join } from 'path'
 import { rimraf } from 'rimraf'
 import { valid } from 'semver'
+import { ReadonlyDeep } from 'type-fest'
 import { ArchKey, COMPRESSED_ARCHIVE_EXTS, PlatformKey, Release } from './Gobot'
 import { mergeConfig } from './api'
 import { dbg, info } from './util/log'
@@ -54,22 +55,27 @@ export const SUPPORTED_ARCH: SupportedArchMap = {
   },
 }
 
+export type PlatformEntry = {
+  aliases: string[]
+  architectures: Partial<SupportedArchMap>
+}
+
 export const DEFAULT_PLATFORM_MAP = {
   freebsd: {
     aliases: [],
     architectures: SUPPORTED_ARCH,
-  },
+  } as ReadonlyDeep<PlatformEntry>,
   darwin: {
     aliases: ['mac', 'osx', 'macos'],
     architectures: {
       arm64: { aliases: [...SUPPORTED_ARCH.arm64.aliases, `universal`, `all`] },
       x64: { aliases: [...SUPPORTED_ARCH.x64.aliases, `universal`, `all`] },
     },
-  },
+  } as ReadonlyDeep<PlatformEntry>,
   linux: {
     aliases: [],
     architectures: SUPPORTED_ARCH,
-  },
+  } as ReadonlyDeep<PlatformEntry>,
   win32: {
     aliases: ['win', 'windows'],
     architectures: {
@@ -77,7 +83,7 @@ export const DEFAULT_PLATFORM_MAP = {
       ia32: SUPPORTED_ARCH.ia32,
       arm64: SUPPORTED_ARCH.arm64,
     },
-  },
+  } as ReadonlyDeep<PlatformEntry>,
 } as const
 
 export type PlatformMap = typeof DEFAULT_PLATFORM_MAP
