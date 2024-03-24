@@ -209,7 +209,7 @@ export class Gobot {
   async findArchiveBinPath(version: string) {
     const path = this.downloadRoot(version)
     const fname = await (async () => {
-      const fname = globSync(join(path, `**`, this.binName))[0]
+      const fname = globSync(join(path, `**`, this.binName), { nodir: true })[0]
       if (fname) return fname
       return globSync(join(path, `**`)).find((path) => {
         const stats = statSync(path)
