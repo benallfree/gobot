@@ -1,6 +1,7 @@
 import { isFunction } from '@s-libs/micro-dash'
 import console from 'console'
 import { globSync } from 'glob'
+import 'jest-specific-snapshot'
 import { basename, dirname, join, resolve } from 'path'
 import { Gobot } from '../Gobot'
 import { GithubReleaseProvider } from '../api'
@@ -18,19 +19,20 @@ describe(`bot`, () => {
     const appPaths = globSync(`src/apps/*/`, { absolute: true })
     for (let i = 0; i < appPaths.length; i++) {
       const appPath = appPaths[i]!
+      const appSlug = basename(appPath)
       if (process.env.ONLY && process.env.ONLY !== appSlug) continue
       const module = await import(appPath).catch(console.error)
-      const appInfo = module[appName] as AppInfo
+      const appInfo = module[appSlug] as AppInfo
       const { factory } = appInfo
-      const cachePath = join(__dirname, `data`, appName)
+      const cachePath = join(__dirname, `data`, appSlug)
       const bot = (() => {
         if (isFunction(factory)) {
-          return factory({ cachePath })
+          return factory({ cachePath, env: process.env })
         }
         return new Gobot(
           factory,
           (repo, cacheRoot) => new GithubReleaseProvider(repo, cacheRoot),
-          { cachePath },
+          { cachePath, env: process.env },
         )
       })()
       const releases = await bot.releases({ recalc: true })
