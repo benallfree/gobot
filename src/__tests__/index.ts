@@ -18,7 +18,7 @@ describe(`bot`, () => {
     const appPaths = globSync(`src/apps/*/`, { absolute: true })
     for (let i = 0; i < appPaths.length; i++) {
       const appPath = appPaths[i]!
-      const appName = basename(appPath)
+      if (process.env.ONLY && process.env.ONLY !== appSlug) continue
       const module = await import(appPath).catch(console.error)
       const appInfo = module[appName] as AppInfo
       const { factory } = appInfo
