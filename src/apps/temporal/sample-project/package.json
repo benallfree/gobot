@@ -1,0 +1,13 @@
+{
+  "name": "temporal-gobot-sample",
+  "bin": {
+    "temporal-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "temporal": "temporal"
+  },
+  "dependencies": {
+    "gobot-temporal": "1.23.0"
+  }
+}
