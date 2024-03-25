@@ -1,0 +1,13 @@
+{
+  "name": "natsd-gobot-sample",
+  "bin": {
+    "natsd-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "natsd": "natsd"
+  },
+  "dependencies": {
+    "gobot-natsd": "2.11.0-preview.1"
+  }
+}

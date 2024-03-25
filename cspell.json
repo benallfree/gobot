@@ -1,8 +1,5 @@
 {
-  "ignorePaths": [
-    "pnpm-lock.yaml",
-    "src/__tests__/data"
-  ],
+  "ignorePaths": ["pnpm-lock.yaml", "src/__tests__/data"],
   "words": [
     "Adguard",
     "adguardhome",
@@ -83,6 +80,8 @@
     "mothership",
     "multitenancy",
     "multitenant",
+    "nats",
+    "natsd",
     "nektos",
     "noaxis",
     "nodir",
