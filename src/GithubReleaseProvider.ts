@@ -228,7 +228,7 @@ export class GithubReleaseProvider {
 
   platformRegex(os: PlatformKey, arch: ArchKey, aliases: string[]) {
     return new RegExp(
-      `[_\\-\\/](?:${[...aliases, os].join('|')})(?:[_\\-.]|$)`,
+      `[_\\-\\/.](?:${[...aliases, os].join('|')})(?:[_\\-.]|$)`,
       'i',
     )
   }
