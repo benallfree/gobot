@@ -1,0 +1,13 @@
+{
+  "name": "tinygo-gobot-sample",
+  "bin": {
+    "tinygo-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "tinygo": "tinygo"
+  },
+  "dependencies": {
+    "gobot-tinygo": "0.31.2"
+  }
+}
