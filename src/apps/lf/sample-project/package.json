@@ -1,0 +1,13 @@
+{
+  "name": "lf-gobot-sample",
+  "bin": {
+    "lf-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "lf": "lf"
+  },
+  "dependencies": {
+    "gobot-lf": "0.0.0"
+  }
+}
