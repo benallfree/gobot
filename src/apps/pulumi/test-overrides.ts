@@ -1,1 +1,1 @@
-export const switchOverride=`--help`
+export const switchOverride = `--help`
