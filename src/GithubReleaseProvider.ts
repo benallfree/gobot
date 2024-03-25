@@ -42,7 +42,7 @@ type SupportedArchMap = {
 
 export const SUPPORTED_ARCH: SupportedArchMap = {
   arm64: {
-    aliases: [],
+    aliases: [`aarch64`],
   },
   x64: {
     aliases: [`x86_64`, `amd64`, `64bit`],
@@ -236,7 +236,7 @@ export class GithubReleaseProvider {
 
   archRegex(os: PlatformKey, arch: ArchKey, aliases: string[]) {
     return new RegExp(
-      `[_-](?:${[...aliases, arch].join(`|`)})(?:[_\\-.]|$)`,
+      `[_\\-.](?:${[...aliases, arch].join(`|`)})(?:[_\\-.]|$)`,
       'i',
     )
   }
