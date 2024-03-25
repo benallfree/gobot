@@ -1,0 +1,13 @@
+{
+  "name": "constellation-gobot-sample",
+  "bin": {
+    "constellation-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "constellation": "constellation"
+  },
+  "dependencies": {
+    "gobot-constellation": "2.16.1"
+  }
+}
