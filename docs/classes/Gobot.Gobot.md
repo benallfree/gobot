@@ -218,7 +218,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:390](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L390)
+[Gobot.ts:387](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L387)
 
 ---
 
@@ -287,7 +287,7 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[Gobot.ts:296](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L296)
+[Gobot.ts:293](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L293)
 
 ---
 
@@ -322,7 +322,7 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[Gobot.ts:240](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L240)
+[Gobot.ts:239](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L239)
 
 ---
 
@@ -342,7 +342,7 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[Gobot.ts:229](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L229)
+[Gobot.ts:228](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L228)
 
 ---
 
@@ -362,13 +362,13 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[Gobot.ts:374](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L374)
+[Gobot.ts:371](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L371)
 
 ---
 
 ### findArchiveBinPath
 
-▸ **findArchiveBinPath**(`version`): `Promise`\<`string`\>
+▸ **findArchiveBinPath**(`version`): `string`
 
 #### Parameters
 
@@ -378,7 +378,7 @@ Clear all items from cache (flush cache).
 
 #### Returns
 
-`Promise`\<`string`\>
+`string`
 
 #### Defined in
 
@@ -388,7 +388,7 @@ Clear all items from cache (flush cache).
 
 ### getBinaryPath
 
-▸ **getBinaryPath**(`versionRangeIn?`): `Promise`\<`undefined` \| `string`\>
+▸ **getBinaryPath**(`versionRangeIn?`): `Promise`\<`string`\>
 
 #### Parameters
 
@@ -398,11 +398,11 @@ Clear all items from cache (flush cache).
 
 #### Returns
 
-`Promise`\<`undefined` \| `string`\>
+`Promise`\<`string`\>
 
 #### Defined in
 
-[Gobot.ts:253](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L253)
+[Gobot.ts:252](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L252)
 
 ---
 
@@ -416,7 +416,7 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[Gobot.ts:309](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L309)
+[Gobot.ts:306](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L306)
 
 ---
 
@@ -436,7 +436,7 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[Gobot.ts:304](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L304)
+[Gobot.ts:301](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L301)
 
 ---
 
@@ -456,7 +456,7 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[Gobot.ts:378](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L378)
+[Gobot.ts:375](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L375)
 
 ---
 
@@ -476,7 +476,7 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[Gobot.ts:322](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L322)
+[Gobot.ts:319](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L319)
 
 ---
 
@@ -496,7 +496,7 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[Gobot.ts:314](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L314)
+[Gobot.ts:311](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L311)
 
 ---
 
@@ -516,13 +516,13 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[Gobot.ts:331](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L331)
+[Gobot.ts:328](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L328)
 
 ---
 
 ### run
 
-▸ **run**(`args`): `Promise`\<`undefined` \| `ChildProcess`\>
+▸ **run**(`args`): `Promise`\<`ChildProcess`\>
 
 Run a binary.
 
@@ -534,11 +534,11 @@ Run a binary.
 
 #### Returns
 
-`Promise`\<`undefined` \| `ChildProcess`\>
+`Promise`\<`ChildProcess`\>
 
 #### Defined in
 
-[Gobot.ts:402](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L402)
+[Gobot.ts:399](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L399)
 
 ---
 
@@ -559,7 +559,7 @@ Run a binary.
 
 #### Defined in
 
-[Gobot.ts:300](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L300)
+[Gobot.ts:297](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L297)
 
 ---
 
@@ -580,7 +580,7 @@ Run a binary.
 
 #### Defined in
 
-[Gobot.ts:246](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L246)
+[Gobot.ts:245](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L245)
 
 ---
 

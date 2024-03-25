@@ -1,0 +1,13 @@
+{
+  "name": "ferretdb-gobot-sample",
+  "bin": {
+    "ferretdb-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "ferretdb": "ferretdb"
+  },
+  "dependencies": {
+    "gobot-ferretdb": "1.21.0"
+  }
+}

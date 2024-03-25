@@ -1,0 +1,40 @@
+{
+  "name": "gobot-ferretdb",
+  "version": "1.21.0-alpha.17",
+  "description": "FerretDB helper for Gobot",
+  "type": "module",
+  "main": "dist/api.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
+    "dev": "tsx ./src/cli.ts",
+    "test": "npm pack && npm rm -g gobot-ferretdb && npm i -g gobot-ferretdb-1.21.0.tgz && ferretdb --g-refresh --g-vvv --help",
+    "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
+  },
+  "bin": {
+    "ferretdb": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/benallfree/gobot/tree/main/src/apps/ferretdb/helper"
+  },
+  "keywords": [
+    "gobot",
+    "ferretdb",
+    "FerretDB"
+  ],
+  "author": "Ben Allfree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benallfree/gobot/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/gobot-ferretdb",
+  "dependencies": {
+    "gobot": "*"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  }
+}

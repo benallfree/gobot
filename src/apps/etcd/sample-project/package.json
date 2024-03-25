@@ -1,0 +1,13 @@
+{
+  "name": "etcd-gobot-sample",
+  "bin": {
+    "etcd-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "etcd": "etcd"
+  },
+  "dependencies": {
+    "gobot-etcd": "3.6.0-alpha.0"
+  }
+}

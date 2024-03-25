@@ -101,4 +101,4 @@
 
 #### Defined in
 
-[Gobot.ts:428](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L428)
+[Gobot.ts:422](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L422)
