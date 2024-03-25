@@ -1,0 +1,13 @@
+{
+  "name": "micro-gobot-sample",
+  "bin": {
+    "micro-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "micro": "micro"
+  },
+  "dependencies": {
+    "gobot-micro": "2.0.13"
+  }
+}
