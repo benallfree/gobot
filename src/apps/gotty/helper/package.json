@@ -1,6 +1,6 @@
 {
   "name": "gobot-gotty",
-  "version": "1.5.0-alpha.17",
+  "version": "1.5.0-alpha.18",
   "description": "gotty helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

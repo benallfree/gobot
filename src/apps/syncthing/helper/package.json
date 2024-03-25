@@ -1,6 +1,6 @@
 {
   "name": "gobot-syncthing",
-  "version": "1.27.5-rc.1-alpha.17",
+  "version": "1.27.5-rc.1-alpha.18",
   "description": "syncthing helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

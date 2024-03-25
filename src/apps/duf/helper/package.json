@@ -1,6 +1,6 @@
 {
   "name": "gobot-duf",
-  "version": "0.8.1-alpha.17",
+  "version": "0.8.1-alpha.18",
   "description": "duf helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

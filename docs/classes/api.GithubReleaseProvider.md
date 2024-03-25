@@ -53,7 +53,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:124](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L124)
+[GithubReleaseProvider.ts:124](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L124)
 
 ## Properties
 
@@ -63,7 +63,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:120](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L120)
+[GithubReleaseProvider.ts:120](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L120)
 
 ## Accessors
 
@@ -77,7 +77,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:209](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L209)
+[GithubReleaseProvider.ts:209](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L209)
 
 ---
 
@@ -91,7 +91,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:217](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L217)
+[GithubReleaseProvider.ts:217](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L217)
 
 ---
 
@@ -105,7 +105,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:213](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L213)
+[GithubReleaseProvider.ts:213](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L213)
 
 ---
 
@@ -126,7 +126,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:205](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L205)
+[GithubReleaseProvider.ts:205](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L205)
 
 ---
 
@@ -140,7 +140,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:170](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L170)
+[GithubReleaseProvider.ts:170](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L170)
 
 ---
 
@@ -154,7 +154,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:141](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L141)
+[GithubReleaseProvider.ts:141](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L141)
 
 ## Methods
 
@@ -176,7 +176,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:236](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L236)
+[GithubReleaseProvider.ts:236](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L236)
 
 ---
 
@@ -190,7 +190,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:137](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L137)
+[GithubReleaseProvider.ts:137](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L137)
 
 ---
 
@@ -210,7 +210,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:300](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L300)
+[GithubReleaseProvider.ts:300](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L300)
 
 ---
 
@@ -230,7 +230,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:243](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L243)
+[GithubReleaseProvider.ts:243](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L243)
 
 ---
 
@@ -250,7 +250,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:253](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L253)
+[GithubReleaseProvider.ts:253](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L253)
 
 ---
 
@@ -284,7 +284,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:261](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L261)
+[GithubReleaseProvider.ts:261](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L261)
 
 ---
 
@@ -304,7 +304,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:221](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L221)
+[GithubReleaseProvider.ts:221](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L221)
 
 ---
 
@@ -324,7 +324,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:145](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L145)
+[GithubReleaseProvider.ts:145](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L145)
 
 ---
 
@@ -346,7 +346,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:229](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L229)
+[GithubReleaseProvider.ts:229](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L229)
 
 ---
 
@@ -366,7 +366,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:152](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L152)
+[GithubReleaseProvider.ts:152](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L152)
 
 ---
 
@@ -386,4 +386,4 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:174](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/GithubReleaseProvider.ts#L174)
+[GithubReleaseProvider.ts:174](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L174)

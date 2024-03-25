@@ -1,6 +1,6 @@
 {
   "name": "gobot-etcd",
-  "version": "3.6.0-alpha.0-alpha.17",
+  "version": "3.6.0-alpha.0-alpha.18",
   "description": "etcd helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[Gobot.ts:31](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L31)
+[Gobot.ts:31](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/Gobot.ts#L31)
 
 ---
 
@@ -41,7 +41,7 @@
 
 #### Defined in
 
-[Gobot.ts:30](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L30)
+[Gobot.ts:30](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/Gobot.ts#L30)
 
 ---
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-[Gobot.ts:33](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L33)
+[Gobot.ts:33](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/Gobot.ts#L33)
 
 ---
 
@@ -70,7 +70,7 @@
 
 #### Defined in
 
-[Gobot.ts:57](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L57)
+[Gobot.ts:57](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/Gobot.ts#L57)
 
 ## Variables
 
@@ -80,7 +80,7 @@
 
 #### Defined in
 
-[Gobot.ts:59](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L59)
+[Gobot.ts:59](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/Gobot.ts#L59)
 
 ## Functions
 
@@ -101,4 +101,4 @@
 
 #### Defined in
 
-[Gobot.ts:422](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.32/src/Gobot.ts#L422)
+[Gobot.ts:422](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/Gobot.ts#L422)
