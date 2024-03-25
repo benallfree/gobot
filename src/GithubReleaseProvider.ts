@@ -212,7 +212,7 @@ export class GithubReleaseProvider {
   }
 
   get excludedExts(): string[] {
-    return [`.deb`, `.rpm`]
+    return [`.deb`, `.rpm`, `.sig`, `.sha256`, `.asc`]
   }
 
   get allowedExts() {
