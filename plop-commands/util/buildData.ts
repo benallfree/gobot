@@ -40,7 +40,7 @@ export async function buildDataForApp(slug: string, plop: NodePlopAPI) {
     throw new Error(`${slug} is not an app (buildDataForApp)`)
   }
 
-  const bot = await gobot(slug, { cachePath: `src/__tests__/data/${slug}` })
+  const bot = await gobot(slug, { cachePath: `src/apps/${slug}/test-data` })
   const versions = await bot.versions()
 
   const data = {
