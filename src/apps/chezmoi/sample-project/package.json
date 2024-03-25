@@ -1,0 +1,13 @@
+{
+  "name": "chezmoi-gobot-sample",
+  "bin": {
+    "chezmoi-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "chezmoi": "chezmoi"
+  },
+  "dependencies": {
+    "gobot-chezmoi": "2.47.2"
+  }
+}

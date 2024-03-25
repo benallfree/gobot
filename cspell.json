@@ -1,5 +1,8 @@
 {
-  "ignorePaths": ["pnpm-lock.yaml", "src/__tests__/data"],
+  "ignorePaths": [
+    "pnpm-lock.yaml",
+    "src/__tests__/data"
+  ],
   "words": [
     "Adguard",
     "adguardhome",
@@ -12,6 +15,7 @@
     "botrun",
     "caddyserver",
     "Certbot",
+    "chezmoi",
     "codecsv",
     "codegen",
     "composability",
@@ -28,6 +32,7 @@
     "dnscryptproxy",
     "Dockerized",
     "dockerode",
+    "dotfiles",
     "drakkan",
     "dutchcoders",
     "esbuild",
@@ -128,6 +133,7 @@
     "transfersh",
     "TRYFETCH",
     "tsup",
+    "twpayne",
     "Ulimits",
     "unbzip",
     "unsub",
