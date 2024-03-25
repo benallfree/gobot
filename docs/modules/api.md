@@ -64,6 +64,12 @@ Re-exports [GobotOptions](../interfaces/Gobot.GobotOptions.md)
 
 Ƭ **GithubReleaseProviderOptions**: `Object`
 
+#### Type declaration
+
+| Name             | Type      |
+| :--------------- | :-------- |
+| `allowBareFiles` | `boolean` |
+
 #### Defined in
 
 [GithubReleaseProvider.ts:91](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/src/GithubReleaseProvider.ts#L91)
