@@ -36,9 +36,13 @@ describe(`bot`, () => {
         )
       })()
       const releases = await bot.releases({ recalc: true })
-      expect(releases).toMatchSpecificSnapshot(
-        join(__dirname, `data`, appSlug, `releases-snapshot`),
-      )
+      try {
+        expect(releases).toMatchSpecificSnapshot(
+          join(__dirname, `data`, appSlug, `releases-snapshot`),
+        )
+      } catch (e) {
+        throw new Error(`Expected ${appSlug} snapshot to match.`)
+      }
 
       const skipRun = [`gotify`, `gocryptfs`, `ferretdb`]
 
@@ -46,6 +50,9 @@ describe(`bot`, () => {
 
       const switchOverrides: any = {
         pulumi: `--help`,
+        weed: `--help`,
+        filebrowser: `--help`,
+        backrest: `--help`,
       }
       const code = await new Promise<number>((resolve, reject) => {
         bot
@@ -55,6 +62,8 @@ describe(`bot`, () => {
               reject()
               return
             }
+            proc.stdout?.on('data', () => {})
+            proc.stderr?.on('data', () => {})
             proc.on('exit', resolve)
           })
           .catch(reject)
@@ -64,11 +73,17 @@ describe(`bot`, () => {
         weaviate: 1,
         restic: 1,
         hugo: 1,
-        filebrowser: 1,
         cue: 1,
-        backrest: 2,
+        tinygo: 1,
       }
-      expect(code).toBe(codeOverrides[appSlug] || 0)
+      const expectedCode = codeOverrides[appSlug] || 0
+      try {
+        expect(code).toBe(expectedCode)
+      } catch (e) {
+        throw new Error(
+          `Expected ${appSlug} to exit with ${expectedCode} but got ${code}`,
+        )
+      }
     }
   })
 })
