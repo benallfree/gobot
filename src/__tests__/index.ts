@@ -24,7 +24,7 @@ describe(`bot`, () => {
       const module = await import(appPath).catch(console.error)
       const appInfo = module[appSlug] as AppInfo
       const { factory } = appInfo
-      const cachePath = join(__dirname, `data`, appSlug)
+      const cachePath = join(appPath, `test-data`)
       const bot = (() => {
         if (isFunction(factory)) {
           return factory({ cachePath, env: process.env })
@@ -38,7 +38,7 @@ describe(`bot`, () => {
       const releases = await bot.releases({ recalc: true })
       try {
         expect(releases).toMatchSpecificSnapshot(
-          join(__dirname, `data`, appSlug, `releases-snapshot`),
+          join(cachePath, `releases-snapshot`),
         )
       } catch (e) {
         throw new Error(`Expected ${appSlug} snapshot to match.`)
@@ -47,42 +47,44 @@ describe(`bot`, () => {
       const skipRun = [`gotify`, `gocryptfs`, `ferretdb`]
 
       if (skipRun.includes(appSlug)) continue
-
-      const switchOverrides: any = {
-        pulumi: `--help`,
-        weed: `--help`,
-        filebrowser: `--help`,
-        backrest: `--help`,
-      }
-      const code = await new Promise<number>((resolve, reject) => {
-        bot
-          .run([switchOverrides[appSlug] || `--version`])
-          .then((proc) => {
-            if (!proc) {
-              reject()
-              return
-            }
-            proc.stdout?.on('data', () => {})
-            proc.stderr?.on('data', () => {})
-            proc.on('exit', resolve)
+      {
+        const { switchOverride, codeOverride } = await (async () => {
+          const testOverridesPath = join(
+            appPath,
+            `..`,
+            `..`,
+            `apps`,
+            appSlug,
+            `test-overrides.ts`,
+          )
+          const module = await import(testOverridesPath).catch((e) => {
+            //Noop, if module is not found
           })
-          .catch(reject)
-      })
-      const codeOverrides: any = {
-        weed: 2,
-        weaviate: 1,
-        restic: 1,
-        hugo: 1,
-        cue: 1,
-        tinygo: 1,
-      }
-      const expectedCode = codeOverrides[appSlug] || 0
-      try {
-        expect(code).toBe(expectedCode)
-      } catch (e) {
-        throw new Error(
-          `Expected ${appSlug} to exit with ${expectedCode} but got ${code}`,
-        )
+          return module || {}
+        })()
+
+        const code = await new Promise<number>((resolve, reject) => {
+          bot
+            .run([switchOverride || `--version`])
+            .then((proc) => {
+              if (!proc) {
+                reject()
+                return
+              }
+              proc.stdout?.on('data', () => {})
+              proc.stderr?.on('data', () => {})
+              proc.on('exit', resolve)
+            })
+            .catch(reject)
+        })
+        const expectedCode = codeOverride || 0
+        try {
+          expect(code).toBe(expectedCode)
+        } catch (e) {
+          throw new Error(
+            `Expected ${appSlug} to exit with ${expectedCode} but got ${code}`,
+          )
+        }
       }
     }
   })

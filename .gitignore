@@ -9,3 +9,4 @@
 **/plopfile.js
 .restic
 *.log
+src/apps/*/test-data/archives
