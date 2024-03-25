@@ -1,0 +1,13 @@
+{
+  "name": "centrifugo-gobot-sample",
+  "bin": {
+    "centrifugo-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "centrifugo": "centrifugo"
+  },
+  "dependencies": {
+    "gobot-centrifugo": "5.3.0"
+  }
+}
