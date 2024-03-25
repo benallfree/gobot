@@ -1,8 +1,5 @@
 {
-  "ignorePaths": [
-    "pnpm-lock.yaml",
-    "src/__tests__/data"
-  ],
+  "ignorePaths": ["pnpm-lock.yaml", "src/__tests__/data"],
   "words": [
     "Adguard",
     "adguardhome",
