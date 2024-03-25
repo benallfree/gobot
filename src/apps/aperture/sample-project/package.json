@@ -1,0 +1,13 @@
+{
+  "name": "aperture-gobot-sample",
+  "bin": {
+    "aperture-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "aperture": "aperture"
+  },
+  "dependencies": {
+    "gobot-aperture": "2.34.0"
+  }
+}
