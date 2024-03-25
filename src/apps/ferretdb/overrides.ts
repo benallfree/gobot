@@ -9,10 +9,6 @@ class ferretdb_GithubReleaseProvider extends GithubReleaseProvider {
     return `ferretdbGithubReleaseProvider`
   }
 
-  get allowBareFiles() {
-    return true
-  }
-
   isArchiveUrlAllowed(url: string) {
     return !url.includes(`-dev-`) && super.isArchiveUrlAllowed(url)
   }
@@ -26,7 +22,10 @@ class ferretdb_Gobot extends Gobot {
 export const mkFerretdb: AppFactory = (optionsIn) => {
   return new ferretdb_Gobot(
     FERRETDB_REPO,
-    (root, cacheRoot) => new ferretdb_GithubReleaseProvider(root, cacheRoot),
+    (root, cacheRoot) =>
+      new ferretdb_GithubReleaseProvider(root, cacheRoot, {
+        allowBareFiles: true,
+      }),
     optionsIn,
   )
 }

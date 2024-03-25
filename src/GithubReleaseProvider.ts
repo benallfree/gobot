@@ -88,7 +88,7 @@ export const DEFAULT_PLATFORM_MAP = {
 
 export type PlatformMap = typeof DEFAULT_PLATFORM_MAP
 
-export type GithubReleaseProviderOptions = {}
+export type GithubReleaseProviderOptions = { allowBareFiles: boolean }
 
 export const mkFileProvider = (rootPath: string) => {
   return {
@@ -120,6 +120,7 @@ export class GithubReleaseProvider {
   protected repo: string
   private cacheRoot
   private fs
+  private allowBareFiles
 
   constructor(
     repo: string,
@@ -130,7 +131,11 @@ export class GithubReleaseProvider {
     this.cacheRoot = cacheRoot
     this.fs = mkFileProvider(cacheRoot)
 
-    const options = mergeConfig<GithubReleaseProviderOptions>({}, optionsIn)
+    const options = mergeConfig<GithubReleaseProviderOptions>(
+      { allowBareFiles: false },
+      optionsIn,
+    )
+    this.allowBareFiles = options.allowBareFiles
     dbg(`${this.slug} options`, stringify(options, null, 2))
   }
 
@@ -204,10 +209,6 @@ export class GithubReleaseProvider {
 
   get platformMap(): PlatformMap {
     return DEFAULT_PLATFORM_MAP
-  }
-
-  get allowBareFiles(): boolean {
-    return false
   }
 
   get excludedExts(): string[] {
