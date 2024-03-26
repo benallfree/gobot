@@ -8,6 +8,7 @@ import {
 import { gobot } from '../../src/api'
 import { getApp } from '../../src/util/getApp'
 import { getCurrentGitBranch } from './getCurrentGitBranch'
+import { getSlugsFromFileSystem } from './getSlugsFromFileSystem'
 import {
   cliGlobalOptionsMd,
   cliOptionsMd,
@@ -26,6 +27,7 @@ export async function buildData(plop: NodePlopAPI) {
     availableAppsMd: '',
     postambleMd: '',
     cliGlobalOptionsMd,
+    appSlugs: getSlugsFromFileSystem(),
   }
 
   data.postambleMd = plop.renderString(postambleMd, data)
