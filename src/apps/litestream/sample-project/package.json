@@ -1,0 +1,13 @@
+{
+  "name": "litestream-gobot-sample",
+  "bin": {
+    "litestream-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "litestream": "litestream"
+  },
+  "dependencies": {
+    "gobot-litestream": "0.4.0-alpha.3"
+  }
+}

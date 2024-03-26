@@ -1,0 +1,638 @@
+[
+  {
+    "version": "0.4.0-alpha.3",
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm64.tar.gz",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm7.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm6.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm7.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.4.0-alpha.3/litestream-v0.4.0-alpha.3-linux-arm7.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.13",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-darwin-arm64.zip",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-darwin-amd64.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-arm64.tar.gz",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-darwin-arm64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-arm7.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-darwin-arm64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-arm6.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-arm64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-arm7.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.13/litestream-v0.3.13-linux-arm7.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.12",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-darwin-arm64.zip",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-darwin-amd64.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-arm64.tar.gz",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-darwin-arm64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-arm7.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-darwin-arm64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-arm6.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-arm64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-arm7.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.12/litestream-v0.3.12-linux-arm7.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.11",
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-darwin-arm64.zip",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-darwin-amd64.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-arm64.tar.gz",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-darwin-arm64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-arm7.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-darwin-arm64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-arm6.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-arm64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-arm7.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11/litestream-v0.3.11-linux-arm7.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.11-beta2",
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-arm64.tar.gz",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-arm7.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-arm6.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-arm64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-arm7.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta2/litestream-v0.3.11-beta2-linux-arm7.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.11-beta1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-darwin-amd64.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm64.tar.gz",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm7.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-darwin-amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm6.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm7.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-beta1-linux-arm7.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.11-beta1/litestream-v0.3.11-darwin-amd64.zip"
+    ]
+  },
+  {
+    "version": "0.3.10",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.10/litestream-v0.3.10-darwin-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.10/litestream-v0.3.10-darwin-amd64.zip"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.10/litestream-v0.3.10-darwin-amd64.zip"
+    ]
+  },
+  {
+    "version": "0.3.10-beta2",
+    "archives": {},
+    "allowedUrls": [],
+    "allUrls": []
+  },
+  {
+    "version": "0.3.10-beta1",
+    "archives": {},
+    "allowedUrls": [],
+    "allUrls": []
+  },
+  {
+    "version": "0.3.9",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-darwin-amd64.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm64.tar.gz",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm7.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm6.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm7.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.9/litestream-v0.3.9-linux-arm7.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.8",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-darwin-amd64.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm64.tar.gz",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm7.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-openbsd-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-openbsd-amd64.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm6.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm7.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-linux-arm7.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-openbsd-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8/litestream-v0.3.8-openbsd-amd64.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.8-beta0",
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm64.tar.gz",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm7.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm6.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm7.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.8-beta0/litestream-v0.3.8-beta0-linux-arm7.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.7",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-darwin-amd64.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm64.tar.gz",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-0.3.7-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-0.3.7-windows-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm7.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-openbsd-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-openbsd-amd64.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-0.3.7-windows-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-0.3.7.msi",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm6.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm7.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-linux-arm7.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-openbsd-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.7/litestream-v0.3.7-openbsd-amd64.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.6",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-darwin-amd64.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm64.tar.gz",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-0.3.6-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-0.3.6-windows-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm7.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-openbsd-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-openbsd-amd64.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-0.3.6-windows-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-0.3.6.msi",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm6.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm7.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-linux-arm7.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-openbsd-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.6/litestream-v0.3.6-openbsd-amd64.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.5",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-darwin-amd64.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm64.tar.gz",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-0.3.5-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-0.3.5-windows-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm7.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-openbsd-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-openbsd-amd64.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-0.3.5-windows-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-0.3.5.msi",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm6.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm7.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-linux-arm7.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-openbsd-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.5/litestream-v0.3.5-openbsd-amd64.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.4",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-darwin-amd64.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm64.tar.gz",
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-0.3.4-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-0.3.4-windows-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm7.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-0.3.4-windows-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-0.3.4.msi",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-amd64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-amd64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm6-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm6.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm6.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm64-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm64.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm7-static.tar.gz",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm7.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.4/litestream-v0.3.4-linux-arm7.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.3",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.3/litestream-v0.3.3-darwin-amd64.zip"
+      },
+      "linux": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.3/litestream-v0.3.3-linux-amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.3/litestream-0.3.3-windows-amd64.zip"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.3/litestream-0.3.3-windows-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.3/litestream-v0.3.3-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.3/litestream-v0.3.3-linux-amd64.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.3/litestream-0.3.3-windows-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.3/litestream-0.3.3.msi",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.3/litestream-v0.3.3-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.3/litestream-v0.3.3-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.3/litestream-v0.3.3-linux-amd64.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.2",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.2/litestream-v0.3.2-darwin-amd64.zip"
+      },
+      "linux": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.2/litestream-v0.3.2-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.2/litestream-v0.3.2-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.2/litestream-v0.3.2-linux-amd64.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.2/litestream-v0.3.2-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.2/litestream-v0.3.2-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.2/litestream-v0.3.2-linux-amd64.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.1",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.1/litestream-v0.3.1-darwin-amd64.zip"
+      },
+      "linux": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.1/litestream-v0.3.1-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.1/litestream-v0.3.1-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.1/litestream-v0.3.1-linux-amd64.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.1/litestream-v0.3.1-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.1/litestream-v0.3.1-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.1/litestream-v0.3.1-linux-amd64.tar.gz"
+    ]
+  },
+  {
+    "version": "0.3.0",
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.0/litestream-v0.3.0-darwin-amd64.zip"
+      },
+      "linux": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.3.0/litestream-v0.3.0-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.0/litestream-v0.3.0-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.0/litestream-v0.3.0-linux-amd64.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.0/litestream-v0.3.0-darwin-amd64.zip",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.0/litestream-v0.3.0-linux-amd64.deb",
+      "https://github.com/benbjohnson/litestream/releases/download/v0.3.0/litestream-v0.3.0-linux-amd64.tar.gz"
+    ]
+  },
+  {
+    "version": "0.2.0",
+    "archives": {
+      "linux": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.2.0/litestream-v0.2.0-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.2.0/litestream-v0.2.0-linux-amd64.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.2.0/litestream-v0.2.0-linux-amd64.tar.gz"
+    ]
+  },
+  {
+    "version": "0.1.0",
+    "archives": {
+      "linux": {
+        "x64": "https://github.com/benbjohnson/litestream/releases/download/v0.1.0/litestream-v0.1.0-linux-amd64.tar.gz"
+      }
+    },
+    "allowedUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.1.0/litestream-v0.1.0-linux-amd64.tar.gz"
+    ],
+    "allUrls": [
+      "https://github.com/benbjohnson/litestream/releases/download/v0.1.0/litestream-v0.1.0-linux-amd64.tar.gz"
+    ]
+  }
+]
