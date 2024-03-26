@@ -20,7 +20,6 @@ import { compare, satisfies } from 'semver'
 import decompressTarZ from '../packages/decompress-tar-z'
 import { GithubReleaseProvider } from './GithubReleaseProvider'
 import { downloadFile } from './util/downloadFile'
-import { getAppVersion } from './util/getAppVersion'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { sanitizeOptions } from './util/sanitize'
@@ -250,8 +249,7 @@ export class Gobot {
   }
 
   async getBinaryPath(versionRangeIn?: string) {
-    const versionRange =
-      versionRangeIn || this.version || (await getAppVersion(this.name))
+    const versionRange = versionRangeIn || this.version || `*`
     const storedRelease = await this.maxSatisfyingRelease(versionRange)
     if (!storedRelease) {
       throw new Error(
@@ -261,7 +259,7 @@ export class Gobot {
     const url = storedRelease.archives[this.os]?.[this.arch]
     if (!url) {
       throw new Error(
-        `No archive URL satisfying version ${versionRange} for ${this.os}/${this.arch}`,
+        `No archive URL satisfying ${this.repo} version ${versionRange} for ${this.os}/${this.arch}`,
       )
     }
     dbg(`Download link`, url)
@@ -318,7 +316,11 @@ export class Gobot {
 
   async maxSatisfyingRelease(range: string) {
     dbg(`Searching for max release`, range)
-    const release = (await this.releases()).find((release) =>
+    const possibleReleases = (await this.releases()).filter(
+      (release) => !!release.archives[this.os]?.[this.arch],
+    ) // Select only releases valid for this os/arch
+    dbg(`Possible releases`, possibleReleases)
+    const release = possibleReleases.find((release) =>
       this.satisfies(release.version, range),
     )
     dbg(`Matched release:`, release)

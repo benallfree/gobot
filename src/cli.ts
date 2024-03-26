@@ -7,7 +7,6 @@ import json from '../package.json'
 import { Gobot } from './Gobot'
 import { gobot } from './api'
 import { verbosity } from './settings'
-import { getAppVersion } from './util/getAppVersion'
 import { dbg } from './util/log'
 
 const main = async () => {
@@ -98,7 +97,7 @@ const main = async () => {
         const bot = await gobot(appName, {
           os,
           arch,
-          version: gUseVersion || (await getAppVersion(appName)),
+          version: gUseVersion || `*`,
           cachePath,
           env: process.env,
         })
