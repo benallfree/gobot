@@ -163,7 +163,7 @@ Output metadata info about `<app>`, including unofficial apps. This command is h
 
 ## Official Gobot Apps
 
-These apps have single-token names and dedicated helper packages to assist with version locking.
+Gobot supports {{count appSlugs}} apps using bin names. They also have npm helper packages to assist with version locking.
 
 {{{availableAppsMd}}}
 
