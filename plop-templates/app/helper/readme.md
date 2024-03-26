@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-{{lowerCase slug}}` package version always mirrors the underlying `{{slug}}` [version](#known-versions):
+The `gobot-{{lowerCase slug}}` package version always mirrors the underlying `{{slug}}` [version](#all-known-releases):
 
 ```bash
 npm i gobot-{{lowerCase slug}}@{{version}}
