@@ -1,0 +1,13 @@
+{
+  "name": "prometheus-gobot-sample",
+  "bin": {
+    "prometheus-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "prometheus": "prometheus"
+  },
+  "dependencies": {
+    "gobot-prometheus": "2.51.0"
+  }
+}
