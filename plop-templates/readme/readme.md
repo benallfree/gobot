@@ -4,7 +4,7 @@
 
 # The binary package manager for Node
 
-_Manage and run binaries as `package.json` npm dependencies. CLI and API interfaces._
+_Manage and run binaries via npm. CLI and API interfaces._
 
 ## Table of Contents
 
