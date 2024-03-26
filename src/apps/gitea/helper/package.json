@@ -1,6 +1,6 @@
 {
   "name": "gobot-gitea",
-  "version": "1.21.9-alpha.18",
+  "version": "1.21.9-alpha.19",
   "description": "gitea helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

@@ -1,6 +1,6 @@
 {
   "name": "gobot-ferretdb",
-  "version": "1.21.0-alpha.18",
+  "version": "1.21.0-alpha.19",
   "description": "FerretDB helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

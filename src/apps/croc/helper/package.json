@@ -1,6 +1,6 @@
 {
   "name": "gobot-croc",
-  "version": "9.6.14-alpha.18",
+  "version": "9.6.14-alpha.19",
   "description": "croc helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

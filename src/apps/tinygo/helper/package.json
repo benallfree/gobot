@@ -1,6 +1,6 @@
 {
   "name": "gobot-tinygo",
-  "version": "0.31.2-alpha.18",
+  "version": "0.31.2-alpha.19",
   "description": "tinygo helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

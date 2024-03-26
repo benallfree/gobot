@@ -1,6 +1,6 @@
 {
   "name": "gobot-dasel",
-  "version": "2.7.0-alpha.18",
+  "version": "2.7.0-alpha.19",
   "description": "dasel helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

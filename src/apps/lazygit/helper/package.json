@@ -1,6 +1,6 @@
 {
   "name": "gobot-lazygit",
-  "version": "0.41.0-alpha.18",
+  "version": "0.41.0-alpha.19",
   "description": "Lazygit helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

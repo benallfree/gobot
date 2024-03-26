@@ -1,6 +1,6 @@
 {
   "name": "gobot-gotop",
-  "version": "4.2.0-alpha.18",
+  "version": "4.2.0-alpha.19",
   "description": "gotop helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

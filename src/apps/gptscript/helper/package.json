@@ -1,6 +1,6 @@
 {
   "name": "gobot-gptscript",
-  "version": "0.2.2-alpha.18",
+  "version": "0.2.2-alpha.19",
   "description": "GPTScript helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

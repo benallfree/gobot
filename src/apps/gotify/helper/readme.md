@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.33/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.34/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-gotify) ![](https://img.shields.io/npm/dt/gobot-gotify) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -86,7 +86,7 @@ gotify --help
 npm i -g gobot-gotify@latest
 ```
 
-For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.33/docs/readme.md).
+For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.34/docs/readme.md).
 
 ## Quirks
 
@@ -94,7 +94,7 @@ Because Gotify has both client and server binaries, this one is named `gotify` t
 
 ## Sample project
 
-View the [Gotify sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.33/src/apps/gotify/sample-project) on github.
+View the [Gotify sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.34/src/apps/gotify/sample-project) on github.
 
 ## Try Gobot's other apps
 

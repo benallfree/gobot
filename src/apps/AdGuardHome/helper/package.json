@@ -1,6 +1,6 @@
 {
   "name": "gobot-adguardhome",
-  "version": "0.108.0-b.54-alpha.18",
+  "version": "0.108.0-b.54-alpha.19",
   "description": "AdGuardHome helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

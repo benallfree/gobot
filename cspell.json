@@ -1,5 +1,8 @@
 {
-  "ignorePaths": ["pnpm-lock.yaml", "src/__tests__/data"],
+  "ignorePaths": [
+    "pnpm-lock.yaml",
+    "src/__tests__/data"
+  ],
   "words": [
     "aarch",
     "Adguard",
@@ -13,6 +16,7 @@
     "benbjohnson",
     "botrun",
     "caddyserver",
+    "centrifugo",
     "Certbot",
     "chezmoi",
     "codecsv",
@@ -76,6 +80,7 @@
     "maildev",
     "maxsize",
     "memorystream",
+    "Microcontrollers",
     "middlewares",
     "Middlware",
     "minio",
@@ -108,6 +113,7 @@
     "postamble",
     "preid",
     "privkey",
+    "Pubnub",
     "pulumi",
     "rclone",
     "rcompare",
@@ -148,6 +154,7 @@
     "upserting",
     "Virtio",
     "vtop",
+    "WASI",
     "Weaviate",
     "xhmikosr"
   ]

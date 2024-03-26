@@ -1,6 +1,6 @@
 {
   "name": "gobot-mc",
-  "version": "2024.3.20210729-alpha.18",
+  "version": "2024.3.20210729-alpha.19",
   "description": "Mc helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

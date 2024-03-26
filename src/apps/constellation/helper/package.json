@@ -1,6 +1,6 @@
 {
   "name": "gobot-constellation",
-  "version": "2.16.1-alpha.18",
+  "version": "2.16.1-alpha.19",
   "description": "Constellation helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

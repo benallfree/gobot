@@ -1,6 +1,6 @@
 {
   "name": "gobot-micro",
-  "version": "2.0.13-alpha.18",
+  "version": "2.0.13-alpha.19",
   "description": "micro helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
