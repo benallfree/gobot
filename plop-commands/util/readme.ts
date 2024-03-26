@@ -17,13 +17,13 @@ export const mkAvailableAppsMd = async () => {
       if (!app) throw new Error(`${slug} is not an app (mkAvailableAppsMd)`)
       const branch = getCurrentGitBranch()
       const { description, homepage } = app
-      const readmeUrl = `https://www.npmjs.com/package/gobot-${slug.toLocaleLowerCase()}`
+      const npmUrl = `https://www.npmjs.com/package/gobot-${slug.toLocaleLowerCase()}`
       const logoUrl = `https://raw.githubusercontent.com/benallfree/gobot/${branch}/src/apps/${slug}/logo-50x.webp`
       return [
         mkLink(`<img src="${logoUrl}">`, homepage),
         code(slug),
         description,
-        mkLink(`readme`, readmeUrl),
+        mkLink(`npm`, npmUrl),
       ]
     }),
   )
