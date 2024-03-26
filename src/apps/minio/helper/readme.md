@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-minio` package version always mirrors the underlying `minio` [version](#known-versions):
+The `gobot-minio` package version always mirrors the underlying `minio` [version](#all-known-releases):
 
 ```bash
 npm i gobot-minio@2024.3.21231343
@@ -119,7 +119,7 @@ View the [Minio sample project](https://github.com/benallfree/gobot/tree/v1.0.0-
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

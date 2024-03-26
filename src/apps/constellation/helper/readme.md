@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-constellation` package version always mirrors the underlying `constellation` [version](#known-versions):
+The `gobot-constellation` package version always mirrors the underlying `constellation` [version](#all-known-releases):
 
 ```bash
 npm i gobot-constellation@2.16.1
@@ -94,7 +94,7 @@ View the [Constellation sample project](https://github.com/benallfree/gobot/tree
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

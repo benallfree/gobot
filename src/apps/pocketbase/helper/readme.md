@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-pocketbase` package version always mirrors the underlying `pocketbase` [version](#known-versions):
+The `gobot-pocketbase` package version always mirrors the underlying `pocketbase` [version](#all-known-releases):
 
 ```bash
 npm i gobot-pocketbase@0.22.5
@@ -114,7 +114,7 @@ View the [PocketBase sample project](https://github.com/benallfree/gobot/tree/v1
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

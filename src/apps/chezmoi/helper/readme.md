@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-chezmoi` package version always mirrors the underlying `chezmoi` [version](#known-versions):
+The `gobot-chezmoi` package version always mirrors the underlying `chezmoi` [version](#all-known-releases):
 
 ```bash
 npm i gobot-chezmoi@2.47.2
@@ -94,7 +94,7 @@ View the [chezmoi sample project](https://github.com/benallfree/gobot/tree/v1.0.
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

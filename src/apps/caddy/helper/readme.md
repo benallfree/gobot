@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-caddy` package version always mirrors the underlying `caddy` [version](#known-versions):
+The `gobot-caddy` package version always mirrors the underlying `caddy` [version](#all-known-releases):
 
 ```bash
 npm i gobot-caddy@2.7.6
@@ -94,7 +94,7 @@ View the [Caddy sample project](https://github.com/benallfree/gobot/tree/v1.0.0-
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

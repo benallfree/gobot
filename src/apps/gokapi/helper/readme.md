@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-gokapi` package version always mirrors the underlying `gokapi` [version](#known-versions):
+The `gobot-gokapi` package version always mirrors the underlying `gokapi` [version](#all-known-releases):
 
 ```bash
 npm i gobot-gokapi@1.8.1
@@ -94,7 +94,7 @@ View the [Gokapi sample project](https://github.com/benallfree/gobot/tree/v1.0.0
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

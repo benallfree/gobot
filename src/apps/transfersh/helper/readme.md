@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-transfersh` package version always mirrors the underlying `transfersh` [version](#known-versions):
+The `gobot-transfersh` package version always mirrors the underlying `transfersh` [version](#all-known-releases):
 
 ```bash
 npm i gobot-transfersh@1.6.1
@@ -94,7 +94,7 @@ View the [transfer.sh sample project](https://github.com/benallfree/gobot/tree/v
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

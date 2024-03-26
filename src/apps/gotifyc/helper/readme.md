@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-gotifyc` package version always mirrors the underlying `gotifyc` [version](#known-versions):
+The `gobot-gotifyc` package version always mirrors the underlying `gotifyc` [version](#all-known-releases):
 
 ```bash
 npm i gobot-gotifyc@2.2.3
@@ -98,7 +98,7 @@ View the [Gotify CLI sample project](https://github.com/benallfree/gobot/tree/v1
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

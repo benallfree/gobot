@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-tinygo` package version always mirrors the underlying `tinygo` [version](#known-versions):
+The `gobot-tinygo` package version always mirrors the underlying `tinygo` [version](#all-known-releases):
 
 ```bash
 npm i gobot-tinygo@0.31.2
@@ -94,7 +94,7 @@ View the [tinygo sample project](https://github.com/benallfree/gobot/tree/v1.0.0
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

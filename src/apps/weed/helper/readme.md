@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-weed` package version always mirrors the underlying `weed` [version](#known-versions):
+The `gobot-weed` package version always mirrors the underlying `weed` [version](#all-known-releases):
 
 ```bash
 npm i gobot-weed@3.64.0
@@ -100,7 +100,7 @@ View the [SeaweedFS sample project](https://github.com/benallfree/gobot/tree/v1.
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

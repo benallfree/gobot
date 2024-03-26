@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-temporal` package version always mirrors the underlying `temporal` [version](#known-versions):
+The `gobot-temporal` package version always mirrors the underlying `temporal` [version](#all-known-releases):
 
 ```bash
 npm i gobot-temporal@1.23.0
@@ -94,7 +94,7 @@ View the [Temporal sample project](https://github.com/benallfree/gobot/tree/v1.0
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

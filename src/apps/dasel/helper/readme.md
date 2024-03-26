@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-dasel` package version always mirrors the underlying `dasel` [version](#known-versions):
+The `gobot-dasel` package version always mirrors the underlying `dasel` [version](#all-known-releases):
 
 ```bash
 npm i gobot-dasel@2.7.0
@@ -94,7 +94,7 @@ View the [dasel sample project](https://github.com/benallfree/gobot/tree/v1.0.0-
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

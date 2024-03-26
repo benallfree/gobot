@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-natsd` package version always mirrors the underlying `natsd` [version](#known-versions):
+The `gobot-natsd` package version always mirrors the underlying `natsd` [version](#all-known-releases):
 
 ```bash
 npm i gobot-natsd@2.11.0-preview.1
@@ -98,7 +98,7 @@ View the [nats-server sample project](https://github.com/benallfree/gobot/tree/v
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

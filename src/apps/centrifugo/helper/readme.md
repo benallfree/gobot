@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-centrifugo` package version always mirrors the underlying `centrifugo` [version](#known-versions):
+The `gobot-centrifugo` package version always mirrors the underlying `centrifugo` [version](#all-known-releases):
 
 ```bash
 npm i gobot-centrifugo@5.3.0
@@ -94,7 +94,7 @@ View the [centrifugo sample project](https://github.com/benallfree/gobot/tree/v1
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-micro` package version always mirrors the underlying `micro` [version](#known-versions):
+The `gobot-micro` package version always mirrors the underlying `micro` [version](#all-known-releases):
 
 ```bash
 npm i gobot-micro@2.0.13
@@ -98,7 +98,7 @@ View the [micro sample project](https://github.com/benallfree/gobot/tree/v1.0.0-
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 

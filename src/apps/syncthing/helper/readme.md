@@ -44,7 +44,7 @@ bot..run([`--version`])
 
 **Locking to a specific version**
 
-The `gobot-syncthing` package version always mirrors the underlying `syncthing` [version](#known-versions):
+The `gobot-syncthing` package version always mirrors the underlying `syncthing` [version](#all-known-releases):
 
 ```bash
 npm i gobot-syncthing@1.27.5-rc.1
@@ -94,7 +94,7 @@ View the [syncthing sample project](https://github.com/benallfree/gobot/tree/v1.
 
 ## Try Gobot's other apps
 
-Gobot has a growing list of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
+Gobot has a growing list (currently 52) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
 ## Getting Help
 
