@@ -1,8 +1,7 @@
 - Work in `main`
 - bump main
 - bump helper
-- pnpm plop clean
-- pnpm plop build
-- pnpm plop pack
+- pnpm test
+- pnpm paq
 - commit, tag, & push
 - pnpm plop publish
