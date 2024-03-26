@@ -1,0 +1,13 @@
+{
+  "name": "incus-gobot-sample",
+  "bin": {
+    "incus-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "incus": "incus"
+  },
+  "dependencies": {
+    "gobot-incus": "0.6.0"
+  }
+}
