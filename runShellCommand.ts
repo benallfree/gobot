@@ -1,15 +1,16 @@
 import { spawn } from 'child_process'
+import { dbg, dbge } from './src/util/log'
 
 export async function runShellCommand(
   command: string,
   directory?: string,
-): Promise<void> {
+): Promise<number> {
   return new Promise((resolve, reject) => {
     const [cmd, ...args] = command.split(/\s+/)
     if (!cmd) {
       throw new Error(`cmd expected`)
     }
-    console.log(`${cmd} ${args.join(' ')}`)
+    dbg(`${cmd} ${args.join(' ')}`)
 
     const cmdProcess = spawn(cmd, args, {
       cwd: directory ? directory : process.cwd(),
@@ -18,21 +19,21 @@ export async function runShellCommand(
     })
 
     cmdProcess.stdout.on('data', (data) => {
-      console.log(data.toString())
+      dbg(data.toString())
     })
 
     cmdProcess.stderr.on('data', (data) => {
-      console.error(data.toString())
+      dbg(data.toString())
     })
 
     cmdProcess.on(`error`, (err) => {
-      console.error(`Command failed`, command, directory)
+      dbge(`Command failed`, command, directory)
       reject(err)
     })
 
     cmdProcess.on('close', (code) => {
       if (code === 0) {
-        resolve()
+        resolve(code)
       } else {
         reject(new Error(`Command "${command}" exited with code ${code}`))
       }
