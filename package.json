@@ -24,7 +24,7 @@
     "watch": "tsup-node --watch .",
     "dev": "pnpm build:gobot && node dist/cli.js",
     "test:pack": "pnpm paq && npm rm -g gobot && npm i -g gobot-`cat package.json | fx '.version'`.tgz && gobot pocketbase --g-refresh --g-vvv --help",
-    "test": "vitest",
+    "test": "vitest --reporter=dot",
     "docs": "typedoc",
     "lint": "prettier -c .",
     "lint:fix": "prettier -w ."

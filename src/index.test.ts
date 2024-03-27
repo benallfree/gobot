@@ -22,72 +22,84 @@ describe(`bot`, async () => {
     const appSlug = basename(appPath)
 
     if (process.env.ONLY && process.env.ONLY !== appSlug) continue
-    test(`${appSlug}`, async () => {
-      const module = await import(appPath).catch(console.error)
-      const appInfo = module[appSlug] as AppInfo
-      const { factory } = appInfo
-      const cachePath = join(appPath, `test-data`)
-      const bot = (() => {
-        if (isFunction(factory)) {
-          return factory({ cachePath, env: process.env })
+    describe(appSlug, async () => {
+      test(`parse`, async () => {
+        const { cachePath, bot } = await getBot(appPath)
+
+        await rimraf(join(cachePath, `releases.json`))
+        const releases = await bot.releases()
+        try {
+          expect(releases).toMatchFileSnapshot(
+            join(cachePath, `releases-snapshot`),
+          )
+        } catch (e) {
+          throw new Error(`Expected ${appSlug} snapshot to match.`)
         }
-        return new Gobot(
-          factory,
-          (repo, cacheRoot) => new GithubReleaseProvider(repo, cacheRoot),
-          { cachePath, env: process.env },
-        )
-      })()
-
-      await rimraf(join(cachePath, `releases.json`))
-      const releases = await bot.releases()
-      try {
-        expect(releases).toMatchFileSnapshot(
-          join(cachePath, `releases-snapshot`),
-        )
-      } catch (e) {
-        throw new Error(`Expected ${appSlug} snapshot to match.`)
-      }
-
-      const skipRun = [`gotify`, `gocryptfs`, `ferretdb`]
-      if (skipRun.includes(appSlug)) return
-
-      const { switchOverride, codeOverride } = await (async () => {
-        const testOverridesPath = join(
-          appPath,
-          `..`,
-          `..`,
-          `apps`,
-          appSlug,
-          `test-overrides.ts`,
-        )
-        const module = await import(testOverridesPath).catch((e) => {
-          //Noop, if module is not found
-        })
-        return module || {}
-      })()
-
-      const code = await new Promise<number>((resolve, reject) => {
-        bot
-          .run([switchOverride || `--version`], [`ignore`])
-          .then((proc) => {
-            if (!proc) {
-              reject()
-              return
-            }
-            proc.stdout?.on('data', () => {})
-            proc.stderr?.on('data', () => {})
-            proc.on('exit', resolve)
-          })
-          .catch(reject)
       })
-      const expectedCode = codeOverride || 0
-      try {
-        expect(code).toBe(expectedCode)
-      } catch (e) {
-        throw new Error(
-          `Expected ${appSlug} to exit with ${expectedCode} but got ${code}`,
-        )
-      }
+
+      test(`run`, async () => {
+        const skipRun = [`gotify`, `gocryptfs`, `ferretdb`]
+        if (skipRun.includes(appSlug)) return
+
+        const { switchOverride, codeOverride } = await (async () => {
+          const testOverridesPath = join(
+            appPath,
+            `..`,
+            `..`,
+            `apps`,
+            appSlug,
+            `test-overrides.ts`,
+          )
+          const module = await import(testOverridesPath).catch((e) => {
+            //Noop, if module is not found
+          })
+          return module || {}
+        })()
+
+        const { cachePath, bot } = await getBot(appPath)
+
+        const code = await new Promise<number>((resolve, reject) => {
+          bot
+            .run([switchOverride || `--version`], [`ignore`])
+            .then((proc) => {
+              if (!proc) {
+                reject()
+                return
+              }
+              proc.stdout?.on('data', () => {})
+              proc.stderr?.on('data', () => {})
+              proc.on('exit', resolve)
+            })
+            .catch(reject)
+        })
+        const expectedCode = codeOverride || 0
+        try {
+          expect(code).toBe(expectedCode)
+        } catch (e) {
+          throw new Error(
+            `Expected ${appSlug} to exit with ${expectedCode} but got ${code}`,
+          )
+        }
+      })
     })
   }
 })
+
+async function getBot(appPath: string) {
+  const appSlug = basename(appPath)
+  const module = await import(appPath).catch(console.error)
+  const appInfo = module[appSlug] as AppInfo
+  const { factory } = appInfo
+  const cachePath = join(appPath, `test-data`)
+  const bot = (() => {
+    if (isFunction(factory)) {
+      return factory({ cachePath, env: process.env })
+    }
+    return new Gobot(
+      factory,
+      (repo, cacheRoot) => new GithubReleaseProvider(repo, cacheRoot),
+      { cachePath, env: process.env },
+    )
+  })()
+  return { cachePath, bot }
+}
