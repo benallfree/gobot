@@ -86,7 +86,31 @@ pocketbase --help
 npm i -g gobot-pocketbase@latest
 ```
 
-For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.34/docs/readme.md).
+## CLI
+
+`gobot-pocketbase` comes with a [bin](https://docs.npmjs.com/cli/v10/configuring-npm/package-json#bin) shortcut for CLI usage.
+
+### `pocketbase  [options]`
+pocketbase (https://pocketbase.io) runner for Gobot (https://github.com/benallfree/gobot)
+
+**Options**
+
+|Name|Default|Discussion|
+|---|---|---|
+| `--g-v` | `true` | Show informational output |
+| `--g-vv` | `false` | Show even more output |
+| `--g-vvv` | `false` | Show even more output |
+| `--g-cache-path` | `host specific` | The cache path to use |
+| `--g-use-version` | `*` | Run a specific binary version (format: x.y.z semver or x.y.* semver range) |
+| `--g-os` | `host specific` | Specify OS/Platform |
+| `--g-arch` | `host specific` | Specify OS/Platform |
+
+
+
+
+## API
+
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.34/docs/readme.md)
 
 ## Quirks
 
@@ -107,6 +131,7 @@ gobot pocketbase --dir=/path/to/pb_data
 The `--upgrade` switch is intentionally blocked because using it would overwrite Gobot's cached binary and create cache inconsistency.
 
 Instead, specify the version you wish to use either via CLI or programmatically and Gobot will fetch it when necessary.
+
 
 ## Sample project
 
@@ -160,6 +185,7 @@ To test a build locally:
 ```bash
 pnpm test
 ```
+
 
 ## All known releases
 

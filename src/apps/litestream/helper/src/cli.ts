@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-import { botRun } from 'gobot'
+import { cliForApp } from 'gobot'
 import { meta } from './meta'
 
-botRun(meta)
+const program = cliForApp(meta)
+program.parseAsync(process.argv)
+

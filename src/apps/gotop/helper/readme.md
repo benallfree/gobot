@@ -86,7 +86,33 @@ gotop --help
 npm i -g gobot-gotop@latest
 ```
 
-For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.34/docs/readme.md).
+## CLI
+
+`gobot-gotop` comes with a [bin](https://docs.npmjs.com/cli/v10/configuring-npm/package-json#bin) shortcut for CLI usage.
+
+### `gotop  [options]`
+gotop (https://github.com/xxxserxxx/gotop) runner for Gobot (https://github.com/benallfree/gobot)
+
+**Options**
+
+|Name|Default|Discussion|
+|---|---|---|
+| `--g-v` | `true` | Show informational output |
+| `--g-vv` | `false` | Show even more output |
+| `--g-vvv` | `false` | Show even more output |
+| `--g-cache-path` | `host specific` | The cache path to use |
+| `--g-use-version` | `*` | Run a specific binary version (format: x.y.z semver or x.y.* semver range) |
+| `--g-os` | `host specific` | Specify OS/Platform |
+| `--g-arch` | `host specific` | Specify OS/Platform |
+
+
+
+
+## API
+
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.34/docs/readme.md)
+
+
 
 ## Sample project
 
@@ -140,6 +166,7 @@ To test a build locally:
 ```bash
 pnpm test
 ```
+
 
 ## All known releases
 
