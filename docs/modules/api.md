@@ -20,7 +20,7 @@
 
 ### Functions
 
-- [botRun](api.md#botrun)
+- [cliForApp](api.md#cliforapp)
 - [gobot](api.md#gobot-1)
 - [mergeConfig](api.md#mergeconfig)
 - [mkGobot](api.md#mkgobot)
@@ -72,27 +72,27 @@ Re-exports [GobotOptions](../interfaces/Gobot.GobotOptions.md)
 
 #### Defined in
 
-[GithubReleaseProvider.ts:91](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.34/src/GithubReleaseProvider.ts#L91)
+[GithubReleaseProvider.ts:96](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.34/src/GithubReleaseProvider.ts#L96)
 
 ## Functions
 
-### botRun
+### cliForApp
 
-▸ **botRun**(`appInfo`): `Promise`\<`void`\>
+▸ **cliForApp**(`appInfo`): `Cmd`
 
 #### Parameters
 
-| Name      | Type      |
-| :-------- | :-------- |
-| `appInfo` | `AppInfo` |
+| Name      | Type                        |
+| :-------- | :-------------------------- |
+| `appInfo` | [`AppInfo`](api.md#appinfo) |
 
 #### Returns
 
-`Promise`\<`void`\>
+`Cmd`
 
 #### Defined in
 
-[util/botrun.ts:16](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.34/src/util/botrun.ts#L16)
+[util/cliForApp.ts:7](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.34/src/util/cliForApp.ts#L7)
 
 ---
 
