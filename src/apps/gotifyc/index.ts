@@ -1,4 +1,4 @@
-import { AppInfo } from '..'
+import type { AppInfo } from '..'
 import { mkGotifyc } from './overrides'
 
 export const gotifyc: AppInfo = {

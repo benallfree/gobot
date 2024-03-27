@@ -1,7 +1,7 @@
 import { dirname } from 'path'
-import { ActionType, NodePlopAPI } from 'plop'
+import type { ActionType, NodePlopAPI } from 'plop'
 import sharp from 'sharp'
-import { AppInfo } from '../src/api'
+import type { AppInfo } from '../src/api'
 import { extractUserAndRepo } from '../src/util/extractUserAndRepo'
 import { mkdir } from '../src/util/shell'
 import { localAction } from './util/localAction'
@@ -85,7 +85,6 @@ export function newAppCommand(plop: NodePlopAPI) {
           data,
         })
       }
-      console.log({ actions })
 
       return actions
     },

@@ -1,4 +1,4 @@
-import { AppInfo } from '../'
+import type { AppInfo } from '../'
 import { mkPocketBaseBot } from './PocketBaseBot'
 
 export const pocketbase: AppInfo = {

@@ -1,4 +1,4 @@
-import { AppInfo } from '../'
+import type { AppInfo } from '../'
 import { mkIncus } from './overrides'
 
 export const incus: AppInfo = {

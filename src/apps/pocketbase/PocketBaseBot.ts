@@ -1,7 +1,7 @@
 import { join } from 'path'
-import { AppFactory } from '..'
+import type { AppFactory } from '..'
 import { GithubReleaseProvider } from '../../GithubReleaseProvider'
-import { Gobot, GobotOptions } from '../../Gobot'
+import { Gobot, type GobotOptions } from '../../Gobot'
 import { pwd } from '../../util/shell'
 
 class PocketBaseBot extends Gobot {

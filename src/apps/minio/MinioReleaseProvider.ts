@@ -1,7 +1,7 @@
 import {
-  GithubRelease,
   GithubReleaseProvider,
-  GithubReleaseProviderOptions,
+  type GithubRelease,
+  type GithubReleaseProviderOptions,
 } from '../../GithubReleaseProvider'
 import type { Release } from '../../Gobot'
 import { dbg } from '../../util/log'

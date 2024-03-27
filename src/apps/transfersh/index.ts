@@ -1,4 +1,4 @@
-import { AppInfo } from '../'
+import type { AppInfo } from '../'
 import { mkTransfersh } from './overrides'
 
 export const transfersh: AppInfo = {

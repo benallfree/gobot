@@ -1,5 +1,5 @@
 import { chmodSync } from 'fs'
-import { AppFactory } from '..'
+import type { AppFactory } from '..'
 import { GithubReleaseProvider } from '../../GithubReleaseProvider'
 import { Gobot } from '../../Gobot'
 

@@ -1,5 +1,5 @@
-import { GobotOptions } from '../../Gobot'
-import { AppFactory } from '../index'
+import type { GobotOptions } from '../../Gobot'
+import type { AppFactory } from '../index'
 import { MinioGobot } from './MinioGobot'
 import { MinioReleaseProvider } from './MinioReleaseProvider'
 

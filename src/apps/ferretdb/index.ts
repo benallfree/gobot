@@ -1,4 +1,4 @@
-import { AppInfo } from '../'
+import type { AppInfo } from '../'
 import { mkFerretdb } from './overrides'
 
 export const ferretdb: AppInfo = {

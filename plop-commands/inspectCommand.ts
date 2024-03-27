@@ -1,4 +1,4 @@
-import { NodePlopAPI } from 'plop'
+import type { NodePlopAPI } from 'plop'
 import { mkGobot } from '../src/Gobot'
 import { verbosity } from '../src/settings'
 import { extractUserAndRepo } from '../src/util/extractUserAndRepo'
@@ -18,7 +18,7 @@ export function inspectCommand(plop: NodePlopAPI) {
       const { user, repo } = extractUserAndRepo(name)
       verbosity(3)
       const bot = mkGobot(`${user}/${repo}`)
-      await bot.clearCache()
+      await bot.reset()
       const md = await bot.versions(`md`)
       return []
     },

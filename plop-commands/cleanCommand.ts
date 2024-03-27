@@ -1,5 +1,6 @@
-import { Actions, NodePlopAPI } from 'plop'
-import { Subcommands, mkSubcommander } from './util/mkSubcommander'
+import type { Actions, NodePlopAPI } from 'plop'
+import type { Subcommands } from './util/mkSubcommander'
+import { mkSubcommander } from './util/mkSubcommander'
 
 const _cleanCommands: Subcommands = {}
 export const addCleanCommand = (name: string, clean: Actions) => {

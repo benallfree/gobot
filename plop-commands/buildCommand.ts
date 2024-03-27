@@ -1,9 +1,11 @@
 import { flatten } from '@s-libs/micro-dash'
 import { globSync } from 'glob'
 import { dirname, join } from 'path'
-import { NodePlopAPI } from 'plop'
+import type { NodePlopAPI } from 'plop'
 import sharp from 'sharp'
 import { runShellCommand } from '../runShellCommand'
+import { program } from '../src/cliCommands'
+import { stringify } from '../src/util/stringify'
 import { buildData, buildDataForApp } from './util/buildData'
 import { getCurrentGitBranch } from './util/getCurrentGitBranch'
 import { getSlugsFromFileSystem } from './util/getSlugsFromFileSystem'
@@ -73,15 +75,33 @@ export const buildCommand = (plop: NodePlopAPI) => {
         ],
       },
       'gobot:readme': {
-        gen: async () => [
-          {
-            type: 'add',
-            path: 'readme.md',
-            templateFile: 'plop-templates/readme/readme.md',
-            force: true,
-            data: await buildData(plop),
-          },
-        ],
+        gen: async () => {
+          const serialized = JSON.parse(stringify(program))
+
+          return [
+            {
+              type: 'add',
+              path: 'readme.md',
+              templateFile: 'plop-templates/readme/readme.md',
+              force: true,
+              data: await buildData(plop),
+            },
+            {
+              type: 'modify',
+              path: 'readme.md',
+              pattern: /##CLI##/,
+              templateFile: `plop-templates/readme/cli.md.hbs`,
+              data: { program: serialized, global: serialized },
+            },
+            {
+              type: 'modify',
+              path: 'readme.md',
+              pattern: /##POSTAMBLE##/,
+              templateFile: `plop-templates/readme/postamble.md`,
+              data: await buildData(plop),
+            },
+          ]
+        },
         clean: [
           {
             type: `rimraf`,
@@ -186,6 +206,13 @@ export const buildCommand = (plop: NodePlopAPI) => {
                     template: slug,
                   }
                 }),
+                {
+                  type: 'modify',
+                  path: `src/apps/${slug}/helper/readme.md`,
+                  pattern: /##POSTAMBLE##/,
+                  templateFile: `plop-templates/readme/postamble.md`,
+                  data: await buildData(plop),
+                },
               ]
             }),
           )

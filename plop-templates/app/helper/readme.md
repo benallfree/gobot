@@ -98,7 +98,7 @@ View the [{{name}} sample project](https://github.com/benallfree/gobot/tree/{{{b
 
 Gobot has a growing list (currently {{count appSlugs}}) of [official apps](https://www.npmjs.com/package/gobot#official-gobot-apps). Have you tried them all?
 
-{{{postambleMd}}}
+##POSTAMBLE##
 
 ## All known releases
 

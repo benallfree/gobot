@@ -1,4 +1,4 @@
-import { AppInfo } from '../'
+import type { AppInfo } from '../'
 import { mk_gitea_Gobot } from './overrides'
 
 export const gitea: AppInfo = {

@@ -1,4 +1,4 @@
-import { CustomActionFunction, NodePlopAPI } from 'plop'
+import type { CustomActionFunction, NodePlopAPI } from 'plop'
 
 export const localAction = (() => {
   let idx = 0

@@ -1,5 +1,4 @@
 import { times } from '@s-libs/micro-dash'
-import { readFileSync } from 'fs'
 import { markdownTable } from 'markdown-table'
 import { getApp } from '../../src/util/getApp'
 import { getCurrentGitBranch } from './getCurrentGitBranch'
@@ -29,15 +28,3 @@ export const mkAvailableAppsMd = async () => {
   )
   return markdownTable([[space(10), code(`<app>`), `What is it?`], ...rows])
 }
-
-export const postambleMd = readFileSync(
-  `plop-templates/readme/postamble.md`,
-).toString()
-
-export const cliOptionsMd = readFileSync(
-  `plop-templates/readme/cli_options.md`,
-).toString()
-
-export const cliGlobalOptionsMd = readFileSync(
-  `plop-templates/readme/cli_global_options.md`,
-).toString()

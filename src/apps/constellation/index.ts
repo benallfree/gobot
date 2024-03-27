@@ -1,4 +1,4 @@
-import { AppInfo } from '../'
+import type { AppInfo } from '../'
 import { mkConstellation } from './overrides'
 
 export const constellation: AppInfo = {

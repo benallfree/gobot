@@ -1,6 +1,6 @@
 import { flatten, isFunction, keys, map, uniq } from '@s-libs/micro-dash'
-import { Actions } from 'plop'
-import { Subcommand, Subcommands } from './mkSubcommander'
+import type { Actions } from 'plop'
+import type { Subcommand, Subcommands } from './mkSubcommander'
 
 export const mkActionHandler = (
   subcommandsIn: Subcommands,

@@ -1,9 +1,14 @@
 import { basename, join } from 'path'
-import { AppInfo } from '../'
+import { type AppInfo } from '../'
 import { GithubReleaseProvider } from '../../GithubReleaseProvider'
-import { ArchKey, Gobot, GobotOptions, PlatformKey } from '../../Gobot'
+import {
+  Gobot,
+  type ArchKey,
+  type GobotOptions,
+  type PlatformKey,
+} from '../../Gobot'
 import { dbg } from '../../util/log'
-import { AppFactory } from '../index'
+import type { AppFactory } from '../index'
 
 export class OllamaGobot extends Gobot {
   /**

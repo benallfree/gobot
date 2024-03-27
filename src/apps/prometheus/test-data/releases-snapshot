@@ -1,6 +1,3 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`bot stored releases 1`] = `
 [
   {
     "allUrls": [
@@ -24343,4 +24340,3 @@ exports[`bot stored releases 1`] = `
     "version": "0.11.0",
   },
 ]
-`;

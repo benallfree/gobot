@@ -1,4 +1,4 @@
-import { AppInfo } from '..'
+import type { AppInfo } from '..'
 import { mkMinioClientBot } from './mkMinioClientBot'
 
 export const mc: AppInfo = {

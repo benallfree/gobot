@@ -121,41 +121,8 @@ bot.run([`--help`])
 
 Note: All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
 
-{{cliGlobalOptionsMd}}
+##CLI##
 
-### `gobot <app> [gobotOptions] [appOptions]`
-
-Run `<app>`. Gobot will download and cache the specific platform, architecture, and version you request and defaults to the latest version for the host platform and architecture.
-
-{{{cliOptionsMd}}}
-
-**Examples**
-
-```bash
-# Run `pocketbase serve`
-npx gobot pocketbase serve
-
-# Run in gobot debugging mode`
-npx gobot --g-debug
-
-# Run a specific PocketBase version
-npx gobot pocketbase --g-use-version="0.21.0" # Run this exact version
-npx gobot pocketbase --g-use-version="~0.21.0" # Run highest 0.21.z version
-npx gobot pocketbase --g-use-version="0.*" # Run highest 0.y.z
-
-# Force gobot to dump cache and refresh PocketBase tags and binaries
-npx gobot pocketbase --g-refresh
-```
-
-### `gobot inspect <app> [gobotOptions]`
-
-Output metadata info about `<app>`, including unofficial apps. This command is helpful for exploring support for new apps.
-
-| Option                  | Default       | Discussion                                   |
-| ----------------------- | ------------- | -------------------------------------------- |
-| `--g-help`              | Show help     | Display help and options for Gobot           |
-| `--g-v[vv]`             |               | Adjust output verbosity                      |
-| `--g-cache-path <path>` | host specific | Use the specified directory for cache files. |
 
 ## API
 
@@ -200,4 +167,4 @@ As long as the project uses the github [Releases](https://docs.github.com/en/rep
 
 Go apps work flawlessly, if the releases are named well. Gobot was originally named and conceived to support Go apps.
 
-{{{postambleMd}}}
+##POSTAMBLE##

@@ -1,6 +1,6 @@
 import { keys } from '@s-libs/micro-dash'
 import { existsSync, readFileSync } from 'fs'
-import { NodePlopAPI } from 'plop'
+import type { NodePlopAPI } from 'plop'
 import {
   DEFAULT_PLATFORM_MAP,
   SUPPORTED_ARCH,
@@ -9,28 +9,20 @@ import { gobot } from '../../src/api'
 import { getApp } from '../../src/util/getApp'
 import { getCurrentGitBranch } from './getCurrentGitBranch'
 import { getSlugsFromFileSystem } from './getSlugsFromFileSystem'
-import {
-  cliGlobalOptionsMd,
-  cliOptionsMd,
-  mkAvailableAppsMd,
-  postambleMd,
-} from './readme'
+import { mkAvailableAppsMd } from './readme'
 
 export async function buildData(plop: NodePlopAPI) {
   const branch = getCurrentGitBranch()
 
   const data = {
-    cliOptionsMd,
     branch,
     platforms: keys(DEFAULT_PLATFORM_MAP),
     architectures: keys(SUPPORTED_ARCH),
     availableAppsMd: '',
     postambleMd: '',
-    cliGlobalOptionsMd,
     appSlugs: getSlugsFromFileSystem(),
   }
 
-  data.postambleMd = plop.renderString(postambleMd, data)
   data.availableAppsMd = plop.renderString(await mkAvailableAppsMd(), data)
 
   return data

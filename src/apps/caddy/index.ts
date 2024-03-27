@@ -1,4 +1,4 @@
-import { AppInfo } from '../'
+import type { AppInfo } from '../'
 
 export const caddy: AppInfo = {
   name: `Caddy`,

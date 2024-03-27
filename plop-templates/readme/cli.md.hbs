@@ -1,0 +1,27 @@
+**Global options**
+
+These options are available on every command:
+
+|Name|Default|Discussion|
+|---|---|---|
+{{#each global.options}}{{#with this}}| `{{ long }}` | {{#if defaultValueDescription}}`{{ defaultValueDescription}}`{{/if}} | {{{ description }}} |
+{{/with}}{{/each}}
+
+
+{{#each program.commands }}
+{{#with this}}
+### `gobot {{#if default}}{{else}}{{name}} {{/if}}{{#each arguments}}{{#if this.required}}<{{this.name}}>{{else}}[{{this.name}}]{{/if}}{{/each}}{{#if options.length}} [options]{{/if}}`
+{{this.description}}
+
+{{#if options.length}}
+**Options**
+
+|Name|Default|Discussion|
+|---|---|---|
+{{#each options}}{{#with this}}| `{{ long }}` | {{#if defaultValueDescription}}`{{ defaultValueDescription}}`{{/if}} | {{{ description }}} |
+{{/with}}{{/each}}
+
+{{/if}}
+
+{{/with}}
+{{/each}}

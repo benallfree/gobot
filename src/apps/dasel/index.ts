@@ -1,4 +1,4 @@
-import { AppInfo } from '../'
+import type { AppInfo } from '../'
 import { mkDasel } from './overrides'
 
 export const dasel: AppInfo = {

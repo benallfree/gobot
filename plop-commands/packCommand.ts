@@ -1,7 +1,7 @@
 import Bottleneck from 'bottleneck'
 import { globSync } from 'glob'
 import { join } from 'path'
-import { NodePlopAPI } from 'plop'
+import type { NodePlopAPI } from 'plop'
 import { runShellCommand } from '../runShellCommand'
 import { localAction } from './util/localAction'
 import { mkSubcommander } from './util/mkSubcommander'

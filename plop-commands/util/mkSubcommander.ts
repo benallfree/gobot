@@ -1,5 +1,5 @@
 import { forEach, keys } from '@s-libs/micro-dash'
-import { Actions, NodePlopAPI } from 'plop'
+import type { Actions, NodePlopAPI } from 'plop'
 import { addCleanCommand } from '../cleanCommand'
 import { mkActionHandler } from './mkActionHandler'
 

@@ -1,4 +1,4 @@
-import { AppInfo } from '../'
+import type { AppInfo } from '../'
 import { mksftpgo } from './overrides'
 
 export const sftpgo: AppInfo = {

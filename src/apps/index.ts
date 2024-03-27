@@ -1,5 +1,5 @@
 import { isFunction } from '@s-libs/micro-dash'
-import { Gobot, GobotOptions } from '../Gobot'
+import type { Gobot, GobotOptions } from '../Gobot'
 
 export type AppInfo = {
   name: string
