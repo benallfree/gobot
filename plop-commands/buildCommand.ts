@@ -3,10 +3,10 @@ import { globSync } from 'glob'
 import { dirname, join } from 'path'
 import type { NodePlopAPI } from 'plop'
 import sharp from 'sharp'
-import { runShellCommand } from '../runShellCommand'
 import { cliForApp } from '../src/api'
 import type { AppInfo } from '../src/apps'
 import { program } from '../src/cliCommands'
+import { spawn } from '../src/util/runShellCommand'
 import { pwd } from '../src/util/shell'
 import { stringify } from '../src/util/stringify'
 import { buildData, buildDataForApp } from './util/buildData'
@@ -37,24 +37,24 @@ export const buildCommand = (plop: NodePlopAPI) => {
   const GOBOT_BUILD_ACTION = localAction(
     plop,
     async (answers, config, plop) => {
-      await runShellCommand(`pnpm build:gobot`)
+      await spawn(`pnpm build:gobot`)
       return 'Built gobot'
     },
   )
 
   const DOCS_BUILD_ACTION = localAction(plop, async (answers, config, plop) => {
-    await runShellCommand(
-      `pnpm run docs --gitRevision ${getCurrentGitBranch()}`,
-    )
+    await spawn(`pnpm run docs --gitRevision ${getCurrentGitBranch()}`)
     return 'Built API docs'
   })
 
   const HELPER_TEMPLATE_BUILD_ACTION = localAction(
     plop,
     async (answers, config, plop) => {
-      await runShellCommand(`pnpm i`, `plop-templates/app/helper`)
-      await runShellCommand(`pnpm link ../../..`, `plop-templates/app/helper`)
-      await runShellCommand(`pnpm build`, `plop-templates/app/helper`)
+      await spawn(`pnpm i`, { cwd: `plop-templates/app/helper` })
+      await spawn(`pnpm link ../../..`, {
+        cwd: `plop-templates/app/helper`,
+      })
+      await spawn(`pnpm build`, { cwd: `plop-templates/app/helper` })
       return 'Built helper template'
     },
   )

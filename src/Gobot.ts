@@ -1,6 +1,11 @@
 import { find, flatMap, keys, uniq } from '@s-libs/micro-dash'
 import Bottleneck from 'bottleneck'
-import { spawn, type StdioOptions } from 'child_process'
+import {
+  type ChildProcessByStdio,
+  type SpawnOptionsWithStdioTuple,
+  type StdioNull,
+  type StdioPipe,
+} from 'child_process'
 import decompress from 'decompress'
 import decompressUnzip from 'decompress-unzip'
 import envPaths from 'env-paths'
@@ -11,11 +16,13 @@ import { arch as _arch, platform } from 'os'
 import { basename, join, resolve } from 'path'
 import { rimraf } from 'rimraf'
 import { compare, satisfies } from 'semver'
+import type { Readable } from 'stream'
 import decompressTarZ from '../packages/decompress-tar-z'
 import { GithubReleaseProvider } from './GithubReleaseProvider'
 import { downloadFile } from './util/downloadFile'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
+import { spawn } from './util/runShellCommand'
 import { sanitizeOptions } from './util/sanitize'
 import { mkdir, pwd } from './util/shell'
 import { stringify } from './util/stringify'
@@ -380,12 +387,21 @@ export class Gobot {
   }
 
   /**
-   * Run a binary.
-   * @param args The arguments to pass to `spawn()`
-   * @param options Globals will be used for `os`, `version`, `arch`, and `env` unless specified
-   * @returns
+   * Run a binary
+   * @param args Array of arguments to pass to the binary
+   * @param options Spawn options
+   * @param onProc Callback with child process after spawn() launches
+   * @returns Exit code from spawned process
    */
-  async run(args: string[], stdio: StdioOptions = 'inherit') {
+  async run(
+    args: string[],
+    options: Partial<
+      SpawnOptionsWithStdioTuple<StdioNull, StdioPipe, StdioPipe>
+    > = {},
+    onProc: (
+      proc: ChildProcessByStdio<null, Readable, Readable>,
+    ) => void = () => {},
+  ) {
     const fname = await this.getBinaryPath()
 
     // Ensure the binary is executable
@@ -398,13 +414,7 @@ export class Gobot {
     const _filteredArgs = this.filterArgs(args)
     dbg(`Filtered args`, _filteredArgs)
 
-    const proc = spawn(fname, _filteredArgs, {
-      env: this.env,
-      stdio,
-      cwd: pwd(),
-    })
-
-    return proc
+    return spawn([fname, ..._filteredArgs].join(' '), options, onProc)
   }
 }
 

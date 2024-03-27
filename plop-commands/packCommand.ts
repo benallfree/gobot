@@ -2,7 +2,7 @@ import Bottleneck from 'bottleneck'
 import { globSync } from 'glob'
 import { join } from 'path'
 import type { NodePlopAPI } from 'plop'
-import { runShellCommand } from '../runShellCommand'
+import { spawn } from '../src/util/runShellCommand'
 import { localAction } from './util/localAction'
 import { mkSubcommander } from './util/mkSubcommander'
 
@@ -19,7 +19,7 @@ export const packCommand = (plop: NodePlopAPI) => {
           console.log(`Pack exists, skipping ${path}`)
           return
         }
-        await limiter.schedule(() => runShellCommand(`npm pack --silent`, path))
+        await limiter.schedule(() => spawn(`npm pack --silent`, { cwd: path }))
       }),
     )
     return `Packed ${path}`

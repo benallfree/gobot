@@ -3,7 +3,7 @@ import Bottleneck from 'bottleneck'
 import { globSync } from 'glob'
 import { basename } from 'path'
 import type { NodePlopAPI } from 'plop'
-import { runShellCommand } from '../runShellCommand'
+import { spawn } from '../src/util/runShellCommand'
 import { cleanVerdaccioPackages } from './util/cleanVerdaccioPackages'
 import { localAction } from './util/localAction'
 import { mkSubcommander } from './util/mkSubcommander'
@@ -28,7 +28,7 @@ export const publishCommand = (plop: NodePlopAPI) => {
           const _tag =
             tag || `archive-${tgz.match(/(\d+\.\d+\.\d+(?:-.*?))\.tgz/)?.[1]!}`
           console.log(`Publishing ${tgz} to tag ${_tag}`)
-          await runShellCommand(`npm publish --tag ${_tag} ${p} ${tgz}`).catch(
+          await spawn(`npm publish --tag ${_tag} ${p} ${tgz}`).catch(
             console.warn,
           )
         }),

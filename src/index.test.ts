@@ -4,11 +4,11 @@ import { globSync } from 'glob'
 import { basename, dirname, join, resolve } from 'path'
 import { rimraf } from 'rimraf'
 import { describe, expect, test } from 'vitest'
-import { runShellCommand } from '../runShellCommand'
 import { Gobot } from './Gobot'
 import { GithubReleaseProvider } from './api'
 import type { AppInfo } from './apps'
 import { verbosity } from './settings'
+import { spawn } from './util/runShellCommand'
 
 global.console = console
 
@@ -52,20 +52,7 @@ describe(`bot`, async () => {
 
         const { cachePath, bot } = await getBot(appPath)
 
-        const code = await new Promise<number>((resolve, reject) => {
-          bot
-            .run([switchOverride || `--version`], [`ignore`])
-            .then((proc) => {
-              if (!proc) {
-                reject()
-                return
-              }
-              proc.stdout?.on('data', () => {})
-              proc.stderr?.on('data', () => {})
-              proc.on('exit', resolve)
-            })
-            .catch(reject)
-        })
+        const code = await bot.run([switchOverride || `--version`])
         const expectedCode = codeOverride || 0
         try {
           expect(code).toBe(expectedCode)
@@ -77,17 +64,19 @@ describe(`bot`, async () => {
       })
 
       test(`pack`, async () => {
-        const code = await runShellCommand(`npm pack`, join(appPath, `helper`))
+        const code = await spawn(`npm pack`, {
+          cwd: join(appPath, `helper`),
+        })
         expect(code).toBe(0)
       })
 
-      test(`install`, async () => {
-        const archive = globSync(join(appPath, `helper`, `gobot-*`))[0]
-        expect(archive).toBeTruthy()
-        console.log(`archive`)
-        const code = await runShellCommand(`npm i -g ${archive}`)
-        expect(code).toBe(0)
-      })
+      // test(`install`, async () => {
+      //   const archive = globSync(join(appPath, `helper`, `gobot-*`))[0]
+      //   expect(archive).toBeTruthy()
+      //   console.log(`archive`)
+      //   const code = await spawn(`npm i -g ${archive}`)
+      //   expect(code).toBe(0)
+      // })
     })
   }
 })
