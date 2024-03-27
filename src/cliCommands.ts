@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import { Argument, Command, Option } from 'commander'
 import { globSync } from 'glob'
 import { arch, platform } from 'os'
