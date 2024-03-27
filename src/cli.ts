@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { program } from './cliCommands'
 
 const main = async () => {

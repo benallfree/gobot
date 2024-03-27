@@ -4,6 +4,7 @@ import { globSync } from 'glob'
 import { basename, dirname, join, resolve } from 'path'
 import { rimraf } from 'rimraf'
 import { describe, expect, test } from 'vitest'
+import { runShellCommand } from '../runShellCommand'
 import { Gobot } from './Gobot'
 import { GithubReleaseProvider } from './api'
 import type { AppInfo } from './apps'
@@ -42,14 +43,7 @@ describe(`bot`, async () => {
         if (skipRun.includes(appSlug)) return
 
         const { switchOverride, codeOverride } = await (async () => {
-          const testOverridesPath = join(
-            appPath,
-            `..`,
-            `..`,
-            `apps`,
-            appSlug,
-            `test-overrides.ts`,
-          )
+          const testOverridesPath = join(appPath, `test-overrides.ts`)
           const module = await import(testOverridesPath).catch((e) => {
             //Noop, if module is not found
           })
@@ -80,6 +74,19 @@ describe(`bot`, async () => {
             `Expected ${appSlug} to exit with ${expectedCode} but got ${code}`,
           )
         }
+      })
+
+      test(`pack`, async () => {
+        const code = await runShellCommand(`npm pack`, join(appPath, `helper`))
+        expect(code).toBe(0)
+      })
+
+      test(`install`, async () => {
+        const archive = globSync(join(appPath, `helper`, `gobot-*`))[0]
+        expect(archive).toBeTruthy()
+        console.log(`archive`)
+        const code = await runShellCommand(`npm i -g ${archive}`)
+        expect(code).toBe(0)
       })
     })
   }
