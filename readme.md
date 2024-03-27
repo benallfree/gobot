@@ -121,53 +121,57 @@ bot.run([`--help`])
 
 Note: All Gobot options begin with `--g-` so as not to conflict with app option switches. Every unrecognized option is passed through to the app binary.
 
-**Global Options**
+**Global options**
 
-| Option                                  | Default       | Discussion                                   |
-| --------------------------------------- | ------------- | -------------------------------------------- |
-| &#x60;--g-help&#x60;                    | Show help     | Display help and options for Gobot           |
-| &#x60;--g-v[vv]&#x60;                   |               | Adjust output verbosity                      |
-| &#x60;--g-cache-path &lt;path&gt;&#x60; | host specific | Use the specified directory for cache files. |
+These options are available on every command:
 
-### `gobot <app> [gobotOptions] [appOptions]`
+| Name             | Default         | Discussion                |
+| ---------------- | --------------- | ------------------------- |
+| `--g-version`    |                 | output the version number |
+| `--g-v`          | `true`          | Show informational output |
+| `--g-vv`         | `false`         | Show even more output     |
+| `--g-vvv`        | `false`         | Show even more output     |
+| `--g-cache-path` | `host specific` | The cache path to use     |
 
-Run `<app>`. Gobot will download and cache the specific platform, architecture, and version you request and defaults to the latest version for the host platform and architecture.
+### `gobot <appName> [options]`
 
-| Option            | Default   | Discussion                                                                                                                                                   |
-| ----------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `--g-os <os>`     | host OS   | `aix`, `darwin`, `freebsd`,`linux`, `openbsd`, `sunos`, and `win32`                                                                                          |
-| `--g-arch <arch>` | host arch | `arm`, `arm64`, `ia32`, `loong64`, `mips`, `mipsel`, `ppc`, `ppc64`, `riscv64`, `s390`, `s390x`, and `x64`                                                   |
-| `--g-download`    | `false`   | Download all matching versions and exit                                                                                                                      |
-| `--g-refresh`     | `false`   | Clear the gobot cache                                                                                                                                        |
-| `--g-use-version` | latest    | Run a specific binary version, in [semver](https://semver.org/) format `x.y.z`. Also supports [semver ranges](https://www.npmjs.com/package/semver) `0.20.*` |
+Run a binary app. The app will be downloaded if it has not been downloaded yet. After that, you must run &#x27;gobot update &lt;appName&gt;&#x27; to make Gobot look for new versions.
 
-**Examples**
+**Options**
 
-```bash
-# Run `pocketbase serve`
-npx gobot pocketbase serve
+| Name              | Default         | Discussion                                                                  |
+| ----------------- | --------------- | --------------------------------------------------------------------------- |
+| `--g-use-version` | `*`             | Run a specific binary version (format: x.y.z semver or x.y.\* semver range) |
+| `--g-os`          | `host specific` | Specify OS/Platform                                                         |
+| `--g-arch`        | `host specific` | Specify OS/Platform                                                         |
 
-# Run in gobot debugging mode`
-npx gobot --g-debug
+### `gobot inspect [appName]`
 
-# Run a specific PocketBase version
-npx gobot pocketbase --g-use-version="0.21.0" # Run this exact version
-npx gobot pocketbase --g-use-version="~0.21.0" # Run highest 0.21.z version
-npx gobot pocketbase --g-use-version="0.*" # Run highest 0.y.z
+Display Gobot registry information. If [appName] is specified, Gobot will fresh release information and display. Otherwise, Gobot will display an overview of current registry information
 
-# Force gobot to dump cache and refresh PocketBase tags and binaries
-npx gobot pocketbase --g-refresh
-```
+### `gobot download <appName> [options]`
 
-### `gobot inspect <app> [gobotOptions]`
+Download versions of &lt;appName&gt;. Gobot will download and cache the specific platform, architecture, and versions you request, defaulting to downloading the latest version for the host platform and architecture.
 
-Output metadata info about `<app>`, including unofficial apps. This command is helpful for exploring support for new apps.
+**Options**
 
-| Option                  | Default       | Discussion                                   |
-| ----------------------- | ------------- | -------------------------------------------- |
-| `--g-help`              | Show help     | Display help and options for Gobot           |
-| `--g-v[vv]`             |               | Adjust output verbosity                      |
-| `--g-cache-path <path>` | host specific | Use the specified directory for cache files. |
+| Name              | Default         | Discussion                                                                       |
+| ----------------- | --------------- | -------------------------------------------------------------------------------- |
+| `--g-use-version` | `*`             | Download a specific binary version (format: x.y.z semver or x.y.\* semver range) |
+| `--g-os`          | `host specific` | Specify OS/Platform                                                              |
+| `--g-arch`        | `host specific` | Specify OS/Platform                                                              |
+
+### `gobot export <appName><format>`
+
+Export app version information
+
+### `gobot update <appName>`
+
+Pull the latest release history for &lt;appName&gt;, optionally.
+
+### `gobot reset [appName]`
+
+Reset caches. If [appName] is specified, only that app&#x27;s cache is reset. Otherwise, all caches are reset. Caches include release history and binary downloads. Use &#x27;gobot inspect&#x27; to learn more about host-specific cache locations and contents.
 
 ## API
 
