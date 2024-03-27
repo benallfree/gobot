@@ -1,5 +1,5 @@
 import { dirname, join } from 'path'
-import { AppInfo } from '../apps/'
+import type { AppInfo } from '../apps/'
 import { dbge } from './log'
 import { mkSetting } from './mkSetting'
 

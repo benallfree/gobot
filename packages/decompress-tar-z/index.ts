@@ -1,5 +1,5 @@
 import decompressTar from 'decompress-tar'
-import { FileExtension, fileTypeFromBuffer } from 'file-type'
+import { fileTypeFromBuffer, type FileExtension } from 'file-type'
 import { decompress } from 'lzma-native'
 import { basename } from 'path'
 import { PassThrough } from 'stream'
