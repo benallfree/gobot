@@ -79,7 +79,7 @@ export const botRun = async (appInfo: AppInfo) => {
           env: process.env,
         })
         if (refresh) {
-          await bot.clearCache()
+          await bot.reset()
         }
         if (download) {
           await bot.download()

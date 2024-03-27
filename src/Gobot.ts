@@ -1,16 +1,10 @@
 import { find, flatMap, keys, uniq } from '@s-libs/micro-dash'
 import Bottleneck from 'bottleneck'
-import { spawn } from 'child_process'
+import { spawn, type StdioOptions } from 'child_process'
 import decompress from 'decompress'
 import decompressUnzip from 'decompress-unzip'
 import envPaths from 'env-paths'
-import {
-  chmodSync,
-  existsSync,
-  readFileSync,
-  statSync,
-  writeFileSync,
-} from 'fs'
+import { chmodSync, existsSync, statSync, writeFileSync } from 'fs'
 import { globSync } from 'glob'
 import { markdownTable } from 'markdown-table'
 import { arch as _arch, platform } from 'os'
@@ -139,16 +133,26 @@ export class Gobot {
     return (...paths: string[]) => join(path, ...paths)
   }
 
+  async update() {
+    await this.clearAllReleases()
+    await this.releases()
+  }
+
   /**
    * Clear all items from cache (flush cache).
    */
-  async clearCache() {
+  async reset() {
     dbg(`Clearing cache:`, this.cacheRoot)
     await rimraf(this.cacheRoot)
   }
 
+  static async reset(cachePath = Gobot.DEFAULT_GOBOT_CACHE_ROOT()) {
+    dbg(`Clearing cache:`, cachePath)
+    await rimraf(cachePath)
+  }
+
   async download() {
-    const exactVersions = await this.versions()
+    const exactVersions = await this.getSatisfyingVersions(this.version)
 
     info(`Downloading versions`, exactVersions)
     const limiter = new Bottleneck({ maxConcurrent: 10 })
@@ -159,6 +163,15 @@ export class Gobot {
         })
       }),
     )
+  }
+
+  async clearAllReleases() {
+    await this.releaseProvider.reset()
+    await rimraf(this.cachePath()(RELEASES_NAME))
+  }
+
+  async clearStoredReleases() {
+    await rimraf(this.cachePath()(RELEASES_NAME))
   }
 
   async versions(type?: 'js'): Promise<string[]>
@@ -327,45 +340,19 @@ export class Gobot {
     return release
   }
 
-  async releases(options?: Partial<{ recalc: boolean; refetch: boolean }>) {
-    const { recalc = false, refetch = false } = options || {}
+  async releases() {
     const cachedReleasesFilePath = this.cachePath()(RELEASES_NAME)
     dbg(`Releases cache: ${cachedReleasesFilePath}`)
-    const cacheExists = existsSync(cachedReleasesFilePath)
-    dbg(`Release cache exists: ${cacheExists}`)
 
-    let cacheIsFresh = false
+    if (this.storedReleases) return this.storedReleases
 
-    if (cacheExists) {
-      const stats = statSync(cachedReleasesFilePath)
-      const now = new Date()
-      const cacheAge = (now.getTime() - stats.mtime.getTime()) / 1000 / 60 / 60
-      if (cacheAge < 24) {
-        cacheIsFresh = true
-      }
-    }
+    this.storedReleases = (await this.releaseProvider.reduceReleases()).sort(
+      (a, b) => this.compare(b.version, a.version),
+    )
 
-    dbg(`Release cache freshness: ${cacheIsFresh}`)
-
-    if (!cacheIsFresh || recalc || refetch) {
-      this.storedReleases = (
-        await this.releaseProvider.reduceReleases(refetch)
-      ).sort((a, b) => this.compare(b.version, a.version))
-
-      const json = stringify(this.storedReleases, null, 2)
-      writeFileSync(cachedReleasesFilePath, json)
-      dbg(`Stored releases from fetch`, cachedReleasesFilePath)
-    } else {
-      dbg('Using cached release tags data.')
-      this.storedReleases =
-        this.storedReleases ||
-        (
-          JSON.parse(
-            readFileSync(cachedReleasesFilePath, 'utf8').toString(),
-          ) as Release[]
-        ).sort((a, b) => this.compare(b.version, a.version))
-      dbg(`Stored releases from cache`, cachedReleasesFilePath)
-    }
+    const json = stringify(this.storedReleases, null, 2)
+    writeFileSync(cachedReleasesFilePath, json)
+    dbg(`Stored releases from fetch`, cachedReleasesFilePath)
 
     return this.storedReleases
   }
@@ -398,7 +385,7 @@ export class Gobot {
    * @param options Globals will be used for `os`, `version`, `arch`, and `env` unless specified
    * @returns
    */
-  async run(args: string[]) {
+  async run(args: string[], stdio: StdioOptions = 'inherit') {
     const fname = await this.getBinaryPath()
 
     // Ensure the binary is executable
@@ -413,7 +400,7 @@ export class Gobot {
 
     const proc = spawn(fname, _filteredArgs, {
       env: this.env,
-      stdio: 'inherit',
+      stdio,
       cwd: pwd(),
     })
 

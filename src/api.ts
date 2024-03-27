@@ -1,25 +1,25 @@
 import {
-  GithubRelease,
   GithubReleaseProvider,
-  GithubReleaseProviderOptions,
+  type GithubRelease,
+  type GithubReleaseProviderOptions,
 } from './GithubReleaseProvider'
-import { Gobot, GobotOptions } from './Gobot'
-import { AppInfo, isAppFactory } from './apps/'
+import { Gobot, type GobotOptions } from './Gobot'
+import { isAppFactory, type AppInfo } from './apps/'
 import { getApp } from './util/getApp'
 import { dbg } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { sanitizeOptions } from './util/sanitize'
 export * from './util/botrun'
 
-export { AppInfo }
+export { type AppInfo }
 
 export {
-  GithubRelease,
   GithubReleaseProvider,
-  GithubReleaseProviderOptions,
   Gobot,
-  GobotOptions,
   mergeConfig,
+  type GithubRelease,
+  type GithubReleaseProviderOptions,
+  type GobotOptions,
 }
 
 /**

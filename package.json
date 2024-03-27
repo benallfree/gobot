@@ -59,6 +59,7 @@
     "node-fetch": "^3.3.2",
     "rimraf": "^5.0.5",
     "semver": "^7.6.0",
+    "table": "^6.8.2",
     "tar-stream": "1.6.2",
     "unbzip2-stream": "^1.4.3"
   },

@@ -5,8 +5,13 @@ import { mkdir, readFile, writeFile } from 'fs/promises'
 import { dirname, join } from 'path'
 import { rimraf } from 'rimraf'
 import { valid } from 'semver'
-import { ReadonlyDeep } from 'type-fest'
-import { ArchKey, COMPRESSED_ARCHIVE_EXTS, PlatformKey, Release } from './Gobot'
+import type { ReadonlyDeep } from 'type-fest'
+import {
+  COMPRESSED_ARCHIVE_EXTS,
+  type ArchKey,
+  type PlatformKey,
+  type Release,
+} from './Gobot'
 import { mergeConfig } from './api'
 import { dbg, info } from './util/log'
 import { stringify } from './util/stringify'
@@ -154,8 +159,8 @@ export class GithubReleaseProvider {
     return isValid
   }
 
-  async reduceReleases(refetch = false) {
-    const remoteReleases = await this.remoteReleases(refetch)
+  async reduceReleases() {
+    const remoteReleases = await this.remoteReleases()
     const storedReleases = remoteReleases
       .filter((release) => this.isValidRelease(release))
       .map((release) => {
@@ -176,11 +181,15 @@ export class GithubReleaseProvider {
     return 'releases.json'
   }
 
-  async remoteReleases(force = false) {
+  async reset() {
+    await rimraf(join(this.cacheRoot))
+  }
+
+  async remoteReleases() {
     const releases = await this.fs.read<GithubReleaseCollection>(
       this.releasesKey,
     )
-    if (!force && releases) return releases
+    if (releases) return releases
     let page = 1
     const remoteReleases: GithubReleaseCollection = []
     do {
