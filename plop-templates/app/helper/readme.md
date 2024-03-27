@@ -86,7 +86,14 @@ npm i -g gobot-{{lowerCase slug}}
 npm i -g gobot-{{lowerCase slug}}@latest
 ```
 
-For more information, see Gobot's [main docs](https://www.npmjs.com/package/gobot) and [API docs](https://github.com/benallfree/gobot/blob/{{branch}}/docs/readme.md).
+## CLI
+
+`gobot-{{lowerCase slug}}` comes with a [bin](https://docs.npmjs.com/cli/v10/configuring-npm/package-json#bin) shortcut for CLI usage.
+
+##CLI##
+## API
+
+[Full API docs](https://github.com/benallfree/gobot/blob/{{branch}}/docs/readme.md)
 
 {{{notesMd}}}
 

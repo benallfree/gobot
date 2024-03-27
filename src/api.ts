@@ -9,7 +9,7 @@ import { getApp } from './util/getApp'
 import { dbg } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { sanitizeOptions } from './util/sanitize'
-export * from './util/botrun'
+export * from './util/cliForApp'
 
 export { type AppInfo }
 

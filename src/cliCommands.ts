@@ -10,7 +10,7 @@ import { Gobot, gobot, type AppInfo } from './api'
 import { verbosity } from './settings'
 import { dbg, info } from './util/log'
 
-class Arg extends Argument {
+export class Arg extends Argument {
   toJSON() {
     return {
       description: this.description,
@@ -20,7 +20,7 @@ class Arg extends Argument {
     }
   }
 }
-class Cmd extends Command {
+export class Cmd extends Command {
   toJSON() {
     return {
       name: this.name(),
@@ -34,7 +34,7 @@ class Cmd extends Command {
   }
 }
 
-class Opt extends Option {
+export class Opt extends Option {
   toJSON() {
     return {
       name: this.name(),
@@ -79,12 +79,11 @@ program.addCommand(
     )
     .allowUnknownOption()
     .allowExcessArguments()
-    .helpOption(`--g-help`)
     .addOption(
       new Opt(
         `--g-use-version <version>`,
         `Run a specific binary version (format: x.y.z semver or x.y.* semver range)`,
-      ).default(``, `*`),
+      ).default(`*`, `*`),
     )
     .addOption(
       new Opt(`--g-os <os>`, `Specify OS/Platform`).default(
@@ -116,7 +115,7 @@ program.addCommand(
         const bot = await gobot(appName, {
           os,
           arch,
-          version: gUseVersion || `*`,
+          version: gUseVersion,
           cachePath,
           env: process.env,
         })

@@ -4,7 +4,10 @@ import { dirname, join } from 'path'
 import type { NodePlopAPI } from 'plop'
 import sharp from 'sharp'
 import { runShellCommand } from '../runShellCommand'
+import { cliForApp } from '../src/api'
+import type { AppInfo } from '../src/apps'
 import { program } from '../src/cliCommands'
+import { pwd } from '../src/util/shell'
 import { stringify } from '../src/util/stringify'
 import { buildData, buildDataForApp } from './util/buildData'
 import { getCurrentGitBranch } from './util/getCurrentGitBranch'
@@ -206,6 +209,26 @@ export const buildCommand = (plop: NodePlopAPI) => {
                     template: slug,
                   }
                 }),
+                {
+                  type: 'modify',
+                  path: `src/apps/${slug}/helper/readme.md`,
+                  pattern: /##CLI##/,
+                  templateFile: `plop-templates/readme/cli.helper.md.hbs`,
+                  data: async () => {
+                    const appInfo = {
+                      ...(
+                        await import(
+                          join(pwd(), `/src/apps/${slug}/helper/dist/api.js`)
+                        )
+                      ).meta,
+                      name: slug,
+                    } as AppInfo
+                    const program = cliForApp(appInfo)
+                    const serialized = JSON.parse(stringify(program))
+                    console.log({ serialized })
+                    return { program: serialized, global: serialized }
+                  },
+                },
                 {
                   type: 'modify',
                   path: `src/apps/${slug}/helper/readme.md`,
