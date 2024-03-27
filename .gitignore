@@ -10,3 +10,4 @@
 .restic
 *.log
 src/apps/*/test-data/archives
+.vscode
