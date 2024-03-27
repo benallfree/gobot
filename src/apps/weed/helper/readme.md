@@ -91,22 +91,20 @@ npm i -g gobot-weed@latest
 `gobot-weed` comes with a [bin](https://docs.npmjs.com/cli/v10/configuring-npm/package-json#bin) shortcut for CLI usage.
 
 ### `weed  [options]`
+
 weed (https://github.com/seaweedfs/seaweedfs) runner for Gobot (https://github.com/benallfree/gobot)
 
 **Options**
 
-|Name|Default|Discussion|
-|---|---|---|
-| `--g-v` | `true` | Show informational output |
-| `--g-vv` | `false` | Show even more output |
-| `--g-vvv` | `false` | Show even more output |
-| `--g-cache-path` | `host specific` | The cache path to use |
-| `--g-use-version` | `*` | Run a specific binary version (format: x.y.z semver or x.y.* semver range) |
-| `--g-os` | `host specific` | Specify OS/Platform |
-| `--g-arch` | `host specific` | Specify OS/Platform |
-
-
-
+| Name              | Default         | Discussion                                                                  |
+| ----------------- | --------------- | --------------------------------------------------------------------------- |
+| `--g-v`           | `true`          | Show informational output                                                   |
+| `--g-vv`          | `false`         | Show even more output                                                       |
+| `--g-vvv`         | `false`         | Show even more output                                                       |
+| `--g-cache-path`  | `host specific` | The cache path to use                                                       |
+| `--g-use-version` | `*`             | Run a specific binary version (format: x.y.z semver or x.y.\* semver range) |
+| `--g-os`          | `host specific` | Specify OS/Platform                                                         |
+| `--g-arch`        | `host specific` | Specify OS/Platform                                                         |
 
 ## API
 
@@ -117,7 +115,6 @@ weed (https://github.com/seaweedfs/seaweedfs) runner for Gobot (https://github.c
 ### Versioning
 
 SeaweedFS uses two-part versions, but Gobot and npm require three-part semver. A `.0` _patch_ part has been added for compatibility.
-
 
 ## Sample project
 
@@ -171,7 +168,6 @@ To test a build locally:
 ```bash
 pnpm test
 ```
-
 
 ## All known releases
 

@@ -8,7 +8,7 @@
     "clean": "rimraf dist",
     "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-adguardhome && npm i -g gobot-adguardhome-0.108.0-b.54.tgz && AdGuardHome --g-refresh --g-vvv --help",
+    "test": "npm pack && npm rm -g gobot-adguardhome && npm i -g gobot-adguardhome-`cat package.json | fx '.version'`.tgz && AdGuardHome --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

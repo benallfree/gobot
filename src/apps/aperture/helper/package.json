@@ -8,7 +8,7 @@
     "clean": "rimraf dist",
     "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-aperture && npm i -g gobot-aperture-2.34.0.tgz && aperture --g-refresh --g-vvv --help",
+    "test": "npm pack && npm rm -g gobot-aperture && npm i -g gobot-aperture-`cat package.json | fx '.version'`.tgz && aperture --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

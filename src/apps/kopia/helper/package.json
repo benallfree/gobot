@@ -8,7 +8,7 @@
     "clean": "rimraf dist",
     "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-kopia && npm i -g gobot-kopia-0.15.0.tgz && kopia --g-refresh --g-vvv --help",
+    "test": "npm pack && npm rm -g gobot-kopia && npm i -g gobot-kopia-`cat package.json | fx '.version'`.tgz && kopia --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

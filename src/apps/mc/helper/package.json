@@ -8,7 +8,7 @@
     "clean": "rimraf dist",
     "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-mc && npm i -g gobot-mc-2024.3.20210729.tgz && mc --g-refresh --g-vvv --help",
+    "test": "npm pack && npm rm -g gobot-mc && npm i -g gobot-mc-`cat package.json | fx '.version'`.tgz && mc --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

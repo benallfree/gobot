@@ -5,4 +5,3 @@ import { meta } from './meta'
 
 const program = cliForApp(meta)
 program.parseAsync(process.argv)
-

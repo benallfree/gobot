@@ -91,22 +91,20 @@ npm i -g gobot-micro@latest
 `gobot-micro` comes with a [bin](https://docs.npmjs.com/cli/v10/configuring-npm/package-json#bin) shortcut for CLI usage.
 
 ### `micro  [options]`
+
 micro (https://micro-editor.github.io) runner for Gobot (https://github.com/benallfree/gobot)
 
 **Options**
 
-|Name|Default|Discussion|
-|---|---|---|
-| `--g-v` | `true` | Show informational output |
-| `--g-vv` | `false` | Show even more output |
-| `--g-vvv` | `false` | Show even more output |
-| `--g-cache-path` | `host specific` | The cache path to use |
-| `--g-use-version` | `*` | Run a specific binary version (format: x.y.z semver or x.y.* semver range) |
-| `--g-os` | `host specific` | Specify OS/Platform |
-| `--g-arch` | `host specific` | Specify OS/Platform |
-
-
-
+| Name              | Default         | Discussion                                                                  |
+| ----------------- | --------------- | --------------------------------------------------------------------------- |
+| `--g-v`           | `true`          | Show informational output                                                   |
+| `--g-vv`          | `false`         | Show even more output                                                       |
+| `--g-vvv`         | `false`         | Show even more output                                                       |
+| `--g-cache-path`  | `host specific` | The cache path to use                                                       |
+| `--g-use-version` | `*`             | Run a specific binary version (format: x.y.z semver or x.y.\* semver range) |
+| `--g-os`          | `host specific` | Specify OS/Platform                                                         |
+| `--g-arch`        | `host specific` | Specify OS/Platform                                                         |
 
 ## API
 
@@ -115,7 +113,6 @@ micro (https://micro-editor.github.io) runner for Gobot (https://github.com/bena
 ## Quirks
 
 Due to unusual release naming conventions, not all builds of `micro` are indexed by Gobot. To index more would require writing a custom provider or adjusting naming convention for future releases.
-
 
 ## Sample project
 
@@ -169,7 +166,6 @@ To test a build locally:
 ```bash
 pnpm test
 ```
-
 
 ## All known releases
 
