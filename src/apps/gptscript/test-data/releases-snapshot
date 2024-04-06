@@ -5,28 +5,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.2/gptscript-v0.2.2-windows-amd64.zip"
+      }
     },
-    "version": "0.2.2",
+    "version": "0.2.2"
   },
   {
     "allUrls": [
@@ -34,28 +34,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.1/gptscript-v0.2.1-windows-amd64.zip"
+      }
     },
-    "version": "0.2.1",
+    "version": "0.2.1"
   },
   {
     "allUrls": [
@@ -63,28 +63,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0/gptscript-v0.2.0-windows-amd64.zip"
+      }
     },
-    "version": "0.2.0",
+    "version": "0.2.0"
   },
   {
     "allUrls": [
@@ -92,28 +92,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.2.0-rc1/gptscript-v0.2.0-rc1-windows-amd64.zip"
+      }
     },
-    "version": "0.2.0-rc1",
+    "version": "0.2.0-rc1"
   },
   {
     "allUrls": [
@@ -121,28 +121,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.5/gptscript-v0.1.5-windows-amd64.zip"
+      }
     },
-    "version": "0.1.5",
+    "version": "0.1.5"
   },
   {
     "allUrls": [
@@ -150,28 +150,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.4/gptscript-v0.1.4-windows-amd64.zip"
+      }
     },
-    "version": "0.1.4",
+    "version": "0.1.4"
   },
   {
     "allUrls": [
@@ -179,28 +179,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3/gptscript-v0.1.3-windows-amd64.zip"
+      }
     },
-    "version": "0.1.3",
+    "version": "0.1.3"
   },
   {
     "allUrls": [
@@ -208,28 +208,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc4/gptscript-v0.1.3-rc4-windows-amd64.zip"
+      }
     },
-    "version": "0.1.3-rc4",
+    "version": "0.1.3-rc4"
   },
   {
     "allUrls": [
@@ -237,28 +237,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc3/gptscript-v0.1.3-rc3-windows-amd64.zip"
+      }
     },
-    "version": "0.1.3-rc3",
+    "version": "0.1.3-rc3"
   },
   {
     "allUrls": [
@@ -266,28 +266,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc2/gptscript-v0.1.3-rc2-windows-amd64.zip"
+      }
     },
-    "version": "0.1.3-rc2",
+    "version": "0.1.3-rc2"
   },
   {
     "allUrls": [
@@ -295,28 +295,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.3-rc1/gptscript-v0.1.3-rc1-windows-amd64.zip"
+      }
     },
-    "version": "0.1.3-rc1",
+    "version": "0.1.3-rc1"
   },
   {
     "allUrls": [
@@ -324,28 +324,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.2/gptscript-v0.1.2-windows-amd64.zip"
+      }
     },
-    "version": "0.1.2",
+    "version": "0.1.2"
   },
   {
     "allUrls": [
@@ -353,28 +353,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.1/gptscript-v0.1.1-windows-amd64.zip"
+      }
     },
-    "version": "0.1.1",
+    "version": "0.1.1"
   },
   {
     "allUrls": [
@@ -382,28 +382,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.1.0/gptscript-v0.1.0-windows-amd64.zip"
+      }
     },
-    "version": "0.1.0",
+    "version": "0.1.0"
   },
   {
     "allUrls": [
@@ -411,28 +411,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.3/gptscript-v0.0.3-windows-amd64.zip"
+      }
     },
-    "version": "0.0.3",
+    "version": "0.0.3"
   },
   {
     "allUrls": [
@@ -440,28 +440,28 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.2/gptscript-v0.0.2-windows-amd64.zip"
+      }
     },
-    "version": "0.0.2",
+    "version": "0.0.2"
   },
   {
     "allUrls": [
@@ -469,27 +469,27 @@
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-linux-amd64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-linux-arm64.tar.gz",
       "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-macOS-universal.tar.gz",
-      "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-windows-amd64.zip",
+      "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-macOS-universal.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-macOS-universal.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-macOS-universal.tar.gz"
       },
       "linux": {
         "arm64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-linux-arm64.tar.gz",
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-linux-amd64.tar.gz",
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gptscript-ai/gptscript/releases/download/v0.0.1/gptscript-v0.0.1-windows-amd64.zip"
+      }
     },
-    "version": "0.0.1",
-  },
+    "version": "0.0.1"
+  }
 ]

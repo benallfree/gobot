@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.34/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-pulumi) ![](https://img.shields.io/npm/dt/gobot-pulumi) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -92,7 +92,7 @@ npm i -g gobot-pulumi@latest
 
 ### `pulumi  [options]`
 
-pulumi (https://www.pulumi.com) runner for Gobot (https://github.com/benallfree/gobot)
+Pulumi (https://www.pulumi.com) runner for Gobot (https://github.com/benallfree/gobot)
 
 **Options**
 
@@ -108,11 +108,11 @@ pulumi (https://www.pulumi.com) runner for Gobot (https://github.com/benallfree/
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.34/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
 
 ## Sample project
 
-View the [Pulumi sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.34/src/apps/pulumi/sample-project) on github.
+View the [Pulumi sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/pulumi/sample-project) on github.
 
 ## Try Gobot's other apps
 

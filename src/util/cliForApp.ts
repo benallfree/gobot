@@ -1,16 +1,23 @@
 import { arch, platform } from 'os'
-import { gobot, type AppInfo } from '../api'
+import { gobot } from '../api'
 import { Cmd, Opt } from '../cliCommands'
 import { verbosity } from '../settings'
 import { dbg } from './log'
 
-export const cliForApp = (appInfo: AppInfo) => {
+export type AppInfoMeta = {
+  name: string
+  homepage: string
+  version: string
+  slug: string
+}
+
+export const cliForApp = (appInfo: AppInfoMeta) => {
   const program = new Cmd()
 
-  const { name, homepage, version } = appInfo
+  const { name, homepage, version, slug } = appInfo
 
   program
-    .name(name)
+    .name(slug)
     .description(
       `${name} (${homepage}) runner for Gobot (https://github.com/benallfree/gobot)`,
     )
@@ -50,7 +57,7 @@ export const cliForApp = (appInfo: AppInfo) => {
         `host specific`,
       ),
     )
-    .action(async (appName, options, command) => {
+    .action(async (options, command) => {
       const {
         gV,
         gVv,
@@ -62,17 +69,17 @@ export const cliForApp = (appInfo: AppInfo) => {
         gDownload: download,
       } = command.optsWithGlobals()
       verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
-      dbg(`CLI:`, appName, command.optsWithGlobals())
+      dbg(`CLI:`, name, command.optsWithGlobals())
 
       try {
-        const bot = await gobot(appName, {
+        const bot = await gobot(slug, {
           os,
           arch,
           version: gUseVersion,
           cachePath,
           env: process.env,
         })
-        const args = command.args.slice(1)
+        const args = process.argv.slice(2)
         dbg(`Forwarding args: `, args)
         await bot.run(args)
       } catch (e) {

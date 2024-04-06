@@ -1,14 +1,12 @@
 {
   "name": "gobot-hugo",
-  "version": "0.124.1-alpha.19",
+  "version": "0.124.1-alpha.20",
   "description": "Hugo helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
   "scripts": {
     "clean": "rimraf dist",
-    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-hugo && npm i -g gobot-hugo-`cat package.json | fx '.version'`.tgz && hugo --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

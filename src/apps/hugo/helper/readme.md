@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.34/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-hugo) ![](https://img.shields.io/npm/dt/gobot-hugo) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -92,7 +92,7 @@ npm i -g gobot-hugo@latest
 
 ### `hugo  [options]`
 
-hugo (https://gohugo.io/) runner for Gobot (https://github.com/benallfree/gobot)
+Hugo (https://gohugo.io/) runner for Gobot (https://github.com/benallfree/gobot)
 
 **Options**
 
@@ -108,7 +108,7 @@ hugo (https://gohugo.io/) runner for Gobot (https://github.com/benallfree/gobot)
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.34/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
 
 ## Quirks
 
@@ -128,7 +128,7 @@ yarn add postcss postcss-cli autoprefixer --dev
 
 ## Sample project
 
-View the [Hugo sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.34/src/apps/hugo/sample-project) on github.
+View the [Hugo sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/hugo/sample-project) on github.
 
 ## Try Gobot's other apps
 

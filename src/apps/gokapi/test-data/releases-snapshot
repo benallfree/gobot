@@ -7,7 +7,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-linux_amd64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-linux_arm64.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-darwin_amd64.zip",
@@ -16,24 +16,24 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-linux_amd64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-linux_arm64.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-darwin_arm64.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-linux_amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.1/gokapi-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.8.1",
+    "version": "1.8.1"
   },
   {
     "allUrls": [
@@ -43,7 +43,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-linux_amd64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-linux_arm64.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-darwin_amd64.zip",
@@ -52,24 +52,24 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-linux_amd64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-linux_arm64.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-darwin_arm64.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-linux_amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.8.0/gokapi-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.8.0",
+    "version": "1.8.0"
   },
   {
     "allUrls": [
@@ -80,7 +80,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-darwin_amd64.zip",
@@ -90,25 +90,25 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-darwin_arm64.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.2/gokapi-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.7.2",
+    "version": "1.7.2"
   },
   {
     "allUrls": [
@@ -119,7 +119,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-darwin_amd64.zip",
@@ -129,25 +129,25 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-darwin_arm64.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.7.1/gokapi-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.7.1",
+    "version": "1.7.1"
   },
   {
     "allUrls": [
@@ -158,7 +158,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-darwin_amd64.zip",
@@ -168,25 +168,25 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-darwin_arm64.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.2/gokapi-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.6.2",
+    "version": "1.6.2"
   },
   {
     "allUrls": [
@@ -197,7 +197,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-darwin_amd64.zip",
@@ -207,25 +207,25 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-darwin_arm64.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.1/gokapi-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.6.1",
+    "version": "1.6.1"
   },
   {
     "allUrls": [
@@ -236,7 +236,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-darwin_amd64.zip",
@@ -246,25 +246,25 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-darwin_arm64.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.6.0/gokapi-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.6.0",
+    "version": "1.6.0"
   },
   {
     "allUrls": [
@@ -283,7 +283,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_full-darwin_amd64.zip",
@@ -301,25 +301,25 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-darwin_arm64.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.2/gokapi_noaws-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.5.2",
+    "version": "1.5.2"
   },
   {
     "allUrls": [
@@ -338,7 +338,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_full-darwin_amd64.zip",
@@ -356,25 +356,25 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-darwin_arm64.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.1/gokapi_noaws-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.5.1",
+    "version": "1.5.1"
   },
   {
     "allUrls": [
@@ -393,7 +393,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_full-darwin_amd64.zip",
@@ -411,25 +411,25 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-darwin_arm64.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0/gokapi_noaws-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.5.0",
+    "version": "1.5.0"
   },
   {
     "allUrls": [
@@ -446,7 +446,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_full-darwin_amd64.zip",
@@ -462,24 +462,24 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.5.0-beta1/gokapi_noaws-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.5.0-beta1",
+    "version": "1.5.0-beta1"
   },
   {
     "allUrls": [
@@ -496,7 +496,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_full-darwin_amd64.zip",
@@ -512,24 +512,24 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.1/gokapi_noaws-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.3.1",
+    "version": "1.3.1"
   },
   {
     "allUrls": [
@@ -546,7 +546,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_full-darwin_amd64.zip",
@@ -562,24 +562,24 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.3.0/gokapi_noaws-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.3.0",
+    "version": "1.3.0"
   },
   {
     "allUrls": [
@@ -589,7 +589,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-darwin_amd64.zip",
@@ -598,24 +598,24 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.2.0/gokapi-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.2.0",
+    "version": "1.2.0"
   },
   {
     "allUrls": [
@@ -625,7 +625,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-darwin_amd64.zip",
@@ -634,24 +634,24 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.3/gokapi-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.1.3",
+    "version": "1.1.3"
   },
   {
     "allUrls": [
@@ -661,7 +661,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-darwin_amd64.zip",
@@ -670,24 +670,24 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.2/gokapi-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.1.2",
+    "version": "1.1.2"
   },
   {
     "allUrls": [
@@ -697,7 +697,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-darwin_amd64.zip",
@@ -706,24 +706,24 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.1.0/gokapi-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.1.0",
+    "version": "1.1.0"
   },
   {
     "allUrls": [
@@ -733,7 +733,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-darwin_amd64.zip",
@@ -742,24 +742,24 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.0.1/gokapi-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.0.1",
+    "version": "1.0.1"
   },
   {
     "allUrls": [
@@ -769,7 +769,7 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-windows_amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-darwin_amd64.zip",
@@ -778,23 +778,23 @@
       "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-linux_arm.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-linux_arm64.zip",
       "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-windows_386.exe.zip",
-      "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-windows_amd64.exe.zip",
+      "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-windows_amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-darwin_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-darwin_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-linux_arm.zip",
         "arm64": "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-linux_arm64.zip",
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-linux_386.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-linux_amd64.zip",
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-windows_386.exe.zip",
-        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-windows_amd64.exe.zip",
-      },
+        "x64": "https://github.com/Forceu/Gokapi/releases/download/v1.0/gokapi-windows_amd64.exe.zip"
+      }
     },
-    "version": "1.0.0",
-  },
+    "version": "1.0.0"
+  }
 ]

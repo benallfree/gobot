@@ -54,7 +54,7 @@
       "https://github.com/grafana/loki/releases/download/v2.9.6/promtail_2.9.6_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.6/promtail_2.9.6_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.6/promtail_2.9.6_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.9.6/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.9.6/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.9.6/logcli-darwin-amd64.zip",
@@ -85,27 +85,27 @@
       "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.6/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.9.6",
+    "version": "2.9.6"
   },
   {
     "allUrls": [
@@ -162,7 +162,7 @@
       "https://github.com/grafana/loki/releases/download/v2.9.5/promtail_2.9.5_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.5/promtail_2.9.5_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.5/promtail_2.9.5_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.9.5/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.9.5/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.9.5/logcli-darwin-amd64.zip",
@@ -193,27 +193,27 @@
       "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.5/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.9.5",
+    "version": "2.9.5"
   },
   {
     "allUrls": [
@@ -270,7 +270,7 @@
       "https://github.com/grafana/loki/releases/download/v2.9.4/promtail_2.9.4_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.4/promtail_2.9.4_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.4/promtail_2.9.4_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.9.4/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.9.4/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.9.4/logcli-darwin-amd64.zip",
@@ -301,27 +301,27 @@
       "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.4/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.9.4",
+    "version": "2.9.4"
   },
   {
     "allUrls": [
@@ -378,7 +378,7 @@
       "https://github.com/grafana/loki/releases/download/v2.9.3/promtail_2.9.3_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.3/promtail_2.9.3_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.3/promtail_2.9.3_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.9.3/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.9.3/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.9.3/logcli-darwin-amd64.zip",
@@ -409,27 +409,27 @@
       "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.3/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.9.3",
+    "version": "2.9.3"
   },
   {
     "allUrls": [
@@ -486,7 +486,7 @@
       "https://github.com/grafana/loki/releases/download/v2.9.2/promtail_2.9.2_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.2/promtail_2.9.2_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.2/promtail_2.9.2_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.9.2/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.9.2/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.9.2/logcli-darwin-amd64.zip",
@@ -517,27 +517,27 @@
       "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.2/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.9.2",
+    "version": "2.9.2"
   },
   {
     "allUrls": [
@@ -594,7 +594,7 @@
       "https://github.com/grafana/loki/releases/download/v2.9.1/promtail_2.9.1_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.1/promtail_2.9.1_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.1/promtail_2.9.1_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.9.1/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.9.1/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.9.1/logcli-darwin-amd64.zip",
@@ -625,27 +625,27 @@
       "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.1/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.9.1",
+    "version": "2.9.1"
   },
   {
     "allUrls": [
@@ -702,7 +702,7 @@
       "https://github.com/grafana/loki/releases/download/v2.9.0/promtail_2.9.0_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.0/promtail_2.9.0_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.9.0/promtail_2.9.0_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.9.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.9.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.9.0/logcli-darwin-amd64.zip",
@@ -733,27 +733,27 @@
       "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.9.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.9.0",
+    "version": "2.9.0"
   },
   {
     "allUrls": [
@@ -810,7 +810,7 @@
       "https://github.com/grafana/loki/releases/download/v2.8.11/promtail_2.8.11_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.11/promtail_2.8.11_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.11/promtail_2.8.11_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.8.11/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.8.11/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.8.11/logcli-darwin-amd64.zip",
@@ -841,27 +841,27 @@
       "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.11/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.8.11",
+    "version": "2.8.11"
   },
   {
     "allUrls": [
@@ -918,7 +918,7 @@
       "https://github.com/grafana/loki/releases/download/v2.8.10/promtail_2.8.10_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.10/promtail_2.8.10_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.10/promtail_2.8.10_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.8.10/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.8.10/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.8.10/logcli-darwin-amd64.zip",
@@ -949,27 +949,27 @@
       "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.10/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.8.10",
+    "version": "2.8.10"
   },
   {
     "allUrls": [
@@ -1026,7 +1026,7 @@
       "https://github.com/grafana/loki/releases/download/v2.8.9/promtail_2.8.9_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.9/promtail_2.8.9_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.9/promtail_2.8.9_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.8.9/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.8.9/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.8.9/logcli-darwin-amd64.zip",
@@ -1057,27 +1057,27 @@
       "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.9/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.8.9",
+    "version": "2.8.9"
   },
   {
     "allUrls": [
@@ -1134,7 +1134,7 @@
       "https://github.com/grafana/loki/releases/download/v2.8.8/promtail_2.8.8_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.8/promtail_2.8.8_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.8/promtail_2.8.8_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.8.8/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.8.8/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.8.8/logcli-darwin-amd64.zip",
@@ -1165,27 +1165,27 @@
       "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.8/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.8.8",
+    "version": "2.8.8"
   },
   {
     "allUrls": [
@@ -1242,7 +1242,7 @@
       "https://github.com/grafana/loki/releases/download/v2.8.7/promtail_2.8.7_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.7/promtail_2.8.7_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.7/promtail_2.8.7_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.8.7/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.8.7/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.8.7/logcli-darwin-amd64.zip",
@@ -1273,27 +1273,27 @@
       "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.7/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.8.7",
+    "version": "2.8.7"
   },
   {
     "allUrls": [
@@ -1350,7 +1350,7 @@
       "https://github.com/grafana/loki/releases/download/v2.8.6/promtail_2.8.6_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.6/promtail_2.8.6_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.6/promtail_2.8.6_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.8.6/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.8.6/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.8.6/logcli-darwin-amd64.zip",
@@ -1381,27 +1381,27 @@
       "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.6/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.8.6",
+    "version": "2.8.6"
   },
   {
     "allUrls": [
@@ -1458,7 +1458,7 @@
       "https://github.com/grafana/loki/releases/download/v2.8.5/promtail_2.8.5_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.5/promtail_2.8.5_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.5/promtail_2.8.5_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.8.5/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.8.5/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.8.5/logcli-darwin-amd64.zip",
@@ -1489,27 +1489,27 @@
       "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.5/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.8.5",
+    "version": "2.8.5"
   },
   {
     "allUrls": [
@@ -1566,7 +1566,7 @@
       "https://github.com/grafana/loki/releases/download/v2.8.4/promtail_2.8.4_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.4/promtail_2.8.4_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.4/promtail_2.8.4_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.8.4/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.8.4/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.8.4/logcli-darwin-amd64.zip",
@@ -1597,27 +1597,27 @@
       "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.4/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.8.4",
+    "version": "2.8.4"
   },
   {
     "allUrls": [
@@ -1674,7 +1674,7 @@
       "https://github.com/grafana/loki/releases/download/v2.8.3/promtail_2.8.3_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.3/promtail_2.8.3_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.3/promtail_2.8.3_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.8.3/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.8.3/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.8.3/logcli-darwin-amd64.zip",
@@ -1705,27 +1705,27 @@
       "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.3/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.8.3",
+    "version": "2.8.3"
   },
   {
     "allUrls": [
@@ -1782,7 +1782,7 @@
       "https://github.com/grafana/loki/releases/download/v2.8.2/promtail_2.8.2_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.2/promtail_2.8.2_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.2/promtail_2.8.2_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.8.2/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.8.2/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.8.2/logcli-darwin-amd64.zip",
@@ -1813,27 +1813,27 @@
       "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.2/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.8.2",
+    "version": "2.8.2"
   },
   {
     "allUrls": [
@@ -1890,7 +1890,7 @@
       "https://github.com/grafana/loki/releases/download/v2.8.1/promtail_2.8.1_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.1/promtail_2.8.1_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.1/promtail_2.8.1_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.8.1/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.8.1/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.8.1/logcli-darwin-amd64.zip",
@@ -1921,27 +1921,27 @@
       "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.1/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.8.1",
+    "version": "2.8.1"
   },
   {
     "allUrls": [
@@ -1998,7 +1998,7 @@
       "https://github.com/grafana/loki/releases/download/v2.8.0/promtail_2.8.0_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.0/promtail_2.8.0_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.8.0/promtail_2.8.0_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.8.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.8.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.8.0/logcli-darwin-amd64.zip",
@@ -2029,27 +2029,27 @@
       "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.8.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.8.0",
+    "version": "2.8.0"
   },
   {
     "allUrls": [
@@ -2106,7 +2106,7 @@
       "https://github.com/grafana/loki/releases/download/v2.7.7/promtail_2.7.7_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.7/promtail_2.7.7_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.7/promtail_2.7.7_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.7.7/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.7.7/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.7.7/logcli-darwin-amd64.zip",
@@ -2137,27 +2137,27 @@
       "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.7/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.7.7",
+    "version": "2.7.7"
   },
   {
     "allUrls": [
@@ -2214,7 +2214,7 @@
       "https://github.com/grafana/loki/releases/download/v2.7.6/promtail_2.7.6_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.6/promtail_2.7.6_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.6/promtail_2.7.6_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.7.6/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.7.6/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.7.6/logcli-darwin-amd64.zip",
@@ -2245,27 +2245,27 @@
       "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.6/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.7.6",
+    "version": "2.7.6"
   },
   {
     "allUrls": [
@@ -2322,7 +2322,7 @@
       "https://github.com/grafana/loki/releases/download/v2.7.5/promtail_2.7.5_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.5/promtail_2.7.5_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.5/promtail_2.7.5_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.7.5/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.7.5/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.7.5/logcli-darwin-amd64.zip",
@@ -2353,27 +2353,27 @@
       "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.5/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.7.5",
+    "version": "2.7.5"
   },
   {
     "allUrls": [
@@ -2430,7 +2430,7 @@
       "https://github.com/grafana/loki/releases/download/v2.7.4/promtail_2.7.4_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.4/promtail_2.7.4_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.4/promtail_2.7.4_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.7.4/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.7.4/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.7.4/logcli-darwin-amd64.zip",
@@ -2461,27 +2461,27 @@
       "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.4/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.7.4",
+    "version": "2.7.4"
   },
   {
     "allUrls": [
@@ -2538,7 +2538,7 @@
       "https://github.com/grafana/loki/releases/download/v2.7.3/promtail_2.7.3_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.3/promtail_2.7.3_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.3/promtail_2.7.3_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.7.3/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.7.3/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.7.3/logcli-darwin-amd64.zip",
@@ -2569,27 +2569,27 @@
       "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.3/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.7.3",
+    "version": "2.7.3"
   },
   {
     "allUrls": [
@@ -2646,7 +2646,7 @@
       "https://github.com/grafana/loki/releases/download/v2.7.2/promtail_2.7.2_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.2/promtail_2.7.2_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.2/promtail_2.7.2_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.7.2/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.7.2/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.7.2/logcli-darwin-amd64.zip",
@@ -2677,27 +2677,27 @@
       "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.2/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.7.2",
+    "version": "2.7.2"
   },
   {
     "allUrls": [
@@ -2754,7 +2754,7 @@
       "https://github.com/grafana/loki/releases/download/v2.7.1/promtail_2.7.1_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.1/promtail_2.7.1_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.1/promtail_2.7.1_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.7.1/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.7.1/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.7.1/logcli-darwin-amd64.zip",
@@ -2785,27 +2785,27 @@
       "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.1/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.7.1",
+    "version": "2.7.1"
   },
   {
     "allUrls": [
@@ -2862,7 +2862,7 @@
       "https://github.com/grafana/loki/releases/download/v2.7.0/promtail_2.7.0_amd64.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.0/promtail_2.7.0_arm.deb",
       "https://github.com/grafana/loki/releases/download/v2.7.0/promtail_2.7.0_arm64.deb",
-      "https://github.com/grafana/loki/releases/download/v2.7.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.7.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.7.0/logcli-darwin-amd64.zip",
@@ -2893,27 +2893,27 @@
       "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.7.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.7.0",
+    "version": "2.7.0"
   },
   {
     "allUrls": [
@@ -2948,7 +2948,7 @@
       "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-windows-386.exe.zip",
       "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.6.1/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.6.1/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.6.1/logcli-darwin-amd64.zip",
@@ -2979,27 +2979,27 @@
       "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.6.1/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.6.1",
+    "version": "2.6.1"
   },
   {
     "allUrls": [
@@ -3034,7 +3034,7 @@
       "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-windows-386.exe.zip",
       "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.6.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.6.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.6.0/logcli-darwin-amd64.zip",
@@ -3065,27 +3065,27 @@
       "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.6.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.6.0",
+    "version": "2.6.0"
   },
   {
     "allUrls": [
@@ -3120,7 +3120,7 @@
       "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-windows-386.exe.zip",
       "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.5.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.5.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.5.0/logcli-darwin-amd64.zip",
@@ -3151,27 +3151,27 @@
       "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.5.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.5.0",
+    "version": "2.5.0"
   },
   {
     "allUrls": [
@@ -3204,7 +3204,7 @@
       "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-windows-386.exe.zip",
       "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.4.2/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.4.2/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.4.2/logcli-darwin-amd64.zip",
@@ -3235,27 +3235,27 @@
       "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.4.2/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.4.2",
+    "version": "2.4.2"
   },
   {
     "allUrls": [
@@ -3288,7 +3288,7 @@
       "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-windows-386.exe.zip",
       "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.4.1/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.4.1/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.4.1/logcli-darwin-amd64.zip",
@@ -3319,27 +3319,27 @@
       "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.4.1/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.4.1",
+    "version": "2.4.1"
   },
   {
     "allUrls": [
@@ -3372,7 +3372,7 @@
       "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-windows-386.exe.zip",
       "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.4.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.4.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.4.0/logcli-darwin-amd64.zip",
@@ -3403,27 +3403,27 @@
       "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-darwin-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.4.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.4.0",
+    "version": "2.4.0"
   },
   {
     "allUrls": [
@@ -3452,7 +3452,7 @@
       "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-windows-386.exe.zip",
       "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.3.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.3.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.3.0/logcli-darwin-amd64.zip",
@@ -3479,26 +3479,26 @@
       "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.3.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.3.0",
+    "version": "2.3.0"
   },
   {
     "allUrls": [
@@ -3527,7 +3527,7 @@
       "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-windows-386.exe.zip",
       "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.2.1/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.2.1/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.2.1/logcli-darwin-amd64.zip",
@@ -3554,26 +3554,26 @@
       "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.2.1/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.2.1",
+    "version": "2.2.1"
   },
   {
     "allUrls": [
@@ -3602,7 +3602,7 @@
       "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-windows-386.exe.zip",
       "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.2.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.2.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.2.0/logcli-darwin-amd64.zip",
@@ -3629,26 +3629,26 @@
       "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-windows-386.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-windows-386.exe.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.2.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.2.0",
+    "version": "2.2.0"
   },
   {
     "allUrls": [
@@ -3676,7 +3676,7 @@
       "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.1.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.1.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.1.0/logcli-darwin-amd64.zip",
@@ -3702,25 +3702,25 @@
       "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-linux-amd64.zip",
       "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-linux-arm64.zip",
-      "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.1.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.1.0",
+    "version": "2.1.0"
   },
   {
     "allUrls": [
@@ -3748,7 +3748,7 @@
       "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.0.1/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.0.1/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.0.1/logcli-darwin-amd64.zip",
@@ -3774,25 +3774,25 @@
       "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-linux-amd64.zip",
       "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-linux-arm64.zip",
-      "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.0.1/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.1",
+    "version": "2.0.1"
   },
   {
     "allUrls": [
@@ -3820,7 +3820,7 @@
       "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v2.0.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v2.0.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v2.0.0/logcli-darwin-amd64.zip",
@@ -3846,25 +3846,25 @@
       "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-linux-amd64.zip",
       "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-linux-arm64.zip",
-      "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v2.0.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.0",
+    "version": "2.0.0"
   },
   {
     "allUrls": [
@@ -3892,7 +3892,7 @@
       "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v1.6.1/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v1.6.1/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v1.6.1/logcli-darwin-amd64.zip",
@@ -3918,25 +3918,25 @@
       "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-linux-amd64.zip",
       "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-linux-arm64.zip",
-      "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v1.6.1/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.6.1",
+    "version": "1.6.1"
   },
   {
     "allUrls": [
@@ -3964,7 +3964,7 @@
       "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v1.6.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v1.6.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v1.6.0/logcli-darwin-amd64.zip",
@@ -3990,25 +3990,25 @@
       "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-linux-amd64.zip",
       "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-linux-arm64.zip",
-      "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v1.6.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.6.0",
+    "version": "1.6.0"
   },
   {
     "allUrls": [
@@ -4036,7 +4036,7 @@
       "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v1.5.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v1.5.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v1.5.0/logcli-darwin-amd64.zip",
@@ -4062,25 +4062,25 @@
       "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-linux-amd64.zip",
       "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-linux-arm64.zip",
-      "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v1.5.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.5.0",
+    "version": "1.5.0"
   },
   {
     "allUrls": [
@@ -4108,7 +4108,7 @@
       "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v1.4.1/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v1.4.1/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v1.4.1/logcli-darwin-amd64.zip",
@@ -4134,25 +4134,25 @@
       "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-linux-amd64.zip",
       "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-linux-arm64.zip",
-      "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v1.4.1/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.4.1",
+    "version": "1.4.1"
   },
   {
     "allUrls": [
@@ -4180,7 +4180,7 @@
       "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v1.4.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v1.4.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v1.4.0/logcli-darwin-amd64.zip",
@@ -4206,25 +4206,25 @@
       "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-linux-amd64.zip",
       "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-linux-arm64.zip",
-      "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v1.4.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.4.0",
+    "version": "1.4.0"
   },
   {
     "allUrls": [
@@ -4250,7 +4250,7 @@
       "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v1.3.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v1.3.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v1.3.0/logcli-darwin-amd64.zip",
@@ -4274,25 +4274,25 @@
       "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-linux-amd64.zip",
       "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-linux-arm64.zip",
-      "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v1.3.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.3.0",
+    "version": "1.3.0"
   },
   {
     "allUrls": [
@@ -4318,7 +4318,7 @@
       "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v1.2.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v1.2.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v1.2.0/logcli-darwin-amd64.zip",
@@ -4342,25 +4342,25 @@
       "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-linux-amd64.zip",
       "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-linux-arm64.zip",
-      "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v1.2.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.2.0",
+    "version": "1.2.0"
   },
   {
     "allUrls": [
@@ -4386,7 +4386,7 @@
       "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-linux-arm64.zip",
       "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-windows-amd64.exe.zip",
-      "https://github.com/grafana/loki/releases/download/v1.1.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v1.1.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v1.1.0/logcli-darwin-amd64.zip",
@@ -4410,25 +4410,25 @@
       "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-linux-amd64.zip",
       "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-linux-arm.zip",
       "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-linux-arm64.zip",
-      "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-windows-amd64.exe.zip",
+      "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-windows-amd64.exe.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-darwin-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-darwin-amd64.zip"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-freebsd-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-freebsd-amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-linux-arm.zip",
         "arm64": "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-linux-arm64.zip",
-        "x64": "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-linux-amd64.zip",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v1.1.0/promtail-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.1.0",
+    "version": "1.1.0"
   },
   {
     "allUrls": [
@@ -4454,7 +4454,7 @@
       "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-linux-arm.gz",
       "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-linux-arm64.gz",
       "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-windows-amd64.exe.gz",
-      "https://github.com/grafana/loki/releases/download/v1.0.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v1.0.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v1.0.0/logcli-darwin-amd64.gz",
@@ -4478,49 +4478,49 @@
       "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-linux-amd64.gz",
       "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-linux-arm.gz",
       "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-linux-arm64.gz",
-      "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-windows-amd64.exe.gz",
+      "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-windows-amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-darwin-amd64.gz",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-darwin-amd64.gz"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-freebsd-amd64.gz",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-freebsd-amd64.gz"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-linux-arm.gz",
         "arm64": "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-linux-arm64.gz",
-        "x64": "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-linux-amd64.gz",
+        "x64": "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-linux-amd64.gz"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-windows-amd64.exe.gz",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v1.0.0/promtail-windows-amd64.exe.gz"
+      }
     },
-    "version": "1.0.0",
+    "version": "1.0.0"
   },
   {
     "allUrls": [
-      "https://github.com/grafana/loki/releases/download/operator/v0.6.0/loki-spdx.json",
+      "https://github.com/grafana/loki/releases/download/operator/v0.6.0/loki-spdx.json"
     ],
     "allowedUrls": [],
     "archives": {},
-    "version": "0.6.0",
+    "version": "0.6.0"
   },
   {
     "allUrls": [
-      "https://github.com/grafana/loki/releases/download/operator/v0.5.0/loki-spdx.json",
+      "https://github.com/grafana/loki/releases/download/operator/v0.5.0/loki-spdx.json"
     ],
     "allowedUrls": [],
     "archives": {},
-    "version": "0.5.0",
+    "version": "0.5.0"
   },
   {
     "allUrls": [
-      "https://github.com/grafana/loki/releases/download/operator/v0.4.0/loki-spdx.json",
+      "https://github.com/grafana/loki/releases/download/operator/v0.4.0/loki-spdx.json"
     ],
     "allowedUrls": [],
     "archives": {},
-    "version": "0.4.0",
+    "version": "0.4.0"
   },
   {
     "allUrls": [
@@ -4546,7 +4546,7 @@
       "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-linux-arm.gz",
       "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-linux-arm64.gz",
       "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-windows-amd64.exe.gz",
-      "https://github.com/grafana/loki/releases/download/v0.4.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v0.4.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v0.4.0/logcli-darwin-amd64.gz",
@@ -4570,25 +4570,25 @@
       "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-linux-amd64.gz",
       "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-linux-arm.gz",
       "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-linux-arm64.gz",
-      "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-windows-amd64.exe.gz",
+      "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-windows-amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-darwin-amd64.gz",
+        "x64": "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-darwin-amd64.gz"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-freebsd-amd64.gz",
+        "x64": "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-freebsd-amd64.gz"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-linux-arm.gz",
         "arm64": "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-linux-arm64.gz",
-        "x64": "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-linux-amd64.gz",
+        "x64": "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-linux-amd64.gz"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-windows-amd64.exe.gz",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v0.4.0/promtail-windows-amd64.exe.gz"
+      }
     },
-    "version": "0.4.0",
+    "version": "0.4.0"
   },
   {
     "allUrls": [
@@ -4608,7 +4608,7 @@
       "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_linux_arm.gz",
       "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_linux_arm64.gz",
       "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_windows_amd64.exe.gz",
-      "https://github.com/grafana/loki/releases/download/v0.3.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v0.3.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v0.3.0/logcli_darwin_amd64.gz",
@@ -4626,25 +4626,25 @@
       "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_linux_amd64.gz",
       "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_linux_arm.gz",
       "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_linux_arm64.gz",
-      "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_windows_amd64.exe.gz",
+      "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_darwin_amd64.gz",
+        "x64": "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_darwin_amd64.gz"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_freebsd_amd64.gz",
+        "x64": "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_freebsd_amd64.gz"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_linux_arm.gz",
         "arm64": "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_linux_arm64.gz",
-        "x64": "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_linux_amd64.gz",
+        "x64": "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_linux_amd64.gz"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v0.3.0/promtail_windows_amd64.exe.gz"
+      }
     },
-    "version": "0.3.0",
+    "version": "0.3.0"
   },
   {
     "allUrls": [
@@ -4663,7 +4663,7 @@
       "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_linux_arm.gz",
       "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_linux_arm64.gz",
       "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_windows_amd64.exe.gz",
-      "https://github.com/grafana/loki/releases/download/v0.2.0/SHA256SUMS",
+      "https://github.com/grafana/loki/releases/download/v0.2.0/SHA256SUMS"
     ],
     "allowedUrls": [
       "https://github.com/grafana/loki/releases/download/v0.2.0/logcli_darwin_amd64.gz",
@@ -4680,33 +4680,33 @@
       "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_linux_amd64.gz",
       "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_linux_arm.gz",
       "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_linux_arm64.gz",
-      "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_windows_amd64.exe.gz",
+      "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_darwin_amd64.gz",
+        "x64": "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_darwin_amd64.gz"
       },
       "freebsd": {
-        "x64": "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_freebsd_amd64.gz",
+        "x64": "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_freebsd_amd64.gz"
       },
       "linux": {
         "arm": "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_linux_arm.gz",
         "arm64": "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_linux_arm64.gz",
-        "x64": "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_linux_amd64.gz",
+        "x64": "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_linux_amd64.gz"
       },
       "win32": {
-        "x64": "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/grafana/loki/releases/download/v0.2.0/promtail_windows_amd64.exe.gz"
+      }
     },
-    "version": "0.2.0",
+    "version": "0.2.0"
   },
   {
     "allUrls": [
       "https://github.com/grafana/loki/releases/download/v0.1.0/loki_v0.1.0_linux_amd64",
-      "https://github.com/grafana/loki/releases/download/v0.1.0/promtail_v0.1.0_linux_amd64",
+      "https://github.com/grafana/loki/releases/download/v0.1.0/promtail_v0.1.0_linux_amd64"
     ],
     "allowedUrls": [],
     "archives": {},
-    "version": "0.1.0",
-  },
+    "version": "0.1.0"
+  }
 ]

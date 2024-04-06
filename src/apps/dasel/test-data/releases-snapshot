@@ -16,7 +16,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_darwin_amd64",
@@ -34,24 +34,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.7.0/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.7.0",
+    "version": "2.7.0"
   },
   {
     "allUrls": [
@@ -70,7 +70,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_darwin_amd64",
@@ -88,24 +88,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.6.0/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.6.0",
+    "version": "2.6.0"
   },
   {
     "allUrls": [
@@ -124,7 +124,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_darwin_amd64",
@@ -142,24 +142,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.5.0/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.5.0",
+    "version": "2.5.0"
   },
   {
     "allUrls": [
@@ -178,7 +178,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_darwin_amd64",
@@ -196,24 +196,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.4.1/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.4.1",
+    "version": "2.4.1"
   },
   {
     "allUrls": [
@@ -232,7 +232,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_darwin_amd64",
@@ -250,24 +250,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.4.0/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.4.0",
+    "version": "2.4.0"
   },
   {
     "allUrls": [
@@ -286,7 +286,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_darwin_amd64",
@@ -304,24 +304,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.6/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.3.6",
+    "version": "2.3.6"
   },
   {
     "allUrls": [
@@ -340,7 +340,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_darwin_amd64",
@@ -358,24 +358,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.5/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.3.5",
+    "version": "2.3.5"
   },
   {
     "allUrls": [
@@ -394,7 +394,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_darwin_amd64",
@@ -412,24 +412,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.4/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.3.4",
+    "version": "2.3.4"
   },
   {
     "allUrls": [
@@ -448,7 +448,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_darwin_amd64",
@@ -466,24 +466,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.3/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.3.3",
+    "version": "2.3.3"
   },
   {
     "allUrls": [
@@ -502,7 +502,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_darwin_amd64",
@@ -520,24 +520,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.2/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.3.2",
+    "version": "2.3.2"
   },
   {
     "allUrls": [
@@ -556,7 +556,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_darwin_amd64",
@@ -574,24 +574,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.1/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.3.1",
+    "version": "2.3.1"
   },
   {
     "allUrls": [
@@ -610,7 +610,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_darwin_amd64",
@@ -628,24 +628,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.3.0/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.3.0",
+    "version": "2.3.0"
   },
   {
     "allUrls": [
@@ -664,7 +664,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_darwin_amd64",
@@ -682,24 +682,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.2.0/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.2.0",
+    "version": "2.2.0"
   },
   {
     "allUrls": [
@@ -718,7 +718,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_darwin_amd64",
@@ -736,24 +736,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.2/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.1.2",
+    "version": "2.1.2"
   },
   {
     "allUrls": [
@@ -772,7 +772,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_darwin_amd64",
@@ -790,24 +790,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.1/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.1.1",
+    "version": "2.1.1"
   },
   {
     "allUrls": [
@@ -826,7 +826,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_darwin_amd64",
@@ -844,24 +844,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.1.0/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.1.0",
+    "version": "2.1.0"
   },
   {
     "allUrls": [
@@ -880,7 +880,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_darwin_amd64",
@@ -898,24 +898,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.2/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.0.2",
+    "version": "2.0.2"
   },
   {
     "allUrls": [
@@ -934,7 +934,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_darwin_amd64",
@@ -952,24 +952,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.1/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.0.1",
+    "version": "2.0.1"
   },
   {
     "allUrls": [
@@ -988,7 +988,7 @@
       "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_darwin_amd64",
@@ -1006,24 +1006,24 @@
       "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v2.0.0/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "2.0.0",
+    "version": "2.0.0"
   },
   {
     "allUrls": [
@@ -1042,7 +1042,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_darwin_amd64",
@@ -1060,24 +1060,24 @@
       "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "1.27.3",
+    "version": "1.27.3"
   },
   {
     "allUrls": [
@@ -1096,7 +1096,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_darwin_amd64",
@@ -1114,24 +1114,24 @@
       "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.2/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "1.27.2",
+    "version": "1.27.2"
   },
   {
     "allUrls": [
@@ -1150,7 +1150,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_darwin_amd64",
@@ -1168,24 +1168,24 @@
       "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.1/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "1.27.1",
+    "version": "1.27.1"
   },
   {
     "allUrls": [
@@ -1204,7 +1204,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_darwin_amd64",
@@ -1222,24 +1222,24 @@
       "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.27.0/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "1.27.0",
+    "version": "1.27.0"
   },
   {
     "allUrls": [
@@ -1258,7 +1258,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_darwin_amd64",
@@ -1276,24 +1276,24 @@
       "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_darwin_arm64.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.26.1/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "1.26.1",
+    "version": "1.26.1"
   },
   {
     "allUrls": [
@@ -1310,7 +1310,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_darwin_amd64",
@@ -1326,23 +1326,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.26.0/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "1.26.0",
+    "version": "1.26.0"
   },
   {
     "allUrls": [
@@ -1359,7 +1359,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_darwin_amd64",
@@ -1375,23 +1375,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.25.0/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "1.25.0",
+    "version": "1.25.0"
   },
   {
     "allUrls": [
@@ -1408,7 +1408,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_windows_amd64.exe.gz"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_darwin_amd64",
@@ -1424,23 +1424,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_windows_386.exe",
       "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_windows_386.exe.gz",
       "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_windows_amd64.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_windows_amd64.exe.gz",
+      "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_windows_amd64.exe.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_darwin_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_darwin_amd64.gz"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_linux_arm64.gz",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_linux_386.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_linux_amd64.gz",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_linux_amd64.gz"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_windows_386.exe.gz",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_windows_amd64.exe.gz",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.3/dasel_windows_amd64.exe.gz"
+      }
     },
-    "version": "1.24.3",
+    "version": "1.24.3"
   },
   {
     "allUrls": [
@@ -1450,7 +1450,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_darwin_amd64",
@@ -1459,23 +1459,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.2/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.24.2",
+    "version": "1.24.2"
   },
   {
     "allUrls": [
@@ -1485,7 +1485,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_darwin_amd64",
@@ -1494,23 +1494,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.24.1",
+    "version": "1.24.1"
   },
   {
     "allUrls": [
@@ -1520,7 +1520,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_darwin_amd64",
@@ -1529,23 +1529,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.24.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.24.0",
+    "version": "1.24.0"
   },
   {
     "allUrls": [
@@ -1555,7 +1555,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_darwin_amd64",
@@ -1564,23 +1564,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.23.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.23.0",
+    "version": "1.23.0"
   },
   {
     "allUrls": [
@@ -1590,7 +1590,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_darwin_amd64",
@@ -1599,23 +1599,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.22.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.22.1",
+    "version": "1.22.1"
   },
   {
     "allUrls": [
@@ -1625,7 +1625,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_darwin_amd64",
@@ -1634,23 +1634,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.22.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.22.0",
+    "version": "1.22.0"
   },
   {
     "allUrls": [
@@ -1660,7 +1660,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_darwin_amd64",
@@ -1669,23 +1669,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_linux_arm32",
       "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.2/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.21.2",
+    "version": "1.21.2"
   },
   {
     "allUrls": [
@@ -1694,7 +1694,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_darwin_amd64",
@@ -1702,23 +1702,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.21.1",
+    "version": "1.21.1"
   },
   {
     "allUrls": [
@@ -1727,7 +1727,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_darwin_amd64",
@@ -1735,23 +1735,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.21.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.21.0",
+    "version": "1.21.0"
   },
   {
     "allUrls": [
@@ -1760,7 +1760,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_darwin_amd64",
@@ -1768,23 +1768,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.20.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.20.1",
+    "version": "1.20.1"
   },
   {
     "allUrls": [
@@ -1793,7 +1793,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_darwin_amd64",
@@ -1801,23 +1801,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.20.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.20.0",
+    "version": "1.20.0"
   },
   {
     "allUrls": [
@@ -1826,7 +1826,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_darwin_amd64",
@@ -1834,23 +1834,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.19.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.19.0",
+    "version": "1.19.0"
   },
   {
     "allUrls": [
@@ -1859,7 +1859,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_darwin_amd64",
@@ -1867,23 +1867,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.18.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.18.0",
+    "version": "1.18.0"
   },
   {
     "allUrls": [
@@ -1892,7 +1892,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_darwin_amd64",
@@ -1900,23 +1900,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.17.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.17.0",
+    "version": "1.17.0"
   },
   {
     "allUrls": [
@@ -1925,7 +1925,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_darwin_amd64",
@@ -1933,23 +1933,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.16.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.16.1",
+    "version": "1.16.1"
   },
   {
     "allUrls": [
@@ -1958,7 +1958,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_darwin_amd64",
@@ -1966,23 +1966,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.16.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.16.0",
+    "version": "1.16.0"
   },
   {
     "allUrls": [
@@ -1991,7 +1991,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_darwin_amd64",
@@ -1999,23 +1999,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.15.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.15.0",
+    "version": "1.15.0"
   },
   {
     "allUrls": [
@@ -2024,7 +2024,7 @@
       "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_darwin_amd64",
@@ -2032,23 +2032,23 @@
       "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_linux_arm64",
       "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_darwin_amd64"
       },
       "linux": {
         "arm64": "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_linux_arm64",
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.14.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.14.1",
+    "version": "1.14.1"
   },
   {
     "allUrls": [
@@ -2056,29 +2056,29 @@
       "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_darwin_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_darwin_amd64"
       },
       "linux": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.14.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.14.0",
+    "version": "1.14.0"
   },
   {
     "allUrls": [
@@ -2086,29 +2086,29 @@
       "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_darwin_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_darwin_amd64"
       },
       "linux": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.6/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.13.6",
+    "version": "1.13.6"
   },
   {
     "allUrls": [
@@ -2116,29 +2116,29 @@
       "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_darwin_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_darwin_amd64"
       },
       "linux": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.5/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.13.5",
+    "version": "1.13.5"
   },
   {
     "allUrls": [
@@ -2146,29 +2146,29 @@
       "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_darwin_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_darwin_amd64"
       },
       "linux": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.4/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.13.4",
+    "version": "1.13.4"
   },
   {
     "allUrls": [
@@ -2176,29 +2176,29 @@
       "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_darwin_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_darwin_amd64"
       },
       "linux": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.3/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.13.3",
+    "version": "1.13.3"
   },
   {
     "allUrls": [
@@ -2206,29 +2206,29 @@
       "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_darwin_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_darwin_amd64"
       },
       "linux": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.2/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.13.2",
+    "version": "1.13.2"
   },
   {
     "allUrls": [
@@ -2236,29 +2236,29 @@
       "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_darwin_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_darwin_amd64"
       },
       "linux": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.13.1",
+    "version": "1.13.1"
   },
   {
     "allUrls": [
@@ -2266,29 +2266,29 @@
       "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_darwin_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_darwin_amd64"
       },
       "linux": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.13.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.13.0",
+    "version": "1.13.0"
   },
   {
     "allUrls": [
@@ -2296,29 +2296,29 @@
       "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_darwin_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_darwin_amd64"
       },
       "linux": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.2/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.12.2",
+    "version": "1.12.2"
   },
   {
     "allUrls": [
@@ -2326,676 +2326,676 @@
       "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_darwin_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_linux_386",
       "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_windows_386.exe",
-      "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_darwin_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_darwin_amd64"
       },
       "linux": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_linux_386",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_linux_amd64"
       },
       "win32": {
         "ia32": "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_windows_386.exe",
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.12.1",
+    "version": "1.12.1"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.12.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.12.0",
+    "version": "1.12.0"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.11.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.11.0",
+    "version": "1.11.0"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.10.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.10.0",
+    "version": "1.10.0"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.9.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.9.1",
+    "version": "1.9.1"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.9.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.9.0",
+    "version": "1.9.0"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.8.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.8.0",
+    "version": "1.8.0"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.7.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.7.0",
+    "version": "1.7.0"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.2/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.6.2",
+    "version": "1.6.2"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.6.1",
+    "version": "1.6.1"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.6.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.6.0",
+    "version": "1.6.0"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.5.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.5.1",
+    "version": "1.5.1"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.5.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.5.0",
+    "version": "1.5.0"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.4.1",
+    "version": "1.4.1"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.4.0",
+    "version": "1.4.0"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.3.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.3.0",
+    "version": "1.3.0"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.2.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.2.0",
+    "version": "1.2.0"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.1.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.1.0",
+    "version": "1.1.0"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.4/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.0.4",
+    "version": "1.0.4"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.3/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.0.3",
+    "version": "1.0.3"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.2/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.0.2",
+    "version": "1.0.2"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.0.1",
+    "version": "1.0.1"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v1.0.0/dasel_windows_amd64.exe"
+      }
     },
-    "version": "1.0.0",
+    "version": "1.0.0"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.5/dasel_windows_amd64.exe"
+      }
     },
-    "version": "0.0.5",
+    "version": "0.0.5"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.4/dasel_windows_amd64.exe"
+      }
     },
-    "version": "0.0.4",
+    "version": "0.0.4"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.3/dasel_windows_amd64.exe"
+      }
     },
-    "version": "0.0.3",
+    "version": "0.0.3"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.2/dasel_windows_amd64.exe"
+      }
     },
-    "version": "0.0.2",
+    "version": "0.0.2"
   },
   {
     "allUrls": [
       "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_windows_amd64.exe"
     ],
     "allowedUrls": [
       "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_linux_amd64",
       "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_macos_amd64",
-      "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_windows_amd64.exe",
+      "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_windows_amd64.exe"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_macos_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_macos_amd64"
       },
       "linux": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_linux_amd64",
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_linux_amd64"
       },
       "win32": {
-        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_windows_amd64.exe",
-      },
+        "x64": "https://github.com/TomWright/dasel/releases/download/v0.0.1/dasel_windows_amd64.exe"
+      }
     },
-    "version": "0.0.1",
-  },
+    "version": "0.0.1"
+  }
 ]

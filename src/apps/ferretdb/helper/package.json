@@ -1,14 +1,12 @@
 {
   "name": "gobot-ferretdb",
-  "version": "1.21.0-alpha.19",
+  "version": "1.21.0-alpha.20",
   "description": "FerretDB helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
   "scripts": {
     "clean": "rimraf dist",
-    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-ferretdb && npm i -g gobot-ferretdb-`cat package.json | fx '.version'`.tgz && ferretdb --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

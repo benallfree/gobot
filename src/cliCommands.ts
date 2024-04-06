@@ -1,11 +1,12 @@
 import { Argument, Command, Option } from 'commander'
 import { globSync } from 'glob'
 import { arch, platform } from 'os'
-import { basename, dirname, join, resolve } from 'path'
+import { basename, join } from 'path'
 import { table } from 'table'
 import json from '../package.json'
 import { Gobot, gobot, type AppInfo } from './api'
 import { verbosity } from './settings'
+import { __root } from './util/__root'
 import { dbg, info } from './util/log'
 
 export class Arg extends Argument {
@@ -47,8 +48,6 @@ export class Opt extends Option {
 
 export const program = new Cmd()
 
-const __dirname = dirname(resolve(new URL(import.meta.url).pathname))
-
 program
   .name('gobot')
   .description('A npm-based Go binary runner')
@@ -72,6 +71,7 @@ program
 program.addCommand(
   new Cmd(`run`)
     .addArgument(new Arg(`<appName>`, `The name of the app to run`))
+    .helpOption(`--g-help`)
     .description(
       `Run a binary app. The app will be downloaded if it has not been downloaded yet. After that, you must run 'gobot update <appName>' to make Gobot look for new versions.`,
     )
@@ -135,6 +135,7 @@ program.addCommand(
         `The name of the app to inspect, either as a single slug or as <user>/<repo>`,
       ),
     )
+    .helpOption(`--g-help`)
     .description(
       `Display Gobot registry information. If [appName] is specified, Gobot will fresh release information and display. Otherwise, Gobot will display an overview of current registry information`,
     )
@@ -157,7 +158,7 @@ program.addCommand(
           info(`Host platform: ${platform()}`)
           info(`Host architecture: ${arch()}`)
           info(`Cache root:`, cachePath || Gobot.DEFAULT_GOBOT_CACHE_ROOT())
-          const appPaths = globSync(join(__dirname, `apps`, `*`, ''))
+          const appPaths = globSync(join(__root, `apps`, `*`, ''))
           const apps = (
             await Promise.all(
               appPaths.map(async (appPath) => {

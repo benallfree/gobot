@@ -14,17 +14,18 @@ import { globSync } from 'glob'
 import { markdownTable } from 'markdown-table'
 import { arch as _arch, platform } from 'os'
 import { basename, join, resolve } from 'path'
-import { rimraf } from 'rimraf'
 import { compare, satisfies } from 'semver'
 import type { Readable } from 'stream'
 import decompressTarZ from '../packages/decompress-tar-z'
 import { GithubReleaseProvider } from './GithubReleaseProvider'
+import { verbosity } from './settings'
 import { downloadFile } from './util/downloadFile'
 import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
-import { spawn } from './util/runShellCommand'
+import { safeRimraf } from './util/safeRimraf'
 import { sanitizeOptions } from './util/sanitize'
 import { mkdir, pwd } from './util/shell'
+import { spawn } from './util/spawn'
 import { stringify } from './util/stringify'
 
 export type PlatformKey = NodeJS.Platform
@@ -150,12 +151,12 @@ export class Gobot {
    */
   async reset() {
     dbg(`Clearing cache:`, this.cacheRoot)
-    await rimraf(this.cacheRoot)
+    await safeRimraf(this.cacheRoot)
   }
 
   static async reset(cachePath = Gobot.DEFAULT_GOBOT_CACHE_ROOT()) {
     dbg(`Clearing cache:`, cachePath)
-    await rimraf(cachePath)
+    await safeRimraf(cachePath)
   }
 
   async download() {
@@ -174,11 +175,11 @@ export class Gobot {
 
   async clearAllReleases() {
     await this.releaseProvider.reset()
-    await rimraf(this.cachePath()(RELEASES_NAME))
+    await safeRimraf(this.cachePath()(RELEASES_NAME))
   }
 
   async clearStoredReleases() {
-    await rimraf(this.cachePath()(RELEASES_NAME))
+    await safeRimraf(this.cachePath()(RELEASES_NAME))
   }
 
   async versions(type?: 'js'): Promise<string[]>
@@ -206,7 +207,7 @@ export class Gobot {
       ])
       return md
     }
-    const json = stringify(js, null, 2)
+    const json = stringify(js, undefined, 2)
     switch (type) {
       case 'json':
         return json
@@ -357,7 +358,7 @@ export class Gobot {
       (a, b) => this.compare(b.version, a.version),
     )
 
-    const json = stringify(this.storedReleases, null, 2)
+    const json = stringify(this.storedReleases, undefined, 2)
     writeFileSync(cachedReleasesFilePath, json)
     dbg(`Stored releases from fetch`, cachedReleasesFilePath)
 
@@ -398,9 +399,13 @@ export class Gobot {
     options: Partial<
       SpawnOptionsWithStdioTuple<StdioNull, StdioPipe, StdioPipe>
     > = {},
-    onProc: (
-      proc: ChildProcessByStdio<null, Readable, Readable>,
-    ) => void = () => {},
+    onProc: (proc: ChildProcessByStdio<null, Readable, Readable>) => void = (
+      proc,
+    ) => {
+      if (verbosity() >= 3) return
+      proc.stdout.on('data', (buf) => process.stdout.write(buf))
+      proc.stderr.on('data', (buf) => process.stderr.write(buf))
+    },
   ) {
     const fname = await this.getBinaryPath()
 

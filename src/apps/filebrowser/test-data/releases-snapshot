@@ -19,7 +19,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/darwin-amd64-filebrowser.tar.gz",
@@ -39,31 +39,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.27.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.27.0",
+    "version": "2.27.0"
   },
   {
     "allUrls": [
@@ -85,7 +85,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/darwin-amd64-filebrowser.tar.gz",
@@ -105,31 +105,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.26.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.26.0",
+    "version": "2.26.0"
   },
   {
     "allUrls": [
@@ -151,7 +151,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/darwin-amd64-filebrowser.tar.gz",
@@ -171,31 +171,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.25.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.25.0",
+    "version": "2.25.0"
   },
   {
     "allUrls": [
@@ -217,7 +217,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/darwin-amd64-filebrowser.tar.gz",
@@ -237,31 +237,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.2/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.24.2",
+    "version": "2.24.2"
   },
   {
     "allUrls": [
@@ -282,7 +282,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/darwin-amd64-filebrowser.tar.gz",
@@ -301,31 +301,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.1/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.24.1",
+    "version": "2.24.1"
   },
   {
     "allUrls": [
@@ -346,7 +346,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/darwin-amd64-filebrowser.tar.gz",
@@ -365,31 +365,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.24.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.24.0",
+    "version": "2.24.0"
   },
   {
     "allUrls": [
@@ -410,7 +410,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/darwin-amd64-filebrowser.tar.gz",
@@ -429,31 +429,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.23.0",
+    "version": "2.23.0"
   },
   {
     "allUrls": [
@@ -474,7 +474,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/darwin-amd64-filebrowser.tar.gz",
@@ -493,31 +493,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.4/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.22.4",
+    "version": "2.22.4"
   },
   {
     "allUrls": [
@@ -538,7 +538,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/darwin-amd64-filebrowser.tar.gz",
@@ -557,31 +557,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.22.3",
+    "version": "2.22.3"
   },
   {
     "allUrls": [
@@ -602,7 +602,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/darwin-amd64-filebrowser.tar.gz",
@@ -621,31 +621,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.22.2",
+    "version": "2.22.2"
   },
   {
     "allUrls": [
@@ -666,7 +666,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/darwin-amd64-filebrowser.tar.gz",
@@ -685,31 +685,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.1/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.22.1",
+    "version": "2.22.1"
   },
   {
     "allUrls": [
@@ -730,7 +730,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/darwin-amd64-filebrowser.tar.gz",
@@ -749,31 +749,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.22.0",
+    "version": "2.22.0"
   },
   {
     "allUrls": [
@@ -794,7 +794,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/darwin-amd64-filebrowser.tar.gz",
@@ -813,31 +813,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.1/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.21.1",
+    "version": "2.21.1"
   },
   {
     "allUrls": [
@@ -858,7 +858,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/darwin-amd64-filebrowser.tar.gz",
@@ -877,31 +877,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.21.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.21.0",
+    "version": "2.21.0"
   },
   {
     "allUrls": [
@@ -922,7 +922,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/darwin-amd64-filebrowser.tar.gz",
@@ -941,31 +941,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.1/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.20.1",
+    "version": "2.20.1"
   },
   {
     "allUrls": [
@@ -986,7 +986,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/darwin-amd64-filebrowser.tar.gz",
@@ -1005,31 +1005,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-arm64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-arm64-filebrowser.zip",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.20.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.20.0",
+    "version": "2.20.0"
   },
   {
     "allUrls": [
@@ -1049,7 +1049,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/darwin-amd64-filebrowser.tar.gz",
@@ -1067,30 +1067,30 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.19.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.19.0",
+    "version": "2.19.0"
   },
   {
     "allUrls": [
@@ -1110,7 +1110,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/darwin-amd64-filebrowser.tar.gz",
@@ -1128,30 +1128,30 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.18.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.18.0",
+    "version": "2.18.0"
   },
   {
     "allUrls": [
@@ -1171,7 +1171,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/darwin-amd64-filebrowser.tar.gz",
@@ -1189,30 +1189,30 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.2/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.17.2",
+    "version": "2.17.2"
   },
   {
     "allUrls": [
@@ -1232,7 +1232,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/darwin-amd64-filebrowser.tar.gz",
@@ -1250,30 +1250,30 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.1/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.17.1",
+    "version": "2.17.1"
   },
   {
     "allUrls": [
@@ -1293,7 +1293,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/darwin-amd64-filebrowser.tar.gz",
@@ -1311,30 +1311,30 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.17.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.17.0",
+    "version": "2.17.0"
   },
   {
     "allUrls": [
@@ -1354,7 +1354,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/darwin-amd64-filebrowser.tar.gz",
@@ -1372,30 +1372,30 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.1/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.16.1",
+    "version": "2.16.1"
   },
   {
     "allUrls": [
@@ -1415,7 +1415,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/darwin-amd64-filebrowser.tar.gz",
@@ -1433,30 +1433,30 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.16.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.16.0",
+    "version": "2.16.0"
   },
   {
     "allUrls": [
@@ -1476,7 +1476,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/windows-armv7-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/darwin-amd64-filebrowser.tar.gz",
@@ -1494,30 +1494,30 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/windows-amd64-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/windows-armv5-filebrowser.zip",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/windows-armv6-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/windows-armv7-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/windows-armv7-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.15.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.15.0",
+    "version": "2.15.0"
   },
   {
     "allUrls": [
@@ -1534,7 +1534,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/linux-armv6-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/linux-armv7-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/darwin-amd64-filebrowser.tar.gz",
@@ -1549,30 +1549,30 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/linux-armv6-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/linux-armv7-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.1/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.14.1",
+    "version": "2.14.1"
   },
   {
     "allUrls": [
@@ -1589,7 +1589,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/linux-armv6-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/linux-armv7-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/darwin-amd64-filebrowser.tar.gz",
@@ -1604,30 +1604,30 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/linux-armv6-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/linux-armv7-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.14.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.14.0",
+    "version": "2.14.0"
   },
   {
     "allUrls": [
@@ -1644,7 +1644,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/linux-armv6-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/linux-armv7-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/darwin-amd64-filebrowser.tar.gz",
@@ -1659,30 +1659,30 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/linux-armv6-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/linux-armv7-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.13.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.13.0",
+    "version": "2.13.0"
   },
   {
     "allUrls": [
@@ -1699,7 +1699,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/linux-armv6-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/linux-armv7-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/darwin-amd64-filebrowser.tar.gz",
@@ -1714,30 +1714,30 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/linux-armv6-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/linux-armv7-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.1/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.12.1",
+    "version": "2.12.1"
   },
   {
     "allUrls": [
@@ -1754,7 +1754,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/linux-armv6-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/linux-armv7-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/darwin-amd64-filebrowser.tar.gz",
@@ -1769,30 +1769,30 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/linux-armv6-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/linux-armv7-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/darwin-arm64-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.12.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.12.0",
+    "version": "2.12.0"
   },
   {
     "allUrls": [
@@ -1815,7 +1815,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/darwin-amd64-filebrowser.tar.gz",
@@ -1836,29 +1836,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.11.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.11.0",
+    "version": "2.11.0"
   },
   {
     "allUrls": [
@@ -1881,7 +1881,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/darwin-amd64-filebrowser.tar.gz",
@@ -1902,29 +1902,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.10.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.10.0",
+    "version": "2.10.0"
   },
   {
     "allUrls": [
@@ -1947,7 +1947,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/darwin-amd64-filebrowser.tar.gz",
@@ -1968,29 +1968,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.9.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.9.0",
+    "version": "2.9.0"
   },
   {
     "allUrls": [
@@ -2013,7 +2013,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/darwin-amd64-filebrowser.tar.gz",
@@ -2034,29 +2034,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.8.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.8.0",
+    "version": "2.8.0"
   },
   {
     "allUrls": [
@@ -2079,7 +2079,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/darwin-amd64-filebrowser.tar.gz",
@@ -2100,29 +2100,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.7.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.7.0",
+    "version": "2.7.0"
   },
   {
     "allUrls": [
@@ -2145,7 +2145,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/darwin-amd64-filebrowser.tar.gz",
@@ -2166,29 +2166,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.2/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.6.2",
+    "version": "2.6.2"
   },
   {
     "allUrls": [
@@ -2211,7 +2211,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/darwin-amd64-filebrowser.tar.gz",
@@ -2232,29 +2232,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.1/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.6.1",
+    "version": "2.6.1"
   },
   {
     "allUrls": [
@@ -2277,7 +2277,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/darwin-amd64-filebrowser.tar.gz",
@@ -2298,29 +2298,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.6.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.6.0",
+    "version": "2.6.0"
   },
   {
     "allUrls": [
@@ -2343,7 +2343,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/darwin-amd64-filebrowser.tar.gz",
@@ -2364,29 +2364,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.5.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.5.0",
+    "version": "2.5.0"
   },
   {
     "allUrls": [
@@ -2409,7 +2409,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/darwin-amd64-filebrowser.tar.gz",
@@ -2430,29 +2430,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.4.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.4.0",
+    "version": "2.4.0"
   },
   {
     "allUrls": [
@@ -2475,7 +2475,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/darwin-amd64-filebrowser.tar.gz",
@@ -2496,29 +2496,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.3.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.3.0",
+    "version": "2.3.0"
   },
   {
     "allUrls": [
@@ -2541,7 +2541,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/darwin-amd64-filebrowser.tar.gz",
@@ -2562,29 +2562,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.2.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.2.0",
+    "version": "2.2.0"
   },
   {
     "allUrls": [
@@ -2607,7 +2607,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/darwin-amd64-filebrowser.tar.gz",
@@ -2628,29 +2628,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.2/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.1.2",
+    "version": "2.1.2"
   },
   {
     "allUrls": [
@@ -2673,7 +2673,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/darwin-amd64-filebrowser.tar.gz",
@@ -2694,29 +2694,29 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/openbsd-arm64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/freebsd-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.1/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.1.1",
+    "version": "2.1.1"
   },
   {
     "allUrls": [
@@ -2737,7 +2737,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/darwin-amd64-filebrowser.tar.gz",
@@ -2756,28 +2756,28 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.1.0/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.1.0",
+    "version": "2.1.0"
   },
   {
     "allUrls": [
@@ -2798,7 +2798,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/darwin-amd64-filebrowser.tar.gz",
@@ -2817,28 +2817,28 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.16/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.0.16",
+    "version": "2.0.16"
   },
   {
     "allUrls": [
@@ -2859,7 +2859,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/darwin-amd64-filebrowser.tar.gz",
@@ -2878,28 +2878,28 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.15/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.0.15",
+    "version": "2.0.15"
   },
   {
     "allUrls": [
@@ -2920,7 +2920,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/darwin-amd64-filebrowser.tar.gz",
@@ -2939,28 +2939,28 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.14/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.0.14",
+    "version": "2.0.14"
   },
   {
     "allUrls": [
@@ -2981,7 +2981,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/darwin-amd64-filebrowser.tar.gz",
@@ -3000,28 +3000,28 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.13/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.0.13",
+    "version": "2.0.13"
   },
   {
     "allUrls": [
@@ -3042,7 +3042,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/darwin-amd64-filebrowser.tar.gz",
@@ -3061,41 +3061,31 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.12/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.0.12",
+    "version": "2.0.12"
   },
-  {
-    "allUrls": [],
-    "allowedUrls": [],
-    "archives": {},
-    "version": "2.0.11",
-  },
-  {
-    "allUrls": [],
-    "allowedUrls": [],
-    "archives": {},
-    "version": "2.0.10",
-  },
+  { "allUrls": [], "allowedUrls": [], "archives": {}, "version": "2.0.11" },
+  { "allUrls": [], "allowedUrls": [], "archives": {}, "version": "2.0.10" },
   {
     "allUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/darwin-amd64-filebrowser.tar.gz",
@@ -3115,7 +3105,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/darwin-amd64-filebrowser.tar.gz",
@@ -3134,28 +3124,28 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.9/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.0.9",
+    "version": "2.0.9"
   },
   {
     "allUrls": [
@@ -3176,7 +3166,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/darwin-amd64-filebrowser.tar.gz",
@@ -3195,28 +3185,28 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.8/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.0.8",
+    "version": "2.0.8"
   },
   {
     "allUrls": [
@@ -3237,7 +3227,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/darwin-amd64-filebrowser.tar.gz",
@@ -3256,28 +3246,28 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.7/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.0.7",
+    "version": "2.0.7"
   },
   {
     "allUrls": [
@@ -3298,7 +3288,7 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/windows-amd64-filebrowser.zip"
     ],
     "allowedUrls": [
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/darwin-amd64-filebrowser.tar.gz",
@@ -3317,27 +3307,27 @@
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/openbsd-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/solaris-amd64-filebrowser.tar.gz",
       "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/windows-386-filebrowser.zip",
-      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/windows-amd64-filebrowser.zip",
+      "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/windows-amd64-filebrowser.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/darwin-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/darwin-amd64-filebrowser.tar.gz"
       },
       "freebsd": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/freebsd-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/freebsd-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/freebsd-amd64-filebrowser.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/linux-armv7-filebrowser.tar.gz",
         "arm64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/linux-arm64-filebrowser.tar.gz",
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/linux-386-filebrowser.tar.gz",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/linux-amd64-filebrowser.tar.gz",
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/linux-amd64-filebrowser.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/windows-386-filebrowser.zip",
-        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/windows-amd64-filebrowser.zip",
-      },
+        "x64": "https://github.com/filebrowser/filebrowser/releases/download/v2.0.6/windows-amd64-filebrowser.zip"
+      }
     },
-    "version": "2.0.6",
-  },
+    "version": "2.0.6"
+  }
 ]

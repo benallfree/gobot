@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.34/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-loki) ![](https://img.shields.io/npm/dt/gobot-loki) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -92,7 +92,7 @@ npm i -g gobot-loki@latest
 
 ### `loki  [options]`
 
-loki (https://grafana.com/loki) runner for Gobot (https://github.com/benallfree/gobot)
+Loki (https://grafana.com/loki) runner for Gobot (https://github.com/benallfree/gobot)
 
 **Options**
 
@@ -108,11 +108,11 @@ loki (https://grafana.com/loki) runner for Gobot (https://github.com/benallfree/
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.34/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
 
 ## Sample project
 
-View the [Loki sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.34/src/apps/loki/sample-project) on github.
+View the [Loki sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/loki/sample-project) on github.
 
 ## Try Gobot's other apps
 

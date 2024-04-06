@@ -1,14 +1,12 @@
 {
   "name": "gobot-gotop",
-  "version": "4.2.0-alpha.19",
+  "version": "4.2.0-alpha.20",
   "description": "gotop helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
   "scripts": {
     "clean": "rimraf dist",
-    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-gotop && npm i -g gobot-gotop-`cat package.json | fx '.version'`.tgz && gotop --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

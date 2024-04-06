@@ -1,14 +1,12 @@
 {
   "name": "gobot-ollama",
-  "version": "0.1.29-alpha.19",
+  "version": "0.1.29-alpha.20",
   "description": "Ollama helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
   "scripts": {
     "clean": "rimraf dist",
-    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-ollama && npm i -g gobot-ollama-`cat package.json | fx '.version'`.tgz && ollama --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

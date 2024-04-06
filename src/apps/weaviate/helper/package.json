@@ -1,14 +1,12 @@
 {
   "name": "gobot-weaviate",
-  "version": "1.24.5-alpha.19",
+  "version": "1.24.5-alpha.20",
   "description": "Weaviate helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
   "scripts": {
     "clean": "rimraf dist",
-    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-weaviate && npm i -g gobot-weaviate-`cat package.json | fx '.version'`.tgz && weaviate --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

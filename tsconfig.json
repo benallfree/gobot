@@ -17,5 +17,5 @@
     "verbatimModuleSyntax": true
   },
   "include": ["./src", "./package.json", "**/*.ts"],
-  "exclude": ["./build", "**/helper", "**/dist", "plop-templates"]
+  "exclude": ["./build", "**/helper", "**/dist", "plop/templates"]
 }

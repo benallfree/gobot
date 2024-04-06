@@ -7,7 +7,7 @@
       "https://github.com/gotify/server/releases/download/v2.4.0/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.4.0/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.4.0/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.4.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.4.0/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.4.0/gotify-linux-386.zip",
@@ -16,21 +16,21 @@
       "https://github.com/gotify/server/releases/download/v2.4.0/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.4.0/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.4.0/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.4.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.4.0/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.4.0/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.4.0/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.4.0/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.4.0/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.4.0/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.4.0/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.4.0/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.4.0/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.4.0",
+    "version": "2.4.0"
   },
   {
     "allUrls": [
@@ -40,7 +40,7 @@
       "https://github.com/gotify/server/releases/download/v2.3.0/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.3.0/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.3.0/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.3.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.3.0/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.3.0/gotify-linux-386.zip",
@@ -49,21 +49,21 @@
       "https://github.com/gotify/server/releases/download/v2.3.0/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.3.0/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.3.0/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.3.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.3.0/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.3.0/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.3.0/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.3.0/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.3.0/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.3.0/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.3.0/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.3.0/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.3.0/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.3.0",
+    "version": "2.3.0"
   },
   {
     "allUrls": [
@@ -73,7 +73,7 @@
       "https://github.com/gotify/server/releases/download/v2.2.5/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.5/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.5/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.2.5/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.2.5/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.2.5/gotify-linux-386.zip",
@@ -82,21 +82,21 @@
       "https://github.com/gotify/server/releases/download/v2.2.5/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.5/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.5/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.2.5/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.2.5/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.2.5/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.2.5/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.2.5/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.2.5/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.2.5/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.2.5/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.2.5/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.2.5/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.2.5",
+    "version": "2.2.5"
   },
   {
     "allUrls": [
@@ -106,7 +106,7 @@
       "https://github.com/gotify/server/releases/download/v2.2.4/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.4/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.4/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.2.4/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.2.4/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.2.4/gotify-linux-386.zip",
@@ -115,21 +115,21 @@
       "https://github.com/gotify/server/releases/download/v2.2.4/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.4/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.4/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.2.4/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.2.4/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.2.4/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.2.4/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.2.4/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.2.4/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.2.4/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.2.4/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.2.4/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.2.4/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.2.4",
+    "version": "2.2.4"
   },
   {
     "allUrls": [
@@ -139,7 +139,7 @@
       "https://github.com/gotify/server/releases/download/v2.2.3/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.3/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.3/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.2.3/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.2.3/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.2.3/gotify-linux-386.zip",
@@ -148,21 +148,21 @@
       "https://github.com/gotify/server/releases/download/v2.2.3/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.3/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.3/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.2.3/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.2.3/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.2.3/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.2.3/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.2.3/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.2.3/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.2.3/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.2.3/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.2.3/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.2.3/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.2.3",
+    "version": "2.2.3"
   },
   {
     "allUrls": [
@@ -172,7 +172,7 @@
       "https://github.com/gotify/server/releases/download/v2.2.2/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.2/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.2/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.2.2/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.2.2/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.2.2/gotify-linux-386.zip",
@@ -181,21 +181,21 @@
       "https://github.com/gotify/server/releases/download/v2.2.2/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.2/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.2/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.2.2/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.2.2/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.2.2/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.2.2/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.2.2/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.2.2/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.2.2/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.2.2/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.2.2/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.2.2/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.2.2",
+    "version": "2.2.2"
   },
   {
     "allUrls": [
@@ -205,7 +205,7 @@
       "https://github.com/gotify/server/releases/download/v2.2.1/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.1/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.1/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.2.1/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.2.1/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.2.1/gotify-linux-386.zip",
@@ -214,21 +214,21 @@
       "https://github.com/gotify/server/releases/download/v2.2.1/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.1/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.1/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.2.1/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.2.1/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.2.1/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.2.1/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.2.1/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.2.1/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.2.1/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.2.1/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.2.1/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.2.1/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.2.1",
+    "version": "2.2.1"
   },
   {
     "allUrls": [
@@ -238,7 +238,7 @@
       "https://github.com/gotify/server/releases/download/v2.2.0/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.0/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.0/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.2.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.2.0/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.2.0/gotify-linux-386.zip",
@@ -247,21 +247,21 @@
       "https://github.com/gotify/server/releases/download/v2.2.0/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.0/gotify-linux-riscv64.zip",
       "https://github.com/gotify/server/releases/download/v2.2.0/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.2.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.2.0/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.2.0/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.2.0/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.2.0/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.2.0/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.2.0/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.2.0/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.2.0/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.2.0/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.2.0",
+    "version": "2.2.0"
   },
   {
     "allUrls": [
@@ -270,7 +270,7 @@
       "https://github.com/gotify/server/releases/download/v2.1.7/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.7/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.7/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.7/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.7/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.1.7/gotify-linux-386.zip",
@@ -278,21 +278,21 @@
       "https://github.com/gotify/server/releases/download/v2.1.7/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.7/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.7/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.7/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.7/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.1.7/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.1.7/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.7/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.7/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.7/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.7/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.7/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.7/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.1.7",
+    "version": "2.1.7"
   },
   {
     "allUrls": [
@@ -301,7 +301,7 @@
       "https://github.com/gotify/server/releases/download/v2.1.6/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.6/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.6/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.6/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.6/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.1.6/gotify-linux-386.zip",
@@ -309,21 +309,21 @@
       "https://github.com/gotify/server/releases/download/v2.1.6/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.6/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.6/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.6/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.6/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.1.6/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.1.6/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.6/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.6/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.6/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.6/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.6/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.6/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.1.6",
+    "version": "2.1.6"
   },
   {
     "allUrls": [
@@ -332,7 +332,7 @@
       "https://github.com/gotify/server/releases/download/v2.1.5/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.5/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.5/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.5/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.5/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.1.5/gotify-linux-386.zip",
@@ -340,21 +340,21 @@
       "https://github.com/gotify/server/releases/download/v2.1.5/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.5/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.5/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.5/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.5/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.1.5/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.1.5/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.5/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.5/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.5/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.5/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.5/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.5/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.1.5",
+    "version": "2.1.5"
   },
   {
     "allUrls": [
@@ -363,7 +363,7 @@
       "https://github.com/gotify/server/releases/download/v2.1.4/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.4/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.4/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.4/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.4/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.1.4/gotify-linux-386.zip",
@@ -371,21 +371,21 @@
       "https://github.com/gotify/server/releases/download/v2.1.4/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.4/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.4/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.4/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.4/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.1.4/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.1.4/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.4/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.4/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.4/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.4/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.4/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.4/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.1.4",
+    "version": "2.1.4"
   },
   {
     "allUrls": [
@@ -394,7 +394,7 @@
       "https://github.com/gotify/server/releases/download/v2.1.3/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.3/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.3/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.3/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.3/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.1.3/gotify-linux-386.zip",
@@ -402,21 +402,21 @@
       "https://github.com/gotify/server/releases/download/v2.1.3/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.3/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.3/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.3/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.3/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.1.3/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.1.3/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.3/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.3/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.3/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.3/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.3/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.3/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.1.3",
+    "version": "2.1.3"
   },
   {
     "allUrls": [
@@ -425,7 +425,7 @@
       "https://github.com/gotify/server/releases/download/v2.1.2/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.2/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.2/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.2/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.2/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.1.2/gotify-linux-386.zip",
@@ -433,28 +433,23 @@
       "https://github.com/gotify/server/releases/download/v2.1.2/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.2/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.2/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.2/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.2/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.1.2/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.1.2/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.2/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.2/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.2/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.2/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.2/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.2/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.1.2",
+    "version": "2.1.2"
   },
-  {
-    "allUrls": [],
-    "allowedUrls": [],
-    "archives": {},
-    "version": "2.1.1",
-  },
+  { "allUrls": [], "allowedUrls": [], "archives": {}, "version": "2.1.1" },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v2.1.0/gotify-linux-386.zip",
@@ -462,7 +457,7 @@
       "https://github.com/gotify/server/releases/download/v2.1.0/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.0/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.0/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.0/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.1.0/gotify-linux-386.zip",
@@ -470,21 +465,21 @@
       "https://github.com/gotify/server/releases/download/v2.1.0/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.1.0/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.1.0/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.1.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.1.0/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.1.0/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.1.0/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.0/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.0/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.0/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.1.0/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.1.0/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.1.0/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.1.0",
+    "version": "2.1.0"
   },
   {
     "allUrls": [
@@ -493,7 +488,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.23/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.23/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.23/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.23/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.23/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.23/gotify-linux-386.zip",
@@ -501,21 +496,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.23/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.23/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.23/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.23/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.23/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.23/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.23/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.23/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.23/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.23/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.23/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.23/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.23/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.23",
+    "version": "2.0.23"
   },
   {
     "allUrls": [
@@ -524,7 +519,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.22/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.22/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.22/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.22/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.22/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.22/gotify-linux-386.zip",
@@ -532,21 +527,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.22/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.22/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.22/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.22/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.22/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.22/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.22/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.22/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.22/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.22/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.22/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.22/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.22/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.22",
+    "version": "2.0.22"
   },
   {
     "allUrls": [
@@ -555,7 +550,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.21/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.21/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.21/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.21/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.21/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.21/gotify-linux-386.zip",
@@ -563,21 +558,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.21/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.21/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.21/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.21/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.21/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.21/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.21/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.21/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.21/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.21/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.21/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.21/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.21/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.21",
+    "version": "2.0.21"
   },
   {
     "allUrls": [
@@ -586,7 +581,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.20/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.20/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.20/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.20/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.20/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.20/gotify-linux-386.zip",
@@ -594,21 +589,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.20/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.20/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.20/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.20/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.20/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.20/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.20/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.20/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.20/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.20/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.20/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.20/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.20/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.20",
+    "version": "2.0.20"
   },
   {
     "allUrls": [
@@ -617,7 +612,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.19/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.19/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.19/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.19/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.19/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.19/gotify-linux-386.zip",
@@ -625,21 +620,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.19/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.19/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.19/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.19/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.19/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.19/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.19/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.19/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.19/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.19/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.19/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.19/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.19/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.19",
+    "version": "2.0.19"
   },
   {
     "allUrls": [
@@ -648,7 +643,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.18/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.18/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.18/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.18/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.18/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.18/gotify-linux-386.zip",
@@ -656,21 +651,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.18/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.18/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.18/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.18/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.18/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.18/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.18/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.18/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.18/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.18/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.18/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.18/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.18/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.18",
+    "version": "2.0.18"
   },
   {
     "allUrls": [
@@ -679,7 +674,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.17/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.17/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.17/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.17/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.17/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.17/gotify-linux-386.zip",
@@ -687,21 +682,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.17/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.17/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.17/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.17/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.17/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.17/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.17/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.17/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.17/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.17/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.17/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.17/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.17/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.17",
+    "version": "2.0.17"
   },
   {
     "allUrls": [
@@ -710,7 +705,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.16/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.16/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.16/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.16/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.16/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.16/gotify-linux-386.zip",
@@ -718,21 +713,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.16/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.16/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.16/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.16/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.16/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.16/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.16/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.16/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.16/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.16/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.16/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.16/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.16/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.16",
+    "version": "2.0.16"
   },
   {
     "allUrls": [
@@ -741,7 +736,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.15/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.15/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.15/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.15/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.15/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.15/gotify-linux-386.zip",
@@ -749,21 +744,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.15/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.15/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.15/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.15/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.15/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.15/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.15/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.15/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.15/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.15/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.15/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.15/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.15/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.15",
+    "version": "2.0.15"
   },
   {
     "allUrls": [
@@ -772,7 +767,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.14/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.14/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.14/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.14/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.14/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.14/gotify-linux-386.zip",
@@ -780,21 +775,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.14/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.14/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.14/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.14/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.14/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.14/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.14/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.14/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.14/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.14/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.14/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.14/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.14/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.14",
+    "version": "2.0.14"
   },
   {
     "allUrls": [
@@ -803,7 +798,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.13/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.13/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.13/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.13/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.13/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.13/gotify-linux-386.zip",
@@ -811,21 +806,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.13/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.13/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.13/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.13/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.13/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.13/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.13/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.13/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.13/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.13/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.13/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.13/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.13/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.13",
+    "version": "2.0.13"
   },
   {
     "allUrls": [
@@ -834,7 +829,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.12/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.12/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.12/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.12/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.12/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.12/gotify-linux-386.zip",
@@ -842,21 +837,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.12/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.12/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.12/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.12/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.12/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.12/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.12/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.12/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.12/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.12/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.12/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.12/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.12/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.12",
+    "version": "2.0.12"
   },
   {
     "allUrls": [
@@ -865,7 +860,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.11/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.11/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.11/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.11/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.11/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.11/gotify-linux-386.zip",
@@ -873,21 +868,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.11/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.11/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.11/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.11/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.11/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.11/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.11/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.11/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.11/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.11/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.11/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.11/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.11/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.11",
+    "version": "2.0.11"
   },
   {
     "allUrls": [
@@ -896,7 +891,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.10/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.10/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.10/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.10/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.10/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.10/gotify-linux-386.zip",
@@ -904,21 +899,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.10/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.10/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.10/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.10/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.10/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.10/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.10/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.10/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.10/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.10/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.10/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.10/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.10/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.10",
+    "version": "2.0.10"
   },
   {
     "allUrls": [
@@ -927,7 +922,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.9/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.9/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.9/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.9/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.9/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.9/gotify-linux-386.zip",
@@ -935,21 +930,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.9/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.9/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.9/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.9/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.9/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.9/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.9/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.9/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.9/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.9/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.9/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.9/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.9/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.9",
+    "version": "2.0.9"
   },
   {
     "allUrls": [
@@ -958,7 +953,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.8/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.8/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.8/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.8/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.8/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.8/gotify-linux-386.zip",
@@ -966,21 +961,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.8/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.8/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.8/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.8/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.8/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.8/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.8/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.8/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.8/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.8/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.8/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.8/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.8/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.8",
+    "version": "2.0.8"
   },
   {
     "allUrls": [
@@ -989,7 +984,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.7/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.7/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.7/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.7/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.7/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.7/gotify-linux-386.zip",
@@ -997,21 +992,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.7/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.7/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.7/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.7/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.7/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.7/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.7/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.7/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.7/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.7/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.7/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.7/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.7/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.7",
+    "version": "2.0.7"
   },
   {
     "allUrls": [
@@ -1020,7 +1015,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.6/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.6/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.6/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.6/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.6/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.6/gotify-linux-386.zip",
@@ -1028,21 +1023,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.6/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.6/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.6/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.6/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.6/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.6/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.6/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.6/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.6/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.6/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.6/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.6/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.6/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.6",
+    "version": "2.0.6"
   },
   {
     "allUrls": [
@@ -1051,7 +1046,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.5/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.5/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.5/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.5/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.5/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.5/gotify-linux-386.zip",
@@ -1059,21 +1054,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.5/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.5/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.5/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.5/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.5/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.5/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.5/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.5/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.5/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.5/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.5/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.5/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.5/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.5",
+    "version": "2.0.5"
   },
   {
     "allUrls": [
@@ -1082,7 +1077,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.4/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.4/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.4/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.4/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.4/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.4/gotify-linux-386.zip",
@@ -1090,21 +1085,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.4/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.4/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.4/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.4/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.4/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.4/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.4/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.4/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.4/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.4/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.4/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.4/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.4/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.4",
+    "version": "2.0.4"
   },
   {
     "allUrls": [
@@ -1113,7 +1108,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.3/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.3/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.3/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.3/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.3/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.3/gotify-linux-386.zip",
@@ -1121,21 +1116,21 @@
       "https://github.com/gotify/server/releases/download/v2.0.3/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.3/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.3/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.3/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.3/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.3/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.3/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.3/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.3/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.3/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.3/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.3/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.3/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.3",
+    "version": "2.0.3"
   },
   {
     "allUrls": [
@@ -1144,7 +1139,7 @@
       "https://github.com/gotify/server/releases/download/v2.0.2/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.2/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.2/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.2/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.2/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.2/gotify-linux-386.zip",
@@ -1152,495 +1147,495 @@
       "https://github.com/gotify/server/releases/download/v2.0.2/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.2/gotify-linux-arm64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.2/gotify-windows-386.exe.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.2/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.2/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.2/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.2/gotify-linux-arm64.zip",
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.2/gotify-linux-386.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.2/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.2/gotify-linux-amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/gotify/server/releases/download/v2.0.2/gotify-windows-386.exe.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.2/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.2/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.2",
+    "version": "2.0.2"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.1/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.1/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.1/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.1/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.1/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.1/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.1/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.1/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.1/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.1/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.1/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.1/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.1/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.1/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.1/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.1/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.1",
+    "version": "2.0.1"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.0/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.0/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.0/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.0/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v2.0.0/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v2.0.0/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v2.0.0/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v2.0.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v2.0.0/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v2.0.0/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v2.0.0/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.0/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.0/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v2.0.0/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v2.0.0/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "2.0.0",
+    "version": "2.0.0"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.2.1/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.2.1/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.2.1/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.2.1/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.2.1/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.2.1/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.2.1/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.2.1/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.2.1/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.2.1/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.2.1/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.2.1/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.2.1/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.2.1/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.2.1/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.2.1/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.2.1",
+    "version": "1.2.1"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.2.0/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.2.0/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.2.0/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.2.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.2.0/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.2.0/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.2.0/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.2.0/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.2.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.2.0/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.2.0/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.2.0/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.2.0/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.2.0/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.2.0/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.2.0/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.2.0",
+    "version": "1.2.0"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.8/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.8/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.8/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.8/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.8/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.8/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.8/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.8/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.8/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.8/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.1.8/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.1.8/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.8/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.8/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.8/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.8/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.1.8",
+    "version": "1.1.8"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.7/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.7/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.7/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.7/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.7/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.7/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.7/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.7/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.7/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.7/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.1.7/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.1.7/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.7/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.7/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.7/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.7/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.1.7",
+    "version": "1.1.7"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.6/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.6/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.6/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.6/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.6/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.6/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.6/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.6/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.6/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.6/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.1.6/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.1.6/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.6/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.6/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.6/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.6/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.1.6",
+    "version": "1.1.6"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.5/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.5/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.5/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.5/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.5/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.5/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.5/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.5/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.5/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.5/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.1.5/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.1.5/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.5/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.5/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.5/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.5/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.1.5",
+    "version": "1.1.5"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.4/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.4/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.4/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.4/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.4/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.4/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.4/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.4/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.4/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.4/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.1.4/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.1.4/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.4/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.4/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.4/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.4/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.1.4",
+    "version": "1.1.4"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.3/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.3/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.3/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.3/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.3/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.3/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.3/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.3/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.3/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.3/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.1.3/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.1.3/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.3/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.3/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.3/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.3/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.1.3",
+    "version": "1.1.3"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.2/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.2/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.2/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.2/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.2/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.2/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.2/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.2/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.2/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.2/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.1.2/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.1.2/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.2/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.2/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.2/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.2/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.1.2",
+    "version": "1.1.2"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.1/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.1/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.1/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.1/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.1/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.1/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.1/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.1/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.1/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.1/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.1.1/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.1.1/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.1/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.1/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.1/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.1/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.1.1",
+    "version": "1.1.1"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.0/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.0/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.0/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.0/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.1.0/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.1.0/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.1.0/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.1.0/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.1.0/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.1.0/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.1.0/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.0/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.0/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.1.0/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.1.0/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.1.0",
+    "version": "1.1.0"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.0.5/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.0.5/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.0.5/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.0.5/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.0.5/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.0.5/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.0.5/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.0.5/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.0.5/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.0.5/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.0.5/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.0.5/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.0.5/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.0.5/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.0.5/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.0.5/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.0.5",
+    "version": "1.0.5"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.0.4/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.0.4/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.0.4/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.0.4/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.0.4/gotify-windows-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.0.4/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.0.4/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.0.4/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.0.4/gotify-windows-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.0.4/gotify-windows-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.0.4/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.0.4/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.0.4/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.0.4/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.0.4/gotify-windows-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.0.4/gotify-windows-amd64.exe.zip"
+      }
     },
-    "version": "1.0.4",
+    "version": "1.0.4"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.0.3/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.0.3/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.0.3/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.0.3/gotify-windows-10-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.0.3/gotify-windows-10-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.0.3/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.0.3/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.0.3/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.0.3/gotify-windows-10-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.0.3/gotify-windows-10-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.0.3/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.0.3/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.0.3/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.0.3/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.0.3/gotify-windows-10-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.0.3/gotify-windows-10-amd64.exe.zip"
+      }
     },
-    "version": "1.0.3",
+    "version": "1.0.3"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.0.2/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.0.2/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.0.2/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.0.2/gotify-windows-10-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.0.2/gotify-windows-10-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.0.2/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.0.2/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.0.2/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.0.2/gotify-windows-10-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.0.2/gotify-windows-10-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.0.2/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.0.2/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.0.2/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.0.2/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.0.2/gotify-windows-10-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.0.2/gotify-windows-10-amd64.exe.zip"
+      }
     },
-    "version": "1.0.2",
+    "version": "1.0.2"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.0.1/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.0.1/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.0.1/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.0.1/gotify-windows-10-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.0.1/gotify-windows-10-amd64.exe.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.0.1/gotify-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.0.1/gotify-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.0.1/gotify-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.0.1/gotify-windows-10-amd64.exe.zip",
+      "https://github.com/gotify/server/releases/download/v1.0.1/gotify-windows-10-amd64.exe.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.0.1/gotify-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.0.1/gotify-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.0.1/gotify-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.0.1/gotify-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.0.1/gotify-windows-10-amd64.exe.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.0.1/gotify-windows-10-amd64.exe.zip"
+      }
     },
-    "version": "1.0.1",
+    "version": "1.0.1"
   },
   {
     "allUrls": [
       "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-windows-10-amd64.zip",
+      "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-windows-10-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-linux-amd64.zip",
       "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-linux-arm-7.zip",
       "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-linux-arm64.zip",
-      "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-windows-10-amd64.zip",
+      "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-windows-10-amd64.zip"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-linux-arm-7.zip",
         "arm64": "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-linux-arm64.zip",
-        "x64": "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-linux-amd64.zip",
+        "x64": "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-linux-amd64.zip"
       },
       "win32": {
-        "x64": "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-windows-10-amd64.zip",
-      },
+        "x64": "https://github.com/gotify/server/releases/download/v1.0.0/gotify-1.0.0-windows-10-amd64.zip"
+      }
     },
-    "version": "1.0.0",
-  },
+    "version": "1.0.0"
+  }
 ]

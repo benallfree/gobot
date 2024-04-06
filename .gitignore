@@ -11,3 +11,4 @@
 *.log
 src/apps/*/test-data/archives
 .vscode
+.cache

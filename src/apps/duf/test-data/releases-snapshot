@@ -43,7 +43,7 @@
       "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_armv6.zip",
       "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_armv7.zip",
       "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_x86_64.zip"
     ],
     "allowedUrls": [
       "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Darwin_arm64.tar.gz",
@@ -68,32 +68,32 @@
       "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_armv6.zip",
       "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_armv7.zip",
       "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_x86_64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Darwin_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Darwin_x86_64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_freebsd_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_freebsd_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_freebsd_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_freebsd_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_freebsd_x86_64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_linux_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_linux_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_linux_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_linux_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_linux_x86_64.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_arm64.zip",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_i386.zip",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_x86_64.zip",
-      },
+        "x64": "https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_Windows_x86_64.zip"
+      }
     },
-    "version": "0.8.1",
+    "version": "0.8.1"
   },
   {
     "allUrls": [
@@ -139,7 +139,7 @@
       "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_armv6.zip",
       "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_armv7.zip",
       "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_x86_64.zip"
     ],
     "allowedUrls": [
       "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Darwin_arm64.tar.gz",
@@ -164,32 +164,32 @@
       "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_armv6.zip",
       "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_armv7.zip",
       "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_x86_64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Darwin_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Darwin_x86_64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_freebsd_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_freebsd_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_freebsd_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_freebsd_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_freebsd_x86_64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_linux_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_linux_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_linux_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_linux_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_linux_x86_64.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_arm64.zip",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_i386.zip",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_x86_64.zip",
-      },
+        "x64": "https://github.com/muesli/duf/releases/download/v0.8.0/duf_0.8.0_Windows_x86_64.zip"
+      }
     },
-    "version": "0.8.0",
+    "version": "0.8.0"
   },
   {
     "allUrls": [
@@ -235,7 +235,7 @@
       "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_armv6.zip",
       "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_armv7.zip",
       "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_x86_64.zip"
     ],
     "allowedUrls": [
       "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Darwin_arm64.tar.gz",
@@ -260,32 +260,32 @@
       "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_armv6.zip",
       "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_armv7.zip",
       "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_x86_64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Darwin_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Darwin_x86_64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_freebsd_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_freebsd_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_freebsd_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_freebsd_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_freebsd_x86_64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_linux_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_linux_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_linux_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_linux_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_linux_x86_64.tar.gz"
       },
       "win32": {
         "arm64": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_arm64.zip",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_i386.zip",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_x86_64.zip",
-      },
+        "x64": "https://github.com/muesli/duf/releases/download/v0.7.0/duf_0.7.0_Windows_x86_64.zip"
+      }
     },
-    "version": "0.7.0",
+    "version": "0.7.0"
   },
   {
     "allUrls": [
@@ -330,7 +330,7 @@
       "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_armv6.zip",
       "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_armv7.zip",
       "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_x86_64.zip"
     ],
     "allowedUrls": [
       "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Darwin_arm64.tar.gz",
@@ -354,31 +354,31 @@
       "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_armv6.zip",
       "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_armv7.zip",
       "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_x86_64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Darwin_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Darwin_x86_64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_freebsd_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_freebsd_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_freebsd_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_freebsd_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_freebsd_x86_64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_linux_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_linux_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_linux_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_linux_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_linux_x86_64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_i386.zip",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_x86_64.zip",
-      },
+        "x64": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_x86_64.zip"
+      }
     },
-    "version": "0.6.2",
+    "version": "0.6.2"
   },
   {
     "allUrls": [
@@ -423,7 +423,7 @@
       "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Windows_armv6.zip",
       "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Windows_armv7.zip",
       "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Windows_x86_64.zip"
     ],
     "allowedUrls": [
       "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Darwin_arm64.tar.gz",
@@ -447,31 +447,31 @@
       "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Windows_armv6.zip",
       "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Windows_armv7.zip",
       "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Windows_x86_64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Darwin_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Darwin_x86_64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_freebsd_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_freebsd_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_freebsd_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_freebsd_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_freebsd_x86_64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_linux_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_linux_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_linux_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_linux_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_linux_x86_64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Windows_i386.zip",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Windows_x86_64.zip",
-      },
+        "x64": "https://github.com/muesli/duf/releases/download/v0.6.1/duf_0.6.1_Windows_x86_64.zip"
+      }
     },
-    "version": "0.6.1",
+    "version": "0.6.1"
   },
   {
     "allUrls": [
@@ -513,7 +513,7 @@
       "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_openbsd_i386.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_openbsd_x86_64.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Windows_x86_64.zip"
     ],
     "allowedUrls": [
       "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Darwin_x86_64.tar.gz",
@@ -534,30 +534,30 @@
       "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_openbsd_i386.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_openbsd_x86_64.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Windows_x86_64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Darwin_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Darwin_x86_64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_freebsd_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_freebsd_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_freebsd_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_freebsd_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_freebsd_x86_64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_linux_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_linux_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_linux_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_linux_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_linux_x86_64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Windows_i386.zip",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Windows_x86_64.zip",
-      },
+        "x64": "https://github.com/muesli/duf/releases/download/v0.6.0/duf_0.6.0_Windows_x86_64.zip"
+      }
     },
-    "version": "0.6.0",
+    "version": "0.6.0"
   },
   {
     "allUrls": [
@@ -595,7 +595,7 @@
       "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_openbsd_i386.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_openbsd_x86_64.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_Windows_x86_64.zip"
     ],
     "allowedUrls": [
       "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_Darwin_x86_64.tar.gz",
@@ -615,30 +615,30 @@
       "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_openbsd_i386.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_openbsd_x86_64.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_Windows_x86_64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_Darwin_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_Darwin_x86_64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_freebsd_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_freebsd_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_freebsd_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_freebsd_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_freebsd_x86_64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_linux_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_linux_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_linux_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_linux_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_linux_x86_64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_Windows_i386.zip",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_Windows_x86_64.zip",
-      },
+        "x64": "https://github.com/muesli/duf/releases/download/v0.5.0/duf_0.5.0_Windows_x86_64.zip"
+      }
     },
-    "version": "0.5.0",
+    "version": "0.5.0"
   },
   {
     "allUrls": [
@@ -676,7 +676,7 @@
       "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_openbsd_i386.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_openbsd_x86_64.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_Windows_x86_64.zip"
     ],
     "allowedUrls": [
       "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_Darwin_x86_64.tar.gz",
@@ -696,30 +696,30 @@
       "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_openbsd_i386.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_openbsd_x86_64.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_Windows_i386.zip",
-      "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_Windows_x86_64.zip",
+      "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_Windows_x86_64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_Darwin_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_Darwin_x86_64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_freebsd_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_freebsd_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_freebsd_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_freebsd_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_freebsd_x86_64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_linux_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_linux_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_linux_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_linux_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_linux_x86_64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_Windows_i386.zip",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_Windows_x86_64.zip",
-      },
+        "x64": "https://github.com/muesli/duf/releases/download/v0.4.0/duf_0.4.0_Windows_x86_64.zip"
+      }
     },
-    "version": "0.4.0",
+    "version": "0.4.0"
   },
   {
     "allUrls": [
@@ -745,7 +745,7 @@
       "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_armv7.rpm",
       "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_armv7.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_i386.tar.gz",
-      "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_x86_64.tar.gz",
+      "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_x86_64.tar.gz"
     ],
     "allowedUrls": [
       "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_Darwin_x86_64.tar.gz",
@@ -758,26 +758,26 @@
       "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_armv6.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_armv7.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_i386.tar.gz",
-      "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_x86_64.tar.gz",
+      "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_x86_64.tar.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_Darwin_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_Darwin_x86_64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_freebsd_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_freebsd_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_freebsd_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_freebsd_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_freebsd_x86_64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_x86_64.tar.gz",
-      },
+        "x64": "https://github.com/muesli/duf/releases/download/v0.3.1/duf_0.3.1_linux_x86_64.tar.gz"
+      }
     },
-    "version": "0.3.1",
+    "version": "0.3.1"
   },
   {
     "allUrls": [
@@ -803,7 +803,7 @@
       "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_armv7.rpm",
       "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_armv7.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_i386.tar.gz",
-      "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_x86_64.tar.gz",
+      "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_x86_64.tar.gz"
     ],
     "allowedUrls": [
       "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_Darwin_x86_64.tar.gz",
@@ -816,26 +816,26 @@
       "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_armv6.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_armv7.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_i386.tar.gz",
-      "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_x86_64.tar.gz",
+      "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_x86_64.tar.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_Darwin_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_Darwin_x86_64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_freebsd_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_freebsd_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_freebsd_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_freebsd_x86_64.tar.gz",
+        "x64": "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_freebsd_x86_64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_x86_64.tar.gz",
-      },
+        "x64": "https://github.com/muesli/duf/releases/download/v0.3.0/duf_0.3.0_linux_x86_64.tar.gz"
+      }
     },
-    "version": "0.3.0",
+    "version": "0.3.0"
   },
   {
     "allUrls": [
@@ -855,24 +855,24 @@
       "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_armv7.rpm",
       "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_armv7.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_i386.tar.gz",
-      "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_x86_64.tar.gz",
+      "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_x86_64.tar.gz"
     ],
     "allowedUrls": [
       "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_arm64.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_armv6.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_armv7.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_i386.tar.gz",
-      "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_x86_64.tar.gz",
+      "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_x86_64.tar.gz"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_x86_64.tar.gz",
-      },
+        "x64": "https://github.com/muesli/duf/releases/download/v0.2.0/duf_0.2.0_linux_x86_64.tar.gz"
+      }
     },
-    "version": "0.2.0",
+    "version": "0.2.0"
   },
   {
     "allUrls": [
@@ -892,23 +892,23 @@
       "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_armv7.rpm",
       "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_armv7.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_i386.tar.gz",
-      "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_x86_64.tar.gz",
+      "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_x86_64.tar.gz"
     ],
     "allowedUrls": [
       "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_arm64.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_armv6.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_armv7.tar.gz",
       "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_i386.tar.gz",
-      "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_x86_64.tar.gz",
+      "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_x86_64.tar.gz"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_armv7.tar.gz",
         "arm64": "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_arm64.tar.gz",
         "ia32": "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_i386.tar.gz",
-        "x64": "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_x86_64.tar.gz",
-      },
+        "x64": "https://github.com/muesli/duf/releases/download/v0.1.0/duf_0.1.0_linux_x86_64.tar.gz"
+      }
     },
-    "version": "0.1.0",
-  },
+    "version": "0.1.0"
+  }
 ]

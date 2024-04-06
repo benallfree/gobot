@@ -9,7 +9,7 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo_0.31.2_amd64.deb",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo_0.31.2_arm64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo_0.31.2_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo_0.31.2_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.darwin-amd64.tar.gz",
@@ -17,23 +17,23 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.linux-arm64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.darwin-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.linux-arm.tar.gz",
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.linux-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo0.31.2.windows-amd64.zip"
+      }
     },
-    "version": "0.31.2",
+    "version": "0.31.2"
   },
   {
     "allUrls": [
@@ -45,7 +45,7 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo_0.31.1_amd64.deb",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo_0.31.1_arm64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo_0.31.1_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo_0.31.1_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.darwin-amd64.tar.gz",
@@ -53,23 +53,23 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.linux-arm64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.darwin-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.linux-arm.tar.gz",
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.linux-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.1/tinygo0.31.1.windows-amd64.zip"
+      }
     },
-    "version": "0.31.1",
+    "version": "0.31.1"
   },
   {
     "allUrls": [
@@ -81,7 +81,7 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo_0.31.0_amd64.deb",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo_0.31.0_arm64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo_0.31.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo_0.31.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.darwin-amd64.tar.gz",
@@ -89,23 +89,23 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.linux-arm64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.darwin-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.linux-arm.tar.gz",
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.linux-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.31.0/tinygo0.31.0.windows-amd64.zip"
+      }
     },
-    "version": "0.31.0",
+    "version": "0.31.0"
   },
   {
     "allUrls": [
@@ -116,29 +116,29 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo_0.30.0_amd64.deb",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo_0.30.0_arm64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo_0.30.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo_0.30.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.linux-arm64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.linux-arm.tar.gz",
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.linux-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.30.0/tinygo0.30.0.windows-amd64.zip"
+      }
     },
-    "version": "0.30.0",
+    "version": "0.30.0"
   },
   {
     "allUrls": [
@@ -149,29 +149,29 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo_0.29.0_amd64.deb",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo_0.29.0_arm64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo_0.29.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo_0.29.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.linux-arm64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.linux-arm.tar.gz",
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.linux-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.29.0/tinygo0.29.0.windows-amd64.zip"
+      }
     },
-    "version": "0.29.0",
+    "version": "0.29.0"
   },
   {
     "allUrls": [
@@ -182,29 +182,29 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo_0.28.1_amd64.deb",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo_0.28.1_arm64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo_0.28.1_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo_0.28.1_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.linux-arm64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.linux-arm.tar.gz",
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.linux-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.1/tinygo0.28.1.windows-amd64.zip"
+      }
     },
-    "version": "0.28.1",
+    "version": "0.28.1"
   },
   {
     "allUrls": [
@@ -215,29 +215,29 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo_0.28.0_amd64.deb",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo_0.28.0_arm64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo_0.28.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo_0.28.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.linux-arm64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.linux-arm.tar.gz",
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.linux-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.28.0/tinygo0.28.0.windows-amd64.zip"
+      }
     },
-    "version": "0.28.0",
+    "version": "0.28.0"
   },
   {
     "allUrls": [
@@ -248,29 +248,29 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo_0.27.0_amd64.deb",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo_0.27.0_arm64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo_0.27.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo_0.27.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.linux-arm64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.linux-arm.tar.gz",
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.linux-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.27.0/tinygo0.27.0.windows-amd64.zip"
+      }
     },
-    "version": "0.27.0",
+    "version": "0.27.0"
   },
   {
     "allUrls": [
@@ -281,29 +281,29 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo_0.26.0_amd64.deb",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo_0.26.0_arm64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo_0.26.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo_0.26.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.linux-arm64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.linux-arm.tar.gz",
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.linux-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.26.0/tinygo0.26.0.windows-amd64.zip"
+      }
     },
-    "version": "0.26.0",
+    "version": "0.26.0"
   },
   {
     "allUrls": [
@@ -314,54 +314,54 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo_0.25.0_amd64.deb",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo_0.25.0_arm64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo_0.25.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo_0.25.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.linux-arm64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.linux-arm.tar.gz",
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.linux-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0/tinygo0.25.0.windows-amd64.zip"
+      }
     },
-    "version": "0.25.0",
+    "version": "0.25.0"
   },
   {
     "allUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo0.25.0-beta1.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo0.25.0-beta1.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo0.25.0-beta1.windows-amd64.zip",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo_0.25.0-beta1_amd64.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo_0.25.0-beta1_amd64.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo0.25.0-beta1.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo0.25.0-beta1.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo0.25.0-beta1.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo0.25.0-beta1.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo0.25.0-beta1.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo0.25.0-beta1.darwin-amd64.tar.gz"
       },
       "linux": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo0.25.0-beta1.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo0.25.0-beta1.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo0.25.0-beta1.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.25.0-beta1/tinygo0.25.0-beta1.windows-amd64.zip"
+      }
     },
-    "version": "0.25.0-beta1",
+    "version": "0.25.0-beta1"
   },
   {
     "allUrls": [
@@ -372,29 +372,29 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo_0.24.0_amd64.deb",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo_0.24.0_arm.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo_0.24.0_arm64.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo_0.24.0_arm64.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.linux-arm64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.linux-arm.tar.gz",
         "arm64": "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.linux-arm64.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.24.0/tinygo0.24.0.windows-amd64.zip"
+      }
     },
-    "version": "0.24.0",
+    "version": "0.24.0"
   },
   {
     "allUrls": [
@@ -403,52 +403,52 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo_0.23.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo_0.23.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo_0.23.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.23.0/tinygo0.23.0.windows-amd64.zip"
+      }
     },
-    "version": "0.23.0",
+    "version": "0.23.0"
   },
   {
     "allUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo0.22.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo0.22.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo0.22.0.windows-amd64.zip",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo_0.22.0_amd64.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo_0.22.0_amd64.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo0.22.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo0.22.0.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo0.22.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo0.22.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo0.22.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo0.22.0.darwin-amd64.tar.gz"
       },
       "linux": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo0.22.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo0.22.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo0.22.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.22.0/tinygo0.22.0.windows-amd64.zip"
+      }
     },
-    "version": "0.22.0",
+    "version": "0.22.0"
   },
   {
     "allUrls": [
@@ -457,27 +457,27 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo_0.21.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo_0.21.0_arm.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo_0.21.0_arm.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.21.0/tinygo0.21.0.windows-amd64.zip"
+      }
     },
-    "version": "0.21.0",
+    "version": "0.21.0"
   },
   {
     "allUrls": [
@@ -486,27 +486,27 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo_0.20.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo_0.20.0_arm.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo_0.20.0_arm.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.20.0/tinygo0.20.0.windows-amd64.zip"
+      }
     },
-    "version": "0.20.0",
+    "version": "0.20.0"
   },
   {
     "allUrls": [
@@ -515,27 +515,27 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo_0.19.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo_0.19.0_arm.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo_0.19.0_arm.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.19.0/tinygo0.19.0.windows-amd64.zip"
+      }
     },
-    "version": "0.19.0",
+    "version": "0.19.0"
   },
   {
     "allUrls": [
@@ -544,27 +544,27 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo_0.18.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo_0.18.0_arm.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo_0.18.0_arm.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.18.0/tinygo0.18.0.windows-amd64.zip"
+      }
     },
-    "version": "0.18.0",
+    "version": "0.18.0"
   },
   {
     "allUrls": [
@@ -573,27 +573,27 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo_0.17.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo_0.17.0_arm.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo_0.17.0_arm.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.17.0/tinygo0.17.0.windows-amd64.zip"
+      }
     },
-    "version": "0.17.0",
+    "version": "0.17.0"
   },
   {
     "allUrls": [
@@ -602,27 +602,27 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo_0.16.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo_0.16.0_arm.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo_0.16.0_arm.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.16.0/tinygo0.16.0.windows-amd64.zip"
+      }
     },
-    "version": "0.16.0",
+    "version": "0.16.0"
   },
   {
     "allUrls": [
@@ -631,27 +631,27 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo_0.15.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo_0.15.0_arm.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo_0.15.0_arm.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.15.0/tinygo0.15.0.windows-amd64.zip"
+      }
     },
-    "version": "0.15.0",
+    "version": "0.15.0"
   },
   {
     "allUrls": [
@@ -660,27 +660,27 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo_0.14.1_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo_0.14.1_arm.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo_0.14.1_arm.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.1/tinygo0.14.1.windows-amd64.zip"
+      }
     },
-    "version": "0.14.1",
+    "version": "0.14.1"
   },
   {
     "allUrls": [
@@ -689,27 +689,27 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo_0.14.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo_0.14.0_arm.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo_0.14.0_arm.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.14.0/tinygo0.14.0.windows-amd64.zip"
+      }
     },
-    "version": "0.14.0",
+    "version": "0.14.0"
   },
   {
     "allUrls": [
@@ -718,52 +718,52 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo_0.13.1_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo_0.13.1_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo_0.13.1_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.13.1/tinygo0.13.1.windows-amd64.zip"
+      }
     },
-    "version": "0.13.1",
+    "version": "0.13.1"
   },
   {
     "allUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo0.13.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo0.13.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo0.13.0.windows-amd64.zip",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo_0.13.0_amd64.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo_0.13.0_amd64.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo0.13.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo0.13.0.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo0.13.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo0.13.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo0.13.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo0.13.0.darwin-amd64.tar.gz"
       },
       "linux": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo0.13.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo0.13.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo0.13.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.13.0/tinygo0.13.0.windows-amd64.zip"
+      }
     },
-    "version": "0.13.0",
+    "version": "0.13.0"
   },
   {
     "allUrls": [
@@ -772,27 +772,27 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo_0.12.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo_0.12.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo_0.12.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.12.0/tinygo0.12.0.windows-amd64.zip"
+      }
     },
-    "version": "0.12.0",
+    "version": "0.12.0"
   },
   {
     "allUrls": [
@@ -801,27 +801,27 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo_0.11.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo_0.11.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo_0.11.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.11.0/tinygo0.11.0.windows-amd64.zip"
+      }
     },
-    "version": "0.11.0",
+    "version": "0.11.0"
   },
   {
     "allUrls": [
@@ -830,27 +830,27 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo_0.10.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo_0.10.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo_0.10.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.10.0/tinygo0.10.0.windows-amd64.zip"
+      }
     },
-    "version": "0.10.0",
+    "version": "0.10.0"
   },
   {
     "allUrls": [
@@ -859,27 +859,27 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.windows-amd64.zip",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo_0.9.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo_0.9.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo_0.9.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.linux-arm.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.windows-amd64.zip",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.linux-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.windows-amd64.zip",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.9.0/tinygo0.9.0.windows-amd64.zip"
+      }
     },
-    "version": "0.9.0",
+    "version": "0.9.0"
   },
   {
     "allUrls": [
@@ -887,43 +887,43 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo0.8.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo0.8.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo_0.8.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo_0.8.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo_0.8.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo0.8.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo0.8.0.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo0.8.0.linux-arm.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo0.8.0.linux-arm.tar.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo0.8.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo0.8.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo0.8.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo0.8.0.linux-amd64.tar.gz",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.8.0/tinygo0.8.0.linux-amd64.tar.gz"
+      }
     },
-    "version": "0.8.0",
+    "version": "0.8.0"
   },
   {
     "allUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.7.1/tinygo0.7.1.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.7.1/tinygo0.7.1.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.7.1/tinygo_0.7.1_amd64.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.7.1/tinygo_0.7.1_amd64.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.7.1/tinygo0.7.1.darwin-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.7.1/tinygo0.7.1.linux-amd64.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.7.1/tinygo0.7.1.linux-amd64.tar.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.7.1/tinygo0.7.1.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.7.1/tinygo0.7.1.darwin-amd64.tar.gz"
       },
       "linux": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.7.1/tinygo0.7.1.linux-amd64.tar.gz",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.7.1/tinygo0.7.1.linux-amd64.tar.gz"
+      }
     },
-    "version": "0.7.1",
+    "version": "0.7.1"
   },
   {
     "allUrls": [
@@ -931,23 +931,23 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo0.7.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo0.7.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo_0.7.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo_0.7.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo_0.7.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo0.7.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo0.7.0.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo0.7.0.linux-arm.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo0.7.0.linux-arm.tar.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo0.7.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo0.7.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo0.7.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo0.7.0.linux-amd64.tar.gz",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.7.0/tinygo0.7.0.linux-amd64.tar.gz"
+      }
     },
-    "version": "0.7.0",
+    "version": "0.7.0"
   },
   {
     "allUrls": [
@@ -955,23 +955,23 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo0.6.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo0.6.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo_0.6.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo_0.6.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo_0.6.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo0.6.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo0.6.0.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo0.6.0.linux-arm.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo0.6.0.linux-arm.tar.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo0.6.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo0.6.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo0.6.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo0.6.0.linux-amd64.tar.gz",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.6.0/tinygo0.6.0.linux-amd64.tar.gz"
+      }
     },
-    "version": "0.6.0",
+    "version": "0.6.0"
   },
   {
     "allUrls": [
@@ -979,104 +979,104 @@
       "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo0.5.0.linux-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo0.5.0.linux-arm.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo_0.5.0_amd64.deb",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo_0.5.0_armhf.deb",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo_0.5.0_armhf.deb"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo0.5.0.darwin-amd64.tar.gz",
       "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo0.5.0.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo0.5.0.linux-arm.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo0.5.0.linux-arm.tar.gz"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo0.5.0.darwin-amd64.tar.gz",
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo0.5.0.darwin-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo0.5.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo0.5.0.linux-amd64.tar.gz",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.5.0/tinygo0.5.0.linux-amd64.tar.gz"
+      }
     },
-    "version": "0.5.0",
+    "version": "0.5.0"
   },
   {
     "allUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.4.1/tinygo0.4.1.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.4.1/tinygo0.4.1.linux-arm.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.4.1/tinygo0.4.1.linux-arm.tar.gz"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.4.1/tinygo0.4.1.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.4.1/tinygo0.4.1.linux-arm.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.4.1/tinygo0.4.1.linux-arm.tar.gz"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.4.1/tinygo0.4.1.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.4.1/tinygo0.4.1.linux-amd64.tar.gz",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.4.1/tinygo0.4.1.linux-amd64.tar.gz"
+      }
     },
-    "version": "0.4.1",
+    "version": "0.4.1"
   },
   {
     "allUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.4.0/tinygo0.4.0.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.4.0/tinygo0.4.0.linux-arm.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.4.0/tinygo0.4.0.linux-arm.tar.gz"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.4.0/tinygo0.4.0.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.4.0/tinygo0.4.0.linux-arm.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.4.0/tinygo0.4.0.linux-arm.tar.gz"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.4.0/tinygo0.4.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.4.0/tinygo0.4.0.linux-amd64.tar.gz",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.4.0/tinygo0.4.0.linux-amd64.tar.gz"
+      }
     },
-    "version": "0.4.0",
+    "version": "0.4.0"
   },
   {
     "allUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.3.0/tinygo0.3.0.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.3.0/tinygo0.3.0.linux-arm.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.3.0/tinygo0.3.0.linux-arm.tar.gz"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.3.0/tinygo0.3.0.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.3.0/tinygo0.3.0.linux-arm.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.3.0/tinygo0.3.0.linux-arm.tar.gz"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.3.0/tinygo0.3.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.3.0/tinygo0.3.0.linux-amd64.tar.gz",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.3.0/tinygo0.3.0.linux-amd64.tar.gz"
+      }
     },
-    "version": "0.3.0",
+    "version": "0.3.0"
   },
   {
     "allUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.2.0/tinygo0.2.0.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.2.0/tinygo0.2.0.linux-arm.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.2.0/tinygo0.2.0.linux-arm.tar.gz"
     ],
     "allowedUrls": [
       "https://github.com/tinygo-org/tinygo/releases/download/v0.2.0/tinygo0.2.0.linux-amd64.tar.gz",
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.2.0/tinygo0.2.0.linux-arm.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.2.0/tinygo0.2.0.linux-arm.tar.gz"
     ],
     "archives": {
       "linux": {
         "arm": "https://github.com/tinygo-org/tinygo/releases/download/v0.2.0/tinygo0.2.0.linux-arm.tar.gz",
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.2.0/tinygo0.2.0.linux-amd64.tar.gz",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.2.0/tinygo0.2.0.linux-amd64.tar.gz"
+      }
     },
-    "version": "0.2.0",
+    "version": "0.2.0"
   },
   {
     "allUrls": [
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.1/tinygo0.1.linux-amd64.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.1/tinygo0.1.linux-amd64.tar.gz"
     ],
     "allowedUrls": [
-      "https://github.com/tinygo-org/tinygo/releases/download/v0.1/tinygo0.1.linux-amd64.tar.gz",
+      "https://github.com/tinygo-org/tinygo/releases/download/v0.1/tinygo0.1.linux-amd64.tar.gz"
     ],
     "archives": {
       "linux": {
-        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.1/tinygo0.1.linux-amd64.tar.gz",
-      },
+        "x64": "https://github.com/tinygo-org/tinygo/releases/download/v0.1/tinygo0.1.linux-amd64.tar.gz"
+      }
     },
-    "version": "0.1.0",
-  },
+    "version": "0.1.0"
+  }
 ]

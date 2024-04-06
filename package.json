@@ -1,6 +1,6 @@
 {
   "name": "gobot",
-  "version": "1.0.0-alpha.34",
+  "version": "1.0.0-alpha.35",
   "description": "Install and run most any binary app as an npm package dependency.",
   "repository": "github:benallfree/gobot",
   "type": "module",
@@ -10,24 +10,15 @@
   },
   "types": "dist/api.d.ts",
   "scripts": {
-    "clean": "plop clean all && rimraf dist",
-    "build:gobot": "tsup-node",
-    "plop:transpile": "tsup-node ./plopfile.ts --out-dir .",
-    "base": "pnpm clean && concurrently 'pnpm:plop:transpile' 'pnpm:build:gobot'",
-    "build": "pnpm base && pnpm build:only",
-    "build:only": "plop build all && pnpm lint:fix",
-    "paq": "pnpm build && pnpm paq:only",
-    "paq:only": "plop pack all",
-    "publish": "pnpm paq && pnpm publish:only",
-    "publish:only": "plop publish all",
-    "plop": "pnpm plop:transpile && plop",
-    "watch": "tsup-node --watch .",
-    "dev": "pnpm build:gobot && node dist/cli.js",
-    "test:pack": "pnpm paq && npm rm -g gobot && npm i -g gobot-`cat package.json | fx '.version'`.tgz && gobot pocketbase --g-refresh --g-vvv --help",
-    "test": "vitest --reporter=dot",
-    "docs": "typedoc",
+    "plop": "NODE_OPTIONS='--import tsx' plop --plopfile=plop/plopfile.ts --dest=. --no-progress",
+    "watch": "tsx -w src/cli.ts ",
+    "dev": "npm run plop build gobot && node ./dist/cli.js",
+    "test": "npm run plop test",
+    "docs": "typedoc && prettier -w docs",
     "lint": "prettier -c .",
-    "lint:fix": "prettier -w ."
+    "lint:fix": "prettier -w .",
+    "verdaccio:serve": "verdaccio  -c verdaccio.config.yaml -l 127.0.0.1:4873",
+    "verdaccio:login": "npm-cli-login -u user -p password -e test@example.com -r http://test.gobot.lvh.me:4873"
   },
   "keywords": [
     "pocketbase",
@@ -50,6 +41,7 @@
     "decompress-targz": "^4.1.1",
     "decompress-unzip": "^4.0.1",
     "env-paths": "^3.0.0",
+    "fast-safe-stringify": "^2.1.1",
     "file-type": "^19.0.0",
     "glob": "^10.3.10",
     "is-stream": "^4.0.1",
@@ -65,28 +57,34 @@
   },
   "devDependencies": {
     "@types/decompress": "^4.2.7",
+    "@types/diff": "^5.0.9",
     "@types/json-stringify-safe": "^5.0.3",
     "@types/lzma-native": "^4.0.4",
     "@types/node": "^20.11.28",
     "@types/semver": "^7.5.8",
     "@types/tar-stream": "1.6.2",
     "@types/unbzip2-stream": "^1.4.3",
+    "@verdaccio/types": "^10.8.0",
     "boolean": "^3.2.0",
+    "colors": "^1.4.0",
     "concurrently": "^8.2.2",
+    "diff": "^5.2.0",
+    "exit-hook": "^4.0.0",
     "find-up": "^7.0.0",
     "fx": "^31.0.0",
+    "npm-cli-login": "^1.0.0",
     "plop": "^4.0.1",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
+    "run-if-changed": "^0.0.9",
     "sharp": "^0.33.2",
-    "ts-node": "^10.9.2",
     "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
     "type-fest": "^4.14.0",
     "typedoc": "^0.25.12",
     "typedoc-plugin-markdown": "^3.17.1",
     "typescript": "^5.4.3",
     "verdaccio": "^5.29.2",
-    "vitest": "^1.4.0",
     "yaml": "^2.4.1"
   },
   "pnpm": {
@@ -94,5 +92,6 @@
       "plop@4.0.1": "patches/plop@4.0.1.patch",
       "node-plop@0.32.0": "patches/node-plop@0.32.0.patch"
     }
-  }
+  },
+  "packageManager": "pnpm@9.0.0-beta.3+sha256.e55cdbdef21da8b4fd68345716937e473f0645e2f65313f390b0d33f2d2440a3"
 }

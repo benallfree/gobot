@@ -1,14 +1,12 @@
 {
   "name": "gobot-age",
-  "version": "1.1.1-alpha.19",
+  "version": "1.1.1-alpha.20",
   "description": "Age helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
   "scripts": {
     "clean": "rimraf dist",
-    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-age && npm i -g gobot-age-`cat package.json | fx '.version'`.tgz && age --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

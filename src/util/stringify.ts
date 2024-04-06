@@ -1,2 +1,4 @@
-import stringify from 'json-stringify-safe'
-export { stringify }
+import stringify from 'fast-safe-stringify'
+
+const { stableStringify } = stringify
+export { stableStringify as stringify }

@@ -1,14 +1,12 @@
 {
   "name": "gobot-prometheus",
-  "version": "2.51.0-alpha.19",
+  "version": "2.51.0-alpha.20",
   "description": "Prometheus helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
   "scripts": {
     "clean": "rimraf dist",
-    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-prometheus && npm i -g gobot-prometheus-`cat package.json | fx '.version'`.tgz && prometheus --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

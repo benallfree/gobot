@@ -3,7 +3,6 @@ import Bottleneck from 'bottleneck'
 import { existsSync } from 'fs'
 import { mkdir, readFile, writeFile } from 'fs/promises'
 import { dirname, join } from 'path'
-import { rimraf } from 'rimraf'
 import { valid } from 'semver'
 import type { ReadonlyDeep } from 'type-fest'
 import {
@@ -14,6 +13,7 @@ import {
 } from './Gobot'
 import { mergeConfig } from './api'
 import { dbg, info } from './util/log'
+import { safeRimraf } from './util/safeRimraf'
 import { stringify } from './util/stringify'
 
 export interface GithubRelease {
@@ -106,7 +106,7 @@ export const mkFileProvider = (rootPath: string) => {
     async write(data: any, ...paths: string[]) {
       const path = join(rootPath, ...paths)
       await mkdir(dirname(path), { recursive: true })
-      await writeFile(path, stringify(data, null, 2))
+      await writeFile(path, stringify(data, undefined, 2))
     },
   }
 }
@@ -141,11 +141,11 @@ export class GithubReleaseProvider {
       optionsIn,
     )
     this.allowBareFiles = options.allowBareFiles
-    dbg(`${this.slug} options`, stringify(options, null, 2))
+    dbg(`${this.slug} options`, stringify(options, undefined, 2))
   }
 
   async clearCache() {
-    await rimraf(this.cacheRoot)
+    await safeRimraf(this.cacheRoot)
   }
 
   get slug() {
@@ -182,7 +182,7 @@ export class GithubReleaseProvider {
   }
 
   async reset() {
-    await rimraf(join(this.cacheRoot))
+    await safeRimraf(join(this.cacheRoot))
   }
 
   async remoteReleases() {

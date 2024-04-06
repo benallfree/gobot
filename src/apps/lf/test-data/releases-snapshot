@@ -29,7 +29,7 @@
       "https://github.com/gokcehan/lf/releases/download/r31/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r31/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r31/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r31/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r31/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r31/lf-android-arm64.tar.gz",
@@ -60,30 +60,30 @@
       "https://github.com/gokcehan/lf/releases/download/r31/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r31/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r31/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r31/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r31/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/gokcehan/lf/releases/download/r31/lf-darwin-arm64.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r31/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r31/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r31/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r31/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r31/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r31/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r31/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r31/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r31/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r31/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r31/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r31/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r31/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r31/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -114,7 +114,7 @@
       "https://github.com/gokcehan/lf/releases/download/r30/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r30/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r30/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r30/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r30/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r30/lf-android-arm64.tar.gz",
@@ -144,29 +144,29 @@
       "https://github.com/gokcehan/lf/releases/download/r30/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r30/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r30/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r30/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r30/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r30/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r30/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r30/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r30/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r30/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r30/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r30/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r30/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r30/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r30/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r30/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r30/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r30/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r30/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -188,7 +188,7 @@
       "https://github.com/gokcehan/lf/releases/download/r29/lf-linux-ppc64le.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r29/lf-linux-s390x.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r29/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r29/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r29/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r29/lf-android-arm64.tar.gz",
@@ -209,29 +209,29 @@
       "https://github.com/gokcehan/lf/releases/download/r29/lf-linux-ppc64le.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r29/lf-linux-s390x.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r29/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r29/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r29/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r29/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r29/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r29/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r29/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r29/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r29/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r29/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r29/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r29/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r29/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r29/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r29/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r29/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r29/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -262,7 +262,7 @@
       "https://github.com/gokcehan/lf/releases/download/r28/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r28/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r28/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r28/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r28/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r28/lf-android-arm64.tar.gz",
@@ -292,29 +292,29 @@
       "https://github.com/gokcehan/lf/releases/download/r28/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r28/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r28/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r28/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r28/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r28/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r28/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r28/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r28/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r28/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r28/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r28/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r28/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r28/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r28/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r28/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r28/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r28/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r28/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -345,7 +345,7 @@
       "https://github.com/gokcehan/lf/releases/download/r27/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r27/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r27/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r27/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r27/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r27/lf-android-arm64.tar.gz",
@@ -375,29 +375,29 @@
       "https://github.com/gokcehan/lf/releases/download/r27/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r27/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r27/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r27/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r27/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r27/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r27/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r27/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r27/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r27/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r27/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r27/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r27/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r27/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r27/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r27/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r27/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r27/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r27/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -428,7 +428,7 @@
       "https://github.com/gokcehan/lf/releases/download/r26/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r26/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r26/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r26/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r26/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r26/lf-android-arm64.tar.gz",
@@ -458,29 +458,29 @@
       "https://github.com/gokcehan/lf/releases/download/r26/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r26/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r26/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r26/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r26/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r26/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r26/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r26/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r26/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r26/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r26/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r26/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r26/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r26/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r26/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r26/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r26/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r26/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r26/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -511,7 +511,7 @@
       "https://github.com/gokcehan/lf/releases/download/r25/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r25/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r25/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r25/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r25/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r25/lf-android-arm64.tar.gz",
@@ -541,29 +541,29 @@
       "https://github.com/gokcehan/lf/releases/download/r25/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r25/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r25/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r25/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r25/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r25/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r25/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r25/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r25/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r25/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r25/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r25/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r25/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r25/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r25/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r25/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r25/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r25/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r25/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -594,7 +594,7 @@
       "https://github.com/gokcehan/lf/releases/download/r24/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r24/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r24/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r24/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r24/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r24/lf-android-arm64.tar.gz",
@@ -624,29 +624,29 @@
       "https://github.com/gokcehan/lf/releases/download/r24/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r24/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r24/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r24/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r24/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r24/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r24/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r24/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r24/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r24/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r24/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r24/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r24/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r24/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r24/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r24/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r24/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r24/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r24/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -677,7 +677,7 @@
       "https://github.com/gokcehan/lf/releases/download/r23/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r23/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r23/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r23/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r23/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r23/lf-android-arm64.tar.gz",
@@ -707,29 +707,29 @@
       "https://github.com/gokcehan/lf/releases/download/r23/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r23/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r23/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r23/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r23/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r23/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r23/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r23/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r23/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r23/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r23/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r23/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r23/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r23/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r23/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r23/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r23/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r23/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r23/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -760,7 +760,7 @@
       "https://github.com/gokcehan/lf/releases/download/r22/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r22/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r22/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r22/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r22/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r22/lf-android-arm64.tar.gz",
@@ -790,29 +790,29 @@
       "https://github.com/gokcehan/lf/releases/download/r22/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r22/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r22/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r22/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r22/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r22/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r22/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r22/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r22/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r22/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r22/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r22/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r22/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r22/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r22/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r22/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r22/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r22/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r22/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -843,7 +843,7 @@
       "https://github.com/gokcehan/lf/releases/download/r21/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r21/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r21/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r21/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r21/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r21/lf-android-arm64.tar.gz",
@@ -873,29 +873,29 @@
       "https://github.com/gokcehan/lf/releases/download/r21/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r21/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r21/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r21/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r21/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r21/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r21/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r21/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r21/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r21/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r21/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r21/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r21/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r21/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r21/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r21/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r21/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r21/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r21/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -926,7 +926,7 @@
       "https://github.com/gokcehan/lf/releases/download/r20/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r20/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r20/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r20/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r20/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r20/lf-android-arm64.tar.gz",
@@ -956,29 +956,29 @@
       "https://github.com/gokcehan/lf/releases/download/r20/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r20/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r20/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r20/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r20/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r20/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r20/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r20/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r20/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r20/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r20/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r20/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r20/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r20/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r20/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r20/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r20/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r20/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r20/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -1009,7 +1009,7 @@
       "https://github.com/gokcehan/lf/releases/download/r19/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r19/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r19/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r19/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r19/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r19/lf-android-arm64.tar.gz",
@@ -1039,29 +1039,29 @@
       "https://github.com/gokcehan/lf/releases/download/r19/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r19/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r19/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r19/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r19/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r19/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r19/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r19/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r19/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r19/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r19/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r19/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r19/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r19/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r19/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r19/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r19/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r19/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r19/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -1092,7 +1092,7 @@
       "https://github.com/gokcehan/lf/releases/download/r18/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r18/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r18/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r18/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r18/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r18/lf-android-arm64.tar.gz",
@@ -1122,29 +1122,29 @@
       "https://github.com/gokcehan/lf/releases/download/r18/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r18/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r18/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r18/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r18/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r18/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r18/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r18/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r18/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r18/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r18/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r18/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r18/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r18/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r18/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r18/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r18/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r18/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r18/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -1175,7 +1175,7 @@
       "https://github.com/gokcehan/lf/releases/download/r17/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r17/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r17/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r17/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r17/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r17/lf-android-arm64.tar.gz",
@@ -1205,29 +1205,29 @@
       "https://github.com/gokcehan/lf/releases/download/r17/lf-openbsd-arm64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r17/lf-solaris-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r17/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r17/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r17/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r17/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r17/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r17/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r17/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r17/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r17/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r17/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r17/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r17/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r17/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r17/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r17/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r17/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r17/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -1253,7 +1253,7 @@
       "https://github.com/gokcehan/lf/releases/download/r16/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r16/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r16/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r16/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r16/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r16/lf-darwin-amd64.tar.gz",
@@ -1278,29 +1278,29 @@
       "https://github.com/gokcehan/lf/releases/download/r16/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r16/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r16/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r16/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r16/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r16/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r16/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r16/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r16/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r16/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r16/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r16/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r16/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r16/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r16/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r16/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r16/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r16/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r16/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -1327,7 +1327,7 @@
       "https://github.com/gokcehan/lf/releases/download/r15/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r15/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r15/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r15/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r15/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r15/lf-darwin-386.tar.gz",
@@ -1353,29 +1353,29 @@
       "https://github.com/gokcehan/lf/releases/download/r15/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r15/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r15/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r15/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r15/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r15/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r15/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r15/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r15/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r15/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r15/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r15/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r15/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r15/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r15/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r15/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r15/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r15/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r15/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -1402,7 +1402,7 @@
       "https://github.com/gokcehan/lf/releases/download/r14/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r14/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r14/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r14/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r14/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r14/lf-darwin-386.tar.gz",
@@ -1428,29 +1428,29 @@
       "https://github.com/gokcehan/lf/releases/download/r14/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r14/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r14/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r14/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r14/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r14/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r14/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r14/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r14/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r14/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r14/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r14/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r14/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r14/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r14/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r14/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r14/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r14/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r14/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -1477,7 +1477,7 @@
       "https://github.com/gokcehan/lf/releases/download/r13/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r13/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r13/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r13/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r13/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r13/lf-darwin-386.tar.gz",
@@ -1503,29 +1503,29 @@
       "https://github.com/gokcehan/lf/releases/download/r13/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r13/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r13/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r13/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r13/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r13/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r13/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r13/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r13/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r13/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r13/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r13/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r13/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r13/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r13/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r13/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r13/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r13/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r13/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -1552,7 +1552,7 @@
       "https://github.com/gokcehan/lf/releases/download/r12/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r12/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r12/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r12/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r12/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r12/lf-darwin-386.tar.gz",
@@ -1578,29 +1578,29 @@
       "https://github.com/gokcehan/lf/releases/download/r12/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r12/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r12/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r12/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r12/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r12/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r12/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r12/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r12/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r12/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r12/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r12/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r12/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r12/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r12/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r12/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r12/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r12/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r12/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -1627,7 +1627,7 @@
       "https://github.com/gokcehan/lf/releases/download/r11/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r11/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r11/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r11/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r11/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r11/lf-darwin-386.tar.gz",
@@ -1653,29 +1653,29 @@
       "https://github.com/gokcehan/lf/releases/download/r11/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r11/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r11/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r11/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r11/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r11/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r11/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r11/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r11/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r11/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r11/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r11/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r11/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r11/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r11/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r11/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r11/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r11/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r11/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -1702,7 +1702,7 @@
       "https://github.com/gokcehan/lf/releases/download/r10/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r10/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r10/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r10/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r10/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r10/lf-darwin-386.tar.gz",
@@ -1728,29 +1728,29 @@
       "https://github.com/gokcehan/lf/releases/download/r10/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r10/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r10/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r10/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r10/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r10/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r10/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r10/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r10/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r10/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r10/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r10/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r10/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r10/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r10/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r10/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r10/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r10/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r10/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -1777,7 +1777,7 @@
       "https://github.com/gokcehan/lf/releases/download/r9/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r9/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r9/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r9/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r9/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r9/lf-darwin-386.tar.gz",
@@ -1803,29 +1803,29 @@
       "https://github.com/gokcehan/lf/releases/download/r9/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r9/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r9/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r9/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r9/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r9/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r9/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r9/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r9/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r9/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r9/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r9/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r9/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r9/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r9/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r9/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r9/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r9/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r9/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -1852,7 +1852,7 @@
       "https://github.com/gokcehan/lf/releases/download/r8/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r8/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r8/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r8/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r8/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r8/lf-darwin-386.tar.gz",
@@ -1878,29 +1878,29 @@
       "https://github.com/gokcehan/lf/releases/download/r8/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r8/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r8/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r8/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r8/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r8/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r8/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r8/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r8/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r8/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r8/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r8/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r8/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r8/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r8/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r8/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r8/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r8/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r8/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -1927,7 +1927,7 @@
       "https://github.com/gokcehan/lf/releases/download/r7/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r7/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r7/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r7/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r7/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r7/lf-darwin-386.tar.gz",
@@ -1953,29 +1953,29 @@
       "https://github.com/gokcehan/lf/releases/download/r7/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r7/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r7/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r7/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r7/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r7/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r7/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r7/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r7/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r7/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r7/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r7/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r7/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r7/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r7/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r7/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r7/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r7/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r7/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -2002,7 +2002,7 @@
       "https://github.com/gokcehan/lf/releases/download/r6/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r6/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r6/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r6/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r6/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r6/lf-darwin-386.tar.gz",
@@ -2028,29 +2028,29 @@
       "https://github.com/gokcehan/lf/releases/download/r6/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r6/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r6/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r6/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r6/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r6/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r6/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r6/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r6/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r6/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r6/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r6/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r6/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r6/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r6/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r6/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r6/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r6/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r6/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -2077,7 +2077,7 @@
       "https://github.com/gokcehan/lf/releases/download/r5/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r5/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r5/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r5/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r5/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r5/lf-darwin-386.tar.gz",
@@ -2103,29 +2103,29 @@
       "https://github.com/gokcehan/lf/releases/download/r5/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r5/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r5/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r5/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r5/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r5/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r5/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r5/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r5/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r5/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r5/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r5/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r5/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r5/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r5/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r5/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r5/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r5/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r5/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -2152,7 +2152,7 @@
       "https://github.com/gokcehan/lf/releases/download/r4/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r4/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r4/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r4/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r4/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r4/lf-darwin-386.tar.gz",
@@ -2178,29 +2178,29 @@
       "https://github.com/gokcehan/lf/releases/download/r4/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r4/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r4/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r4/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r4/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r4/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r4/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r4/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r4/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r4/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r4/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r4/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r4/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r4/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r4/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r4/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r4/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r4/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r4/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -2227,7 +2227,7 @@
       "https://github.com/gokcehan/lf/releases/download/r3/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r3/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r3/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r3/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r3/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r3/lf-darwin-386.tar.gz",
@@ -2253,29 +2253,29 @@
       "https://github.com/gokcehan/lf/releases/download/r3/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r3/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r3/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r3/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r3/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r3/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r3/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r3/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r3/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r3/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r3/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r3/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r3/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r3/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r3/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r3/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r3/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r3/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r3/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -2302,7 +2302,7 @@
       "https://github.com/gokcehan/lf/releases/download/r2/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r2/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r2/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r2/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r2/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r2/lf-darwin-386.tar.gz",
@@ -2328,29 +2328,29 @@
       "https://github.com/gokcehan/lf/releases/download/r2/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r2/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r2/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r2/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r2/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r2/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r2/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r2/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r2/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r2/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r2/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r2/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r2/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r2/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r2/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r2/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r2/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r2/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r2/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
+    "version": "0.0.0"
   },
   {
     "allUrls": [
@@ -2377,7 +2377,7 @@
       "https://github.com/gokcehan/lf/releases/download/r1/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r1/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r1/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r1/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r1/lf-windows-amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/gokcehan/lf/releases/download/r1/lf-darwin-386.tar.gz",
@@ -2403,28 +2403,28 @@
       "https://github.com/gokcehan/lf/releases/download/r1/lf-openbsd-amd64.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r1/lf-openbsd-arm.tar.gz",
       "https://github.com/gokcehan/lf/releases/download/r1/lf-windows-386.zip",
-      "https://github.com/gokcehan/lf/releases/download/r1/lf-windows-amd64.zip",
+      "https://github.com/gokcehan/lf/releases/download/r1/lf-windows-amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/gokcehan/lf/releases/download/r1/lf-darwin-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r1/lf-darwin-amd64.tar.gz"
       },
       "freebsd": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r1/lf-freebsd-arm.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r1/lf-freebsd-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r1/lf-freebsd-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r1/lf-freebsd-amd64.tar.gz"
       },
       "linux": {
         "arm": "https://github.com/gokcehan/lf/releases/download/r1/lf-linux-arm.tar.gz",
         "arm64": "https://github.com/gokcehan/lf/releases/download/r1/lf-linux-arm64.tar.gz",
         "ia32": "https://github.com/gokcehan/lf/releases/download/r1/lf-linux-386.tar.gz",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r1/lf-linux-amd64.tar.gz",
+        "x64": "https://github.com/gokcehan/lf/releases/download/r1/lf-linux-amd64.tar.gz"
       },
       "win32": {
         "ia32": "https://github.com/gokcehan/lf/releases/download/r1/lf-windows-386.zip",
-        "x64": "https://github.com/gokcehan/lf/releases/download/r1/lf-windows-amd64.zip",
-      },
+        "x64": "https://github.com/gokcehan/lf/releases/download/r1/lf-windows-amd64.zip"
+      }
     },
-    "version": "0.0.0",
-  },
+    "version": "0.0.0"
+  }
 ]

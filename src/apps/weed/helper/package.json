@@ -1,14 +1,12 @@
 {
   "name": "gobot-weed",
-  "version": "3.64.0-alpha.19",
+  "version": "3.64.0-alpha.20",
   "description": "SeaweedFS helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
   "scripts": {
     "clean": "rimraf dist",
-    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-weed && npm i -g gobot-weed-`cat package.json | fx '.version'`.tgz && weed --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

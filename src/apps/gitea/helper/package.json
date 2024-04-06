@@ -1,14 +1,12 @@
 {
   "name": "gobot-gitea",
-  "version": "1.21.9-alpha.19",
+  "version": "1.21.9-alpha.20",
   "description": "gitea helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
   "scripts": {
     "clean": "rimraf dist",
-    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-gitea && npm i -g gobot-gitea-`cat package.json | fx '.version'`.tgz && gitea --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

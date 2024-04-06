@@ -1,14 +1,12 @@
 {
   "name": "gobot-tinygo",
-  "version": "0.31.2-alpha.19",
+  "version": "0.31.2-alpha.20",
   "description": "tinygo helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
   "scripts": {
     "clean": "rimraf dist",
-    "prepack": "rimraf -v --glob \"gobot-*\" pb_data",
     "dev": "tsx ./src/cli.ts",
-    "test": "npm pack && npm rm -g gobot-tinygo && npm i -g gobot-tinygo-`cat package.json | fx '.version'`.tgz && tinygo --g-refresh --g-vvv --help",
     "build": "npm run clean && tsup-node src/cli.ts src/api.ts --dts src/api.ts --format esm"
   },
   "bin": {

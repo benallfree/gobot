@@ -1,35 +1,5 @@
 [
   {
-    "version": "0.17.2",
-    "archives": {
-      "darwin": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Darwin_x86_64.tar.gz"
-      },
-      "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_armv6.tar.gz"
-      },
-      "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_i386.tar.gz",
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_arm64.tar.gz"
-      }
-    },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Darwin_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_x86_64.tar.gz"
-    ],
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Darwin_arm64.tar.gz",
@@ -42,39 +12,39 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_armv6.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.17.1",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Darwin_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Darwin_x86_64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Darwin_arm64.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_i386.tar.gz",
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_arm64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.2/reviewdog_0.17.2_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Darwin_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.17.2"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Darwin_arm64.tar.gz",
@@ -87,39 +57,39 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_armv6.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.17.0",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Darwin_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Darwin_x86_64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Darwin_arm64.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_i386.tar.gz",
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_arm64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.1/reviewdog_0.17.1_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Darwin_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.17.1"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Darwin_arm64.tar.gz",
@@ -132,39 +102,39 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_armv6.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.16.0",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Darwin_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Darwin_x86_64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Darwin_arm64.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_i386.tar.gz",
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_arm64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.17.0/reviewdog_0.17.0_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Darwin_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.17.0"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Darwin_arm64.tar.gz",
@@ -177,39 +147,39 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_armv6.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.15.0",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Darwin_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Darwin_x86_64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Darwin_arm64.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_i386.tar.gz",
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_arm64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.16.0/reviewdog_0.16.0_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Darwin_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.16.0"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Darwin_arm64.tar.gz",
@@ -222,39 +192,39 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_armv6.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.14.2",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Darwin_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Darwin_x86_64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Darwin_arm64.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_i386.tar.gz",
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_arm64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.15.0/reviewdog_0.15.0_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Darwin_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.15.0"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Darwin_arm64.tar.gz",
@@ -267,39 +237,39 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_armv6.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.14.1",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Darwin_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Darwin_x86_64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Darwin_arm64.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_i386.tar.gz",
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_arm64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.2/reviewdog_0.14.2_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Darwin_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.14.2"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Darwin_arm64.tar.gz",
@@ -312,39 +282,39 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_armv6.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.14.0",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Darwin_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Darwin_x86_64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Darwin_arm64.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_i386.tar.gz",
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_arm64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.1/reviewdog_0.14.1_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Darwin_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.14.1"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Darwin_arm64.tar.gz",
@@ -357,39 +327,39 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_armv6.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.13.1",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Darwin_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Darwin_x86_64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Darwin_arm64.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_i386.tar.gz",
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_arm64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.14.0/reviewdog_0.14.0_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Darwin_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.14.0"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Darwin_arm64.tar.gz",
@@ -402,37 +372,39 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_armv6.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.13.0",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Darwin_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Darwin_x86_64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Darwin_arm64.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Windows_i386.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.1/reviewdog_0.13.1_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Darwin_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Windows_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.13.1"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Darwin_arm64.tar.gz",
@@ -444,37 +416,37 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Windows_armv6.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.12.0",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Darwin_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Windows_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Darwin_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Darwin_x86_64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Darwin_arm64.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Windows_i386.tar.gz"
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.13.0/reviewdog_0.13.0_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Darwin_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Windows_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.13.0"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Darwin_arm64.tar.gz",
@@ -486,34 +458,37 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Windows_armv6.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.11.0",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Darwin_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Windows_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Darwin_x86_64.tar.gz"
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Darwin_arm64.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Windows_i386.tar.gz"
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.12.0/reviewdog_0.12.0_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.12.0"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Darwin_x86_64.tar.gz",
@@ -523,35 +498,34 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_x86_64.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.10.2",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Darwin_x86_64.tar.gz"
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Windows_i386.tar.gz"
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.11.0/reviewdog_0.11.0_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Darwin_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.11.0"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Darwin_i386.tar.gz",
@@ -562,35 +536,35 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_x86_64.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.10.1",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Darwin_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Darwin_x86_64.tar.gz"
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Windows_i386.tar.gz"
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.2/reviewdog_0.10.2_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Darwin_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.10.2"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Darwin_i386.tar.gz",
@@ -601,35 +575,35 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_x86_64.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.10.0",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Darwin_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Darwin_x86_64.tar.gz"
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Windows_i386.tar.gz"
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.1/reviewdog_0.10.1_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Darwin_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.10.1"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Darwin_i386.tar.gz",
@@ -640,35 +614,35 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_x86_64.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.9.17",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Darwin_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Darwin_x86_64.tar.gz"
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Windows_i386.tar.gz"
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.10.0/reviewdog_0.10.0_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Darwin_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.10.0"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Darwin_i386.tar.gz",
@@ -679,35 +653,35 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_x86_64.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.9.16",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Darwin_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Darwin_x86_64.tar.gz"
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_arm64.tar.gz",
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_i386.tar.gz",
-        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_armv6.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Linux_x86_64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Windows_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Windows_i386.tar.gz"
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.17/reviewdog_0.9.17_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Darwin_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_arm64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_armv6.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Windows_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Windows_x86_64.tar.gz"
-    ],
+    "version": "0.9.17"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Darwin_i386.tar.gz",
@@ -718,114 +692,135 @@
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_x86_64.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Windows_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Windows_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.9.15",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Darwin_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_arm64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_armv6.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Windows_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Windows_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Darwin_x86_64.tar.gz"
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Linux_i386.tar.gz"
+        "arm": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Windows_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.16/reviewdog_0.9.16_Windows_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Darwin_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Linux_x86_64.tar.gz"
-    ],
+    "version": "0.9.16"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Darwin_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Darwin_x86_64.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Linux_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Linux_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.9.14",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Darwin_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Linux_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Darwin_x86_64.tar.gz"
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Linux_i386.tar.gz"
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.15/reviewdog_0.9.15_Linux_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Darwin_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Linux_x86_64.tar.gz"
-    ],
+    "version": "0.9.15"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Darwin_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Darwin_x86_64.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Linux_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Linux_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.9.13",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Darwin_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Linux_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Darwin_x86_64.tar.gz"
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Linux_i386.tar.gz"
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.14/reviewdog_0.9.14_Linux_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Darwin_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Linux_x86_64.tar.gz"
-    ],
+    "version": "0.9.14"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Darwin_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Darwin_x86_64.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Linux_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Linux_x86_64.tar.gz"
-    ]
-  },
-  {
-    "version": "0.9.12",
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Darwin_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Linux_x86_64.tar.gz"
+    ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Darwin_x86_64.tar.gz"
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Darwin_x86_64.tar.gz"
       },
       "linux": {
-        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Linux_x86_64.tar.gz",
-        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Linux_i386.tar.gz"
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.13/reviewdog_0.9.13_Linux_x86_64.tar.gz"
       }
     },
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Darwin_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Darwin_x86_64.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Linux_i386.tar.gz",
-      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Linux_x86_64.tar.gz"
-    ],
+    "version": "0.9.13"
+  },
+  {
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/checksums.txt",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Darwin_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Darwin_x86_64.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Linux_i386.tar.gz",
       "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Linux_x86_64.tar.gz"
-    ]
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Darwin_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Darwin_x86_64.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Linux_i386.tar.gz",
+      "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Linux_x86_64.tar.gz"
+    ],
+    "archives": {
+      "darwin": {
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "ia32": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Linux_i386.tar.gz",
+        "x64": "https://github.com/reviewdog/reviewdog/releases/download/v0.9.12/reviewdog_0.9.12_Linux_x86_64.tar.gz"
+      }
+    },
+    "version": "0.9.12"
   },
   {
-    "version": "0.9.11",
-    "archives": {},
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/0.9.11/source.zip"
-    ],
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.11/reviewdog_darwin_386",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.11/reviewdog_darwin_amd64",
@@ -843,14 +838,14 @@
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.11/reviewdog_windows_386.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.11/reviewdog_windows_amd64.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.11/source.zip"
-    ]
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/0.9.11/source.zip"
+    ],
+    "archives": {},
+    "version": "0.9.11"
   },
   {
-    "version": "0.9.10",
-    "archives": {},
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/0.9.10/source.zip"
-    ],
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.10/reviewdog_darwin_386",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.10/reviewdog_darwin_amd64",
@@ -868,14 +863,14 @@
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.10/reviewdog_windows_386.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.10/reviewdog_windows_amd64.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.10/source.zip"
-    ]
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/0.9.10/source.zip"
+    ],
+    "archives": {},
+    "version": "0.9.10"
   },
   {
-    "version": "0.9.9",
-    "archives": {},
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/0.9.9/source.zip"
-    ],
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.9/reviewdog_darwin_386",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.9/reviewdog_darwin_amd64",
@@ -893,14 +888,14 @@
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.9/reviewdog_windows_386.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.9/reviewdog_windows_amd64.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.9/source.zip"
-    ]
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/0.9.9/source.zip"
+    ],
+    "archives": {},
+    "version": "0.9.9"
   },
   {
-    "version": "0.9.8",
-    "archives": {},
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/0.9.8/source.zip"
-    ],
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.8/reviewdog_darwin_386",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.8/reviewdog_darwin_amd64",
@@ -918,14 +913,14 @@
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.8/reviewdog_windows_386.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.8/reviewdog_windows_amd64.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.8/source.zip"
-    ]
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/0.9.8/source.zip"
+    ],
+    "archives": {},
+    "version": "0.9.8"
   },
   {
-    "version": "0.9.7",
-    "archives": {},
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/0.9.7/source.zip"
-    ],
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.7/reviewdog_darwin_386",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.7/reviewdog_darwin_amd64",
@@ -943,14 +938,14 @@
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.7/reviewdog_windows_386.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.7/reviewdog_windows_amd64.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.7/source.zip"
-    ]
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/0.9.7/source.zip"
+    ],
+    "archives": {},
+    "version": "0.9.7"
   },
   {
-    "version": "0.9.6",
-    "archives": {},
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/0.9.6/source.zip"
-    ],
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.6/reviewdog_darwin_386",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.6/reviewdog_darwin_amd64",
@@ -968,14 +963,14 @@
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.6/reviewdog_windows_386.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.6/reviewdog_windows_amd64.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.6/source.zip"
-    ]
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/0.9.6/source.zip"
+    ],
+    "archives": {},
+    "version": "0.9.6"
   },
   {
-    "version": "0.9.5",
-    "archives": {},
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/0.9.5/source.zip"
-    ],
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.5/reviewdog_darwin_386",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.5/reviewdog_darwin_amd64",
@@ -993,14 +988,14 @@
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.5/reviewdog_windows_386.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.5/reviewdog_windows_amd64.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.5/source.zip"
-    ]
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/0.9.5/source.zip"
+    ],
+    "archives": {},
+    "version": "0.9.5"
   },
   {
-    "version": "0.9.4",
-    "archives": {},
-    "allowedUrls": [
-      "https://github.com/reviewdog/reviewdog/releases/download/0.9.4/source.zip"
-    ],
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.4/reviewdog_darwin_386",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.4/reviewdog_darwin_amd64",
@@ -1018,12 +1013,14 @@
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.4/reviewdog_windows_386.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.4/reviewdog_windows_amd64.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.4/source.zip"
-    ]
+    ],
+    "allowedUrls": [
+      "https://github.com/reviewdog/reviewdog/releases/download/0.9.4/source.zip"
+    ],
+    "archives": {},
+    "version": "0.9.4"
   },
   {
-    "version": "0.9.3",
-    "archives": {},
-    "allowedUrls": [],
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.3/reviewdog_darwin_386",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.3/reviewdog_darwin_amd64",
@@ -1040,12 +1037,12 @@
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.3/reviewdog_openbsd_amd64",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.3/reviewdog_windows_386.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.3/reviewdog_windows_amd64.exe"
-    ]
+    ],
+    "allowedUrls": [],
+    "archives": {},
+    "version": "0.9.3"
   },
   {
-    "version": "0.9.2",
-    "archives": {},
-    "allowedUrls": [],
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.2/reviewdog_darwin_386",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.2/reviewdog_darwin_amd64",
@@ -1062,12 +1059,12 @@
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.2/reviewdog_openbsd_amd64",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.2/reviewdog_windows_386.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.2/reviewdog_windows_amd64.exe"
-    ]
+    ],
+    "allowedUrls": [],
+    "archives": {},
+    "version": "0.9.2"
   },
   {
-    "version": "0.9.1",
-    "archives": {},
-    "allowedUrls": [],
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.1/reviewdog_darwin_386",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.1/reviewdog_darwin_amd64",
@@ -1084,12 +1081,12 @@
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.1/reviewdog_openbsd_amd64",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.1/reviewdog_windows_386.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.1/reviewdog_windows_amd64.exe"
-    ]
+    ],
+    "allowedUrls": [],
+    "archives": {},
+    "version": "0.9.1"
   },
   {
-    "version": "0.9.0",
-    "archives": {},
-    "allowedUrls": [],
     "allUrls": [
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.0/reviewdog_darwin_386",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.0/reviewdog_darwin_amd64",
@@ -1106,6 +1103,9 @@
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.0/reviewdog_openbsd_amd64",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.0/reviewdog_windows_386.exe",
       "https://github.com/reviewdog/reviewdog/releases/download/0.9.0/reviewdog_windows_amd64.exe"
-    ]
+    ],
+    "allowedUrls": [],
+    "archives": {},
+    "version": "0.9.0"
   }
 ]

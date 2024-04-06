@@ -15,7 +15,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/constellation.spdx.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/terraform-module.zip"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/constellation-darwin-amd64",
@@ -26,22 +26,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/terraform-module.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.1/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.16.1",
+    "version": "2.16.1"
   },
   {
     "allUrls": [
@@ -59,7 +59,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/constellation.spdx.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/terraform-module.zip"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/constellation-darwin-amd64",
@@ -70,22 +70,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/terraform-module.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.16.0/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.16.0",
+    "version": "2.16.0"
   },
   {
     "allUrls": [
@@ -103,7 +103,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/constellation.spdx.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/terraform-module.zip"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/constellation-darwin-amd64",
@@ -114,22 +114,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/terraform-module.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.1/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.15.1",
+    "version": "2.15.1"
   },
   {
     "allUrls": [
@@ -147,7 +147,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/constellation.spdx.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/terraform-module.zip"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/constellation-darwin-amd64",
@@ -158,22 +158,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/terraform-module.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.15.0/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.15.0",
+    "version": "2.15.0"
   },
   {
     "allUrls": [
@@ -191,7 +191,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/constellation.spdx.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/terraform-module.zip"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/constellation-darwin-amd64",
@@ -202,22 +202,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/terraform-module.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.3/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.14.3",
+    "version": "2.14.3"
   },
   {
     "allUrls": [
@@ -235,7 +235,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/constellation.spdx.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/terraform-module.zip"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/constellation-darwin-amd64",
@@ -246,22 +246,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/terraform-module.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.2/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.14.2",
+    "version": "2.14.2"
   },
   {
     "allUrls": [
@@ -279,7 +279,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/constellation.spdx.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/terraform-module.zip"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/constellation-darwin-amd64",
@@ -290,22 +290,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/terraform-module.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.1/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.14.1",
+    "version": "2.14.1"
   },
   {
     "allUrls": [
@@ -323,7 +323,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/constellation.spdx.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/terraform-module.zip"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/constellation-darwin-amd64",
@@ -334,22 +334,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/terraform-module.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.14.0/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.14.0",
+    "version": "2.14.0"
   },
   {
     "allUrls": [
@@ -367,7 +367,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/constellation.spdx.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/terraform-module.zip"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/constellation-darwin-amd64",
@@ -378,22 +378,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/terraform-module.zip",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/terraform-module.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.13.0/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.13.0",
+    "version": "2.13.0"
   },
   {
     "allUrls": [
@@ -410,7 +410,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation.spdx.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation-darwin-amd64",
@@ -420,22 +420,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation-windows-amd64.exe",
       "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.12.0/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.12.0",
+    "version": "2.12.0"
   },
   {
     "allUrls": [
@@ -452,7 +452,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation.spdx.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation-darwin-amd64",
@@ -462,22 +462,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation-windows-amd64.exe",
       "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.11.0/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.11.0",
+    "version": "2.11.0"
   },
   {
     "allUrls": [
@@ -494,7 +494,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation.spdx.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation-darwin-amd64",
@@ -504,22 +504,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation-windows-amd64.exe",
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.1/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.10.1",
+    "version": "2.10.1"
   },
   {
     "allUrls": [
@@ -536,7 +536,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation.spdx.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation-darwin-amd64",
@@ -546,22 +546,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation-windows-amd64.exe",
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.10.0/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.10.0",
+    "version": "2.10.0"
   },
   {
     "allUrls": [
@@ -578,7 +578,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation.spdx.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation-darwin-amd64",
@@ -588,22 +588,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation-windows-amd64.exe",
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.1/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.9.1",
+    "version": "2.9.1"
   },
   {
     "allUrls": [
@@ -620,7 +620,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation.spdx.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation-darwin-amd64",
@@ -630,22 +630,22 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation-windows-amd64.exe",
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation-linux-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation-linux-amd64"
       },
       "win32": {
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation-windows-amd64.exe",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.9.0/constellation-windows-amd64.exe"
+      }
     },
-    "version": "2.9.0",
+    "version": "2.9.0"
   },
   {
     "allUrls": [
@@ -660,7 +660,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/constellation.spdx.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/constellation-darwin-amd64",
@@ -669,19 +669,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/constellation-linux-arm64",
       "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/constellation.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.8.0/constellation-linux-amd64"
+      }
     },
-    "version": "2.8.0",
+    "version": "2.8.0"
   },
   {
     "allUrls": [
@@ -692,7 +692,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/constellation.spdx.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/constellation-darwin-amd64",
@@ -701,19 +701,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/constellation-linux-arm64",
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/constellation.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.7.1/constellation-linux-amd64"
+      }
     },
-    "version": "2.7.1",
+    "version": "2.7.1"
   },
   {
     "allUrls": [
@@ -724,7 +724,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/constellation.spdx.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/multiple.intoto.jsonl",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/multiple.intoto.jsonl"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/constellation-darwin-amd64",
@@ -733,19 +733,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/constellation-linux-arm64",
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/multiple.intoto.jsonl",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/multiple.intoto.jsonl"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.7.0/constellation-linux-amd64"
+      }
     },
-    "version": "2.7.0",
+    "version": "2.7.0"
   },
   {
     "allUrls": [
@@ -756,7 +756,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/constellation.spdx.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/constellation-darwin-amd64",
@@ -765,19 +765,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/constellation-linux-arm64",
       "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/constellation.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.6.0/constellation-linux-amd64"
+      }
     },
-    "version": "2.6.0",
+    "version": "2.6.0"
   },
   {
     "allUrls": [
@@ -788,7 +788,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/constellation.spdx.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/constellation-darwin-amd64",
@@ -797,19 +797,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/constellation-linux-arm64",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/constellation.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.3/constellation-linux-amd64"
+      }
     },
-    "version": "2.5.3",
+    "version": "2.5.3"
   },
   {
     "allUrls": [
@@ -820,7 +820,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/constellation.spdx.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/constellation-darwin-amd64",
@@ -829,19 +829,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/constellation-linux-arm64",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/constellation.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.2/constellation-linux-amd64"
+      }
     },
-    "version": "2.5.2",
+    "version": "2.5.2"
   },
   {
     "allUrls": [
@@ -852,7 +852,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/constellation.spdx.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/constellation-darwin-amd64",
@@ -861,19 +861,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/constellation-linux-arm64",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/constellation.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.1/constellation-linux-amd64"
+      }
     },
-    "version": "2.5.1",
+    "version": "2.5.1"
   },
   {
     "allUrls": [
@@ -884,7 +884,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/constellation.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/constellation.spdx.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/constellation-darwin-amd64",
@@ -893,19 +893,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/constellation-linux-arm64",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/constellation.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.5.0/constellation-linux-amd64"
+      }
     },
-    "version": "2.5.0",
+    "version": "2.5.0"
   },
   {
     "allUrls": [
@@ -918,7 +918,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/constellation.spdx.fixed.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/constellation.spdx.original.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/constellation.spdx.original.sbom.sig",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/cosign.pub"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/constellation-darwin-amd64",
@@ -928,19 +928,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/constellation.intoto.jsonl",
       "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/constellation.spdx.fixed.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/constellation.spdx.original.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/cosign.pub",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/cosign.pub"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.4.0/constellation-linux-amd64"
+      }
     },
-    "version": "2.4.0",
+    "version": "2.4.0"
   },
   {
     "allUrls": [
@@ -954,7 +954,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/constellation.spdx.original.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/constellation.spdx.original.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/versions-manifest.json",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/versions-manifest.json"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/constellation-darwin-amd64",
@@ -965,19 +965,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/constellation.spdx.fixed.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/constellation.spdx.original.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/versions-manifest.json",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/versions-manifest.json"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.3.0/constellation-linux-amd64"
+      }
     },
-    "version": "2.3.0",
+    "version": "2.3.0"
   },
   {
     "allUrls": [
@@ -994,7 +994,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/constellation.spdx.original.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/constellation.spdx.original.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/versions-manifest.json",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/versions-manifest.json"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/constellation-darwin-amd64",
@@ -1004,19 +1004,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/constellation.spdx.new.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/constellation.spdx.original.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/versions-manifest.json",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/versions-manifest.json"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.2/constellation-linux-amd64"
+      }
     },
-    "version": "2.2.2",
+    "version": "2.2.2"
   },
   {
     "allUrls": [
@@ -1033,7 +1033,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/constellation.spdx.original.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/constellation.spdx.original.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/versions-manifest.json",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/versions-manifest.json"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/constellation-darwin-amd64",
@@ -1043,19 +1043,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/constellation.spdx.new.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/constellation.spdx.original.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/versions-manifest.json",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/versions-manifest.json"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.1/constellation-linux-amd64"
+      }
     },
-    "version": "2.2.1",
+    "version": "2.2.1"
   },
   {
     "allUrls": [
@@ -1072,7 +1072,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/constellation.spdx.original.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/constellation.spdx.original.sbom.sig",
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/versions-manifest.json",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/versions-manifest.json"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/constellation-darwin-amd64",
@@ -1082,19 +1082,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/constellation.spdx.new.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/constellation.spdx.original.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/cosign.pub",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/versions-manifest.json",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/versions-manifest.json"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.2.0/constellation-linux-amd64"
+      }
     },
-    "version": "2.2.0",
+    "version": "2.2.0"
   },
   {
     "allUrls": [
@@ -1115,7 +1115,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/kmsserver.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/node-operator.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/verification-service.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/versions-manifest.json",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/versions-manifest.json"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/access-manager.spdx.sbom",
@@ -1130,19 +1130,19 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/kmsserver.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/node-operator.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/verification-service.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/versions-manifest.json",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/versions-manifest.json"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.1.0/constellation-linux-amd64"
+      }
     },
-    "version": "2.1.0",
+    "version": "2.1.0"
   },
   {
     "allUrls": [
@@ -1163,7 +1163,7 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/kmsserver.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/node-operator.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/verification-service.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/versions-manifest.json",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/versions-manifest.json"
     ],
     "allowedUrls": [
       "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/access-manager.spdx.sbom",
@@ -1178,18 +1178,18 @@
       "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/kmsserver.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/node-operator.spdx.sbom",
       "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/verification-service.spdx.sbom",
-      "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/versions-manifest.json",
+      "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/versions-manifest.json"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/constellation-darwin-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/constellation-darwin-amd64",
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/constellation-darwin-amd64"
       },
       "linux": {
         "arm64": "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/constellation-linux-arm64",
-        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/constellation-linux-amd64",
-      },
+        "x64": "https://github.com/edgelesssys/constellation/releases/download/v2.0.0/constellation-linux-amd64"
+      }
     },
-    "version": "2.0.0",
-  },
+    "version": "2.0.0"
+  }
 ]

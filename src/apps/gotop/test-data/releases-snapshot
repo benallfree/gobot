@@ -23,7 +23,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_linux_arm7.rpm",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_darwin_amd64.tgz",
@@ -36,27 +36,27 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_windows_amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_darwin_arm64.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_darwin_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_darwin_amd64.tgz"
       },
       "freebsd": {
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_freebsd_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_freebsd_amd64.tgz"
       },
       "linux": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_linux_arm64.tgz",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_linux_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_linux_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_linux_amd64.tgz"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_windows_amd64.zip"
+      }
     },
-    "version": "4.2.0",
+    "version": "4.2.0"
   },
   {
     "allUrls": [
@@ -82,7 +82,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_linux_arm7.rpm",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_darwin_amd64.tgz",
@@ -95,27 +95,27 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_windows_amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_darwin_arm64.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_darwin_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_darwin_amd64.tgz"
       },
       "freebsd": {
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_freebsd_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_freebsd_amd64.tgz"
       },
       "linux": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_linux_arm64.tgz",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_linux_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_linux_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_linux_amd64.tgz"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.4/gotop_v4.1.4_windows_amd64.zip"
+      }
     },
-    "version": "4.1.4",
+    "version": "4.1.4"
   },
   {
     "allUrls": [
@@ -141,7 +141,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_linux_arm7.rpm",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_darwin_amd64.tgz",
@@ -154,27 +154,27 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_windows_amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_darwin_arm64.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_darwin_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_darwin_amd64.tgz"
       },
       "freebsd": {
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_freebsd_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_freebsd_amd64.tgz"
       },
       "linux": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_linux_arm64.tgz",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_linux_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_linux_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_linux_amd64.tgz"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.3/gotop_v4.1.3_windows_amd64.zip"
+      }
     },
-    "version": "4.1.3",
+    "version": "4.1.3"
   },
   {
     "allUrls": [
@@ -188,7 +188,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_darwin_amd64.tgz",
@@ -201,27 +201,27 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_windows_amd64.zip"
     ],
     "archives": {
       "darwin": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_darwin_arm64.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_darwin_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_darwin_amd64.tgz"
       },
       "freebsd": {
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_freebsd_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_freebsd_amd64.tgz"
       },
       "linux": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_linux_arm64.tgz",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_linux_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_linux_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_linux_amd64.tgz"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.2/gotop_v4.1.2_windows_amd64.zip"
+      }
     },
-    "version": "4.1.2",
+    "version": "4.1.2"
   },
   {
     "allUrls": [
@@ -235,7 +235,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_darwin_amd64.tgz",
@@ -248,27 +248,27 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_windows_amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_darwin_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_darwin_amd64.tgz"
       },
       "freebsd": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_freebsd_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_freebsd_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_freebsd_amd64.tgz"
       },
       "linux": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_linux_arm64.tgz",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_linux_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_linux_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_linux_amd64.tgz"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.1/gotop_v4.1.1_windows_amd64.zip"
+      }
     },
-    "version": "4.1.1",
+    "version": "4.1.1"
   },
   {
     "allUrls": [
@@ -282,7 +282,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_darwin_amd64.tgz",
@@ -295,27 +295,27 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_windows_amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_darwin_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_darwin_amd64.tgz"
       },
       "freebsd": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_freebsd_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_freebsd_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_freebsd_amd64.tgz"
       },
       "linux": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_linux_arm64.tgz",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_linux_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_linux_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_linux_amd64.tgz"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.1.0/gotop_v4.1.0_windows_amd64.zip"
+      }
     },
-    "version": "4.1.0",
+    "version": "4.1.0"
   },
   {
     "allUrls": [
@@ -329,7 +329,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_darwin_amd64.tgz",
@@ -342,27 +342,27 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_windows_amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_darwin_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_darwin_amd64.tgz"
       },
       "freebsd": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_freebsd_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_freebsd_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_freebsd_amd64.tgz"
       },
       "linux": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_linux_arm64.tgz",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_linux_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_linux_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_linux_amd64.tgz"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.1/gotop_v4.0.1_windows_amd64.zip"
+      }
     },
-    "version": "4.0.1",
+    "version": "4.0.1"
   },
   {
     "allUrls": [
@@ -376,7 +376,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_darwin_amd64.tgz",
@@ -389,27 +389,27 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_windows_amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_darwin_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_darwin_amd64.tgz"
       },
       "freebsd": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_freebsd_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_freebsd_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_freebsd_amd64.tgz"
       },
       "linux": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_linux_arm64.tgz",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_linux_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_linux_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_linux_amd64.tgz"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v4.0.0/gotop_v4.0.0_windows_amd64.zip"
+      }
     },
-    "version": "4.0.0",
+    "version": "4.0.0"
   },
   {
     "allUrls": [
@@ -423,7 +423,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_darwin_amd64.tgz",
@@ -436,27 +436,27 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_windows_amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_darwin_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_darwin_amd64.tgz"
       },
       "freebsd": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_freebsd_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_freebsd_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_freebsd_amd64.tgz"
       },
       "linux": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_linux_arm64.tgz",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_linux_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_linux_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_linux_amd64.tgz"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.3/gotop_v3.5.3_windows_amd64.zip"
+      }
     },
-    "version": "3.5.3",
+    "version": "3.5.3"
   },
   {
     "allUrls": [
@@ -470,7 +470,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_darwin_amd64.tgz",
@@ -483,27 +483,27 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_windows_amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_darwin_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_darwin_amd64.tgz"
       },
       "freebsd": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_freebsd_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_freebsd_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_freebsd_amd64.tgz"
       },
       "linux": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_linux_arm64.tgz",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_linux_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_linux_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_linux_amd64.tgz"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.2/gotop_v3.5.2_windows_amd64.zip"
+      }
     },
-    "version": "3.5.2",
+    "version": "3.5.2"
   },
   {
     "allUrls": [
@@ -517,7 +517,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_darwin_amd64.tgz",
@@ -530,27 +530,27 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_windows_amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_darwin_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_darwin_amd64.tgz"
       },
       "freebsd": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_freebsd_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_freebsd_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_freebsd_amd64.tgz"
       },
       "linux": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_linux_arm64.tgz",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_linux_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_linux_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_linux_amd64.tgz"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.1/gotop_v3.5.1_windows_amd64.zip"
+      }
     },
-    "version": "3.5.1",
+    "version": "3.5.1"
   },
   {
     "allUrls": [
@@ -564,7 +564,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_darwin_amd64.tgz",
@@ -577,27 +577,27 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_linux_arm64.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_linux_arm7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_windows_amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_darwin_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_darwin_amd64.tgz"
       },
       "freebsd": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_freebsd_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_freebsd_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_freebsd_amd64.tgz"
       },
       "linux": {
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_linux_arm64.tgz",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_linux_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_linux_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_linux_amd64.tgz"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.5.0/gotop_v3.5.0_windows_amd64.zip"
+      }
     },
-    "version": "3.5.0",
+    "version": "3.5.0"
   },
   {
     "allUrls": [
@@ -616,7 +616,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_linux_arm_v6.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_linux_arm_v7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_darwin_386.tgz",
@@ -630,28 +630,28 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_linux_arm_v6.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_linux_arm_v7.tgz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_windows_amd64.zip"
     ],
     "archives": {
       "darwin": {
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_darwin_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_darwin_amd64.tgz"
       },
       "freebsd": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_freebsd_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_freebsd_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_freebsd_amd64.tgz"
       },
       "linux": {
         "arm": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_linux_arm_v7.tgz",
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_linux_arm64.tgz",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_linux_386.tgz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_linux_amd64.tgz",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_linux_amd64.tgz"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.2/gotop_3.3.2_windows_amd64.zip"
+      }
     },
-    "version": "3.3.2",
+    "version": "3.3.2"
   },
   {
     "allUrls": [
@@ -668,7 +668,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_linux_arm_v6.zip",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_linux_arm_v7.zip",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_freebsd_386.zip",
@@ -680,25 +680,25 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_linux_arm_v6.zip",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_linux_arm_v7.zip",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_windows_amd64.zip"
     ],
     "archives": {
       "freebsd": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_freebsd_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_freebsd_amd64.zip",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_freebsd_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_linux_arm_v7.zip",
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_linux_arm64.zip",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_linux_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_linux_amd64.zip",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.1/gotop_3.3.1_windows_amd64.zip"
+      }
     },
-    "version": "3.3.1",
+    "version": "3.3.1"
   },
   {
     "allUrls": [
@@ -715,7 +715,7 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_linux_arm_v6.zip",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_linux_arm_v7.zip",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_windows_amd64.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_freebsd_386.zip",
@@ -727,25 +727,25 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_linux_arm_v6.zip",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_linux_arm_v7.zip",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_windows_386.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_windows_amd64.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_windows_amd64.zip"
     ],
     "archives": {
       "freebsd": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_freebsd_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_freebsd_amd64.zip",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_freebsd_amd64.zip"
       },
       "linux": {
         "arm": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_linux_arm_v7.zip",
         "arm64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_linux_arm64.zip",
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_linux_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_linux_amd64.zip",
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_linux_amd64.zip"
       },
       "win32": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_windows_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_windows_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.3.0/gotop_3.3.0_windows_amd64.zip"
+      }
     },
-    "version": "3.3.0",
+    "version": "3.3.0"
   },
   {
     "allUrls": [
@@ -754,21 +754,21 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.2.0/gotop_3.2.0_linux_amd64.rpm",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.2.0/gotop_3.2.0_linux_amd64.zip",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.2.0/gotop_3.2.0_linux_arm6.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.2.0/gotop_3.2.0_linux_arm7.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.2.0/gotop_3.2.0_linux_arm7.zip"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v3.2.0/gotop_3.2.0_linux_386.zip",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.2.0/gotop_3.2.0_linux_amd64.zip",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.2.0/gotop_3.2.0_linux_arm6.zip",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.2.0/gotop_3.2.0_linux_arm7.zip",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.2.0/gotop_3.2.0_linux_arm7.zip"
     ],
     "archives": {
       "linux": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.2.0/gotop_3.2.0_linux_386.zip",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.2.0/gotop_3.2.0_linux_amd64.zip",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.2.0/gotop_3.2.0_linux_amd64.zip"
+      }
     },
-    "version": "3.2.0",
+    "version": "3.2.0"
   },
   {
     "allUrls": [
@@ -778,21 +778,21 @@
       "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_amd64.rpm",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_arm5.gz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_arm6.gz",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_arm7.gz",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_arm7.gz"
     ],
     "allowedUrls": [
       "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_386.gz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_amd64.gz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_arm5.gz",
       "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_arm6.gz",
-      "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_arm7.gz",
+      "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_arm7.gz"
     ],
     "archives": {
       "linux": {
         "ia32": "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_386.gz",
-        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_amd64.gz",
-      },
+        "x64": "https://github.com/xxxserxxx/gotop/releases/download/v3.1.0/gotop_3.1.0_linux_amd64.gz"
+      }
     },
-    "version": "3.1.0",
-  },
+    "version": "3.1.0"
+  }
 ]
