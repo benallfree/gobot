@@ -9,7 +9,7 @@ patchedDependencies:
     hash: fde2h4hvefekhxjdrnc7ne66le
     path: patches/node-plop@0.32.0.patch
   plop@4.0.1:
-    hash: 522evu2d4kfotmpdliji7zddya
+    hash: qs3jrzsjlsn7olguxotxp3mj4u
     path: patches/plop@4.0.1.patch
 
 importers:
@@ -101,6 +101,9 @@ importers:
       '@types/lzma-native':
         specifier: ^4.0.4
         version: 4.0.4
+      '@types/minimist':
+        specifier: ^1.2.5
+        version: 1.2.5
       '@types/node':
         specifier: ^20.11.28
         version: 20.11.28
@@ -137,12 +140,15 @@ importers:
       fx:
         specifier: ^31.0.0
         version: 31.0.0
+      minimist:
+        specifier: ^1.2.8
+        version: 1.2.8
       npm-cli-login:
         specifier: ^1.0.0
         version: 1.0.0
       plop:
         specifier: ^4.0.1
-        version: 4.0.1(patch_hash=522evu2d4kfotmpdliji7zddya)
+        version: 4.0.1(patch_hash=qs3jrzsjlsn7olguxotxp3mj4u)
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -603,6 +609,9 @@ packages:
 
   '@types/lzma-native@4.0.4':
     resolution: {integrity: sha512-9nwec86WAT3wUhjx9iV0AQ06xyDyiN/D9CAk3ZzNLb8zFjjo4EDBliN2uo7CFcBDJ64oXfX4sa+p6fpGpzy/4A==}
+
+  '@types/minimist@1.2.5':
+    resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
 
   '@types/node@20.11.28':
     resolution: {integrity: sha512-M/GPWVS2wLkSkNHVeLkrF2fD5Lx5UC4PxA0uZcKc6QqbIQUJyW1jVjueJYi1z8n0I5PxYrtpnPnWglE+y9A0KA==}
@@ -3355,6 +3364,8 @@ snapshots:
     dependencies:
       '@types/node': 20.11.28
 
+  '@types/minimist@1.2.5': {}
+
   '@types/node@20.11.28':
     dependencies:
       undici-types: 5.26.5
@@ -5151,7 +5162,7 @@ snapshots:
 
   pkginfo@0.4.1: {}
 
-  plop@4.0.1(patch_hash=522evu2d4kfotmpdliji7zddya):
+  plop@4.0.1(patch_hash=qs3jrzsjlsn7olguxotxp3mj4u):
     dependencies:
       '@types/liftoff': 4.0.3
       chalk: 5.3.0

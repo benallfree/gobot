@@ -14,7 +14,6 @@ import { newAppCommand } from './commands/newAppCommand'
 import { packCommand } from './commands/packCommand'
 import { publishCommand } from './commands/publishCommand'
 import { testCommand } from './commands/testCommand'
-import { startVerdaccio } from './commands/util/startVerdaccio'
 
 const ROOT = findUpSync(`package.json`, {
   cwd: dirname(new URL(import.meta.url).pathname),
@@ -76,6 +75,4 @@ export default async function (plop: NodePlopAPI) {
   publishCommand(plop)
   testCommand(plop)
   cleanCommand(plop)
-
-  await startVerdaccio()
 }
