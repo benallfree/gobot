@@ -26,28 +26,28 @@ export const buildCommand = (plop: NodePlopAPI) => {
       gen: [exec(`tsup-node`)],
       clean: [rimraf(`dist/**`)],
     },
-    'gobot:readme': {
+    [`gobot:readme`]: {
       gen: async () => {
         const serialized = JSON.parse(stringify(program))
 
         return [
           {
-            type: 'add',
-            path: 'readme.md',
-            templateFile: 'templates/readme/readme.md',
+            type: `add`,
+            path: `readme.md`,
+            templateFile: `templates/readme/readme.md`,
             force: true,
             data: () => buildData(plop),
           },
           {
-            type: 'modify',
-            path: 'readme.md',
+            type: `modify`,
+            path: `readme.md`,
             pattern: /##CLI##/,
             templateFile: `templates/readme/cli.md.hbs`,
             data: { program: serialized, global: serialized },
           },
           {
-            type: 'modify',
-            path: 'readme.md',
+            type: `modify`,
+            path: `readme.md`,
             pattern: /##POSTAMBLE##/,
             templateFile: `templates/readme/postamble.md`,
             data: () => buildData(plop),
@@ -58,29 +58,29 @@ export const buildCommand = (plop: NodePlopAPI) => {
       clean: [rimraf(`readme.md`)],
     },
 
-    'app:helper-template': {
+    [`app:helper-template`]: {
       gen: () => {
         const merge = ({ cmd, msg }: any) =>
           exec(cmd, { cwd: `plop/templates/app/helper` })
         return [
           merge({
             cmd: `pnpm i`,
-            msg: 'Install deps',
+            msg: `Install deps`,
           }),
           merge({
             cmd: `pnpm link ../../../..`,
-            msg: 'Link gobot',
+            msg: `Link gobot`,
           }),
           merge({
             cmd: `pnpm build`,
-            msg: 'Built helper template',
+            msg: `Built helper template`,
           }),
         ]
       },
       clean: [rimraf(`plop/templates/app/helper/dist`)],
     },
 
-    // 'apps:helpers:archive': {
+    // `apps:helpers:archive`: {
     //   gen: async () => {
     //     const distFiles = globSync(`*`, {
     //       cwd: `plop/templates/app/helper/dist`,
@@ -93,10 +93,10 @@ export const buildCommand = (plop: NodePlopAPI) => {
     //         return data.versions.flatMap((version) => {
     //           return [
     //             {
-    //               type: 'addMany',
+    //               type: `addMany`,
     //               destination: `build/apps/${slug}/${version}`,
-    //               base: 'templates/app/helper',
-    //               templateFiles: 'templates/app/helper/**/*',
+    //               base: `templates/app/helper`,
+    //               templateFiles: `templates/app/helper/**/*`,
     //               globOptions: {
     //                 dot: true,
     //                 ignore: [`**/node_modules`],
@@ -108,7 +108,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
     //             ...distFiles.map((file) => {
     //               const path = `build/apps/${slug}/${version}/dist/${file}`
     //               return {
-    //                 type: 'modify',
+    //                 type: `modify`,
     //                 path,
     //                 pattern: /__EXPORT__/g,
     //                 template: slug,
@@ -138,28 +138,28 @@ export const buildCommand = (plop: NodePlopAPI) => {
         return [
           resize(`src/apps/${slug}/logo.{png,webp}`, 50),
           {
-            type: 'addMany',
+            type: `addMany`,
             destination: `src/apps/${slug}`,
-            base: 'templates/app',
-            templateFiles: 'templates/app/invite.md',
+            base: `templates/app`,
+            templateFiles: `templates/app/invite.md`,
             data: () => buildDataForApp(slug, plop),
             force: true,
           },
           {
-            type: 'addMany',
+            type: `addMany`,
             destination: `src/apps/${slug}/sample-project`,
-            base: 'templates/app/sample-project',
-            templateFiles: 'templates/app/sample-project/**/*',
+            base: `templates/app/sample-project`,
+            templateFiles: `templates/app/sample-project/**/*`,
             globOptions: { dot: true, ignore: [`node_modules`] },
             data: () => buildDataForApp(slug, plop),
             force: true,
           },
           prettier(`src/apps/${slug}/invite.md`),
           {
-            type: 'addMany',
+            type: `addMany`,
             destination: `src/apps/${slug}/helper`,
-            base: 'templates/app/helper',
-            templateFiles: 'templates/app/helper/**/*',
+            base: `templates/app/helper`,
+            templateFiles: `templates/app/helper/**/*`,
             globOptions: {
               dot: true,
               ignore: [`**/node_modules`, `**/.DS_Store`],
@@ -170,14 +170,14 @@ export const buildCommand = (plop: NodePlopAPI) => {
           },
           ...srcFiles.map((path) => {
             return {
-              type: 'modify',
+              type: `modify`,
               path: `src/apps/${slug}/helper/${path}`,
               pattern: /__EXPORT__/g,
               template: slug,
             }
           }),
           {
-            type: 'modify',
+            type: `modify`,
             path: `src/apps/${slug}/helper/readme.md`,
             pattern: /##CLI##/,
             templateFile: `templates/readme/cli.helper.md.hbs`,
@@ -193,7 +193,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
             },
           },
           {
-            type: 'modify',
+            type: `modify`,
             path: `src/apps/${slug}/helper/readme.md`,
             pattern: /##POSTAMBLE##/,
             templateFile: `templates/readme/postamble.md`,
@@ -216,7 +216,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
     `Generate build artifacts`,
     `Choose build artifacts to generate`,
     subcommands,
-    'gen',
+    `gen`,
     plop,
   )
 }
