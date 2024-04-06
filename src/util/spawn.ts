@@ -38,7 +38,9 @@ export async function spawn(
       rdbg(data.toString())
     })
 
+    const stderr: string[] = []
     cmdProcess.stderr.on('data', (data) => {
+      stderr.push(data.toString())
       rinfoe(data.toString())
     })
 
@@ -51,7 +53,9 @@ export async function spawn(
     })
 
     cmdProcess.on('exit', (code) => {
-      console.warn(`${command} exited with ${code}`)
+      if (code) {
+        stderr.forEach(console.error)
+      }
     })
 
     onProc(cmdProcess)
