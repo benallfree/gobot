@@ -20,12 +20,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
       gen: async () => [
         exec(`npm run docs -- --gitRevision ${getCurrentGitBranch()}`),
       ],
-      clean: [
-        {
-          type: `rimraf`,
-          path: `docs`,
-        },
-      ],
+      clean: [rimraf(`docs`)],
     },
     gobot: {
       gen: [exec(`tsup-node`)],
@@ -60,12 +55,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
           prettier(`readme.md`),
         ]
       },
-      clean: [
-        {
-          type: `rimraf`,
-          path: `readme.md`,
-        },
-      ],
+      clean: [rimraf(`readme.md`)],
     },
 
     'app:helper-template': {
@@ -87,12 +77,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
           }),
         ]
       },
-      clean: [
-        {
-          type: `rimraf`,
-          path: `plop/templates/app/helper/dist`,
-        },
-      ],
+      clean: [rimraf(`plop/templates/app/helper/dist`)],
     },
 
     // 'apps:helpers:archive': {
