@@ -1,7 +1,8 @@
 import { findUpSync } from 'find-up'
-import { dirname, resolve } from 'path'
+import { dirname } from 'path'
+import { fileURLToPath } from 'url'
 
-const __dirname = dirname(resolve(new URL(import.meta.url).pathname))
+const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export const __root = (() => {
   const root = findUpSync(`package.json`, { cwd: __dirname })

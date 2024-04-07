@@ -1,7 +1,9 @@
 import { existsSync, readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { parse } from 'yaml'
+import { __root } from '../../../src/util/__root'
 import { safeRimraf } from '../../../src/util/safeRimraf'
+import { GOBOT_TEST_CACHE_ROOT } from '../util/exec'
 import { fn } from './fn'
 
 const VERDACCIO_CONFIG_PATH = `verdaccio.config.yaml`
@@ -21,7 +23,11 @@ async function _cleanVerdaccioPackages(packageNames: any[]) {
   const storagePathsToDelete = packageNames.map((packageName) =>
     join(storage, packageName),
   )
-  await Promise.all(storagePathsToDelete.map((path) => safeRimraf(path)))
+  await Promise.all(
+    storagePathsToDelete.map((path) =>
+      safeRimraf(path, [GOBOT_TEST_CACHE_ROOT, __root]),
+    ),
+  )
   return `cleaned verdaccio ${packageNames.join(`,`)}`
 }
 

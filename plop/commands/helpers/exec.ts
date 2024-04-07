@@ -5,6 +5,7 @@ import type { SpawnOptions } from '../../../src/util/spawn'
 export const exec = (
   cmd: string,
   options: Partial<SpawnOptions> = {},
+  snapshot?: string,
 ): ActionType => {
   return {
     type: `exec`,
@@ -13,5 +14,6 @@ export const exec = (
       cwd: __root,
       ...options,
     },
+    snapshot,
   }
 }

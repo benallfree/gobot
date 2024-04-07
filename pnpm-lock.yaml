@@ -55,6 +55,9 @@ importers:
       file-type:
         specifier: ^19.0.0
         version: 19.0.0
+      find-up:
+        specifier: ^7.0.0
+        version: 7.0.0
       glob:
         specifier: ^10.3.10
         version: 10.3.10
@@ -134,9 +137,9 @@ importers:
       exit-hook:
         specifier: ^4.0.0
         version: 4.0.0
-      find-up:
-        specifier: ^7.0.0
-        version: 7.0.0
+      filenamify:
+        specifier: ^6.0.0
+        version: 6.0.0
       fx:
         specifier: ^31.0.0
         version: 31.0.0
@@ -1354,6 +1357,14 @@ packages:
   file-type@6.2.0:
     resolution: {integrity: sha512-YPcTBDV+2Tm0VqjybVd32MHdlEGAtuxS3VAYsumFokDSMG+ROT5wawGlnHDoz7bfMcMDt9hxuXvXwoKUx2fkOg==}
     engines: {node: '>=4'}
+
+  filename-reserved-regex@3.0.0:
+    resolution: {integrity: sha512-hn4cQfU6GOT/7cFHXBqeBg2TbrMBgdD0kcjLhvSQYYwm3s4B6cjvBfb7nBALJLAXqmU5xajSa7X2NnUud/VCdw==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+
+  filenamify@6.0.0:
+    resolution: {integrity: sha512-vqIlNogKeyD3yzrm0yhRMQg8hOVwYcYRfjEoODd49iCprMn4HL85gK3HcykQE53EPIpX3HcAbGA5ELQv216dAQ==}
+    engines: {node: '>=16'}
 
   fill-range@7.0.1:
     resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
@@ -4230,6 +4241,12 @@ snapshots:
   file-type@5.2.0: {}
 
   file-type@6.2.0: {}
+
+  filename-reserved-regex@3.0.0: {}
+
+  filenamify@6.0.0:
+    dependencies:
+      filename-reserved-regex: 3.0.0
 
   fill-range@7.0.1:
     dependencies:

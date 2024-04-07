@@ -1,97 +1,19 @@
-import { isFunction } from '@s-libs/micro-dash'
 import assert from 'assert'
 import 'colors'
-import { diffLines } from 'diff'
-import { existsSync, readFileSync, writeFileSync } from 'fs'
 import { globSync } from 'glob'
-import { basename, join } from 'path'
+import { join } from 'path'
 import type { ActionType, NodePlopAPI } from 'plop'
-import { format, resolveConfig } from 'prettier'
-import {
-  GithubReleaseProvider,
-  Gobot,
-  mergeConfig,
-  type AppInfo,
-} from '../../src/api'
 import { __root } from '../../src/util/__root'
 import { Flags } from '../../src/util/flags'
-import { stringify } from '../../src/util/stringify'
 import { cleanVerdaccioPackages } from './helpers/cleanVerdaccioPackages'
 import { exec } from './helpers/exec'
 import { fn } from './helpers/fn'
 import { rimraf } from './helpers/rimraf'
+import { getBot } from './util/getBot'
 import { getSlugsFromFileSystem } from './util/getSlugsFromFileSystem'
+import { loadTestModule } from './util/loadTestModule'
+import { matchSnapshot } from './util/matchSnapshot'
 import { mkSubcommander, type Subcommands } from './util/mkSubcommander'
-
-export type TestConfig = {
-  args: string[]
-  code: number
-  skip: boolean
-}
-async function getBot(appPath: string) {
-  const appSlug = basename(appPath)
-  const module = await import(join(appPath)).catch(console.error)
-  const appInfo = module[appSlug] as AppInfo
-  const { factory } = appInfo
-  const cachePath = join(appPath, `test-data`)
-  const bot = (() => {
-    if (isFunction(factory)) {
-      return factory({ cachePath, env: process.env })
-    }
-    return new Gobot(
-      factory,
-      (repo, cacheRoot) => new GithubReleaseProvider(repo, cacheRoot),
-      { cachePath, env: process.env },
-    )
-  })()
-  return { cachePath, bot }
-}
-
-async function loadTestModule(appPath: string) {
-  const testConfigPath = join(appPath, `test-config.ts`)
-  const module = await import(testConfigPath).catch((e) => {
-    //Noop, if module is not found
-  })
-  return mergeConfig<TestConfig>(
-    { args: [`--version`], code: 0, skip: false },
-    module?.default,
-  )
-}
-
-const matchSnapshot = async (obj: any, path: string) => {
-  const options = resolveConfig(path)
-  const snap = await format(stringify(obj), {
-    ...options,
-    parser: 'json',
-  })
-  if (existsSync(path)) {
-    const savedSnap = await format(readFileSync(path, 'utf-8'), {
-      ...options,
-      parser: 'json',
-    })
-
-    if (snap !== savedSnap) {
-      const diff = diffLines(snap, savedSnap)
-      diff.forEach((part) => {
-        const { added, removed, value: _value } = part
-        const value = _value.trimEnd()
-        if (added) {
-          console.log(value.green)
-        }
-        if (removed) {
-          console.log(value.red)
-        }
-        if (!added && !removed) {
-          // console.log(value)
-        }
-      })
-      throw new Error(`Snapshots do not match`)
-    }
-  } else {
-    writeFileSync(path, snap)
-  }
-  return true
-}
 
 export function testCommand(plop: NodePlopAPI) {
   const subcommands: Subcommands = {

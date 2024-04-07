@@ -1,7 +1,7 @@
 import { ChildProcess } from 'child_process'
 import { asyncExitHook } from 'exit-hook'
-import { VERDACCIO_LAUNCH_CMD, exec } from '../../../src/util/exec'
 import { isPortTaken } from '../../../src/util/isPortTaken'
+import { VERDACCIO_LAUNCH_CMD, exec } from './exec'
 
 let proc: ChildProcess | boolean | undefined
 

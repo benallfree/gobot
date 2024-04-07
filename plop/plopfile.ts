@@ -1,11 +1,12 @@
+import filenamify from 'filenamify'
 import { findUpSync } from 'find-up'
 import { existsSync } from 'fs'
 import 'node-fetch'
 import { dirname, join } from 'path'
 import type { NodePlopAPI } from 'plop'
 import { verbosity } from '../src/settings'
-import { exec as _exec } from '../src/util/exec'
 import { appsRoot } from '../src/util/getApp'
+import { mkdir } from '../src/util/shell'
 import { stringify } from '../src/util/stringify'
 import { buildCommand } from './commands/buildCommand'
 import { cleanCommand } from './commands/cleanCommand'
@@ -14,6 +15,8 @@ import { newAppCommand } from './commands/newAppCommand'
 import { packCommand } from './commands/packCommand'
 import { publishCommand } from './commands/publishCommand'
 import { testCommand } from './commands/testCommand'
+import { exec as _exec } from './commands/util/exec'
+import { matchSnapshot } from './commands/util/matchSnapshot'
 
 const ROOT = findUpSync(`package.json`, {
   cwd: dirname(new URL(import.meta.url).pathname),
@@ -43,15 +46,29 @@ export default async function (plop: NodePlopAPI) {
   })
 
   plop.setActionType(`exec`, async (answers, config, plop) => {
-    const { cmd, options, code: _expectedExitCode } = config
+    const { cmd, options, code: _expectedExitCode, snapshot } = config
     const expectedExitCode = _expectedExitCode || 0
     if (!cmd) throw new Error(`cmd required`)
     console.log(`Starting ${cmd}`)
+    const stdout: string[] = []
+    const stderr: string[] = []
     const ret = await _exec(cmd, options, (proc) => {
       if (verbosity() >= 3) return
-      proc.stdout.on('data', (buf) => process.stdout.write(buf))
-      proc.stderr.on('data', (buf) => process.stderr.write(buf))
+      proc.stdout.on('data', (buf) => {
+        stdout.push(buf.toString())
+        process.stdout.write(buf)
+      })
+      proc.stderr.on('data', (buf) => {
+        stderr.push(buf.toString())
+        process.stderr.write(buf)
+      })
     })
+    if (snapshot) {
+      const snapshotFname = join(`__snapshots__`, filenamify(snapshot))
+      mkdir(dirname(snapshotFname))
+      console.log({ snapshotFname })
+      await matchSnapshot([ret, stdout, stderr], snapshotFname)
+    }
     if (ret !== expectedExitCode) {
       const msg = `Expected code ${expectedExitCode} but got ${ret} for command ${cmd}`
       console.error(msg)

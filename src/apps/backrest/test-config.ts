@@ -1,4 +1,4 @@
-import type { TestConfig } from '../../../plop/commands/testCommand'
+import type { TestConfig } from '../../TestConfig'
 
 const config: Partial<TestConfig> = {
   args: [`--help`],

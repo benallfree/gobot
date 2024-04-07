@@ -1,9 +1,9 @@
-storage: .cache/verdaccio/storage
+storage: ../.gobot-test-cache/verdaccio/storage
 
 # https://verdaccio.org/docs/configuration#authentication
 auth:
   htpasswd:
-    file: .cache/verdaccio/htpasswd
+    file: ../.gobot-test-cache/verdaccio/htpasswd
     # Maximum amount of users allowed to register, defaults to "+inf".
     # You can set this to -1 to disable registration.
     # max_users: 1000
