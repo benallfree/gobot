@@ -2,10 +2,14 @@
 
 import { gracefulExit } from 'exit-hook'
 import minimist from 'minimist'
-import path, { dirname } from 'node:path'
+import path, { dirname, join, resolve } from 'node:path'
 import { cwd } from 'node:process'
 import { fileURLToPath } from 'node:url'
 import { Plop, run } from 'plop'
+import { __root } from '../src/util/__root'
+import { Flags } from '../src/util/flags'
+import { mkdir } from '../src/util/shell'
+import {} from './commands/util/exec'
 import { startVerdaccio } from './commands/util/startVerdaccio'
 
 const args = process.argv.slice(2)
@@ -18,7 +22,19 @@ process.on('uncaughtException', (err, origin) => {
   gracefulExit()
 })
 
+export const GOBOT_TEST_CACHE_ROOT = resolve(
+  join(__root, `..`, `.gobot-test-cache`),
+)
+mkdir(GOBOT_TEST_CACHE_ROOT)
+
+export const VERDACCIO_REGISTRY_URL = `http://test.gobot.lvh.me:4873`
+
 async function main() {
+  if (!process.env[Flags.UseNpm]) {
+    process.env[Flags.NpmRegistryEndpoint] = VERDACCIO_REGISTRY_URL
+    process.env[Flags.NpmLocalRoot] = join(GOBOT_TEST_CACHE_ROOT, `npm`)
+  }
+
   await new Promise((resolve, reject) => {
     Plop.prepare(
       {

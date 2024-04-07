@@ -1,9 +1,11 @@
 import { ChildProcess } from 'child_process'
 import { asyncExitHook } from 'exit-hook'
 import { isPortTaken } from '../../../src/util/isPortTaken'
-import { VERDACCIO_LAUNCH_CMD, exec } from './exec'
+import { exec } from './exec'
 
 let proc: ChildProcess | boolean | undefined
+
+export const VERDACCIO_LAUNCH_CMD = `verdaccio -c verdaccio.config.yaml -l '127.0.0.1:4873'`
 
 export const startVerdaccio = async () => {
   if (await isPortTaken(4873)) {

@@ -3,7 +3,7 @@ import { join } from 'path'
 import { parse } from 'yaml'
 import { __root } from '../../../src/util/__root'
 import { safeRimraf } from '../../../src/util/safeRimraf'
-import { GOBOT_TEST_CACHE_ROOT } from '../util/exec'
+import { GOBOT_TEST_CACHE_ROOT } from '../../run'
 import { fn } from './fn'
 
 const VERDACCIO_CONFIG_PATH = `verdaccio.config.yaml`

@@ -84,7 +84,7 @@ export const publishCommand = (plop: NodePlopAPI) => {
     ],
   }
 
-  const flags = `${Flags.ReallyPublish}=${process.env[Flags.ReallyPublish] || 0} ${Flags.NpmRegistryEndpoint}=${process.env[Flags.NpmRegistryEndpoint] || 'npm'}`
+  const flags = `${Flags.UseNpm}=${process.env[Flags.UseNpm]} ${Flags.ReallyPublish}=${process.env[Flags.ReallyPublish] || 0} ${Flags.NpmRegistryEndpoint}=${process.env[Flags.NpmRegistryEndpoint] || 'npm'}`
   mkSubcommander(
     `publish`,
     `Publish to registry (${flags})`,
