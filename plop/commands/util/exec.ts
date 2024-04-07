@@ -35,5 +35,5 @@ export const exec: typeof spawn = async (cmd, _options, onProc) => {
 
 export const cleanLocalNpmAndRegistryCache = async () => {
   if (process.env[Flags.UseNpm]) return
-  await safeRimraf(join(GOBOT_TEST_CACHE_ROOT, `**/*`))
+  await safeRimraf(join(GOBOT_TEST_CACHE_ROOT, `**/*`), [GOBOT_TEST_CACHE_ROOT])
 }

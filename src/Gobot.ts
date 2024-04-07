@@ -151,7 +151,7 @@ export class Gobot {
    */
   async reset() {
     dbg(`Clearing cache:`, this.cacheRoot)
-    await safeRimraf(this.cacheRoot)
+    await safeRimraf(this.cacheRoot, [this.cacheRoot])
   }
 
   static async reset(cachePath = Gobot.DEFAULT_GOBOT_CACHE_ROOT()) {
@@ -175,11 +175,11 @@ export class Gobot {
 
   async clearAllReleases() {
     await this.releaseProvider.reset()
-    await safeRimraf(this.cachePath()(RELEASES_NAME))
+    await safeRimraf(this.cachePath()(RELEASES_NAME), [this.cacheRoot])
   }
 
   async clearStoredReleases() {
-    await safeRimraf(this.cachePath()(RELEASES_NAME))
+    await safeRimraf(this.cachePath()(RELEASES_NAME), [this.cacheRoot])
   }
 
   async versions(type?: 'js'): Promise<string[]>

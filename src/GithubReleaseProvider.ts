@@ -145,7 +145,7 @@ export class GithubReleaseProvider {
   }
 
   async clearCache() {
-    await safeRimraf(this.cacheRoot)
+    await safeRimraf(this.cacheRoot, [this.cacheRoot])
   }
 
   get slug() {
@@ -182,7 +182,7 @@ export class GithubReleaseProvider {
   }
 
   async reset() {
-    await safeRimraf(join(this.cacheRoot))
+    await safeRimraf(this.cacheRoot, [this.cacheRoot])
   }
 
   async remoteReleases() {
