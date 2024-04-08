@@ -75,7 +75,7 @@ npm i gobot
 ```js
 import { gobot } from 'gobot'
 const bot = await gobot(`pocketbase`)
-bot.run([`--help`])
+const exitCode = await bot.run([`--help`])
 ```
 
 **Pass environment variables**
@@ -87,7 +87,7 @@ import { gobot } from 'gobot'
 const bot = await gobot(`pocketbase`, {
   env: process.env,
 })
-bot.run([`--help`])
+const exitCode = await bot.run([`--help`])
 ```
 
 **Use a specific version of a Gobot app**
@@ -96,7 +96,7 @@ bot.run([`--help`])
 const bot = await gobot(`pocketbase`, {
   version: `0.19.3`,
 })
-bot.run([`--help`])
+const exitCode = await bot.run([`--help`])
 ```
 
 **Add an [official app](#official-gobot-apps) as a project dependency**
@@ -114,7 +114,7 @@ npm i gobot-pocketbase@0.19.3
 ```js
 import { gobot } from 'gobot'
 const bot = await gobot(`pocketbase`)
-bot.run([`--help`])
+const exitCode = await bot.run([`--help`])
 ```
 
 ## CLI
@@ -153,7 +153,7 @@ or API:
 
 ```ts
 const bot = await gobot(`pocketbase/pocketbase`)
-bot.run([`--help`])
+const exitCode = await bot.run([`--help`])
 ```
 
 The above command format **_may_** run the app you have in mind. If it doesn't and you want more information, use
