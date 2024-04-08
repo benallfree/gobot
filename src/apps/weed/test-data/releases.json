@@ -5969,43 +5969,67 @@
   },
   {
     "allUrls": [
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240322-1439-linux-amd64.tar.gz",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240322-1439-windows-amd64.zip",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240322-1439-linux-amd64.tar.gz.md5",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240322-1439-windows-amd64.zip.md5",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1439-linux-amd64.tar.gz",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1439-windows-amd64.zip",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1439-linux-amd64.tar.gz.md5",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1439-windows-amd64.zip.md5",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240322-1441-darwin-amd64.tar.gz",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240322-1441-darwin-amd64.tar.gz.md5",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240322-1441-darwin-arm64.tar.gz",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240322-1441-darwin-arm64.tar.gz.md5",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1441-darwin-amd64.tar.gz",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1441-darwin-amd64.tar.gz.md5",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1441-darwin-arm64.tar.gz",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1441-darwin-arm64.tar.gz.md5"
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1851-windows-amd64.zip",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1851-windows-amd64.zip.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1851-linux-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1851-linux-amd64.tar.gz.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1851-windows-amd64.zip",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1851-windows-amd64.zip.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1851-linux-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1851-linux-amd64.tar.gz.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1853-linux-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1853-linux-amd64.tar.gz.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1853-windows-amd64.zip",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1853-windows-amd64.zip.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1853-linux-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1853-linux-amd64.tar.gz.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1853-windows-amd64.zip",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1853-windows-amd64.zip.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1854-darwin-arm64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1854-darwin-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1854-darwin-arm64.tar.gz.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1854-darwin-amd64.tar.gz.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1854-darwin-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1854-darwin-arm64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1854-darwin-amd64.tar.gz.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1854-darwin-arm64.tar.gz.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1855-darwin-arm64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1855-darwin-arm64.tar.gz.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1855-darwin-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1855-darwin-amd64.tar.gz.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1855-darwin-arm64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1855-darwin-arm64.tar.gz.md5",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1855-darwin-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1855-darwin-amd64.tar.gz.md5"
     ],
     "allowedUrls": [
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240322-1439-linux-amd64.tar.gz",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240322-1439-windows-amd64.zip",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1439-linux-amd64.tar.gz",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1439-windows-amd64.zip",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240322-1441-darwin-amd64.tar.gz",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240322-1441-darwin-arm64.tar.gz",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1441-darwin-amd64.tar.gz",
-      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1441-darwin-arm64.tar.gz"
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1851-windows-amd64.zip",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1851-linux-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1851-windows-amd64.zip",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1851-linux-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1853-linux-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1853-windows-amd64.zip",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1853-linux-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1853-windows-amd64.zip",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1854-darwin-arm64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1854-darwin-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1854-darwin-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1854-darwin-arm64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1855-darwin-arm64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-large-disk-20240407-1855-darwin-amd64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1855-darwin-arm64.tar.gz",
+      "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1855-darwin-amd64.tar.gz"
     ],
     "archives": {
       "darwin": {
-        "arm64": "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1441-darwin-arm64.tar.gz",
-        "x64": "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1441-darwin-amd64.tar.gz"
+        "arm64": "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1855-darwin-arm64.tar.gz",
+        "x64": "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1855-darwin-amd64.tar.gz"
       },
       "linux": {
-        "x64": "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1439-linux-amd64.tar.gz"
+        "x64": "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1853-linux-amd64.tar.gz"
       },
       "win32": {
-        "x64": "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240322-1439-windows-amd64.zip"
+        "x64": "https://github.com/seaweedfs/seaweedfs/releases/download/dev/weed-20240407-1853-windows-amd64.zip"
       }
     },
     "version": "0.0.0"

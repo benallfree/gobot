@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-gitea) ![](https://img.shields.io/npm/dt/gobot-gitea) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-gitea` package version always mirrors the underlying `gitea` [version](#all-known-releases):
 
 ```bash
-npm i gobot-gitea@1.21.9
+npm i gobot-gitea@1.21.10
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `gitea` 
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`gitea`, { version: `1.21.9` })
+const bot = await gobot(`gitea`, { version: `1.21.10` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,11 +108,11 @@ gitea (https://about.gitea.com) runner for Gobot (https://github.com/benallfree/
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [gitea sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/gitea/sample-project) on github.
+View the [gitea sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/gitea/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,10 +165,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-gitea` versions mirror `gitea` versions. Gobot knows about 189 releases of `gitea`:
+`gobot-gitea` versions mirror `gitea` versions. Gobot knows about 190 releases of `gitea`:
 
 | Version    | darwin    | linux              | win32    |
 | ---------- | --------- | ------------------ | -------- |
+| 1.21.10    | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
 | 1.21.9     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
 | 1.21.8     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
 | 1.21.7     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |

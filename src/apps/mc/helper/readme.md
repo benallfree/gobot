@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-mc) ![](https://img.shields.io/npm/dt/gobot-mc) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-mc` package version always mirrors the underlying `mc` [version](#all-known-releases):
 
 ```bash
-npm i gobot-mc@2024.3.20210729
+npm i gobot-mc@2024.3.30152952
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `mc` eve
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`mc`, { version: `2024.3.20210729` })
+const bot = await gobot(`mc`, { version: `2024.3.30152952` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,7 +108,7 @@ Mc (https://min.io) runner for Gobot (https://github.com/benallfree/gobot)
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Quirks
 
@@ -137,7 +137,7 @@ Example:
 
 ## Sample project
 
-View the [Mc sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/mc/sample-project) on github.
+View the [Mc sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/mc/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -190,10 +190,12 @@ pnpm test
 
 ## All known releases
 
-`gobot-mc` versions mirror `mc` versions. Gobot knows about 264 releases of `mc`:
+`gobot-mc` versions mirror `mc` versions. Gobot knows about 266 releases of `mc`:
 
 | Version          | win32 | darwin    | linux     |
 | ---------------- | ----- | --------- | --------- |
+| 2024.3.30152952  | x64   | arm64/x64 | arm64/x64 |
+| 2024.3.25164114  | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.20210729  | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.13235157  | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.9064306   | x64   | arm64/x64 | arm64/x64 |

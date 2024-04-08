@@ -1,6 +1,53 @@
 [
   {
     "allUrls": [
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Darwin_arm64.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Darwin_x86_64.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_arm64.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_armv6.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_armv7.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_i386.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_x86_64.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Windows_arm64.zip",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Windows_armv7.zip",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Windows_i386.zip",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Windows_x86_64.zip",
+      "https://github.com/nektos/act/releases/download/v0.2.61/checksums.txt"
+    ],
+    "allowedUrls": [
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Darwin_arm64.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Darwin_x86_64.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_arm64.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_armv6.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_armv7.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_i386.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_x86_64.tar.gz",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Windows_arm64.zip",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Windows_armv7.zip",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Windows_i386.zip",
+      "https://github.com/nektos/act/releases/download/v0.2.61/act_Windows_x86_64.zip"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/nektos/act/releases/download/v0.2.61/act_Darwin_arm64.tar.gz",
+        "x64": "https://github.com/nektos/act/releases/download/v0.2.61/act_Darwin_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm": "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_armv7.tar.gz",
+        "arm64": "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_arm64.tar.gz",
+        "ia32": "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_i386.tar.gz",
+        "x64": "https://github.com/nektos/act/releases/download/v0.2.61/act_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "arm64": "https://github.com/nektos/act/releases/download/v0.2.61/act_Windows_arm64.zip",
+        "ia32": "https://github.com/nektos/act/releases/download/v0.2.61/act_Windows_i386.zip",
+        "x64": "https://github.com/nektos/act/releases/download/v0.2.61/act_Windows_x86_64.zip"
+      }
+    },
+    "version": "0.2.61"
+  },
+  {
+    "allUrls": [
       "https://github.com/nektos/act/releases/download/v0.2.60/act_Darwin_arm64.tar.gz",
       "https://github.com/nektos/act/releases/download/v0.2.60/act_Darwin_x86_64.tar.gz",
       "https://github.com/nektos/act/releases/download/v0.2.60/act_Linux_arm64.tar.gz",

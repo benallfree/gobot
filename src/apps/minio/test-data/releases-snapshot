@@ -4,6 +4,60 @@
     "allowedUrls": [],
     "archives": {
       "darwin": {
+        "arm64": "https://dl.min.io/server/minio/release/darwin-amd64/archive/minio.RELEASE.2024-04-06T05-26-02Z",
+        "x64": "https://dl.min.io/server/minio/release/darwin-arm64/archive/minio.RELEASE.2024-04-06T05-26-02Z"
+      },
+      "linux": {
+        "arm64": "https://dl.min.io/server/minio/release/linux-amd64/archive/minio.RELEASE.2024-04-06T05-26-02Z",
+        "x64": "https://dl.min.io/server/minio/release/linux-arm64/archive/minio.RELEASE.2024-04-06T05-26-02Z"
+      },
+      "win32": {
+        "x64": "https://dl.min.io/server/minio/release/windows-amd64/archive/minio.RELEASE.2024-04-06T05-26-02Z"
+      }
+    },
+    "version": "2024.4.6052602"
+  },
+  {
+    "allUrls": [],
+    "allowedUrls": [],
+    "archives": {
+      "darwin": {
+        "arm64": "https://dl.min.io/server/minio/release/darwin-amd64/archive/minio.RELEASE.2024-03-30T09-41-56Z",
+        "x64": "https://dl.min.io/server/minio/release/darwin-arm64/archive/minio.RELEASE.2024-03-30T09-41-56Z"
+      },
+      "linux": {
+        "arm64": "https://dl.min.io/server/minio/release/linux-amd64/archive/minio.RELEASE.2024-03-30T09-41-56Z",
+        "x64": "https://dl.min.io/server/minio/release/linux-arm64/archive/minio.RELEASE.2024-03-30T09-41-56Z"
+      },
+      "win32": {
+        "x64": "https://dl.min.io/server/minio/release/windows-amd64/archive/minio.RELEASE.2024-03-30T09-41-56Z"
+      }
+    },
+    "version": "2024.3.30094156"
+  },
+  {
+    "allUrls": [],
+    "allowedUrls": [],
+    "archives": {
+      "darwin": {
+        "arm64": "https://dl.min.io/server/minio/release/darwin-amd64/archive/minio.RELEASE.2024-03-26T22-10-45Z",
+        "x64": "https://dl.min.io/server/minio/release/darwin-arm64/archive/minio.RELEASE.2024-03-26T22-10-45Z"
+      },
+      "linux": {
+        "arm64": "https://dl.min.io/server/minio/release/linux-amd64/archive/minio.RELEASE.2024-03-26T22-10-45Z",
+        "x64": "https://dl.min.io/server/minio/release/linux-arm64/archive/minio.RELEASE.2024-03-26T22-10-45Z"
+      },
+      "win32": {
+        "x64": "https://dl.min.io/server/minio/release/windows-amd64/archive/minio.RELEASE.2024-03-26T22-10-45Z"
+      }
+    },
+    "version": "2024.3.26221045"
+  },
+  {
+    "allUrls": [],
+    "allowedUrls": [],
+    "archives": {
+      "darwin": {
         "arm64": "https://dl.min.io/server/minio/release/darwin-amd64/archive/minio.RELEASE.2024-03-21T23-13-43Z",
         "x64": "https://dl.min.io/server/minio/release/darwin-arm64/archive/minio.RELEASE.2024-03-21T23-13-43Z"
       },

@@ -8,6 +8,6 @@
     "minio": "minio"
   },
   "dependencies": {
-    "gobot-minio": "2024.3.21231343"
+    "gobot-minio": "2024.4.6052602"
   }
 }

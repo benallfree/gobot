@@ -36,6 +36,41 @@
   },
   {
     "allUrls": [
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-darwin-amd64.zip",
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-darwin-arm64.zip",
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-linux-amd64.tar.gz",
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-linux-arm64.tar.gz",
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-linux-ppc64le.tar.gz",
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-linux-s390x.tar.gz",
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-windows-amd64.zip",
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/SHA256SUMS"
+    ],
+    "allowedUrls": [
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-darwin-amd64.zip",
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-darwin-arm64.zip",
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-linux-amd64.tar.gz",
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-linux-arm64.tar.gz",
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-linux-ppc64le.tar.gz",
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-linux-s390x.tar.gz",
+      "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-windows-amd64.zip"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-darwin-arm64.zip",
+        "x64": "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-darwin-amd64.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-linux-arm64.tar.gz",
+        "x64": "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-linux-amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/etcd-io/etcd/releases/download/v3.5.13/etcd-v3.5.13-windows-amd64.zip"
+      }
+    },
+    "version": "3.5.13"
+  },
+  {
+    "allUrls": [
       "https://github.com/etcd-io/etcd/releases/download/v3.5.12/etcd-v3.5.12-darwin-amd64.zip",
       "https://github.com/etcd-io/etcd/releases/download/v3.5.12/etcd-v3.5.12-darwin-arm64.zip",
       "https://github.com/etcd-io/etcd/releases/download/v3.5.12/etcd-v3.5.12-windows-amd64.zip",
@@ -6726,19 +6761,19 @@
   },
   {
     "allUrls": [
-      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-darwin-amd64.zip",
-      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-darwin-amd64.zip.gpg",
-      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-linux-amd64.aci",
-      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-linux-amd64.aci.asc",
-      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-linux-amd64.tar.gz",
-      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-linux-amd64.tar.gz.gpg",
+      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-windows-amd64.zip.gpg",
       "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-windows-amd64.zip",
-      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-windows-amd64.zip.gpg"
+      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-darwin-amd64.zip.gpg",
+      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-darwin-amd64.zip",
+      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-linux-amd64.tar.gz.gpg",
+      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-linux-amd64.tar.gz",
+      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-linux-amd64.aci.asc",
+      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-linux-amd64.aci"
     ],
     "allowedUrls": [
+      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-windows-amd64.zip",
       "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-darwin-amd64.zip",
-      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-linux-amd64.tar.gz",
-      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-windows-amd64.zip"
+      "https://github.com/etcd-io/etcd/releases/download/v2.0.10/etcd-v2.0.10-linux-amd64.tar.gz"
     ],
     "archives": {
       "darwin": {

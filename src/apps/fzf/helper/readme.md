@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-fzf) ![](https://img.shields.io/npm/dt/gobot-fzf) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-fzf` package version always mirrors the underlying `fzf` [version](#all-known-releases):
 
 ```bash
-npm i gobot-fzf@0.48.1
+npm i gobot-fzf@0.49.0
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `fzf` ev
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`fzf`, { version: `0.48.1` })
+const bot = await gobot(`fzf`, { version: `0.49.0` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,11 +108,11 @@ fzf (https://github.com/junegunn/fzf) runner for Gobot (https://github.com/benal
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [fzf sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/fzf/sample-project) on github.
+View the [fzf sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/fzf/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,10 +165,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-fzf` versions mirror `fzf` versions. Gobot knows about 39 releases of `fzf`:
+`gobot-fzf` versions mirror `fzf` versions. Gobot knows about 40 releases of `fzf`:
 
 | Version | freebsd | darwin    | linux         | win32     |
 | ------- | ------- | --------- | ------------- | --------- |
+| 0.49.0  | x64     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.48.1  | x64     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.48.0  | x64     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.47.0  | x64     | arm64/x64 | arm64/x64/arm | x64/arm64 |

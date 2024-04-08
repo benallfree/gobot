@@ -1,6 +1,6 @@
 {
   "name": "gobot-weed",
-  "version": "3.64.0-alpha.20",
+  "version": "3.64.0-alpha.21",
   "description": "SeaweedFS helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

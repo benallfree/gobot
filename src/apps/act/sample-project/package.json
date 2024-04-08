@@ -8,6 +8,6 @@
     "act": "act"
   },
   "dependencies": {
-    "gobot-act": "0.2.60"
+    "gobot-act": "0.2.61"
   }
 }

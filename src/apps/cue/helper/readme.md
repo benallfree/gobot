@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-cue) ![](https://img.shields.io/npm/dt/gobot-cue) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -108,11 +108,11 @@ CUE (https://cuelang.org) runner for Gobot (https://github.com/benallfree/gobot)
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [CUE sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/cue/sample-project) on github.
+View the [CUE sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/cue/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,11 +165,12 @@ pnpm test
 
 ## All known releases
 
-`gobot-cue` versions mirror `cue` versions. Gobot knows about 74 releases of `cue`:
+`gobot-cue` versions mirror `cue` versions. Gobot knows about 75 releases of `cue`:
 
 | Version       | darwin    | linux     | win32     |
 | ------------- | --------- | --------- | --------- |
 | 0.9.0-alpha.1 | arm64/x64 | arm64/x64 | x64/arm64 |
+| 0.8.1         | arm64/x64 | arm64/x64 | x64/arm64 |
 | 0.8.0         | arm64/x64 | arm64/x64 | x64/arm64 |
 | 0.8.0-rc.1    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 0.8.0-alpha.5 | arm64/x64 | arm64/x64 | x64/arm64 |

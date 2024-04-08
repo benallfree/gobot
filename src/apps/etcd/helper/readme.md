@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-etcd) ![](https://img.shields.io/npm/dt/gobot-etcd) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -108,11 +108,11 @@ etcd (https://etcd.io) runner for Gobot (https://github.com/benallfree/gobot)
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [etcd sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/etcd/sample-project) on github.
+View the [etcd sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/etcd/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,11 +165,12 @@ pnpm test
 
 ## All known releases
 
-`gobot-etcd` versions mirror `etcd` versions. Gobot knows about 232 releases of `etcd`:
+`gobot-etcd` versions mirror `etcd` versions. Gobot knows about 233 releases of `etcd`:
 
 | Version       | darwin    | linux     | win32 |
 | ------------- | --------- | --------- | ----- |
 | 3.6.0-alpha.0 | arm64/x64 | arm64/x64 | x64   |
+| 3.5.13        | arm64/x64 | arm64/x64 | x64   |
 | 3.5.12        | arm64/x64 | arm64/x64 | x64   |
 | 3.5.11        | arm64/x64 | arm64/x64 | x64   |
 | 3.5.10        | arm64/x64 | arm64/x64 | x64   |

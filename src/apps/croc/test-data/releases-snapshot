@@ -1,6 +1,77 @@
 [
   {
     "allUrls": [
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_src.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_checksums.txt",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Linux-64bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows-ARM.zip",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows7-64bit.zip",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows-32bit.zip",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows-ARM64.zip",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows-64bit.zip",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows7-32bit.zip",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_macOS-64bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Linux-ARM64.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_FreeBSD-64bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_DragonFlyBSD-64bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Linux-32bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Linux-ARM.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_FreeBSD-ARM64.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_macOS-ARM64.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_NetBSD-32bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_OpenBSD-64bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_OpenBSD-ARM64.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_NetBSD-64bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_NetBSD-ARM64.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_src.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Linux-64bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows-ARM.zip",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows7-64bit.zip",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows-32bit.zip",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows-ARM64.zip",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows-64bit.zip",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows7-32bit.zip",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_macOS-64bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Linux-ARM64.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_FreeBSD-64bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_DragonFlyBSD-64bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Linux-32bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Linux-ARM.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_FreeBSD-ARM64.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_macOS-ARM64.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_NetBSD-32bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_OpenBSD-64bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_OpenBSD-ARM64.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_NetBSD-64bit.tar.gz",
+      "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_NetBSD-ARM64.tar.gz"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_macOS-ARM64.tar.gz",
+        "x64": "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_macOS-64bit.tar.gz"
+      },
+      "freebsd": {
+        "arm64": "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_FreeBSD-ARM64.tar.gz",
+        "x64": "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_FreeBSD-64bit.tar.gz"
+      },
+      "linux": {
+        "arm": "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Linux-ARM.tar.gz",
+        "arm64": "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Linux-ARM64.tar.gz",
+        "ia32": "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Linux-32bit.tar.gz",
+        "x64": "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Linux-64bit.tar.gz"
+      },
+      "win32": {
+        "arm64": "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows-ARM64.zip",
+        "ia32": "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows-32bit.zip",
+        "x64": "https://github.com/schollz/croc/releases/download/v9.6.15/croc_v9.6.15_Windows-64bit.zip"
+      }
+    },
+    "version": "9.6.15"
+  },
+  {
+    "allUrls": [
       "https://github.com/schollz/croc/releases/download/v9.6.14/croc_v9.6.14_checksums.txt",
       "https://github.com/schollz/croc/releases/download/v9.6.14/croc_v9.6.14_Windows-32bit.zip",
       "https://github.com/schollz/croc/releases/download/v9.6.14/croc_v9.6.14_src.tar.gz",

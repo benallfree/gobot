@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-ollama) ![](https://img.shields.io/npm/dt/gobot-ollama) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-ollama` package version always mirrors the underlying `ollama` [version](#all-known-releases):
 
 ```bash
-npm i gobot-ollama@0.1.29
+npm i gobot-ollama@0.1.31
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `ollama`
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`ollama`, { version: `0.1.29` })
+const bot = await gobot(`ollama`, { version: `0.1.31` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,11 +108,11 @@ Ollama (https://ollama.com/) runner for Gobot (https://github.com/benallfree/gob
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [Ollama sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/ollama/sample-project) on github.
+View the [Ollama sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/ollama/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,10 +165,12 @@ pnpm test
 
 ## All known releases
 
-`gobot-ollama` versions mirror `ollama` versions. Gobot knows about 51 releases of `ollama`:
+`gobot-ollama` versions mirror `ollama` versions. Gobot knows about 53 releases of `ollama`:
 
 | Version | darwin    | linux     |
 | ------- | --------- | --------- |
+| 0.1.31  | arm64/x64 | arm64/x64 |
+| 0.1.30  | arm64/x64 | arm64/x64 |
 | 0.1.29  | arm64/x64 | arm64/x64 |
 | 0.1.28  | arm64/x64 | arm64/x64 |
 | 0.1.27  | arm64/x64 | arm64/x64 |

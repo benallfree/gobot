@@ -10,7 +10,7 @@ The package is [https://npmjs.org/gobot-pulumi](https://npmjs.org/gobot-pulumi).
 
 ## What's next
 
-- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 237 versions of Pulumi.
+- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 238 versions of Pulumi.
 - **Update Pulumi installation docs.** Please consider adding Gobot to your official install instructions. If you would like me to send a PR updating the Pulumi installation docs to include instructions for installation via Gobot, I'm happy to do that.
 - **Give Gobot a 💫.** Gobot is a big effort to solve binary dependencies for nodejs in a universal way. Please consider giving [the Gobot project](https://github.com/benallfree/gobot) a star if it resonates.
 - **Keep going.** Keep doing what you do! Gobot will automatically pick up and publish your new releases.
@@ -23,10 +23,11 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 ## All releases indexed by Gobot
 
-`gobot-pulumi` versions mirror `pulumi` versions. Gobot has indexed 237 releases of `pulumi`:
+`gobot-pulumi` versions mirror `pulumi` versions. Gobot has indexed 238 releases of `pulumi`:
 
 | Version      | darwin    | linux     | win32     |
 | ------------ | --------- | --------- | --------- |
+| 3.112.0      | arm64/x64 | arm64/x64 | x64/arm64 |
 | 3.111.1      | arm64/x64 | arm64/x64 | x64/arm64 |
 | 3.111.0      | arm64/x64 | arm64/x64 | x64/arm64 |
 | 3.110.0      | arm64/x64 | arm64/x64 | x64/arm64 |

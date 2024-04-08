@@ -10,7 +10,7 @@ The package is [https://npmjs.org/gobot-prometheus](https://npmjs.org/gobot-prom
 
 ## What's next
 
-- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 293 versions of Prometheus.
+- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 294 versions of Prometheus.
 - **Update Prometheus installation docs.** Please consider adding Gobot to your official install instructions. If you would like me to send a PR updating the Prometheus installation docs to include instructions for installation via Gobot, I'm happy to do that.
 - **Give Gobot a 💫.** Gobot is a big effort to solve binary dependencies for nodejs in a universal way. Please consider giving [the Gobot project](https://github.com/benallfree/gobot) a star if it resonates.
 - **Keep going.** Keep doing what you do! Gobot will automatically pick up and publish your new releases.
@@ -23,10 +23,11 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 ## All releases indexed by Gobot
 
-`gobot-prometheus` versions mirror `prometheus` versions. Gobot has indexed 293 releases of `prometheus`:
+`gobot-prometheus` versions mirror `prometheus` versions. Gobot has indexed 294 releases of `prometheus`:
 
 | Version                  | freebsd            | darwin    | linux              | win32          |
 | ------------------------ | ------------------ | --------- | ------------------ | -------------- |
+| 2.51.1                   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 2.51.0                   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 2.51.0                   | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 2.51.0-rc.0+dedupelabels | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |

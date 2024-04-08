@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-kopia) ![](https://img.shields.io/npm/dt/gobot-kopia) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-kopia` package version always mirrors the underlying `kopia` [version](#all-known-releases):
 
 ```bash
-npm i gobot-kopia@0.15.0
+npm i gobot-kopia@0.16.1
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `kopia` 
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`kopia`, { version: `0.15.0` })
+const bot = await gobot(`kopia`, { version: `0.16.1` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,11 +108,11 @@ kopia (https://kopia.io) runner for Gobot (https://github.com/benallfree/gobot)
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [kopia sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/kopia/sample-project) on github.
+View the [kopia sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/kopia/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,10 +165,12 @@ pnpm test
 
 ## All known releases
 
-`gobot-kopia` versions mirror `kopia` versions. Gobot knows about 69 releases of `kopia`:
+`gobot-kopia` versions mirror `kopia` versions. Gobot knows about 71 releases of `kopia`:
 
 | Version     | freebsd       | darwin    | linux         | win32 |
 | ----------- | ------------- | --------- | ------------- | ----- |
+| 0.16.1      | arm64/x64/arm | arm64/x64 | arm64/x64/arm | x64   |
+| 0.16.0      | arm64/x64/arm | arm64/x64 | arm64/x64/arm | x64   |
 | 0.15.0      | arm64/x64/arm | arm64/x64 | arm64/x64/arm | x64   |
 | 0.14.1      | arm64/x64/arm | arm64/x64 | arm64/x64/arm | x64   |
 | 0.14.0      | arm64/x64/arm | arm64/x64 | arm64/x64/arm | x64   |

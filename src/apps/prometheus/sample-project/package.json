@@ -8,6 +8,6 @@
     "prometheus": "prometheus"
   },
   "dependencies": {
-    "gobot-prometheus": "2.51.0"
+    "gobot-prometheus": "2.51.1"
   }
 }

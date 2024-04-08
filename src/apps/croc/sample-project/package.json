@@ -8,6 +8,6 @@
     "croc": "croc"
   },
   "dependencies": {
-    "gobot-croc": "9.6.14"
+    "gobot-croc": "9.6.15"
   }
 }

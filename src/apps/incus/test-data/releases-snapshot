@@ -1,6 +1,94 @@
 [
   {
     "allUrls": [
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.incus-migrate.aarch64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.incus-migrate.x86_64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.incus.aarch64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.incus.x86_64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.lxd-to-incus.aarch64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.lxd-to-incus.x86_64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.macos.incus.aarch64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.macos.incus.x86_64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.windows.incus.aarch64.exe",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.windows.incus.x86_64.exe",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/incus-6.0.0.tar.xz",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/incus-6.0.0.tar.xz.asc"
+    ],
+    "allowedUrls": [
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.incus-migrate.aarch64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.incus-migrate.x86_64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.incus.aarch64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.incus.x86_64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.lxd-to-incus.aarch64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.lxd-to-incus.x86_64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.macos.incus.aarch64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.macos.incus.x86_64",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.windows.incus.aarch64.exe",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/bin.windows.incus.x86_64.exe",
+      "https://github.com/lxc/incus/releases/download/v6.0.0/incus-6.0.0.tar.xz"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/lxc/incus/releases/download/v6.0.0/bin.macos.incus.aarch64",
+        "x64": "https://github.com/lxc/incus/releases/download/v6.0.0/bin.macos.incus.x86_64"
+      },
+      "linux": {
+        "arm64": "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.lxd-to-incus.aarch64",
+        "x64": "https://github.com/lxc/incus/releases/download/v6.0.0/bin.linux.lxd-to-incus.x86_64"
+      },
+      "win32": {
+        "arm64": "https://github.com/lxc/incus/releases/download/v6.0.0/bin.windows.incus.aarch64.exe",
+        "x64": "https://github.com/lxc/incus/releases/download/v6.0.0/bin.windows.incus.x86_64.exe"
+      }
+    },
+    "version": "6.0.0"
+  },
+  {
+    "allUrls": [
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.incus-migrate.aarch64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.incus-migrate.x86_64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.incus.aarch64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.incus.x86_64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.lxd-to-incus.aarch64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.lxd-to-incus.x86_64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.macos.incus.aarch64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.macos.incus.x86_64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.windows.incus.aarch64.exe",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.windows.incus.x86_64.exe",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/incus-0.7.tar.xz",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/incus-0.7.tar.xz.asc"
+    ],
+    "allowedUrls": [
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.incus-migrate.aarch64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.incus-migrate.x86_64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.incus.aarch64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.incus.x86_64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.lxd-to-incus.aarch64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.lxd-to-incus.x86_64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.macos.incus.aarch64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.macos.incus.x86_64",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.windows.incus.aarch64.exe",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/bin.windows.incus.x86_64.exe",
+      "https://github.com/lxc/incus/releases/download/v0.7.0/incus-0.7.tar.xz"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/lxc/incus/releases/download/v0.7.0/bin.macos.incus.aarch64",
+        "x64": "https://github.com/lxc/incus/releases/download/v0.7.0/bin.macos.incus.x86_64"
+      },
+      "linux": {
+        "arm64": "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.lxd-to-incus.aarch64",
+        "x64": "https://github.com/lxc/incus/releases/download/v0.7.0/bin.linux.lxd-to-incus.x86_64"
+      },
+      "win32": {
+        "arm64": "https://github.com/lxc/incus/releases/download/v0.7.0/bin.windows.incus.aarch64.exe",
+        "x64": "https://github.com/lxc/incus/releases/download/v0.7.0/bin.windows.incus.x86_64.exe"
+      }
+    },
+    "version": "0.7.0"
+  },
+  {
+    "allUrls": [
       "https://github.com/lxc/incus/releases/download/v0.6.0/bin.linux.incus-migrate.aarch64",
       "https://github.com/lxc/incus/releases/download/v0.6.0/bin.linux.incus-migrate.x86_64",
       "https://github.com/lxc/incus/releases/download/v0.6.0/bin.linux.incus.aarch64",

@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-filebrowser) ![](https://img.shields.io/npm/dt/gobot-filebrowser) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-filebrowser` package version always mirrors the underlying `filebrowser` [version](#all-known-releases):
 
 ```bash
-npm i gobot-filebrowser@2.27.0
+npm i gobot-filebrowser@2.28.0
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `filebro
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`filebrowser`, { version: `2.27.0` })
+const bot = await gobot(`filebrowser`, { version: `2.28.0` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,11 +108,11 @@ filebrowser (https://filebrowser.org) runner for Gobot (https://github.com/benal
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [filebrowser sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/filebrowser/sample-project) on github.
+View the [filebrowser sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/filebrowser/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,10 +165,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-filebrowser` versions mirror `filebrowser` versions. Gobot knows about 55 releases of `filebrowser`:
+`gobot-filebrowser` versions mirror `filebrowser` versions. Gobot knows about 56 releases of `filebrowser`:
 
 | Version | freebsd        | darwin    | linux              | win32          |
 | ------- | -------------- | --------- | ------------------ | -------------- |
+| 2.28.0  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 2.27.0  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 2.26.0  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 2.25.0  | arm64/x64/ia32 | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |

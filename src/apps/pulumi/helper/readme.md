@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-pulumi) ![](https://img.shields.io/npm/dt/gobot-pulumi) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-pulumi` package version always mirrors the underlying `pulumi` [version](#all-known-releases):
 
 ```bash
-npm i gobot-pulumi@3.111.1
+npm i gobot-pulumi@3.112.0
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `pulumi`
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`pulumi`, { version: `3.111.1` })
+const bot = await gobot(`pulumi`, { version: `3.112.0` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,11 +108,11 @@ Pulumi (https://www.pulumi.com) runner for Gobot (https://github.com/benallfree/
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [Pulumi sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/pulumi/sample-project) on github.
+View the [Pulumi sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/pulumi/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,10 +165,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-pulumi` versions mirror `pulumi` versions. Gobot knows about 237 releases of `pulumi`:
+`gobot-pulumi` versions mirror `pulumi` versions. Gobot knows about 238 releases of `pulumi`:
 
 | Version      | darwin    | linux     | win32     |
 | ------------ | --------- | --------- | --------- |
+| 3.112.0      | arm64/x64 | arm64/x64 | x64/arm64 |
 | 3.111.1      | arm64/x64 | arm64/x64 | x64/arm64 |
 | 3.111.0      | arm64/x64 | arm64/x64 | x64/arm64 |
 | 3.110.0      | arm64/x64 | arm64/x64 | x64/arm64 |

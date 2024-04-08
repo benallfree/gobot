@@ -4375,6 +4375,168 @@
   },
   {
     "allUrls": [
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_darwin_amd64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_darwin_arm64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_386.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_amd64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_arm64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_armv5.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_armv6.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_armv7.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_frontend.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_386.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_amd64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_arm64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_armv5.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_armv6.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_armv7.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_mips64le_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_mips64_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_mipsle_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_mips_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_ppc64le.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_openbsd_amd64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_openbsd_arm64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_windows_386.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_windows_amd64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_windows_arm64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/checksums.txt"
+    ],
+    "allowedUrls": [
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_darwin_amd64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_darwin_arm64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_386.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_amd64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_arm64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_armv5.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_armv6.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_armv7.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_frontend.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_386.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_amd64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_arm64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_armv5.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_armv6.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_armv7.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_mips64le_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_mips64_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_mipsle_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_mips_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_ppc64le.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_openbsd_amd64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_openbsd_arm64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_windows_386.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_windows_amd64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_windows_arm64.zip"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_darwin_arm64.zip",
+        "x64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_darwin_amd64.zip"
+      },
+      "freebsd": {
+        "arm": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_armv7.tar.gz",
+        "arm64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_arm64.tar.gz",
+        "ia32": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_386.tar.gz",
+        "x64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_freebsd_amd64.tar.gz"
+      },
+      "linux": {
+        "arm": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_armv7.tar.gz",
+        "arm64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_arm64.tar.gz",
+        "ia32": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_386.tar.gz",
+        "x64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "arm64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_windows_arm64.zip",
+        "ia32": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_windows_386.zip",
+        "x64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.48/AdGuardHome_windows_amd64.zip"
+      }
+    },
+    "version": "0.107.48"
+  },
+  {
+    "allUrls": [
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_darwin_amd64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_darwin_arm64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_386.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_amd64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_arm64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_armv5.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_armv6.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_armv7.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_frontend.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_386.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_amd64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_arm64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_armv5.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_armv6.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_armv7.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_mips64le_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_mips64_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_mipsle_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_mips_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_ppc64le.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_openbsd_amd64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_openbsd_arm64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_windows_386.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_windows_amd64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_windows_arm64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/checksums.txt"
+    ],
+    "allowedUrls": [
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_darwin_amd64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_darwin_arm64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_386.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_amd64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_arm64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_armv5.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_armv6.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_armv7.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_frontend.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_386.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_amd64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_arm64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_armv5.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_armv6.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_armv7.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_mips64le_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_mips64_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_mipsle_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_mips_softfloat.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_ppc64le.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_openbsd_amd64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_openbsd_arm64.tar.gz",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_windows_386.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_windows_amd64.zip",
+      "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_windows_arm64.zip"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_darwin_arm64.zip",
+        "x64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_darwin_amd64.zip"
+      },
+      "freebsd": {
+        "arm": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_armv7.tar.gz",
+        "arm64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_arm64.tar.gz",
+        "ia32": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_386.tar.gz",
+        "x64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_freebsd_amd64.tar.gz"
+      },
+      "linux": {
+        "arm": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_armv7.tar.gz",
+        "arm64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_arm64.tar.gz",
+        "ia32": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_386.tar.gz",
+        "x64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "arm64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_windows_arm64.zip",
+        "ia32": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_windows_386.zip",
+        "x64": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.47/AdGuardHome_windows_amd64.zip"
+      }
+    },
+    "version": "0.107.47"
+  },
+  {
+    "allUrls": [
       "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.46/AdGuardHome_darwin_amd64.zip",
       "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.46/AdGuardHome_darwin_arm64.zip",
       "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.46/AdGuardHome_freebsd_386.tar.gz",

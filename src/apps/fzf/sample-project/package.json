@@ -8,6 +8,6 @@
     "fzf": "fzf"
   },
   "dependencies": {
-    "gobot-fzf": "0.48.1"
+    "gobot-fzf": "0.49.0"
   }
 }

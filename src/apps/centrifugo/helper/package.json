@@ -1,6 +1,6 @@
 {
   "name": "gobot-centrifugo",
-  "version": "5.3.0-alpha.20",
+  "version": "5.3.0-alpha.21",
   "description": "centrifugo helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

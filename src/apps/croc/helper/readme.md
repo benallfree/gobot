@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-croc) ![](https://img.shields.io/npm/dt/gobot-croc) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-croc` package version always mirrors the underlying `croc` [version](#all-known-releases):
 
 ```bash
-npm i gobot-croc@9.6.14
+npm i gobot-croc@9.6.15
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `croc` e
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`croc`, { version: `9.6.14` })
+const bot = await gobot(`croc`, { version: `9.6.15` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,11 +108,11 @@ croc (https://schollz.com/software/croc6) runner for Gobot (https://github.com/b
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [croc sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/croc/sample-project) on github.
+View the [croc sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/croc/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,10 +165,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-croc` versions mirror `croc` versions. Gobot knows about 149 releases of `croc`:
+`gobot-croc` versions mirror `croc` versions. Gobot knows about 150 releases of `croc`:
 
 | Version | freebsd            | darwin    | linux              | win32          |
 | ------- | ------------------ | --------- | ------------------ | -------------- |
+| 9.6.15  | arm64/x64          | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 9.6.14  | arm64/x64          | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 9.6.13  | arm64/x64          | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 9.6.12  |                    | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |

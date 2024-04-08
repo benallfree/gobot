@@ -10,7 +10,7 @@ The package is [https://npmjs.org/gobot-temporal](https://npmjs.org/gobot-tempor
 
 ## What's next
 
-- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 126 versions of Temporal.
+- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 129 versions of Temporal.
 - **Update Temporal installation docs.** Please consider adding Gobot to your official install instructions. If you would like me to send a PR updating the Temporal installation docs to include instructions for installation via Gobot, I'm happy to do that.
 - **Give Gobot a 💫.** Gobot is a big effort to solve binary dependencies for nodejs in a universal way. Please consider giving [the Gobot project](https://github.com/benallfree/gobot) a star if it resonates.
 - **Keep going.** Keep doing what you do! Gobot will automatically pick up and publish your new releases.
@@ -23,11 +23,12 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 ## All releases indexed by Gobot
 
-`gobot-temporal` versions mirror `temporal` versions. Gobot has indexed 126 releases of `temporal`:
+`gobot-temporal` versions mirror `temporal` versions. Gobot has indexed 129 releases of `temporal`:
 
 | Version   | darwin    | linux     | win32     |
 | --------- | --------- | --------- | --------- |
 | 1.23.0    | arm64/x64 | arm64/x64 | x64/arm64 |
+| 1.22.7    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.22.6    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.22.5    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.22.4    | arm64/x64 | arm64/x64 | x64/arm64 |
@@ -35,12 +36,14 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 | 1.22.2    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.22.1    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.22.0    | arm64/x64 | arm64/x64 | x64/arm64 |
+| 1.21.6    |           |           |           |
 | 1.21.5    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.21.4    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.21.3    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.21.2    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.21.1    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.21.0    | arm64/x64 | arm64/x64 | x64/arm64 |
+| 1.20.5    |           |           |           |
 | 1.20.4    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.20.3    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.20.2    | arm64/x64 | arm64/x64 | x64/arm64 |

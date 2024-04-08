@@ -1,6 +1,88 @@
 [
   {
     "allUrls": [
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-darwin-all.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-darwin-all.zip.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-darwin-all.zip.sha256",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-linux-amd64.tar.gz",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-linux-amd64.tar.gz.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-linux-amd64.tar.gz.sha256",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-linux-arm64.tar.gz",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-linux-arm64.tar.gz.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-linux-arm64.tar.gz.sha256",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-windows-amd64.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-windows-amd64.zip.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-windows-amd64.zip.sha256",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-windows-arm64.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-windows-arm64.zip.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-windows-arm64.zip.sha256"
+    ],
+    "allowedUrls": [
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-darwin-all.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-linux-amd64.tar.gz",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-linux-arm64.tar.gz",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-windows-amd64.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-windows-arm64.zip"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-darwin-all.zip",
+        "x64": "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-darwin-all.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-linux-arm64.tar.gz",
+        "x64": "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-linux-amd64.tar.gz"
+      },
+      "win32": {
+        "arm64": "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-windows-arm64.zip",
+        "x64": "https://github.com/weaviate/weaviate/releases/download/v1.24.7/weaviate-v1.24.7-windows-amd64.zip"
+      }
+    },
+    "version": "1.24.7"
+  },
+  {
+    "allUrls": [
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-darwin-all.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-darwin-all.zip.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-darwin-all.zip.sha256",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-linux-amd64.tar.gz",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-linux-amd64.tar.gz.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-linux-amd64.tar.gz.sha256",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-linux-arm64.tar.gz",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-linux-arm64.tar.gz.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-linux-arm64.tar.gz.sha256",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-windows-amd64.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-windows-amd64.zip.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-windows-amd64.zip.sha256",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-windows-arm64.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-windows-arm64.zip.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-windows-arm64.zip.sha256"
+    ],
+    "allowedUrls": [
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-darwin-all.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-linux-amd64.tar.gz",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-linux-arm64.tar.gz",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-windows-amd64.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-windows-arm64.zip"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-darwin-all.zip",
+        "x64": "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-darwin-all.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-linux-arm64.tar.gz",
+        "x64": "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-linux-amd64.tar.gz"
+      },
+      "win32": {
+        "arm64": "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-windows-arm64.zip",
+        "x64": "https://github.com/weaviate/weaviate/releases/download/v1.24.6/weaviate-v1.24.6-windows-amd64.zip"
+      }
+    },
+    "version": "1.24.6"
+  },
+  {
+    "allUrls": [
       "https://github.com/weaviate/weaviate/releases/download/v1.24.5/weaviate-v1.24.5-darwin-all.zip",
       "https://github.com/weaviate/weaviate/releases/download/v1.24.5/weaviate-v1.24.5-darwin-all.zip.md5",
       "https://github.com/weaviate/weaviate/releases/download/v1.24.5/weaviate-v1.24.5-darwin-all.zip.sha256",
@@ -326,6 +408,47 @@
       }
     },
     "version": "1.24.0-rc.0"
+  },
+  {
+    "allUrls": [
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-darwin-all.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-darwin-all.zip.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-darwin-all.zip.sha256",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-linux-amd64.tar.gz",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-linux-amd64.tar.gz.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-linux-amd64.tar.gz.sha256",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-linux-arm64.tar.gz",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-linux-arm64.tar.gz.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-linux-arm64.tar.gz.sha256",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-windows-amd64.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-windows-amd64.zip.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-windows-amd64.zip.sha256",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-windows-arm64.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-windows-arm64.zip.md5",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-windows-arm64.zip.sha256"
+    ],
+    "allowedUrls": [
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-darwin-all.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-linux-amd64.tar.gz",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-linux-arm64.tar.gz",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-windows-amd64.zip",
+      "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-windows-arm64.zip"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-darwin-all.zip",
+        "x64": "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-darwin-all.zip"
+      },
+      "linux": {
+        "arm64": "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-linux-arm64.tar.gz",
+        "x64": "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-linux-amd64.tar.gz"
+      },
+      "win32": {
+        "arm64": "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-windows-arm64.zip",
+        "x64": "https://github.com/weaviate/weaviate/releases/download/v1.23.14/weaviate-v1.23.14-windows-amd64.zip"
+      }
+    },
+    "version": "1.23.14"
   },
   {
     "allUrls": [

@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-AdGuardHome) ![](https://img.shields.io/npm/dt/gobot-AdGuardHome) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -108,11 +108,11 @@ AdGuardHome (https://adguard.com/adguard-home.html) runner for Gobot (https://gi
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [AdGuardHome sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/AdGuardHome/sample-project) on github.
+View the [AdGuardHome sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/AdGuardHome/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,7 +165,7 @@ pnpm test
 
 ## All known releases
 
-`gobot-adguardhome` versions mirror `AdGuardHome` versions. Gobot knows about 175 releases of `AdGuardHome`:
+`gobot-adguardhome` versions mirror `AdGuardHome` versions. Gobot knows about 177 releases of `AdGuardHome`:
 
 | Version        | freebsd            | darwin    | linux              | win32          |
 | -------------- | ------------------ | --------- | ------------------ | -------------- |
@@ -223,6 +223,8 @@ pnpm test
 | 0.108.0-b.3    | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 0.108.0-b.2    | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 0.108.0-b.1    | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.107.48       | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.107.47       | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 0.107.46       | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 0.107.45       | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 0.107.44       | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |

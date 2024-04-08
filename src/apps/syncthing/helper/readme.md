@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-syncthing) ![](https://img.shields.io/npm/dt/gobot-syncthing) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-syncthing` package version always mirrors the underlying `syncthing` [version](#all-known-releases):
 
 ```bash
-npm i gobot-syncthing@1.27.5-rc.1
+npm i gobot-syncthing@1.27.6-rc.1
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `syncthi
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`syncthing`, { version: `1.27.5-rc.1` })
+const bot = await gobot(`syncthing`, { version: `1.27.6-rc.1` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,11 +108,11 @@ syncthing (https://forum.syncthing.net/) runner for Gobot (https://github.com/be
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [syncthing sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/syncthing/sample-project) on github.
+View the [syncthing sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/syncthing/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,10 +165,13 @@ pnpm test
 
 ## All known releases
 
-`gobot-syncthing` versions mirror `syncthing` versions. Gobot knows about 364 releases of `syncthing`:
+`gobot-syncthing` versions mirror `syncthing` versions. Gobot knows about 367 releases of `syncthing`:
 
 | Version        | freebsd            | darwin    | linux              | win32          |
 | -------------- | ------------------ | --------- | ------------------ | -------------- |
+| 1.27.6-rc.1    | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 1.27.5         | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 1.27.5-rc.2    | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 1.27.5-rc.1    | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 1.27.4         | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 1.27.4-rc.2    | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |

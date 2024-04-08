@@ -4,6 +4,42 @@
     "allowedUrls": [],
     "archives": {
       "darwin": {
+        "arm64": "https://dl.min.io/client/mc/release/darwin-amd64/archive/mc.RELEASE.2024-03-30T15-29-52Z",
+        "x64": "https://dl.min.io/client/mc/release/darwin-arm64/archive/mc.RELEASE.2024-03-30T15-29-52Z"
+      },
+      "linux": {
+        "arm64": "https://dl.min.io/client/mc/release/linux-amd64/archive/mc.RELEASE.2024-03-30T15-29-52Z",
+        "x64": "https://dl.min.io/client/mc/release/linux-arm64/archive/mc.RELEASE.2024-03-30T15-29-52Z"
+      },
+      "win32": {
+        "x64": "https://dl.min.io/client/mc/release/windows-amd64/archive/mc.RELEASE.2024-03-30T15-29-52Z"
+      }
+    },
+    "version": "2024.3.30152952"
+  },
+  {
+    "allUrls": [],
+    "allowedUrls": [],
+    "archives": {
+      "darwin": {
+        "arm64": "https://dl.min.io/client/mc/release/darwin-amd64/archive/mc.RELEASE.2024-03-25T16-41-14Z",
+        "x64": "https://dl.min.io/client/mc/release/darwin-arm64/archive/mc.RELEASE.2024-03-25T16-41-14Z"
+      },
+      "linux": {
+        "arm64": "https://dl.min.io/client/mc/release/linux-amd64/archive/mc.RELEASE.2024-03-25T16-41-14Z",
+        "x64": "https://dl.min.io/client/mc/release/linux-arm64/archive/mc.RELEASE.2024-03-25T16-41-14Z"
+      },
+      "win32": {
+        "x64": "https://dl.min.io/client/mc/release/windows-amd64/archive/mc.RELEASE.2024-03-25T16-41-14Z"
+      }
+    },
+    "version": "2024.3.25164114"
+  },
+  {
+    "allUrls": [],
+    "allowedUrls": [],
+    "archives": {
+      "darwin": {
         "arm64": "https://dl.min.io/client/mc/release/darwin-amd64/archive/mc.RELEASE.2024-03-20T21-07-29Z",
         "x64": "https://dl.min.io/client/mc/release/darwin-arm64/archive/mc.RELEASE.2024-03-20T21-07-29Z"
       },

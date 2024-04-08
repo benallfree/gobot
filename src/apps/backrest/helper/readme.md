@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-backrest) ![](https://img.shields.io/npm/dt/gobot-backrest) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-backrest` package version always mirrors the underlying `backrest` [version](#all-known-releases):
 
 ```bash
-npm i gobot-backrest@0.15.1
+npm i gobot-backrest@0.16.0
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `backres
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`backrest`, { version: `0.15.1` })
+const bot = await gobot(`backrest`, { version: `0.16.0` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,11 +108,11 @@ Backrest (https://github.com/garethgeorge/backrest) runner for Gobot (https://gi
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [Backrest sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/backrest/sample-project) on github.
+View the [Backrest sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/backrest/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,10 +165,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-backrest` versions mirror `backrest` versions. Gobot knows about 17 releases of `backrest`:
+`gobot-backrest` versions mirror `backrest` versions. Gobot knows about 18 releases of `backrest`:
 
 | Version | freebsd   | darwin    | linux         | win32     |
 | ------- | --------- | --------- | ------------- | --------- |
+| 0.16.0  | arm64/x64 | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.15.1  | arm64/x64 | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.15.0  | arm64/x64 | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.14.0  |           | arm64/x64 | arm64/x64/arm | x64/arm64 |

@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-pocketbase) ![](https://img.shields.io/npm/dt/gobot-pocketbase) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-pocketbase` package version always mirrors the underlying `pocketbase` [version](#all-known-releases):
 
 ```bash
-npm i gobot-pocketbase@0.22.5
+npm i gobot-pocketbase@0.22.8
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `pocketb
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`pocketbase`, { version: `0.22.5` })
+const bot = await gobot(`pocketbase`, { version: `0.22.8` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,7 +108,7 @@ PocketBase (https://pocketbase.io) runner for Gobot (https://github.com/benallfr
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Quirks
 
@@ -132,7 +132,7 @@ Instead, specify the version you wish to use either via CLI or programmatically 
 
 ## Sample project
 
-View the [PocketBase sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/pocketbase/sample-project) on github.
+View the [PocketBase sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/pocketbase/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -185,10 +185,13 @@ pnpm test
 
 ## All known releases
 
-`gobot-pocketbase` versions mirror `pocketbase` versions. Gobot knows about 128 releases of `pocketbase`:
+`gobot-pocketbase` versions mirror `pocketbase` versions. Gobot knows about 131 releases of `pocketbase`:
 
 | Version    | darwin    | linux         | win32     |
 | ---------- | --------- | ------------- | --------- |
+| 0.22.8     | arm64/x64 | arm64/x64/arm | x64/arm64 |
+| 0.22.7     | arm64/x64 | arm64/x64/arm | x64/arm64 |
+| 0.22.6     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.22.5     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.22.4     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.22.3     | arm64/x64 | arm64/x64/arm | x64/arm64 |

@@ -8,6 +8,6 @@
     "pocketbase": "pocketbase"
   },
   "dependencies": {
-    "gobot-pocketbase": "0.22.5"
+    "gobot-pocketbase": "0.22.8"
   }
 }

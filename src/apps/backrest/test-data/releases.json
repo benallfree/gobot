@@ -1,6 +1,51 @@
 [
   {
     "allUrls": [
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_0.16.0_checksums.txt",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Darwin_arm64.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Darwin_x86_64.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Freebsd_arm64.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Freebsd_x86_64.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Linux_arm64.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Linux_armv6.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Linux_x86_64.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Windows_arm64.zip",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Windows_x86_64.zip"
+    ],
+    "allowedUrls": [
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Darwin_arm64.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Darwin_x86_64.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Freebsd_arm64.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Freebsd_x86_64.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Linux_arm64.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Linux_armv6.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Linux_x86_64.tar.gz",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Windows_arm64.zip",
+      "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Windows_x86_64.zip"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Darwin_arm64.tar.gz",
+        "x64": "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Darwin_x86_64.tar.gz"
+      },
+      "freebsd": {
+        "arm64": "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Freebsd_arm64.tar.gz",
+        "x64": "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Freebsd_x86_64.tar.gz"
+      },
+      "linux": {
+        "arm": "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Linux_armv6.tar.gz",
+        "arm64": "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Linux_arm64.tar.gz",
+        "x64": "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Linux_x86_64.tar.gz"
+      },
+      "win32": {
+        "arm64": "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Windows_arm64.zip",
+        "x64": "https://github.com/garethgeorge/backrest/releases/download/v0.16.0/backrest_Windows_x86_64.zip"
+      }
+    },
+    "version": "0.16.0"
+  },
+  {
+    "allUrls": [
       "https://github.com/garethgeorge/backrest/releases/download/v0.15.1/backrest_0.15.1_checksums.txt",
       "https://github.com/garethgeorge/backrest/releases/download/v0.15.1/backrest_Darwin_arm64.tar.gz",
       "https://github.com/garethgeorge/backrest/releases/download/v0.15.1/backrest_Darwin_x86_64.tar.gz",

@@ -1,6 +1,56 @@
 [
   {
     "allUrls": [
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/B3SUMS",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/B3SUMS.sig",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-3.112.0-checksums.txt",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-3.112.0-checksums.txt.sig",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-darwin-arm64.tar.gz",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-darwin-arm64.tar.gz.sig",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-darwin-x64.tar.gz",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-darwin-x64.tar.gz.sig",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-linux-arm64.tar.gz",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-linux-arm64.tar.gz.sig",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-linux-x64.tar.gz",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-linux-x64.tar.gz.sig",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-windows-arm64.zip",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-windows-arm64.zip.sig",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-windows-x64.zip",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-windows-x64.zip.sig",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/sdk-nodejs-pulumi-pulumi-3.112.0.tgz",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/sdk-nodejs-pulumi-pulumi-3.112.0.tgz.sig",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/sdk-python-pulumi-3.112.0-py3-none-any.whl",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/sdk-python-pulumi-3.112.0-py3-none-any.whl.sig",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/SHA512SUMS",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/SHA512SUMS.sig"
+    ],
+    "allowedUrls": [
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-darwin-arm64.tar.gz",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-darwin-x64.tar.gz",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-linux-arm64.tar.gz",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-linux-x64.tar.gz",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-windows-arm64.zip",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-windows-x64.zip",
+      "https://github.com/pulumi/pulumi/releases/download/v3.112.0/sdk-nodejs-pulumi-pulumi-3.112.0.tgz"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-darwin-arm64.tar.gz",
+        "x64": "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-darwin-x64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-linux-arm64.tar.gz",
+        "x64": "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-linux-x64.tar.gz"
+      },
+      "win32": {
+        "arm64": "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-windows-arm64.zip",
+        "x64": "https://github.com/pulumi/pulumi/releases/download/v3.112.0/pulumi-v3.112.0-windows-x64.zip"
+      }
+    },
+    "version": "3.112.0"
+  },
+  {
+    "allUrls": [
       "https://github.com/pulumi/pulumi/releases/download/v3.111.1/B3SUMS",
       "https://github.com/pulumi/pulumi/releases/download/v3.111.1/B3SUMS.sig",
       "https://github.com/pulumi/pulumi/releases/download/v3.111.1/pulumi-3.111.1-checksums.txt",

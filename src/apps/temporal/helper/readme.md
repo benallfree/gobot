@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-temporal) ![](https://img.shields.io/npm/dt/gobot-temporal) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -108,11 +108,11 @@ Temporal (https://docs.temporal.io) runner for Gobot (https://github.com/benallf
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [Temporal sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/temporal/sample-project) on github.
+View the [Temporal sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/temporal/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,11 +165,12 @@ pnpm test
 
 ## All known releases
 
-`gobot-temporal` versions mirror `temporal` versions. Gobot knows about 126 releases of `temporal`:
+`gobot-temporal` versions mirror `temporal` versions. Gobot knows about 129 releases of `temporal`:
 
 | Version   | darwin    | linux     | win32     |
 | --------- | --------- | --------- | --------- |
 | 1.23.0    | arm64/x64 | arm64/x64 | x64/arm64 |
+| 1.22.7    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.22.6    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.22.5    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.22.4    | arm64/x64 | arm64/x64 | x64/arm64 |
@@ -177,12 +178,14 @@ pnpm test
 | 1.22.2    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.22.1    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.22.0    | arm64/x64 | arm64/x64 | x64/arm64 |
+| 1.21.6    |           |           |           |
 | 1.21.5    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.21.4    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.21.3    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.21.2    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.21.1    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.21.0    | arm64/x64 | arm64/x64 | x64/arm64 |
+| 1.20.5    |           |           |           |
 | 1.20.4    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.20.3    | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.20.2    | arm64/x64 | arm64/x64 | x64/arm64 |

@@ -1,6 +1,6 @@
 {
   "name": "gobot-cue",
-  "version": "0.9.0-alpha.1-alpha.20",
+  "version": "0.9.0-alpha.1-alpha.21",
   "description": "CUE helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

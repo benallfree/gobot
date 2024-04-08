@@ -8,6 +8,6 @@
     "ollama": "ollama"
   },
   "dependencies": {
-    "gobot-ollama": "0.1.29"
+    "gobot-ollama": "0.1.31"
   }
 }

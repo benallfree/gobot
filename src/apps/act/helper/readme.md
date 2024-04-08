@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-act) ![](https://img.shields.io/npm/dt/gobot-act) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-act` package version always mirrors the underlying `act` [version](#all-known-releases):
 
 ```bash
-npm i gobot-act@0.2.60
+npm i gobot-act@0.2.61
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `act` ev
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`act`, { version: `0.2.60` })
+const bot = await gobot(`act`, { version: `0.2.61` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,7 +108,7 @@ Act (https://nektosact.com/) runner for Gobot (https://github.com/benallfree/gob
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Quirks
 
@@ -124,7 +124,7 @@ gobot(`act`, {
 
 ## Sample project
 
-View the [Act sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/act/sample-project) on github.
+View the [Act sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/act/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -177,10 +177,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-act` versions mirror `act` versions. Gobot knows about 68 releases of `act`:
+`gobot-act` versions mirror `act` versions. Gobot knows about 69 releases of `act`:
 
 | Version | darwin    | linux              | win32          |
 | ------- | --------- | ------------------ | -------------- |
+| 0.2.61  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 0.2.60  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 0.2.59  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 0.2.58  | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |

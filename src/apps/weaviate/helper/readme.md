@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-weaviate) ![](https://img.shields.io/npm/dt/gobot-weaviate) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-weaviate` package version always mirrors the underlying `weaviate` [version](#all-known-releases):
 
 ```bash
-npm i gobot-weaviate@1.24.5
+npm i gobot-weaviate@1.24.7
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `weaviat
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`weaviate`, { version: `1.24.5` })
+const bot = await gobot(`weaviate`, { version: `1.24.7` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,11 +108,11 @@ Weaviate (https://weaviate.io) runner for Gobot (https://github.com/benallfree/g
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [Weaviate sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/weaviate/sample-project) on github.
+View the [Weaviate sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/weaviate/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,10 +165,12 @@ pnpm test
 
 ## All known releases
 
-`gobot-weaviate` versions mirror `weaviate` versions. Gobot knows about 220 releases of `weaviate`:
+`gobot-weaviate` versions mirror `weaviate` versions. Gobot knows about 223 releases of `weaviate`:
 
 | Version       | darwin    | linux     | win32     |
 | ------------- | --------- | --------- | --------- |
+| 1.24.7        | arm64/x64 | arm64/x64 | x64/arm64 |
+| 1.24.6        | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.24.5        | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.24.4        | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.24.3        | arm64/x64 | arm64/x64 | x64/arm64 |
@@ -177,6 +179,7 @@ pnpm test
 | 1.24.0        | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.24.0-rc.1   | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.24.0-rc.0   | arm64/x64 | arm64/x64 | x64/arm64 |
+| 1.23.14       | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.23.13       | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.23.12       | arm64/x64 | arm64/x64 | x64/arm64 |
 | 1.23.11       | arm64/x64 | arm64/x64 | x64/arm64 |

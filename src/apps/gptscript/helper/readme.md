@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-gptscript) ![](https://img.shields.io/npm/dt/gobot-gptscript) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-gptscript` package version always mirrors the underlying `gptscript` [version](#all-known-releases):
 
 ```bash
-npm i gobot-gptscript@0.2.2
+npm i gobot-gptscript@0.4.2
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `gptscri
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`gptscript`, { version: `0.2.2` })
+const bot = await gobot(`gptscript`, { version: `0.4.2` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,11 +108,11 @@ GPTScript (https://gptscript.ai/) runner for Gobot (https://github.com/benallfre
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [GPTScript sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/gptscript/sample-project) on github.
+View the [GPTScript sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/gptscript/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,10 +165,14 @@ pnpm test
 
 ## All known releases
 
-`gobot-gptscript` versions mirror `gptscript` versions. Gobot knows about 17 releases of `gptscript`:
+`gobot-gptscript` versions mirror `gptscript` versions. Gobot knows about 21 releases of `gptscript`:
 
 | Version   | darwin    | linux     | win32 |
 | --------- | --------- | --------- | ----- |
+| 0.4.2     | arm64/x64 | arm64/x64 | x64   |
+| 0.4.1     | arm64/x64 | arm64/x64 | x64   |
+| 0.4.0     | arm64/x64 | arm64/x64 | x64   |
+| 0.3.0     | arm64/x64 | arm64/x64 | x64   |
 | 0.2.2     | arm64/x64 | arm64/x64 | x64   |
 | 0.2.1     | arm64/x64 | arm64/x64 | x64   |
 | 0.2.0     | arm64/x64 | arm64/x64 | x64   |

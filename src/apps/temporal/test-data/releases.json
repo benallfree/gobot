@@ -35,6 +35,40 @@
   },
   {
     "allUrls": [
+      "https://github.com/temporalio/temporal/releases/download/v1.22.7/checksums.txt",
+      "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_darwin_amd64.tar.gz",
+      "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_darwin_arm64.tar.gz",
+      "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_linux_amd64.tar.gz",
+      "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_linux_arm64.tar.gz",
+      "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_windows_amd64.zip",
+      "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_windows_arm64.zip"
+    ],
+    "allowedUrls": [
+      "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_darwin_amd64.tar.gz",
+      "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_darwin_arm64.tar.gz",
+      "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_linux_amd64.tar.gz",
+      "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_linux_arm64.tar.gz",
+      "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_windows_amd64.zip",
+      "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_windows_arm64.zip"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_darwin_arm64.tar.gz",
+        "x64": "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_darwin_amd64.tar.gz"
+      },
+      "linux": {
+        "arm64": "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_linux_arm64.tar.gz",
+        "x64": "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "arm64": "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_windows_arm64.zip",
+        "x64": "https://github.com/temporalio/temporal/releases/download/v1.22.7/temporal_1.22.7_windows_amd64.zip"
+      }
+    },
+    "version": "1.22.7"
+  },
+  {
+    "allUrls": [
       "https://github.com/temporalio/temporal/releases/download/v1.22.6/checksums.txt",
       "https://github.com/temporalio/temporal/releases/download/v1.22.6/temporal_1.22.6_darwin_amd64.tar.gz",
       "https://github.com/temporalio/temporal/releases/download/v1.22.6/temporal_1.22.6_darwin_arm64.tar.gz",
@@ -244,6 +278,12 @@
     "version": "1.22.0"
   },
   {
+    "allUrls": [],
+    "allowedUrls": [],
+    "archives": {},
+    "version": "1.21.6"
+  },
+  {
     "allUrls": [
       "https://github.com/temporalio/temporal/releases/download/v1.21.5/checksums.txt",
       "https://github.com/temporalio/temporal/releases/download/v1.21.5/temporal_1.21.5_darwin_amd64.tar.gz",
@@ -446,6 +486,12 @@
       }
     },
     "version": "1.21.0"
+  },
+  {
+    "allUrls": [],
+    "allowedUrls": [],
+    "archives": {},
+    "version": "1.20.5"
   },
   {
     "allUrls": [

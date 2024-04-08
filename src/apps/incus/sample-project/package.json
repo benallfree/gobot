@@ -8,6 +8,6 @@
     "incus": "incus"
   },
   "dependencies": {
-    "gobot-incus": "0.6.0"
+    "gobot-incus": "6.0.0"
   }
 }

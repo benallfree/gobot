@@ -10,7 +10,7 @@ The package is [https://npmjs.org/gobot-pocketbase](https://npmjs.org/gobot-pock
 
 ## What's next
 
-- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 128 versions of PocketBase.
+- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 131 versions of PocketBase.
 - **Update PocketBase installation docs.** Please consider adding Gobot to your official install instructions. If you would like me to send a PR updating the PocketBase installation docs to include instructions for installation via Gobot, I'm happy to do that.
 - **Give Gobot a 💫.** Gobot is a big effort to solve binary dependencies for nodejs in a universal way. Please consider giving [the Gobot project](https://github.com/benallfree/gobot) a star if it resonates.
 - **Keep going.** Keep doing what you do! Gobot will automatically pick up and publish your new releases.
@@ -23,10 +23,13 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 ## All releases indexed by Gobot
 
-`gobot-pocketbase` versions mirror `pocketbase` versions. Gobot has indexed 128 releases of `pocketbase`:
+`gobot-pocketbase` versions mirror `pocketbase` versions. Gobot has indexed 131 releases of `pocketbase`:
 
 | Version    | darwin    | linux         | win32     |
 | ---------- | --------- | ------------- | --------- |
+| 0.22.8     | arm64/x64 | arm64/x64/arm | x64/arm64 |
+| 0.22.7     | arm64/x64 | arm64/x64/arm | x64/arm64 |
+| 0.22.6     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.22.5     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.22.4     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.22.3     | arm64/x64 | arm64/x64/arm | x64/arm64 |

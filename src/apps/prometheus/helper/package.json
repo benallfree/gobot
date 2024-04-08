@@ -1,6 +1,6 @@
 {
   "name": "gobot-prometheus",
-  "version": "2.51.0-alpha.20",
+  "version": "2.51.1-alpha.21",
   "description": "Prometheus helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

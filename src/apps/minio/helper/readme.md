@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-minio) ![](https://img.shields.io/npm/dt/gobot-minio) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-minio` package version always mirrors the underlying `minio` [version](#all-known-releases):
 
 ```bash
-npm i gobot-minio@2024.3.21231343
+npm i gobot-minio@2024.4.6052602
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `minio` 
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`minio`, { version: `2024.3.21231343` })
+const bot = await gobot(`minio`, { version: `2024.4.6052602` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,7 +108,7 @@ Minio (https://min.io) runner for Gobot (https://github.com/benallfree/gobot)
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Quirks
 
@@ -137,7 +137,7 @@ Example:
 
 ## Sample project
 
-View the [Minio sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/minio/sample-project) on github.
+View the [Minio sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/minio/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -190,10 +190,13 @@ pnpm test
 
 ## All known releases
 
-`gobot-minio` versions mirror `minio` versions. Gobot knows about 465 releases of `minio`:
+`gobot-minio` versions mirror `minio` versions. Gobot knows about 468 releases of `minio`:
 
 | Version          | win32 | darwin    | linux     |
 | ---------------- | ----- | --------- | --------- |
+| 2024.4.6052602   | x64   | arm64/x64 | arm64/x64 |
+| 2024.3.30094156  | x64   | arm64/x64 | arm64/x64 |
+| 2024.3.26221045  | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.21231343  | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.15010719  | x64   | arm64/x64 | arm64/x64 |
 | 2024.3.10025348  | x64   | arm64/x64 | arm64/x64 |

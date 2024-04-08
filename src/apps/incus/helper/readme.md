@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-incus) ![](https://img.shields.io/npm/dt/gobot-incus) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -47,7 +47,7 @@ bot..run([`--version`])
 The `gobot-incus` package version always mirrors the underlying `incus` [version](#all-known-releases):
 
 ```bash
-npm i gobot-incus@0.6.0
+npm i gobot-incus@6.0.0
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `incus` 
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`incus`, { version: `0.6.0` })
+const bot = await gobot(`incus`, { version: `6.0.0` })
 bot.run([`--version`])
 
 // Or the latest version (override)
@@ -108,11 +108,11 @@ incus (https://linuxcontainers.org/incus) runner for Gobot (https://github.com/b
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [incus sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/incus/sample-project) on github.
+View the [incus sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/incus/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,10 +165,12 @@ pnpm test
 
 ## All known releases
 
-`gobot-incus` versions mirror `incus` versions. Gobot knows about 7 releases of `incus`:
+`gobot-incus` versions mirror `incus` versions. Gobot knows about 9 releases of `incus`:
 
 | Version | darwin    | linux     | win32     |
 | ------- | --------- | --------- | --------- |
+| 6.0.0   | arm64/x64 | arm64/x64 | x64/arm64 |
+| 0.7.0   | arm64/x64 | arm64/x64 | x64/arm64 |
 | 0.6.0   | arm64/x64 | arm64/x64 | x64/arm64 |
 | 0.5.1   | arm64/x64 | arm64/x64 | x64/arm64 |
 | 0.5.0   | arm64/x64 | arm64/x64 | x64/arm64 |

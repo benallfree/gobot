@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.35/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-lf) ![](https://img.shields.io/npm/dt/gobot-lf) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -108,11 +108,11 @@ lf (https://github.com/gokcehan/lf) runner for Gobot (https://github.com/benallf
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.35/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
 
 ## Sample project
 
-View the [lf sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.35/src/apps/lf/sample-project) on github.
+View the [lf sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/lf/sample-project) on github.
 
 ## Try Gobot's other apps
 
@@ -165,10 +165,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-lf` versions mirror `lf` versions. Gobot knows about 31 releases of `lf`:
+`gobot-lf` versions mirror `lf` versions. Gobot knows about 32 releases of `lf`:
 
 | Version | freebsd      | darwin    | linux              | win32    |
 | ------- | ------------ | --------- | ------------------ | -------- |
+| 0.0.0   | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
 | 0.0.0   | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
 | 0.0.0   | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
 | 0.0.0   | x64/ia32/arm | x64       | arm64/x64/ia32/arm | x64/ia32 |
