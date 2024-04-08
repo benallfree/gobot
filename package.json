@@ -98,5 +98,5 @@
       "node-plop@0.32.0": "patches/node-plop@0.32.0.patch"
     }
   },
-  "packageManager": "pnpm@9.0.0-beta.3+sha256.e55cdbdef21da8b4fd68345716937e473f0645e2f65313f390b0d33f2d2440a3"
+  "packageManager": "pnpm@8.10.2"
 }
