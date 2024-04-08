@@ -22,13 +22,23 @@ export const exec =
     const stderr: string[] = []
     const ret = await _exec(cmd, { cwd: __root, ...options }, (proc) => {
       if (verbosity() >= 3) return
-      proc.stdout.on('data', (buf) => {
-        buf.toString().split(/\n/).forEach(onProgress)
-        stdout.push(buf.toString())
+      proc.stdout.on('data', (buf: Buffer) => {
+        buf
+          .toString()
+          .split(/\n/)
+          .forEach((line) => {
+            onProgress(line)
+            if (snapshot) stdout.push(line)
+          })
       })
-      proc.stderr.on('data', (buf) => {
-        buf.toString().split(/\n/).forEach(onProgress)
-        stderr.push(buf.toString())
+      proc.stderr.on('data', (buf: Buffer) => {
+        buf
+          .toString()
+          .split(/\n/)
+          .forEach((line) => {
+            onProgress(line)
+            if (snapshot) stderr.push(line)
+          })
       })
     })
     if (snapshot) {
