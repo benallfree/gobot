@@ -3,6 +3,7 @@ import 'colors'
 import { globSync } from 'glob'
 import { join } from 'path'
 import type { ActionType, NodePlopAPI } from 'plop'
+import pkg from '../../package.json'
 import { __root } from '../../src/util/__root'
 import { Flags } from '../../src/util/flags'
 import { cleanVerdaccioPackages } from './helpers/cleanVerdaccioPackages'
@@ -26,11 +27,8 @@ export function testCommand(plop: NodePlopAPI) {
           },
         }),
         exec(`npm rm -g gobot`),
-        (() => {
-          const tgz = globSync(`gobot-*.tgz`)[0]
-          return exec(`npm i -g ${tgz}`)
-        })(),
-        exec(`gobot --g-version`),
+
+        exec(`npm i -g gobot-${pkg.version}.tgz`),
 
         exec(`npm rm -g gobot`),
 
@@ -38,7 +36,11 @@ export function testCommand(plop: NodePlopAPI) {
 
         exec(`gobot --g-version`),
       ],
-      clean: [cleanVerdaccioPackages([`gobot`]), exec(`npm rm -g gobot`)],
+      clean: [
+        cleanVerdaccioPackages([`gobot`]),
+        exec(`npm rm -g gobot`),
+        rimraf(`gobot-*.tgz`),
+      ],
     },
   }
   getSlugsFromFileSystem().forEach((slug) => {
@@ -111,6 +113,7 @@ export function testCommand(plop: NodePlopAPI) {
       clean: [
         exec(`npm rm -g gobot-${slug}`),
         cleanVerdaccioPackages([`gobot-${slug}`]),
+        rimraf(`src/apps/${slug}/**/gobot-*.tgz`),
       ],
     }
   })
