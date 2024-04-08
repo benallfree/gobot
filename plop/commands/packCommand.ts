@@ -12,22 +12,23 @@ export const packCommand = (plop: NodePlopAPI) => {
   const pack =
     (path: string): CustomActionFunction =>
     async (answers, { onProgress }, plop) => {
+      const packed: string[] = []
       await Promise.all(
         globSync(path, {
           absolute: true,
         }).map(async (path) => {
           if (globSync(join(path, `gobot-*.tgz`)).length > 0) {
-            onProgress(`Pack exists, skipping ${path}`)
-            return
+            throw new Error(`Pack exists, skipping ${path}`)
           }
           await limiter.schedule(() => {
             const cmd = `npm pack --silent`
-            onProgress(cmd)
+            onProgress(`${path} ${cmd}`)
             return spawn(cmd, { env: process.env, cwd: path })
           })
+          packed.push(path)
         }),
       )
-      return `Packed ${path}`
+      return `Packed ${packed.join(` `)}`
     }
 
   const subcommands: Subcommands = {
