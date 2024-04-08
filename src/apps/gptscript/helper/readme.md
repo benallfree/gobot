@@ -25,7 +25,7 @@ npm i gobot
 ```js
 import { gobot } from 'gobot'
 const bot = await gobot(`gptscript`)
-bot.run([`--version`])
+const exitCode = await bot.run([`--version`])
 ```
 
 **Basic version locking**
@@ -39,7 +39,7 @@ With `gobot-gptscript` present, Gobot will default to the `gptscript` version co
 ```js
 import { gobot } from 'gobot'
 const bot = await gobot(`gptscript`)
-bot..run([`--version`])
+const exitCode = await bot.run([`--version`])
 ```
 
 **Locking to a specific version**
@@ -57,11 +57,11 @@ In rare cases, you may want to intentionally run a different version of `gptscri
 ```js
 // Run a specific version (override)
 const bot = await gobot(`gptscript`, { version: `0.4.2` })
-bot.run([`--version`])
+const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
 const bot = await gobot(`gptscript`, { version: `*` })
-bot.run([`--version`])
+const exitCode = await bot.run([`--version`])
 ```
 
 **Pass environment variables**
@@ -71,7 +71,26 @@ import { gobot } from 'gobot'
 const bot = await gobot(`gptscript`, {
   env: process.env, // This is not always necessary, but some apps do need it
 })
-bot.run([`--version`])
+const exitCode = await bot.run([`--version`])
+```
+
+**Access the child process**
+
+```js
+import { gobot } from 'gobot'
+const bot = await gobot(`gptscript`, {
+  env: process.env,
+})
+const exitCode = await bot.run(
+  [`--help`],
+  { cwd: `./foo` }, // SpawnOptions
+  (proc) => {
+    // ChildProcess
+    proc.stdout.on('exit', (code) => {
+      console.log(`process has exited`)
+    })
+  },
+)
 ```
 
 **Install globally for CLI access**
