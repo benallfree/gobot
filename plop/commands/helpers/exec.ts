@@ -27,7 +27,7 @@ export const exec =
           .toString()
           .split(/\n/)
           .forEach((line) => {
-            onProgress(line)
+            if (line.trim()) onProgress(line)
             if (snapshot) stdout.push(line)
           })
       })
@@ -36,7 +36,7 @@ export const exec =
           .toString()
           .split(/\n/)
           .forEach((line) => {
-            onProgress(line)
+            if (line.trim()) onProgress(line)
             if (snapshot) stderr.push(line)
           })
       })
