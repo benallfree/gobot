@@ -297,18 +297,19 @@ program.addCommand(
     .helpOption(`--g-help`)
     .action(async (appName, options, command) => {
       const { gV, gVv, gVvv, gCachePath: cachePath } = command.optsWithGlobals()
-      verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
+      verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 1)
       dbg(`CLI:`, appName, command.optsWithGlobals())
 
       try {
         if (!appName) {
-          dbg(`Removing ${cachePath}`)
           await Gobot.reset(cachePath)
+          info(`Removed ${cachePath}`)
         } else {
           const bot = await gobot(appName, {
             cachePath,
           })
           await bot.reset()
+          info(`Removed ${bot.cachePath()()}`)
         }
       } catch (e) {
         console.error(`${e}`)
