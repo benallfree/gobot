@@ -39,7 +39,7 @@ With `gobot-{{lowerCase slug}}` present, Gobot will default to the `{{slug}}` ve
 ```js
 import { gobot } from 'gobot'
 const bot = await gobot(`{{slug}}`)
-bot..run([`--version`])
+bot.run([`--version`])
 ```
 
 **Locking to a specific version**
