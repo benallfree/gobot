@@ -9,7 +9,7 @@ patchedDependencies:
     hash: bd3intvjmkfvxm6sbrv7il535q
     path: patches/node-plop@0.32.0.patch
   plop@4.0.1:
-    hash: ttcb5fusqw2scdk5v3cxgl662m
+    hash: wqlcqym4qgpalvd5bxytit4ilq
     path: patches/plop@4.0.1.patch
 
 importers:
@@ -98,6 +98,9 @@ importers:
       '@types/diff':
         specifier: ^5.0.9
         version: 5.0.9
+      '@types/find-package-json':
+        specifier: ^1.2.6
+        version: 1.2.6
       '@types/json-stringify-safe':
         specifier: ^5.0.3
         version: 5.0.3
@@ -140,6 +143,9 @@ importers:
       filenamify:
         specifier: ^6.0.0
         version: 6.0.0
+      find-package-json:
+        specifier: ^1.2.0
+        version: 1.2.0
       fx:
         specifier: ^31.0.0
         version: 31.0.0
@@ -151,7 +157,7 @@ importers:
         version: 1.0.0
       plop:
         specifier: ^4.0.1
-        version: 4.0.1(patch_hash=ttcb5fusqw2scdk5v3cxgl662m)
+        version: 4.0.1(patch_hash=wqlcqym4qgpalvd5bxytit4ilq)
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -594,6 +600,9 @@ packages:
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
+
+  '@types/find-package-json@1.2.6':
+    resolution: {integrity: sha512-ZGsnItMbi56k1DLzI1d1ln8Omt7+WRv8cBsTwXIw58BhuKE7wQUW1Krr6QFj0JT125dW9w6XLALSYOLCj7N8Rg==}
 
   '@types/fined@1.1.5':
     resolution: {integrity: sha512-2N93vadEGDFhASTIRbizbl4bNqpMOId5zZfj6hHqYZfEzEfO9onnU4Im8xvzo8uudySDveDHBOOSlTWf38ErfQ==}
@@ -1373,6 +1382,9 @@ packages:
   finalhandler@1.2.0:
     resolution: {integrity: sha512-5uXcUVftlQMFnWC9qu/svkWv3GTd2PfUhK/3PLkYNAe7FbqJMt3515HaxE6eRL74GdsriiwujiawdaB1BpEISg==}
     engines: {node: '>= 0.8'}
+
+  find-package-json@1.2.0:
+    resolution: {integrity: sha512-+SOGcLGYDJHtyqHd87ysBhmaeQ95oWspDKnMXBrnQ9Eq4OkLNqejgoaD8xVWu6GPa0B6roa6KinCMEMcVeqONw==}
 
   find-up@7.0.0:
     resolution: {integrity: sha512-YyZM99iHrqLKjmt4LJDj58KI+fYyufRLBSYcqycxf//KpBk9FoewoGX0450m9nB44qrZnovzC2oeP5hUibxc/g==}
@@ -3355,6 +3367,10 @@ snapshots:
 
   '@types/estree@1.0.5': {}
 
+  '@types/find-package-json@1.2.6':
+    dependencies:
+      '@types/node': 20.11.28
+
   '@types/fined@1.1.5': {}
 
   '@types/inquirer@9.0.7':
@@ -4263,6 +4279,8 @@ snapshots:
       unpipe: 1.0.0
     transitivePeerDependencies:
       - supports-color
+
+  find-package-json@1.2.0: {}
 
   find-up@7.0.0:
     dependencies:
@@ -5179,7 +5197,7 @@ snapshots:
 
   pkginfo@0.4.1: {}
 
-  plop@4.0.1(patch_hash=ttcb5fusqw2scdk5v3cxgl662m):
+  plop@4.0.1(patch_hash=wqlcqym4qgpalvd5bxytit4ilq):
     dependencies:
       '@types/liftoff': 4.0.3
       chalk: 5.3.0
