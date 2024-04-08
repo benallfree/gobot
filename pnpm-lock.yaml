@@ -6,10 +6,10 @@ settings:
 
 patchedDependencies:
   node-plop@0.32.0:
-    hash: fde2h4hvefekhxjdrnc7ne66le
+    hash: bd3intvjmkfvxm6sbrv7il535q
     path: patches/node-plop@0.32.0.patch
   plop@4.0.1:
-    hash: qs3jrzsjlsn7olguxotxp3mj4u
+    hash: ttcb5fusqw2scdk5v3cxgl662m
     path: patches/plop@4.0.1.patch
 
 importers:
@@ -151,7 +151,7 @@ importers:
         version: 1.0.0
       plop:
         specifier: ^4.0.1
-        version: 4.0.1(patch_hash=qs3jrzsjlsn7olguxotxp3mj4u)
+        version: 4.0.1(patch_hash=ttcb5fusqw2scdk5v3cxgl662m)
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -4930,7 +4930,7 @@ snapshots:
 
   node-gyp-build@4.8.0: {}
 
-  node-plop@0.32.0(patch_hash=fde2h4hvefekhxjdrnc7ne66le):
+  node-plop@0.32.0(patch_hash=bd3intvjmkfvxm6sbrv7il535q):
     dependencies:
       '@types/inquirer': 9.0.7
       change-case: 4.1.2
@@ -5179,14 +5179,14 @@ snapshots:
 
   pkginfo@0.4.1: {}
 
-  plop@4.0.1(patch_hash=qs3jrzsjlsn7olguxotxp3mj4u):
+  plop@4.0.1(patch_hash=ttcb5fusqw2scdk5v3cxgl662m):
     dependencies:
       '@types/liftoff': 4.0.3
       chalk: 5.3.0
       interpret: 3.1.1
       liftoff: 4.0.0
       minimist: 1.2.8
-      node-plop: 0.32.0(patch_hash=fde2h4hvefekhxjdrnc7ne66le)
+      node-plop: 0.32.0(patch_hash=bd3intvjmkfvxm6sbrv7il535q)
       ora: 8.0.1
       v8flags: 4.0.1
 

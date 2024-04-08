@@ -7,7 +7,6 @@ import { __root } from '../../src/util/__root'
 import { Flags } from '../../src/util/flags'
 import { cleanVerdaccioPackages } from './helpers/cleanVerdaccioPackages'
 import { exec } from './helpers/exec'
-import { fn } from './helpers/fn'
 import { rimraf } from './helpers/rimraf'
 import { getBot } from './util/getBot'
 import { getSlugsFromFileSystem } from './util/getSlugsFromFileSystem'
@@ -45,7 +44,7 @@ export function testCommand(plop: NodePlopAPI) {
   getSlugsFromFileSystem().forEach((slug) => {
     subcommands[`app:${slug}`] = {
       gen: async () => {
-        const appPath = join(__root, `src/apps/${slug}`)
+        const appPath = join(__root, `src`, `apps`, slug)
 
         const appHelperPath = join(appPath, `helper`)
 
@@ -64,7 +63,8 @@ export function testCommand(plop: NodePlopAPI) {
             env: { [Flags.PlopFilter]: slug, [Flags.ReallyPublish]: `1` },
           }),
           rimraf(join(cachePath, `releases.json`)),
-          fn(async () => {
+          async (answers, { onProgress }) => {
+            onProgress(`Fetching releases for snapshot comparison`)
             const releases = await bot.releases()
             assert(
               await matchSnapshot(
@@ -74,7 +74,7 @@ export function testCommand(plop: NodePlopAPI) {
               `Snapshots do not match`,
             )
             return `Snapshots match`
-          }),
+          },
         ]
 
         const {
@@ -84,11 +84,12 @@ export function testCommand(plop: NodePlopAPI) {
         } = await loadTestModule(appPath)
         if (!skipRun) {
           actions.push(
-            fn(async () => {
+            async (answers, { onProgress }) => {
+              onProgress(`Running ${slug} inline...`)
               const actualCode = await bot.run(args)
               assert(expectedCode === actualCode, `local run failed`)
               return `local run`
-            }),
+            },
             exec(`npm rm -g gobot-${slug.toLocaleLowerCase()}`, {
               cwd: appHelperPath,
             }),

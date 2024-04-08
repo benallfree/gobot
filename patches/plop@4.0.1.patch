@@ -1,5 +1,5 @@
 diff --git a/bin/plop.js b/bin/plop.js
-index 288ed450cc92211a8375d16983fcfe9132ec58f9..7ce44303187f02c7253ca6d8a25150b3d9ea86b3 100644
+index 288ed450cc92211a8375d16983fcfe9132ec58f9..00b17005d409381727de9ff845e1c20ca51a2b67 100644
 --- a/bin/plop.js
 +++ b/bin/plop.js
 @@ -12,6 +12,9 @@ Plop.prepare(
@@ -7,7 +7,7 @@ index 288ed450cc92211a8375d16983fcfe9132ec58f9..7ce44303187f02c7253ca6d8a25150b3
    },
    function (env) {
 -    Plop.execute(env, run);
-+    Plop.execute(env, run.catch( err => {
++    Plop.execute(env, (env, argv) => run(env, argv).catch( err => {
 +      console.error(chalk.red("[ERROR]"), err.message);
 +      process.exit(1);
 +    }));
@@ -26,7 +26,7 @@ index 0e31399ca75feda917d6765c07f286adc2c86004..95b8dd8626ba065b8ae1c175d8fc0e6d
  
  export const Plop: Liftoff;
 diff --git a/src/plop.js b/src/plop.js
-index 251c75eb892b9181b2128dedc5df9bbd23e40463..053124d0e35a4d6205c7e379dc635dd46c8fe64a 100644
+index 251c75eb892b9181b2128dedc5df9bbd23e40463..a2b3f332fd7d4fc95d79891b209d07c92766bcdb 100644
 --- a/src/plop.js
 +++ b/src/plop.js
 @@ -60,7 +60,7 @@ async function run(env, _, passArgsBeforeDashes) {
@@ -89,7 +89,7 @@ index 251c75eb892b9181b2128dedc5df9bbd23e40463..053124d0e35a4d6205c7e379dc635dd4
    }
    return plop;
  }
-@@ -120,7 +109,7 @@ async function run(env, _, passArgsBeforeDashes) {
+@@ -120,13 +109,20 @@ async function run(env, _, passArgsBeforeDashes) {
  //
  function doThePlop(generator, bypassArr) {
    let failedActions = false;
@@ -98,14 +98,30 @@ index 251c75eb892b9181b2128dedc5df9bbd23e40463..053124d0e35a4d6205c7e379dc635dd4
      .runPrompts(bypassArr)
      .then(async (answers) => {
        return answers;
-@@ -161,15 +150,10 @@ function doThePlop(generator, bypassArr) {
+     })
+     .then((answers) => {
+       const noMap = argv["show-type-names"] || argv.t;
++      const onProgress = (msg) => {
++        if(argv.progress) {
++          progressSpinner.text = msg
++        } else {
++          console.log(msg)
++        }
++      }
+       const onComment = (msg) => {
+         progressSpinner.info(msg);
+         progressSpinner.start();
+@@ -160,16 +156,12 @@ function doThePlop(generator, bypassArr) {
+       };
        progressSpinner.start();
        return generator
-         .runActions(answers, { onSuccess, onFailure, onComment })
+-        .runActions(answers, { onSuccess, onFailure, onComment })
 -        .then(() => {
++        .runActions(answers, { onSuccess, onFailure, onComment, onProgress })
 +        .finally(() => {
            progressSpinner.stop();
 -          if (failedActions) process.exit(1);
++          if (failedActions) throw new Error(`At least one action has failed.`);
          });
      })
 -    .catch(function (err) {

@@ -1,8 +1,16 @@
 diff --git a/src/generator-runner.js b/src/generator-runner.js
-index bd96d294dc5dd2f5a50f46efad69626a07a78097..2f73050b6220191fb161b73c8455f6114ba1f7bd 100644
+index bd96d294dc5dd2f5a50f46efad69626a07a78097..e044b2ac093a5cfade994fffcd1cf340d9c62aa6 100644
 --- a/src/generator-runner.js
 +++ b/src/generator-runner.js
-@@ -53,7 +53,7 @@ export default function (plopfileApi, flags) {
+@@ -42,6 +42,7 @@ export default function (plopfileApi, flags) {
+       onSuccess = noop, // runs after each successful action
+       onFailure = noop, // runs after each failed action
+       onComment = noop, // runs for each comment line in the actions array
++      onProgress = noop, // runs when custom actions update progress text
+     } = hooks;
+     const changes = []; // array of changed made by the actions
+     const failures = []; // array of actions that failed
+@@ -53,7 +54,7 @@ export default function (plopfileApi, flags) {
  
      // if action is a function, run it to get our array of actions
      if (typeof actions === "function") {
@@ -11,7 +19,7 @@ index bd96d294dc5dd2f5a50f46efad69626a07a78097..2f73050b6220191fb161b73c8455f611
      }
  
      // if actions are not defined... we cannot proceed.
-@@ -62,7 +62,7 @@ export default function (plopfileApi, flags) {
+@@ -62,7 +63,7 @@ export default function (plopfileApi, flags) {
      }
  
      // if actions are not an array, invalid!
@@ -20,11 +28,28 @@ index bd96d294dc5dd2f5a50f46efad69626a07a78097..2f73050b6220191fb161b73c8455f611
        throw Error(`${genObject.name} has invalid actions`);
      }
  
+@@ -77,7 +78,7 @@ export default function (plopfileApi, flags) {
+       }
+ 
+       const actionIsFunction = typeof action === "function";
+-      const actionCfg = actionIsFunction ? { type: "function" } : action;
++      const actionCfg = actionIsFunction ? { type: "function", onComment, onProgress } : action;
+       const actionLogic = actionIsFunction
+         ? action
+         : actionTypes[actionCfg.type];
 diff --git a/types/index.d.ts b/types/index.d.ts
-index 377f6ac4f0bde306702051bc5ee6f5d4794fd4b8..8f85a8a3567514c9d285dbae3e6b823b0843e7f9 100644
+index 377f6ac4f0bde306702051bc5ee6f5d4794fd4b8..6610db466bb9ec854bdd4ebbe935a39de78651c2 100644
 --- a/types/index.d.ts
 +++ b/types/index.d.ts
-@@ -154,7 +154,7 @@ export type PromptQuestion =
+@@ -119,6 +119,7 @@ interface PlopActionHooksChanges {
+ }
+ 
+ interface PlopActionHooks {
++  onProgress?: (msg: string) => void;
+   onComment?: (msg: string) => void;
+   onSuccess?: (change: PlopActionHooksChanges) => void;
+   onFailure?: (failure: PlopActionHooksFailures) => void;
+@@ -154,7 +155,7 @@ export type PromptQuestion =
    | InputQuestion;
  
  export type DynamicPromptsFunction = (inquirer: Inquirer) => Promise<Answers>;
@@ -33,7 +58,34 @@ index 377f6ac4f0bde306702051bc5ee6f5d4794fd4b8..8f85a8a3567514c9d285dbae3e6b823b
  
  export type Prompts = DynamicPromptsFunction | PromptQuestion[];
  export type Actions = DynamicActionsFunction | ActionType[];
-@@ -224,6 +224,7 @@ export interface ActionConfig {
+@@ -192,9 +193,25 @@ export interface CustomActionConfig<TypeString extends string>
+   [key: string]: any;
+ }
+ 
++ export interface CustomActionConfigMaterialized<TypeString extends string> extends CustomActionConfig<TypeString> {
++ /**
++  * Output a comment
++  * @param msg 
++  * @returns 
++  */
++  onComment: (msg: string)=>void
++
++  /**
++   * Output a progess update on the same line as the active spinner
++   * @param msg 
++   * @returns 
++   */
++  onProgress: (msg: string)=>void
++}
++
+ export type CustomActionFunction = (
+   answers: Answers,
+-  config: CustomActionConfig<string>,
++  config: CustomActionConfigMaterialized<string>,
+   plopfileApi: NodePlopAPI,
+ ) => Promise<string> | string;
+ 
+@@ -224,6 +241,7 @@ export interface ActionConfig {
    abortOnFail?: boolean;
    // eslint-disable-next-line @typescript-eslint/ban-types
    skip?: Function;

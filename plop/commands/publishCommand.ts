@@ -1,12 +1,11 @@
 import { boolean } from 'boolean'
 import Bottleneck from 'bottleneck'
 import { globSync } from 'glob'
-import type { NodePlopAPI } from 'plop'
+import type { CustomActionFunction, NodePlopAPI } from 'plop'
 import { Flags } from '../../src/util/flags'
 import { cleanVerdaccioPackages } from './helpers/cleanVerdaccioPackages'
 import { exec } from './util/exec'
 import { getSlugsFromFileSystem } from './util/getSlugsFromFileSystem'
-import { localAction } from './util/localAction'
 import { mkSubcommander, type Subcommands } from './util/mkSubcommander'
 import { plopFilter } from './util/plopFilter'
 
@@ -17,18 +16,16 @@ export const publishCommand = (plop: NodePlopAPI) => {
   const p = `${s} ${d}`
   const limiter = new Bottleneck({ maxConcurrent: 50 })
 
-  const PUBLISH = localAction(
-    `publish`,
-    plop,
-    async (answers, config, plop) => {
-      const { path, tag } = config
+  const publish =
+    (path: string, tag = `latest`): CustomActionFunction =>
+    async (answers, { onProgress }, plop) => {
       await Promise.all(
         globSync(path).map((tgz) =>
           limiter.schedule(async () => {
             const _tag =
               tag ||
               `archive-${tgz.match(/(\d+\.\d+\.\d+(?:-.*?))\.tgz/)?.[1]!}`
-            console.log(`Publishing ${tgz} to tag ${_tag} ${p}`)
+            onProgress(`Publishing ${tgz} to tag ${_tag} ${p}`)
             await exec(`npm publish --tag ${_tag} ${p} ${tgz}`).catch(
               console.warn,
             )
@@ -36,18 +33,11 @@ export const publishCommand = (plop: NodePlopAPI) => {
         ),
       )
       return `Published ${path}`
-    },
-  )
+    }
 
   const subcommands: Subcommands = {
     gobot: {
-      gen: async () => [
-        {
-          type: PUBLISH,
-          path: 'gobot-*.tgz',
-          tag: `latest`,
-        },
-      ],
+      gen: async () => [publish('gobot-*.tgz')],
       clean: [cleanVerdaccioPackages([`gobot`])],
     },
 
@@ -70,13 +60,7 @@ export const publishCommand = (plop: NodePlopAPI) => {
   }
 
   subcommands[`apps:helpers:latest`] = {
-    gen: () => [
-      {
-        type: PUBLISH,
-        path: `src/apps/${plopFilter()}/helper/gobot-*.tgz`,
-        tag: `latest`,
-      },
-    ],
+    gen: () => [publish(`src/apps/${plopFilter()}/helper/gobot-*.tgz`)],
     clean: [
       cleanVerdaccioPackages(
         getSlugsFromFileSystem().map((slug) => `gobot-${slug}`),
