@@ -18,9 +18,9 @@ export function testCommand(plop: NodePlopAPI) {
   const subcommands: Subcommands = {
     gobot: {
       gen: async () => [
-        exec(`npm run plop build gobot`),
-        exec(`npm run plop pack gobot`),
-        exec(`npm run plop publish gobot`, {
+        exec(`npm run plop build gobot -- --no-progress`),
+        exec(`npm run plop pack gobot -- --no-progress`),
+        exec(`npm run plop publish gobot -- --no-progress`, {
           env: {
             [Flags.ReallyPublish]: `1`, // Defaults to local Verdaccio
           },
@@ -55,11 +55,11 @@ export function testCommand(plop: NodePlopAPI) {
         const cachePath = join(appPath, `test-data`)
 
         const actions: ActionType[] = [
-          exec(`npm run plop build app:${slug}`),
-          exec(`npm run plop pack apps:helpers:latest`, {
+          exec(`npm run plop build app:${slug} -- --no-progress`),
+          exec(`npm run plop pack apps:helpers:latest -- --no-progress`, {
             env: { [Flags.PlopFilter]: slug },
           }),
-          exec(`npm run plop publish apps:helpers:latest`, {
+          exec(`npm run plop publish apps:helpers:latest -- --no-progress`, {
             env: { [Flags.PlopFilter]: slug, [Flags.ReallyPublish]: `1` },
           }),
           rimraf(join(cachePath, `releases.json`)),
