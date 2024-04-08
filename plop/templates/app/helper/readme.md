@@ -25,7 +25,7 @@ npm i gobot
 ```js
 import { gobot } from 'gobot'
 const bot = await gobot(`{{slug}}`)
-bot.run([`--version`])
+const exitCode = await bot.run([`--version`])
 ```
 
 **Basic version locking**
@@ -39,7 +39,7 @@ With `gobot-{{lowerCase slug}}` present, Gobot will default to the `{{slug}}` ve
 ```js
 import { gobot } from 'gobot'
 const bot = await gobot(`{{slug}}`)
-bot.run([`--version`])
+const exitCode = await bot.run([`--version`])
 ```
 
 **Locking to a specific version**
@@ -57,11 +57,11 @@ In rare cases, you may want to intentionally run a different version of `{{slug}
 ```js
 // Run a specific version (override)
 const bot = await gobot(`{{slug}}`, { version: `{{version}}` })
-bot.run([`--version`])
+const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
 const bot = await gobot(`{{slug}}`, { version: `*` })
-bot.run([`--version`])
+const exitCode = await bot.run([`--version`])
 ```
 
 **Pass environment variables**
@@ -71,7 +71,7 @@ import { gobot } from 'gobot'
 const bot = await gobot(`{{slug}}`, {
   env: process.env, // This is not always necessary, but some apps do need it
 })
-bot.run([`--version`])
+const exitCode = await bot.run([`--version`])
 ```
 
 **Install globally for CLI access**
