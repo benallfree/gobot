@@ -7,6 +7,7 @@ export default defineConfig({
   format: 'esm',
   outDir: 'dist',
   entry: [`./src/cli.ts`, './src/api.ts', ...globSync('./src/apps/*/index.ts')],
+  dts: `./src/api.ts`,
   ignoreWatch: [
     `./src/apps/*/**/*`,
     `docs`,
