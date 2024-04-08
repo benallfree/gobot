@@ -63,7 +63,9 @@ export const publishCommand = (plop: NodePlopAPI) => {
     gen: () => [publish(`src/apps/${plopFilter()}/helper/gobot-*.tgz`)],
     clean: [
       cleanVerdaccioPackages(
-        getSlugsFromFileSystem().map((slug) => `gobot-${slug}`),
+        getSlugsFromFileSystem().map(
+          (slug) => `gobot-${slug.toLocaleLowerCase()}`,
+        ),
       ),
     ],
   }
