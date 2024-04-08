@@ -34,13 +34,13 @@ export async function spawn(
     )
     const cmdProcess = _spawn(cmd, args, finalOptions)
 
-    cmdProcess.stdout.on('data', (data) => {
+    cmdProcess.stdout.on('data', (data: Buffer) => {
       rdbg(data.toString())
     })
 
     const stderr: string[] = []
-    cmdProcess.stderr.on('data', (data) => {
-      stderr.push(data.toString())
+    cmdProcess.stderr.on('data', (data: Buffer) => {
+      stderr.push(...data.toString().split(/\n/))
       rinfoe(data.toString())
     })
 
@@ -54,7 +54,7 @@ export async function spawn(
 
     cmdProcess.on('exit', (code) => {
       if (code) {
-        stderr.forEach(console.error)
+        stderr.forEach((line) => console.error(line))
       }
     })
 
