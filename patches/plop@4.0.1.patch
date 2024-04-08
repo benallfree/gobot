@@ -26,7 +26,7 @@ index 0e31399ca75feda917d6765c07f286adc2c86004..95b8dd8626ba065b8ae1c175d8fc0e6d
  
  export const Plop: Liftoff;
 diff --git a/src/plop.js b/src/plop.js
-index 251c75eb892b9181b2128dedc5df9bbd23e40463..a2b3f332fd7d4fc95d79891b209d07c92766bcdb 100644
+index 251c75eb892b9181b2128dedc5df9bbd23e40463..7a643686cfd2bf6c91cd21a966a93e30e5e10b8c 100644
 --- a/src/plop.js
 +++ b/src/plop.js
 @@ -60,7 +60,7 @@ async function run(env, _, passArgsBeforeDashes) {
@@ -102,7 +102,7 @@ index 251c75eb892b9181b2128dedc5df9bbd23e40463..a2b3f332fd7d4fc95d79891b209d07c9
      .then((answers) => {
        const noMap = argv["show-type-names"] || argv.t;
 +      const onProgress = (msg) => {
-+        if(argv.progress) {
++        if(argv.progress!==false) {
 +          progressSpinner.text = msg
 +        } else {
 +          console.log(msg)
