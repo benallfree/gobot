@@ -74,6 +74,24 @@ const bot = await gobot(`{{slug}}`, {
 const exitCode = await bot.run([`--version`])
 ```
 
+**Access the child process**
+
+```js
+import { gobot } from 'gobot'
+const bot = await gobot(`{{slug}}`, {
+  env: process.env,
+})
+const exitCode = await bot.run(
+  [`--help`],       
+  { cwd: `./foo` }, // SpawnOptions
+  proc => {         // ChildProcess
+    proc.stdout.on('exit', code => {
+      console.log(`process has exited`)
+    })
+  }
+)
+```
+
 **Install globally for CLI access**
 
 Exactly one `gobot-{{lowerCase slug}}` can be installed globally. It will receive a bin alias:

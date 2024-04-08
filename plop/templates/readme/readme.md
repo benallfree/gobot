@@ -99,6 +99,25 @@ const bot = await gobot(`pocketbase`, {
 const exitCode = await bot.run([`--help`])
 ```
 
+**Access the child process**
+
+```js
+import { gobot } from 'gobot'
+const bot = await gobot(`pocketbase`, {
+  env: process.env,
+})
+const exitCode = await bot.run(
+  [`--help`],       
+  { cwd: `./foo` }, // SpawnOptions
+  proc => {         // ChildProcess
+    proc.stdout.on('exit', code => {
+      console.log(`process has exited`)
+    })
+  }
+)
+```
+
+
 **Add an [official app](#official-gobot-apps) as a project dependency**
 
 ```bash
