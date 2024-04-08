@@ -4,7 +4,7 @@ import { globSync } from 'glob'
 import type { CustomActionFunction, NodePlopAPI } from 'plop'
 import { Flags } from '../../src/util/flags'
 import { cleanVerdaccioPackages } from './helpers/cleanVerdaccioPackages'
-import { exec } from './util/exec'
+import { exec } from './helpers/exec'
 import { getSlugsFromFileSystem } from './util/getSlugsFromFileSystem'
 import { mkSubcommander, type Subcommands } from './util/mkSubcommander'
 import { plopFilter } from './util/plopFilter'
@@ -18,7 +18,9 @@ export const publishCommand = (plop: NodePlopAPI) => {
 
   const publish =
     (path: string, tag = `latest`): CustomActionFunction =>
-    async (answers, { onProgress }, plop) => {
+    async (answers, options, plop) => {
+      const { onProgress } = options
+      const published: string[] = []
       await Promise.all(
         globSync(path).map((tgz) =>
           limiter.schedule(async () => {
@@ -26,13 +28,16 @@ export const publishCommand = (plop: NodePlopAPI) => {
               tag ||
               `archive-${tgz.match(/(\d+\.\d+\.\d+(?:-.*?))\.tgz/)?.[1]!}`
             onProgress(`Publishing ${tgz} to tag ${_tag} ${p}`)
-            await exec(`npm publish --tag ${_tag} ${p} ${tgz}`).catch(
-              console.warn,
+            await exec(`npm publish --tag ${_tag} ${p} ${tgz}`)(
+              answers,
+              options,
+              plop,
             )
+            published.push(tgz)
           }),
         ),
       )
-      return `Published ${path}`
+      return `Published ${published.join(` `)}`
     }
 
   const subcommands: Subcommands = {
