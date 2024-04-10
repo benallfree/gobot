@@ -1,6 +1,6 @@
 {
   "name": "gobot-gocryptfs",
-  "version": "2.4.0-alpha.21",
+  "version": "2.4.0-alpha.22",
   "description": "gocryptfs helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

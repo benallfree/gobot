@@ -1,6 +1,6 @@
 {
   "name": "gobot-aperture",
-  "version": "2.34.0-alpha.21",
+  "version": "2.34.0-alpha.22",
   "description": "aperture helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.37/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-centrifugo) ![](https://img.shields.io/npm/dt/gobot-centrifugo) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -127,11 +127,11 @@ centrifugo (https://centrifugal.dev) runner for Gobot (https://github.com/benall
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.37/docs/readme.md)
 
 ## Sample project
 
-View the [centrifugo sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/centrifugo/sample-project) on github.
+View the [centrifugo sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.37/src/apps/centrifugo/sample-project) on github.
 
 ## Try Gobot's other apps
 

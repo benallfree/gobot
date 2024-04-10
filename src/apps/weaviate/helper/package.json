@@ -1,6 +1,6 @@
 {
   "name": "gobot-weaviate",
-  "version": "1.24.7-alpha.21",
+  "version": "1.24.7-alpha.22",
   "description": "Weaviate helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

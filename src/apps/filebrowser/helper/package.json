@@ -1,6 +1,6 @@
 {
   "name": "gobot-filebrowser",
-  "version": "2.28.0-alpha.21",
+  "version": "2.28.0-alpha.22",
   "description": "filebrowser helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

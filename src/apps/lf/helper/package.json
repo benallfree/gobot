@@ -1,6 +1,6 @@
 {
   "name": "gobot-lf",
-  "version": "0.0.0-alpha.21",
+  "version": "0.0.0-alpha.22",
   "description": "lf helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

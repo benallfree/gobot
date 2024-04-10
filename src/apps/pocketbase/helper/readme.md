@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.37/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-pocketbase) ![](https://img.shields.io/npm/dt/gobot-pocketbase) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -127,7 +127,7 @@ PocketBase (https://pocketbase.io) runner for Gobot (https://github.com/benallfr
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.37/docs/readme.md)
 
 ## Quirks
 
@@ -151,7 +151,7 @@ Instead, specify the version you wish to use either via CLI or programmatically 
 
 ## Sample project
 
-View the [PocketBase sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/pocketbase/sample-project) on github.
+View the [PocketBase sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.37/src/apps/pocketbase/sample-project) on github.
 
 ## Try Gobot's other apps
 

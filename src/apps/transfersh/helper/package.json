@@ -1,6 +1,6 @@
 {
   "name": "gobot-transfersh",
-  "version": "1.6.1-alpha.21",
+  "version": "1.6.1-alpha.22",
   "description": "transfer.sh helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

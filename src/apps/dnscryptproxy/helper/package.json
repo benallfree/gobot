@@ -1,6 +1,6 @@
 {
   "name": "gobot-dnscryptproxy",
-  "version": "2.1.5-alpha.21",
+  "version": "2.1.5-alpha.22",
   "description": "dnscrypt-proxy helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

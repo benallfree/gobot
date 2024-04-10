@@ -1,4 +1,4 @@
-![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.36/assets/gobot-banner-300x.png)
+![Gobot](https://raw.githubusercontent.com/benallfree/gobot/v1.0.0-alpha.37/assets/gobot-banner-300x.png)
 
 ![](https://img.shields.io/npm/v/gobot-mc) ![](https://img.shields.io/npm/dt/gobot-mc) ![](https://img.shields.io/github/commit-activity/t/benallfree/gobot) ![](https://img.shields.io/github/stars/benallfree/gobot)
 
@@ -127,7 +127,7 @@ Mc (https://min.io) runner for Gobot (https://github.com/benallfree/gobot)
 
 ## API
 
-[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.36/docs/readme.md)
+[Full API docs](https://github.com/benallfree/gobot/blob/v1.0.0-alpha.37/docs/readme.md)
 
 ## Quirks
 
@@ -156,7 +156,7 @@ Example:
 
 ## Sample project
 
-View the [Mc sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.36/src/apps/mc/sample-project) on github.
+View the [Mc sample project](https://github.com/benallfree/gobot/tree/v1.0.0-alpha.37/src/apps/mc/sample-project) on github.
 
 ## Try Gobot's other apps
 
