@@ -1,3 +1,4 @@
+import { chmodSync } from 'fs'
 import type { AppFactory } from '..'
 import { GithubReleaseProvider } from '../../GithubReleaseProvider'
 import { Gobot } from '../../Gobot'
@@ -17,6 +18,11 @@ class ferretdb_Gobot extends Gobot {
   get className(): string {
     return `ferretdb_Gobot`
   }
+
+  async unpack(downloadPath: string, version: string) {
+    if (this.os !== 'win32') {
+      chmodSync(downloadPath, '755')
+    }
   }
 }
 
