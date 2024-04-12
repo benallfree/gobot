@@ -57,4 +57,6 @@ async function main() {
     )
   })
 }
-main()
+main().catch((e) => {
+  gracefulExit(1)
+})
