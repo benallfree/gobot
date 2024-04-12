@@ -3,8 +3,8 @@ import { GithubReleaseProvider } from '../../GithubReleaseProvider'
 import { COMPRESSED_ARCHIVE_EXTS, Gobot } from '../../Gobot'
 
 class transfershGithubReleaseProvider extends GithubReleaseProvider {
-  get slug() {
-    return `transfershGithubReleaseProvider`
+  get className() {
+    return `transfersh_GithubReleaseProvider`
   }
 
   get allowedExts() {
@@ -12,8 +12,8 @@ class transfershGithubReleaseProvider extends GithubReleaseProvider {
   }
 }
 class transfershGobot extends Gobot {
-  get slug(): string {
-    return `transfershGobot`
+  get className(): string {
+    return `transfersh_Gobot`
   }
 
   async unpack(downloadPath: string, version: string): Promise<void> {

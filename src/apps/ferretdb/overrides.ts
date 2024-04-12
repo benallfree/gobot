@@ -5,8 +5,8 @@ import { Gobot } from '../../Gobot'
 export const FERRETDB_REPO = 'FerretDB/FerretDB'
 
 class ferretdb_GithubReleaseProvider extends GithubReleaseProvider {
-  get slug() {
-    return `ferretdbGithubReleaseProvider`
+  get className() {
+    return `ferretdb_GithubReleaseProvider`
   }
 
   isArchiveUrlAllowed(url: string) {
@@ -14,8 +14,9 @@ class ferretdb_GithubReleaseProvider extends GithubReleaseProvider {
   }
 }
 class ferretdb_Gobot extends Gobot {
-  get slug(): string {
-    return `ferretdbGobot`
+  get className(): string {
+    return `ferretdb_Gobot`
+  }
   }
 }
 

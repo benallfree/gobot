@@ -5,13 +5,13 @@ import { Gobot } from '../../Gobot'
 export const MICRO_REPO = 'zyedidia/micro'
 
 class micro_GithubReleaseProvider extends GithubReleaseProvider {
-  get slug() {
-    return `microGithubReleaseProvider`
+  get className() {
+    return `micro_GithubReleaseProvider`
   }
 }
 class micro_Gobot extends Gobot {
-  get slug(): string {
-    return `microGobot`
+  get className(): string {
+    return `micro_Gobot`
   }
 }
 

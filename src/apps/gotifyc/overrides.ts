@@ -3,8 +3,8 @@ import { GithubReleaseProvider } from '../../GithubReleaseProvider'
 import { COMPRESSED_ARCHIVE_EXTS, Gobot } from '../../Gobot'
 
 class gotifycGithubReleaseProvider extends GithubReleaseProvider {
-  get slug() {
-    return `gotifycGithubReleaseProvider`
+  get className() {
+    return `gotifyc_GithubReleaseProvider`
   }
 
   get allowedExts() {
@@ -12,8 +12,8 @@ class gotifycGithubReleaseProvider extends GithubReleaseProvider {
   }
 }
 class gotifycGobot extends Gobot {
-  get slug(): string {
-    return `gotifycGobot`
+  get className(): string {
+    return `gotifyc_Gobot`
   }
 
   get name(): string {

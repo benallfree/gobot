@@ -29,8 +29,8 @@ export class OllamaGobot extends Gobot {
 }
 
 export class OllamaReleaseProvider extends GithubReleaseProvider {
-  get slug() {
-    return `OllamaReleaseProvider`
+  get className() {
+    return `Ollama_GithubReleaseProvider`
   }
 
   isArchiveUrlAllowed(url: string) {

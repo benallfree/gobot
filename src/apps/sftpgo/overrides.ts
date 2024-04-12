@@ -3,8 +3,8 @@ import { GithubReleaseProvider } from '../../GithubReleaseProvider'
 import { Gobot } from '../../Gobot'
 
 class sftpgoGithubReleaseProvider extends GithubReleaseProvider {
-  get slug() {
-    return `sftpgoGithubReleaseProvider`
+  get className() {
+    return `sftpgo_GithubReleaseProvider`
   }
 
   get allowedExts() {
@@ -12,8 +12,8 @@ class sftpgoGithubReleaseProvider extends GithubReleaseProvider {
   }
 }
 class sftpgoGobot extends Gobot {
-  get slug(): string {
-    return `sftpgoGobot`
+  get className(): string {
+    return `sftpgo_Gobot`
   }
 
   async unpack(downloadPath: string, version: string): Promise<void> {

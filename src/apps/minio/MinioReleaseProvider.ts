@@ -23,7 +23,7 @@ export class MinioReleaseProvider extends GithubReleaseProvider {
     dbg(`MinioReleaseProvider bin name`, this.binName)
   }
 
-  get slug() {
+  get className() {
     return `MinioReleaseProvider`
   }
 
