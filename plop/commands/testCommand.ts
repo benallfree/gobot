@@ -1,9 +1,12 @@
 import assert from 'assert'
 import 'colors'
+import { existsSync } from 'fs'
 import { globSync } from 'glob'
+import { arch, platform } from 'os'
 import { join } from 'path'
 import type { ActionType, NodePlopAPI } from 'plop'
 import pkg from '../../package.json'
+import type { ArchKey, PlatformKey } from '../../src/Gobot'
 import { __root } from '../../src/util/__root'
 import { Flags } from '../../src/util/flags'
 import { cleanVerdaccioPackages } from './helpers/cleanVerdaccioPackages'
@@ -79,34 +82,89 @@ export function testCommand(plop: NodePlopAPI) {
           },
         ]
 
-        const {
-          args,
-          code: expectedCode,
-          skip: skipRun,
-        } = await loadTestModule(appPath)
-        if (!skipRun) {
-          actions.push(
-            async (answers, { onProgress }) => {
-              onProgress(`Running ${slug} inline...`)
-              const actualCode = await bot.run(args)
-              assert(expectedCode === actualCode, `local run failed`)
-              return `local run`
-            },
-            exec(`npm rm -g gobot-${slug.toLocaleLowerCase()}`, {
-              cwd: appHelperPath,
-            }),
-            exec(`gobot ${slug} ${args.join(',')}`),
-            exec(`npm i -g ${tgz}`, { cwd: appHelperPath }),
-            exec(`${slug} ${args.join(`,`)}`, {}),
-            exec(`npm rm -g gobot-${slug.toLocaleLowerCase()}`, {
-              cwd: appHelperPath,
-            }),
-            exec(`npm i -g gobot-${slug.toLocaleLowerCase()}`, {
-              cwd: appHelperPath,
-            }),
-            exec(`${slug} ${args.join(`,`)}`, {}),
-          )
-        }
+        const { args, code: expectedCode } = await loadTestModule(appPath)
+        actions.push(
+          async (answers, { onProgress }) => {
+            onProgress(`Fetching ${slug} releases...`)
+            const releases = await bot.releases()
+            const jobs: string[] = []
+            for (const release of releases) {
+              for (const _osName in release.archives) {
+                const osName = _osName as PlatformKey
+                const { archives, version } = release
+                if (!Object.prototype.hasOwnProperty.call(archives, osName))
+                  continue
+                const osInfo = archives[osName]
+                for (const _archName in osInfo) {
+                  const archName = _archName as ArchKey
+                  if (!Object.prototype.hasOwnProperty.call(osInfo, archName))
+                    continue
+                  onProgress(
+                    `Fetching ${slug}:${osName}:${archName}:${version} inline...`,
+                  )
+                  const { bot } = await getBot(appPath, {
+                    os: osName,
+                    arch: archName,
+                    version,
+                  })
+                  jobs.push(`${osName}:${archName}:${version}:fetch`)
+                  const fname = await bot.getBinaryPath()
+                  assert(existsSync(fname), `${fname} does not exist`)
+
+                  const shouldRun = osName === platform() && archName === arch()
+                  if (shouldRun) {
+                    onProgress(
+                      `Running ${slug}:${osName}:${archName}:${version} inline...`,
+                    )
+                    jobs.push(`${osName}:${archName}:${version}:run`)
+                    const output = (buf: Buffer) => {
+                      buf
+                        .toString()
+                        .split(/\n/)
+                        .forEach((line) => {
+                          if (line.trim()) onProgress(line)
+                        })
+                    }
+                    const actualCode = await bot.run(args, {}, (proc) => {
+                      proc.stdout.on('data', output)
+                      proc.stderr.on('data', output)
+                    })
+                    assert(
+                      expectedCode === actualCode,
+                      `local run failed, expected exit code ${expectedCode} but got ${actualCode}`,
+                    )
+                  }
+                }
+              }
+              break // just check latest release
+            }
+
+            return `local releases ${jobs.join(`, `)}`
+          },
+          exec(`npm rm -g gobot-${slug.toLocaleLowerCase()}`, {
+            cwd: appHelperPath,
+          }),
+          exec(`gobot ${slug} ${args.join(',')}`),
+          exec(`npm i -g ${tgz}`, { cwd: appHelperPath }),
+          exec(`${slug} ${args.join(`,`)}`, {}),
+          exec(`npm rm -g gobot-${slug.toLocaleLowerCase()}`, {
+            cwd: appHelperPath,
+          }),
+          exec(`npm i -g gobot-${slug.toLocaleLowerCase()}`, {
+            cwd: appHelperPath,
+          }),
+          async (answers, config, plop) => {
+            const { onProgress } = config
+            const releases = await bot.releases()
+            const release = releases.find(
+              (r) => r.archives[platform() as PlatformKey]?.[arch() as ArchKey],
+            )
+            if (!release) {
+              return `Skipping ${slug} bin alias exec`
+            }
+            return exec(`${slug} ${args.join(`,`)}`, {})(answers, config, plop)
+          },
+        )
 
         return actions
       },
