@@ -141,14 +141,14 @@ export class GithubReleaseProvider {
       optionsIn,
     )
     this.allowBareFiles = options.allowBareFiles
-    dbg(`${this.slug} options`, stringify(options, undefined, 2))
+    dbg(`${this.className} options`, stringify(options, undefined, 2))
   }
 
   async clearCache() {
     await safeRimraf(this.cacheRoot, [this.cacheRoot])
   }
 
-  get slug() {
+  get className() {
     return `GithubReleaseProvider`
   }
 

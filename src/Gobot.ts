@@ -97,7 +97,7 @@ export class Gobot {
   ) {
     this.repo = repo
     const defaultCachePath = Gobot.DEFAULT_GOBOT_CACHE_ROOT(
-      this.slug,
+      this.className,
       this.repo,
     )
     dbg(`optionsIn`, sanitizeOptions(optionsIn))
@@ -124,10 +124,10 @@ export class Gobot {
       this.repo,
       join(this.cacheRoot, `release-provider`),
     )
-    dbg(`Release provider is`, this.releaseProvider.slug)
+    dbg(`Release provider is`, this.releaseProvider.className)
   }
 
-  get slug() {
+  get className() {
     return `Gobot`
   }
 
