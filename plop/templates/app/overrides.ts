@@ -5,13 +5,13 @@ import { Gobot } from '../../Gobot'
 export const {{constantCase slug}}_REPO = '{{user}}/{{repo}}'
 
 class {{slug}}_GithubReleaseProvider extends GithubReleaseProvider {
-  get slug() {
-    return `{{slug}}GithubReleaseProvider`
+  get className() {
+    return `{{slug}}_GithubReleaseProvider`
   }
 }
 class {{slug}}_Gobot extends Gobot {
-  get slug(): string {
-    return `{{slug}}Gobot`
+  get className(): string {
+    return `{{slug}}_Gobot`
   }
 }
 
