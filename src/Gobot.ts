@@ -227,7 +227,7 @@ export class Gobot {
   }
 
   findArchiveBinPath(version: string) {
-    const path = this.downloadRoot(version)
+    const path = this.archiveRoot(version)
     const fname = (() => {
       const fname = globSync(join(path, `**`, this.binName), { nodir: true })[0]
       if (fname) return fname
@@ -245,28 +245,28 @@ export class Gobot {
     return fname
   }
 
-  downloadRoot(version: string) {
-    const downloadRoot = this.cachePath(
+  archiveRoot(version: string) {
+    const archiveRoot = this.cachePath(
       `archives`,
       version,
       this.arch,
       this.os,
     )()
-    dbg(`Download root`, downloadRoot)
-    return downloadRoot
+    dbg(`Archive root`, archiveRoot)
+    return archiveRoot
   }
 
-  downloadPath(version: string, url: string) {
-    const downloadPath = join(this.downloadRoot(version), basename(url))
-    dbg(`Download path`, downloadPath)
-    return downloadPath
+  archivePath(version: string, url: string) {
+    const archivePath = join(this.archiveRoot(version), basename(url))
+    dbg(`Archive path`, archivePath)
+    return archivePath
   }
 
   async unpack(downloadPath: string, version: string) {
     info(`Unpacking ${downloadPath}`)
     await decompress(downloadPath, this.downloadRoot(version), {
-      plugins: [decompressTarZ({ outfile: this.name }), decompressUnzip()],
-    })
+        plugins: [decompressTarZ({ outfile: this.name }), decompressUnzip()],
+      })
   }
 
   async getBinaryPath(versionRangeIn?: string) {
@@ -287,7 +287,7 @@ export class Gobot {
 
     const { version: exactVersion, archives } = storedRelease
 
-    const downloadPath = this.downloadPath(exactVersion, url)
+    const downloadPath = this.archivePath(exactVersion, url)
 
     if (!existsSync(downloadPath)) {
       info(`Downloading ${url}`)
