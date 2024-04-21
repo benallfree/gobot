@@ -55,6 +55,10 @@ export function testCommand(plop: NodePlopAPI) {
 
         const { bot } = await getBot(appPath)
 
+        const shouldRun = !!(await bot.releases())[0]?.archives[platform()]?.[
+          arch() as ArchKey
+        ]
+
         const tgz = globSync(`gobot-*.tgz`, { cwd: appHelperPath })[0]
 
         const cachePath = join(appPath, `test-data`)
@@ -144,9 +148,21 @@ export function testCommand(plop: NodePlopAPI) {
           exec(`npm rm -g gobot-${slug.toLocaleLowerCase()}`, {
             cwd: appHelperPath,
           }),
-          exec(`gobot ${slug} ${args.join(',')}`),
+          (answers, config, plop) => {
+            if (!shouldRun)
+              return `${slug} is not available for platform. Skipping gobot exec`
+            return exec(`gobot ${slug} ${args.join(',')}`)(
+              answers,
+              config,
+              plop,
+            )
+          },
           exec(`npm i -g ${tgz}`, { cwd: appHelperPath }),
-          exec(`${slug} ${args.join(`,`)}`, {}),
+          (answers, config, plop) => {
+            if (!shouldRun)
+              return `${slug} is not available for platform. Skipping tgz bin alias exec`
+            return exec(`${slug} ${args.join(`,`)}`, {})(answers, config, plop)
+          },
           exec(`npm rm -g gobot-${slug.toLocaleLowerCase()}`, {
             cwd: appHelperPath,
           }),
@@ -154,14 +170,8 @@ export function testCommand(plop: NodePlopAPI) {
             cwd: appHelperPath,
           }),
           async (answers, config, plop) => {
-            const { onProgress } = config
-            const releases = await bot.releases()
-            const release = releases.find(
-              (r) => r.archives[platform() as PlatformKey]?.[arch() as ArchKey],
-            )
-            if (!release) {
-              return `Skipping ${slug} bin alias exec`
-            }
+            if (!shouldRun)
+              return `${slug} is not available for platform. Skipping registry bin alias exec`
             return exec(`${slug} ${args.join(`,`)}`, {})(answers, config, plop)
           },
         )
