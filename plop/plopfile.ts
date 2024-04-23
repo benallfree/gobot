@@ -29,6 +29,7 @@ if (!existsSync(APPS_ROOT)) {
 }
 
 appsRoot(APPS_ROOT)
+console.log({ APPS_ROOT })
 
 export default async function (plop: NodePlopAPI) {
   plop.setHelper('stringify', function (context) {

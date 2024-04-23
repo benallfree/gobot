@@ -10,6 +10,7 @@ export const appsRoot = mkSetting(join(__dirname, `..`, `apps`))
 
 export const getApp = async (slug: string) => {
   try {
+    console.log({ appsRoot: appsRoot() })
     const path = join(appsRoot(), slug, 'index.js')
     const module = await import(path)
     return module[slug] as AppInfo
