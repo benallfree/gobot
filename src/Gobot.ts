@@ -264,9 +264,16 @@ export class Gobot {
 
   async unpack(downloadPath: string, version: string) {
     info(`Unpacking ${downloadPath}`)
-    await decompress(downloadPath, this.downloadRoot(version), {
+    if (downloadPath.endsWith(`.exe`)) return
+    if (COMPRESSED_ARCHIVE_EXTS.find((ext) => downloadPath.endsWith(ext))) {
+      await decompress(downloadPath, this.archiveRoot(version), {
         plugins: [decompressTarZ({ outfile: this.name }), decompressUnzip()],
       })
+      return
+    }
+    if (this.os !== 'win32') {
+      chmodSync(downloadPath, '755')
+    }
   }
 
   async getBinaryPath(versionRangeIn?: string) {
