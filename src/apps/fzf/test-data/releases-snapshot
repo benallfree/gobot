@@ -1,6 +1,66 @@
 [
   {
     "allUrls": [
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-darwin_amd64.zip",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-darwin_arm64.zip",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-freebsd_amd64.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_amd64.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_arm64.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_armv5.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_armv6.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_armv7.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_loong64.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_ppc64le.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_s390x.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-openbsd_amd64.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-windows_amd64.zip",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-windows_arm64.zip",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-windows_armv5.zip",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-windows_armv6.zip",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-windows_armv7.zip",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf_0.50.0_checksums.txt"
+    ],
+    "allowedUrls": [
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-darwin_amd64.zip",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-darwin_arm64.zip",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-freebsd_amd64.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_amd64.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_arm64.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_armv5.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_armv6.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_armv7.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_loong64.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_ppc64le.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_s390x.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-openbsd_amd64.tar.gz",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-windows_amd64.zip",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-windows_arm64.zip",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-windows_armv5.zip",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-windows_armv6.zip",
+      "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-windows_armv7.zip"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-darwin_arm64.zip",
+        "x64": "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-darwin_amd64.zip"
+      },
+      "freebsd": {
+        "x64": "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-freebsd_amd64.tar.gz"
+      },
+      "linux": {
+        "arm": "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_armv7.tar.gz",
+        "arm64": "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_arm64.tar.gz",
+        "x64": "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_amd64.tar.gz"
+      },
+      "win32": {
+        "arm64": "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-windows_arm64.zip",
+        "x64": "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-windows_amd64.zip"
+      }
+    },
+    "version": "0.50.0"
+  },
+  {
+    "allUrls": [
       "https://github.com/junegunn/fzf/releases/download/0.49.0/fzf-0.49.0-darwin_amd64.zip",
       "https://github.com/junegunn/fzf/releases/download/0.49.0/fzf-0.49.0-darwin_arm64.zip",
       "https://github.com/junegunn/fzf/releases/download/0.49.0/fzf-0.49.0-freebsd_amd64.tar.gz",

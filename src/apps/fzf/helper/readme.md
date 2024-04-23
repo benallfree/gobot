@@ -47,7 +47,7 @@ const exitCode = await bot.run([`--version`])
 The `gobot-fzf` package version always mirrors the underlying `fzf` [version](#all-known-releases):
 
 ```bash
-npm i gobot-fzf@0.49.0
+npm i gobot-fzf@0.50.0
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `fzf` ev
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`fzf`, { version: `0.49.0` })
+const bot = await gobot(`fzf`, { version: `0.50.0` })
 const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
@@ -184,10 +184,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-fzf` versions mirror `fzf` versions. Gobot knows about 40 releases of `fzf`:
+`gobot-fzf` versions mirror `fzf` versions. Gobot knows about 41 releases of `fzf`:
 
 | Version | freebsd | darwin    | linux         | win32     |
 | ------- | ------- | --------- | ------------- | --------- |
+| 0.50.0  | x64     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.49.0  | x64     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.48.1  | x64     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.48.0  | x64     | arm64/x64 | arm64/x64/arm | x64/arm64 |

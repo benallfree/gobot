@@ -10,7 +10,7 @@ The package is [https://npmjs.org/gobot-fzf](https://npmjs.org/gobot-fzf).
 
 ## What's next
 
-- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 40 versions of fzf.
+- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 41 versions of fzf.
 - **Update fzf installation docs.** Please consider adding Gobot to your official install instructions. If you would like me to send a PR updating the fzf installation docs to include instructions for installation via Gobot, I'm happy to do that.
 - **Give Gobot a 💫.** Gobot is a big effort to solve binary dependencies for nodejs in a universal way. Please consider giving [the Gobot project](https://github.com/benallfree/gobot) a star if it resonates.
 - **Keep going.** Keep doing what you do! Gobot will automatically pick up and publish your new releases.
@@ -23,10 +23,11 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 ## All releases indexed by Gobot
 
-`gobot-fzf` versions mirror `fzf` versions. Gobot has indexed 40 releases of `fzf`:
+`gobot-fzf` versions mirror `fzf` versions. Gobot has indexed 41 releases of `fzf`:
 
 | Version | freebsd | darwin    | linux         | win32     |
 | ------- | ------- | --------- | ------------- | --------- |
+| 0.50.0  | x64     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.49.0  | x64     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.48.1  | x64     | arm64/x64 | arm64/x64/arm | x64/arm64 |
 | 0.48.0  | x64     | arm64/x64 | arm64/x64/arm | x64/arm64 |
