@@ -47,7 +47,7 @@ const exitCode = await bot.run([`--version`])
 The `gobot-loki` package version always mirrors the underlying `loki` [version](#all-known-releases):
 
 ```bash
-npm i gobot-loki@2.9.6
+npm i gobot-loki@3.0.0
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `loki` e
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`loki`, { version: `2.9.6` })
+const bot = await gobot(`loki`, { version: `3.0.0` })
 const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
@@ -184,10 +184,12 @@ pnpm test
 
 ## All known releases
 
-`gobot-loki` versions mirror `loki` versions. Gobot knows about 55 releases of `loki`:
+`gobot-loki` versions mirror `loki` versions. Gobot knows about 57 releases of `loki`:
 
 | Version | freebsd | darwin    | linux         | win32    |
 | ------- | ------- | --------- | ------------- | -------- |
+| 3.0.0   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
+| 2.9.7   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
 | 2.9.6   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
 | 2.9.5   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |
 | 2.9.4   | x64     | arm64/x64 | arm64/x64/arm | x64/ia32 |

@@ -1,6 +1,6 @@
 {
   "name": "gobot-loki",
-  "version": "2.9.6-alpha.22",
+  "version": "3.0.0-alpha.22",
   "description": "Loki helper for Gobot",
   "type": "module",
   "main": "dist/api.js",
