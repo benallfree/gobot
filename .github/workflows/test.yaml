@@ -24,4 +24,4 @@ jobs:
         run: npm install -g pnpm
 
       - name: Install dev
-        run: pnpm
+        run: pnpm i
