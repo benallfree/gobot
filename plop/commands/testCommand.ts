@@ -2,6 +2,7 @@ import assert from 'assert'
 import 'colors'
 import { existsSync } from 'fs'
 import { globSync } from 'glob'
+import minimist from 'minimist'
 import { arch, platform } from 'os'
 import { join } from 'path'
 import type { ActionType, NodePlopAPI } from 'plop'
@@ -17,6 +18,9 @@ import { getSlugsFromFileSystem } from './util/getSlugsFromFileSystem'
 import { loadTestModule } from './util/loadTestModule'
 import { matchSnapshot } from './util/matchSnapshot'
 import { mkSubcommander, type Subcommands } from './util/mkSubcommander'
+
+const args = process.argv.slice(2)
+const argv = minimist(args)
 
 export function testCommand(plop: NodePlopAPI) {
   const subcommands: Subcommands = {
@@ -89,6 +93,11 @@ export function testCommand(plop: NodePlopAPI) {
         const { args, code: expectedCode } = await loadTestModule(appPath)
         actions.push(
           async (answers, { onProgress }) => {
+            if (argv.refresh) {
+              onProgress(`Clearing ${slug} cache...`)
+              await bot.reset()
+            }
+
             onProgress(`Fetching ${slug} releases...`)
             const releases = await bot.releases()
             const jobs: string[] = []
