@@ -8,6 +8,6 @@
     "backrest": "backrest"
   },
   "dependencies": {
-    "gobot-backrest": "0.16.0"
+    "gobot-backrest": "0.17.2"
   }
 }
