@@ -38,6 +38,7 @@ export const startVerdaccio = async () => {
         proc = undefined
         resolve(code || 0)
       })
+      console.log(`Stopping verdaccio...`)
       proc!.kill()
     })
   }
