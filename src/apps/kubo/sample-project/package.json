@@ -8,6 +8,6 @@
     "kubo": "kubo"
   },
   "dependencies": {
-    "gobot-kubo": "0.27.0"
+    "gobot-kubo": "0.28.0"
   }
 }

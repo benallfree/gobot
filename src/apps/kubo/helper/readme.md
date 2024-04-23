@@ -47,7 +47,7 @@ const exitCode = await bot.run([`--version`])
 The `gobot-kubo` package version always mirrors the underlying `kubo` [version](#all-known-releases):
 
 ```bash
-npm i gobot-kubo@0.27.0
+npm i gobot-kubo@0.28.0
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `kubo` e
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`kubo`, { version: `0.27.0` })
+const bot = await gobot(`kubo`, { version: `0.28.0` })
 const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
@@ -184,10 +184,12 @@ pnpm test
 
 ## All known releases
 
-`gobot-kubo` versions mirror `kubo` versions. Gobot knows about 81 releases of `kubo`:
+`gobot-kubo` versions mirror `kubo` versions. Gobot knows about 83 releases of `kubo`:
 
 | Version    | freebsd      | darwin    | linux              | win32          |
 | ---------- | ------------ | --------- | ------------------ | -------------- |
+| 0.28.0     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
+| 0.28.0-rc1 | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 0.27.0     | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 0.27.0-rc2 | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 0.27.0-rc1 | x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
