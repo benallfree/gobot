@@ -47,7 +47,7 @@ const exitCode = await bot.run([`--version`])
 The `gobot-cue` package version always mirrors the underlying `cue` [version](#all-known-releases):
 
 ```bash
-npm i gobot-cue@0.9.0-alpha.1
+npm i gobot-cue@0.9.0-alpha.2
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `cue` ev
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`cue`, { version: `0.9.0-alpha.1` })
+const bot = await gobot(`cue`, { version: `0.9.0-alpha.2` })
 const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
@@ -184,10 +184,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-cue` versions mirror `cue` versions. Gobot knows about 75 releases of `cue`:
+`gobot-cue` versions mirror `cue` versions. Gobot knows about 76 releases of `cue`:
 
 | Version       | darwin    | linux     | win32     |
 | ------------- | --------- | --------- | --------- |
+| 0.9.0-alpha.2 | arm64/x64 | arm64/x64 | x64/arm64 |
 | 0.9.0-alpha.1 | arm64/x64 | arm64/x64 | x64/arm64 |
 | 0.8.1         | arm64/x64 | arm64/x64 | x64/arm64 |
 | 0.8.0         | arm64/x64 | arm64/x64 | x64/arm64 |
