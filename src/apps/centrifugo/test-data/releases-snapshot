@@ -1,6 +1,52 @@
 [
   {
     "allUrls": [
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo-5.3.1-0.x86_64.rpm",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo-5.3.1-0.x86_64.rpm_checksum.txt",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1-0_amd64.deb",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1-0_amd64.deb_checksum.txt",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_checksums.txt",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_darwin_amd64.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_darwin_arm64.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_freebsd_amd64.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_linux_386.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_linux_amd64.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_linux_arm64.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_linux_armv6.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_windows_amd64.zip"
+    ],
+    "allowedUrls": [
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_darwin_amd64.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_darwin_arm64.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_freebsd_amd64.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_linux_386.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_linux_amd64.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_linux_arm64.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_linux_armv6.tar.gz",
+      "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_windows_amd64.zip"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_darwin_arm64.tar.gz",
+        "x64": "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_darwin_amd64.tar.gz"
+      },
+      "freebsd": {
+        "x64": "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_freebsd_amd64.tar.gz"
+      },
+      "linux": {
+        "arm": "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_linux_armv6.tar.gz",
+        "arm64": "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_linux_arm64.tar.gz",
+        "ia32": "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_linux_386.tar.gz",
+        "x64": "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_linux_amd64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/centrifugal/centrifugo/releases/download/v5.3.1/centrifugo_5.3.1_windows_amd64.zip"
+      }
+    },
+    "version": "5.3.1"
+  },
+  {
+    "allUrls": [
       "https://github.com/centrifugal/centrifugo/releases/download/v5.3.0/centrifugo-5.3.0-0.x86_64.rpm",
       "https://github.com/centrifugal/centrifugo/releases/download/v5.3.0/centrifugo-5.3.0-0.x86_64.rpm_checksum.txt",
       "https://github.com/centrifugal/centrifugo/releases/download/v5.3.0/centrifugo_5.3.0-0_amd64.deb",

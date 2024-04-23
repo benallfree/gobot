@@ -47,7 +47,7 @@ const exitCode = await bot.run([`--version`])
 The `gobot-centrifugo` package version always mirrors the underlying `centrifugo` [version](#all-known-releases):
 
 ```bash
-npm i gobot-centrifugo@5.3.0
+npm i gobot-centrifugo@5.3.1
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `centrif
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`centrifugo`, { version: `5.3.0` })
+const bot = await gobot(`centrifugo`, { version: `5.3.1` })
 const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
@@ -184,10 +184,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-centrifugo` versions mirror `centrifugo` versions. Gobot knows about 112 releases of `centrifugo`:
+`gobot-centrifugo` versions mirror `centrifugo` versions. Gobot knows about 113 releases of `centrifugo`:
 
 | Version       | freebsd      | darwin    | linux              | win32    |
 | ------------- | ------------ | --------- | ------------------ | -------- |
+| 5.3.1         | x64          | arm64/x64 | arm64/x64/ia32/arm | x64      |
 | 5.3.0         | x64          | arm64/x64 | arm64/x64/ia32/arm | x64      |
 | 5.2.2         | x64          | arm64/x64 | arm64/x64/ia32/arm | x64      |
 | 5.2.1         | x64          | arm64/x64 | arm64/x64/ia32/arm | x64      |

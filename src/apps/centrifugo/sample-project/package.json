@@ -8,6 +8,6 @@
     "centrifugo": "centrifugo"
   },
   "dependencies": {
-    "gobot-centrifugo": "5.3.0"
+    "gobot-centrifugo": "5.3.1"
   }
 }
