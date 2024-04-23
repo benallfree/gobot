@@ -20,8 +20,11 @@ jobs:
         with:
           node-version: '18.17'
 
-      - name: Install pnpm and tsx
-        run: npm install -g pnpm@9 tsx
+      - name: Install pnpm
+        run: npm install -g pnpm@9
+
+      - name: Set PATH for global npm packages
+        run: echo "PATH=$(npm bin -g):$PATH" >> $GITHUB_ENV
 
       - name: Install deps
         run: pnpm i
