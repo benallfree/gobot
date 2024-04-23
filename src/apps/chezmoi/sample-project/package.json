@@ -8,6 +8,6 @@
     "chezmoi": "chezmoi"
   },
   "dependencies": {
-    "gobot-chezmoi": "2.47.3"
+    "gobot-chezmoi": "2.47.4"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "gobot-chezmoi",
-  "version": "2.47.3-alpha.22",
+  "version": "2.47.4-alpha.22",
   "description": "chezmoi helper for Gobot",
   "type": "module",
   "main": "dist/api.js",

@@ -47,7 +47,7 @@ const exitCode = await bot.run([`--version`])
 The `gobot-chezmoi` package version always mirrors the underlying `chezmoi` [version](#all-known-releases):
 
 ```bash
-npm i gobot-chezmoi@2.47.3
+npm i gobot-chezmoi@2.47.4
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `chezmoi
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`chezmoi`, { version: `2.47.3` })
+const bot = await gobot(`chezmoi`, { version: `2.47.4` })
 const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
@@ -184,10 +184,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-chezmoi` versions mirror `chezmoi` versions. Gobot knows about 197 releases of `chezmoi`:
+`gobot-chezmoi` versions mirror `chezmoi` versions. Gobot knows about 198 releases of `chezmoi`:
 
 | Version | freebsd            | darwin    | linux              | win32          |
 | ------- | ------------------ | --------- | ------------------ | -------------- |
+| 2.47.4  | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 2.47.3  | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 2.47.2  | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
 | 2.47.1  | arm64/x64/ia32/arm | arm64/x64 | arm64/x64/ia32/arm | x64/ia32/arm64 |
