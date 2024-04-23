@@ -5,7 +5,7 @@ import { exec } from './exec'
 
 let proc: ChildProcess | boolean | undefined
 
-export const VERDACCIO_LAUNCH_CMD = `verdaccio -c verdaccio.config.yaml -l '127.0.0.1:4873'`
+export const VERDACCIO_LAUNCH_CMD = `npm verdaccio:serve`
 
 export const startVerdaccio = async () => {
   if (await isPortTaken(4873)) {
