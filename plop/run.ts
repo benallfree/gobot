@@ -33,7 +33,7 @@ async function main() {
     process.env[Flags.NpmLocalRoot] = join(GOBOT_TEST_CACHE_ROOT, `npm`)
   }
 
-  await new Promise((resolve, reject) => {
+  await new Promise<void>((resolve, reject) => {
     Plop.prepare(
       {
         cwd: argv.cwd || cwd(),
@@ -47,6 +47,7 @@ async function main() {
             const stop = await startVerdaccio()
             await run(env, undefined, false)
             await stop()
+            resolve()
           } catch (e) {
             reject(e)
           }
