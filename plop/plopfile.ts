@@ -3,6 +3,7 @@ import { existsSync } from 'fs'
 import 'node-fetch'
 import { dirname, join } from 'path'
 import type { NodePlopAPI } from 'plop'
+import { fileURLToPath } from 'url'
 import { appsRoot } from '../src/util/getApp'
 import { stringify } from '../src/util/stringify'
 import { buildCommand } from './commands/buildCommand'
@@ -14,8 +15,10 @@ import { publishCommand } from './commands/publishCommand'
 import { testCommand } from './commands/testCommand'
 import { updateCommand } from './commands/updateCommand'
 
+const __dirname = dirname(fileURLToPath(import.meta.url))
+
 const ROOT = findUpSync(`package.json`, {
-  cwd: dirname(new URL(import.meta.url).pathname),
+  cwd: __dirname,
 })
 if (!ROOT) {
   throw new Error(`Can't find package.json in any parent path`)

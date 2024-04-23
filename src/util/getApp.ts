@@ -1,11 +1,12 @@
 import { dirname, join } from 'path'
+import { fileURLToPath } from 'url'
 import type { AppInfo } from '../apps/'
 import { dbge } from './log'
 import { mkSetting } from './mkSetting'
 
-export const appsRoot = mkSetting(
-  join(dirname(new URL(import.meta.url).pathname), `apps`),
-)
+const __dirname = dirname(fileURLToPath(import.meta.url))
+
+export const appsRoot = mkSetting(join(__dirname, `..`, `apps`))
 
 export const getApp = async (slug: string) => {
   try {
