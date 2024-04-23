@@ -1,5 +1,3 @@
-#!/usr/bin/env tsx
-
 import { gracefulExit } from 'exit-hook'
 import minimist from 'minimist'
 import path, { dirname, join, resolve } from 'node:path'

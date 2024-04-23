@@ -10,7 +10,7 @@
   },
   "types": "dist/api.d.ts",
   "scripts": {
-    "plop": "./plop/run.ts  --dest=.",
+    "plop": "tsx ./plop/run.ts  --dest=.",
     "watch": "tsx -w src/cli.ts ",
     "dev": "npm run plop build gobot && node ./dist/cli.js",
     "test": "npm run plop test",

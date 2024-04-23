@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '18.17'
 
-      - name: Install pnpm
+      - name: Install pnpm and tsx
         run: npm install -g pnpm@9 tsx
 
       - name: Install deps
