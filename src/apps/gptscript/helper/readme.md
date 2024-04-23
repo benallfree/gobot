@@ -47,7 +47,7 @@ const exitCode = await bot.run([`--version`])
 The `gobot-gptscript` package version always mirrors the underlying `gptscript` [version](#all-known-releases):
 
 ```bash
-npm i gobot-gptscript@0.4.2
+npm i gobot-gptscript@0.5.0
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `gptscri
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`gptscript`, { version: `0.4.2` })
+const bot = await gobot(`gptscript`, { version: `0.5.0` })
 const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
@@ -184,10 +184,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-gptscript` versions mirror `gptscript` versions. Gobot knows about 21 releases of `gptscript`:
+`gobot-gptscript` versions mirror `gptscript` versions. Gobot knows about 22 releases of `gptscript`:
 
 | Version   | darwin    | linux     | win32 |
 | --------- | --------- | --------- | ----- |
+| 0.5.0     | arm64/x64 | arm64/x64 | x64   |
 | 0.4.2     | arm64/x64 | arm64/x64 | x64   |
 | 0.4.1     | arm64/x64 | arm64/x64 | x64   |
 | 0.4.0     | arm64/x64 | arm64/x64 | x64   |

@@ -8,6 +8,6 @@
     "gptscript": "gptscript"
   },
   "dependencies": {
-    "gobot-gptscript": "0.4.2"
+    "gobot-gptscript": "0.5.0"
   }
 }
