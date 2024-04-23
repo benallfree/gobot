@@ -47,7 +47,7 @@ const exitCode = await bot.run([`--version`])
 The `gobot-hugo` package version always mirrors the underlying `hugo` [version](#all-known-releases):
 
 ```bash
-npm i gobot-hugo@0.124.1
+npm i gobot-hugo@0.125.3
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `hugo` e
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`hugo`, { version: `0.124.1` })
+const bot = await gobot(`hugo`, { version: `0.125.3` })
 const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
@@ -200,10 +200,14 @@ pnpm test
 
 ## All known releases
 
-`gobot-hugo` versions mirror `hugo` versions. Gobot knows about 261 releases of `hugo`:
+`gobot-hugo` versions mirror `hugo` versions. Gobot knows about 265 releases of `hugo`:
 
 | Version | freebsd            | darwin    | linux              | win32          |
 | ------- | ------------------ | --------- | ------------------ | -------------- |
+| 0.125.3 | x64                | arm64/x64 | arm64/x64/arm      | x64/arm64      |
+| 0.125.2 | x64                | arm64/x64 | arm64/x64/arm      | x64/arm64      |
+| 0.125.1 | x64                | arm64/x64 | arm64/x64/arm      | x64/arm64      |
+| 0.125.0 | x64                | arm64/x64 | arm64/x64/arm      | x64/arm64      |
 | 0.124.1 | x64                | arm64/x64 | arm64/x64/arm      | x64/arm64      |
 | 0.124.0 | x64                | arm64/x64 | arm64/x64/arm      | x64/arm64      |
 | 0.123.8 | x64                | arm64/x64 | arm64/x64/arm      | x64/arm64      |

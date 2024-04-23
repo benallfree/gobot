@@ -8,6 +8,6 @@
     "hugo": "hugo"
   },
   "dependencies": {
-    "gobot-hugo": "0.124.1"
+    "gobot-hugo": "0.125.3"
   }
 }
