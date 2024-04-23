@@ -5,7 +5,7 @@ import { exec } from './exec'
 
 let proc: ChildProcess | boolean | undefined
 
-export const VERDACCIO_LAUNCH_CMD = `npm verdaccio:serve`
+export const VERDACCIO_LAUNCH_CMD = `npm run verdaccio:serve`
 
 export const startVerdaccio = async () => {
   if (await isPortTaken(4873)) {
@@ -14,6 +14,7 @@ export const startVerdaccio = async () => {
     proc = await new Promise<ChildProcess>((resolve, reject) => {
       exec(VERDACCIO_LAUNCH_CMD, {}, async (proc) => {
         const handle = (buf: Buffer) => {
+          console.log(buf.toString())
           if (buf.toString().includes(`http address`)) {
             proc.stdout.off('data', handle)
             exec(`npm run verdaccio:login`)
