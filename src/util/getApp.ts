@@ -1,19 +1,31 @@
+import { findUpSync } from 'find-up'
+import { existsSync } from 'fs'
 import { globSync } from 'glob'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
 import type { AppInfo } from '../apps/'
 import { dbge } from './log'
-import { mkSetting } from './mkSetting'
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
-export const appsRoot = mkSetting(join(__dirname, `..`, `apps`))
+export const PACKAGE_ROOT = findUpSync(`package.json`, {
+  cwd: __dirname,
+})
+if (!PACKAGE_ROOT) {
+  throw new Error(`Can't find package.json in any parent path`)
+}
+
+export const APPS_ROOT = join(dirname(PACKAGE_ROOT), 'dist', 'apps')
+if (!existsSync(APPS_ROOT)) {
+  console.warn(`Warning: can't find ${APPS_ROOT}`)
+}
 
 export const getApp = async (slug: string) => {
   try {
-    console.log({ slug, appsRoot: appsRoot() })
-    console.log(globSync(join(appsRoot(), '**')))
-    const path = join(appsRoot(), slug, 'index.js')
+    console.log({ slug, APPS_ROOT })
+    console.log(globSync(join(APPS_ROOT, '**')))
+    const path = join(APPS_ROOT, slug, 'index.js')
     const module = await import(path)
     return module[slug] as AppInfo
   } catch (e) {
