@@ -8,6 +8,6 @@
     "gokapi": "gokapi"
   },
   "dependencies": {
-    "gobot-gokapi": "1.8.1"
+    "gobot-gokapi": "1.8.2"
   }
 }

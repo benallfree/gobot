@@ -47,7 +47,7 @@ const exitCode = await bot.run([`--version`])
 The `gobot-gokapi` package version always mirrors the underlying `gokapi` [version](#all-known-releases):
 
 ```bash
-npm i gobot-gokapi@1.8.1
+npm i gobot-gokapi@1.8.2
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `gokapi`
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`gokapi`, { version: `1.8.1` })
+const bot = await gobot(`gokapi`, { version: `1.8.2` })
 const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
@@ -184,10 +184,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-gokapi` versions mirror `gokapi` versions. Gobot knows about 19 releases of `gokapi`:
+`gobot-gokapi` versions mirror `gokapi` versions. Gobot knows about 20 releases of `gokapi`:
 
 | Version     | darwin    | linux              | win32    |
 | ----------- | --------- | ------------------ | -------- |
+| 1.8.2       | arm64/x64 | arm64/x64/ia32/arm | x64      |
 | 1.8.1       | arm64/x64 | arm64/x64/ia32/arm | x64      |
 | 1.8.0       | arm64/x64 | arm64/x64/ia32/arm | x64      |
 | 1.7.2       | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |

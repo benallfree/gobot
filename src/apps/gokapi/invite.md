@@ -10,7 +10,7 @@ The package is [https://npmjs.org/gobot-gokapi](https://npmjs.org/gobot-gokapi).
 
 ## What's next
 
-- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 19 versions of Gokapi.
+- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 20 versions of Gokapi.
 - **Update Gokapi installation docs.** Please consider adding Gobot to your official install instructions. If you would like me to send a PR updating the Gokapi installation docs to include instructions for installation via Gobot, I'm happy to do that.
 - **Give Gobot a 💫.** Gobot is a big effort to solve binary dependencies for nodejs in a universal way. Please consider giving [the Gobot project](https://github.com/benallfree/gobot) a star if it resonates.
 - **Keep going.** Keep doing what you do! Gobot will automatically pick up and publish your new releases.
@@ -23,10 +23,11 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 ## All releases indexed by Gobot
 
-`gobot-gokapi` versions mirror `gokapi` versions. Gobot has indexed 19 releases of `gokapi`:
+`gobot-gokapi` versions mirror `gokapi` versions. Gobot has indexed 20 releases of `gokapi`:
 
 | Version     | darwin    | linux              | win32    |
 | ----------- | --------- | ------------------ | -------- |
+| 1.8.2       | arm64/x64 | arm64/x64/ia32/arm | x64      |
 | 1.8.1       | arm64/x64 | arm64/x64/ia32/arm | x64      |
 | 1.8.0       | arm64/x64 | arm64/x64/ia32/arm | x64      |
 | 1.7.2       | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
