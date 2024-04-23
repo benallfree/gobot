@@ -59,11 +59,8 @@ export function testCommand(plop: NodePlopAPI) {
 
         const { bot } = await getBot(appPath)
 
-        const shouldRun = !!(await bot.releases())[0]?.archives[platform()]?.[
-          arch() as ArchKey
-        ]
-
-        const tgz = globSync(`gobot-*.tgz`, { cwd: appHelperPath })[0]
+        const shouldRun = async () =>
+          !!(await bot.releases())[0]?.archives[platform()]?.[arch() as ArchKey]
 
         const cachePath = join(appPath, `test-data`)
 
@@ -157,8 +154,8 @@ export function testCommand(plop: NodePlopAPI) {
           exec(`npm rm -g gobot-${slug.toLocaleLowerCase()}`, {
             cwd: appHelperPath,
           }),
-          (answers, config, plop) => {
-            if (!shouldRun)
+          async (answers, config, plop) => {
+            if (!(await shouldRun()))
               return `${slug} is not available for platform. Skipping gobot exec`
             return exec(`gobot ${slug} ${args.join(',')}`)(
               answers,
@@ -166,9 +163,16 @@ export function testCommand(plop: NodePlopAPI) {
               plop,
             )
           },
-          exec(`npm i -g ${tgz}`, { cwd: appHelperPath }),
-          (answers, config, plop) => {
-            if (!shouldRun)
+          async (answers, config, plop) => {
+            const tgz = globSync(`gobot-*.tgz`, { cwd: appHelperPath })[0]
+            return exec(`npm i -g ${tgz}`, { cwd: appHelperPath })(
+              answers,
+              config,
+              plop,
+            )
+          },
+          async (answers, config, plop) => {
+            if (!(await shouldRun()))
               return `${slug} is not available for platform. Skipping tgz bin alias exec`
             return exec(`${slug} ${args.join(`,`)}`, {})(answers, config, plop)
           },
@@ -179,7 +183,7 @@ export function testCommand(plop: NodePlopAPI) {
             cwd: appHelperPath,
           }),
           async (answers, config, plop) => {
-            if (!shouldRun)
+            if (!(await shouldRun()))
               return `${slug} is not available for platform. Skipping registry bin alias exec`
             return exec(`${slug} ${args.join(`,`)}`, {})(answers, config, plop)
           },
