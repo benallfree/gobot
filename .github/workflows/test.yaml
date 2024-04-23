@@ -26,5 +26,9 @@ jobs:
       - name: Install deps
         run: pnpm i
 
+      - name: Install gobot
+        run: npm i -g gobot
+          gobot --g-version
+
       - name: Test ${{ matrix.app }}
         run: pnpm plop test "gobot" --no-progress
