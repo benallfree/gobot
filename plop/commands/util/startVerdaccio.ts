@@ -14,7 +14,6 @@ export const startVerdaccio = async () => {
     proc = await new Promise<ChildProcess>((resolve, reject) => {
       exec(VERDACCIO_LAUNCH_CMD, {}, async (proc) => {
         const handle = (buf: Buffer) => {
-          console.log(buf.toString())
           if (buf.toString().includes(`http address`)) {
             proc.stdout.off('data', handle)
             exec(`npm run verdaccio:login`)
