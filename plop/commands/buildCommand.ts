@@ -23,7 +23,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
       clean: [rimraf(`docs`)],
     },
     gobot: {
-      gen: [exec(`tsup-node`)],
+      gen: [exec(`npm run build`)],
       clean: [rimraf(`dist/**`)],
     },
     [`gobot:readme`]: {

@@ -12,6 +12,7 @@
   "scripts": {
     "plop": "tsx ./plop/run.ts  --dest=.",
     "watch": "tsx -w src/cli.ts ",
+    "build": "tsup-node",
     "dev": "npm run plop build gobot && node ./dist/cli.js",
     "test": "npm run plop test",
     "docs": "typedoc && prettier -w docs",
