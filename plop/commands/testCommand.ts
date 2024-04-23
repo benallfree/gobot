@@ -37,7 +37,7 @@ export function testCommand(plop: NodePlopAPI) {
 
         exec(`npm i -g gobot-${pkg.version}.tgz`),
 
-        exec('echo $PATH'),
+        exec('echo $Env::PATH'),
         exec('npm bin -g'),
 
         exec(`gobot --g-version`),
