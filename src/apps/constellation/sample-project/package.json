@@ -8,6 +8,6 @@
     "constellation": "constellation"
   },
   "dependencies": {
-    "gobot-constellation": "2.16.1"
+    "gobot-constellation": "2.16.3"
   }
 }

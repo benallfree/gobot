@@ -47,7 +47,7 @@ const exitCode = await bot.run([`--version`])
 The `gobot-constellation` package version always mirrors the underlying `constellation` [version](#all-known-releases):
 
 ```bash
-npm i gobot-constellation@2.16.1
+npm i gobot-constellation@2.16.3
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `constel
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`constellation`, { version: `2.16.1` })
+const bot = await gobot(`constellation`, { version: `2.16.3` })
 const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
@@ -184,10 +184,12 @@ pnpm test
 
 ## All known releases
 
-`gobot-constellation` versions mirror `constellation` versions. Gobot knows about 30 releases of `constellation`:
+`gobot-constellation` versions mirror `constellation` versions. Gobot knows about 32 releases of `constellation`:
 
 | Version | darwin    | linux     | win32 |
 | ------- | --------- | --------- | ----- |
+| 2.16.3  | arm64/x64 | arm64/x64 | x64   |
+| 2.16.2  | arm64/x64 | arm64/x64 | x64   |
 | 2.16.1  | arm64/x64 | arm64/x64 | x64   |
 | 2.16.0  | arm64/x64 | arm64/x64 | x64   |
 | 2.15.1  | arm64/x64 | arm64/x64 | x64   |
