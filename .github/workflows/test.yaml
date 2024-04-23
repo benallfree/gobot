@@ -23,9 +23,6 @@ jobs:
       - name: Install pnpm
         run: npm install -g pnpm@9
 
-      - name: Set PATH for global npm packages
-        run: echo "PATH=$(npm bin -g):$PATH" >> $GITHUB_ENV
-
       - name: Install deps
         run: pnpm i
 
