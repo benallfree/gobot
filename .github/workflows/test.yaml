@@ -25,3 +25,6 @@ jobs:
 
       - name: Install dev
         run: pnpm i
+
+      - name: Test ${{ matrix.app }}
+        run: pnpm plop test app:${{ matrix.app }}
