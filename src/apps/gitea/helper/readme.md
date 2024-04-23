@@ -47,7 +47,7 @@ const exitCode = await bot.run([`--version`])
 The `gobot-gitea` package version always mirrors the underlying `gitea` [version](#all-known-releases):
 
 ```bash
-npm i gobot-gitea@1.21.10
+npm i gobot-gitea@1.21.11
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `gitea` 
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`gitea`, { version: `1.21.10` })
+const bot = await gobot(`gitea`, { version: `1.21.11` })
 const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
@@ -184,10 +184,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-gitea` versions mirror `gitea` versions. Gobot knows about 190 releases of `gitea`:
+`gobot-gitea` versions mirror `gitea` versions. Gobot knows about 191 releases of `gitea`:
 
 | Version    | darwin    | linux              | win32    |
 | ---------- | --------- | ------------------ | -------- |
+| 1.21.11    | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
 | 1.21.10    | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
 | 1.21.9     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |
 | 1.21.8     | arm64/x64 | arm64/x64/ia32/arm | x64/ia32 |

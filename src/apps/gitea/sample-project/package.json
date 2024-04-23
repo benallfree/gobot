@@ -8,6 +8,6 @@
     "gitea": "gitea"
   },
   "dependencies": {
-    "gobot-gitea": "1.21.10"
+    "gobot-gitea": "1.21.11"
   }
 }
