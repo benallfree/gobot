@@ -1,6 +1,5 @@
 import { findUpSync } from 'find-up'
 import { existsSync } from 'fs'
-import { globSync } from 'glob'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
 import type { AppInfo } from '../apps/'
@@ -23,8 +22,6 @@ if (!existsSync(APPS_ROOT)) {
 
 export const getApp = async (slug: string) => {
   try {
-    console.log({ slug, APPS_ROOT })
-    console.log(globSync(join(APPS_ROOT, '**')))
     const path = join(APPS_ROOT, slug, 'index.js')
     const module = await import(path)
     return module[slug] as AppInfo
