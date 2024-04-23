@@ -20,6 +20,9 @@
     "verdaccio:serve": "verdaccio  -c verdaccio.config.yaml -l 127.0.0.1:4873",
     "verdaccio:login": "npm-cli-login -u user -p password -e test@example.com -r http://test.gobot.lvh.me:4873"
   },
+  "engines": {
+    "node": ">=18.2.0"
+  },
   "keywords": [
     "pocketbase",
     "pockethost"
