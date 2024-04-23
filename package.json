@@ -101,5 +101,5 @@
       "node-plop@0.32.0": "patches/node-plop@0.32.0.patch"
     }
   },
-  "packageManager": "pnpm@8.10.2"
+  "packageManager": "pnpm@9.0.5"
 }
