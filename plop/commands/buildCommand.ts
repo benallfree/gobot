@@ -58,7 +58,7 @@ export const buildCommand = (plop: NodePlopAPI) => {
       clean: [rimraf(`readme.md`)],
     },
 
-    [`app:helper-template`]: {
+    [`template:app:helper`]: {
       gen: () => {
         const merge = ({ cmd, msg }: any) =>
           exec(cmd, { cwd: `plop/templates/app/helper` })

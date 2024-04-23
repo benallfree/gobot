@@ -65,7 +65,9 @@ export function testCommand(plop: NodePlopAPI) {
         const cachePath = join(appPath, `test-data`)
 
         const actions: ActionType[] = [
-          exec(`npm run plop build app:${slug} -- --no-progress`),
+          exec(
+            `npm run plop build gobot,template:app:helper,app:${slug} -- --no-progress`,
+          ),
           exec(`npm run plop pack apps:helpers:latest -- --no-progress`, {
             env: { [Flags.PlopFilter]: slug },
           }),

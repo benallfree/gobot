@@ -23,7 +23,7 @@ jobs:
       - name: Install pnpm
         run: npm install -g pnpm@9 tsx
 
-      - name: Install dev
+      - name: Install deps
         run: pnpm i
 
       - name: Test ${{ matrix.app }}
