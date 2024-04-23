@@ -1,6 +1,92 @@
 [
   {
     "allUrls": [
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/builder-debug.yml",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/CHANGELOG.md",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/change_log.md",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/checksums.txt",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/checksums.txt.sig",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-freebsd-experimental-arm.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-freebsd-experimental-arm64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-freebsd-experimental-x64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-linux-arm.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-linux-arm64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-linux-x64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-macOS-arm64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-macOS-universal.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-macOS-x64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-openbsd-experimental-arm.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-openbsd-experimental-arm64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-openbsd-experimental-x64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-windows-x64.zip",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0.aarch64.rpm",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0.armhfp.rpm",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0.x86_64.rpm",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-ui-0.17.0.aarch64.rpm",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-ui-0.17.0.armv7l.rpm",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-ui-0.17.0.x86_64.rpm",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-ui_0.17.0_amd64.deb",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-ui_0.17.0_arm64.deb",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-ui_0.17.0_armv7l.deb",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/KopiaUI-0.17.0-arm64-mac.zip",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/KopiaUI-0.17.0-arm64.AppImage",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/KopiaUI-0.17.0-arm64.dmg",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/KopiaUI-0.17.0-armv7l.AppImage",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/KopiaUI-0.17.0-mac.zip",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/KopiaUI-0.17.0-win.zip",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/KopiaUI-0.17.0.AppImage",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/KopiaUI-0.17.0.dmg",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/KopiaUI-Setup-0.17.0.exe",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia_0.17.0_linux_amd64.deb",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia_0.17.0_linux_arm64.deb",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia_0.17.0_linux_armhf.deb",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/latest-linux-arm.yml",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/latest-linux-arm64.yml",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/latest-linux.yml",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/latest-mac.yml",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/latest.yml"
+    ],
+    "allowedUrls": [
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-freebsd-experimental-arm.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-freebsd-experimental-arm64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-freebsd-experimental-x64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-linux-arm.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-linux-arm64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-linux-x64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-macOS-arm64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-macOS-universal.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-macOS-x64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-openbsd-experimental-arm.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-openbsd-experimental-arm64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-openbsd-experimental-x64.tar.gz",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-windows-x64.zip",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/KopiaUI-0.17.0-arm64-mac.zip",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/KopiaUI-0.17.0-mac.zip",
+      "https://github.com/kopia/kopia/releases/download/v0.17.0/KopiaUI-0.17.0-win.zip"
+    ],
+    "archives": {
+      "darwin": {
+        "arm64": "https://github.com/kopia/kopia/releases/download/v0.17.0/KopiaUI-0.17.0-arm64-mac.zip",
+        "x64": "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-macOS-x64.tar.gz"
+      },
+      "freebsd": {
+        "arm": "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-freebsd-experimental-arm.tar.gz",
+        "arm64": "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-freebsd-experimental-arm64.tar.gz",
+        "x64": "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-freebsd-experimental-x64.tar.gz"
+      },
+      "linux": {
+        "arm": "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-linux-arm.tar.gz",
+        "arm64": "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-linux-arm64.tar.gz",
+        "x64": "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-linux-x64.tar.gz"
+      },
+      "win32": {
+        "x64": "https://github.com/kopia/kopia/releases/download/v0.17.0/kopia-0.17.0-windows-x64.zip"
+      }
+    },
+    "version": "0.17.0"
+  },
+  {
+    "allUrls": [
       "https://github.com/kopia/kopia/releases/download/v0.16.1/builder-debug.yml",
       "https://github.com/kopia/kopia/releases/download/v0.16.1/CHANGELOG.md",
       "https://github.com/kopia/kopia/releases/download/v0.16.1/change_log.md",

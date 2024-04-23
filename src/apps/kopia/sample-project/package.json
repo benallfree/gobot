@@ -8,6 +8,6 @@
     "kopia": "kopia"
   },
   "dependencies": {
-    "gobot-kopia": "0.16.1"
+    "gobot-kopia": "0.17.0"
   }
 }

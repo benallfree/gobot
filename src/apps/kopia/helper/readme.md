@@ -47,7 +47,7 @@ const exitCode = await bot.run([`--version`])
 The `gobot-kopia` package version always mirrors the underlying `kopia` [version](#all-known-releases):
 
 ```bash
-npm i gobot-kopia@0.16.1
+npm i gobot-kopia@0.17.0
 ```
 
 **Override the default version imposed by this package**
@@ -56,7 +56,7 @@ In rare cases, you may want to intentionally run a different version of `kopia` 
 
 ```js
 // Run a specific version (override)
-const bot = await gobot(`kopia`, { version: `0.16.1` })
+const bot = await gobot(`kopia`, { version: `0.17.0` })
 const exitCode = await bot.run([`--version`])
 
 // Or the latest version (override)
@@ -184,10 +184,11 @@ pnpm test
 
 ## All known releases
 
-`gobot-kopia` versions mirror `kopia` versions. Gobot knows about 71 releases of `kopia`:
+`gobot-kopia` versions mirror `kopia` versions. Gobot knows about 72 releases of `kopia`:
 
 | Version     | freebsd       | darwin    | linux         | win32 |
 | ----------- | ------------- | --------- | ------------- | ----- |
+| 0.17.0      | arm64/x64/arm | arm64/x64 | arm64/x64/arm | x64   |
 | 0.16.1      | arm64/x64/arm | arm64/x64 | arm64/x64/arm | x64   |
 | 0.16.0      | arm64/x64/arm | arm64/x64 | arm64/x64/arm | x64   |
 | 0.15.0      | arm64/x64/arm | arm64/x64 | arm64/x64/arm | x64   |

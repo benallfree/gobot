@@ -10,7 +10,7 @@ The package is [https://npmjs.org/gobot-kopia](https://npmjs.org/gobot-kopia).
 
 ## What's next
 
-- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 71 versions of kopia.
+- **Test & Feedback.** Please test and review as you are able. I have tagged things as alpha for now, but I will promote it to stable after a brief testing period and back-publish all 72 versions of kopia.
 - **Update kopia installation docs.** Please consider adding Gobot to your official install instructions. If you would like me to send a PR updating the kopia installation docs to include instructions for installation via Gobot, I'm happy to do that.
 - **Give Gobot a 💫.** Gobot is a big effort to solve binary dependencies for nodejs in a universal way. Please consider giving [the Gobot project](https://github.com/benallfree/gobot) a star if it resonates.
 - **Keep going.** Keep doing what you do! Gobot will automatically pick up and publish your new releases.
@@ -23,10 +23,11 @@ The Gobot project aims to make thousands of statically-linked binary apps availa
 
 ## All releases indexed by Gobot
 
-`gobot-kopia` versions mirror `kopia` versions. Gobot has indexed 71 releases of `kopia`:
+`gobot-kopia` versions mirror `kopia` versions. Gobot has indexed 72 releases of `kopia`:
 
 | Version     | freebsd       | darwin    | linux         | win32 |
 | ----------- | ------------- | --------- | ------------- | ----- |
+| 0.17.0      | arm64/x64/arm | arm64/x64 | arm64/x64/arm | x64   |
 | 0.16.1      | arm64/x64/arm | arm64/x64 | arm64/x64/arm | x64   |
 | 0.16.0      | arm64/x64/arm | arm64/x64 | arm64/x64/arm | x64   |
 | 0.15.0      | arm64/x64/arm | arm64/x64 | arm64/x64/arm | x64   |
