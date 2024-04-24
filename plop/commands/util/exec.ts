@@ -15,7 +15,6 @@ export const exec: typeof spawn = async (cmd, _options, onProc) => {
       ..._options?.env,
     },
   }
-  console.log({ options })
   const code = await spawn(cmd, options, onProc)
   return code
 }

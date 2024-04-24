@@ -39,6 +39,8 @@ export function testCommand(plop: NodePlopAPI) {
 
         exec('npm prefix -g'),
 
+        exec(`dir D:\\a\\gobot\\.gobot-test-cache\\npm`),
+
         exec(`gobot --g-version`),
 
         exec(`npm rm -g gobot`),
