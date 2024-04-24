@@ -1,8 +1,8 @@
 import { resolve } from 'path'
 import { rimraf } from 'rimraf'
-import { __root } from './__root'
+import { PACKAGE_ROOT } from './getApp'
 
-export const safeRimraf = (path: string, safePaths = [__root]) => {
+export const safeRimraf = (path: string, safePaths = [PACKAGE_ROOT]) => {
   const final = resolve(path)
   if (!safePaths.some((path) => final.startsWith(path))) {
     throw new Error(

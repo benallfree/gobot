@@ -6,7 +6,7 @@ import { table } from 'table'
 import json from '../package.json'
 import { Gobot, gobot, type AppInfo } from './api'
 import { verbosity } from './settings'
-import { __root } from './util/__root'
+import { APPS_DIST_ROOT } from './util/getApp'
 import { dbg, info } from './util/log'
 
 export class Arg extends Argument {
@@ -158,7 +158,7 @@ program.addCommand(
           info(`Host platform: ${platform()}`)
           info(`Host architecture: ${arch()}`)
           info(`Cache root:`, cachePath || Gobot.DEFAULT_GOBOT_CACHE_ROOT())
-          const appPaths = globSync(join(__root, `apps`, `*`, ''))
+          const appPaths = globSync(join(APPS_DIST_ROOT, `*`, ''))
           const apps = (
             await Promise.all(
               appPaths.map(async (appPath) => {
