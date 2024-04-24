@@ -1,6 +1,6 @@
 import { join } from 'path'
 import type { NodePlopAPI } from 'plop'
-import { PACKAGE_ROOT } from '../../src/util/getApp'
+import { APPS_SRC_ROOT } from '../../src/util/getApp'
 import { getBot } from './util/getBot'
 import { getSlugsFromFileSystem } from './util/getSlugsFromFileSystem'
 import { mkSubcommander, type Subcommands } from './util/mkSubcommander'
@@ -13,7 +13,7 @@ export const updateCommand = (plop: NodePlopAPI) => {
       gen: [
         async (answers, cfg, plop) => {
           const { onProgress } = cfg
-          const appPath = join(PACKAGE_ROOT, `src`, `apps`, slug)
+          const appPath = join(APPS_SRC_ROOT, slug)
           onProgress(`initializing ${slug} bot`)
           const { bot } = await getBot(appPath)
           onProgress(`updating ${slug}`)

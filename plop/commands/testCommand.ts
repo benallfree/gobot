@@ -9,7 +9,7 @@ import type { ActionType, NodePlopAPI } from 'plop'
 import pkg from '../../package.json'
 import type { ArchKey, PlatformKey } from '../../src/Gobot'
 import { Flags } from '../../src/util/flags'
-import { PACKAGE_ROOT } from '../../src/util/getApp'
+import { APPS_SRC_ROOT } from '../../src/util/getApp'
 import { cleanVerdaccioPackages } from './helpers/cleanVerdaccioPackages'
 import { exec } from './helpers/exec'
 import { rimraf } from './helpers/rimraf'
@@ -63,7 +63,7 @@ export function testCommand(plop: NodePlopAPI) {
   getSlugsFromFileSystem().forEach((slug) => {
     subcommands[`app:${slug}`] = {
       gen: async () => {
-        const appPath = join(PACKAGE_ROOT, `src`, `apps`, slug)
+        const appPath = join(APPS_SRC_ROOT, slug)
 
         const appHelperPath = join(appPath, `helper`)
 
