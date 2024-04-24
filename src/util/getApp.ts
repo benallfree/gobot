@@ -8,9 +8,11 @@ import { dbge } from './log'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
-export const PACKAGE_ROOT = findUpSync(`package.json`, {
-  cwd: __dirname,
-}) as string
+export const PACKAGE_ROOT = dirname(
+  findUpSync(`package.json`, {
+    cwd: __dirname,
+  }) as string,
+)
 if (!PACKAGE_ROOT) {
   throw new Error(`Can't find package.json in any parent path`)
 }
