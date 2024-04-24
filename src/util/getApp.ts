@@ -17,12 +17,12 @@ if (!PACKAGE_ROOT) {
   throw new Error(`Can't find package.json in any parent path`)
 }
 
-export const APPS_DIST_ROOT = join(dirname(PACKAGE_ROOT), 'dist', 'apps')
+export const APPS_DIST_ROOT = join(PACKAGE_ROOT, 'dist', 'apps')
 if (!existsSync(APPS_DIST_ROOT)) {
   console.warn(`Warning: can't find ${APPS_DIST_ROOT}`)
 }
 
-export const APPS_SRC_ROOT = join(dirname(PACKAGE_ROOT), 'src', 'apps')
+export const APPS_SRC_ROOT = join(PACKAGE_ROOT, 'src', 'apps')
 if (!existsSync(APPS_SRC_ROOT)) {
   throw new Error(`Can't find ${APPS_SRC_ROOT}`)
 }
