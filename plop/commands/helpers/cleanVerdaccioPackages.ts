@@ -2,7 +2,7 @@ import { existsSync, readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import type { CustomActionFunction } from 'plop'
 import { parse } from 'yaml'
-import { __root } from '../../../src/util/__root'
+import { PACKAGE_ROOT } from '../../../src/util/getApp'
 import { safeRimraf } from '../../../src/util/safeRimraf'
 import { GOBOT_TEST_CACHE_ROOT } from '../../run'
 
@@ -33,7 +33,7 @@ export const cleanVerdaccioPackages = (
     await Promise.all(
       storagePathsToDelete.map((path) => {
         onProgress(`Deleting ${path}`)
-        return safeRimraf(path, [GOBOT_TEST_CACHE_ROOT, __root])
+        return safeRimraf(path, [GOBOT_TEST_CACHE_ROOT, PACKAGE_ROOT])
       }),
     )
     return `cleaned verdaccio ${packageNames.join(`,`)}`

@@ -4,8 +4,8 @@ import path, { dirname, join, resolve } from 'node:path'
 import { cwd } from 'node:process'
 import { fileURLToPath } from 'node:url'
 import { Plop, run } from 'plop'
-import { __root } from '../src/util/__root'
 import { Flags } from '../src/util/flags'
+import { PACKAGE_ROOT } from '../src/util/getApp'
 import { mkdir } from '../src/util/shell'
 import {} from './commands/util/exec'
 import { startVerdaccio } from './commands/util/startVerdaccio'
@@ -21,16 +21,19 @@ process.on('uncaughtException', (err, origin) => {
 })
 
 export const GOBOT_TEST_CACHE_ROOT = resolve(
-  join(__root, `..`, `.gobot-test-cache`),
+  join(PACKAGE_ROOT, `..`, `.gobot-test-cache`),
 )
 mkdir(GOBOT_TEST_CACHE_ROOT)
+
+export const GOBOT_TEST_CACHE_ROOT_NPM = join(GOBOT_TEST_CACHE_ROOT, `npm`)
+mkdir(GOBOT_TEST_CACHE_ROOT_NPM)
 
 export const VERDACCIO_REGISTRY_URL = `http://test.gobot.lvh.me:4873`
 
 async function main() {
   if (!process.env[Flags.UseNpm]) {
     process.env[Flags.NpmRegistryEndpoint] = VERDACCIO_REGISTRY_URL
-    process.env[Flags.NpmLocalRoot] = join(GOBOT_TEST_CACHE_ROOT, `npm`)
+    process.env[Flags.NpmLocalRoot] = GOBOT_TEST_CACHE_ROOT_NPM
   }
 
   await new Promise<void>((resolve, reject) => {

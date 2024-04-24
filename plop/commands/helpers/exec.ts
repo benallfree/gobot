@@ -2,7 +2,7 @@ import filenamify from 'filenamify'
 import { dirname, join } from 'path'
 import type { CustomActionFunction } from 'plop'
 import { verbosity } from '../../../src/settings'
-import { __root } from '../../../src/util/__root'
+import { PACKAGE_ROOT } from '../../../src/util/getApp'
 import { mkdir } from '../../../src/util/shell'
 import type { SpawnOptions } from '../../../src/util/spawn'
 import { exec as _exec } from '../util/exec'
@@ -20,7 +20,7 @@ export const exec =
     onProgress(`Starting ${cmd}`)
     const stdout: string[] = []
     const stderr: string[] = []
-    const ret = await _exec(cmd, { cwd: __root, ...options }, (proc) => {
+    const ret = await _exec(cmd, { cwd: PACKAGE_ROOT, ...options }, (proc) => {
       if (verbosity() >= 3) return
       proc.stdout.on('data', (buf: Buffer) => {
         buf

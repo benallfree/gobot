@@ -10,7 +10,7 @@ const __dirname = dirname(__filename)
 
 export const PACKAGE_ROOT = findUpSync(`package.json`, {
   cwd: __dirname,
-})
+}) as string
 if (!PACKAGE_ROOT) {
   throw new Error(`Can't find package.json in any parent path`)
 }
