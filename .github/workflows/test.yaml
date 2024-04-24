@@ -21,7 +21,7 @@ jobs:
           node-version: '18.17'
 
       - name: Install pnpm
-        run: npm install -g pnpm@9
+        run: npm install -g pnpm@9.0.6
 
       - name: Install deps
         run: pnpm i
