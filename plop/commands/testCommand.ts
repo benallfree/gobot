@@ -39,7 +39,11 @@ export function testCommand(plop: NodePlopAPI) {
 
         exec('npm prefix -g'),
 
+        exec(`echo $Env::PATH`),
+
         exec(`dir D:\\a\\gobot\\.gobot-test-cache\\npm`),
+
+        exec(`D:\\a\\gobot\\.gobot-test-cache\\npm\\gobot.cmd --g-version`),
 
         exec(`gobot --g-version`),
 
