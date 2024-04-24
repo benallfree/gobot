@@ -1,5 +1,5 @@
 import { existsSync, readFileSync, writeFileSync } from 'fs'
-import { join, resolve } from 'path'
+import { resolve } from 'path'
 import type { CustomActionFunction } from 'plop'
 import { parse } from 'yaml'
 import { PACKAGE_ROOT } from '../../../src/util/getApp'
@@ -27,7 +27,7 @@ export const cleanVerdaccioPackages = (
       writeFileSync(dbPath, JSON.stringify(newDb, null, 2))
     }
     const storagePathsToDelete = packageNames.map((packageName) =>
-      join(storage, packageName),
+      resolve(PACKAGE_ROOT, storage, packageName),
     )
     onProgress(`Deleting paths: ${storagePathsToDelete.join(`, `)}`)
     await Promise.all(
