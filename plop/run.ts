@@ -30,6 +30,8 @@ mkdir(GOBOT_TEST_CACHE_ROOT_NPM)
 
 export const VERDACCIO_REGISTRY_URL = `http://test.gobot.lvh.me:4873`
 
+console.log({ GOBOT_TEST_CACHE_ROOT, GOBOT_TEST_CACHE_ROOT_NPM })
+
 async function main() {
   if (!process.env[Flags.UseNpm]) {
     process.env[Flags.NpmRegistryEndpoint] = VERDACCIO_REGISTRY_URL
