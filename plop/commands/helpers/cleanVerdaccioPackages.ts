@@ -1,5 +1,5 @@
 import { existsSync, readFileSync, writeFileSync } from 'fs'
-import { join } from 'path'
+import { join, resolve } from 'path'
 import type { CustomActionFunction } from 'plop'
 import { parse } from 'yaml'
 import { PACKAGE_ROOT } from '../../../src/util/getApp'
@@ -15,7 +15,7 @@ export const cleanVerdaccioPackages = (
     onProgress(`Cleaning verdaccio packages ${packageNames.join(`, `)}`)
     const configYaml = parse(readFileSync(VERDACCIO_CONFIG_PATH).toString())
     const { storage } = configYaml
-    const dbPath = join(storage, `.verdaccio-db.json`)
+    const dbPath = resolve(PACKAGE_ROOT, storage, `.verdaccio-db.json`)
     if (existsSync(dbPath)) {
       const db = JSON.parse(readFileSync(dbPath).toString()) as {
         list: string[]
