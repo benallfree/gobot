@@ -10,17 +10,17 @@ export const exec: typeof spawn = async (cmd, _options, onProc) => {
     ..._options,
     env: {
       ...env,
-      PATH: !process.env[Flags.UseNpm]
+      PATH: !env[Flags.UseNpm]
         ? [
             GOBOT_TEST_CACHE_ROOT_NPM,
             join(GOBOT_TEST_CACHE_ROOT_NPM, `bin`),
             env.PATH,
           ].join(delimiter)
-        : process.env.PATH,
+        : env.PATH,
       ..._options?.env,
     },
   }
-  console.log(options.env.PATH)
+  console.log({ PATH: options.env.PATH })
   const code = await spawn(cmd, options, onProc)
   return code
 }
