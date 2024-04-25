@@ -4,7 +4,6 @@ import type { CustomActionFunction } from 'plop'
 import { parse } from 'yaml'
 import {} from '../../../src/util/getApp'
 import { safeRimraf } from '../../../src/util/safeRimraf'
-import { GOBOT_TEST_CACHE_ROOT } from '../../run'
 import { SRC_PACKAGE_ROOT } from './root'
 
 const VERDACCIO_CONFIG_PATH = `verdaccio.config.yaml`
@@ -34,7 +33,7 @@ export const cleanVerdaccioPackages = (
     await Promise.all(
       storagePathsToDelete.map((path) => {
         onProgress(`Deleting ${path}`)
-        return safeRimraf(path, [GOBOT_TEST_CACHE_ROOT, SRC_PACKAGE_ROOT])
+        return safeRimraf(path)
       }),
     )
     return `cleaned verdaccio ${packageNames.join(`,`)}`

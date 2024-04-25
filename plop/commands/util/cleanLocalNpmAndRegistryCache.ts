@@ -5,5 +5,5 @@ import { GOBOT_TEST_CACHE_ROOT } from '../../run'
 
 export const cleanLocalNpmAndRegistryCache = async () => {
   if (process.env[Flags.UseNpm]) return
-  await safeRimraf(join(GOBOT_TEST_CACHE_ROOT, `**/*`), [GOBOT_TEST_CACHE_ROOT])
+  await safeRimraf(join(GOBOT_TEST_CACHE_ROOT, `**/*`))
 }

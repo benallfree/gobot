@@ -5,6 +5,7 @@ import { cwd } from 'node:process'
 import { fileURLToPath } from 'node:url'
 import { Plop, run } from 'plop'
 import { Flags } from '../src/util/flags'
+import { RIMRAF_SAFE_PATHS } from '../src/util/safeRimraf'
 import { mkdir } from '../src/util/shell'
 import { SRC_PACKAGE_ROOT } from './commands/helpers/root'
 import {} from './commands/util/exec'
@@ -24,6 +25,7 @@ export const GOBOT_TEST_CACHE_ROOT = resolve(
   join(SRC_PACKAGE_ROOT, `..`, `.gobot-test-cache`),
 )
 mkdir(GOBOT_TEST_CACHE_ROOT)
+RIMRAF_SAFE_PATHS.push(GOBOT_TEST_CACHE_ROOT)
 
 export const GOBOT_TEST_CACHE_ROOT_NPM = join(GOBOT_TEST_CACHE_ROOT, `npm`)
 mkdir(GOBOT_TEST_CACHE_ROOT_NPM)
