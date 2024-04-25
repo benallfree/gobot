@@ -9,11 +9,10 @@ import type { ActionType, NodePlopAPI } from 'plop'
 import pkg from '../../package.json'
 import type { ArchKey, PlatformKey } from '../../src/Gobot'
 import { Flags } from '../../src/util/flags'
-import { APPS_SRC_ROOT } from '../../src/util/getApp'
 import { cleanVerdaccioPackages } from './helpers/cleanVerdaccioPackages'
 import { exec } from './helpers/exec'
 import { rimraf } from './helpers/rimraf'
-import { getBot } from './util/getBot'
+import { APPS_SRC_ROOT, getBot } from './util/getBot'
 import { getSlugsFromFileSystem } from './util/getSlugsFromFileSystem'
 import { loadTestModule } from './util/loadTestModule'
 import { matchSnapshot } from './util/matchSnapshot'
@@ -67,7 +66,7 @@ export function testCommand(plop: NodePlopAPI) {
 
         const appHelperPath = join(appPath, `helper`)
 
-        const { bot } = await getBot(appPath)
+        const { bot } = await getBot(slug)
 
         const shouldRun = async () =>
           !!(await bot.releases())[0]?.archives[platform()]?.[arch() as ArchKey]

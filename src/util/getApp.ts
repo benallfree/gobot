@@ -22,12 +22,7 @@ if (!existsSync(APPS_DIST_ROOT)) {
   console.warn(`Warning: can't find ${APPS_DIST_ROOT}`)
 }
 
-export const APPS_SRC_ROOT = join(PACKAGE_ROOT, 'src', 'apps')
-if (!existsSync(APPS_SRC_ROOT)) {
-  throw new Error(`Can't find ${APPS_SRC_ROOT}`)
-}
-
-console.log({ PACKAGE_ROOT, APPS_DIST_ROOT, APPS_SRC_ROOT })
+console.log({ PACKAGE_ROOT, APPS_DIST_ROOT })
 
 export const getApp = async (slug: string) => {
   try {

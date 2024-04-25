@@ -1,5 +1,7 @@
 import { isFunction } from '@s-libs/micro-dash'
-import { basename, join } from 'path'
+import { existsSync } from 'fs'
+import { dirname, join } from 'path'
+import { fileURLToPath } from 'url'
 import {
   GithubReleaseProvider,
   Gobot,
@@ -7,8 +9,18 @@ import {
   type GobotOptions,
 } from '../../../src/api'
 
-export async function getBot(appPath: string, options?: Partial<GobotOptions>) {
-  const appSlug = basename(appPath)
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
+export const APPS_SRC_ROOT = join(__dirname, '..', 'src', 'apps')
+if (!existsSync(APPS_SRC_ROOT)) {
+  throw new Error(`Can't find ${APPS_SRC_ROOT}`)
+}
+
+console.log({ APPS_SRC_ROOT })
+
+export async function getBot(appSlug: string, options?: Partial<GobotOptions>) {
+  const appPath = join(APPS_SRC_ROOT, appSlug)
   const module = await import(join(appPath)).catch(console.error)
   const appInfo = module[appSlug] as AppInfo
   const { factory } = appInfo
