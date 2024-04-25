@@ -8,25 +8,25 @@ import { dbge } from './log'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
-export const PACKAGE_ROOT = dirname(
+export const DIST_PACKAGE_ROOT = dirname(
   findUpSync(`package.json`, {
     cwd: __dirname,
   }) as string,
 )
-if (!PACKAGE_ROOT) {
+if (!DIST_PACKAGE_ROOT) {
   throw new Error(`Can't find package.json in any parent path`)
 }
 
-export const APPS_DIST_ROOT = join(PACKAGE_ROOT, 'dist', 'apps')
-if (!existsSync(APPS_DIST_ROOT)) {
-  console.warn(`Warning: can't find ${APPS_DIST_ROOT}`)
+export const DIST_APPS_ROOT = join(DIST_PACKAGE_ROOT, 'dist', 'apps')
+if (!existsSync(DIST_APPS_ROOT)) {
+  console.warn(`Warning: can't find ${DIST_APPS_ROOT}`)
 }
 
-console.log({ PACKAGE_ROOT, APPS_DIST_ROOT })
+console.log({ DIST_PACKAGE_ROOT, DIST_APPS_ROOT })
 
 export const getApp = async (slug: string) => {
   try {
-    const path = join(APPS_DIST_ROOT, slug, 'index.js')
+    const path = join(DIST_APPS_ROOT, slug, 'index.js')
     const module = await import(path)
     return module[slug] as AppInfo
   } catch (e) {

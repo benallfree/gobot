@@ -1,8 +1,11 @@
 import { resolve } from 'path'
 import { rimraf } from 'rimraf'
-import { PACKAGE_ROOT } from './getApp'
+import { Gobot } from '../../dist/api'
 
-export const safeRimraf = (path: string, safePaths = [PACKAGE_ROOT]) => {
+export const safeRimraf = (
+  path: string,
+  safePaths = [Gobot.DEFAULT_GOBOT_CACHE_ROOT()],
+) => {
   const final = resolve(path)
   if (!safePaths.some((path) => final.startsWith(path))) {
     throw new Error(

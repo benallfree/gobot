@@ -6,7 +6,7 @@ import { table } from 'table'
 import json from '../package.json'
 import { Gobot, gobot, type AppInfo } from './api'
 import { verbosity } from './settings'
-import { APPS_DIST_ROOT } from './util/getApp'
+import { DIST_APPS_ROOT } from './util/getApp'
 import { dbg, info } from './util/log'
 
 export class Arg extends Argument {
@@ -139,7 +139,6 @@ program.addCommand(
     .description(
       `Display Gobot registry information. If [appName] is specified, Gobot will fresh release information and display. Otherwise, Gobot will display an overview of current registry information`,
     )
-    .helpOption(`--g-help`)
     .action(async (appName, options, command) => {
       const { gV, gVv, gVvv, gCachePath: cachePath } = command.optsWithGlobals()
       verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 1)
@@ -158,7 +157,7 @@ program.addCommand(
           info(`Host platform: ${platform()}`)
           info(`Host architecture: ${arch()}`)
           info(`Cache root:`, cachePath || Gobot.DEFAULT_GOBOT_CACHE_ROOT())
-          const appPaths = globSync(join(APPS_DIST_ROOT, `*`, ''))
+          const appPaths = globSync(join(DIST_APPS_ROOT, `*`, ''))
           const apps = (
             await Promise.all(
               appPaths.map(async (appPath) => {
