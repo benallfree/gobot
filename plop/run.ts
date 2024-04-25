@@ -5,8 +5,8 @@ import { cwd } from 'node:process'
 import { fileURLToPath } from 'node:url'
 import { Plop, run } from 'plop'
 import { Flags } from '../src/util/flags'
-import { PACKAGE_ROOT } from '../src/util/getApp'
 import { mkdir } from '../src/util/shell'
+import { SRC_PACKAGE_ROOT } from './commands/helpers/root'
 import {} from './commands/util/exec'
 import { startVerdaccio } from './commands/util/startVerdaccio'
 
@@ -21,7 +21,7 @@ process.on('uncaughtException', (err, origin) => {
 })
 
 export const GOBOT_TEST_CACHE_ROOT = resolve(
-  join(PACKAGE_ROOT, `..`, `.gobot-test-cache`),
+  join(SRC_PACKAGE_ROOT, `..`, `.gobot-test-cache`),
 )
 mkdir(GOBOT_TEST_CACHE_ROOT)
 

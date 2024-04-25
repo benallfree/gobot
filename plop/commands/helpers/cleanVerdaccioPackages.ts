@@ -2,9 +2,10 @@ import { existsSync, readFileSync, writeFileSync } from 'fs'
 import { resolve } from 'path'
 import type { CustomActionFunction } from 'plop'
 import { parse } from 'yaml'
-import { PACKAGE_ROOT } from '../../../src/util/getApp'
+import {} from '../../../src/util/getApp'
 import { safeRimraf } from '../../../src/util/safeRimraf'
 import { GOBOT_TEST_CACHE_ROOT } from '../../run'
+import { SRC_PACKAGE_ROOT } from './root'
 
 const VERDACCIO_CONFIG_PATH = `verdaccio.config.yaml`
 
@@ -15,7 +16,7 @@ export const cleanVerdaccioPackages = (
     onProgress(`Cleaning verdaccio packages ${packageNames.join(`, `)}`)
     const configYaml = parse(readFileSync(VERDACCIO_CONFIG_PATH).toString())
     const { storage } = configYaml
-    const dbPath = resolve(PACKAGE_ROOT, storage, `.verdaccio-db.json`)
+    const dbPath = resolve(SRC_PACKAGE_ROOT, storage, `.verdaccio-db.json`)
     if (existsSync(dbPath)) {
       const db = JSON.parse(readFileSync(dbPath).toString()) as {
         list: string[]
@@ -27,13 +28,13 @@ export const cleanVerdaccioPackages = (
       writeFileSync(dbPath, JSON.stringify(newDb, null, 2))
     }
     const storagePathsToDelete = packageNames.map((packageName) =>
-      resolve(PACKAGE_ROOT, storage, packageName),
+      resolve(SRC_PACKAGE_ROOT, storage, packageName),
     )
     onProgress(`Deleting paths: ${storagePathsToDelete.join(`, `)}`)
     await Promise.all(
       storagePathsToDelete.map((path) => {
         onProgress(`Deleting ${path}`)
-        return safeRimraf(path, [GOBOT_TEST_CACHE_ROOT, PACKAGE_ROOT])
+        return safeRimraf(path, [GOBOT_TEST_CACHE_ROOT, SRC_PACKAGE_ROOT])
       }),
     )
     return `cleaned verdaccio ${packageNames.join(`,`)}`

@@ -12,7 +12,8 @@ import { Flags } from '../../src/util/flags'
 import { cleanVerdaccioPackages } from './helpers/cleanVerdaccioPackages'
 import { exec } from './helpers/exec'
 import { rimraf } from './helpers/rimraf'
-import { APPS_SRC_ROOT, getBot } from './util/getBot'
+import { SRC_APPS_ROOT } from './helpers/root'
+import { getBot } from './util/getBot'
 import { getSlugsFromFileSystem } from './util/getSlugsFromFileSystem'
 import { loadTestModule } from './util/loadTestModule'
 import { matchSnapshot } from './util/matchSnapshot'
@@ -62,7 +63,7 @@ export function testCommand(plop: NodePlopAPI) {
   getSlugsFromFileSystem().forEach((slug) => {
     subcommands[`app:${slug}`] = {
       gen: async () => {
-        const appPath = join(APPS_SRC_ROOT, slug)
+        const appPath = join(SRC_APPS_ROOT, slug)
 
         const appHelperPath = join(appPath, `helper`)
 
