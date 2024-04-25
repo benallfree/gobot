@@ -23,19 +23,19 @@ Generic Gobot app. Subclass this for specific functionality.
 ### Accessors
 
 - [binName](Gobot.Gobot.md#binname)
+- [className](Gobot.Gobot.md#classname)
 - [name](Gobot.Gobot.md#name)
-- [slug](Gobot.Gobot.md#slug)
 
 ### Methods
 
 - [allPlatforms](Gobot.Gobot.md#allplatforms)
+- [archivePath](Gobot.Gobot.md#archivepath)
+- [archiveRoot](Gobot.Gobot.md#archiveroot)
 - [cachePath](Gobot.Gobot.md#cachepath)
 - [clearAllReleases](Gobot.Gobot.md#clearallreleases)
 - [clearStoredReleases](Gobot.Gobot.md#clearstoredreleases)
 - [compare](Gobot.Gobot.md#compare)
 - [download](Gobot.Gobot.md#download)
-- [downloadPath](Gobot.Gobot.md#downloadpath)
-- [downloadRoot](Gobot.Gobot.md#downloadroot)
 - [filterArgs](Gobot.Gobot.md#filterargs)
 - [findArchiveBinPath](Gobot.Gobot.md#findarchivebinpath)
 - [getBinaryPath](Gobot.Gobot.md#getbinarypath)
@@ -51,7 +51,6 @@ Generic Gobot app. Subclass this for specific functionality.
 - [unpack](Gobot.Gobot.md#unpack)
 - [update](Gobot.Gobot.md#update)
 - [versions](Gobot.Gobot.md#versions)
-- [DEFAULT_GOBOT_CACHE_ROOT](Gobot.Gobot.md#default_gobot_cache_root)
 - [reset](Gobot.Gobot.md#reset-1)
 
 ## Constructors
@@ -76,7 +75,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:90](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L90)
+[Gobot.ts:85](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L85)
 
 ## Properties
 
@@ -86,7 +85,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:77](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L77)
+[Gobot.ts:72](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L72)
 
 ---
 
@@ -96,7 +95,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:80](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L80)
+[Gobot.ts:75](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L75)
 
 ---
 
@@ -106,7 +105,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:79](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L79)
+[Gobot.ts:74](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L74)
 
 ---
 
@@ -116,7 +115,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:76](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L76)
+[Gobot.ts:71](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L71)
 
 ---
 
@@ -126,7 +125,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:82](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L82)
+[Gobot.ts:77](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L77)
 
 ---
 
@@ -136,7 +135,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:75](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L75)
+[Gobot.ts:70](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L70)
 
 ---
 
@@ -146,7 +145,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:81](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L81)
+[Gobot.ts:76](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L76)
 
 ---
 
@@ -156,7 +155,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:78](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L78)
+[Gobot.ts:73](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L73)
 
 ---
 
@@ -164,9 +163,11 @@ Create a new Gobot
 
 ▪ `Static` **VERSION_FORMATS**: readonly [``"js"``, ``"txt"``, ``"json"``, ``"cjs"``, ``"esm"``, ``"md"``]
 
+The default Gobot cache root. This is platform specific.
+
 #### Defined in
 
-[Gobot.ts:73](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L73)
+[Gobot.ts:68](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L68)
 
 ## Accessors
 
@@ -180,7 +181,21 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:223](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L223)
+[Gobot.ts:215](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L215)
+
+---
+
+### className
+
+• `get` **className**(): `string`
+
+#### Returns
+
+`string`
+
+#### Defined in
+
+[Gobot.ts:122](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L122)
 
 ---
 
@@ -194,21 +209,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:134](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L134)
-
----
-
-### slug
-
-• `get` **slug**(): `string`
-
-#### Returns
-
-`string`
-
-#### Defined in
-
-[Gobot.ts:130](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L130)
+[Gobot.ts:126](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L126)
 
 ## Methods
 
@@ -222,7 +223,48 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:384](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L384)
+[Gobot.ts:383](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L383)
+
+---
+
+### archivePath
+
+▸ **archivePath**(`version`, `url`): `string`
+
+#### Parameters
+
+| Name      | Type     |
+| :-------- | :------- |
+| `version` | `string` |
+| `url`     | `string` |
+
+#### Returns
+
+`string`
+
+#### Defined in
+
+[Gobot.ts:251](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L251)
+
+---
+
+### archiveRoot
+
+▸ **archiveRoot**(`version`): `string`
+
+#### Parameters
+
+| Name      | Type     |
+| :-------- | :------- |
+| `version` | `string` |
+
+#### Returns
+
+`string`
+
+#### Defined in
+
+[Gobot.ts:240](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L240)
 
 ---
 
@@ -254,7 +296,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:138](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L138)
+[Gobot.ts:130](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L130)
 
 ---
 
@@ -268,7 +310,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:176](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L176)
+[Gobot.ts:168](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L168)
 
 ---
 
@@ -282,7 +324,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:181](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L181)
+[Gobot.ts:173](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L173)
 
 ---
 
@@ -303,7 +345,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:312](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L312)
+[Gobot.ts:311](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L311)
 
 ---
 
@@ -317,48 +359,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:162](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L162)
-
----
-
-### downloadPath
-
-▸ **downloadPath**(`version`, `url`): `string`
-
-#### Parameters
-
-| Name      | Type     |
-| :-------- | :------- |
-| `version` | `string` |
-| `url`     | `string` |
-
-#### Returns
-
-`string`
-
-#### Defined in
-
-[Gobot.ts:259](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L259)
-
----
-
-### downloadRoot
-
-▸ **downloadRoot**(`version`): `string`
-
-#### Parameters
-
-| Name      | Type     |
-| :-------- | :------- |
-| `version` | `string` |
-
-#### Returns
-
-`string`
-
-#### Defined in
-
-[Gobot.ts:248](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L248)
+[Gobot.ts:154](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L154)
 
 ---
 
@@ -378,7 +379,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:368](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L368)
+[Gobot.ts:367](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L367)
 
 ---
 
@@ -398,7 +399,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:229](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L229)
+[Gobot.ts:221](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L221)
 
 ---
 
@@ -418,7 +419,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:272](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L272)
+[Gobot.ts:271](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L271)
 
 ---
 
@@ -432,7 +433,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:325](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L325)
+[Gobot.ts:324](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L324)
 
 ---
 
@@ -452,7 +453,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:320](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L320)
+[Gobot.ts:319](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L319)
 
 ---
 
@@ -472,7 +473,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:372](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L372)
+[Gobot.ts:371](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L371)
 
 ---
 
@@ -492,7 +493,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:338](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L338)
+[Gobot.ts:337](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L337)
 
 ---
 
@@ -512,7 +513,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:330](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L330)
+[Gobot.ts:329](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L329)
 
 ---
 
@@ -526,7 +527,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:351](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L351)
+[Gobot.ts:350](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L350)
 
 ---
 
@@ -542,7 +543,7 @@ Clear all items from cache (flush cache).
 
 #### Defined in
 
-[Gobot.ts:152](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L152)
+[Gobot.ts:144](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L144)
 
 ---
 
@@ -568,7 +569,7 @@ Exit code from spawned process
 
 #### Defined in
 
-[Gobot.ts:397](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L397)
+[Gobot.ts:396](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L396)
 
 ---
 
@@ -589,7 +590,7 @@ Exit code from spawned process
 
 #### Defined in
 
-[Gobot.ts:316](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L316)
+[Gobot.ts:315](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L315)
 
 ---
 
@@ -610,7 +611,7 @@ Exit code from spawned process
 
 #### Defined in
 
-[Gobot.ts:265](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L265)
+[Gobot.ts:257](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L257)
 
 ---
 
@@ -624,7 +625,7 @@ Exit code from spawned process
 
 #### Defined in
 
-[Gobot.ts:144](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L144)
+[Gobot.ts:136](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L136)
 
 ---
 
@@ -644,7 +645,7 @@ Exit code from spawned process
 
 #### Defined in
 
-[Gobot.ts:185](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L185)
+[Gobot.ts:177](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L177)
 
 ▸ **versions**(`type?`): `Promise`\<`string`\>
 
@@ -660,7 +661,7 @@ Exit code from spawned process
 
 #### Defined in
 
-[Gobot.ts:186](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L186)
+[Gobot.ts:178](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L178)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -676,7 +677,7 @@ Exit code from spawned process
 
 #### Defined in
 
-[Gobot.ts:187](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L187)
+[Gobot.ts:179](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L179)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -692,7 +693,7 @@ Exit code from spawned process
 
 #### Defined in
 
-[Gobot.ts:188](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L188)
+[Gobot.ts:180](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L180)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -708,7 +709,7 @@ Exit code from spawned process
 
 #### Defined in
 
-[Gobot.ts:189](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L189)
+[Gobot.ts:181](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L181)
 
 ▸ **versions**(`type`): `Promise`\<`string`\>
 
@@ -724,29 +725,7 @@ Exit code from spawned process
 
 #### Defined in
 
-[Gobot.ts:190](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L190)
-
----
-
-### DEFAULT_GOBOT_CACHE_ROOT
-
-▸ **DEFAULT_GOBOT_CACHE_ROOT**(`...paths`): `string`
-
-The default Gobot cache root. This is platform specific.
-
-#### Parameters
-
-| Name       | Type       |
-| :--------- | :--------- |
-| `...paths` | `string`[] |
-
-#### Returns
-
-`string`
-
-#### Defined in
-
-[Gobot.ts:70](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L70)
+[Gobot.ts:182](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L182)
 
 ---
 
@@ -766,4 +745,4 @@ The default Gobot cache root. This is platform specific.
 
 #### Defined in
 
-[Gobot.ts:157](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L157)
+[Gobot.ts:149](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L149)

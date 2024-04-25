@@ -5,13 +5,9 @@ import { mkdir, readFile, writeFile } from 'fs/promises'
 import { dirname, join } from 'path'
 import { valid } from 'semver'
 import type { ReadonlyDeep } from 'type-fest'
-import {
-  COMPRESSED_ARCHIVE_EXTS,
-  type ArchKey,
-  type PlatformKey,
-  type Release,
-} from './Gobot'
+import { type ArchKey, type PlatformKey, type Release } from './Gobot'
 import { mergeConfig } from './api'
+import { COMPRESSED_ARCHIVE_EXTS } from './constants'
 import { dbg, info } from './util/log'
 import { safeRimraf } from './util/safeRimraf'
 import { stringify } from './util/stringify'

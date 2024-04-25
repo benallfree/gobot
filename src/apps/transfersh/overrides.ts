@@ -1,6 +1,7 @@
 import type { AppFactory } from '..'
 import { GithubReleaseProvider } from '../../GithubReleaseProvider'
-import { COMPRESSED_ARCHIVE_EXTS, Gobot } from '../../Gobot'
+import { Gobot } from '../../Gobot'
+import { COMPRESSED_ARCHIVE_EXTS } from '../../constants'
 
 class transfershGithubReleaseProvider extends GithubReleaseProvider {
   get className() {

@@ -92,7 +92,7 @@ Re-exports [GobotOptions](../interfaces/Gobot.GobotOptions.md)
 
 #### Defined in
 
-[GithubReleaseProvider.ts:96](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L96)
+[GithubReleaseProvider.ts:92](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L92)
 
 ## Functions
 
@@ -137,7 +137,7 @@ An instance of GobotBase
 
 #### Defined in
 
-[api.ts:33](https://github.com/benallfree/gobot/blob/main/src/api.ts#L33)
+[api.ts:34](https://github.com/benallfree/gobot/blob/main/src/api.ts#L34)
 
 ---
 
@@ -200,4 +200,4 @@ skipping`undefined` values.
 
 #### Defined in
 
-[api.ts:71](https://github.com/benallfree/gobot/blob/main/src/api.ts#L71)
+[api.ts:72](https://github.com/benallfree/gobot/blob/main/src/api.ts#L72)

@@ -1,6 +1,6 @@
 import { resolve } from 'path'
 import { rimraf } from 'rimraf'
-import { CACHE_ROOT } from '../Gobot'
+import { CACHE_ROOT } from '../constants'
 
 export const RIMRAF_SAFE_PATHS = [CACHE_ROOT()]
 export const safeRimraf = (

@@ -8,7 +8,6 @@ import {
 } from 'child_process'
 import decompress from 'decompress'
 import decompressUnzip from 'decompress-unzip'
-import envPaths from 'env-paths'
 import { chmodSync, existsSync, statSync, writeFileSync } from 'fs'
 import { globSync } from 'glob'
 import { markdownTable } from 'markdown-table'
@@ -18,6 +17,7 @@ import { compare, satisfies } from 'semver'
 import type { Readable } from 'stream'
 import decompressTarZ from '../packages/decompress-tar-z'
 import { GithubReleaseProvider } from './GithubReleaseProvider'
+import { CACHE_ROOT, COMPRESSED_ARCHIVE_EXTS } from './constants'
 import { verbosity } from './settings'
 import { downloadFile } from './util/downloadFile'
 import { dbg, info } from './util/log'
@@ -56,11 +56,6 @@ export interface GobotOptions {
 }
 
 export type VersionFormat = (typeof Gobot.VERSION_FORMATS)[number]
-
-export const COMPRESSED_ARCHIVE_EXTS = [`.zip`, `.tgz`, `.bz2`, `.gz`, `.xz`]
-
-export const CACHE_ROOT = (...paths: string[]) =>
-  resolve(envPaths('gobot').cache, ...paths)
 
 /**
  * Generic Gobot app. Subclass this for specific functionality.

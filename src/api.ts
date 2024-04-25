@@ -3,8 +3,9 @@ import {
   type GithubRelease,
   type GithubReleaseProviderOptions,
 } from './GithubReleaseProvider'
-import { CACHE_ROOT, Gobot, type GobotOptions } from './Gobot'
+import { Gobot, type GobotOptions } from './Gobot'
 import { isAppFactory, type AppInfo } from './apps/'
+import { CACHE_ROOT } from './constants'
 import { getApp } from './util/getApp'
 import { dbg } from './util/log'
 import { mergeConfig } from './util/mergeConfig'

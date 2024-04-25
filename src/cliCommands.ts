@@ -4,10 +4,9 @@ import { arch, platform } from 'os'
 import { basename, join } from 'path'
 import { table } from 'table'
 import json from '../package.json'
-import { CACHE_ROOT } from './Gobot'
 import { Gobot, gobot, type AppInfo } from './api'
+import { CACHE_ROOT, DIST_APPS_ROOT } from './constants'
 import { verbosity } from './settings'
-import { DIST_APPS_ROOT } from './util/getApp'
 import { dbg, info } from './util/log'
 
 export class Arg extends Argument {
