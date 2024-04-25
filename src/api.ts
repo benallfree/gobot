@@ -3,7 +3,7 @@ import {
   type GithubRelease,
   type GithubReleaseProviderOptions,
 } from './GithubReleaseProvider'
-import { Gobot, type GobotOptions } from './Gobot'
+import { CACHE_ROOT, Gobot, type GobotOptions } from './Gobot'
 import { isAppFactory, type AppInfo } from './apps/'
 import { getApp } from './util/getApp'
 import { dbg } from './util/log'
@@ -36,7 +36,7 @@ export const gobot = async (
 ): Promise<Gobot> => {
   dbg(`gobot() factory optionsIn`, sanitizeOptions(optionsIn))
   if (!optionsIn.cachePath) {
-    optionsIn.cachePath = Gobot.DEFAULT_GOBOT_CACHE_ROOT(appSlugOrPath)
+    optionsIn.cachePath = CACHE_ROOT(appSlugOrPath)
   }
   const app = await getApp(appSlugOrPath)
   if (app) {

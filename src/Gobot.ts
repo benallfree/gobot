@@ -59,6 +59,9 @@ export type VersionFormat = (typeof Gobot.VERSION_FORMATS)[number]
 
 export const COMPRESSED_ARCHIVE_EXTS = [`.zip`, `.tgz`, `.bz2`, `.gz`, `.xz`]
 
+export const CACHE_ROOT = (...paths: string[]) =>
+  resolve(envPaths('gobot').cache, ...paths)
+
 /**
  * Generic Gobot app. Subclass this for specific functionality.
  */
@@ -66,9 +69,6 @@ export class Gobot {
   /**
    * The default Gobot cache root. This is platform specific.
    */
-
-  static DEFAULT_GOBOT_CACHE_ROOT = (...paths: string[]) =>
-    resolve(envPaths('gobot').cache, ...paths)
 
   static VERSION_FORMATS = ['js', 'txt', 'json', 'cjs', 'esm', 'md'] as const
 
@@ -96,10 +96,7 @@ export class Gobot {
     optionsIn: Partial<GobotOptions> = {},
   ) {
     this.repo = repo
-    const defaultCachePath = Gobot.DEFAULT_GOBOT_CACHE_ROOT(
-      this.className,
-      this.repo,
-    )
+    const defaultCachePath = CACHE_ROOT(this.className, this.repo)
     dbg(`optionsIn`, sanitizeOptions(optionsIn))
     const options = mergeConfig<GobotOptions>(
       {
@@ -154,7 +151,7 @@ export class Gobot {
     await safeRimraf(this.cacheRoot, [this.cacheRoot])
   }
 
-  static async reset(cachePath = Gobot.DEFAULT_GOBOT_CACHE_ROOT()) {
+  static async reset(cachePath = CACHE_ROOT()) {
     dbg(`Clearing cache:`, cachePath)
     await safeRimraf(cachePath)
   }

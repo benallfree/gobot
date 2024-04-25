@@ -4,6 +4,7 @@ import { arch, platform } from 'os'
 import { basename, join } from 'path'
 import { table } from 'table'
 import json from '../package.json'
+import { CACHE_ROOT } from './Gobot'
 import { Gobot, gobot, type AppInfo } from './api'
 import { verbosity } from './settings'
 import { DIST_APPS_ROOT } from './util/getApp'
@@ -156,7 +157,7 @@ program.addCommand(
         } else {
           info(`Host platform: ${platform()}`)
           info(`Host architecture: ${arch()}`)
-          info(`Cache root:`, cachePath || Gobot.DEFAULT_GOBOT_CACHE_ROOT())
+          info(`Cache root:`, cachePath || CACHE_ROOT())
           const appPaths = globSync(join(DIST_APPS_ROOT, `*`, ''))
           const apps = (
             await Promise.all(
