@@ -1,6 +1,6 @@
 import { resolve } from 'path'
 import { rimraf } from 'rimraf'
-import { Gobot } from '../../dist/api'
+import { Gobot } from '../Gobot'
 
 export const safeRimraf = (
   path: string,
