@@ -9,7 +9,6 @@ import { RIMRAF_SAFE_PATHS } from '../src/util/safeRimraf'
 import { mkdir } from '../src/util/shell'
 import { SRC_PACKAGE_ROOT } from './commands/helpers/root'
 import {} from './commands/util/exec'
-import { startVerdaccio } from './commands/util/startVerdaccio'
 
 const args = process.argv.slice(2)
 const argv = minimist(args)
@@ -52,9 +51,9 @@ async function main() {
       (env) => {
         Plop.execute(env, async (env, argv) => {
           try {
-            const stop = await startVerdaccio()
+            // const stop = await startVerdaccio()
             await run(env, undefined, false)
-            await stop()
+            // await stop()
             resolve()
           } catch (e) {
             reject(e)
