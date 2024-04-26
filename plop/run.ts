@@ -65,6 +65,7 @@ async function main() {
     )
   })
   console.log(`plop finished`)
+  gracefulExit(0)
 }
 main().catch((e) => {
   console.error(e)
