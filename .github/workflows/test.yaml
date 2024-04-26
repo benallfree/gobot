@@ -27,4 +27,9 @@ jobs:
         run: pnpm i
 
       - name: Test ${{ matrix.app }}
-        run: pnpm plop test "gobot\,app:${{ matrix.app }}" --no-progress
+        run: |
+          if [ "${{ runner.os }}" = "Windows" ]; then
+            pnpm plop test "gobot`,app:${{ matrix.app }}" --no-progress
+          else
+            pnpm plop test "gobot,app:${{ matrix.app }}" --no-progress
+          fi
