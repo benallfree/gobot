@@ -4,7 +4,7 @@ import path, { dirname, join, resolve } from 'node:path'
 import { cwd } from 'node:process'
 import { fileURLToPath } from 'node:url'
 import { Plop, run } from 'plop'
-import { Flags } from '../src/util/flags'
+import { EnvVarNames } from '../src/constants'
 import { RIMRAF_SAFE_PATHS } from '../src/util/safeRimraf'
 import { mkdir } from '../src/util/shell'
 import { SRC_PACKAGE_ROOT } from './commands/helpers/root'
@@ -36,9 +36,9 @@ export const VERDACCIO_REGISTRY_URL = `http://test.gobot.lvh.me:4873`
 console.log({ GOBOT_TEST_CACHE_ROOT, GOBOT_TEST_CACHE_ROOT_NPM })
 
 async function main() {
-  if (!process.env[Flags.UseNpm]) {
-    process.env[Flags.NpmRegistryEndpoint] = VERDACCIO_REGISTRY_URL
-    process.env[Flags.NpmLocalRoot] = GOBOT_TEST_CACHE_ROOT_NPM
+  if (!process.env[EnvVarNames.UseNpm]) {
+    process.env[EnvVarNames.NpmRegistryEndpoint] = VERDACCIO_REGISTRY_URL
+    process.env[EnvVarNames.NpmLocalRoot] = GOBOT_TEST_CACHE_ROOT_NPM
   }
 
   await new Promise<void>((resolve, reject) => {

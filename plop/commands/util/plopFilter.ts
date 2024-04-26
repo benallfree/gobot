@@ -1,3 +1,3 @@
-import { Flags } from '../../../src/util/flags'
+import { EnvVarNames } from '../../../src/constants'
 
-export const plopFilter = () => process.env[Flags.PlopFilter] || '*'
+export const plopFilter = () => process.env[EnvVarNames.PlopFilter] || '*'

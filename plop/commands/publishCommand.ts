@@ -2,7 +2,7 @@ import { boolean } from 'boolean'
 import Bottleneck from 'bottleneck'
 import { globSync } from 'glob'
 import type { CustomActionFunction, NodePlopAPI } from 'plop'
-import { Flags } from '../../src/util/flags'
+import { EnvVarNames } from '../../src/constants'
 import { cleanVerdaccioPackages } from './helpers/cleanVerdaccioPackages'
 import { exec } from './helpers/exec'
 import { getSlugsFromFileSystem } from './util/getSlugsFromFileSystem'
@@ -10,7 +10,7 @@ import { mkSubcommander, type Subcommands } from './util/mkSubcommander'
 import { plopFilter } from './util/plopFilter'
 
 export const publishCommand = (plop: NodePlopAPI) => {
-  const dryRun = !boolean(process.env[Flags.ReallyPublish])
+  const dryRun = !boolean(process.env[EnvVarNames.ReallyPublish])
   const d = dryRun ? '--dry-run' : ''
   const s = ``
   const p = `${s} ${d}`
@@ -75,7 +75,7 @@ export const publishCommand = (plop: NodePlopAPI) => {
     ],
   }
 
-  const flags = `${Flags.UseNpm}=${process.env[Flags.UseNpm]} ${Flags.ReallyPublish}=${process.env[Flags.ReallyPublish] || 0} ${Flags.NpmRegistryEndpoint}=${process.env[Flags.NpmRegistryEndpoint] || 'npm'}`
+  const flags = `${EnvVarNames.UseNpm}=${process.env[EnvVarNames.UseNpm]} ${EnvVarNames.ReallyPublish}=${process.env[EnvVarNames.ReallyPublish] || 0} ${EnvVarNames.NpmRegistryEndpoint}=${process.env[EnvVarNames.NpmRegistryEndpoint] || 'npm'}`
   mkSubcommander(
     `publish`,
     `Publish to registry (${flags})`,

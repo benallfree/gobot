@@ -8,7 +8,7 @@ import { join } from 'path'
 import type { ActionType, NodePlopAPI } from 'plop'
 import pkg from '../../package.json'
 import type { ArchKey, PlatformKey } from '../../src/Gobot'
-import { Flags } from '../../src/util/flags'
+import { EnvVarNames } from '../../src/constants'
 import { cleanVerdaccioPackages } from './helpers/cleanVerdaccioPackages'
 import { exec } from './helpers/exec'
 import { rimraf } from './helpers/rimraf'
@@ -30,7 +30,7 @@ export function testCommand(plop: NodePlopAPI) {
         exec(`npm run plop pack gobot -- --no-progress`),
         exec(`npm run plop publish gobot -- --no-progress`, {
           env: {
-            [Flags.ReallyPublish]: `1`, // Defaults to local Verdaccio
+            [EnvVarNames.ReallyPublish]: `1`, // Defaults to local Verdaccio
           },
         }),
         exec(`npm rm -g gobot`),
@@ -79,10 +79,13 @@ export function testCommand(plop: NodePlopAPI) {
             `npm run plop build gobot,template:app:helper,app:${slug} -- --no-progress`,
           ),
           exec(`npm run plop pack apps:helpers:latest -- --no-progress`, {
-            env: { [Flags.PlopFilter]: slug },
+            env: { [EnvVarNames.PlopFilter]: slug },
           }),
           exec(`npm run plop publish apps:helpers:latest -- --no-progress`, {
-            env: { [Flags.PlopFilter]: slug, [Flags.ReallyPublish]: `1` },
+            env: {
+              [EnvVarNames.PlopFilter]: slug,
+              [EnvVarNames.ReallyPublish]: `1`,
+            },
           }),
           rimraf(join(cachePath, `releases.json`)),
           async (answers, { onProgress }) => {
