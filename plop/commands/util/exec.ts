@@ -5,6 +5,7 @@ import { GOBOT_TEST_CACHE_ROOT_NPM } from '../../run'
 
 export const exec: typeof spawn = async (cmd, _options, onProc) => {
   const env = { ...process.env }
+  console.log({ env })
 
   const options = {
     ..._options,
