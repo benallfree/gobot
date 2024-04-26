@@ -55,7 +55,6 @@ async function main() {
             const stop = await startVerdaccio()
             await run(env, undefined, false)
             await stop()
-            console.log(`all done`)
             resolve()
           } catch (e) {
             reject(e)

@@ -34,13 +34,10 @@ export const startVerdaccio = async () => {
         return
       }
       if (proc?.killed) {
-        console.log(`proc already killed`)
         resolve(proc.exitCode || 0)
       } else {
-        console.log(`Stopping verdaccio...`)
         proc!.on('exit', (code) => {
           proc = undefined
-          console.log(`proc exited`)
           resolve(code || 0)
         })
         proc!.kill()
