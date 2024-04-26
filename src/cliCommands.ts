@@ -3,6 +3,7 @@ import { globSync } from 'glob'
 import { arch, platform } from 'os'
 import { basename, join } from 'path'
 import { table } from 'table'
+import { pathToFileURL } from 'url'
 import json from '../package.json'
 import { Gobot, gobot, type AppInfo } from './api'
 import { CACHE_ROOT, DIST_APPS_ROOT } from './constants'
@@ -161,9 +162,10 @@ program.addCommand(
           const apps = (
             await Promise.all(
               appPaths.map(async (appPath) => {
+                const appUrl = pathToFileURL(appPath).href
                 const appSlug = basename(appPath)
                 return {
-                  ...(await import(join(appPath, `index.js`)))[appSlug],
+                  ...(await import(appUrl))[appSlug],
                   name: appSlug,
                 } as AppInfo
               }),

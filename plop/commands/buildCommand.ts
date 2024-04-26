@@ -1,6 +1,7 @@
 import { globSync } from 'glob'
 import { join } from 'path'
 import type { NodePlopAPI } from 'plop'
+import { pathToFileURL } from 'url'
 import { cliForApp, type AppInfoMeta } from '../../src/api'
 import { program } from '../../src/cliCommands'
 import { pwd } from '../../src/util/shell'
@@ -182,11 +183,13 @@ export const buildCommand = (plop: NodePlopAPI) => {
             pattern: /##CLI##/,
             templateFile: `templates/readme/cli.helper.md.hbs`,
             data: async () => {
-              const appInfo = (
-                await import(
-                  join(pwd(), `/src/apps/${slug}/helper/dist/api.js`)
-                )
-              ).meta as AppInfoMeta
+              const appHelperMetaPath = join(
+                pwd(),
+                `/src/apps/${slug}/helper/dist/api.js`,
+              )
+              const appHelperMetaUrl = pathToFileURL(appHelperMetaPath).href
+              const appInfo = (await import(appHelperMetaUrl))
+                .meta as AppInfoMeta
               const program = cliForApp(appInfo)
               const serialized = JSON.parse(stringify(program))
               return { program: serialized, global: serialized }

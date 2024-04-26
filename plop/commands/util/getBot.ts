@@ -1,7 +1,7 @@
 import { isFunction } from '@s-libs/micro-dash'
 import { existsSync } from 'fs'
 import { dirname, join } from 'path'
-import { fileURLToPath } from 'url'
+import { fileURLToPath, pathToFileURL } from 'url'
 import {
   GithubReleaseProvider,
   Gobot,
@@ -14,12 +14,13 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
 export async function getBot(appSlug: string, options?: Partial<GobotOptions>) {
-  const appPath = join(SRC_APPS_ROOT, appSlug)
-  console.log({ appPath }, existsSync(appPath))
-  const module = await import(appPath).catch(console.error)
+  const appFilePath = join(SRC_APPS_ROOT, appSlug)
+  const appUrlPath = pathToFileURL(appFilePath).href
+  console.log({ appUrlPath }, existsSync(appFilePath))
+  const module = await import(appUrlPath).catch(console.error)
   const appInfo = module[appSlug] as AppInfo
   const { factory } = appInfo
-  const cachePath = join(appPath, `test-data`)
+  const cachePath = join(appFilePath, `test-data`)
   const bot = (() => {
     if (isFunction(factory)) {
       return factory({ ...options, cachePath, env: process.env })
