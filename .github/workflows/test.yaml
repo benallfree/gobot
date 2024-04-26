@@ -33,3 +33,4 @@ jobs:
           else
             pnpm plop test "gobot,app:${{ matrix.app }}" --no-progress
           fi
+        shell: bash
