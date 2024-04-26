@@ -24,6 +24,10 @@ const argv = minimist(args)
 
 export function testCommand(plop: NodePlopAPI) {
   const subcommands: Subcommands = {
+    noop: {
+      gen: [],
+      clean: [],
+    },
     gobot: {
       gen: async () => [
         exec(`npm run plop build gobot -- --no-progress`),
