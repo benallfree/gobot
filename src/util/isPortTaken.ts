@@ -11,6 +11,6 @@ export const isPortTaken = async (port: number): Promise<boolean> => {
         console.log(`port ${port} is available`)
         tester.once('close', () => resolve(false)).close()
       })
-      .listen(port, `localhost`)
+      .listen(port, `test.gobot.lvh.me`)
   })
 }

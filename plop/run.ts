@@ -31,7 +31,7 @@ RIMRAF_SAFE_PATHS.push(SRC_PACKAGE_ROOT)
 export const GOBOT_TEST_CACHE_ROOT_NPM = join(GOBOT_TEST_CACHE_ROOT, `npm`)
 mkdir(GOBOT_TEST_CACHE_ROOT_NPM)
 
-export const VERDACCIO_REGISTRY_URL = `http://localhost:4873`
+export const VERDACCIO_REGISTRY_URL = `http://test.gobot.lvh.me:4873`
 
 console.log({ GOBOT_TEST_CACHE_ROOT, GOBOT_TEST_CACHE_ROOT_NPM })
 
