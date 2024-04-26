@@ -51,6 +51,7 @@ export const exec =
       onProgress(`Comparing snapshot ${snapshotFname}`)
       await matchSnapshot([ret, stdout, stderr], snapshotFname)
     }
+    console.log({ ret })
     if (ret !== expectedExitCode) {
       const msg = `Expected code ${expectedExitCode} but got ${ret} for command ${cmd}`
       onProgress(msg)
