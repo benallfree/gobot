@@ -5,7 +5,7 @@ import { spawn } from '../../../src/util/spawn'
 import { GOBOT_TEST_CACHE_ROOT_NPM } from '../../run'
 
 // https://github.com/nodejs/node/issues/20605#issuecomment-387489708
-const PATH_SYM = platform === 'win32' ? `Path` : `PATH`
+const PATH_SYM = platform === 'win32' ? `PATH` : `PATH`
 
 export const exec: typeof spawn = async (cmd, _options, onProc) => {
   const env = { ...process.env }
