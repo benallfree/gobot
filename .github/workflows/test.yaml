@@ -29,4 +29,4 @@ jobs:
       - name: Test ${{ matrix.app }}
         run: |
           pnpm plop test "gobot" --no-progress
-          pnpm plop test "app-${{ matrix.app }}" --no-progress
+          pnpm plop test "app:${{ matrix.app }}" --no-progress

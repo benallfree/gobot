@@ -65,7 +65,7 @@ export function testCommand(plop: NodePlopAPI) {
     },
   }
   getSlugsFromFileSystem().forEach((slug) => {
-    subcommands[`app-${slug}`] = {
+    subcommands[`app:${slug}`] = {
       gen: async () => {
         const appPath = join(SRC_APPS_ROOT, slug)
 

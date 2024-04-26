@@ -1,4 +1,5 @@
 import { isFunction } from '@s-libs/micro-dash'
+import { existsSync } from 'fs'
 import { dirname, join } from 'path'
 import { fileURLToPath } from 'url'
 import {
@@ -14,7 +15,8 @@ const __dirname = dirname(__filename)
 
 export async function getBot(appSlug: string, options?: Partial<GobotOptions>) {
   const appPath = join(SRC_APPS_ROOT, appSlug)
-  const module = await import(join(appPath)).catch(console.error)
+  console.log({ appPath }, existsSync(appPath))
+  const module = await import(appPath).catch(console.error)
   const appInfo = module[appSlug] as AppInfo
   const { factory } = appInfo
   const cachePath = join(appPath, `test-data`)
