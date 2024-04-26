@@ -131,7 +131,7 @@ export function testCommand(plop: NodePlopAPI) {
                   onProgress(
                     `Fetching ${slug}:${osName}:${archName}:${version} inline...`,
                   )
-                  const { bot } = await getBot(appPath, {
+                  const { bot } = await getBot(slug, {
                     os: osName,
                     arch: archName,
                     version,
