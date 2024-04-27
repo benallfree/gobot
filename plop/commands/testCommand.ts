@@ -72,15 +72,18 @@ export function testCommand(plop: NodePlopAPI) {
           exec(
             `npm run plop build gobot,template:app:helper,app:${slug} -- --no-progress`,
           ),
-          exec(`npm run plop pack apps:helpers:latest -- --no-progress`, {
+          exec(`npm run plop pack gobot,apps:helpers:latest -- --no-progress`, {
             env: { [EnvVarNames.PlopFilter]: slug },
           }),
-          exec(`npm run plop publish apps:helpers:latest -- --no-progress`, {
-            env: {
-              [EnvVarNames.PlopFilter]: slug,
-              [EnvVarNames.ReallyPublish]: `1`,
+          exec(
+            `npm run plop publish gobot,apps:helpers:latest -- --no-progress`,
+            {
+              env: {
+                [EnvVarNames.PlopFilter]: slug,
+                [EnvVarNames.ReallyPublish]: `1`,
+              },
             },
-          }),
+          ),
           rimraf(join(cachePath, `releases.json`)),
           async (answers, { onProgress }) => {
             onProgress(`Fetching releases for snapshot comparison`)
