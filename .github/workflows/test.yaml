@@ -28,7 +28,7 @@ jobs:
 
       - name: Start verdaccio
         run: |
-          pnpm verdaccio:serve
+          pnpm verdaccio:serve &
           sleep 5
           pnpm verdaccio:login
 
