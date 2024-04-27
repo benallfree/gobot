@@ -61,8 +61,6 @@ export function testCommand(plop: NodePlopAPI) {
 
         const appHelperPath = join(appPath, `helper`)
 
-        const tgz = globSync(`gobot-*.tgz`, { cwd: appHelperPath })[0]
-
         const { bot } = await getBot(slug)
 
         const shouldRun = async () =>
@@ -175,7 +173,14 @@ export function testCommand(plop: NodePlopAPI) {
             await exec(`gobot ${slug} ${args.join(',')}`)(answers, config, plop)
             return `${slug} run successful`
           },
-          exec(`npm i -g ${tgz}`, { cwd: appHelperPath }),
+          async (answers, config, plop) => {
+            const tgz = globSync(`gobot-*.tgz`, { cwd: appHelperPath })[0]
+            return exec(`npm i -g ${tgz}`, { cwd: appHelperPath })(
+              answers,
+              config,
+              plop,
+            )
+          },
           async (answers, config, plop) => {
             if (!(await shouldRun()))
               return `${slug} is not available for platform. Skipping tgz bin alias exec`
