@@ -26,11 +26,5 @@ jobs:
       - name: Install deps
         run: pnpm i
 
-      - name: Start verdaccio
-        run: |
-          pnpm verdaccio:serve &
-          sleep 5
-          pnpm verdaccio:login
-
       - name: Test ${{ matrix.app }}
         run: pnpm plop test "app:${{ matrix.app }}" --no-progress
