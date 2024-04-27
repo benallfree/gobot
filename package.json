@@ -18,8 +18,8 @@
     "docs": "typedoc && prettier -w docs",
     "lint": "prettier -c .",
     "lint:fix": "prettier -w .",
-    "verdaccio:serve": "verdaccio  -c verdaccio.config.yaml -l test.gobot.lvh.me:4873",
-    "verdaccio:login": "npm-cli-login -u user -p password -e test@example.com -r http://test.gobot.lvh.me:4873"
+    "verdaccio:serve": "verdaccio  -c verdaccio.config.yaml -l 127.0.0.1:4873",
+    "verdaccio:login": "npm-cli-login -u user -p password -e test@example.com -r http://127.0.0.1:4873"
   },
   "engines": {
     "node": ">=18.17.0"
