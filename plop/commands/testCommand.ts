@@ -61,6 +61,8 @@ export function testCommand(plop: NodePlopAPI) {
 
         const appHelperPath = join(appPath, `helper`)
 
+        const tgz = globSync(`gobot-*.tgz`, { cwd: appHelperPath })[0]
+
         const { bot } = await getBot(slug)
 
         const shouldRun = async () =>
@@ -169,20 +171,11 @@ export function testCommand(plop: NodePlopAPI) {
           async (answers, config, plop) => {
             if (!(await shouldRun()))
               return `${slug} is not available for platform. Skipping gobot exec`
-            return exec(`gobot ${slug} ${args.join(',')}`)(
-              answers,
-              config,
-              plop,
-            )
+            await exec(`npm i -g gobot`)(answers, config, plop)
+            await exec(`gobot ${slug} ${args.join(',')}`)(answers, config, plop)
+            return `${slug} run successful`
           },
-          async (answers, config, plop) => {
-            const tgz = globSync(`gobot-*.tgz`, { cwd: appHelperPath })[0]
-            return exec(`npm i -g ${tgz}`, { cwd: appHelperPath })(
-              answers,
-              config,
-              plop,
-            )
-          },
+          exec(`npm i -g ${tgz}`, { cwd: appHelperPath }),
           async (answers, config, plop) => {
             if (!(await shouldRun()))
               return `${slug} is not available for platform. Skipping tgz bin alias exec`
@@ -191,7 +184,6 @@ export function testCommand(plop: NodePlopAPI) {
           exec(`npm rm -g gobot-${slug.toLocaleLowerCase()}`, {
             cwd: appHelperPath,
           }),
-          exec(`npm i -g gobot`),
           exec(`npm i -g gobot-${slug.toLocaleLowerCase()}`, {
             cwd: appHelperPath,
           }),
