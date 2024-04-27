@@ -37,11 +37,7 @@ export function testCommand(plop: NodePlopAPI) {
             [EnvVarNames.ReallyPublish]: `1`, // Defaults to local Verdaccio
           },
         }),
-        exec(`npm rm -g gobot`),
-
         exec(`npm i -g gobot-${pkg.version}.tgz`),
-
-        exec('npm prefix -g'),
 
         exec(`gobot --g-version`),
 
