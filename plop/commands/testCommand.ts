@@ -191,6 +191,7 @@ export function testCommand(plop: NodePlopAPI) {
           exec(`npm rm -g gobot-${slug.toLocaleLowerCase()}`, {
             cwd: appHelperPath,
           }),
+          exec(`npm i -g gobot`),
           exec(`npm i -g gobot-${slug.toLocaleLowerCase()}`, {
             cwd: appHelperPath,
           }),
