@@ -13,10 +13,10 @@
 ### Accessors
 
 - [allowedExts](api.GithubReleaseProvider.md#allowedexts)
+- [className](api.GithubReleaseProvider.md#classname)
 - [excludedExts](api.GithubReleaseProvider.md#excludedexts)
 - [platformMap](api.GithubReleaseProvider.md#platformmap)
 - [releasesKey](api.GithubReleaseProvider.md#releaseskey)
-- [slug](api.GithubReleaseProvider.md#slug)
 
 ### Methods
 
@@ -81,6 +81,20 @@
 
 ---
 
+### className
+
+• `get` **className**(): `string`
+
+#### Returns
+
+`string`
+
+#### Defined in
+
+[GithubReleaseProvider.ts:151](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L151)
+
+---
+
 ### excludedExts
 
 • `get` **excludedExts**(): `string`[]
@@ -127,20 +141,6 @@
 #### Defined in
 
 [GithubReleaseProvider.ts:180](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L180)
-
----
-
-### slug
-
-• `get` **slug**(): `string`
-
-#### Returns
-
-`string`
-
-#### Defined in
-
-[GithubReleaseProvider.ts:151](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L151)
 
 ## Methods
 
