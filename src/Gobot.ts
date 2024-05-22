@@ -24,6 +24,7 @@ import { dbg, info } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { safeRimraf } from './util/safeRimraf'
 import { sanitizeOptions } from './util/sanitize'
+import { expandAndSortSemVers } from './util/semver'
 import { mkdir, pwd } from './util/shell'
 import { spawn } from './util/spawn'
 import { stringify } from './util/stringify'
@@ -183,13 +184,20 @@ export class Gobot {
   }
 
   async versions(type?: 'js'): Promise<string[]>
-  async versions(type?: 'md'): Promise<string>
+  async versions(type: 'md'): Promise<string>
   async versions(type: 'json'): Promise<string>
   async versions(type: 'txt'): Promise<string>
   async versions(type: 'cjs'): Promise<string>
   async versions(type: 'esm'): Promise<string>
-  async versions(type: VersionFormat = 'js'): Promise<string | string[]> {
-    const versions = (await this.releases()).map((release) => release.version)
+  async versions(
+    type: VersionFormat = 'js',
+    includeWildcards = false,
+  ): Promise<string | string[]> {
+    const versions = await (async () => {
+      const versions = (await this.releases()).map((release) => release.version)
+      if (!includeWildcards) return versions
+      return expandAndSortSemVers(versions)
+    })()
     const js = versions
     if (type === `js`) return js
     if (type === `txt`) return js.join(`\n`)
