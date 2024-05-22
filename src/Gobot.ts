@@ -85,7 +85,7 @@ export class Gobot {
    * Create a new Gobot
    *
    * @param repo The repo name, in `<user>/<repo>` format.
-   * @param optionsIn Option overrides
+   * @param optionsIn Option overrides. `env` is passed to the spawned process.
    */
   constructor(
     repo: string,
@@ -397,7 +397,7 @@ export class Gobot {
   /**
    * Run a binary
    * @param args Array of arguments to pass to the binary
-   * @param options Spawn options
+   * @param options Spawn options specific to this run. `env` from these options is merged with `env` from Gobot constructor options, if any.
    * @param onProc Callback with child process after spawn() launches
    * @returns Exit code from spawned process
    */
@@ -426,7 +426,11 @@ export class Gobot {
     const _filteredArgs = this.filterArgs(args)
     dbg(`Filtered args`, _filteredArgs)
 
-    return spawn([fname, ..._filteredArgs].join(' '), options, onProc)
+    return spawn(
+      [fname, ..._filteredArgs].join(' '),
+      { ...options, env: { ...this.env, ...options.env } },
+      onProc,
+    )
   }
 }
 
