@@ -183,12 +183,12 @@ export class Gobot {
     await safeRimraf(this.cachePath()(RELEASES_NAME), [this.cacheRoot])
   }
 
-  async versions(type?: 'js'): Promise<string[]>
-  async versions(type: 'md'): Promise<string>
-  async versions(type: 'json'): Promise<string>
-  async versions(type: 'txt'): Promise<string>
-  async versions(type: 'cjs'): Promise<string>
-  async versions(type: 'esm'): Promise<string>
+  async versions(type?: 'js', includeWildcards?: boolean): Promise<string[]>
+  async versions(type: 'md', includeWildcards?: boolean): Promise<string>
+  async versions(type: 'json', includeWildcards?: boolean): Promise<string>
+  async versions(type: 'txt', includeWildcards?: boolean): Promise<string>
+  async versions(type: 'cjs', includeWildcards?: boolean): Promise<string>
+  async versions(type: 'esm', includeWildcards?: boolean): Promise<string>
   async versions(
     type: VersionFormat = 'js',
     includeWildcards = false,
