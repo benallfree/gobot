@@ -168,7 +168,7 @@ export class Gobot {
   async download() {
     const exactVersions = await this.getSatisfyingVersions(this.version)
 
-    info(`Downloading versions`, exactVersions)
+    info(`Downloading versions`, stringify(exactVersions))
     const limiter = new Bottleneck({ maxConcurrent: 10 })
     await Promise.all(
       exactVersions.map((exactVersion) => {
