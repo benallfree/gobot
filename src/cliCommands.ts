@@ -199,7 +199,7 @@ program.addCommand(
       new Opt(
         `--g-use-version <version>`,
         `Download a specific binary version (format: x.y.z semver or x.y.* semver range)`,
-      ).default(``, `*`),
+      ).default(`*`, `*`),
     )
     .addOption(
       new Opt(`--g-os <os>`, `Specify OS/Platform`).default(
@@ -231,7 +231,7 @@ program.addCommand(
         const bot = await gobot(appName, {
           os,
           arch,
-          version: gUseVersion || `*`,
+          version: gUseVersion,
           cachePath,
           env: process.env,
         })
