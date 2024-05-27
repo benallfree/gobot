@@ -318,12 +318,12 @@ export class Gobot {
       const downloadPath = join(name, basename(archivePath))
       try {
         info(`Downloading ${url} to ${downloadPath}`)
-      const res = await downloadFile(url, downloadPath)
+        const res = await downloadFile(url, downloadPath)
 
-      await this.unpack(downloadPath, exactVersion)
+        await this.unpack(downloadPath, exactVersion)
 
-      // Ensure the binary is executable
-      if (this.os !== 'win32') {
+        // Ensure the binary is executable
+        if (this.os !== 'win32') {
           chmodSync(downloadPath, '755')
         }
 
