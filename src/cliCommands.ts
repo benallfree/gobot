@@ -151,7 +151,6 @@ program.addCommand(
             cachePath,
             env: process.env,
           })
-          await bot.clearAllReleases()
           const fmt = await bot.versions('md')
           info(fmt)
         } else {
