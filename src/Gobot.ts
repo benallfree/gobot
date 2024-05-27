@@ -160,6 +160,9 @@ export class Gobot {
     await safeRimraf(cachePath)
   }
 
+  /**
+   * Download the binary for the specified semver.
+   */
   async download() {
     const exactVersions = await this.getSatisfyingVersions(this.version)
 
@@ -174,13 +177,19 @@ export class Gobot {
     )
   }
 
+  /**
+   * Clear releases index and underlying release provider cache.
+   */
   async clearAllReleases() {
     await this.releaseProvider.reset()
     await safeRimraf(this.cachePath()(RELEASES_NAME), [this.cacheRoot])
   }
 
+  /**
+   * Clear stored releases only.
+   */
   async clearStoredReleases() {
-    await safeRimraf(this.cachePath()(RELEASES_NAME), [this.cacheRoot])
+    return safeRimraf(this.cachePath()(RELEASES_NAME), [this.cacheRoot])
   }
 
   async versions(type?: 'js', includeWildcards?: boolean): Promise<string[]>
