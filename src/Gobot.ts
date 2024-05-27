@@ -347,7 +347,7 @@ export class Gobot {
   }
 
   satisfies(version: string, range: string) {
-    return satisfies(version, range)
+    return satisfies(version, range, { includePrerelease: true })
   }
 
   async getSatisfyingVersions(range: string) {
