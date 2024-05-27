@@ -293,8 +293,7 @@ export class Gobot {
     }
   }
 
-  async getBinaryPath(versionRangeIn?: string) {
-    const versionRange = versionRangeIn || this.version || `*`
+  async getBinaryPath(versionRange = this.version || `*`) {
     const storedRelease = await this.maxSatisfyingRelease(versionRange)
     if (!storedRelease) {
       throw new Error(
