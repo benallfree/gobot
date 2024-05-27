@@ -16,7 +16,7 @@ export const downloadFile = async (url: string, path: string) => {
     throw new Error(`Expected body here`)
   }
 
-  rinfo('Downloading') // Initial log for downloading
+  rinfo(`Downloading`) // Initial log for downloading
 
   const stream = createWriteStream(path)
   body.on('data', (chunk) => {
@@ -36,11 +36,11 @@ export const downloadFile = async (url: string, path: string) => {
 
   return new Promise<void>((resolve, reject) => {
     stream.on('finish', () => {
-      info('\nDownload completed.') // Newline after download finishes
+      info(`\nDownload completed ${url}.`) // Newline after download finishes
       resolve()
     })
     stream.on('error', (error) => {
-      infoe('\nDownload failed.') // Newline and error message on failure
+      infoe(`\nDownload failed ${url}.`) // Newline and error message on failure
       reject(error)
     })
   })
