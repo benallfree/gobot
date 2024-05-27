@@ -182,7 +182,7 @@ export class Gobot {
    */
   async clearAllReleases() {
     await this.releaseProvider.reset()
-    await safeRimraf(this.cachePath()(RELEASES_NAME), [this.cacheRoot])
+    await this.clearStoredReleases()
   }
 
   /**
