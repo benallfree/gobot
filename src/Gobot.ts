@@ -107,7 +107,7 @@ export class Gobot {
       {
         os: platform(),
         arch: _arch() as ArchKey,
-        version: ``,
+        version: `*`,
         env: {},
         cachePath: defaultCachePath,
       },
@@ -120,6 +120,7 @@ export class Gobot {
     this.version = version
     this.env = env
     this.cacheRoot = resolve(pwd(), cachePath)
+    if (this.version === '') throw new Error(`Version cannot be empty`)
     mkdir(this.cacheRoot)
     dbg(`Final cache root`, this.cacheRoot)
     this.releaseProvider = releaseProviderFactory(
