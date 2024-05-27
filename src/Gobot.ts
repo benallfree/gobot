@@ -9,18 +9,19 @@ import {
 import decompress from 'decompress'
 import decompressUnzip from 'decompress-unzip'
 import envPaths from 'env-paths'
-import { chmodSync, existsSync, statSync, writeFileSync } from 'fs'
+import { chmodSync, existsSync, renameSync, statSync, writeFileSync } from 'fs'
 import { globSync } from 'glob'
 import { markdownTable } from 'markdown-table'
 import { arch as _arch, platform } from 'os'
 import { basename, join, resolve } from 'path'
 import { compare, satisfies } from 'semver'
 import type { Readable } from 'stream'
+import tmp from 'tmp'
 import decompressTarZ from '../packages/decompress-tar-z'
 import { GithubReleaseProvider } from './GithubReleaseProvider'
 import { verbosity } from './settings'
 import { downloadFile } from './util/downloadFile'
-import { dbg, info } from './util/log'
+import { dbg, info, infoe } from './util/log'
 import { mergeConfig } from './util/mergeConfig'
 import { safeRimraf } from './util/safeRimraf'
 import { sanitizeOptions } from './util/sanitize'
@@ -310,19 +311,27 @@ export class Gobot {
 
     const { version: exactVersion, archives } = storedRelease
 
-    const downloadPath = this.archivePath(exactVersion, url)
+    const archivePath = this.archivePath(exactVersion, url)
 
-    if (!existsSync(downloadPath)) {
-      info(`Downloading ${url}`)
+    if (!existsSync(archivePath)) {
+      const { name, removeCallback } = tmp.dirSync()
+      const downloadPath = join(name, basename(archivePath))
+      try {
+        info(`Downloading ${url} to ${downloadPath}`)
       const res = await downloadFile(url, downloadPath)
 
       await this.unpack(downloadPath, exactVersion)
 
-      const unpackedBinPath = this.findArchiveBinPath(exactVersion)
-
       // Ensure the binary is executable
       if (this.os !== 'win32') {
-        chmodSync(unpackedBinPath, '755')
+          chmodSync(downloadPath, '755')
+        }
+
+        info(`Renamed ${downloadPath} to ${archivePath}`)
+        renameSync(downloadPath, archivePath)
+      } catch (e) {
+        infoe(e)
+        removeCallback()
       }
     }
 

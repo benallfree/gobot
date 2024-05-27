@@ -54,9 +54,11 @@
     "semver": "^7.6.0",
     "table": "^6.8.2",
     "tar-stream": "1.6.2",
+    "tmp": "^0.2.3",
     "unbzip2-stream": "^1.4.3"
   },
   "devDependencies": {
+    "@types/tmp": "^0.2.6",
     "@types/decompress": "^4.2.7",
     "@types/diff": "^5.0.9",
     "@types/find-package-json": "^1.2.6",
@@ -97,6 +99,5 @@
       "plop@4.0.1": "patches/plop@4.0.1.patch",
       "node-plop@0.32.0": "patches/node-plop@0.32.0.patch"
     }
-  },
-  "packageManager": "pnpm@9.1.2"
+  }
 }
