@@ -181,10 +181,18 @@ export class GithubReleaseProvider {
     return 'releases.json'
   }
 
+  /**
+   * Reset the cache entirely.
+   */
   async reset() {
     await safeRimraf(this.cacheRoot, [this.cacheRoot])
   }
 
+  /**
+   * Fetch the remote releases from the Github API.
+   *
+   * @returns {Promise<GithubReleaseCollection>}
+   */
   async remoteReleases() {
     const releases = await this.fs.read<GithubReleaseCollection>(
       this.releasesKey,
