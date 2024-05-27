@@ -137,7 +137,7 @@ program.addCommand(
     )
     .helpOption(`--g-help`)
     .description(
-      `Display Gobot registry information. If [appName] is specified, Gobot will fresh release information and display. Otherwise, Gobot will display an overview of current registry information`,
+      `Display Gobot registry information. If [appName] is specified, Gobot will display release information. Otherwise, Gobot will display an overview of current registry information`,
     )
     .helpOption(`--g-help`)
     .action(async (appName, options, command) => {
