@@ -282,6 +282,8 @@ program.addCommand(
           cachePath,
         })
         await bot.update()
+        const fmt = await bot.versions('md')
+        info(fmt)
       } catch (e) {
         console.error(`${e}`)
       }
