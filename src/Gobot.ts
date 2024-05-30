@@ -9,7 +9,7 @@ import {
 import decompress from 'decompress'
 import decompressUnzip from 'decompress-unzip'
 import envPaths from 'env-paths'
-import { chmodSync, existsSync, renameSync, statSync, writeFileSync } from 'fs'
+import { chmodSync, existsSync, renameSync, statSync } from 'fs'
 import { globSync } from 'glob'
 import { markdownTable } from 'markdown-table'
 import { arch as _arch, platform } from 'os'
@@ -80,7 +80,6 @@ export class Gobot {
   protected version: string
   protected env: NodeJS.ProcessEnv
   protected cacheRoot: string
-  protected storedReleases: undefined | Release[] = undefined
   protected releaseProvider: GithubReleaseProvider
 
   /**
@@ -183,14 +182,6 @@ export class Gobot {
    */
   async clearAllReleases() {
     await this.releaseProvider.reset()
-    await this.clearStoredReleases()
-  }
-
-  /**
-   * Clear stored releases only.
-   */
-  async clearStoredReleases() {
-    return safeRimraf(this.cachePath(RELEASES_NAME), [this.cacheRoot])
   }
 
   async versions(type?: 'js', includeWildcards?: boolean): Promise<string[]>
@@ -377,20 +368,8 @@ export class Gobot {
   }
 
   async releases() {
-    const cachedReleasesFilePath = this.cachePath(RELEASES_NAME)
-    dbg(`Releases cache: ${cachedReleasesFilePath}`)
-
-    if (this.storedReleases) return this.storedReleases
-
-    this.storedReleases = (await this.releaseProvider.reduceReleases()).sort(
-      (a, b) => this.compare(b.version, a.version),
-    )
-
-    const json = stringify(this.storedReleases, undefined, 2)
-    writeFileSync(cachedReleasesFilePath, json)
-    dbg(`Stored releases from fetch`, cachedReleasesFilePath)
-
-    return this.storedReleases
+    const releases = await this.releaseProvider.reduceReleases()
+    return releases.sort((a, b) => this.compare(b.version, a.version))
   }
 
   filterArgs(args: string[]) {
