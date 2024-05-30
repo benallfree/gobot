@@ -235,7 +235,7 @@ export class Gobot {
     return binName
   }
 
-  findArchiveBinPath(version: string) {
+  findBinFilePathInArchiveDir(version: string) {
     const path = this.archiveDirPath(version)
     const fname = (() => {
       const fname = globSync(join(path, `**`, this.binName), { nodir: true })[0]
@@ -322,14 +322,14 @@ export class Gobot {
       }
     }
 
-    const unpackedBinPath = this.findArchiveBinPath(exactVersion)
-    dbg(`Unpacked bin path`, unpackedBinPath)
+    const binFilePath = this.findBinFilePathInArchiveDir(exactVersion)
+    dbg(`Unpacked bin path`, binFilePath)
 
     // Ensure the binary is executable
     if (this.os !== 'win32') {
-      chmodSync(unpackedBinPath, '755')
+      chmodSync(binFilePath, '755')
     }
-    return unpackedBinPath
+    return binFilePath
   }
 
   compare(a: string, b: string) {
