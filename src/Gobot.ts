@@ -342,6 +342,7 @@ export class Gobot {
   }
 
   async getSatisfyingVersions(range: string) {
+    if (range === `latest`) return [await this.getLatestVersion()]
     const tags = await this.versions()
     return tags.filter((version) => this.satisfies(version, range))
   }
