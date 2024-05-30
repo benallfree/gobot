@@ -171,7 +171,7 @@ export class Gobot {
     await Promise.all(
       exactVersions.map((exactVersion) => {
         return limiter.schedule(() => {
-          return this.getBinaryPath(exactVersion)
+          return this.getBinaryFilePath(exactVersion)
         })
       }),
     )
@@ -281,7 +281,7 @@ export class Gobot {
     }
   }
 
-  async getBinaryPath(versionRange = this.version || `*`) {
+  async getBinaryFilePath(versionRange = this.version || `*`) {
     const storedRelease = await this.maxSatisfyingRelease(versionRange)
     if (!storedRelease) {
       throw new Error(
@@ -414,7 +414,7 @@ export class Gobot {
       proc.stderr.on('data', (buf) => process.stderr.write(buf))
     },
   ) {
-    const fname = await this.getBinaryPath()
+    const fname = await this.getBinaryFilePath()
 
     // Ensure the binary is executable
     if (this.os !== 'win32') {

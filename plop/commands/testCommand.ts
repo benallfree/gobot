@@ -118,7 +118,7 @@ export function testCommand(plop: NodePlopAPI) {
                     version,
                   })
                   jobs.push(`${osName}:${archName}:${version}:fetch`)
-                  const fname = await bot.getBinaryPath()
+                  const fname = await bot.getBinaryFilePath()
                   assert(existsSync(fname), `${fname} does not exist`)
 
                   const shouldRun = osName === platform() && archName === arch()
