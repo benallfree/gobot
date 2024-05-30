@@ -38,7 +38,7 @@ export class MinioReleaseProvider extends GithubReleaseProvider {
     return final
   }
 
-  isValidRelease(release: GithubRelease): boolean {
+  isValidReleaseVersion(release: GithubRelease): boolean {
     return release.tag_name.startsWith(`RELEASE.`)
   }
 

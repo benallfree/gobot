@@ -152,7 +152,7 @@ export class GithubReleaseProvider {
     return `GithubReleaseProvider`
   }
 
-  protected isValidRelease(release: GithubRelease) {
+  protected isValidReleaseVersion(release: GithubRelease) {
     const version = this.extractVersionFromTag(release.tag_name)
     const isValid = !!valid(version)
     dbg(`Version ${version} is valid:`, isValid)
@@ -162,7 +162,7 @@ export class GithubReleaseProvider {
   async reduceReleases() {
     const remoteReleases = await this.remoteReleases()
     const storedReleases = remoteReleases
-      .filter((release) => this.isValidRelease(release))
+      .filter((release) => this.isValidReleaseVersion(release))
       .map((release) => {
         dbg(`Release tag name`, release.tag_name)
         const stored: Release = {
