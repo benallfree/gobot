@@ -151,6 +151,9 @@ program.addCommand(
             cachePath,
             env: process.env,
           })
+          info(`Host platform: ${platform()}`)
+          info(`Host architecture: ${arch()}`)
+          info(`Cache root:`, bot.cachePath())
           const fmt = await bot.versions('md')
           info(fmt)
         } else {
