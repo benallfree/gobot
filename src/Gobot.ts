@@ -314,11 +314,6 @@ export class Gobot {
 
         await this.unpack(downloadPath, dirname(archivePath))
 
-        // Ensure the binary is executable
-        if (this.os !== 'win32') {
-          chmodSync(downloadPath, '755')
-        }
-
         info(`Renamed ${downloadPath} to ${archivePath}`)
         renameSync(downloadPath, archivePath)
       } catch (e) {
@@ -330,6 +325,10 @@ export class Gobot {
     const unpackedBinPath = this.findArchiveBinPath(exactVersion)
     dbg(`Unpacked bin path`, unpackedBinPath)
 
+    // Ensure the binary is executable
+    if (this.os !== 'win32') {
+      chmodSync(unpackedBinPath, '755')
+    }
     return unpackedBinPath
   }
 
