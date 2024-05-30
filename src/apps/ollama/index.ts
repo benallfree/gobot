@@ -14,7 +14,7 @@ export class OllamaGobot extends Gobot {
   /**
    * ollama is distributed as uncompressed, so just name the binary
    */
-  archivePath(version: string, url: string) {
+  archiveFilePathFromUrl(version: string, url: string) {
     const archivePath = join(this.archiveDirPath(version), this.binName)
     dbg(`Archive path`, archivePath)
     return archivePath

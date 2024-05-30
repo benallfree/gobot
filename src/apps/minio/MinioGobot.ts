@@ -39,7 +39,7 @@ export class MinioGobot extends Gobot {
   /**
    * minio is distributed as uncompressed, so just name the binary
    */
-  archivePath(version: string, url: string) {
+  archiveFilePathFromUrl(version: string, url: string) {
     const archivePath = join(this.archiveDirPath(version), this.binName)
     dbg(`Archive path`, archivePath)
     return archivePath

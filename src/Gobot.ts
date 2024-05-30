@@ -266,7 +266,7 @@ export class Gobot {
     return archiveDirPath
   }
 
-  archivePath(version: string, url: string) {
+  archiveFilePathFromUrl(version: string, url: string) {
     const archivePath = join(this.archiveDirPath(version), basename(url))
     dbg(`Archive path`, archivePath)
     return archivePath
@@ -303,7 +303,7 @@ export class Gobot {
 
     const { version: exactVersion, archives } = storedRelease
 
-    const archivePath = this.archivePath(exactVersion, url)
+    const archivePath = this.archiveFilePathFromUrl(exactVersion, url)
 
     if (!existsSync(archivePath)) {
       const { name, removeCallback } = tmp.dirSync()
