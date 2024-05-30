@@ -202,7 +202,7 @@ program.addCommand(
       new Opt(
         `--g-use-version <version>`,
         `Download a specific binary version (format: x.y.z semver or x.y.* semver range)`,
-      ).default(`*`, `*`),
+      ).default(`latest`, `latest`),
     )
     .addOption(
       new Opt(`--g-os <os>`, `Specify OS/Platform`).default(
@@ -216,6 +216,12 @@ program.addCommand(
         `host specific`,
       ),
     )
+    .addOption(
+      new Opt(
+        `--g-force`,
+        `Force re-downloading and replacing even if version already exists`,
+      ).default(false, `false`),
+    )
     .action(async (appName, options, command) => {
       const {
         gV,
@@ -224,8 +230,8 @@ program.addCommand(
         gUseVersion,
         gOs: os,
         gArch: arch,
-        gRefresh: refresh,
         gCachePath: cachePath,
+        gForce: gForceDownload,
       } = command.optsWithGlobals()
       verbosity(gVvv ? 3 : gVv ? 2 : gV ? 1 : 0)
       dbg(`CLI:`, appName, command.optsWithGlobals())
@@ -238,7 +244,7 @@ program.addCommand(
           cachePath,
           env: process.env,
         })
-        await bot.download()
+        await bot.download(gForceDownload)
       } catch (e) {
         console.error(`${e}`)
       }

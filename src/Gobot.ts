@@ -162,8 +162,10 @@ export class Gobot {
 
   /**
    * Download the binary for the specified semver.
+   *
+   * @param [force=false] If true, download the binary even if it already exists.
    */
-  async download() {
+  async download(force = false) {
     const exactVersions = await this.getSatisfyingVersions(this.version)
 
     info(`Downloading versions`, stringify(exactVersions))
@@ -171,7 +173,7 @@ export class Gobot {
     await Promise.all(
       exactVersions.map((exactVersion) => {
         return limiter.schedule(() => {
-          return this.getBinaryFilePath(exactVersion)
+          return this.getBinaryFilePath(exactVersion, force)
         })
       }),
     )
@@ -283,7 +285,10 @@ export class Gobot {
     }
   }
 
-  async getBinaryFilePath(versionRange = this.version || `*`) {
+  async getBinaryFilePath(
+    versionRange = this.version || `*`,
+    redownload = false,
+  ) {
     const storedRelease = await this.maxSatisfyingRelease(versionRange)
     if (!storedRelease) {
       throw new Error(
@@ -300,19 +305,25 @@ export class Gobot {
 
     const { version: exactVersion, archives } = storedRelease
 
-    const archivePath = this.archiveFilePathFromUrl(exactVersion, url)
+    const archiveFilePath = this.archiveFilePathFromUrl(exactVersion, url)
 
-    if (!existsSync(archivePath)) {
-      const { name, removeCallback } = tmp.dirSync()
-      const downloadPath = join(name, basename(archivePath))
+    if (!existsSync(archiveFilePath) || redownload) {
+      const { name: downloadDirPath, removeCallback } = tmp.dirSync()
+      const archiveDirPath = dirname(archiveFilePath)
+      const downloadFilePath = join(downloadDirPath, basename(archiveFilePath))
       try {
-        info(`Downloading ${url} to ${downloadPath}`)
-        const res = await downloadFile(url, downloadPath)
+        info(`Downloading ${url} to ${downloadFilePath}`)
+        const res = await downloadFile(url, downloadFilePath)
 
-        await this.unpack(downloadPath, dirname(archivePath))
+        info(`Unpacking ${downloadFilePath}`)
+        await this.unpack(downloadFilePath, downloadDirPath)
 
-        info(`Renamed ${downloadPath} to ${archivePath}`)
-        renameSync(downloadPath, archivePath)
+        if (existsSync(archiveDirPath)) {
+          dbg(`Removing ${archiveDirPath}`)
+          await safeRimraf(archiveDirPath, [this.cachePath()])
+        }
+        renameSync(downloadDirPath, archiveDirPath)
+        info(`Renamed ${downloadDirPath} to ${archiveDirPath}`)
       } catch (e) {
         infoe(e)
         removeCallback()
