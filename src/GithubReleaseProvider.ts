@@ -174,7 +174,7 @@ export class GithubReleaseProvider {
         // dbg(`Stored asset`, stored)
         return stored
       })
-    dbg(`Filtered releases`, JSON.stringify(storedReleases, null, 2))
+    // dbg(`Filtered releases`, JSON.stringify(storedReleases, null, 2))
     return storedReleases
   }
 

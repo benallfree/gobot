@@ -359,11 +359,11 @@ export class Gobot {
     const possibleReleases = (await this.releases()).filter(
       (release) => !!release.archives[this.os]?.[this.arch],
     ) // Select only releases valid for this os/arch
-    dbg(`Possible releases`, possibleReleases)
+    // dbg(`Possible releases`, possibleReleases)
     const release = possibleReleases.find((release) =>
       this.satisfies(release.version, range),
     )
-    dbg(`Matched release:`, release)
+    // dbg(`Matched release:`, release)
     return release
   }
 
