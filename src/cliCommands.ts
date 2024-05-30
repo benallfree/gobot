@@ -310,7 +310,7 @@ program.addCommand(
             cachePath,
           })
           await bot.reset()
-          info(`Removed ${bot.cachePath()()}`)
+          info(`Removed ${bot.cachePath()}`)
         }
       } catch (e) {
         console.error(`${e}`)

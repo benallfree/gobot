@@ -140,8 +140,7 @@ export class Gobot {
 
   cachePath(...paths: string[]) {
     const path = resolve(this.cacheRoot, ...paths)
-    mkdir(path)
-    return (...paths: string[]) => join(path, ...paths)
+    return path
   }
 
   async update() {
@@ -191,7 +190,7 @@ export class Gobot {
    * Clear stored releases only.
    */
   async clearStoredReleases() {
-    return safeRimraf(this.cachePath()(RELEASES_NAME), [this.cacheRoot])
+    return safeRimraf(this.cachePath(RELEASES_NAME), [this.cacheRoot])
   }
 
   async versions(type?: 'js', includeWildcards?: boolean): Promise<string[]>
@@ -265,12 +264,8 @@ export class Gobot {
   }
 
   archiveRoot(version: string) {
-    const archiveRoot = this.cachePath(
-      `archives`,
-      version,
-      this.arch,
-      this.os,
-    )()
+    const archiveRoot = this.cachePath(`archives`, version, this.arch, this.os)
+    if (!existsSync(archiveRoot)) mkdir(archiveRoot)
     dbg(`Archive root`, archiveRoot)
     return archiveRoot
   }
@@ -382,7 +377,7 @@ export class Gobot {
   }
 
   async releases() {
-    const cachedReleasesFilePath = this.cachePath()(RELEASES_NAME)
+    const cachedReleasesFilePath = this.cachePath(RELEASES_NAME)
     dbg(`Releases cache: ${cachedReleasesFilePath}`)
 
     if (this.storedReleases) return this.storedReleases
