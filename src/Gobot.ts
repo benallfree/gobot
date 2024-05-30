@@ -281,9 +281,6 @@ export class Gobot {
       })
       return
     }
-    if (this.os !== 'win32') {
-      chmodSync(destinationDirPath, '755')
-    }
   }
 
   async getBinaryFilePath(versionRange = this.version || `*`) {
