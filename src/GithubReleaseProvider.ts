@@ -240,8 +240,9 @@ export class GithubReleaseProvider {
   isArchiveUrlAllowed(url: string) {
     return (
       (this.allowBareFiles ||
-        this.allowedExts.some((ext) => url.endsWith(ext))) &&
-      !this.excludedExts.some((ext) => url.endsWith(ext))
+        (this.allowedExts.some((ext) => url.endsWith(ext)) &&
+          !this.excludedExts.some((ext) => url.endsWith(ext)))) &&
+      !url.split(/[\W_]+/).includes(`cgo`)
     )
   }
 
