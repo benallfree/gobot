@@ -267,9 +267,9 @@ export class Gobot {
   }
 
   archiveFilePathFromUrl(version: string, url: string) {
-    const archivePath = join(this.archiveDirPath(version), basename(url))
-    // dbg(`Archive path`, archivePath)
-    return archivePath
+    const archiveFilePath = join(this.archiveDirPath(version), basename(url))
+    // dbg(`Archive path`, archiveFilePath)
+    return archiveFilePath
   }
 
   async unpack(archiveFilePath: string, destinationDirPath: string) {
