@@ -13,7 +13,7 @@ import { chmodSync, existsSync, renameSync, statSync } from 'fs'
 import { globSync } from 'glob'
 import { markdownTable } from 'markdown-table'
 import { arch as _arch, platform } from 'os'
-import { basename, join, resolve } from 'path'
+import { basename, dirname, join, resolve } from 'path'
 import { compare, satisfies } from 'semver'
 import type { Readable } from 'stream'
 import tmp from 'tmp'
@@ -272,17 +272,17 @@ export class Gobot {
     return archivePath
   }
 
-  async unpack(downloadPath: string, version: string) {
-    info(`Unpacking ${downloadPath}`)
-    if (downloadPath.endsWith(`.exe`)) return
-    if (COMPRESSED_ARCHIVE_EXTS.find((ext) => downloadPath.endsWith(ext))) {
-      await decompress(downloadPath, this.archiveDirPath(version), {
+  async unpack(archiveFilePath: string, destinationDirPath: string) {
+    info(`Unpacking ${archiveFilePath}`)
+    if (archiveFilePath.endsWith(`.exe`)) return
+    if (COMPRESSED_ARCHIVE_EXTS.find((ext) => archiveFilePath.endsWith(ext))) {
+      await decompress(archiveFilePath, destinationDirPath, {
         plugins: [decompressTarZ({ outfile: this.name }), decompressUnzip()],
       })
       return
     }
     if (this.os !== 'win32') {
-      chmodSync(downloadPath, '755')
+      chmodSync(destinationDirPath, '755')
     }
   }
 
@@ -312,7 +312,7 @@ export class Gobot {
         info(`Downloading ${url} to ${downloadPath}`)
         const res = await downloadFile(url, downloadPath)
 
-        await this.unpack(downloadPath, exactVersion)
+        await this.unpack(downloadPath, dirname(archivePath))
 
         // Ensure the binary is executable
         if (this.os !== 'win32') {
