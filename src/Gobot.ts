@@ -262,13 +262,13 @@ export class Gobot {
       this.os,
     )
     if (!existsSync(archiveDirPath)) mkdir(archiveDirPath)
-    dbg(`Archive root`, archiveDirPath)
+    // dbg(`Archive root`, archiveDirPath)
     return archiveDirPath
   }
 
   archiveFilePathFromUrl(version: string, url: string) {
     const archivePath = join(this.archiveDirPath(version), basename(url))
-    dbg(`Archive path`, archivePath)
+    // dbg(`Archive path`, archivePath)
     return archivePath
   }
 
