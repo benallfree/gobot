@@ -236,7 +236,7 @@ export class Gobot {
   }
 
   findArchiveBinPath(version: string) {
-    const path = this.archiveRoot(version)
+    const path = this.archiveDirPath(version)
     const fname = (() => {
       const fname = globSync(join(path, `**`, this.binName), { nodir: true })[0]
       if (fname) return fname
@@ -254,15 +254,20 @@ export class Gobot {
     return fname
   }
 
-  archiveRoot(version: string) {
-    const archiveRoot = this.cachePath(`archives`, version, this.arch, this.os)
-    if (!existsSync(archiveRoot)) mkdir(archiveRoot)
-    dbg(`Archive root`, archiveRoot)
-    return archiveRoot
+  archiveDirPath(version: string) {
+    const archiveDirPath = this.cachePath(
+      `archives`,
+      version,
+      this.arch,
+      this.os,
+    )
+    if (!existsSync(archiveDirPath)) mkdir(archiveDirPath)
+    dbg(`Archive root`, archiveDirPath)
+    return archiveDirPath
   }
 
   archivePath(version: string, url: string) {
-    const archivePath = join(this.archiveRoot(version), basename(url))
+    const archivePath = join(this.archiveDirPath(version), basename(url))
     dbg(`Archive path`, archivePath)
     return archivePath
   }
@@ -271,7 +276,7 @@ export class Gobot {
     info(`Unpacking ${downloadPath}`)
     if (downloadPath.endsWith(`.exe`)) return
     if (COMPRESSED_ARCHIVE_EXTS.find((ext) => downloadPath.endsWith(ext))) {
-      await decompress(downloadPath, this.archiveRoot(version), {
+      await decompress(downloadPath, this.archiveDirPath(version), {
         plugins: [decompressTarZ({ outfile: this.name }), decompressUnzip()],
       })
       return
