@@ -155,7 +155,7 @@ export class GithubReleaseProvider {
   protected isValidReleaseVersion(release: GithubRelease) {
     const version = this.extractVersionFromTag(release.tag_name)
     const isValid = !!valid(version)
-    dbg(`Version ${version} is valid:`, isValid)
+    // dbg(`Version ${version} is valid:`, isValid)
     return isValid
   }
 
@@ -164,16 +164,17 @@ export class GithubReleaseProvider {
     const storedReleases = remoteReleases
       .filter((release) => this.isValidReleaseVersion(release))
       .map((release) => {
-        dbg(`Release tag name`, release.tag_name)
+        // dbg(`Release tag name`, release.tag_name)
         const stored: Release = {
           version: this.extractVersionFromTag(release.tag_name),
           archives: this.getArchivesForRelease(release),
           allowedUrls: this.getAllowedUrlsForRelease(release),
           allUrls: this.getAllUrlsForRelease(release),
         }
-        dbg(`Stored asset`, stored)
+        // dbg(`Stored asset`, stored)
         return stored
       })
+    dbg(`Filtered releases`, JSON.stringify(storedReleases, null, 2))
     return storedReleases
   }
 
@@ -263,7 +264,6 @@ export class GithubReleaseProvider {
 
     const { assets } = release
     const allUrls = assets.map((asset) => asset.browser_download_url)
-    dbg(`Examining ${release.tag_name}`, allUrls)
 
     return allUrls
   }
@@ -271,7 +271,6 @@ export class GithubReleaseProvider {
   getAllowedUrlsForRelease(release: GithubRelease): string[] {
     const allUrls = this.getAllUrlsForRelease(release)
     const allowedUrls = allUrls.filter((url) => this.isArchiveUrlAllowed(url))
-    dbg(`Filtered to`, allowedUrls)
 
     return allowedUrls
   }
@@ -296,13 +295,13 @@ export class GithubReleaseProvider {
         )
         const archRegex = this.archRegex(platformKey, archKey, archAliases)
 
-        dbg(`Scanning for`, platformRegex, archRegex)
+        // dbg(`Scanning for`, platformRegex, archRegex)
         allowedUrls.forEach((url) => {
           if (
             platformRegex.test(url.toLocaleLowerCase()) &&
             archRegex.test(url.toLocaleLowerCase())
           ) {
-            dbg(`\tMatched ${url}`)
+            // dbg(`\tMatched ${url}`)
             archives[platformKey] = {
               ...archives[platformKey],
               [archKey]: url,
@@ -311,7 +310,7 @@ export class GithubReleaseProvider {
         })
       })
     })
-    dbg(`Archives`, archives)
+    // dbg(`Archives`, archives)
     return archives
   }
 
