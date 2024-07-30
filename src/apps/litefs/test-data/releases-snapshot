@@ -1,0 +1,545 @@
+[
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.11/litefs-v0.5.11-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.11/litefs-v0.5.11-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.11/litefs-v0.5.11-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.11/litefs-v0.5.11-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.11/litefs-v0.5.11-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.11/litefs-v0.5.11-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.11/litefs-v0.5.11-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.11/litefs-v0.5.11-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.5.11/litefs-v0.5.11-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.5.11/litefs-v0.5.11-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.5.11"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.10/litefs-v0.5.10-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.10/litefs-v0.5.10-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.10/litefs-v0.5.10-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.10/litefs-v0.5.10-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.10/litefs-v0.5.10-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.10/litefs-v0.5.10-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.10/litefs-v0.5.10-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.10/litefs-v0.5.10-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.5.10/litefs-v0.5.10-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.5.10/litefs-v0.5.10-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.5.10"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.9/litefs-v0.5.9-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.9/litefs-v0.5.9-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.9/litefs-v0.5.9-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.9/litefs-v0.5.9-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.9/litefs-v0.5.9-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.9/litefs-v0.5.9-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.9/litefs-v0.5.9-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.9/litefs-v0.5.9-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.5.9/litefs-v0.5.9-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.5.9/litefs-v0.5.9-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.5.9"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.8/litefs-v0.5.8-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.8/litefs-v0.5.8-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.8/litefs-v0.5.8-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.8/litefs-v0.5.8-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.8/litefs-v0.5.8-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.8/litefs-v0.5.8-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.8/litefs-v0.5.8-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.8/litefs-v0.5.8-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.5.8/litefs-v0.5.8-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.5.8/litefs-v0.5.8-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.5.8"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.7/litefs-v0.5.7-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.7/litefs-v0.5.7-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.7/litefs-v0.5.7-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.7/litefs-v0.5.7-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.7/litefs-v0.5.7-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.7/litefs-v0.5.7-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.7/litefs-v0.5.7-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.7/litefs-v0.5.7-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.5.7/litefs-v0.5.7-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.5.7/litefs-v0.5.7-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.5.7"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.6/litefs-v0.5.6-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.6/litefs-v0.5.6-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.6/litefs-v0.5.6-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.6/litefs-v0.5.6-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.6/litefs-v0.5.6-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.6/litefs-v0.5.6-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.6/litefs-v0.5.6-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.6/litefs-v0.5.6-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.5.6/litefs-v0.5.6-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.5.6/litefs-v0.5.6-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.5.6"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.5/litefs-v0.5.5-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.5/litefs-v0.5.5-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.5/litefs-v0.5.5-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.5/litefs-v0.5.5-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.5/litefs-v0.5.5-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.5/litefs-v0.5.5-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.5/litefs-v0.5.5-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.5/litefs-v0.5.5-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.5.5/litefs-v0.5.5-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.5.5/litefs-v0.5.5-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.5.5"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.4/litefs-v0.5.4-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.4/litefs-v0.5.4-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.4/litefs-v0.5.4-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.4/litefs-v0.5.4-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.4/litefs-v0.5.4-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.4/litefs-v0.5.4-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.4/litefs-v0.5.4-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.4/litefs-v0.5.4-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.5.4/litefs-v0.5.4-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.5.4/litefs-v0.5.4-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.5.4"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.3/litefs-v0.5.3-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.3/litefs-v0.5.3-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.3/litefs-v0.5.3-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.3/litefs-v0.5.3-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.3/litefs-v0.5.3-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.3/litefs-v0.5.3-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.3/litefs-v0.5.3-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.3/litefs-v0.5.3-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.5.3/litefs-v0.5.3-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.5.3/litefs-v0.5.3-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.5.3"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.2/litefs-v0.5.2-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.2/litefs-v0.5.2-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.2/litefs-v0.5.2-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.2/litefs-v0.5.2-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.2/litefs-v0.5.2-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.2/litefs-v0.5.2-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.2/litefs-v0.5.2-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.2/litefs-v0.5.2-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.5.2/litefs-v0.5.2-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.5.2/litefs-v0.5.2-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.5.2"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.1/litefs-v0.5.1-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.1/litefs-v0.5.1-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.1/litefs-v0.5.1-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.1/litefs-v0.5.1-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.1/litefs-v0.5.1-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.1/litefs-v0.5.1-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.1/litefs-v0.5.1-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.1/litefs-v0.5.1-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.5.1/litefs-v0.5.1-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.5.1/litefs-v0.5.1-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.5.1"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.0/litefs-v0.5.0-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.0/litefs-v0.5.0-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.0/litefs-v0.5.0-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.0/litefs-v0.5.0-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.0/litefs-v0.5.0-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.0/litefs-v0.5.0-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.0/litefs-v0.5.0-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.0/litefs-v0.5.0-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.5.0/litefs-v0.5.0-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.5.0/litefs-v0.5.0-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.5.0"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.0-beta1/litefs-v0.5.0-beta1-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.0-beta1/litefs-v0.5.0-beta1-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.0-beta1/litefs-v0.5.0-beta1-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.0-beta1/litefs-v0.5.0-beta1-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.5.0-beta1/litefs-v0.5.0-beta1-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.0-beta1/litefs-v0.5.0-beta1-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.0-beta1/litefs-v0.5.0-beta1-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.5.0-beta1/litefs-v0.5.0-beta1-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.5.0-beta1/litefs-v0.5.0-beta1-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.5.0-beta1/litefs-v0.5.0-beta1-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.5.0-beta1"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.4.0/litefs-v0.4.0-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.4.0/litefs-v0.4.0-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.4.0/litefs-v0.4.0-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.4.0/litefs-v0.4.0-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.4.0/litefs-v0.4.0-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.4.0/litefs-v0.4.0-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.4.0/litefs-v0.4.0-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.4.0/litefs-v0.4.0-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.4.0/litefs-v0.4.0-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.4.0/litefs-v0.4.0-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.4.0"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.4.0-beta1/litefs-v0.4.0-beta1-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.4.0-beta1/litefs-v0.4.0-beta1-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.4.0-beta1/litefs-v0.4.0-beta1-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.4.0-beta1/litefs-v0.4.0-beta1-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.4.0-beta1/litefs-v0.4.0-beta1-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.4.0-beta1/litefs-v0.4.0-beta1-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.4.0-beta1/litefs-v0.4.0-beta1-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.4.0-beta1/litefs-v0.4.0-beta1-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.4.0-beta1/litefs-v0.4.0-beta1-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.4.0-beta1/litefs-v0.4.0-beta1-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.4.0-beta1"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0/litefs-v0.3.0-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0/litefs-v0.3.0-linux-arm64.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0/litefs-v0.3.0-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0/litefs-v0.3.0-linux-arm64.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.3.0/litefs-v0.3.0-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.3.0/litefs-v0.3.0-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.3.0"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta7/litefs-v0.3.0-beta7-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta7/litefs-v0.3.0-beta7-linux-arm64.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta7/litefs-v0.3.0-beta7-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta7/litefs-v0.3.0-beta7-linux-arm64.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.3.0-beta7/litefs-v0.3.0-beta7-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.3.0-beta7/litefs-v0.3.0-beta7-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.3.0-beta7"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta6/litefs-v0.3.0-beta6-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta6/litefs-v0.3.0-beta6-linux-arm64.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta6/litefs-v0.3.0-beta6-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta6/litefs-v0.3.0-beta6-linux-arm64.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.3.0-beta6/litefs-v0.3.0-beta6-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.3.0-beta6/litefs-v0.3.0-beta6-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.3.0-beta6"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta5/litefs-v0.3.0-beta5-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta5/litefs-v0.3.0-beta5-linux-arm64.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta5/litefs-v0.3.0-beta5-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta5/litefs-v0.3.0-beta5-linux-arm64.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.3.0-beta5/litefs-v0.3.0-beta5-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.3.0-beta5/litefs-v0.3.0-beta5-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.3.0-beta5"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta4/litefs-v0.3.0-beta4-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta4/litefs-v0.3.0-beta4-linux-arm64.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta4/litefs-v0.3.0-beta4-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta4/litefs-v0.3.0-beta4-linux-arm64.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.3.0-beta4/litefs-v0.3.0-beta4-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.3.0-beta4/litefs-v0.3.0-beta4-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.3.0-beta4"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta3/litefs-v0.3.0-beta3-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta3/litefs-v0.3.0-beta3-linux-arm64.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta3/litefs-v0.3.0-beta3-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta3/litefs-v0.3.0-beta3-linux-arm64.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.3.0-beta3/litefs-v0.3.0-beta3-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.3.0-beta3/litefs-v0.3.0-beta3-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.3.0-beta3"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta2/litefs-v0.3.0-beta2-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta2/litefs-v0.3.0-beta2-linux-arm64.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta2/litefs-v0.3.0-beta2-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.3.0-beta2/litefs-v0.3.0-beta2-linux-arm64.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.3.0-beta2/litefs-v0.3.0-beta2-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.3.0-beta2/litefs-v0.3.0-beta2-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.3.0-beta2"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.2.0/litefs-v0.2.0-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.2.0/litefs-v0.2.0-linux-arm64.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.2.0/litefs-v0.2.0-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.2.0/litefs-v0.2.0-linux-arm64.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.2.0/litefs-v0.2.0-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.2.0/litefs-v0.2.0-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.2.0"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.2.0-beta3/litefs-v0.2.0-beta3-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.2.0-beta3/litefs-v0.2.0-beta3-linux-arm64.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.2.0-beta3/litefs-v0.2.0-beta3-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.2.0-beta3/litefs-v0.2.0-beta3-linux-arm64.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.2.0-beta3/litefs-v0.2.0-beta3-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.2.0-beta3/litefs-v0.2.0-beta3-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.2.0-beta3"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.1.1/litefs-v0.1.1-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.1/litefs-v0.1.1-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.1/litefs-v0.1.1-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.1/litefs-v0.1.1-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.1.1/litefs-v0.1.1-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.1/litefs-v0.1.1-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.1/litefs-v0.1.1-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.1/litefs-v0.1.1-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.1.1/litefs-v0.1.1-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.1.1/litefs-v0.1.1-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.1.1"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.1.0/litefs-v0.1.0-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.0/litefs-v0.1.0-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.0/litefs-v0.1.0-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.0/litefs-v0.1.0-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.1.0/litefs-v0.1.0-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.0/litefs-v0.1.0-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.0/litefs-v0.1.0-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.0/litefs-v0.1.0-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.1.0/litefs-v0.1.0-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.1.0/litefs-v0.1.0-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.1.0"
+  },
+  {
+    "allUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.1.0-alpha3/litefs-v0.1.0-alpha3-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.0-alpha3/litefs-v0.1.0-alpha3-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.0-alpha3/litefs-v0.1.0-alpha3-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.0-alpha3/litefs-v0.1.0-alpha3-linux-arm7.tar.gz"
+    ],
+    "allowedUrls": [
+      "https://github.com/superfly/litefs/releases/download/v0.1.0-alpha3/litefs-v0.1.0-alpha3-linux-amd64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.0-alpha3/litefs-v0.1.0-alpha3-linux-arm6.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.0-alpha3/litefs-v0.1.0-alpha3-linux-arm64.tar.gz",
+      "https://github.com/superfly/litefs/releases/download/v0.1.0-alpha3/litefs-v0.1.0-alpha3-linux-arm7.tar.gz"
+    ],
+    "archives": {
+      "linux": {
+        "arm64": "https://github.com/superfly/litefs/releases/download/v0.1.0-alpha3/litefs-v0.1.0-alpha3-linux-arm64.tar.gz",
+        "x64": "https://github.com/superfly/litefs/releases/download/v0.1.0-alpha3/litefs-v0.1.0-alpha3-linux-amd64.tar.gz"
+      }
+    },
+    "version": "0.1.0-alpha3"
+  },
+  {
+    "allUrls": [],
+    "allowedUrls": [],
+    "archives": {},
+    "version": "0.1.0-alpha2"
+  },
+  {
+    "allUrls": [],
+    "allowedUrls": [],
+    "archives": {},
+    "version": "0.1.0-alpha1"
+  }
+]
