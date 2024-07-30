@@ -9,7 +9,7 @@ import {
 import decompress from 'decompress'
 import decompressUnzip from 'decompress-unzip'
 import envPaths from 'env-paths'
-import { chmodSync, existsSync, renameSync, statSync } from 'fs'
+import { chmodSync, existsSync, mkdirSync, renameSync, statSync } from 'fs'
 import { globSync } from 'glob'
 import { markdownTable } from 'markdown-table'
 import { arch as _arch, platform } from 'os'
@@ -308,7 +308,12 @@ export class Gobot {
     const archiveFilePath = this.archiveFilePathFromUrl(exactVersion, url)
 
     if (!existsSync(archiveFilePath) || redownload) {
-      const { name: downloadDirPath, removeCallback } = tmp.dirSync()
+      const tmpdir = this.cachePath(`tmp`)
+      mkdirSync(tmpdir, { recursive: true })
+      const { name: downloadDirPath, removeCallback } = tmp.dirSync({
+        tmpdir,
+        unsafeCleanup: true,
+      })
       const archiveDirPath = dirname(archiveFilePath)
       const downloadFilePath = join(downloadDirPath, basename(archiveFilePath))
       try {
