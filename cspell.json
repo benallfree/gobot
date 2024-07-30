@@ -1,5 +1,8 @@
 {
-  "ignorePaths": ["pnpm-lock.yaml", "src/__tests__/data"],
+  "ignorePaths": [
+    "pnpm-lock.yaml",
+    "src/__tests__/data"
+  ],
   "words": [
     "aarch",
     "Adguard",
@@ -71,6 +74,7 @@
     "kubo",
     "lazygit",
     "lemonbot",
+    "litefs",
     "litestream",
     "loong",
     "lzma",
@@ -131,6 +135,7 @@
     "Sottile",
     "sunos",
     "superadmin",
+    "superfly",
     "syncthing",
     "syslogd",
     "tailable",
