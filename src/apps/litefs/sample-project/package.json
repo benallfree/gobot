@@ -1,0 +1,13 @@
+{
+  "name": "litefs-gobot-sample",
+  "bin": {
+    "litefs-gobot-sample": "./index.mjs"
+  },
+  "scripts": {
+    "dev": "./index.mjs",
+    "litefs": "litefs"
+  },
+  "dependencies": {
+    "gobot-litefs": "0.5.11"
+  }
+}
