@@ -210,7 +210,7 @@ Create a new Gobot
 
 #### Defined in
 
-[Gobot.ts:404](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L404)
+[Gobot.ts:409](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L409)
 
 ---
 
@@ -308,7 +308,7 @@ Clear releases index and underlying release provider cache.
 
 #### Defined in
 
-[Gobot.ts:343](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L343)
+[Gobot.ts:348](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L348)
 
 ---
 
@@ -350,7 +350,7 @@ Download the binary for the specified semver.
 
 #### Defined in
 
-[Gobot.ts:388](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L388)
+[Gobot.ts:393](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L393)
 
 ---
 
@@ -405,7 +405,7 @@ Download the binary for the specified semver.
 
 #### Defined in
 
-[Gobot.ts:357](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L357)
+[Gobot.ts:362](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L362)
 
 ---
 
@@ -425,7 +425,7 @@ Download the binary for the specified semver.
 
 #### Defined in
 
-[Gobot.ts:351](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L351)
+[Gobot.ts:356](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L356)
 
 ---
 
@@ -445,7 +445,7 @@ Download the binary for the specified semver.
 
 #### Defined in
 
-[Gobot.ts:392](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L392)
+[Gobot.ts:397](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L397)
 
 ---
 
@@ -465,7 +465,7 @@ Download the binary for the specified semver.
 
 #### Defined in
 
-[Gobot.ts:370](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L370)
+[Gobot.ts:375](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L375)
 
 ---
 
@@ -485,7 +485,7 @@ Download the binary for the specified semver.
 
 #### Defined in
 
-[Gobot.ts:362](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L362)
+[Gobot.ts:367](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L367)
 
 ---
 
@@ -499,7 +499,7 @@ Download the binary for the specified semver.
 
 #### Defined in
 
-[Gobot.ts:383](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L383)
+[Gobot.ts:388](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L388)
 
 ---
 
@@ -541,7 +541,7 @@ Exit code from spawned process
 
 #### Defined in
 
-[Gobot.ts:417](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L417)
+[Gobot.ts:422](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L422)
 
 ---
 
@@ -562,7 +562,7 @@ Exit code from spawned process
 
 #### Defined in
 
-[Gobot.ts:347](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L347)
+[Gobot.ts:352](https://github.com/benallfree/gobot/blob/main/src/Gobot.ts#L352)
 
 ---
 
