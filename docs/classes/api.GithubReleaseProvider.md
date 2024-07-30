@@ -27,7 +27,7 @@
 - [getAllowedUrlsForRelease](api.GithubReleaseProvider.md#getallowedurlsforrelease)
 - [getArchivesForRelease](api.GithubReleaseProvider.md#getarchivesforrelease)
 - [isArchiveUrlAllowed](api.GithubReleaseProvider.md#isarchiveurlallowed)
-- [isValidRelease](api.GithubReleaseProvider.md#isvalidrelease)
+- [isValidReleaseVersion](api.GithubReleaseProvider.md#isvalidreleaseversion)
 - [platformRegex](api.GithubReleaseProvider.md#platformregex)
 - [reduceReleases](api.GithubReleaseProvider.md#reducereleases)
 - [remoteReleases](api.GithubReleaseProvider.md#remotereleases)
@@ -77,7 +77,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:227](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L227)
+[GithubReleaseProvider.ts:236](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L236)
 
 ---
 
@@ -105,7 +105,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:223](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L223)
+[GithubReleaseProvider.ts:232](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L232)
 
 ---
 
@@ -126,7 +126,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:219](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L219)
+[GithubReleaseProvider.ts:228](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L228)
 
 ---
 
@@ -140,7 +140,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:180](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L180)
+[GithubReleaseProvider.ts:181](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L181)
 
 ## Methods
 
@@ -162,7 +162,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:246](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L246)
+[GithubReleaseProvider.ts:257](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L257)
 
 ---
 
@@ -196,7 +196,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:310](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L310)
+[GithubReleaseProvider.ts:319](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L319)
 
 ---
 
@@ -216,7 +216,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:253](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L253)
+[GithubReleaseProvider.ts:264](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L264)
 
 ---
 
@@ -236,7 +236,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:263](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L263)
+[GithubReleaseProvider.ts:273](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L273)
 
 ---
 
@@ -270,7 +270,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:271](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L271)
+[GithubReleaseProvider.ts:280](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L280)
 
 ---
 
@@ -290,13 +290,13 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:231](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L231)
+[GithubReleaseProvider.ts:240](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L240)
 
 ---
 
-### isValidRelease
+### isValidReleaseVersion
 
-▸ **isValidRelease**(`release`): `boolean`
+▸ **isValidReleaseVersion**(`release`): `boolean`
 
 #### Parameters
 
@@ -332,7 +332,7 @@
 
 #### Defined in
 
-[GithubReleaseProvider.ts:239](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L239)
+[GithubReleaseProvider.ts:250](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L250)
 
 ---
 
@@ -354,13 +354,15 @@
 
 ▸ **remoteReleases**(): `Promise`\<`GithubReleaseCollection`\>
 
+Fetch the remote releases from the Github API.
+
 #### Returns
 
 `Promise`\<`GithubReleaseCollection`\>
 
 #### Defined in
 
-[GithubReleaseProvider.ts:188](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L188)
+[GithubReleaseProvider.ts:197](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L197)
 
 ---
 
@@ -368,10 +370,12 @@
 
 ▸ **reset**(): `Promise`\<`void`\>
 
+Reset the cache entirely.
+
 #### Returns
 
 `Promise`\<`void`\>
 
 #### Defined in
 
-[GithubReleaseProvider.ts:184](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L184)
+[GithubReleaseProvider.ts:188](https://github.com/benallfree/gobot/blob/main/src/GithubReleaseProvider.ts#L188)
